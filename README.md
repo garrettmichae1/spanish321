@@ -20,7 +20,7 @@ No account, paid API, server, telemetry, or remote educational page with local c
 
 ## User installation versus developer setup
 
-There is no signed public application release. Do not present source compilation as a tested installer. Locally built preview artifacts and test limitations are documented in [the review report](docs/CONTENT-REVIEW.md). Read the [user guide](docs/USER-GUIDE.md) for study, privacy and backup instructions.
+There is no signed public application release. A local Debian 13 x86_64 preview installer was built and installed in a network-disabled container; native startup, SQLite persistence, and homework recovery after reopening were smoke-tested. Physical microphone, native exports and full platform accessibility remain unverified. Do not present this limited check as production readiness. Locally built preview artifacts and test limitations are documented in [the review report](docs/CONTENT-REVIEW.md). Read the [user guide](docs/USER-GUIDE.md) for study, privacy and backup instructions.
 
 ### Frontend development
 

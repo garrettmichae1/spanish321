@@ -1,0 +1,26 @@
+{
+  "checkedAt": "2026-11-11T23:52:20.455042+00:00",
+  "platform": "Debian 13 x86_64 in isolated Docker, Xvfb + WebKitGTK",
+  "network": "disabled for installation, launch, typing and reopen tests",
+  "package": "Spanish321_0.1.0_amd64.deb",
+  "sha256": "ac991a869be3e510c709f3277adcecdc324e6140db24ccd0c3c1f253468b68f3",
+  "checks": {
+    "nativeReleaseBuild": "passed",
+    "debInstallation": "passed",
+    "packagedUiRender": "passed",
+    "sqliteMigration": "passed",
+    "initialIpcPersistence": "passed",
+    "keyboardHomeworkPersistence": "passed",
+    "reopen": "passed"
+  },
+  "notVerified": [
+    "physical microphone",
+    "native export dialogs",
+    "native screen-reader behavior",
+    "upgrade from a released prior version",
+    "macOS",
+    "Windows"
+  ],
+  "ci": "https://github.com/garrettmichae1/spanish321/actions/runs/43122477013",
+  "ciConclusion": "success"
+}

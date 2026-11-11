@@ -2,7 +2,7 @@
 
 ## Installation status
 
-There is no signed, student-ready application release. Developers can compile from source; that is different from installing a tested end-user release. Any locally prepared native package is a preview and its verification scope is in the content-review report. macOS and Windows are configured, not tested in this environment.
+There is no signed, student-ready application release. A local Debian 13 x86_64 preview package was built, installed and smoke-tested offline. If you receive that package, verify SHA256SUMS, install with `sudo apt install ./Spanish321_0.1.0_amd64.deb`, and launch Spanish321 from your applications menu. Package dependencies may require internet during installation; study content then works locally. Developers can compile from source; that is different from installing a tested end-user release. Any locally prepared native package is a preview and its verification scope is in the content-review report. macOS and Windows are configured, not tested in this environment.
 
 ## Your first session
 

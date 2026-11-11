@@ -32,3 +32,7 @@ Selected-option questions compare exact option values (capitalization can encode
 ## Recordings and speech
 
 MediaRecorder requests microphone permission on Start only, stops tracks after recording or navigation, and stores a data URL locally. Clips stop at three minutes or a size guard. Runtime support differs; desktop permission integration and native recording still need platform tests. Device speech lists local Spanish voices only, labels synthesis, and degrades to reading preparation if unavailable. No speech recognition or pronunciation score exists.
+
+## Native build verification
+
+`scripts/Dockerfile.linux` uses a single source COPY and build RUN to fit managed VFS storage. First run `npm ci && npm run build`, then build with the proxy CA secret as described by the environment runtime; no certificate verification is disabled. Native smoke testing installs the Debian package and runs `scripts/native-smoke.sh` as the learner test user in a network-disabled container. The test exercises actual keyboard entry and SQLite-backed recovery, but native microphone, download dialogs, and screen readers remain unverified.

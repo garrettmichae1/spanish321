@@ -23,7 +23,7 @@ Review date: 2026-11-11. This report describes an engineering self-review, **not
 ## Platform status
 
 - Linux host: Debian 13 x86_64, Node 24.22.1, workspace Rust 1.99.1. Host native compilation initially blocked by missing GTK/WebKit/GLib development packages and unavailable sudo/package helper.
-- Linux container: isolated Docker compilation and packaging attempt uses official Rust/Debian image and current Tauri 2 crates. Final native outcome is recorded below when verification finishes.
+- Linux container: release compilation and a 5.21 MiB Debian package succeeded. Installed with dpkg on Debian 13 x86_64, launched as an unprivileged user with networking disabled, visually checked the packaged WebKitGTK interface, verified SQLite migration/native IPC persistence, typed homework by keyboard, closed/reopened, and recovered the writing. No application sandbox was disabled. See research/native/verification.json and screenshots. This is a limited native smoke test, not full platform certification.
 - macOS and Windows: packaging configuration and manual GitHub Actions matrix only. Not compiled, installed or tested here. No signing/notarization configured.
 - Browser microphone test uses generated test audio. It proves local capture/persistence wiring, not physical-device sound quality or desktop OS permission behavior.
 
@@ -32,3 +32,7 @@ Review date: 2026-11-11. This report describes an engineering self-review, **not
 Not production-ready for the requested complete course. Courses II–V must be authored and reviewed; student-facing educational completeness cannot be inferred from code tests. Native installation/upgrade tests, deep Rust-side backup validation, platform microphone/export checks, full human accessibility review, and qualified educator review remain release gates. No pronunciation, fluency, CEFR certification, college credit or accreditation claim is made.
 
 Existing GPL-3.0 is preserved. Proposed separate CC BY-SA 4.0 educational-content licensing needs owner confirmation before a public release. Third-party works are linked only. Pushing source to the user-requested main branch does not mark an end-user release.
+
+## CI and locally prepared artifacts
+
+Main-branch verification passed: https://github.com/garrettmichae1/spanish321/actions/runs/43122477013 . Local release assets include the Debian preview package, SHA-256 checksum, printable course/unit/assessment guides, and CSV flashcards. These are preview artifacts, not a published or signed public binary release.
