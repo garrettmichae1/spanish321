@@ -1,0 +1,25 @@
+name: Verify learning preview
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  learning-tests:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - uses: dtolnay/rust-toolchain@stable
+      - run: npm ci
+      - run: npm run validate && npm test && cargo test -p spanish321-core --locked
+      - run: npm run build && npm run guides
+      - run: npx playwright install --with-deps chromium
+      - run: npm run test:e2e
+      - uses: actions/upload-artifact@v4
+        with:
+          name: learning-preview-and-printable-guides
+          path: |
+            dist/
+            release/

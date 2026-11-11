@@ -1,0 +1,379 @@
+{
+  "id": "c1-u04",
+  "course": 1,
+  "number": 4,
+  "title": "Numbers, dates & time",
+  "subtitle": "Planning a meeting",
+  "status": "authored",
+  "prerequisites": [
+    "c1-u03"
+  ],
+  "objectives": [
+    "Exchange a date and time using familiar numbers.",
+    "Give an age with tener as a learned phrase.",
+    "Clarify ambiguous numeric information."
+  ],
+  "warmup": "Without notes, retrieve three phrases from Unit 3. Use each in a new situation, then explain one correction from your last quiz. If you cannot retrieve a phrase, review its card before starting this unit.",
+  "lectures": [
+    {
+      "title": "Numbers are communication tools",
+      "body": "Learn 0–15 first: cero, uno, dos, tres, cuatro, cinco, seis, siete, ocho, nueve, diez, once, doce, trece, catorce, quince. Then dieciséis, diecisiete, dieciocho, diecinueve, veinte. The twenties are one word: veintiuno, veintidós, veintitrés. From thirty, use tens plus y: treinta y dos. Useful tens are cuarenta, cincuenta, sesenta, setenta, ochenta, noventa. Cien is exactly one hundred; ciento begins larger numbers such as ciento dos. Uno becomes un before a masculine noun: veintiún libros; feminine agreement gives veintiuna mesas. Read phone numbers digit by digit when clarity matters, and repeat them back."
+    },
+    {
+      "title": "Clock time and appointment time",
+      "body": "Ask ¿Qué hora es? Say Es la una for one o’clock, but Son las dos for two. Use y media for half past and y cuarto for quarter past: Son las tres y media. An appointment uses a: La clase es a las tres. Add de la mañana, de la tarde, or de la noche when necessary. Twenty-four-hour notation is common in formal schedules; read 18:30 as dieciocho treinta or convert to las seis y media de la tarde. Do not confuse current time with meeting time: son las tres versus a las tres."
+    },
+    {
+      "title": "Dates and personal details",
+      "body": "A typical written date uses day/month/year, so 03/04 may mean 3 April. Spell out the month when ambiguity matters. Days and months are normally lowercase. Days: lunes, martes, miércoles, jueves, viernes, sábado, domingo. Months: enero, febrero, marzo, abril, mayo, junio, julio, agosto, septiembre, octubre, noviembre, diciembre. Say el tres de abril; the first is often el primero de abril. Age uses tener: Tengo veinte años, literally I have twenty years. Learn this phrase now; Unit 8 explains the full verb. You may decline a personal question politely: Prefiero no decirlo. Practice with fictional information rather than sharing private details."
+    }
+  ],
+  "reading": "—¿Cuándo es la clase?\n—El martes, a las seis y media de la tarde.\n—¿El martes tres de abril?\n—Sí, el tres. La clase termina a las ocho.\n—Perfecto. ¿Cuál es el número de la sala?\n—Veintidós.\n—¿Dos, dos?\n—Sí, veintidós.\nThe repetition confirms the room rather than pretending to understand. Find the date, starting time, ending time, and room number.",
+  "worked": [
+    {
+      "prompt": "Write 16 as a Spanish word.",
+      "answer": "dieciséis",
+      "reason": "The accent marks the stressed final syllable."
+    },
+    {
+      "prompt": "Write 32 as Spanish words.",
+      "answer": "treinta y dos",
+      "reason": "From thirty, tens and units are linked with y."
+    },
+    {
+      "prompt": "Complete: ___ la una.",
+      "answer": "Es",
+      "reason": "One o’clock takes singular es la una."
+    },
+    {
+      "prompt": "Complete: La clase es ___ las tres.",
+      "answer": "a",
+      "reason": "A introduces the appointment time, rather than stating the current time."
+    },
+    {
+      "prompt": "Write age 20: Tengo veinte ___.",
+      "answer": "años",
+      "reason": "Spanish expresses age with tener and años, not ser."
+    },
+    {
+      "prompt": "Write “April” in Spanish.",
+      "answer": "abril",
+      "reason": "Month names are normally lowercase, unlike English."
+    }
+  ],
+  "task": "Agree on a fictional appointment. Give a day, date, time, and room. Your partner must repeat the details back and clarify one number.",
+  "culture": "Date and decimal conventions differ across countries and contexts. Never assume a numeric date means the same thing to everyone. Writing the month and confirming the time zone are useful professional habits.",
+  "selfAssessment": [
+    "I can exchange a date and time using familiar numbers.",
+    "I can give an age with tener as a learned phrase.",
+    "I can clarify ambiguous numeric information."
+  ],
+  "remediation": "Group missed items by concept, not by score. Reread the relevant mini-lecture, explain one worked example aloud, and write two new examples. Rehearse the communication task after a day. If you can select an answer but cannot use it in an exchange, prioritize retrieval and partner practice.",
+  "resources": [
+    "sd-numbers"
+  ],
+  "cards": [
+    {
+      "id": "c1-u04-f01",
+      "unit": "c1-u04",
+      "kind": "production",
+      "front": "What time is it?",
+      "back": "¿Qué hora es?",
+      "example": "¿Qué hora es?"
+    },
+    {
+      "id": "c1-u04-f02",
+      "unit": "c1-u04",
+      "kind": "recognition",
+      "front": "Es la una",
+      "back": "It is one o’clock",
+      "example": "Es la una."
+    },
+    {
+      "id": "c1-u04-f03",
+      "unit": "c1-u04",
+      "kind": "production",
+      "front": "It is two o’clock",
+      "back": "Son las dos",
+      "example": "Son las dos."
+    },
+    {
+      "id": "c1-u04-f04",
+      "unit": "c1-u04",
+      "kind": "recognition",
+      "front": "A las tres",
+      "back": "At three o’clock",
+      "example": "A las tres."
+    },
+    {
+      "id": "c1-u04-f05",
+      "unit": "c1-u04",
+      "kind": "production",
+      "front": "Half past",
+      "back": "Y media",
+      "example": "Y media."
+    },
+    {
+      "id": "c1-u04-f06",
+      "unit": "c1-u04",
+      "kind": "recognition",
+      "front": "Y cuarto",
+      "back": "Quarter past",
+      "example": "Y cuarto."
+    },
+    {
+      "id": "c1-u04-f07",
+      "unit": "c1-u04",
+      "kind": "production",
+      "front": "In the morning (clock time)",
+      "back": "De la mañana",
+      "example": "De la mañana."
+    },
+    {
+      "id": "c1-u04-f08",
+      "unit": "c1-u04",
+      "kind": "recognition",
+      "front": "De la tarde",
+      "back": "In the afternoon (clock time)",
+      "example": "De la tarde."
+    },
+    {
+      "id": "c1-u04-f09",
+      "unit": "c1-u04",
+      "kind": "production",
+      "front": "On Monday",
+      "back": "El lunes",
+      "example": "El lunes."
+    },
+    {
+      "id": "c1-u04-f10",
+      "unit": "c1-u04",
+      "kind": "recognition",
+      "front": "El tres de abril",
+      "back": "On April third",
+      "example": "El tres de abril."
+    },
+    {
+      "id": "c1-u04-f11",
+      "unit": "c1-u04",
+      "kind": "production",
+      "front": "I am twenty years old",
+      "back": "Tengo veinte años",
+      "example": "Tengo veinte años."
+    },
+    {
+      "id": "c1-u04-f12",
+      "unit": "c1-u04",
+      "kind": "recognition",
+      "front": "¿Cuándo es la clase?",
+      "back": "When is the class?",
+      "example": "¿Cuándo es la clase?"
+    },
+    {
+      "id": "c1-u04-f13",
+      "unit": "c1-u04",
+      "kind": "production",
+      "front": "Thirty-two",
+      "back": "Treinta y dos",
+      "example": "Treinta y dos."
+    },
+    {
+      "id": "c1-u04-f14",
+      "unit": "c1-u04",
+      "kind": "recognition",
+      "front": "Veintidós",
+      "back": "Twenty-two",
+      "example": "Veintidós."
+    },
+    {
+      "id": "c1-u04-f15",
+      "unit": "c1-u04",
+      "kind": "production",
+      "front": "I prefer not to say",
+      "back": "Prefiero no decirlo",
+      "example": "Prefiero no decirlo."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c1-u04-q01",
+      "type": "typed",
+      "prompt": "Write 16 as a Spanish word.",
+      "answers": [
+        "dieciséis"
+      ],
+      "explanation": "The accent marks the stressed final syllable. Check the subject and the intended meaning before choosing a form.",
+      "concept": "Numbers are communication tools"
+    },
+    {
+      "id": "c1-u04-q02",
+      "type": "typed",
+      "prompt": "Write 32 as Spanish words.",
+      "answers": [
+        "treinta y dos"
+      ],
+      "explanation": "From thirty, tens and units are linked with y. Check the subject and the intended meaning before choosing a form.",
+      "concept": "Clock time and appointment time"
+    },
+    {
+      "id": "c1-u04-q03",
+      "type": "cloze",
+      "prompt": "Complete: ___ la una.",
+      "answers": [
+        "Es"
+      ],
+      "explanation": "One o’clock takes singular es la una. Check the subject and the intended meaning before choosing a form.",
+      "concept": "Dates and personal details"
+    },
+    {
+      "id": "c1-u04-q04",
+      "type": "cloze",
+      "prompt": "Complete: La clase es ___ las tres.",
+      "answers": [
+        "a"
+      ],
+      "explanation": "A introduces the appointment time, rather than stating the current time. Check the subject and the intended meaning before choosing a form.",
+      "concept": "Numbers are communication tools"
+    },
+    {
+      "id": "c1-u04-q05",
+      "type": "typed",
+      "prompt": "Write age 20: Tengo veinte ___.",
+      "answers": [
+        "años"
+      ],
+      "explanation": "Spanish expresses age with tener and años, not ser. Check the subject and the intended meaning before choosing a form.",
+      "concept": "Clock time and appointment time"
+    },
+    {
+      "id": "c1-u04-q06",
+      "type": "typed",
+      "prompt": "Write “April” in Spanish.",
+      "answers": [
+        "abril"
+      ],
+      "explanation": "Month names are normally lowercase, unlike English. Check the subject and the intended meaning before choosing a form.",
+      "concept": "Dates and personal details"
+    },
+    {
+      "id": "c1-u04-q07",
+      "type": "matching",
+      "prompt": "Select the expression that communicates: What time is it?.",
+      "options": [
+        "¿Qué hora es?",
+        "El tres de abril",
+        "Treinta y dos"
+      ],
+      "answers": [
+        "¿Qué hora es?"
+      ],
+      "explanation": "“¿Qué hora es?” communicates “What time is it?.” The other choices communicate “On April third” and “Thirty-two”; those do not answer this prompt.",
+      "concept": "Meaning in context"
+    },
+    {
+      "id": "c1-u04-q08",
+      "type": "choice",
+      "prompt": "Select the expression that communicates: It is one o’clock.",
+      "options": [
+        "Es la una",
+        "Tengo veinte años",
+        "Veintidós"
+      ],
+      "answers": [
+        "Es la una"
+      ],
+      "explanation": "“Es la una” communicates “It is one o’clock.” The other choices communicate “I am twenty years old” and “Twenty-two”; those do not answer this prompt.",
+      "concept": "Meaning in context"
+    },
+    {
+      "id": "c1-u04-q09",
+      "type": "matching",
+      "prompt": "Select the expression that communicates: It is two o’clock.",
+      "options": [
+        "Son las dos",
+        "¿Cuándo es la clase?",
+        "Prefiero no decirlo"
+      ],
+      "answers": [
+        "Son las dos"
+      ],
+      "explanation": "“Son las dos” communicates “It is two o’clock.” The other choices communicate “When is the class?” and “I prefer not to say”; those do not answer this prompt.",
+      "concept": "Meaning in context"
+    },
+    {
+      "id": "c1-u04-q10",
+      "type": "choice",
+      "prompt": "Select the expression that communicates: At three o’clock.",
+      "options": [
+        "A las tres",
+        "Treinta y dos",
+        "¿Qué hora es?"
+      ],
+      "answers": [
+        "A las tres"
+      ],
+      "explanation": "“A las tres” communicates “At three o’clock.” The other choices communicate “Thirty-two” and “What time is it?”; those do not answer this prompt.",
+      "concept": "Meaning in context"
+    },
+    {
+      "id": "c1-u04-q11",
+      "type": "matching",
+      "prompt": "Select the expression that communicates: Half past.",
+      "options": [
+        "Y media",
+        "Veintidós",
+        "Es la una"
+      ],
+      "answers": [
+        "Y media"
+      ],
+      "explanation": "“Y media” communicates “Half past.” The other choices communicate “Twenty-two” and “It is one o’clock”; those do not answer this prompt.",
+      "concept": "Meaning in context"
+    },
+    {
+      "id": "c1-u04-q12",
+      "type": "choice",
+      "prompt": "Select the expression that communicates: Quarter past.",
+      "options": [
+        "Y cuarto",
+        "Prefiero no decirlo",
+        "Son las dos"
+      ],
+      "answers": [
+        "Y cuarto"
+      ],
+      "explanation": "“Y cuarto” communicates “Quarter past.” The other choices communicate “I prefer not to say” and “It is two o’clock”; those do not answer this prompt.",
+      "concept": "Meaning in context"
+    }
+  ],
+  "homework": [
+    {
+      "id": "c1-u04-h1",
+      "skill": "Reading & writing",
+      "prompt": "Read the original text twice. Identify who is involved, the situation, and three key details. Rewrite it with two meaningful changes and underline the forms that had to change.",
+      "model": "Use the original text as a comparison model. Preserve its grammatical relationships, but change facts. Explain each changed ending using one of this unit’s mini-lectures.",
+      "rubric": "0–2 each: accurate key details, coherent changes, target grammar, explanation of corrections. Maximum 8; self-assessment is not instructor validation."
+    },
+    {
+      "id": "c1-u04-h2",
+      "skill": "Listening",
+      "prompt": "Listen to the original text using an available Spanish device voice or a willing reader. Hide the text, note five words or phrases you hear, then compare. Record the source and two uncertainties. If audio is unavailable, complete reading preparation and mark listening as not yet completed.",
+      "model": "A useful log includes source, date, words actually heard, and a correction confirmed against the text. Synthetic speech is listening rehearsal and does not represent the range of natural accents.",
+      "rubric": "0–2 each: documented source, specific notes, comparison, actionable next step. Score the process; do not invent comprehension evidence."
+    },
+    {
+      "id": "c1-u04-h3",
+      "skill": "Speaking & interaction",
+      "prompt": "Agree on a fictional appointment. Give a day, date, time, and room. Your partner must repeat the details back and clarify one number.",
+      "model": "Use the dialogue or reading for a model of suitable language, then change the facts. Include one request for clarification and a response to it. Save your recording or a written interaction reflection.",
+      "rubric": "0–3 each: task completion, comprehensibility, target-form control, responsiveness. A 3 means independently effective for this task; 2 some help; 1 frequent help; 0 no evidence. Mark solo work as rehearsal."
+    },
+    {
+      "id": "c1-u04-h4",
+      "skill": "Retrieval & reflection",
+      "prompt": "After at least one day, produce five flashcard phrases without looking. Use two in new sentences. Compare with your earlier work and write one concrete plan for the next study session.",
+      "model": "Example reflection format: I retrieved [phrase], but confused [form]. I will revisit [lecture] and use the corrected form in [specific situation].",
+      "rubric": "Count successful retrieval separately from task quality. A useful reflection names an error, a correction, and a new use."
+    }
+  ]
+}

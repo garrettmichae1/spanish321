@@ -1,0 +1,384 @@
+{
+  "id": "c1-u11",
+  "course": 1,
+  "number": 11,
+  "title": "Food, shopping & future plans",
+  "subtitle": "Food, errands & plans",
+  "status": "authored",
+  "prerequisites": [
+    "c1-u10"
+  ],
+  "objectives": [
+    "Make a practical request and confirm a price.",
+    "Use ir a plus infinitive for a plan.",
+    "Ask about an ingredient or available alternative."
+  ],
+  "warmup": "Without notes, retrieve three phrases from Unit 10. Use each in a new situation, then explain one correction from your last quiz. If you cannot retrieve a phrase, review its card before starting this unit.",
+  "lectures": [
+    {
+      "title": "Requests that get useful answers",
+      "body": "In a shop or café, begin with a greeting and use a clear noun phrase: Un café, por favor. Quisiera un café is a courteous learned expression meaning I would like a coffee; its full verb analysis comes later. ¿Me puede traer agua? is a polite request to one person. Ask ¿Cuánto cuesta? for one item and ¿Cuánto cuestan? for several. If the response is unclear, repeat the amount as a question. Do not practice by ordering things you do not want; a roleplay or a genuine small purchase can both serve a learning goal."
+    },
+    {
+      "title": "Plans with ir a",
+      "body": "Use a conjugated form of ir, then a, then an infinitive: Voy a cocinar. Vamos a comprar pan. The action verb remains infinitive, not voy a cocino. Ir a also describes movement when followed by a destination: Voy al mercado. Distinguish the two by what follows a: an action or a place. Al combines a + el. For an upcoming plan, add mañana, esta tarde, or el sábado. This form is often called the near future, but its meaning is not restricted to a fixed number of hours or days."
+    },
+    {
+      "title": "Ingredients and preferences",
+      "body": "Useful questions include ¿Qué lleva? (What is in it?), ¿Tiene leche? and ¿Hay una opción sin carne? Distinguish no me gusta from no puedo comer: a preference and a restriction are different messages. For an allergy, state it explicitly and confirm details; this course is not a guarantee that an interaction will be safe. Por favor, sin azúcar requests no sugar. Con means with, sin means without. Menú, carta, cuenta, and regional food names have context-dependent meanings. Ask what a local dish contains rather than assuming a familiar name means a familiar recipe."
+    }
+  ],
+  "reading": "—Buenas tardes. Quisiera un café, por favor.\n—¿Con leche?\n—Sin leche, gracias. ¿Cuánto cuesta?\n—Dos euros.\n—¿Y el bocadillo? ¿Qué lleva?\n—Queso y tomate.\n—Gracias. Hoy voy a comprar solo el café. Mañana vamos a cocinar en casa.\nIdentify the request, ingredient question, and two plans. Replace the currency and food with locally appropriate choices in your own roleplay.",
+  "worked": [
+    {
+      "prompt": "Complete: Voy ___ cocinar.",
+      "answer": "a",
+      "reason": "The plan construction needs ir + a + infinitive."
+    },
+    {
+      "prompt": "Complete: Vamos a ___ pan. (buy)",
+      "answer": "comprar",
+      "reason": "After ir a, the action stays in the infinitive."
+    },
+    {
+      "prompt": "Complete: Voy ___ mercado.",
+      "answer": "al",
+      "reason": "A plus the article el contracts to al."
+    },
+    {
+      "prompt": "Ask the price of one coffee.",
+      "answer": "¿Cuánto cuesta?",
+      "reason": "A singular item takes cuesta; plural items take cuestan."
+    },
+    {
+      "prompt": "Complete: ___ azúcar, por favor. (without)",
+      "answer": "Sin",
+      "reason": "Sin excludes an ingredient; con includes it."
+    },
+    {
+      "prompt": "Ask what a dish contains.",
+      "answer": "¿Qué lleva?",
+      "reason": "Llevar can describe what a dish contains; the question requests ingredients."
+    }
+  ],
+  "task": "Roleplay a café visit with an unavailable item. Ask about an alternative, confirm a price, then tell your partner your plan for tomorrow.",
+  "culture": "Tipping, table service, vocabulary, and currencies differ widely. The dialogue uses euros as one example; Latin American practice uses many currencies and local food names. Learn the conventions of the actual place you visit.",
+  "selfAssessment": [
+    "I can make a practical request and confirm a price.",
+    "I can use ir a plus infinitive for a plan.",
+    "I can ask about an ingredient or available alternative."
+  ],
+  "remediation": "Group missed items by concept, not by score. Reread the relevant mini-lecture, explain one worked example aloud, and write two new examples. Rehearse the communication task after a day. If you can select an answer but cannot use it in an exchange, prioritize retrieval and partner practice.",
+  "resources": [
+    "sd-restaurant"
+  ],
+  "cards": [
+    {
+      "id": "c1-u11-f01",
+      "unit": "c1-u11",
+      "kind": "production",
+      "front": "I would like a coffee",
+      "back": "Quisiera un café",
+      "example": "Quisiera un café."
+    },
+    {
+      "id": "c1-u11-f02",
+      "unit": "c1-u11",
+      "kind": "recognition",
+      "front": "Un café, por favor",
+      "back": "A coffee, please",
+      "example": "Un café, por favor."
+    },
+    {
+      "id": "c1-u11-f03",
+      "unit": "c1-u11",
+      "kind": "production",
+      "front": "How much does it cost?",
+      "back": "¿Cuánto cuesta?",
+      "example": "¿Cuánto cuesta?"
+    },
+    {
+      "id": "c1-u11-f04",
+      "unit": "c1-u11",
+      "kind": "recognition",
+      "front": "¿Cuánto cuestan?",
+      "back": "How much do they cost?",
+      "example": "¿Cuánto cuestan?"
+    },
+    {
+      "id": "c1-u11-f05",
+      "unit": "c1-u11",
+      "kind": "production",
+      "front": "What is in it?",
+      "back": "¿Qué lleva?",
+      "example": "¿Qué lleva?"
+    },
+    {
+      "id": "c1-u11-f06",
+      "unit": "c1-u11",
+      "kind": "recognition",
+      "front": "Sin leche",
+      "back": "Without milk",
+      "example": "Sin leche."
+    },
+    {
+      "id": "c1-u11-f07",
+      "unit": "c1-u11",
+      "kind": "production",
+      "front": "With sugar",
+      "back": "Con azúcar",
+      "example": "Con azúcar."
+    },
+    {
+      "id": "c1-u11-f08",
+      "unit": "c1-u11",
+      "kind": "recognition",
+      "front": "La cuenta, por favor",
+      "back": "The bill, please",
+      "example": "La cuenta, por favor."
+    },
+    {
+      "id": "c1-u11-f09",
+      "unit": "c1-u11",
+      "kind": "production",
+      "front": "I am going to cook",
+      "back": "Voy a cocinar",
+      "example": "Voy a cocinar."
+    },
+    {
+      "id": "c1-u11-f10",
+      "unit": "c1-u11",
+      "kind": "recognition",
+      "front": "Vamos a comprar pan",
+      "back": "We are going to buy bread",
+      "example": "Vamos a comprar pan."
+    },
+    {
+      "id": "c1-u11-f11",
+      "unit": "c1-u11",
+      "kind": "production",
+      "front": "I am going to the market",
+      "back": "Voy al mercado",
+      "example": "Voy al mercado."
+    },
+    {
+      "id": "c1-u11-f12",
+      "unit": "c1-u11",
+      "kind": "recognition",
+      "front": "¿Hay una opción sin carne?",
+      "back": "Is there an option without meat?",
+      "example": "¿Hay una opción sin carne?"
+    },
+    {
+      "id": "c1-u11-f13",
+      "unit": "c1-u11",
+      "kind": "production",
+      "front": "Can you bring me water?",
+      "back": "¿Me puede traer agua?",
+      "example": "¿Me puede traer agua?"
+    },
+    {
+      "id": "c1-u11-f14",
+      "unit": "c1-u11",
+      "kind": "recognition",
+      "front": "Solo el café",
+      "back": "Just the coffee",
+      "example": "Solo el café."
+    },
+    {
+      "id": "c1-u11-f15",
+      "unit": "c1-u11",
+      "kind": "production",
+      "front": "Tomorrow",
+      "back": "Mañana",
+      "example": "Mañana."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c1-u11-q01",
+      "type": "cloze",
+      "prompt": "Complete: Voy ___ cocinar.",
+      "answers": [
+        "a"
+      ],
+      "explanation": "The plan construction needs ir + a + infinitive. Check the subject and the intended meaning before choosing a form.",
+      "concept": "Requests that get useful answers"
+    },
+    {
+      "id": "c1-u11-q02",
+      "type": "cloze",
+      "prompt": "Complete: Vamos a ___ pan. (buy)",
+      "answers": [
+        "comprar"
+      ],
+      "explanation": "After ir a, the action stays in the infinitive. Check the subject and the intended meaning before choosing a form.",
+      "concept": "Plans with ir a"
+    },
+    {
+      "id": "c1-u11-q03",
+      "type": "cloze",
+      "prompt": "Complete: Voy ___ mercado.",
+      "answers": [
+        "al"
+      ],
+      "explanation": "A plus the article el contracts to al. Check the subject and the intended meaning before choosing a form.",
+      "concept": "Ingredients and preferences"
+    },
+    {
+      "id": "c1-u11-q04",
+      "type": "typed",
+      "prompt": "Ask the price of one coffee.",
+      "answers": [
+        "¿Cuánto cuesta?",
+        "¿Cuánto cuesta el café?",
+        "¿Cuánto cuesta un café?"
+      ],
+      "explanation": "A singular item takes cuesta; plural items take cuestan. Check the subject and the intended meaning before choosing a form.",
+      "concept": "Requests that get useful answers"
+    },
+    {
+      "id": "c1-u11-q05",
+      "type": "cloze",
+      "prompt": "Complete: ___ azúcar, por favor. (without)",
+      "answers": [
+        "Sin"
+      ],
+      "explanation": "Sin excludes an ingredient; con includes it. Check the subject and the intended meaning before choosing a form.",
+      "concept": "Plans with ir a"
+    },
+    {
+      "id": "c1-u11-q06",
+      "type": "typed",
+      "prompt": "Ask what a dish contains.",
+      "answers": [
+        "¿Qué lleva?",
+        "¿Qué lleva el plato?",
+        "¿Qué ingredientes lleva?",
+        "¿Qué ingredientes tiene?"
+      ],
+      "explanation": "Llevar can describe what a dish contains; the question requests ingredients. Check the subject and the intended meaning before choosing a form.",
+      "concept": "Ingredients and preferences"
+    },
+    {
+      "id": "c1-u11-q07",
+      "type": "matching",
+      "prompt": "Select the expression that communicates: I would like a coffee.",
+      "options": [
+        "Quisiera un café",
+        "Vamos a comprar pan",
+        "¿Me puede traer agua?"
+      ],
+      "answers": [
+        "Quisiera un café"
+      ],
+      "explanation": "“Quisiera un café” communicates “I would like a coffee.” The other choices communicate “We are going to buy bread” and “Can you bring me water?”; those do not answer this prompt.",
+      "concept": "Meaning in context"
+    },
+    {
+      "id": "c1-u11-q08",
+      "type": "choice",
+      "prompt": "Select the expression that communicates: A coffee, please.",
+      "options": [
+        "Un café, por favor",
+        "Voy al mercado",
+        "Solo el café"
+      ],
+      "answers": [
+        "Un café, por favor"
+      ],
+      "explanation": "“Un café, por favor” communicates “A coffee, please.” The other choices communicate “I am going to the market” and “Just the coffee”; those do not answer this prompt.",
+      "concept": "Meaning in context"
+    },
+    {
+      "id": "c1-u11-q09",
+      "type": "matching",
+      "prompt": "Select the expression that communicates: How much does it cost?.",
+      "options": [
+        "¿Cuánto cuesta?",
+        "¿Hay una opción sin carne?",
+        "Mañana"
+      ],
+      "answers": [
+        "¿Cuánto cuesta?"
+      ],
+      "explanation": "“¿Cuánto cuesta?” communicates “How much does it cost?.” The other choices communicate “Is there an option without meat?” and “Tomorrow”; those do not answer this prompt.",
+      "concept": "Meaning in context"
+    },
+    {
+      "id": "c1-u11-q10",
+      "type": "choice",
+      "prompt": "Select the expression that communicates: How much do they cost?.",
+      "options": [
+        "¿Cuánto cuestan?",
+        "¿Me puede traer agua?",
+        "Quisiera un café"
+      ],
+      "answers": [
+        "¿Cuánto cuestan?"
+      ],
+      "explanation": "“¿Cuánto cuestan?” communicates “How much do they cost?.” The other choices communicate “Can you bring me water?” and “I would like a coffee”; those do not answer this prompt.",
+      "concept": "Meaning in context"
+    },
+    {
+      "id": "c1-u11-q11",
+      "type": "matching",
+      "prompt": "Select the expression that communicates: What is in it?.",
+      "options": [
+        "¿Qué lleva?",
+        "Solo el café",
+        "Un café, por favor"
+      ],
+      "answers": [
+        "¿Qué lleva?"
+      ],
+      "explanation": "“¿Qué lleva?” communicates “What is in it?.” The other choices communicate “Just the coffee” and “A coffee, please”; those do not answer this prompt.",
+      "concept": "Meaning in context"
+    },
+    {
+      "id": "c1-u11-q12",
+      "type": "choice",
+      "prompt": "Select the expression that communicates: Without milk.",
+      "options": [
+        "Sin leche",
+        "Mañana",
+        "¿Cuánto cuesta?"
+      ],
+      "answers": [
+        "Sin leche"
+      ],
+      "explanation": "“Sin leche” communicates “Without milk.” The other choices communicate “Tomorrow” and “How much does it cost?”; those do not answer this prompt.",
+      "concept": "Meaning in context"
+    }
+  ],
+  "homework": [
+    {
+      "id": "c1-u11-h1",
+      "skill": "Reading & writing",
+      "prompt": "Read the original text twice. Identify who is involved, the situation, and three key details. Rewrite it with two meaningful changes and underline the forms that had to change.",
+      "model": "Use the original text as a comparison model. Preserve its grammatical relationships, but change facts. Explain each changed ending using one of this unit’s mini-lectures.",
+      "rubric": "0–2 each: accurate key details, coherent changes, target grammar, explanation of corrections. Maximum 8; self-assessment is not instructor validation."
+    },
+    {
+      "id": "c1-u11-h2",
+      "skill": "Listening",
+      "prompt": "Listen to the original text using an available Spanish device voice or a willing reader. Hide the text, note five words or phrases you hear, then compare. Record the source and two uncertainties. If audio is unavailable, complete reading preparation and mark listening as not yet completed.",
+      "model": "A useful log includes source, date, words actually heard, and a correction confirmed against the text. Synthetic speech is listening rehearsal and does not represent the range of natural accents.",
+      "rubric": "0–2 each: documented source, specific notes, comparison, actionable next step. Score the process; do not invent comprehension evidence."
+    },
+    {
+      "id": "c1-u11-h3",
+      "skill": "Speaking & interaction",
+      "prompt": "Roleplay a café visit with an unavailable item. Ask about an alternative, confirm a price, then tell your partner your plan for tomorrow.",
+      "model": "Use the dialogue or reading for a model of suitable language, then change the facts. Include one request for clarification and a response to it. Save your recording or a written interaction reflection.",
+      "rubric": "0–3 each: task completion, comprehensibility, target-form control, responsiveness. A 3 means independently effective for this task; 2 some help; 1 frequent help; 0 no evidence. Mark solo work as rehearsal."
+    },
+    {
+      "id": "c1-u11-h4",
+      "skill": "Retrieval & reflection",
+      "prompt": "After at least one day, produce five flashcard phrases without looking. Use two in new sentences. Compare with your earlier work and write one concrete plan for the next study session.",
+      "model": "Example reflection format: I retrieved [phrase], but confused [form]. I will revisit [lecture] and use the corrected form in [specific situation].",
+      "rubric": "Count successful retrieval separately from task quality. A useful reflection names an error, a correction, and a new use."
+    }
+  ]
+}

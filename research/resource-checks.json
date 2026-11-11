@@ -1,0 +1,146 @@
+[
+  {
+    "url": "https://www.languagetransfer.org/complete-spanish",
+    "status": 200,
+    "finalUrl": "https://www.languagetransfer.org/complete-spanish",
+    "title": "Spanish &mdash; Language Transfer",
+    "method": "HTTP GET; HTML title inspected. Playback and captions not verified.",
+    "checkedAt": "2026-11-11T23:08:17.713794+00:00"
+  },
+  {
+    "url": "https://www.youtube.com/playlist?list=PLeA5t3dWTWvvwf5fw0Nl7mVk0OUjP1Ln2",
+    "status": "uncertain",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "checkedAt": "2026-11-11T23:08:17.030798+00:00",
+    "method": "HTTP GET attempted; no playback verification"
+  },
+  {
+    "url": "https://www.butterflyspanish.com/",
+    "status": 200,
+    "finalUrl": "https://www.butterflyspanish.com/",
+    "title": "Butterfly Spanish &#8211; Learn Spanish with Ana",
+    "method": "HTTP GET; HTML title inspected. Playback and captions not verified.",
+    "checkedAt": "2026-11-11T23:08:17.453709+00:00"
+  },
+  {
+    "url": "https://www.spanishdict.com/guide/spanish-alphabet-pronunciation",
+    "status": 200,
+    "finalUrl": "https://www.spanishdict.com/guide/spanish-alphabet-pronunciation",
+    "title": "Spanish Alphabet Pronunciation | SpanishDictionary.com",
+    "method": "HTTP GET; HTML title inspected. Playback and captions not verified.",
+    "checkedAt": "2026-11-11T23:08:17.338002+00:00"
+  },
+  {
+    "url": "https://www.spanishdict.com/guide/subject-pronouns-in-spanish",
+    "status": 200,
+    "finalUrl": "https://www.spanishdict.com/guide/subject-pronouns-in-spanish",
+    "title": "Subject Pronouns in Spanish | SpanishDictionary.com",
+    "method": "HTTP GET; HTML title inspected. Playback and captions not verified.",
+    "checkedAt": "2026-11-11T23:08:17.320220+00:00"
+  },
+  {
+    "url": "https://www.spanishdict.com/guide/ser-vs-estar",
+    "status": 200,
+    "finalUrl": "https://www.spanishdict.com/guide/ser-vs-estar",
+    "title": "Ser vs. Estar | SpanishDictionary.com",
+    "method": "HTTP GET; HTML title inspected. Playback and captions not verified.",
+    "checkedAt": "2026-11-11T23:08:17.725896+00:00"
+  },
+  {
+    "url": "https://www.spanishdict.com/guide/spanish-present-tense-forms",
+    "status": 200,
+    "finalUrl": "https://www.spanishdict.com/guide/spanish-present-tense-forms",
+    "title": "Spanish Present Tense Forms | SpanishDictionary.com",
+    "method": "HTTP GET; HTML title inspected. Playback and captions not verified.",
+    "checkedAt": "2026-11-11T23:08:17.394515+00:00"
+  },
+  {
+    "url": "https://www.spanishdict.com/guide/spanish-nouns",
+    "status": "uncertain",
+    "error": "HTTP Error 404: Not Found",
+    "checkedAt": "2026-11-11T23:08:17.474722+00:00",
+    "method": "HTTP GET attempted; no playback verification"
+  },
+  {
+    "url": "https://www.spanishdict.com/guide/spanish-adjectives",
+    "status": "uncertain",
+    "error": "HTTP Error 404: Not Found",
+    "checkedAt": "2026-11-11T23:08:17.581038+00:00",
+    "method": "HTTP GET attempted; no playback verification"
+  },
+  {
+    "url": "https://www.dreaming.com/",
+    "status": 200,
+    "finalUrl": "https://www.dreaming.com/",
+    "title": "Dreaming – Immersive Language Learning",
+    "method": "HTTP GET; HTML title inspected. Playback and captions not verified.",
+    "checkedAt": "2026-11-11T23:08:17.770634+00:00"
+  },
+  {
+    "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/level-descriptions",
+    "status": 200,
+    "finalUrl": "https://www.coe.int/en/web/common-european-framework-reference-languages/level-descriptions",
+    "title": "The CEFR Levels - Common European Framework of Reference for Languages (CEFR)",
+    "method": "HTTP GET; HTML title inspected. Playback and captions not verified.",
+    "checkedAt": "2026-11-11T23:08:18.675666+00:00"
+  },
+  {
+    "url": "https://radioambulante.org/audio",
+    "status": "uncertain",
+    "error": "HTTP Error 404: Not Found",
+    "checkedAt": "2026-11-11T23:08:18.818201+00:00",
+    "method": "HTTP GET attempted; no playback verification"
+  },
+  {
+    "url": "https://www.un.org/es/climatechange/what-is-climate-change",
+    "status": "uncertain",
+    "error": "HTTP Error 403: Forbidden",
+    "checkedAt": "2026-11-11T23:08:17.931517+00:00",
+    "method": "HTTP GET attempted; no playback verification"
+  },
+  {
+    "url": "https://www.spanishdict.com/guide/spanish-interrogative-pronouns",
+    "status": "uncertain",
+    "error": "HTTP Error 404: Not Found",
+    "checkedAt": "2026-11-11T23:08:17.879221+00:00",
+    "method": "HTTP GET attempted; no playback verification"
+  },
+  {
+    "url": "https://www.spanishdict.com/guide/verbs-like-gustar",
+    "status": 200,
+    "finalUrl": "https://www.spanishdict.com/guide/verbs-like-gustar",
+    "title": "Verbs like &quot;Gustar&quot; | SpanishDictionary.com",
+    "method": "HTTP GET; HTML title inspected. Playback and captions not verified.",
+    "checkedAt": "2026-11-11T23:08:17.999035+00:00"
+  },
+  {
+    "url": "https://www.spanishdict.com/guide/spanish-reflexive-verbs",
+    "status": "uncertain",
+    "error": "HTTP Error 404: Not Found",
+    "checkedAt": "2026-11-11T23:08:17.890445+00:00",
+    "method": "HTTP GET attempted; no playback verification"
+  },
+  {
+    "url": "https://www.spanishdict.com/guide/spanish-irregular-present-tense",
+    "status": 200,
+    "finalUrl": "https://www.spanishdict.com/guide/spanish-irregular-present-tense",
+    "title": "Irregular Present Indicative Verbs in Spanish | SpanishDictionary.com",
+    "method": "HTTP GET; HTML title inspected. Playback and captions not verified.",
+    "checkedAt": "2026-11-11T23:08:18.029207+00:00"
+  },
+  {
+    "url": "https://www.spanishdict.com/guide/spanish-numbers",
+    "status": 200,
+    "finalUrl": "https://www.spanishdict.com/guide/spanish-numbers",
+    "title": "Review of Numbers in Spanish | SpanishDictionary.com",
+    "method": "HTTP GET; HTML title inspected. Playback and captions not verified.",
+    "checkedAt": "2026-11-11T23:08:18.083485+00:00"
+  },
+  {
+    "url": "https://www.spanishdict.com/guide/spanish-near-future",
+    "status": "uncertain",
+    "error": "HTTP Error 404: Not Found",
+    "checkedAt": "2026-11-11T23:08:18.066343+00:00",
+    "method": "HTTP GET attempted; no playback verification"
+  }
+]

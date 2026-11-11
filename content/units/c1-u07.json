@@ -1,0 +1,379 @@
+{
+  "id": "c1-u07",
+  "course": 1,
+  "number": 7,
+  "title": "Places, estar & hay",
+  "subtitle": "Finding your way",
+  "status": "authored",
+  "prerequisites": [
+    "c1-u06"
+  ],
+  "objectives": [
+    "Locate people and objects with estar.",
+    "Introduce existence with hay.",
+    "Explain basic ser/estar contrasts without a permanent/temporary shortcut."
+  ],
+  "warmup": "Without notes, retrieve three phrases from Unit 6. Use each in a new situation, then explain one correction from your last quiz. If you cannot retrieve a phrase, review its card before starting this unit.",
+  "lectures": [
+    {
+      "title": "Where something is: estar",
+      "body": "Estar forms are estoy, estás, está, estamos, estáis, están. Locate a known person or thing: La biblioteca está aquí. Los libros están en la mesa. Useful phrases are cerca de, lejos de, delante de, detrás de, al lado de, entre, and enfrente de. Contract de + el to del: cerca del parque. Do not contract de la. Location does not become ser simply because a building stays put. The library is not a temporary library, but its position still uses estar. Events are an important exception: La clase es en la biblioteca identifies where the event takes place."
+    },
+    {
+      "title": "What exists: hay",
+      "body": "Hay introduces existence and stays the same with singular or plural nouns: Hay una mesa. Hay dos libros. A typical first mention uses hay with an indefinite noun; a later reference uses estar with an identified noun: Hay una farmacia. La farmacia está cerca. In negative form: No hay farmacia aquí. Asking ¿Hay una farmacia? checks existence, whereas ¿Dónde está la farmacia? assumes a particular pharmacy. Avoid translating English there literally: hay already expresses there is/are and does not require allí."
+    },
+    {
+      "title": "Characterization and state",
+      "body": "Ser often identifies or characterizes; estar often presents a state or condition. Ana es tranquila characterizes Ana as calm; Ana está tranquila describes her current calm state. This is not a universal permanent-versus-temporary rule: Madrid está en España, and someone can be joven with ser for a limited stage of life. Some adjectives change meaning: es aburrido describes someone or something as boring; está aburrido describes boredom. At this stage, learn small contrasts in context. Ask what you are communicating—identity, location, state, or existence—before selecting a verb."
+    }
+  ],
+  "reading": "—Perdón, ¿hay una biblioteca cerca?\n—Sí. La biblioteca está al lado del parque.\n—¿Y la clase de español?\n—La clase es en la biblioteca, a las seis.\n—Gracias. Estoy un poco nerviosa.\n—La profesora es tranquila. Hoy está contenta porque hay estudiantes nuevos.\nFind one existence statement, two location/event statements, and one description of a state. Explain why the building and the class use different verbs.",
+  "worked": [
+    {
+      "prompt": "Complete: La biblioteca ___ cerca.",
+      "answer": "está",
+      "reason": "The location of a known building uses estar."
+    },
+    {
+      "prompt": "Complete: ___ dos libros en la mesa.",
+      "answer": "Hay",
+      "reason": "Hay introduces existence and is unchanged for plural nouns."
+    },
+    {
+      "prompt": "Complete: La clase ___ en la biblioteca.",
+      "answer": "es",
+      "reason": "The location of an event is expressed with ser."
+    },
+    {
+      "prompt": "Complete: Estoy cerca ___ parque.",
+      "answer": "del",
+      "reason": "De plus the article el contracts to del."
+    },
+    {
+      "prompt": "Complete: Ana ___ aburrida hoy. (feels bored)",
+      "answer": "está",
+      "reason": "Estar aburrida describes a state of boredom, not a boring personality."
+    },
+    {
+      "prompt": "Complete: Nosotros ___ aquí.",
+      "answer": "estamos",
+      "reason": "Nosotros takes estamos in the estar paradigm."
+    }
+  ],
+  "task": "Draw a small map with four places. Give a partner directions using locations, then ask them to identify where an event takes place. Solo: follow your written description on a blank map.",
+  "culture": "Addresses may rely on landmarks rather than street numbers in some communities. Ask what a local reference means and confirm your destination. Location phrases are useful, but a single address format is not universal.",
+  "selfAssessment": [
+    "I can locate people and objects with estar.",
+    "I can introduce existence with hay.",
+    "I can explain basic ser/estar contrasts without a permanent/temporary shortcut."
+  ],
+  "remediation": "Group missed items by concept, not by score. Reread the relevant mini-lecture, explain one worked example aloud, and write two new examples. Rehearse the communication task after a day. If you can select an answer but cannot use it in an exchange, prioritize retrieval and partner practice.",
+  "resources": [
+    "sd-ser-estar"
+  ],
+  "cards": [
+    {
+      "id": "c1-u07-f01",
+      "unit": "c1-u07",
+      "kind": "production",
+      "front": "I am here",
+      "back": "Estoy aquí",
+      "example": "Estoy aquí."
+    },
+    {
+      "id": "c1-u07-f02",
+      "unit": "c1-u07",
+      "kind": "recognition",
+      "front": "¿Dónde está la biblioteca?",
+      "back": "Where is the library?",
+      "example": "¿Dónde está la biblioteca?"
+    },
+    {
+      "id": "c1-u07-f03",
+      "unit": "c1-u07",
+      "kind": "production",
+      "front": "There is a pharmacy",
+      "back": "Hay una farmacia",
+      "example": "Hay una farmacia."
+    },
+    {
+      "id": "c1-u07-f04",
+      "unit": "c1-u07",
+      "kind": "recognition",
+      "front": "Hay dos libros",
+      "back": "There are two books",
+      "example": "Hay dos libros."
+    },
+    {
+      "id": "c1-u07-f05",
+      "unit": "c1-u07",
+      "kind": "production",
+      "front": "There is nobody",
+      "back": "No hay nadie",
+      "example": "No hay nadie."
+    },
+    {
+      "id": "c1-u07-f06",
+      "unit": "c1-u07",
+      "kind": "recognition",
+      "front": "Cerca del parque",
+      "back": "Near the park",
+      "example": "Cerca del parque."
+    },
+    {
+      "id": "c1-u07-f07",
+      "unit": "c1-u07",
+      "kind": "production",
+      "front": "Far from here",
+      "back": "Lejos de aquí",
+      "example": "Lejos de aquí."
+    },
+    {
+      "id": "c1-u07-f08",
+      "unit": "c1-u07",
+      "kind": "recognition",
+      "front": "Al lado de la biblioteca",
+      "back": "Next to the library",
+      "example": "Al lado de la biblioteca."
+    },
+    {
+      "id": "c1-u07-f09",
+      "unit": "c1-u07",
+      "kind": "production",
+      "front": "In front of the house",
+      "back": "Delante de la casa",
+      "example": "Delante de la casa."
+    },
+    {
+      "id": "c1-u07-f10",
+      "unit": "c1-u07",
+      "kind": "recognition",
+      "front": "Detrás de la mesa",
+      "back": "Behind the table",
+      "example": "Detrás de la mesa."
+    },
+    {
+      "id": "c1-u07-f11",
+      "unit": "c1-u07",
+      "kind": "production",
+      "front": "The class takes place here",
+      "back": "La clase es aquí",
+      "example": "La clase es aquí."
+    },
+    {
+      "id": "c1-u07-f12",
+      "unit": "c1-u07",
+      "kind": "recognition",
+      "front": "Estoy contenta",
+      "back": "I am happy (feminine)",
+      "example": "Estoy contenta."
+    },
+    {
+      "id": "c1-u07-f13",
+      "unit": "c1-u07",
+      "kind": "production",
+      "front": "He is calm by disposition",
+      "back": "Es tranquilo",
+      "example": "Es tranquilo."
+    },
+    {
+      "id": "c1-u07-f14",
+      "unit": "c1-u07",
+      "kind": "recognition",
+      "front": "Está tranquilo",
+      "back": "He is calm right now",
+      "example": "Está tranquilo."
+    },
+    {
+      "id": "c1-u07-f15",
+      "unit": "c1-u07",
+      "kind": "production",
+      "front": "Between the house and the park",
+      "back": "Entre la casa y el parque",
+      "example": "Entre la casa y el parque."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c1-u07-q01",
+      "type": "cloze",
+      "prompt": "Complete: La biblioteca ___ cerca.",
+      "answers": [
+        "está"
+      ],
+      "explanation": "The location of a known building uses estar. Check the subject and the intended meaning before choosing a form.",
+      "concept": "Where something is: estar"
+    },
+    {
+      "id": "c1-u07-q02",
+      "type": "cloze",
+      "prompt": "Complete: ___ dos libros en la mesa.",
+      "answers": [
+        "Hay"
+      ],
+      "explanation": "Hay introduces existence and is unchanged for plural nouns. Check the subject and the intended meaning before choosing a form.",
+      "concept": "What exists: hay"
+    },
+    {
+      "id": "c1-u07-q03",
+      "type": "cloze",
+      "prompt": "Complete: La clase ___ en la biblioteca.",
+      "answers": [
+        "es"
+      ],
+      "explanation": "The location of an event is expressed with ser. Check the subject and the intended meaning before choosing a form.",
+      "concept": "Characterization and state"
+    },
+    {
+      "id": "c1-u07-q04",
+      "type": "cloze",
+      "prompt": "Complete: Estoy cerca ___ parque.",
+      "answers": [
+        "del"
+      ],
+      "explanation": "De plus the article el contracts to del. Check the subject and the intended meaning before choosing a form.",
+      "concept": "Where something is: estar"
+    },
+    {
+      "id": "c1-u07-q05",
+      "type": "cloze",
+      "prompt": "Complete: Ana ___ aburrida hoy. (feels bored)",
+      "answers": [
+        "está"
+      ],
+      "explanation": "Estar aburrida describes a state of boredom, not a boring personality. Check the subject and the intended meaning before choosing a form.",
+      "concept": "What exists: hay"
+    },
+    {
+      "id": "c1-u07-q06",
+      "type": "cloze",
+      "prompt": "Complete: Nosotros ___ aquí.",
+      "answers": [
+        "estamos"
+      ],
+      "explanation": "Nosotros takes estamos in the estar paradigm. Check the subject and the intended meaning before choosing a form.",
+      "concept": "Characterization and state"
+    },
+    {
+      "id": "c1-u07-q07",
+      "type": "matching",
+      "prompt": "Select the expression that communicates: I am here.",
+      "options": [
+        "Estoy aquí",
+        "Detrás de la mesa",
+        "Es tranquilo"
+      ],
+      "answers": [
+        "Estoy aquí"
+      ],
+      "explanation": "“Estoy aquí” communicates “I am here.” The other choices communicate “Behind the table” and “He is calm by disposition”; those do not answer this prompt.",
+      "concept": "Meaning in context"
+    },
+    {
+      "id": "c1-u07-q08",
+      "type": "choice",
+      "prompt": "Select the expression that communicates: Where is the library?.",
+      "options": [
+        "¿Dónde está la biblioteca?",
+        "La clase es aquí",
+        "Está tranquilo"
+      ],
+      "answers": [
+        "¿Dónde está la biblioteca?"
+      ],
+      "explanation": "“¿Dónde está la biblioteca?” communicates “Where is the library?.” The other choices communicate “The class takes place here” and “He is calm right now”; those do not answer this prompt.",
+      "concept": "Meaning in context"
+    },
+    {
+      "id": "c1-u07-q09",
+      "type": "matching",
+      "prompt": "Select the expression that communicates: There is a pharmacy.",
+      "options": [
+        "Hay una farmacia",
+        "Estoy contenta",
+        "Entre la casa y el parque"
+      ],
+      "answers": [
+        "Hay una farmacia"
+      ],
+      "explanation": "“Hay una farmacia” communicates “There is a pharmacy.” The other choices communicate “I am happy (feminine)” and “Between the house and the park”; those do not answer this prompt.",
+      "concept": "Meaning in context"
+    },
+    {
+      "id": "c1-u07-q10",
+      "type": "choice",
+      "prompt": "Select the expression that communicates: There are two books.",
+      "options": [
+        "Hay dos libros",
+        "Es tranquilo",
+        "Estoy aquí"
+      ],
+      "answers": [
+        "Hay dos libros"
+      ],
+      "explanation": "“Hay dos libros” communicates “There are two books.” The other choices communicate “He is calm by disposition” and “I am here”; those do not answer this prompt.",
+      "concept": "Meaning in context"
+    },
+    {
+      "id": "c1-u07-q11",
+      "type": "matching",
+      "prompt": "Select the expression that communicates: There is nobody.",
+      "options": [
+        "No hay nadie",
+        "Está tranquilo",
+        "¿Dónde está la biblioteca?"
+      ],
+      "answers": [
+        "No hay nadie"
+      ],
+      "explanation": "“No hay nadie” communicates “There is nobody.” The other choices communicate “He is calm right now” and “Where is the library?”; those do not answer this prompt.",
+      "concept": "Meaning in context"
+    },
+    {
+      "id": "c1-u07-q12",
+      "type": "choice",
+      "prompt": "Select the expression that communicates: Near the park.",
+      "options": [
+        "Cerca del parque",
+        "Entre la casa y el parque",
+        "Hay una farmacia"
+      ],
+      "answers": [
+        "Cerca del parque"
+      ],
+      "explanation": "“Cerca del parque” communicates “Near the park.” The other choices communicate “Between the house and the park” and “There is a pharmacy”; those do not answer this prompt.",
+      "concept": "Meaning in context"
+    }
+  ],
+  "homework": [
+    {
+      "id": "c1-u07-h1",
+      "skill": "Reading & writing",
+      "prompt": "Read the original text twice. Identify who is involved, the situation, and three key details. Rewrite it with two meaningful changes and underline the forms that had to change.",
+      "model": "Use the original text as a comparison model. Preserve its grammatical relationships, but change facts. Explain each changed ending using one of this unit’s mini-lectures.",
+      "rubric": "0–2 each: accurate key details, coherent changes, target grammar, explanation of corrections. Maximum 8; self-assessment is not instructor validation."
+    },
+    {
+      "id": "c1-u07-h2",
+      "skill": "Listening",
+      "prompt": "Listen to the original text using an available Spanish device voice or a willing reader. Hide the text, note five words or phrases you hear, then compare. Record the source and two uncertainties. If audio is unavailable, complete reading preparation and mark listening as not yet completed.",
+      "model": "A useful log includes source, date, words actually heard, and a correction confirmed against the text. Synthetic speech is listening rehearsal and does not represent the range of natural accents.",
+      "rubric": "0–2 each: documented source, specific notes, comparison, actionable next step. Score the process; do not invent comprehension evidence."
+    },
+    {
+      "id": "c1-u07-h3",
+      "skill": "Speaking & interaction",
+      "prompt": "Draw a small map with four places. Give a partner directions using locations, then ask them to identify where an event takes place. Solo: follow your written description on a blank map.",
+      "model": "Use the dialogue or reading for a model of suitable language, then change the facts. Include one request for clarification and a response to it. Save your recording or a written interaction reflection.",
+      "rubric": "0–3 each: task completion, comprehensibility, target-form control, responsiveness. A 3 means independently effective for this task; 2 some help; 1 frequent help; 0 no evidence. Mark solo work as rehearsal."
+    },
+    {
+      "id": "c1-u07-h4",
+      "skill": "Retrieval & reflection",
+      "prompt": "After at least one day, produce five flashcard phrases without looking. Use two in new sentences. Compare with your earlier work and write one concrete plan for the next study session.",
+      "model": "Example reflection format: I retrieved [phrase], but confused [form]. I will revisit [lecture] and use the corrected form in [specific situation].",
+      "rubric": "Count successful retrieval separately from task quality. A useful reflection names an error, a correction, and a new use."
+    }
+  ]
+}

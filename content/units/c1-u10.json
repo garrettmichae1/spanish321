@@ -1,0 +1,379 @@
+{
+  "id": "c1-u10",
+  "course": 1,
+  "number": 10,
+  "title": "Routines & irregular verbs",
+  "subtitle": "A day, in your own words",
+  "status": "authored",
+  "prerequisites": [
+    "c1-u09"
+  ],
+  "objectives": [
+    "Use common irregular present forms in a daily narrative.",
+    "Match reflexive pronouns to the subject.",
+    "Distinguish habitual present statements from a basic ongoing-action form."
+  ],
+  "warmup": "Without notes, retrieve three phrases from Unit 9. Use each in a new situation, then explain one correction from your last quiz. If you cannot retrieve a phrase, review its card before starting this unit.",
+  "lectures": [
+    {
+      "title": "Common irregular families",
+      "body": "Irregular verbs are frequent because daily conversation uses them often. Ir is voy, vas, va, vamos, vais, van. Hacer has hago in yo; salir has salgo; poner has pongo. Stem changes often affect all present forms except nosotros and vosotros: querer → quiero, quieres, quiere, queremos, queréis, quieren; poder → puedo, puedes, puede, podemos, podéis, pueden; pedir → pido, pides, pide, pedimos, pedís, piden. Do not infer that every e changes or that every form changes. Learn each verb with one useful sentence and check its family."
+    },
+    {
+      "title": "Actions directed at oneself",
+      "body": "A reflexive infinitive ends in se: levantarse. Use me, te, se, nos, os, se with the matching subject: me levanto, te levantas, se levanta, nos levantamos, os levantáis, se levantan. Place the pronoun before a conjugated verb: Me levanto a las siete. An infinitive can carry it at the end: Necesito levantarme temprano. Some verbs change meaning when used reflexively, and not every se is reflexive. For now, describe actions such as washing yourself or getting up. Do not add a reflexive pronoun merely because an action is part of your routine."
+    },
+    {
+      "title": "Habit versus happening now",
+      "body": "The simple present readily describes routines: Todos los días estudio. Estar plus a gerund highlights an action in progress: Estoy estudiando ahora. Regular gerunds use ando for ar verbs and iendo for er/ir verbs: hablando, comiendo, viviendo. There are irregular forms, so check before inventing one. Do not use the progressive for every English ing expression: Me gusta estudiar uses an infinitive for the activity I like. Build a narrative with primero, después, luego, and al final. Keep the subject clear when changing from yourself to another person."
+    }
+  ],
+  "reading": "Normalmente me levanto a las siete. Hago café y después voy al trabajo. Mi amiga Luz se levanta a las seis porque quiere caminar antes del trabajo. Hoy no puedo salir temprano: estoy estudiando para una prueba. Al final del día, Luz y yo hablamos por teléfono. Ella pide una recomendación de un libro y yo le doy un título. Find the routine statements and the one action presented as happening now.",
+  "worked": [
+    {
+      "prompt": "Complete: Yo ___ al trabajo. (ir)",
+      "answer": "voy",
+      "reason": "Ir has the irregular yo form voy."
+    },
+    {
+      "prompt": "Complete: Nosotros ___ caminar. (querer)",
+      "answer": "queremos",
+      "reason": "The nosotros form does not have the ie stem change."
+    },
+    {
+      "prompt": "Complete: Ella ___ levanta temprano.",
+      "answer": "se",
+      "reason": "Ella takes se in this reflexive pattern."
+    },
+    {
+      "prompt": "Complete: Yo ___ café. (hacer)",
+      "answer": "hago",
+      "reason": "Hacer has the irregular yo form hago."
+    },
+    {
+      "prompt": "Complete: Estoy ___ ahora. (estudiar)",
+      "answer": "estudiando",
+      "reason": "Estar combines with the ando gerund of estudiar."
+    },
+    {
+      "prompt": "Complete: Necesito ___ temprano. (levantarse, yo)",
+      "answer": "levantarme",
+      "reason": "The infinitive retains its ending and attaches the matching me pronoun."
+    }
+  ],
+  "task": "Compare two routines and explain a change today. Ask your partner one unprepared follow-up question. Solo: record a routine, listen back, then add a new detail without restarting.",
+  "culture": "Work schedules and meal times vary across regions and individual lives. A routine in a textbook is an example, not a claim that an entire country follows one timetable.",
+  "selfAssessment": [
+    "I can use common irregular present forms in a daily narrative.",
+    "I can match reflexive pronouns to the subject.",
+    "I can distinguish habitual present statements from a basic ongoing-action form."
+  ],
+  "remediation": "Group missed items by concept, not by score. Reread the relevant mini-lecture, explain one worked example aloud, and write two new examples. Rehearse the communication task after a day. If you can select an answer but cannot use it in an exchange, prioritize retrieval and partner practice.",
+  "resources": [
+    "sd-reflexive"
+  ],
+  "cards": [
+    {
+      "id": "c1-u10-f01",
+      "unit": "c1-u10",
+      "kind": "production",
+      "front": "I get up early",
+      "back": "Me levanto temprano",
+      "example": "Me levanto temprano."
+    },
+    {
+      "id": "c1-u10-f02",
+      "unit": "c1-u10",
+      "kind": "recognition",
+      "front": "Se levanta a las seis",
+      "back": "She or he gets up at six",
+      "example": "Se levanta a las seis."
+    },
+    {
+      "id": "c1-u10-f03",
+      "unit": "c1-u10",
+      "kind": "production",
+      "front": "We get up",
+      "back": "Nos levantamos",
+      "example": "Nos levantamos."
+    },
+    {
+      "id": "c1-u10-f04",
+      "unit": "c1-u10",
+      "kind": "recognition",
+      "front": "Hago café",
+      "back": "I make coffee",
+      "example": "Hago café."
+    },
+    {
+      "id": "c1-u10-f05",
+      "unit": "c1-u10",
+      "kind": "production",
+      "front": "I go to work",
+      "back": "Voy al trabajo",
+      "example": "Voy al trabajo."
+    },
+    {
+      "id": "c1-u10-f06",
+      "unit": "c1-u10",
+      "kind": "recognition",
+      "front": "Quiero caminar",
+      "back": "I want to walk",
+      "example": "Quiero caminar."
+    },
+    {
+      "id": "c1-u10-f07",
+      "unit": "c1-u10",
+      "kind": "production",
+      "front": "We want to study",
+      "back": "Queremos estudiar",
+      "example": "Queremos estudiar."
+    },
+    {
+      "id": "c1-u10-f08",
+      "unit": "c1-u10",
+      "kind": "recognition",
+      "front": "No puedo salir",
+      "back": "I cannot go out",
+      "example": "No puedo salir."
+    },
+    {
+      "id": "c1-u10-f09",
+      "unit": "c1-u10",
+      "kind": "production",
+      "front": "I ask for help",
+      "back": "Pido ayuda",
+      "example": "Pido ayuda."
+    },
+    {
+      "id": "c1-u10-f10",
+      "unit": "c1-u10",
+      "kind": "recognition",
+      "front": "Salgo temprano",
+      "back": "I leave early",
+      "example": "Salgo temprano."
+    },
+    {
+      "id": "c1-u10-f11",
+      "unit": "c1-u10",
+      "kind": "production",
+      "front": "I set the table",
+      "back": "Pongo la mesa",
+      "example": "Pongo la mesa."
+    },
+    {
+      "id": "c1-u10-f12",
+      "unit": "c1-u10",
+      "kind": "recognition",
+      "front": "Estoy estudiando",
+      "back": "I am studying now",
+      "example": "Estoy estudiando."
+    },
+    {
+      "id": "c1-u10-f13",
+      "unit": "c1-u10",
+      "kind": "production",
+      "front": "First",
+      "back": "Primero",
+      "example": "Primero."
+    },
+    {
+      "id": "c1-u10-f14",
+      "unit": "c1-u10",
+      "kind": "recognition",
+      "front": "Después",
+      "back": "Afterward",
+      "example": "Después."
+    },
+    {
+      "id": "c1-u10-f15",
+      "unit": "c1-u10",
+      "kind": "production",
+      "front": "At the end of the day",
+      "back": "Al final del día",
+      "example": "Al final del día."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c1-u10-q01",
+      "type": "cloze",
+      "prompt": "Complete: Yo ___ al trabajo. (ir)",
+      "answers": [
+        "voy"
+      ],
+      "explanation": "Ir has the irregular yo form voy. Check the subject and the intended meaning before choosing a form.",
+      "concept": "Common irregular families"
+    },
+    {
+      "id": "c1-u10-q02",
+      "type": "cloze",
+      "prompt": "Complete: Nosotros ___ caminar. (querer)",
+      "answers": [
+        "queremos"
+      ],
+      "explanation": "The nosotros form does not have the ie stem change. Check the subject and the intended meaning before choosing a form.",
+      "concept": "Actions directed at oneself"
+    },
+    {
+      "id": "c1-u10-q03",
+      "type": "cloze",
+      "prompt": "Complete: Ella ___ levanta temprano.",
+      "answers": [
+        "se"
+      ],
+      "explanation": "Ella takes se in this reflexive pattern. Check the subject and the intended meaning before choosing a form.",
+      "concept": "Habit versus happening now"
+    },
+    {
+      "id": "c1-u10-q04",
+      "type": "cloze",
+      "prompt": "Complete: Yo ___ café. (hacer)",
+      "answers": [
+        "hago"
+      ],
+      "explanation": "Hacer has the irregular yo form hago. Check the subject and the intended meaning before choosing a form.",
+      "concept": "Common irregular families"
+    },
+    {
+      "id": "c1-u10-q05",
+      "type": "cloze",
+      "prompt": "Complete: Estoy ___ ahora. (estudiar)",
+      "answers": [
+        "estudiando"
+      ],
+      "explanation": "Estar combines with the ando gerund of estudiar. Check the subject and the intended meaning before choosing a form.",
+      "concept": "Actions directed at oneself"
+    },
+    {
+      "id": "c1-u10-q06",
+      "type": "cloze",
+      "prompt": "Complete: Necesito ___ temprano. (levantarse, yo)",
+      "answers": [
+        "levantarme"
+      ],
+      "explanation": "The infinitive retains its ending and attaches the matching me pronoun. Check the subject and the intended meaning before choosing a form.",
+      "concept": "Habit versus happening now"
+    },
+    {
+      "id": "c1-u10-q07",
+      "type": "matching",
+      "prompt": "Select the expression that communicates: I get up early.",
+      "options": [
+        "Me levanto temprano",
+        "Salgo temprano",
+        "Primero"
+      ],
+      "answers": [
+        "Me levanto temprano"
+      ],
+      "explanation": "“Me levanto temprano” communicates “I get up early.” The other choices communicate “I leave early” and “First”; those do not answer this prompt.",
+      "concept": "Meaning in context"
+    },
+    {
+      "id": "c1-u10-q08",
+      "type": "choice",
+      "prompt": "Select the expression that communicates: She or he gets up at six.",
+      "options": [
+        "Se levanta a las seis",
+        "Pongo la mesa",
+        "Después"
+      ],
+      "answers": [
+        "Se levanta a las seis"
+      ],
+      "explanation": "“Se levanta a las seis” communicates “She or he gets up at six.” The other choices communicate “I set the table” and “Afterward”; those do not answer this prompt.",
+      "concept": "Meaning in context"
+    },
+    {
+      "id": "c1-u10-q09",
+      "type": "matching",
+      "prompt": "Select the expression that communicates: We get up.",
+      "options": [
+        "Nos levantamos",
+        "Estoy estudiando",
+        "Al final del día"
+      ],
+      "answers": [
+        "Nos levantamos"
+      ],
+      "explanation": "“Nos levantamos” communicates “We get up.” The other choices communicate “I am studying now” and “At the end of the day”; those do not answer this prompt.",
+      "concept": "Meaning in context"
+    },
+    {
+      "id": "c1-u10-q10",
+      "type": "choice",
+      "prompt": "Select the expression that communicates: I make coffee.",
+      "options": [
+        "Hago café",
+        "Primero",
+        "Me levanto temprano"
+      ],
+      "answers": [
+        "Hago café"
+      ],
+      "explanation": "“Hago café” communicates “I make coffee.” The other choices communicate “First” and “I get up early”; those do not answer this prompt.",
+      "concept": "Meaning in context"
+    },
+    {
+      "id": "c1-u10-q11",
+      "type": "matching",
+      "prompt": "Select the expression that communicates: I go to work.",
+      "options": [
+        "Voy al trabajo",
+        "Después",
+        "Se levanta a las seis"
+      ],
+      "answers": [
+        "Voy al trabajo"
+      ],
+      "explanation": "“Voy al trabajo” communicates “I go to work.” The other choices communicate “Afterward” and “She or he gets up at six”; those do not answer this prompt.",
+      "concept": "Meaning in context"
+    },
+    {
+      "id": "c1-u10-q12",
+      "type": "choice",
+      "prompt": "Select the expression that communicates: I want to walk.",
+      "options": [
+        "Quiero caminar",
+        "Al final del día",
+        "Nos levantamos"
+      ],
+      "answers": [
+        "Quiero caminar"
+      ],
+      "explanation": "“Quiero caminar” communicates “I want to walk.” The other choices communicate “At the end of the day” and “We get up”; those do not answer this prompt.",
+      "concept": "Meaning in context"
+    }
+  ],
+  "homework": [
+    {
+      "id": "c1-u10-h1",
+      "skill": "Reading & writing",
+      "prompt": "Read the original text twice. Identify who is involved, the situation, and three key details. Rewrite it with two meaningful changes and underline the forms that had to change.",
+      "model": "Use the original text as a comparison model. Preserve its grammatical relationships, but change facts. Explain each changed ending using one of this unit’s mini-lectures.",
+      "rubric": "0–2 each: accurate key details, coherent changes, target grammar, explanation of corrections. Maximum 8; self-assessment is not instructor validation."
+    },
+    {
+      "id": "c1-u10-h2",
+      "skill": "Listening",
+      "prompt": "Listen to the original text using an available Spanish device voice or a willing reader. Hide the text, note five words or phrases you hear, then compare. Record the source and two uncertainties. If audio is unavailable, complete reading preparation and mark listening as not yet completed.",
+      "model": "A useful log includes source, date, words actually heard, and a correction confirmed against the text. Synthetic speech is listening rehearsal and does not represent the range of natural accents.",
+      "rubric": "0–2 each: documented source, specific notes, comparison, actionable next step. Score the process; do not invent comprehension evidence."
+    },
+    {
+      "id": "c1-u10-h3",
+      "skill": "Speaking & interaction",
+      "prompt": "Compare two routines and explain a change today. Ask your partner one unprepared follow-up question. Solo: record a routine, listen back, then add a new detail without restarting.",
+      "model": "Use the dialogue or reading for a model of suitable language, then change the facts. Include one request for clarification and a response to it. Save your recording or a written interaction reflection.",
+      "rubric": "0–3 each: task completion, comprehensibility, target-form control, responsiveness. A 3 means independently effective for this task; 2 some help; 1 frequent help; 0 no evidence. Mark solo work as rehearsal."
+    },
+    {
+      "id": "c1-u10-h4",
+      "skill": "Retrieval & reflection",
+      "prompt": "After at least one day, produce five flashcard phrases without looking. Use two in new sentences. Compare with your earlier work and write one concrete plan for the next study session.",
+      "model": "Example reflection format: I retrieved [phrase], but confused [form]. I will revisit [lecture] and use the corrected form in [specific situation].",
+      "rubric": "Count successful retrieval separately from task quality. A useful reflection names an error, a correction, and a new use."
+    }
+  ]
+}

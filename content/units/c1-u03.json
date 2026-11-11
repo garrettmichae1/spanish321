@@ -1,0 +1,380 @@
+{
+  "id": "c1-u03",
+  "course": 1,
+  "number": 3,
+  "title": "Nouns, articles & agreement",
+  "subtitle": "Describing things precisely",
+  "status": "authored",
+  "prerequisites": [
+    "c1-u02"
+  ],
+  "objectives": [
+    "Choose definite and indefinite articles for familiar nouns.",
+    "Form common noun and adjective plurals.",
+    "Describe two objects with agreeing adjectives."
+  ],
+  "warmup": "Without notes, retrieve three phrases from Unit 2. Use each in a new situation, then explain one correction from your last quiz. If you cannot retrieve a phrase, review its card before starting this unit.",
+  "lectures": [
+    {
+      "title": "Gender is a noun property",
+      "body": "Spanish nouns have grammatical gender. Learn the article with the noun: el libro, la mesa, el problema, la mano. Many nouns ending in o are masculine and many ending in a are feminine, but this is a useful tendency rather than a rule without exceptions. Gender does not imply that an object has a biological sex. Definite articles el, la, los, las identify something understood in context; indefinite un, una, unos, unas introduce a member or members of a category. Compare Hay un libro with El libro es interesante: the second reference identifies the book already introduced."
+    },
+    {
+      "title": "Agreement travels with the noun",
+      "body": "A common adjective ending in o changes to a with a feminine noun: el libro rojo, la mesa roja. In the plural: los libros rojos, las mesas rojas. Many adjectives ending in e do not change for gender: un libro interesante, una clase interesante. They still change for number: clases interesantes. Most descriptive adjectives follow the noun in neutral descriptions. Adjective position can change nuance and will return later. Do not assume every adjective is an o/a pair; learn its actual forms. For now, keep noun, article, and adjective together as a small phrase."
+    },
+    {
+      "title": "Plural and reference",
+      "body": "Add s after an unstressed vowel: mesa → mesas. Add es after many consonants: papel → papeles. Final z changes to c before es: lápiz → lápices. Written accents can change when the stress rules demand it. Mixed groups are often referred to with traditional masculine plural forms; inclusive-language practices vary, and people’s own preferences matter. Al and del combine a or de with el, but not with the subject pronoun él. You will meet these contractions in location and shopping units. For now, distinguish el libro from él es estudiante: the accent separates article from pronoun."
+    }
+  ],
+  "reading": "En la clase hay una mesa pequeña y dos libros. Un libro es rojo y el otro es azul. Las páginas son interesantes. Elena tiene un lápiz y unos papeles. La profesora dice: «Los libros son nuevos, pero la mesa es vieja». Diego pregunta: «¿La clase es pequeña?». Elena responde: «Sí, pero las ideas son grandes». Read for the objects first; then identify every word that agrees with mesa.",
+  "worked": [
+    {
+      "prompt": "Complete: la mesa ___ (red).",
+      "answer": "roja",
+      "reason": "Mesa is feminine singular, so rojo changes to roja."
+    },
+    {
+      "prompt": "Plural of el libro.",
+      "answer": "los libros",
+      "reason": "Both the article and noun become plural."
+    },
+    {
+      "prompt": "Plural of un papel.",
+      "answer": "unos papeles",
+      "reason": "Papel adds es; the article becomes unos."
+    },
+    {
+      "prompt": "Complete: unas clases ___ (interesting).",
+      "answer": "interesantes",
+      "reason": "Interesante has one gender form but still needs plural s."
+    },
+    {
+      "prompt": "Plural of lápiz.",
+      "answer": "lápices",
+      "reason": "Final z becomes c before es; the accent preserves the stressed syllable."
+    },
+    {
+      "prompt": "Choose el or la: ___ problema.",
+      "answer": "el",
+      "reason": "Problema is masculine despite its a ending; learn the noun with its article."
+    }
+  ],
+  "task": "Describe five objects to a partner without pointing; ask them to identify each object. Solo: write descriptions, wait, then choose the intended object from your room.",
+  "culture": "Noun gender is grammatical. For people, follow the person’s terms for themselves; professional titles and inclusive forms can vary by community and institution. Avoid treating one style guide as a universal social rule.",
+  "selfAssessment": [
+    "I can choose definite and indefinite articles for familiar nouns.",
+    "I can form common noun and adjective plurals.",
+    "I can describe two objects with agreeing adjectives."
+  ],
+  "remediation": "Group missed items by concept, not by score. Reread the relevant mini-lecture, explain one worked example aloud, and write two new examples. Rehearse the communication task after a day. If you can select an answer but cannot use it in an exchange, prioritize retrieval and partner practice.",
+  "resources": [
+    "sd-nouns",
+    "sd-adjectives"
+  ],
+  "cards": [
+    {
+      "id": "c1-u03-f01",
+      "unit": "c1-u03",
+      "kind": "production",
+      "front": "the book",
+      "back": "el libro",
+      "example": "el libro."
+    },
+    {
+      "id": "c1-u03-f02",
+      "unit": "c1-u03",
+      "kind": "recognition",
+      "front": "la mesa",
+      "back": "the table",
+      "example": "la mesa."
+    },
+    {
+      "id": "c1-u03-f03",
+      "unit": "c1-u03",
+      "kind": "production",
+      "front": "a pencil",
+      "back": "un lápiz",
+      "example": "un lápiz."
+    },
+    {
+      "id": "c1-u03-f04",
+      "unit": "c1-u03",
+      "kind": "recognition",
+      "front": "unos papeles",
+      "back": "some papers",
+      "example": "unos papeles."
+    },
+    {
+      "id": "c1-u03-f05",
+      "unit": "c1-u03",
+      "kind": "production",
+      "front": "the class",
+      "back": "la clase",
+      "example": "la clase."
+    },
+    {
+      "id": "c1-u03-f06",
+      "unit": "c1-u03",
+      "kind": "recognition",
+      "front": "el problema",
+      "back": "the problem",
+      "example": "el problema."
+    },
+    {
+      "id": "c1-u03-f07",
+      "unit": "c1-u03",
+      "kind": "production",
+      "front": "the hand",
+      "back": "la mano",
+      "example": "la mano."
+    },
+    {
+      "id": "c1-u03-f08",
+      "unit": "c1-u03",
+      "kind": "recognition",
+      "front": "un libro rojo",
+      "back": "a red book",
+      "example": "un libro rojo."
+    },
+    {
+      "id": "c1-u03-f09",
+      "unit": "c1-u03",
+      "kind": "production",
+      "front": "a red table",
+      "back": "una mesa roja",
+      "example": "una mesa roja."
+    },
+    {
+      "id": "c1-u03-f10",
+      "unit": "c1-u03",
+      "kind": "recognition",
+      "front": "las clases interesantes",
+      "back": "the interesting classes",
+      "example": "las clases interesantes."
+    },
+    {
+      "id": "c1-u03-f11",
+      "unit": "c1-u03",
+      "kind": "production",
+      "front": "the new books",
+      "back": "los libros nuevos",
+      "example": "los libros nuevos."
+    },
+    {
+      "id": "c1-u03-f12",
+      "unit": "c1-u03",
+      "kind": "recognition",
+      "front": "las mesas pequeñas",
+      "back": "the small tables",
+      "example": "las mesas pequeñas."
+    },
+    {
+      "id": "c1-u03-f13",
+      "unit": "c1-u03",
+      "kind": "production",
+      "front": "a big idea",
+      "back": "una idea grande",
+      "example": "una idea grande."
+    },
+    {
+      "id": "c1-u03-f14",
+      "unit": "c1-u03",
+      "kind": "recognition",
+      "front": "el papel azul",
+      "back": "the blue paper",
+      "example": "el papel azul."
+    },
+    {
+      "id": "c1-u03-f15",
+      "unit": "c1-u03",
+      "kind": "production",
+      "front": "the pages",
+      "back": "las páginas",
+      "example": "las páginas."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c1-u03-q01",
+      "type": "cloze",
+      "prompt": "Complete: la mesa ___ (red).",
+      "answers": [
+        "roja"
+      ],
+      "explanation": "Mesa is feminine singular, so rojo changes to roja. Check the subject and the intended meaning before choosing a form.",
+      "concept": "Gender is a noun property"
+    },
+    {
+      "id": "c1-u03-q02",
+      "type": "typed",
+      "prompt": "Plural of el libro.",
+      "answers": [
+        "los libros"
+      ],
+      "explanation": "Both the article and noun become plural. Check the subject and the intended meaning before choosing a form.",
+      "concept": "Agreement travels with the noun"
+    },
+    {
+      "id": "c1-u03-q03",
+      "type": "typed",
+      "prompt": "Plural of un papel.",
+      "answers": [
+        "unos papeles"
+      ],
+      "explanation": "Papel adds es; the article becomes unos. Check the subject and the intended meaning before choosing a form.",
+      "concept": "Plural and reference"
+    },
+    {
+      "id": "c1-u03-q04",
+      "type": "cloze",
+      "prompt": "Complete: unas clases ___ (interesting).",
+      "answers": [
+        "interesantes"
+      ],
+      "explanation": "Interesante has one gender form but still needs plural s. Check the subject and the intended meaning before choosing a form.",
+      "concept": "Gender is a noun property"
+    },
+    {
+      "id": "c1-u03-q05",
+      "type": "typed",
+      "prompt": "Plural of lápiz.",
+      "answers": [
+        "lápices"
+      ],
+      "explanation": "Final z becomes c before es; the accent preserves the stressed syllable. Check the subject and the intended meaning before choosing a form.",
+      "concept": "Agreement travels with the noun"
+    },
+    {
+      "id": "c1-u03-q06",
+      "type": "typed",
+      "prompt": "Choose el or la: ___ problema.",
+      "answers": [
+        "el"
+      ],
+      "explanation": "Problema is masculine despite its a ending; learn the noun with its article. Check the subject and the intended meaning before choosing a form.",
+      "concept": "Plural and reference"
+    },
+    {
+      "id": "c1-u03-q07",
+      "type": "matching",
+      "prompt": "Select the expression that communicates: the book.",
+      "options": [
+        "el libro",
+        "las clases interesantes",
+        "una idea grande"
+      ],
+      "answers": [
+        "el libro"
+      ],
+      "explanation": "“el libro” communicates “the book.” The other choices communicate “the interesting classes” and “a big idea”; those do not answer this prompt.",
+      "concept": "Meaning in context"
+    },
+    {
+      "id": "c1-u03-q08",
+      "type": "choice",
+      "prompt": "Select the expression that communicates: the table.",
+      "options": [
+        "la mesa",
+        "los libros nuevos",
+        "el papel azul"
+      ],
+      "answers": [
+        "la mesa"
+      ],
+      "explanation": "“la mesa” communicates “the table.” The other choices communicate “the new books” and “the blue paper”; those do not answer this prompt.",
+      "concept": "Meaning in context"
+    },
+    {
+      "id": "c1-u03-q09",
+      "type": "matching",
+      "prompt": "Select the expression that communicates: a pencil.",
+      "options": [
+        "un lápiz",
+        "las mesas pequeñas",
+        "las páginas"
+      ],
+      "answers": [
+        "un lápiz"
+      ],
+      "explanation": "“un lápiz” communicates “a pencil.” The other choices communicate “the small tables” and “the pages”; those do not answer this prompt.",
+      "concept": "Meaning in context"
+    },
+    {
+      "id": "c1-u03-q10",
+      "type": "choice",
+      "prompt": "Select the expression that communicates: some papers.",
+      "options": [
+        "unos papeles",
+        "una idea grande",
+        "el libro"
+      ],
+      "answers": [
+        "unos papeles"
+      ],
+      "explanation": "“unos papeles” communicates “some papers.” The other choices communicate “a big idea” and “the book”; those do not answer this prompt.",
+      "concept": "Meaning in context"
+    },
+    {
+      "id": "c1-u03-q11",
+      "type": "matching",
+      "prompt": "Select the expression that communicates: the class.",
+      "options": [
+        "la clase",
+        "el papel azul",
+        "la mesa"
+      ],
+      "answers": [
+        "la clase"
+      ],
+      "explanation": "“la clase” communicates “the class.” The other choices communicate “the blue paper” and “the table”; those do not answer this prompt.",
+      "concept": "Meaning in context"
+    },
+    {
+      "id": "c1-u03-q12",
+      "type": "choice",
+      "prompt": "Select the expression that communicates: the problem.",
+      "options": [
+        "el problema",
+        "las páginas",
+        "un lápiz"
+      ],
+      "answers": [
+        "el problema"
+      ],
+      "explanation": "“el problema” communicates “the problem.” The other choices communicate “the pages” and “a pencil”; those do not answer this prompt.",
+      "concept": "Meaning in context"
+    }
+  ],
+  "homework": [
+    {
+      "id": "c1-u03-h1",
+      "skill": "Reading & writing",
+      "prompt": "Read the original text twice. Identify who is involved, the situation, and three key details. Rewrite it with two meaningful changes and underline the forms that had to change.",
+      "model": "Use the original text as a comparison model. Preserve its grammatical relationships, but change facts. Explain each changed ending using one of this unit’s mini-lectures.",
+      "rubric": "0–2 each: accurate key details, coherent changes, target grammar, explanation of corrections. Maximum 8; self-assessment is not instructor validation."
+    },
+    {
+      "id": "c1-u03-h2",
+      "skill": "Listening",
+      "prompt": "Listen to the original text using an available Spanish device voice or a willing reader. Hide the text, note five words or phrases you hear, then compare. Record the source and two uncertainties. If audio is unavailable, complete reading preparation and mark listening as not yet completed.",
+      "model": "A useful log includes source, date, words actually heard, and a correction confirmed against the text. Synthetic speech is listening rehearsal and does not represent the range of natural accents.",
+      "rubric": "0–2 each: documented source, specific notes, comparison, actionable next step. Score the process; do not invent comprehension evidence."
+    },
+    {
+      "id": "c1-u03-h3",
+      "skill": "Speaking & interaction",
+      "prompt": "Describe five objects to a partner without pointing; ask them to identify each object. Solo: write descriptions, wait, then choose the intended object from your room.",
+      "model": "Use the dialogue or reading for a model of suitable language, then change the facts. Include one request for clarification and a response to it. Save your recording or a written interaction reflection.",
+      "rubric": "0–3 each: task completion, comprehensibility, target-form control, responsiveness. A 3 means independently effective for this task; 2 some help; 1 frequent help; 0 no evidence. Mark solo work as rehearsal."
+    },
+    {
+      "id": "c1-u03-h4",
+      "skill": "Retrieval & reflection",
+      "prompt": "After at least one day, produce five flashcard phrases without looking. Use two in new sentences. Compare with your earlier work and write one concrete plan for the next study session.",
+      "model": "Example reflection format: I retrieved [phrase], but confused [form]. I will revisit [lecture] and use the corrected form in [specific situation].",
+      "rubric": "Count successful retrieval separately from task quality. A useful reflection names an error, a correction, and a new use."
+    }
+  ]
+}

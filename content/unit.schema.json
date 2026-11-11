@@ -1,0 +1,278 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "course": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5
+    },
+    "number": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 12
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "authored",
+        "planned"
+      ]
+    },
+    "prerequisites": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "objectives": {
+      "minItems": 3,
+      "maxItems": 5,
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "warmup": {
+      "type": "string"
+    },
+    "lectures": {
+      "minItems": 2,
+      "maxItems": 4,
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "body": {
+            "type": "string",
+            "minLength": 100
+          }
+        },
+        "required": [
+          "title",
+          "body"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "reading": {
+      "type": "string",
+      "minLength": 100
+    },
+    "worked": {
+      "minItems": 6,
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "prompt": {
+            "type": "string"
+          },
+          "answer": {
+            "type": "string"
+          },
+          "reason": {
+            "type": "string",
+            "minLength": 20
+          }
+        },
+        "required": [
+          "prompt",
+          "answer",
+          "reason"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "cards": {
+      "minItems": 15,
+      "maxItems": 25,
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "front": {
+            "type": "string",
+            "minLength": 1
+          },
+          "back": {
+            "type": "string",
+            "minLength": 1
+          },
+          "example": {
+            "type": "string"
+          },
+          "kind": {
+            "type": "string",
+            "enum": [
+              "recognition",
+              "production"
+            ]
+          },
+          "unit": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "front",
+          "back",
+          "example",
+          "kind",
+          "unit"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "quiz": {
+      "minItems": 12,
+      "maxItems": 20,
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string",
+            "enum": [
+              "choice",
+              "cloze",
+              "typed",
+              "matching"
+            ]
+          },
+          "prompt": {
+            "type": "string",
+            "minLength": 8
+          },
+          "options": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "answers": {
+            "minItems": 1,
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "explanation": {
+            "type": "string",
+            "minLength": 25
+          },
+          "concept": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "type",
+          "prompt",
+          "answers",
+          "explanation",
+          "concept"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "homework": {
+      "minItems": 3,
+      "maxItems": 5,
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "skill": {
+            "type": "string"
+          },
+          "prompt": {
+            "type": "string"
+          },
+          "model": {
+            "type": "string"
+          },
+          "rubric": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "skill",
+          "prompt",
+          "model",
+          "rubric"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "task": {
+      "type": "string"
+    },
+    "culture": {
+      "type": "string",
+      "minLength": 80
+    },
+    "selfAssessment": {
+      "minItems": 3,
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "remediation": {
+      "type": "string"
+    },
+    "resources": {
+      "minItems": 1,
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "id",
+    "course",
+    "number",
+    "title",
+    "subtitle",
+    "status",
+    "prerequisites",
+    "objectives",
+    "warmup",
+    "lectures",
+    "reading",
+    "worked",
+    "cards",
+    "quiz",
+    "homework",
+    "task",
+    "culture",
+    "selfAssessment",
+    "remediation",
+    "resources"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,379 @@
+{
+  "id": "c1-u02",
+  "course": 1,
+  "number": 2,
+  "title": "Greetings, introductions & ser",
+  "subtitle": "Meeting people",
+  "status": "authored",
+  "prerequisites": [
+    "c1-u01"
+  ],
+  "objectives": [
+    "Introduce yourself and one other person with ser.",
+    "Choose a subject pronoun for familiar, polite, and plural address.",
+    "Ask and answer about origin and occupation."
+  ],
+  "warmup": "Without notes, retrieve three phrases from Unit 1. Use each in a new situation, then explain one correction from your last quiz. If you cannot retrieve a phrase, review its card before starting this unit.",
+  "lectures": [
+    {
+      "title": "People before paradigms",
+      "body": "A subject is the person or thing a sentence is about. An infinitive is the dictionary form of a verb, such as ser (to be). A conjugated form connects that verb to a subject: yo soy, tú eres, él/ella/usted es, nosotros/nosotras somos, vosotros/vosotras sois, ellos/ellas/ustedes son. Learn them in statements: Soy Ana. Somos estudiantes. Usted uses third-person grammar even though you are speaking directly to someone. Do not say usted eres. Spanish often omits the subject pronoun because context and the verb identify the person. Soy Ana is complete; yo soy Ana adds emphasis or contrast."
+    },
+    {
+      "title": "Identity, origin, and occupation",
+      "body": "Use ser to identify or classify: Ana es médica. Soy de Perú. Somos estudiantes. An unmodified occupation normally has no indefinite article after ser: Soy profesor, not soy un profesor in a neutral job introduction. An adjective changes the pattern: Es una profesora excelente. Nationality adjectives usually begin with a lowercase letter: peruana, mexicano. Ask ¿De dónde eres? to a familiar singular addressee; ¿De dónde es usted? is polite singular address. No soy de aquí puts no before the conjugated verb. Do not translate English word order mechanically."
+    },
+    {
+      "title": "More than one way to say you",
+      "body": "Tú is familiar singular in many communities. Usted is often respectful or distant, but its social meaning varies, including warm family use in some places. Ustedes is plural you throughout Latin America and also formal plural in Spain. Vosotros/vosotras is familiar plural in much of Spain. Vos is familiar singular in many regions: in common Río de la Plata usage, vos sos contrasts with tú eres. Voseo forms and social patterns vary. Learn to recognize all five choices, and follow local preferences. Ask a speaker how they prefer to be addressed; familiarity cannot be inferred from age alone."
+    }
+  ],
+  "reading": "—Hola, soy Elena. ¿Cómo te llamas?\n—Me llamo Diego. Soy de Ecuador. ¿Y tú?\n—Soy de México. Soy estudiante.\n—Mucho gusto. Esta es la profesora Ruiz.\n—Buenos días, profesora. ¿Es usted de aquí?\n—No, soy de Colombia. Ustedes son mis estudiantes. Bienvenidos.",
+  "worked": [
+    {
+      "prompt": "Complete: Yo ___ de Perú.",
+      "answer": "soy",
+      "reason": "Yo takes soy; es belongs with él, ella, or usted."
+    },
+    {
+      "prompt": "Complete: Usted ___ profesora.",
+      "answer": "es",
+      "reason": "Polite singular usted has third-person singular agreement."
+    },
+    {
+      "prompt": "Complete: Nosotras ___ estudiantes.",
+      "answer": "somos",
+      "reason": "Nosotras and nosotros both take somos."
+    },
+    {
+      "prompt": "Complete: Ellos ___ de Chile.",
+      "answer": "son",
+      "reason": "Third-person plural subjects take son."
+    },
+    {
+      "prompt": "Complete familiar singular: Tú ___ de aquí.",
+      "answer": "eres",
+      "reason": "Tú takes eres; vos sos is a different regional paradigm."
+    },
+    {
+      "prompt": "Complete a neutral job statement: Soy ___ (teacher, masculine).",
+      "answer": "profesor",
+      "reason": "A neutral unmodified occupation normally omits the indefinite article."
+    }
+  ],
+  "task": "Introduce yourself to a new classmate, then introduce that person to a teacher. Switch from tú to usted when appropriate and explain why.",
+  "culture": "Do not treat tú as universally friendly or usted as universally cold. Address choices encode relationships differently across regions. Vos is standard local speech in many communities, not defective tú.",
+  "selfAssessment": [
+    "I can introduce yourself and one other person with ser.",
+    "I can choose a subject pronoun for familiar, polite, and plural address.",
+    "I can ask and answer about origin and occupation."
+  ],
+  "remediation": "Group missed items by concept, not by score. Reread the relevant mini-lecture, explain one worked example aloud, and write two new examples. Rehearse the communication task after a day. If you can select an answer but cannot use it in an exchange, prioritize retrieval and partner practice.",
+  "resources": [
+    "sd-pronouns"
+  ],
+  "cards": [
+    {
+      "id": "c1-u02-f01",
+      "unit": "c1-u02",
+      "kind": "production",
+      "front": "I am",
+      "back": "Yo soy",
+      "example": "Yo soy."
+    },
+    {
+      "id": "c1-u02-f02",
+      "unit": "c1-u02",
+      "kind": "recognition",
+      "front": "Tú eres",
+      "back": "You are (tú)",
+      "example": "Tú eres."
+    },
+    {
+      "id": "c1-u02-f03",
+      "unit": "c1-u02",
+      "kind": "production",
+      "front": "You are (usted)",
+      "back": "Usted es",
+      "example": "Usted es."
+    },
+    {
+      "id": "c1-u02-f04",
+      "unit": "c1-u02",
+      "kind": "recognition",
+      "front": "Somos estudiantes",
+      "back": "We are students",
+      "example": "Somos estudiantes."
+    },
+    {
+      "id": "c1-u02-f05",
+      "unit": "c1-u02",
+      "kind": "production",
+      "front": "They are doctors (women)",
+      "back": "Ellas son médicas",
+      "example": "Ellas son médicas."
+    },
+    {
+      "id": "c1-u02-f06",
+      "unit": "c1-u02",
+      "kind": "recognition",
+      "front": "Soy de Perú",
+      "back": "I am from Peru",
+      "example": "Soy de Perú."
+    },
+    {
+      "id": "c1-u02-f07",
+      "unit": "c1-u02",
+      "kind": "production",
+      "front": "Where are you from? (tú)",
+      "back": "¿De dónde eres?",
+      "example": "¿De dónde eres?"
+    },
+    {
+      "id": "c1-u02-f08",
+      "unit": "c1-u02",
+      "kind": "recognition",
+      "front": "¿Cómo te llamas?",
+      "back": "What is your name?",
+      "example": "¿Cómo te llamas?"
+    },
+    {
+      "id": "c1-u02-f09",
+      "unit": "c1-u02",
+      "kind": "production",
+      "front": "My name is Ana",
+      "back": "Me llamo Ana",
+      "example": "Me llamo Ana."
+    },
+    {
+      "id": "c1-u02-f10",
+      "unit": "c1-u02",
+      "kind": "recognition",
+      "front": "¿Y tú?",
+      "back": "And you?",
+      "example": "¿Y tú?"
+    },
+    {
+      "id": "c1-u02-f11",
+      "unit": "c1-u02",
+      "kind": "production",
+      "front": "This is Elena",
+      "back": "Esta es Elena",
+      "example": "Esta es Elena."
+    },
+    {
+      "id": "c1-u02-f12",
+      "unit": "c1-u02",
+      "kind": "recognition",
+      "front": "No soy de aquí",
+      "back": "I am not from here",
+      "example": "No soy de aquí."
+    },
+    {
+      "id": "c1-u02-f13",
+      "unit": "c1-u02",
+      "kind": "production",
+      "front": "You are from here (common voseo)",
+      "back": "Vos sos de aquí",
+      "example": "Vos sos de aquí."
+    },
+    {
+      "id": "c1-u02-f14",
+      "unit": "c1-u02",
+      "kind": "recognition",
+      "front": "Vosotros sois estudiantes",
+      "back": "You are students (vosotros)",
+      "example": "Vosotros sois estudiantes."
+    },
+    {
+      "id": "c1-u02-f15",
+      "unit": "c1-u02",
+      "kind": "production",
+      "front": "You are students (ustedes)",
+      "back": "Ustedes son estudiantes",
+      "example": "Ustedes son estudiantes."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c1-u02-q01",
+      "type": "cloze",
+      "prompt": "Complete: Yo ___ de Perú.",
+      "answers": [
+        "soy"
+      ],
+      "explanation": "Yo takes soy; es belongs with él, ella, or usted. Check the subject and the intended meaning before choosing a form.",
+      "concept": "People before paradigms"
+    },
+    {
+      "id": "c1-u02-q02",
+      "type": "cloze",
+      "prompt": "Complete: Usted ___ profesora.",
+      "answers": [
+        "es"
+      ],
+      "explanation": "Polite singular usted has third-person singular agreement. Check the subject and the intended meaning before choosing a form.",
+      "concept": "Identity, origin, and occupation"
+    },
+    {
+      "id": "c1-u02-q03",
+      "type": "cloze",
+      "prompt": "Complete: Nosotras ___ estudiantes.",
+      "answers": [
+        "somos"
+      ],
+      "explanation": "Nosotras and nosotros both take somos. Check the subject and the intended meaning before choosing a form.",
+      "concept": "More than one way to say you"
+    },
+    {
+      "id": "c1-u02-q04",
+      "type": "cloze",
+      "prompt": "Complete: Ellos ___ de Chile.",
+      "answers": [
+        "son"
+      ],
+      "explanation": "Third-person plural subjects take son. Check the subject and the intended meaning before choosing a form.",
+      "concept": "People before paradigms"
+    },
+    {
+      "id": "c1-u02-q05",
+      "type": "cloze",
+      "prompt": "Complete familiar singular: Tú ___ de aquí.",
+      "answers": [
+        "eres"
+      ],
+      "explanation": "Tú takes eres; vos sos is a different regional paradigm. Check the subject and the intended meaning before choosing a form.",
+      "concept": "Identity, origin, and occupation"
+    },
+    {
+      "id": "c1-u02-q06",
+      "type": "cloze",
+      "prompt": "Complete a neutral job statement: Soy ___ (teacher, masculine).",
+      "answers": [
+        "profesor"
+      ],
+      "explanation": "A neutral unmodified occupation normally omits the indefinite article. Check the subject and the intended meaning before choosing a form.",
+      "concept": "More than one way to say you"
+    },
+    {
+      "id": "c1-u02-q07",
+      "type": "matching",
+      "prompt": "Select the expression that communicates: I am.",
+      "options": [
+        "Yo soy",
+        "¿Y tú?",
+        "Vos sos de aquí"
+      ],
+      "answers": [
+        "Yo soy"
+      ],
+      "explanation": "“Yo soy” communicates “I am.” The other choices communicate “And you?” and “You are from here (common voseo)”; those do not answer this prompt.",
+      "concept": "Meaning in context"
+    },
+    {
+      "id": "c1-u02-q08",
+      "type": "choice",
+      "prompt": "Select the expression that communicates: You are (tú).",
+      "options": [
+        "Tú eres",
+        "Esta es Elena",
+        "Vosotros sois estudiantes"
+      ],
+      "answers": [
+        "Tú eres"
+      ],
+      "explanation": "“Tú eres” communicates “You are (tú).” The other choices communicate “This is Elena” and “You are students (vosotros)”; those do not answer this prompt.",
+      "concept": "Meaning in context"
+    },
+    {
+      "id": "c1-u02-q09",
+      "type": "matching",
+      "prompt": "Select the expression that communicates: You are (usted).",
+      "options": [
+        "Usted es",
+        "No soy de aquí",
+        "Ustedes son estudiantes"
+      ],
+      "answers": [
+        "Usted es"
+      ],
+      "explanation": "“Usted es” communicates “You are (usted).” The other choices communicate “I am not from here” and “You are students (ustedes)”; those do not answer this prompt.",
+      "concept": "Meaning in context"
+    },
+    {
+      "id": "c1-u02-q10",
+      "type": "choice",
+      "prompt": "Select the expression that communicates: We are students.",
+      "options": [
+        "Somos estudiantes",
+        "Vos sos de aquí",
+        "Yo soy"
+      ],
+      "answers": [
+        "Somos estudiantes"
+      ],
+      "explanation": "“Somos estudiantes” communicates “We are students.” The other choices communicate “You are from here (common voseo)” and “I am”; those do not answer this prompt.",
+      "concept": "Meaning in context"
+    },
+    {
+      "id": "c1-u02-q11",
+      "type": "matching",
+      "prompt": "Select the expression that communicates: They are doctors (women).",
+      "options": [
+        "Ellas son médicas",
+        "Vosotros sois estudiantes",
+        "Tú eres"
+      ],
+      "answers": [
+        "Ellas son médicas"
+      ],
+      "explanation": "“Ellas son médicas” communicates “They are doctors (women).” The other choices communicate “You are students (vosotros)” and “You are (tú)”; those do not answer this prompt.",
+      "concept": "Meaning in context"
+    },
+    {
+      "id": "c1-u02-q12",
+      "type": "choice",
+      "prompt": "Select the expression that communicates: I am from Peru.",
+      "options": [
+        "Soy de Perú",
+        "Ustedes son estudiantes",
+        "Usted es"
+      ],
+      "answers": [
+        "Soy de Perú"
+      ],
+      "explanation": "“Soy de Perú” communicates “I am from Peru.” The other choices communicate “You are students (ustedes)” and “You are (usted)”; those do not answer this prompt.",
+      "concept": "Meaning in context"
+    }
+  ],
+  "homework": [
+    {
+      "id": "c1-u02-h1",
+      "skill": "Reading & writing",
+      "prompt": "Read the original text twice. Identify who is involved, the situation, and three key details. Rewrite it with two meaningful changes and underline the forms that had to change.",
+      "model": "Use the original text as a comparison model. Preserve its grammatical relationships, but change facts. Explain each changed ending using one of this unit’s mini-lectures.",
+      "rubric": "0–2 each: accurate key details, coherent changes, target grammar, explanation of corrections. Maximum 8; self-assessment is not instructor validation."
+    },
+    {
+      "id": "c1-u02-h2",
+      "skill": "Listening",
+      "prompt": "Listen to the original text using an available Spanish device voice or a willing reader. Hide the text, note five words or phrases you hear, then compare. Record the source and two uncertainties. If audio is unavailable, complete reading preparation and mark listening as not yet completed.",
+      "model": "A useful log includes source, date, words actually heard, and a correction confirmed against the text. Synthetic speech is listening rehearsal and does not represent the range of natural accents.",
+      "rubric": "0–2 each: documented source, specific notes, comparison, actionable next step. Score the process; do not invent comprehension evidence."
+    },
+    {
+      "id": "c1-u02-h3",
+      "skill": "Speaking & interaction",
+      "prompt": "Introduce yourself to a new classmate, then introduce that person to a teacher. Switch from tú to usted when appropriate and explain why.",
+      "model": "Use the dialogue or reading for a model of suitable language, then change the facts. Include one request for clarification and a response to it. Save your recording or a written interaction reflection.",
+      "rubric": "0–3 each: task completion, comprehensibility, target-form control, responsiveness. A 3 means independently effective for this task; 2 some help; 1 frequent help; 0 no evidence. Mark solo work as rehearsal."
+    },
+    {
+      "id": "c1-u02-h4",
+      "skill": "Retrieval & reflection",
+      "prompt": "After at least one day, produce five flashcard phrases without looking. Use two in new sentences. Compare with your earlier work and write one concrete plan for the next study session.",
+      "model": "Example reflection format: I retrieved [phrase], but confused [form]. I will revisit [lecture] and use the corrected form in [specific situation].",
+      "rubric": "Count successful retrieval separately from task quality. A useful reflection names an error, a correction, and a new use."
+    }
+  ]
+}

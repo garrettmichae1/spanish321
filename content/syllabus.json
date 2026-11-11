@@ -1,0 +1,580 @@
+[
+  {
+    "id": 1,
+    "title": "Spanish I",
+    "subtitle": "Foundations",
+    "level": "A1-oriented",
+    "units": [
+      {
+        "id": "c1-u01",
+        "number": 1,
+        "title": "Sounds, spelling & survival phrases",
+        "prerequisites": [],
+        "status": "authored"
+      },
+      {
+        "id": "c1-u02",
+        "number": 2,
+        "title": "Greetings, introductions & ser",
+        "prerequisites": [
+          "c1-u01"
+        ],
+        "status": "authored"
+      },
+      {
+        "id": "c1-u03",
+        "number": 3,
+        "title": "Nouns, articles & agreement",
+        "prerequisites": [
+          "c1-u02"
+        ],
+        "status": "authored"
+      },
+      {
+        "id": "c1-u04",
+        "number": 4,
+        "title": "Numbers, dates & time",
+        "prerequisites": [
+          "c1-u03"
+        ],
+        "status": "authored"
+      },
+      {
+        "id": "c1-u05",
+        "number": 5,
+        "title": "The present tense & daily life",
+        "prerequisites": [
+          "c1-u04"
+        ],
+        "status": "authored"
+      },
+      {
+        "id": "c1-u06",
+        "number": 6,
+        "title": "Questions, negation & midterm",
+        "prerequisites": [
+          "c1-u05"
+        ],
+        "status": "authored"
+      },
+      {
+        "id": "c1-u07",
+        "number": 7,
+        "title": "Places, estar & hay",
+        "prerequisites": [
+          "c1-u06"
+        ],
+        "status": "authored"
+      },
+      {
+        "id": "c1-u08",
+        "number": 8,
+        "title": "Family, descriptions & tener",
+        "prerequisites": [
+          "c1-u07"
+        ],
+        "status": "authored"
+      },
+      {
+        "id": "c1-u09",
+        "number": 9,
+        "title": "Interests, gustar & invitations",
+        "prerequisites": [
+          "c1-u08"
+        ],
+        "status": "authored"
+      },
+      {
+        "id": "c1-u10",
+        "number": 10,
+        "title": "Routines & irregular verbs",
+        "prerequisites": [
+          "c1-u09"
+        ],
+        "status": "authored"
+      },
+      {
+        "id": "c1-u11",
+        "number": 11,
+        "title": "Food, shopping & future plans",
+        "prerequisites": [
+          "c1-u10"
+        ],
+        "status": "authored"
+      },
+      {
+        "id": "c1-u12",
+        "number": 12,
+        "title": "Your first conversations",
+        "prerequisites": [
+          "c1-u11"
+        ],
+        "status": "authored"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Spanish II",
+    "subtitle": "Everyday communication",
+    "level": "A2-oriented",
+    "units": [
+      {
+        "id": "c2-u01",
+        "number": 1,
+        "title": "Present-tense changes",
+        "prerequisites": [
+          "c1-u12"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c2-u02",
+        "number": 2,
+        "title": "Reflexive routines",
+        "prerequisites": [
+          "c2-u01"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c2-u03",
+        "number": 3,
+        "title": "Direct-object pronouns",
+        "prerequisites": [
+          "c2-u02"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c2-u04",
+        "number": 4,
+        "title": "Indirect & combined pronouns",
+        "prerequisites": [
+          "c2-u03"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c2-u05",
+        "number": 5,
+        "title": "Comparisons & quantities",
+        "prerequisites": [
+          "c2-u04"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c2-u06",
+        "number": 6,
+        "title": "Regular preterite & midterm",
+        "prerequisites": [
+          "c2-u05"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c2-u07",
+        "number": 7,
+        "title": "Irregular preterite",
+        "prerequisites": [
+          "c2-u06"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c2-u08",
+        "number": 8,
+        "title": "Imperfect & past habits",
+        "prerequisites": [
+          "c2-u07"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c2-u09",
+        "number": 9,
+        "title": "Telling connected stories",
+        "prerequisites": [
+          "c2-u08"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c2-u10",
+        "number": 10,
+        "title": "Commands & everyday advice",
+        "prerequisites": [
+          "c2-u09"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c2-u11",
+        "number": 11,
+        "title": "Por, para & present perfect",
+        "prerequisites": [
+          "c2-u10"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c2-u12",
+        "number": 12,
+        "title": "Travel & storytelling project",
+        "prerequisites": [
+          "c2-u11"
+        ],
+        "status": "planned"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Spanish III",
+    "subtitle": "Independent communication",
+    "level": "B1-oriented",
+    "units": [
+      {
+        "id": "c3-u01",
+        "number": 1,
+        "title": "Connected past narration",
+        "prerequisites": [
+          "c2-u12"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c3-u02",
+        "number": 2,
+        "title": "Perfect tenses & sequence",
+        "prerequisites": [
+          "c3-u01"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c3-u03",
+        "number": 3,
+        "title": "Future forms & predictions",
+        "prerequisites": [
+          "c3-u02"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c3-u04",
+        "number": 4,
+        "title": "Conditional & possibilities",
+        "prerequisites": [
+          "c3-u03"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c3-u05",
+        "number": 5,
+        "title": "Relative clauses",
+        "prerequisites": [
+          "c3-u04"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c3-u06",
+        "number": 6,
+        "title": "Interview & narrative midterm",
+        "prerequisites": [
+          "c3-u05"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c3-u07",
+        "number": 7,
+        "title": "Present subjunctive",
+        "prerequisites": [
+          "c3-u06"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c3-u08",
+        "number": 8,
+        "title": "Wishes, emotion & influence",
+        "prerequisites": [
+          "c3-u07"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c3-u09",
+        "number": 9,
+        "title": "Doubt, purpose & clauses",
+        "prerequisites": [
+          "c3-u08"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c3-u10",
+        "number": 10,
+        "title": "Impersonal & passive se",
+        "prerequisites": [
+          "c3-u09"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c3-u11",
+        "number": 11,
+        "title": "Opinions & conversation repair",
+        "prerequisites": [
+          "c3-u10"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c3-u12",
+        "number": 12,
+        "title": "Problem-solving presentation",
+        "prerequisites": [
+          "c3-u11"
+        ],
+        "status": "planned"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Spanish IV",
+    "subtitle": "Confident discussion",
+    "level": "B2-oriented",
+    "units": [
+      {
+        "id": "c4-u01",
+        "number": 1,
+        "title": "Tense, aspect & mood",
+        "prerequisites": [
+          "c3-u12"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c4-u02",
+        "number": 2,
+        "title": "Imperfect subjunctive",
+        "prerequisites": [
+          "c4-u01"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c4-u03",
+        "number": 3,
+        "title": "Real & hypothetical si clauses",
+        "prerequisites": [
+          "c4-u02"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c4-u04",
+        "number": 4,
+        "title": "Perfect subjunctive & counterfactuals",
+        "prerequisites": [
+          "c4-u03"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c4-u05",
+        "number": 5,
+        "title": "Reported speech",
+        "prerequisites": [
+          "c4-u04"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c4-u06",
+        "number": 6,
+        "title": "Multiple-source midterm",
+        "prerequisites": [
+          "c4-u05"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c4-u07",
+        "number": 7,
+        "title": "Connectors & argument",
+        "prerequisites": [
+          "c4-u06"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c4-u08",
+        "number": 8,
+        "title": "Register & professional writing",
+        "prerequisites": [
+          "c4-u07"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c4-u09",
+        "number": 9,
+        "title": "News & differing viewpoints",
+        "prerequisites": [
+          "c4-u08"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c4-u10",
+        "number": 10,
+        "title": "Debate & negotiation",
+        "prerequisites": [
+          "c4-u09"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c4-u11",
+        "number": 11,
+        "title": "Culture & regional variation",
+        "prerequisites": [
+          "c4-u10"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c4-u12",
+        "number": 12,
+        "title": "Persuasive presentation",
+        "prerequisites": [
+          "c4-u11"
+        ],
+        "status": "planned"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Advanced Spanish",
+    "subtitle": "Academic & professional practice",
+    "level": "B2–C1 stretch",
+    "units": [
+      {
+        "id": "c5-u01",
+        "number": 1,
+        "title": "Diagnostic & improvement plan",
+        "prerequisites": [
+          "c4-u12"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c5-u02",
+        "number": 2,
+        "title": "Extended listening & notes",
+        "prerequisites": [
+          "c5-u01"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c5-u03",
+        "number": 3,
+        "title": "Complex reading & arguments",
+        "prerequisites": [
+          "c5-u02"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c5-u04",
+        "number": 4,
+        "title": "Multiple-source synthesis",
+        "prerequisites": [
+          "c5-u03"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c5-u05",
+        "number": 5,
+        "title": "Academic & professional writing",
+        "prerequisites": [
+          "c5-u04"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c5-u06",
+        "number": 6,
+        "title": "Research briefing midterm",
+        "prerequisites": [
+          "c5-u05"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c5-u07",
+        "number": 7,
+        "title": "Presentations & questions",
+        "prerequisites": [
+          "c5-u06"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c5-u08",
+        "number": 8,
+        "title": "Nuance, idioms & pragmatics",
+        "prerequisites": [
+          "c5-u07"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c5-u09",
+        "number": 9,
+        "title": "Workplace collaboration",
+        "prerequisites": [
+          "c5-u08"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c5-u10",
+        "number": 10,
+        "title": "Literature, film & humor",
+        "prerequisites": [
+          "c5-u09"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c5-u11",
+        "number": 11,
+        "title": "Conversation & error repair",
+        "prerequisites": [
+          "c5-u10"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c5-u12",
+        "number": 12,
+        "title": "Portfolio & capstone",
+        "prerequisites": [
+          "c5-u11"
+        ],
+        "status": "planned"
+      }
+    ]
+  }
+]

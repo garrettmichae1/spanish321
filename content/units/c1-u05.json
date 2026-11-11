@@ -1,0 +1,380 @@
+{
+  "id": "c1-u05",
+  "course": 1,
+  "number": 5,
+  "title": "The present tense & daily life",
+  "subtitle": "Talking about daily life",
+  "status": "authored",
+  "prerequisites": [
+    "c1-u04"
+  ],
+  "objectives": [
+    "Identify an infinitive and a conjugated verb.",
+    "Conjugate regular ar, er, and ir verbs in the present.",
+    "Describe a typical day with time expressions."
+  ],
+  "warmup": "Without notes, retrieve three phrases from Unit 4. Use each in a new situation, then explain one correction from your last quiz. If you cannot retrieve a phrase, review its card before starting this unit.",
+  "lectures": [
+    {
+      "title": "Build a verb from stem and ending",
+      "body": "An infinitive names an action without fixing its subject: hablar, comer, vivir. Remove ar, er, or ir to find the stem. Regular present endings for hablar are o, as, a, amos, áis, an: hablo, hablas, habla, hablamos, habláis, hablan. For comer: como, comes, come, comemos, coméis, comen. For vivir: vivo, vives, vive, vivimos, vivís, viven. Ustedes uses the same form as ellos/ellas. The vosotros forms support recognition even if your usual plural address is ustedes. Make one complete statement with each form instead of memorizing an isolated grid."
+    },
+    {
+      "title": "A present tense with several jobs",
+      "body": "Trabajo en casa can mean I work at home or, in suitable context, I am working at home. Spanish does not require a progressive form every time English uses one. Habitual clues include todos los días, los lunes, normalmente, a veces, and nunca. Put the time phrase where it helps the listener: Los lunes estudio español. A negative statement puts no before the conjugated verb: No trabajo los domingos. In a sentence with two verbs, the second may remain infinitive after an appropriate first verb: Necesito estudiar. Do not conjugate both as necesito estudio."
+    },
+    {
+      "title": "Subjects can be understood",
+      "body": "Because verb endings carry information, estudio usually needs no yo. But habla could describe él, ella, usted, or a named singular subject, so give context when necessary. Pronouns also show contrast: Yo estudio; ella trabaja. Word order is flexible but not arbitrary; start with straightforward subject–verb–details patterns. Avoid translating English do as a required helper: ¿Trabajas aquí? is already a question. Read aloud in meaningful groups and check who is doing each action before choosing an ending. If a verb is marked irregular, do not apply the regular pattern blindly; upcoming units add frequent exceptions."
+    }
+  ],
+  "reading": "Elena vive en Quito. Trabaja en una biblioteca y estudia español con Diego los martes. Diego vive cerca y come en casa. Los dos hablan por teléfono a veces. Elena dice: «Necesito practicar, pero no trabajo los domingos». Diego responde: «Perfecto. Los domingos leemos y escribimos juntos». Identify which activities are shared and which belong to one person. Then retell the paragraph with yo as Elena.",
+  "worked": [
+    {
+      "prompt": "Complete: Yo ___ español. (hablar)",
+      "answer": "hablo",
+      "reason": "Remove ar and add o for yo."
+    },
+    {
+      "prompt": "Complete: Ustedes ___ aquí. (comer)",
+      "answer": "comen",
+      "reason": "Ustedes uses third-person plural en for regular er verbs."
+    },
+    {
+      "prompt": "Complete: Nosotros ___ en Quito. (vivir)",
+      "answer": "vivimos",
+      "reason": "Regular ir verbs use imos with nosotros."
+    },
+    {
+      "prompt": "Complete: Tú ___ los martes. (estudiar)",
+      "answer": "estudias",
+      "reason": "Tú takes as on a regular ar verb."
+    },
+    {
+      "prompt": "Complete: Necesito ___ (study).",
+      "answer": "estudiar",
+      "reason": "After necesito, the second verb remains infinitive here."
+    },
+    {
+      "prompt": "Negate “Trabajo aquí.”",
+      "answer": "No trabajo aquí",
+      "reason": "No directly precedes the conjugated verb; no extra do is needed."
+    }
+  ],
+  "task": "Compare a typical weekday with a partner. Find two shared habits and one difference; use nosotros for the shared habits.",
+  "culture": "In many voseo varieties the present familiar singular has endings such as hablás, comés, vivís. These are not random stress errors. Recognize the local pattern and avoid mixing it unintentionally with tú endings.",
+  "selfAssessment": [
+    "I can identify an infinitive and a conjugated verb.",
+    "I can conjugate regular ar, er, and ir verbs in the present.",
+    "I can describe a typical day with time expressions."
+  ],
+  "remediation": "Group missed items by concept, not by score. Reread the relevant mini-lecture, explain one worked example aloud, and write two new examples. Rehearse the communication task after a day. If you can select an answer but cannot use it in an exchange, prioritize retrieval and partner practice.",
+  "resources": [
+    "sd-present"
+  ],
+  "cards": [
+    {
+      "id": "c1-u05-f01",
+      "unit": "c1-u05",
+      "kind": "production",
+      "front": "I speak Spanish",
+      "back": "Hablo español",
+      "example": "Hablo español."
+    },
+    {
+      "id": "c1-u05-f02",
+      "unit": "c1-u05",
+      "kind": "recognition",
+      "front": "Como en casa",
+      "back": "I eat at home",
+      "example": "Como en casa."
+    },
+    {
+      "id": "c1-u05-f03",
+      "unit": "c1-u05",
+      "kind": "production",
+      "front": "I live in Quito",
+      "back": "Vivo en Quito",
+      "example": "Vivo en Quito."
+    },
+    {
+      "id": "c1-u05-f04",
+      "unit": "c1-u05",
+      "kind": "recognition",
+      "front": "Estudiamos juntos",
+      "back": "We study together",
+      "example": "Estudiamos juntos."
+    },
+    {
+      "id": "c1-u05-f05",
+      "unit": "c1-u05",
+      "kind": "production",
+      "front": "They work here",
+      "back": "Trabajan aquí",
+      "example": "Trabajan aquí."
+    },
+    {
+      "id": "c1-u05-f06",
+      "unit": "c1-u05",
+      "kind": "recognition",
+      "front": "¿Trabajas aquí?",
+      "back": "Do you work here?",
+      "example": "¿Trabajas aquí?"
+    },
+    {
+      "id": "c1-u05-f07",
+      "unit": "c1-u05",
+      "kind": "production",
+      "front": "I do not work on Sundays",
+      "back": "No trabajo los domingos",
+      "example": "No trabajo los domingos."
+    },
+    {
+      "id": "c1-u05-f08",
+      "unit": "c1-u05",
+      "kind": "recognition",
+      "front": "Necesito estudiar",
+      "back": "I need to study",
+      "example": "Necesito estudiar."
+    },
+    {
+      "id": "c1-u05-f09",
+      "unit": "c1-u05",
+      "kind": "production",
+      "front": "Every day",
+      "back": "Todos los días",
+      "example": "Todos los días."
+    },
+    {
+      "id": "c1-u05-f10",
+      "unit": "c1-u05",
+      "kind": "recognition",
+      "front": "A veces",
+      "back": "Sometimes",
+      "example": "A veces."
+    },
+    {
+      "id": "c1-u05-f11",
+      "unit": "c1-u05",
+      "kind": "production",
+      "front": "I normally read",
+      "back": "Normalmente leo",
+      "example": "Normalmente leo."
+    },
+    {
+      "id": "c1-u05-f12",
+      "unit": "c1-u05",
+      "kind": "recognition",
+      "front": "Escribimos juntos",
+      "back": "We write together",
+      "example": "Escribimos juntos."
+    },
+    {
+      "id": "c1-u05-f13",
+      "unit": "c1-u05",
+      "kind": "production",
+      "front": "On Mondays",
+      "back": "Los lunes",
+      "example": "Los lunes."
+    },
+    {
+      "id": "c1-u05-f14",
+      "unit": "c1-u05",
+      "kind": "recognition",
+      "front": "Aprendo español",
+      "back": "I learn Spanish",
+      "example": "Aprendo español."
+    },
+    {
+      "id": "c1-u05-f15",
+      "unit": "c1-u05",
+      "kind": "production",
+      "front": "Where do you live?",
+      "back": "¿Dónde vives?",
+      "example": "¿Dónde vives?"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c1-u05-q01",
+      "type": "cloze",
+      "prompt": "Complete: Yo ___ español. (hablar)",
+      "answers": [
+        "hablo"
+      ],
+      "explanation": "Remove ar and add o for yo. Check the subject and the intended meaning before choosing a form.",
+      "concept": "Build a verb from stem and ending"
+    },
+    {
+      "id": "c1-u05-q02",
+      "type": "cloze",
+      "prompt": "Complete: Ustedes ___ aquí. (comer)",
+      "answers": [
+        "comen"
+      ],
+      "explanation": "Ustedes uses third-person plural en for regular er verbs. Check the subject and the intended meaning before choosing a form.",
+      "concept": "A present tense with several jobs"
+    },
+    {
+      "id": "c1-u05-q03",
+      "type": "cloze",
+      "prompt": "Complete: Nosotros ___ en Quito. (vivir)",
+      "answers": [
+        "vivimos"
+      ],
+      "explanation": "Regular ir verbs use imos with nosotros. Check the subject and the intended meaning before choosing a form.",
+      "concept": "Subjects can be understood"
+    },
+    {
+      "id": "c1-u05-q04",
+      "type": "cloze",
+      "prompt": "Complete: Tú ___ los martes. (estudiar)",
+      "answers": [
+        "estudias"
+      ],
+      "explanation": "Tú takes as on a regular ar verb. Check the subject and the intended meaning before choosing a form.",
+      "concept": "Build a verb from stem and ending"
+    },
+    {
+      "id": "c1-u05-q05",
+      "type": "cloze",
+      "prompt": "Complete: Necesito ___ (study).",
+      "answers": [
+        "estudiar"
+      ],
+      "explanation": "After necesito, the second verb remains infinitive here. Check the subject and the intended meaning before choosing a form.",
+      "concept": "A present tense with several jobs"
+    },
+    {
+      "id": "c1-u05-q06",
+      "type": "typed",
+      "prompt": "Negate “Trabajo aquí.”",
+      "answers": [
+        "No trabajo aquí",
+        "Yo no trabajo aquí"
+      ],
+      "explanation": "No directly precedes the conjugated verb; no extra do is needed. Check the subject and the intended meaning before choosing a form.",
+      "concept": "Subjects can be understood"
+    },
+    {
+      "id": "c1-u05-q07",
+      "type": "matching",
+      "prompt": "Select the expression that communicates: I speak Spanish.",
+      "options": [
+        "Hablo español",
+        "A veces",
+        "Los lunes"
+      ],
+      "answers": [
+        "Hablo español"
+      ],
+      "explanation": "“Hablo español” communicates “I speak Spanish.” The other choices communicate “Sometimes” and “On Mondays”; those do not answer this prompt.",
+      "concept": "Meaning in context"
+    },
+    {
+      "id": "c1-u05-q08",
+      "type": "choice",
+      "prompt": "Select the expression that communicates: I eat at home.",
+      "options": [
+        "Como en casa",
+        "Normalmente leo",
+        "Aprendo español"
+      ],
+      "answers": [
+        "Como en casa"
+      ],
+      "explanation": "“Como en casa” communicates “I eat at home.” The other choices communicate “I normally read” and “I learn Spanish”; those do not answer this prompt.",
+      "concept": "Meaning in context"
+    },
+    {
+      "id": "c1-u05-q09",
+      "type": "matching",
+      "prompt": "Select the expression that communicates: I live in Quito.",
+      "options": [
+        "Vivo en Quito",
+        "Escribimos juntos",
+        "¿Dónde vives?"
+      ],
+      "answers": [
+        "Vivo en Quito"
+      ],
+      "explanation": "“Vivo en Quito” communicates “I live in Quito.” The other choices communicate “We write together” and “Where do you live?”; those do not answer this prompt.",
+      "concept": "Meaning in context"
+    },
+    {
+      "id": "c1-u05-q10",
+      "type": "choice",
+      "prompt": "Select the expression that communicates: We study together.",
+      "options": [
+        "Estudiamos juntos",
+        "Los lunes",
+        "Hablo español"
+      ],
+      "answers": [
+        "Estudiamos juntos"
+      ],
+      "explanation": "“Estudiamos juntos” communicates “We study together.” The other choices communicate “On Mondays” and “I speak Spanish”; those do not answer this prompt.",
+      "concept": "Meaning in context"
+    },
+    {
+      "id": "c1-u05-q11",
+      "type": "matching",
+      "prompt": "Select the expression that communicates: They work here.",
+      "options": [
+        "Trabajan aquí",
+        "Aprendo español",
+        "Como en casa"
+      ],
+      "answers": [
+        "Trabajan aquí"
+      ],
+      "explanation": "“Trabajan aquí” communicates “They work here.” The other choices communicate “I learn Spanish” and “I eat at home”; those do not answer this prompt.",
+      "concept": "Meaning in context"
+    },
+    {
+      "id": "c1-u05-q12",
+      "type": "choice",
+      "prompt": "Select the expression that communicates: Do you work here?.",
+      "options": [
+        "¿Trabajas aquí?",
+        "¿Dónde vives?",
+        "Vivo en Quito"
+      ],
+      "answers": [
+        "¿Trabajas aquí?"
+      ],
+      "explanation": "“¿Trabajas aquí?” communicates “Do you work here?.” The other choices communicate “Where do you live?” and “I live in Quito”; those do not answer this prompt.",
+      "concept": "Meaning in context"
+    }
+  ],
+  "homework": [
+    {
+      "id": "c1-u05-h1",
+      "skill": "Reading & writing",
+      "prompt": "Read the original text twice. Identify who is involved, the situation, and three key details. Rewrite it with two meaningful changes and underline the forms that had to change.",
+      "model": "Use the original text as a comparison model. Preserve its grammatical relationships, but change facts. Explain each changed ending using one of this unit’s mini-lectures.",
+      "rubric": "0–2 each: accurate key details, coherent changes, target grammar, explanation of corrections. Maximum 8; self-assessment is not instructor validation."
+    },
+    {
+      "id": "c1-u05-h2",
+      "skill": "Listening",
+      "prompt": "Listen to the original text using an available Spanish device voice or a willing reader. Hide the text, note five words or phrases you hear, then compare. Record the source and two uncertainties. If audio is unavailable, complete reading preparation and mark listening as not yet completed.",
+      "model": "A useful log includes source, date, words actually heard, and a correction confirmed against the text. Synthetic speech is listening rehearsal and does not represent the range of natural accents.",
+      "rubric": "0–2 each: documented source, specific notes, comparison, actionable next step. Score the process; do not invent comprehension evidence."
+    },
+    {
+      "id": "c1-u05-h3",
+      "skill": "Speaking & interaction",
+      "prompt": "Compare a typical weekday with a partner. Find two shared habits and one difference; use nosotros for the shared habits.",
+      "model": "Use the dialogue or reading for a model of suitable language, then change the facts. Include one request for clarification and a response to it. Save your recording or a written interaction reflection.",
+      "rubric": "0–3 each: task completion, comprehensibility, target-form control, responsiveness. A 3 means independently effective for this task; 2 some help; 1 frequent help; 0 no evidence. Mark solo work as rehearsal."
+    },
+    {
+      "id": "c1-u05-h4",
+      "skill": "Retrieval & reflection",
+      "prompt": "After at least one day, produce five flashcard phrases without looking. Use two in new sentences. Compare with your earlier work and write one concrete plan for the next study session.",
+      "model": "Example reflection format: I retrieved [phrase], but confused [form]. I will revisit [lecture] and use the corrected form in [specific situation].",
+      "rubric": "Count successful retrieval separately from task quality. A useful reflection names an error, a correction, and a new use."
+    }
+  ]
+}

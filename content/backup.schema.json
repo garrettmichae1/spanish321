@@ -1,0 +1,297 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "version": {
+      "type": "number",
+      "const": 1
+    },
+    "completed": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "reviews": {
+      "type": "object",
+      "propertyNames": {
+        "type": "string"
+      },
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "interval": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 3650
+          },
+          "ease": {
+            "type": "number",
+            "minimum": 1.3,
+            "maximum": 3
+          },
+          "due": {
+            "type": "number",
+            "minimum": 0
+          },
+          "reps": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 9007199254740991
+          },
+          "lapses": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 9007199254740991
+          }
+        },
+        "required": [
+          "interval",
+          "ease",
+          "due",
+          "reps",
+          "lapses"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "history": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "at": {
+            "type": "number"
+          },
+          "rating": {
+            "type": "string",
+            "enum": [
+              "again",
+              "hard",
+              "good",
+              "easy"
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "at",
+          "rating"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "attempts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "unit": {
+            "type": "string"
+          },
+          "mode": {
+            "type": "string",
+            "enum": [
+              "practice",
+              "assessment"
+            ]
+          },
+          "at": {
+            "type": "number"
+          },
+          "answers": {
+            "type": "object",
+            "propertyNames": {
+              "type": "string"
+            },
+            "additionalProperties": {
+              "type": "string"
+            }
+          },
+          "score": {
+            "type": "number"
+          },
+          "total": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "unit",
+          "mode",
+          "at",
+          "answers",
+          "score",
+          "total"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "homework": {
+      "type": "object",
+      "propertyNames": {
+        "type": "string"
+      },
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "text": {
+            "type": "string"
+          },
+          "evaluation": {
+            "type": "string",
+            "enum": [
+              "unassessed",
+              "self",
+              "peer",
+              "instructor"
+            ]
+          },
+          "updated": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "text",
+          "evaluation",
+          "updated"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "logs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "text": {
+            "type": "string"
+          },
+          "at": {
+            "type": "number"
+          },
+          "minutes": {
+            "type": "number",
+            "minimum": 0
+          },
+          "kind": {
+            "type": "string",
+            "enum": [
+              "listening",
+              "speaking",
+              "interaction"
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "text",
+          "at",
+          "minutes",
+          "kind"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "recordings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "data": {
+            "type": "string",
+            "maxLength": 15000000,
+            "format": "starts_with",
+            "pattern": "^data:audio\\/.*"
+          },
+          "at": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "id",
+          "name",
+          "data",
+          "at"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "customCards": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "front": {
+            "type": "string",
+            "minLength": 1
+          },
+          "back": {
+            "type": "string",
+            "minLength": 1
+          },
+          "example": {
+            "type": "string"
+          },
+          "kind": {
+            "type": "string",
+            "enum": [
+              "recognition",
+              "production"
+            ]
+          },
+          "unit": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "front",
+          "back",
+          "example",
+          "kind",
+          "unit"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "dailyLimit": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 200
+    },
+    "textScale": {
+      "type": "number",
+      "minimum": 1,
+      "maximum": 1.5
+    }
+  },
+  "required": [
+    "version",
+    "completed",
+    "reviews",
+    "history",
+    "attempts",
+    "homework",
+    "logs",
+    "recordings",
+    "customCards",
+    "dailyLimit",
+    "textScale"
+  ],
+  "additionalProperties": false
+}

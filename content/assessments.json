@@ -1,0 +1,80 @@
+[
+  {
+    "id": "c1-entry",
+    "title": "Spanish I · Entry check",
+    "unit": "c1-u01",
+    "instructions": "Optional orientation, not a placement certificate. If you are an absolute beginner, skip the score and begin Unit 1. Try six familiar expressions without notes, then record which skills you want to develop.",
+    "questions": [
+      "c1-u01-q01",
+      "c1-u01-q02",
+      "c1-u01-q03",
+      "c1-u01-q04",
+      "c1-u01-q05",
+      "c1-u01-q06"
+    ],
+    "task": "Record any greeting you already know. Write a learning goal and identify a realistic conversation partner or solo practice arrangement. No prior Spanish is expected.",
+    "rubric": "Score task fulfillment, comprehensibility/coherence, target-language control, and responsiveness/revision separately from 0 (no evidence) to 3 (independently effective for this task). Record the evaluator: self, peer, or instructor. Solo practice cannot demonstrate live interaction."
+  },
+  {
+    "id": "c1-midterm",
+    "title": "Spanish I · Cumulative midterm",
+    "unit": "c1-u06",
+    "instructions": "After Units 1–6, work without notes in assessment mode. These questions sample all six units. Then complete the writing and interaction task; report quiz accuracy separately from communication evidence.",
+    "questions": [
+      "c1-u01-q01",
+      "c1-u01-q02",
+      "c1-u01-q03",
+      "c1-u02-q01",
+      "c1-u02-q02",
+      "c1-u02-q03",
+      "c1-u03-q01",
+      "c1-u03-q02",
+      "c1-u03-q03",
+      "c1-u04-q01",
+      "c1-u04-q02",
+      "c1-u04-q03",
+      "c1-u05-q01",
+      "c1-u05-q02",
+      "c1-u05-q03",
+      "c1-u06-q01",
+      "c1-u06-q02",
+      "c1-u06-q03"
+    ],
+    "task": "Exchange names, origin, occupation, two daily habits and an appointment time with a partner. Ask five information questions and clarify one answer. Then write a 70–90-word profile of the person. Solo: invent a person and label your spoken evidence rehearsal.",
+    "rubric": "Score task fulfillment, comprehensibility/coherence, target-language control, and responsiveness/revision separately from 0 (no evidence) to 3 (independently effective for this task). Record the evaluator: self, peer, or instructor. Solo practice cannot demonstrate live interaction."
+  },
+  {
+    "id": "c1-final",
+    "title": "Spanish I · Cumulative final",
+    "unit": "c1-u12",
+    "instructions": "After Units 1–12, take one independent attempt without notes. Questions sample all twelve units; do not infer communication proficiency from the score. Save the capstone draft, revision and reflection in Unit 12 homework.",
+    "questions": [
+      "c1-u01-q01",
+      "c1-u01-q02",
+      "c1-u02-q01",
+      "c1-u02-q02",
+      "c1-u03-q01",
+      "c1-u03-q02",
+      "c1-u04-q01",
+      "c1-u04-q02",
+      "c1-u05-q01",
+      "c1-u05-q02",
+      "c1-u06-q01",
+      "c1-u06-q02",
+      "c1-u07-q01",
+      "c1-u07-q02",
+      "c1-u08-q01",
+      "c1-u08-q02",
+      "c1-u09-q01",
+      "c1-u09-q02",
+      "c1-u10-q01",
+      "c1-u10-q02",
+      "c1-u11-q01",
+      "c1-u11-q02",
+      "c1-u12-q01",
+      "c1-u12-q02"
+    ],
+    "task": "Write a 100–130-word personal profile covering identity, origin, location, routines, interests and a plan. Give a two-minute introduction, then answer three unprepared partner questions and negotiate an activity. Add one café request and an ingredient clarification. Keep your first and revised drafts; identify two corrections with reasons.",
+    "rubric": "Score task fulfillment, comprehensibility/coherence, target-language control, and responsiveness/revision separately from 0 (no evidence) to 3 (independently effective for this task). Record the evaluator: self, peer, or instructor. Solo practice cannot demonstrate live interaction."
+  }
+]

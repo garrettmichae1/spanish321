@@ -1,0 +1,451 @@
+{
+  "id": "c1-u01",
+  "course": 1,
+  "number": 1,
+  "title": "Sounds, spelling & survival phrases",
+  "subtitle": "Start with the sounds. Leave with a conversation.",
+  "status": "authored",
+  "prerequisites": [],
+  "objectives": [
+    "Pronounce the five Spanish vowels consistently in familiar words.",
+    "Locate the stressed syllable in familiar words using spelling and accent marks.",
+    "Spell your name and ask a partner to repeat or slow down.",
+    "Open and close a brief polite exchange using four survival phrases."
+  ],
+  "warmup": "No prior Spanish is required. Say your name aloud. Which sounds would someone need to hear to write it correctly? List two situations in which asking for repetition would help you. After studying, return and give those requests in Spanish.",
+  "lectures": [
+    {
+      "title": "Five vowels, a useful starting point",
+      "body": "Spanish has five vowel letters: **a, e, i, o, u**. Aim for one steady sound for each: **a** as in *casa*, **e** as in *mesa*, **i** as in *sí*, **o** as in *no*, and **u** as in *tú*. English comparisons are only approximations. Avoid turning *e* into the two-part English sound in “day,” or letting an unstressed vowel collapse into “uh.” In **mi casa**, keep both instances of *a* clear.\n\nDivide practice into small steps: say *a–e–i–o–u*, then *mi, no, tú*, then **Sí, por favor**. Normal speech links words together; clear vowels matter more than artificially separating every word. You do not need an imitation of one particular national accent to be understood.\n\nThe letter **h** is normally silent: **hola** starts with a vowel sound. **ñ** is a separate letter, as in **mañana**, not simply an *n* with decoration. **j** in *José* is a throaty or breathy sound whose strength varies by region. If a sound is difficult, use a phrase to keep the exchange going: **¿Puede repetir, por favor?**"
+    },
+    {
+      "title": "Spelling, letters, and regional pronunciation",
+      "body": "The alphabet has 27 letters, including **ñ**. The names are: a, be, ce, de, e, efe, ge, hache, i, jota, ka, ele, eme, ene, eñe, o, pe, cu, erre, ese, te, u, uve, doble uve, equis, ye, zeta. Letter names vary: *uve* may be *ve*; *ye* may be *i griega*; *doble uve* may be *doble u*. Ask for clarification rather than correcting a local convention. **ch** and **ll** are letter combinations, not separate alphabet letters.\n\nIn broadly Latin American pronunciation, **s**, **z**, and **c** before *e/i* share an s-like sound: *sí, zapato, cinco*. In much of Spain, *z* and soft *c* have the “th” sound of English “thin.” Both patterns are valid. **c** before *a/o/u* is k-like: *casa*. **qu** before *e/i* also represents that sound: *qué*; the *u* is silent. **g** before *e/i* sounds like *j*; elsewhere it is usually g-like. In *guerra* the *u* is silent; **ü** in *pingüino* tells you to pronounce it.\n\nA single **r** between vowels is usually a brief tap; **rr**, and **r** at the start of a word, are typically trilled. Practice gradually. **ll** and **y** vary widely, including y-like and sh-like realizations. Do not treat a regional pronunciation as an error."
+    },
+    {
+      "title": "Stress, accents, and asking for help",
+      "body": "Stress is the syllable with extra prominence. Words ending in a vowel, **n**, or **s** normally stress the next-to-last syllable: **CA-sa**, **HA-blan**, **GRA-cias**. Other consonant endings normally stress the last syllable: **ho-TEL**, **ha-BLAR**. A written accent overrides those patterns: **ca-FÉ**, **te-LÉ-fo-no**. Say the whole word, lightly emphasizing the stressed syllable, rather than shouting it.\n\nAccent marks can also distinguish words: **sí** means “yes,” while **si** means “if.” **tú** is the subject pronoun “you”; **tu** means “your.” You are not expected to master every accent rule today, but you must keep the marks when copying words. A keyboard or character palette is a learning tool, not cheating.\n\nSpanish writes opening question and exclamation marks: **¿Cómo se escribe?** and **¡Gracias!** Learn requests as useful whole phrases before analyzing their grammar. **¿Puede repetir?** is a polite request to one person. **Más despacio, por favor** means “more slowly, please.” **No entiendo** is a complete sentence; you do not need to insert an English-style “do.” Your first communication goal is to stay in the exchange, not to say everything perfectly."
+    }
+  ],
+  "reading": "**At a community class**\n\n**Ana:** Hola. Buenos días.\n\n**Leo:** Buenos días. Soy Leo.\n\n**Ana:** Perdón. ¿Puede repetir, por favor?\n\n**Leo:** Leo. Ele, e, o.\n\n**Ana:** Gracias. Soy Ana.\n\n**Leo:** ¿Cómo se escribe?\n\n**Ana:** A, ene, a.\n\n**Leo:** Mucho gusto.\n\n**Ana:** Igualmente. ¡Hasta luego!\n\n**Meaning:** Ana and Leo greet each other. Ana asks for repetition; Leo spells his name. Leo then asks how Ana's name is written. They say they are pleased to meet and take leave. *Soy* means “I am”; learn it as a phrase here. Unit 2 explains the verb. Read twice: first for the situation, then to find the two repair questions. Play both roles without looking at the English summary.",
+  "worked": [
+    {
+      "prompt": "Where is the stress in casa?",
+      "answer": "CA-sa",
+      "reason": "It ends in a vowel and has no written accent, so the next-to-last syllable is stressed."
+    },
+    {
+      "prompt": "Where is the stress in hotel?",
+      "answer": "ho-TEL",
+      "reason": "It ends in a consonant other than n or s; the last syllable gets the default stress."
+    },
+    {
+      "prompt": "Why does café need an accent?",
+      "answer": "To mark final-syllable stress.",
+      "reason": "Without the accent, its final vowel would predict next-to-last stress."
+    },
+    {
+      "prompt": "Does hola begin with a pronounced h?",
+      "answer": "No.",
+      "reason": "The h is silent in this familiar Spanish word; start with the vowel."
+    },
+    {
+      "prompt": "You missed a name. What can you ask?",
+      "answer": "¿Puede repetir, por favor?",
+      "reason": "This requests repetition politely without ending the exchange."
+    },
+    {
+      "prompt": "Write the Spanish word for yes.",
+      "answer": "sí",
+      "reason": "The accent distinguishes affirmative sí from conditional si, meaning if."
+    },
+    {
+      "prompt": "Spell Ana using letter names.",
+      "answer": "a, ene, a",
+      "reason": "Spelling uses letter names, not the sounds those letters make inside a word."
+    }
+  ],
+  "task": "Have a 60-second first meeting: greet, give your name, ask the other person to repeat, spell your name, and close politely. With a partner, use an unfamiliar name so clarification is real. Solo fallback: record both roles with a pause before each response; this rehearses retrieval but does not replace reacting to another person.",
+  "culture": "Greetings vary with place, relationship, and time of day. Buenos días is broadly useful in the morning; buenas tardes and buenas noches depend on local routines. A handshake, kiss, wave, or no physical contact may be appropriate. Follow the other person’s cues rather than assuming a single “Spanish” custom. Usted-style ¿Puede repetir? is a useful polite opening; tú, usted, ustedes, vosotros, and vos will be compared explicitly in Unit 2.",
+  "selfAssessment": [
+    "I can keep the five vowels clear in a short phrase.",
+    "I can explain the stress in casa, hotel, and café.",
+    "I can ask for repetition and spell my name without reading."
+  ],
+  "remediation": "If stress is uncertain, mark the stressed syllable in the six worked examples and explain the spelling rule aloud. If speaking freezes, rehearse only Hola → ¿Puede repetir? → Gracias in three short sessions. Revisit the quiz in practice mode after a day; a repeated score alone is not evidence of spontaneous communication.",
+  "resources": [
+    "sd-alphabet",
+    "lt-course"
+  ],
+  "cards": [
+    {
+      "id": "c1-u01-f01",
+      "unit": "c1-u01",
+      "kind": "production",
+      "front": "Hello",
+      "back": "Hola",
+      "example": "Hola, Ana."
+    },
+    {
+      "id": "c1-u01-f02",
+      "unit": "c1-u01",
+      "kind": "recognition",
+      "front": "Buenos días",
+      "back": "Good morning",
+      "example": "Buenos días, Leo."
+    },
+    {
+      "id": "c1-u01-f03",
+      "unit": "c1-u01",
+      "kind": "production",
+      "front": "Good afternoon",
+      "back": "Buenas tardes",
+      "example": "Buenas tardes, Ana."
+    },
+    {
+      "id": "c1-u01-f04",
+      "unit": "c1-u01",
+      "kind": "recognition",
+      "front": "Buenas noches",
+      "back": "Good evening / good night",
+      "example": "Buenas noches, Leo."
+    },
+    {
+      "id": "c1-u01-f05",
+      "unit": "c1-u01",
+      "kind": "production",
+      "front": "Please",
+      "back": "Por favor",
+      "example": "Más despacio, por favor."
+    },
+    {
+      "id": "c1-u01-f06",
+      "unit": "c1-u01",
+      "kind": "recognition",
+      "front": "Gracias",
+      "back": "Thank you",
+      "example": "Gracias, Ana."
+    },
+    {
+      "id": "c1-u01-f07",
+      "unit": "c1-u01",
+      "kind": "production",
+      "front": "You’re welcome",
+      "back": "De nada",
+      "example": "—Gracias. —De nada."
+    },
+    {
+      "id": "c1-u01-f08",
+      "unit": "c1-u01",
+      "kind": "recognition",
+      "front": "Perdón",
+      "back": "Excuse me / sorry",
+      "example": "Perdón. No entiendo."
+    },
+    {
+      "id": "c1-u01-f09",
+      "unit": "c1-u01",
+      "kind": "production",
+      "front": "Yes",
+      "back": "Sí",
+      "example": "Sí, por favor."
+    },
+    {
+      "id": "c1-u01-f10",
+      "unit": "c1-u01",
+      "kind": "recognition",
+      "front": "No",
+      "back": "No",
+      "example": "No, gracias."
+    },
+    {
+      "id": "c1-u01-f11",
+      "unit": "c1-u01",
+      "kind": "production",
+      "front": "I don’t understand",
+      "back": "No entiendo",
+      "example": "Perdón, no entiendo."
+    },
+    {
+      "id": "c1-u01-f12",
+      "unit": "c1-u01",
+      "kind": "recognition",
+      "front": "¿Puede repetir?",
+      "back": "Can you repeat? (polite)",
+      "example": "¿Puede repetir, por favor?"
+    },
+    {
+      "id": "c1-u01-f13",
+      "unit": "c1-u01",
+      "kind": "production",
+      "front": "More slowly, please",
+      "back": "Más despacio, por favor",
+      "example": "Más despacio, por favor. No entiendo."
+    },
+    {
+      "id": "c1-u01-f14",
+      "unit": "c1-u01",
+      "kind": "recognition",
+      "front": "¿Cómo se escribe?",
+      "back": "How is it spelled?",
+      "example": "Ana, ¿cómo se escribe?"
+    },
+    {
+      "id": "c1-u01-f15",
+      "unit": "c1-u01",
+      "kind": "production",
+      "front": "Nice to meet you",
+      "back": "Mucho gusto",
+      "example": "Hola. Mucho gusto."
+    },
+    {
+      "id": "c1-u01-f16",
+      "unit": "c1-u01",
+      "kind": "recognition",
+      "front": "Igualmente",
+      "back": "Likewise",
+      "example": "—Mucho gusto. —Igualmente."
+    },
+    {
+      "id": "c1-u01-f17",
+      "unit": "c1-u01",
+      "kind": "production",
+      "front": "See you later",
+      "back": "Hasta luego",
+      "example": "Gracias. Hasta luego."
+    },
+    {
+      "id": "c1-u01-f18",
+      "unit": "c1-u01",
+      "kind": "recognition",
+      "front": "Soy Ana",
+      "back": "My name is Ana (using soy)",
+      "example": "Hola. Soy Ana."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c1-u01-q01",
+      "type": "choice",
+      "prompt": "Which word keeps a silent h?",
+      "options": [
+        "hola",
+        "hotel with an English h",
+        "Both require an English h"
+      ],
+      "answers": [
+        "hola"
+      ],
+      "explanation": "Hola begins with a vowel sound. Spanish h is normally silent; an English h sound should not be inserted.",
+      "concept": "sounds"
+    },
+    {
+      "id": "c1-u01-q02",
+      "type": "choice",
+      "prompt": "Which spelling means yes?",
+      "options": [
+        "si",
+        "sí",
+        "se"
+      ],
+      "answers": [
+        "sí"
+      ],
+      "explanation": "Sí with an accent is affirmative. Si means if, and se has other grammatical functions.",
+      "concept": "accents"
+    },
+    {
+      "id": "c1-u01-q03",
+      "type": "choice",
+      "prompt": "Where is the stress in hotel?",
+      "options": [
+        "HO-tel",
+        "ho-TEL"
+      ],
+      "answers": [
+        "ho-TEL"
+      ],
+      "explanation": "Final l triggers final stress unless a written accent says otherwise. The vowel/n/s rule does not apply.",
+      "concept": "stress"
+    },
+    {
+      "id": "c1-u01-q04",
+      "type": "choice",
+      "prompt": "Where is the stress in casa?",
+      "options": [
+        "CA-sa",
+        "ca-SA"
+      ],
+      "answers": [
+        "CA-sa"
+      ],
+      "explanation": "A word ending in a vowel normally stresses its next-to-last syllable. There is no accent to override that pattern.",
+      "concept": "stress"
+    },
+    {
+      "id": "c1-u01-q05",
+      "type": "cloze",
+      "prompt": "Complete the polite request: Más ___, por favor.",
+      "answers": [
+        "despacio"
+      ],
+      "explanation": "Despacio means slowly. Más despacio requests a slower pace; it does not ask the person to speak louder.",
+      "concept": "repair"
+    },
+    {
+      "id": "c1-u01-q06",
+      "type": "typed",
+      "prompt": "Write the Spanish phrase meaning “I don’t understand.”",
+      "answers": [
+        "No entiendo",
+        "Yo no entiendo"
+      ],
+      "explanation": "No goes before entiendo. Do not add an English-style auxiliary do.",
+      "concept": "repair"
+    },
+    {
+      "id": "c1-u01-q07",
+      "type": "matching",
+      "prompt": "Match “thank you” with its Spanish expression.",
+      "options": [
+        "Gracias",
+        "De nada",
+        "Perdón"
+      ],
+      "answers": [
+        "Gracias"
+      ],
+      "explanation": "Gracias expresses thanks. De nada responds to thanks; perdón requests pardon or gets attention.",
+      "concept": "courtesy"
+    },
+    {
+      "id": "c1-u01-q08",
+      "type": "matching",
+      "prompt": "Match “How is it spelled?” with the right request.",
+      "options": [
+        "¿Cómo se escribe?",
+        "¿Puede repetir?",
+        "Hasta luego"
+      ],
+      "answers": [
+        "¿Cómo se escribe?"
+      ],
+      "explanation": "Cómo se escribe asks for spelling. Puede repetir asks for repetition, which may still leave spelling unclear.",
+      "concept": "repair"
+    },
+    {
+      "id": "c1-u01-q09",
+      "type": "choice",
+      "prompt": "Which is a separate letter in the Spanish alphabet?",
+      "options": [
+        "ñ",
+        "ch",
+        "ll"
+      ],
+      "answers": [
+        "ñ"
+      ],
+      "explanation": "Ñ is one of the 27 letters. Ch and ll are combinations of letters, although older alphabet lists treated them separately.",
+      "concept": "alphabet"
+    },
+    {
+      "id": "c1-u01-q10",
+      "type": "typed",
+      "prompt": "Write “please” in Spanish.",
+      "answers": [
+        "por favor"
+      ],
+      "explanation": "Por favor is the two-word courtesy expression. Keep both words to make the request polite.",
+      "concept": "courtesy"
+    },
+    {
+      "id": "c1-u01-q11",
+      "type": "choice",
+      "prompt": "What does the accent in café tell you?",
+      "options": [
+        "Stress the final syllable",
+        "Pronounce a silent h",
+        "Stress the first syllable"
+      ],
+      "answers": [
+        "Stress the final syllable"
+      ],
+      "explanation": "The written accent explicitly marks the stressed vowel, overriding the default next-to-last rule for vowel endings.",
+      "concept": "stress"
+    },
+    {
+      "id": "c1-u01-q12",
+      "type": "typed",
+      "prompt": "Reply to “Mucho gusto” with “Likewise.”",
+      "answers": [
+        "Igualmente"
+      ],
+      "explanation": "Igualmente reciprocates the sentiment. It is not a literal word-for-word translation of much pleasure.",
+      "concept": "courtesy"
+    },
+    {
+      "id": "c1-u01-q13",
+      "type": "choice",
+      "prompt": "A speaker pronounces ll differently from your teacher. What follows?",
+      "options": [
+        "It may be a valid regional pronunciation",
+        "Only one pronunciation is correct"
+      ],
+      "answers": [
+        "It may be a valid regional pronunciation"
+      ],
+      "explanation": "Ll and y have several accepted regional realizations. Difference alone does not establish an error.",
+      "concept": "variation"
+    },
+    {
+      "id": "c1-u01-q14",
+      "type": "cloze",
+      "prompt": "Complete “Good morning”: Buenos ___.",
+      "answers": [
+        "días"
+      ],
+      "explanation": "Días needs the accent on í. Buenos días is a conventional plural greeting, even when addressing one person.",
+      "concept": "courtesy"
+    },
+    {
+      "id": "c1-u01-q15",
+      "type": "typed",
+      "prompt": "Spell the name Ana with Spanish letter names, separated by spaces.",
+      "answers": [
+        "a ene a"
+      ],
+      "explanation": "Ene is the name of n. The task asks for letter names, not a pronunciation of the name.",
+      "concept": "alphabet"
+    }
+  ],
+  "homework": [
+    {
+      "id": "c1-u01-h1",
+      "skill": "Listening",
+      "prompt": "Use the original dialogue with a Spanish device voice if available, or ask a willing speaker to read it. Listen without looking, write the two repair questions, then compare with the text. If no audio is available, label the activity reading preparation rather than completed listening.",
+      "model": "¿Puede repetir, por favor? / ¿Cómo se escribe? Record what you actually heard and which words were unclear.",
+      "rubric": "2: both requests identified; 1: one identified; 0: neither. Record the source and whether speech was synthetic."
+    },
+    {
+      "id": "c1-u01-h2",
+      "skill": "Speaking",
+      "prompt": "Record your five vowel sounds followed by Hola, Buenos días, and ¿Puede repetir, por favor? Listen once and note one clear sound and one to practice.",
+      "model": "Reflection example: My a stayed steady in hola; I added an English glide to e and will practice e → mesa.",
+      "rubric": "Self-assess intelligibility and willingness to repair, not accent imitation. No automatic pronunciation score is provided."
+    },
+    {
+      "id": "c1-u01-h3",
+      "skill": "Writing & reading",
+      "prompt": "Write a six-line greeting exchange including a name, a repetition request, thanks, and a closing. Underline the stressed syllable in hola, gracias, and café.",
+      "model": "—Hola. Soy Ana. —Perdón, ¿puede repetir? —Ana. —Gracias. Soy Leo. —Mucho gusto. —Igualmente. Hasta luego. Stress: HO-la, GRA-cias, ca-FÉ.",
+      "rubric": "One point each for appropriate greeting, useful repair, coherent response, and closing. Check accents and opening punctuation separately."
+    },
+    {
+      "id": "c1-u01-h4",
+      "skill": "Interaction",
+      "prompt": "Ask a willing partner to give and spell a name. Write it, read it back, and ask whether you understood. Solo fallback: hide one line of the dialogue and respond before uncovering it.",
+      "model": "¿Cómo se escribe? → A, ene, a. → ¿Ana? → Sí. Note whether this was interaction or solo rehearsal.",
+      "rubric": "2: clarification changes your understanding; 1: request is made but not checked; 0: no repair. Solo practice cannot demonstrate real interaction."
+    }
+  ]
+}

@@ -1,0 +1,380 @@
+{
+  "id": "c1-u09",
+  "course": 1,
+  "number": 9,
+  "title": "Interests, gustar & invitations",
+  "subtitle": "Making room for interests",
+  "status": "authored",
+  "prerequisites": [
+    "c1-u08"
+  ],
+  "objectives": [
+    "Choose gusta or gustan according to what is liked.",
+    "Identify the person experiencing a preference.",
+    "Invite someone and respond with a reason."
+  ],
+  "warmup": "Without notes, retrieve three phrases from Unit 8. Use each in a new situation, then explain one correction from your last quiz. If you cannot retrieve a phrase, review its card before starting this unit.",
+  "lectures": [
+    {
+      "title": "Turn the English pattern around",
+      "body": "Me gusta el café is roughly coffee is pleasing to me. The liked thing controls the verb: me gusta el café, me gustan los libros. An infinitive activity takes singular gusta: me gusta leer. Do not match gusta to the number of people who enjoy the activity: nos gusta leer still has singular gusta. The small pronouns are me, te, le, nos, os, les. They indicate who experiences the preference. Unit 2 of the next course expands object pronouns; here, learn this high-value pattern in meaningful exchanges."
+    },
+    {
+      "title": "Clarify and compare preferences",
+      "body": "Le gusta leer could refer to him, her, or usted. Clarify with a name: A Elena le gusta leer. The a phrase does not replace le; both appear in this pattern. For emphasis: A mí me gusta el café. The mí after a has an accent, unlike possessive mi. Negation goes before the pronoun: No me gusta. Respond to a shared positive preference with A mí también; to a shared negative with A mí tampoco. If you disagree, say A mí sí or A mí no. Keep the context so the short response is understandable."
+    },
+    {
+      "title": "Invitations leave space for no",
+      "body": "Try ¿Quieres tomar un café? as an invitation phrase; querer is irregular and returns in Unit 10. Accept with Sí, con gusto or decline with Gracias, pero no puedo. You do not owe a detailed personal reason. Offer another time: ¿Y el sábado? An invitation is interaction, not a one-sentence translation: propose, listen, respond, and negotiate. Me gustaría is a useful courteous chunk meaning I would like; the conditional tense comes later. Do not assume every invitation requires a formal conditional when a friendly present-tense question suits the context."
+    }
+  ],
+  "reading": "—¿Te gusta leer?\n—Sí, me gustan las novelas. ¿Y a ti?\n—A mí también. ¿Quieres tomar un café y hablar de libros?\n—Gracias, pero hoy no puedo. ¿Y el sábado?\n—Sí. A Elena también le gusta leer.\n—Perfecto. ¿A las cuatro?\n—Sí, en el café del parque.\nIdentify the original invitation, the refusal, and the alternative. A successful exchange can include a no.",
+  "worked": [
+    {
+      "prompt": "Complete: Me ___ los libros.",
+      "answer": "gustan",
+      "reason": "The plural liked thing libros controls plural gustan."
+    },
+    {
+      "prompt": "Complete: Nos ___ leer.",
+      "answer": "gusta",
+      "reason": "An infinitive activity takes singular gusta, even with nos."
+    },
+    {
+      "prompt": "Complete: A Elena ___ gusta el café.",
+      "answer": "le",
+      "reason": "The clarifying a phrase does not replace the indirect pronoun le."
+    },
+    {
+      "prompt": "Complete agreement with a negative: A mí ___.",
+      "answer": "tampoco",
+      "reason": "Tampoco agrees with a negative preference; también agrees with a positive."
+    },
+    {
+      "prompt": "Negate “Me gusta el café.”",
+      "answer": "No me gusta el café",
+      "reason": "No comes before the pronoun-verb group."
+    },
+    {
+      "prompt": "Complete: A ___ me gusta leer. (me, emphatic)",
+      "answer": "mí",
+      "reason": "The prepositional pronoun mí has an accent; mi is possessive."
+    }
+  ],
+  "task": "Find a shared interest, propose an activity, and negotiate a time after one declined invitation. Solo: write two possible responses and record an appropriate follow-up to each.",
+  "culture": "Invitations and refusals vary in directness. A vague future suggestion is not always a firm appointment. Confirm the time and place gently; avoid stereotyping all speakers as either direct or indirect.",
+  "selfAssessment": [
+    "I can choose gusta or gustan according to what is liked.",
+    "I can identify the person experiencing a preference.",
+    "I can invite someone and respond with a reason."
+  ],
+  "remediation": "Group missed items by concept, not by score. Reread the relevant mini-lecture, explain one worked example aloud, and write two new examples. Rehearse the communication task after a day. If you can select an answer but cannot use it in an exchange, prioritize retrieval and partner practice.",
+  "resources": [
+    "sd-gustar"
+  ],
+  "cards": [
+    {
+      "id": "c1-u09-f01",
+      "unit": "c1-u09",
+      "kind": "production",
+      "front": "I like reading",
+      "back": "Me gusta leer",
+      "example": "Me gusta leer."
+    },
+    {
+      "id": "c1-u09-f02",
+      "unit": "c1-u09",
+      "kind": "recognition",
+      "front": "Me gustan los libros",
+      "back": "I like books",
+      "example": "Me gustan los libros."
+    },
+    {
+      "id": "c1-u09-f03",
+      "unit": "c1-u09",
+      "kind": "production",
+      "front": "Do you like coffee?",
+      "back": "¿Te gusta el café?",
+      "example": "¿Te gusta el café?"
+    },
+    {
+      "id": "c1-u09-f04",
+      "unit": "c1-u09",
+      "kind": "recognition",
+      "front": "Nos gusta caminar",
+      "back": "We like walking",
+      "example": "Nos gusta caminar."
+    },
+    {
+      "id": "c1-u09-f05",
+      "unit": "c1-u09",
+      "kind": "production",
+      "front": "Elena likes reading",
+      "back": "A Elena le gusta leer",
+      "example": "A Elena le gusta leer."
+    },
+    {
+      "id": "c1-u09-f06",
+      "unit": "c1-u09",
+      "kind": "recognition",
+      "front": "No me gusta",
+      "back": "I do not like it",
+      "example": "No me gusta."
+    },
+    {
+      "id": "c1-u09-f07",
+      "unit": "c1-u09",
+      "kind": "production",
+      "front": "Me too (positive)",
+      "back": "A mí también",
+      "example": "A mí también."
+    },
+    {
+      "id": "c1-u09-f08",
+      "unit": "c1-u09",
+      "kind": "recognition",
+      "front": "A mí tampoco",
+      "back": "Me neither",
+      "example": "A mí tampoco."
+    },
+    {
+      "id": "c1-u09-f09",
+      "unit": "c1-u09",
+      "kind": "production",
+      "front": "I do (contrasting)",
+      "back": "A mí sí",
+      "example": "A mí sí."
+    },
+    {
+      "id": "c1-u09-f10",
+      "unit": "c1-u09",
+      "kind": "recognition",
+      "front": "A mí no",
+      "back": "I do not (contrasting)",
+      "example": "A mí no."
+    },
+    {
+      "id": "c1-u09-f11",
+      "unit": "c1-u09",
+      "kind": "production",
+      "front": "Would you like to have a coffee?",
+      "back": "¿Quieres tomar un café?",
+      "example": "¿Quieres tomar un café?"
+    },
+    {
+      "id": "c1-u09-f12",
+      "unit": "c1-u09",
+      "kind": "recognition",
+      "front": "Gracias, pero no puedo",
+      "back": "Thanks, but I cannot",
+      "example": "Gracias, pero no puedo."
+    },
+    {
+      "id": "c1-u09-f13",
+      "unit": "c1-u09",
+      "kind": "production",
+      "front": "How about Saturday?",
+      "back": "¿Y el sábado?",
+      "example": "¿Y el sábado?"
+    },
+    {
+      "id": "c1-u09-f14",
+      "unit": "c1-u09",
+      "kind": "recognition",
+      "front": "Sí, con gusto",
+      "back": "Yes, gladly",
+      "example": "Sí, con gusto."
+    },
+    {
+      "id": "c1-u09-f15",
+      "unit": "c1-u09",
+      "kind": "production",
+      "front": "I would like",
+      "back": "Me gustaría",
+      "example": "Me gustaría."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c1-u09-q01",
+      "type": "cloze",
+      "prompt": "Complete: Me ___ los libros.",
+      "answers": [
+        "gustan"
+      ],
+      "explanation": "The plural liked thing libros controls plural gustan. Check the subject and the intended meaning before choosing a form.",
+      "concept": "Turn the English pattern around"
+    },
+    {
+      "id": "c1-u09-q02",
+      "type": "cloze",
+      "prompt": "Complete: Nos ___ leer.",
+      "answers": [
+        "gusta"
+      ],
+      "explanation": "An infinitive activity takes singular gusta, even with nos. Check the subject and the intended meaning before choosing a form.",
+      "concept": "Clarify and compare preferences"
+    },
+    {
+      "id": "c1-u09-q03",
+      "type": "cloze",
+      "prompt": "Complete: A Elena ___ gusta el café.",
+      "answers": [
+        "le"
+      ],
+      "explanation": "The clarifying a phrase does not replace the indirect pronoun le. Check the subject and the intended meaning before choosing a form.",
+      "concept": "Invitations leave space for no"
+    },
+    {
+      "id": "c1-u09-q04",
+      "type": "cloze",
+      "prompt": "Complete agreement with a negative: A mí ___.",
+      "answers": [
+        "tampoco"
+      ],
+      "explanation": "Tampoco agrees with a negative preference; también agrees with a positive. Check the subject and the intended meaning before choosing a form.",
+      "concept": "Turn the English pattern around"
+    },
+    {
+      "id": "c1-u09-q05",
+      "type": "typed",
+      "prompt": "Negate “Me gusta el café.”",
+      "answers": [
+        "No me gusta el café",
+        "A mí no me gusta el café"
+      ],
+      "explanation": "No comes before the pronoun-verb group. Check the subject and the intended meaning before choosing a form.",
+      "concept": "Clarify and compare preferences"
+    },
+    {
+      "id": "c1-u09-q06",
+      "type": "cloze",
+      "prompt": "Complete: A ___ me gusta leer. (me, emphatic)",
+      "answers": [
+        "mí"
+      ],
+      "explanation": "The prepositional pronoun mí has an accent; mi is possessive. Check the subject and the intended meaning before choosing a form.",
+      "concept": "Invitations leave space for no"
+    },
+    {
+      "id": "c1-u09-q07",
+      "type": "matching",
+      "prompt": "Select the expression that communicates: I like reading.",
+      "options": [
+        "Me gusta leer",
+        "A mí no",
+        "¿Y el sábado?"
+      ],
+      "answers": [
+        "Me gusta leer"
+      ],
+      "explanation": "“Me gusta leer” communicates “I like reading.” The other choices communicate “I do not (contrasting)” and “How about Saturday?”; those do not answer this prompt.",
+      "concept": "Meaning in context"
+    },
+    {
+      "id": "c1-u09-q08",
+      "type": "choice",
+      "prompt": "Select the expression that communicates: I like books.",
+      "options": [
+        "Me gustan los libros",
+        "¿Quieres tomar un café?",
+        "Sí, con gusto"
+      ],
+      "answers": [
+        "Me gustan los libros"
+      ],
+      "explanation": "“Me gustan los libros” communicates “I like books.” The other choices communicate “Would you like to have a coffee?” and “Yes, gladly”; those do not answer this prompt.",
+      "concept": "Meaning in context"
+    },
+    {
+      "id": "c1-u09-q09",
+      "type": "matching",
+      "prompt": "Select the expression that communicates: Do you like coffee?.",
+      "options": [
+        "¿Te gusta el café?",
+        "Gracias, pero no puedo",
+        "Me gustaría"
+      ],
+      "answers": [
+        "¿Te gusta el café?"
+      ],
+      "explanation": "“¿Te gusta el café?” communicates “Do you like coffee?.” The other choices communicate “Thanks, but I cannot” and “I would like”; those do not answer this prompt.",
+      "concept": "Meaning in context"
+    },
+    {
+      "id": "c1-u09-q10",
+      "type": "choice",
+      "prompt": "Select the expression that communicates: We like walking.",
+      "options": [
+        "Nos gusta caminar",
+        "¿Y el sábado?",
+        "Me gusta leer"
+      ],
+      "answers": [
+        "Nos gusta caminar"
+      ],
+      "explanation": "“Nos gusta caminar” communicates “We like walking.” The other choices communicate “How about Saturday?” and “I like reading”; those do not answer this prompt.",
+      "concept": "Meaning in context"
+    },
+    {
+      "id": "c1-u09-q11",
+      "type": "matching",
+      "prompt": "Select the expression that communicates: Elena likes reading.",
+      "options": [
+        "A Elena le gusta leer",
+        "Sí, con gusto",
+        "Me gustan los libros"
+      ],
+      "answers": [
+        "A Elena le gusta leer"
+      ],
+      "explanation": "“A Elena le gusta leer” communicates “Elena likes reading.” The other choices communicate “Yes, gladly” and “I like books”; those do not answer this prompt.",
+      "concept": "Meaning in context"
+    },
+    {
+      "id": "c1-u09-q12",
+      "type": "choice",
+      "prompt": "Select the expression that communicates: I do not like it.",
+      "options": [
+        "No me gusta",
+        "Me gustaría",
+        "¿Te gusta el café?"
+      ],
+      "answers": [
+        "No me gusta"
+      ],
+      "explanation": "“No me gusta” communicates “I do not like it.” The other choices communicate “I would like” and “Do you like coffee?”; those do not answer this prompt.",
+      "concept": "Meaning in context"
+    }
+  ],
+  "homework": [
+    {
+      "id": "c1-u09-h1",
+      "skill": "Reading & writing",
+      "prompt": "Read the original text twice. Identify who is involved, the situation, and three key details. Rewrite it with two meaningful changes and underline the forms that had to change.",
+      "model": "Use the original text as a comparison model. Preserve its grammatical relationships, but change facts. Explain each changed ending using one of this unit’s mini-lectures.",
+      "rubric": "0–2 each: accurate key details, coherent changes, target grammar, explanation of corrections. Maximum 8; self-assessment is not instructor validation."
+    },
+    {
+      "id": "c1-u09-h2",
+      "skill": "Listening",
+      "prompt": "Listen to the original text using an available Spanish device voice or a willing reader. Hide the text, note five words or phrases you hear, then compare. Record the source and two uncertainties. If audio is unavailable, complete reading preparation and mark listening as not yet completed.",
+      "model": "A useful log includes source, date, words actually heard, and a correction confirmed against the text. Synthetic speech is listening rehearsal and does not represent the range of natural accents.",
+      "rubric": "0–2 each: documented source, specific notes, comparison, actionable next step. Score the process; do not invent comprehension evidence."
+    },
+    {
+      "id": "c1-u09-h3",
+      "skill": "Speaking & interaction",
+      "prompt": "Find a shared interest, propose an activity, and negotiate a time after one declined invitation. Solo: write two possible responses and record an appropriate follow-up to each.",
+      "model": "Use the dialogue or reading for a model of suitable language, then change the facts. Include one request for clarification and a response to it. Save your recording or a written interaction reflection.",
+      "rubric": "0–3 each: task completion, comprehensibility, target-form control, responsiveness. A 3 means independently effective for this task; 2 some help; 1 frequent help; 0 no evidence. Mark solo work as rehearsal."
+    },
+    {
+      "id": "c1-u09-h4",
+      "skill": "Retrieval & reflection",
+      "prompt": "After at least one day, produce five flashcard phrases without looking. Use two in new sentences. Compare with your earlier work and write one concrete plan for the next study session.",
+      "model": "Example reflection format: I retrieved [phrase], but confused [form]. I will revisit [lecture] and use the corrected form in [specific situation].",
+      "rubric": "Count successful retrieval separately from task quality. A useful reflection names an error, a correction, and a new use."
+    }
+  ]
+}

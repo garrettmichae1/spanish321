@@ -1,0 +1,379 @@
+{
+  "id": "c1-u08",
+  "course": 1,
+  "number": 8,
+  "title": "Family, descriptions & tener",
+  "subtitle": "People in your life",
+  "status": "authored",
+  "prerequisites": [
+    "c1-u07"
+  ],
+  "objectives": [
+    "Use tener for possessions, age, and common physical needs.",
+    "Describe a family or chosen community without assuming one family structure.",
+    "Use possessive adjectives with the possessed noun."
+  ],
+  "warmup": "Without notes, retrieve three phrases from Unit 7. Use each in a new situation, then explain one correction from your last quiz. If you cannot retrieve a phrase, review its card before starting this unit.",
+  "lectures": [
+    {
+      "title": "Tener and common needs",
+      "body": "Tener forms are tengo, tienes, tiene, tenemos, tenéis, tienen. Its yo form and some stem forms are irregular. Use it for possession: Tengo un libro; age: Tiene treinta años; and several physical states: tengo hambre, sed, frío, calor, sueño. Do not substitute estoy for these conventional noun phrases. Tengo que estudiar expresses obligation with que plus an infinitive. It is different from tengo un libro: the second construction has a thing possessed, while the first describes something to do. Learn the whole frame tengo que + infinitive."
+    },
+    {
+      "title": "Whose? Agreement follows the thing",
+      "body": "Short possessives come before a noun: mi/mis, tu/tus, su/sus, nuestro/nuestra/nuestros/nuestras, vuestro/vuestra/vuestros/vuestras. Mi hermana and mis hermanas change with the number of sisters, not the number of owners. Su is ambiguous: su libro can mean his, her, your (usted), or their book. Clarify with de: el libro de Ana. Nuestro also agrees in gender: nuestra casa, nuestros libros. Tu without an accent is possessive; tú with an accent is a subject pronoun. Do not erase accents when checking your work."
+    },
+    {
+      "title": "Describe respectfully and clearly",
+      "body": "Use ser for many identifying descriptions and tener for age and features: Mi hermano es amable y tiene el pelo corto. Hair descriptions often use the definite article rather than a possessive: tiene el pelo largo. Family vocabulary can describe biological, adoptive, blended, and chosen relationships. You may invent a family for practice or describe friends; sharing private information is never necessary. Combine two facts with y, and a contrast with pero. If a pronoun is ambiguous, repeat a name. Clear communication matters more than avoiding every repetition."
+    }
+  ],
+  "reading": "Ana vive con su abuela y una amiga. Su abuela tiene setenta años y es muy activa. La amiga de Ana se llama Luz; tiene el pelo corto y trabaja en una biblioteca. Ana dice: «Nuestra casa es pequeña, pero tenemos muchos libros. Hoy tengo sueño y tengo que estudiar». Luz responde: «Yo tengo hambre. Primero comemos y después estudiamos». Find each use of tener and decide whether it expresses possession, age, need, or obligation.",
+  "worked": [
+    {
+      "prompt": "Complete: Yo ___ hambre.",
+      "answer": "tengo",
+      "reason": "Hunger uses tener; the yo form is tengo."
+    },
+    {
+      "prompt": "Complete: Ella ___ treinta años.",
+      "answer": "tiene",
+      "reason": "Age uses tener, and ella takes tiene."
+    },
+    {
+      "prompt": "Complete: ___ hermanas (my sisters).",
+      "answer": "Mis",
+      "reason": "The plural possessed noun requires mis, even with one owner."
+    },
+    {
+      "prompt": "Complete: ___ casa (our house).",
+      "answer": "Nuestra",
+      "reason": "Casa is feminine singular; nuestro agrees with that noun."
+    },
+    {
+      "prompt": "Complete: Tengo ___ estudiar.",
+      "answer": "que",
+      "reason": "Tener que plus infinitive expresses an obligation."
+    },
+    {
+      "prompt": "Complete: Tú ___ un libro.",
+      "answer": "tienes",
+      "reason": "Tú takes the stem-changing form tienes."
+    }
+  ],
+  "task": "Describe a real or invented support network. Give three people’s relationships, two descriptions, and one need or obligation for today. Clarify an ambiguous su when your partner asks.",
+  "culture": "Family terms and household arrangements vary. Do not assume that all learners live with parents, have siblings, or want to discuss personal family history. Fictional descriptions practice the same language without disclosure.",
+  "selfAssessment": [
+    "I can use tener for possessions, age, and common physical needs.",
+    "I can describe a family or chosen community without assuming one family structure.",
+    "I can use possessive adjectives with the possessed noun."
+  ],
+  "remediation": "Group missed items by concept, not by score. Reread the relevant mini-lecture, explain one worked example aloud, and write two new examples. Rehearse the communication task after a day. If you can select an answer but cannot use it in an exchange, prioritize retrieval and partner practice.",
+  "resources": [
+    "sd-tener"
+  ],
+  "cards": [
+    {
+      "id": "c1-u08-f01",
+      "unit": "c1-u08",
+      "kind": "production",
+      "front": "I am hungry",
+      "back": "Tengo hambre",
+      "example": "Tengo hambre."
+    },
+    {
+      "id": "c1-u08-f02",
+      "unit": "c1-u08",
+      "kind": "recognition",
+      "front": "Tengo sed",
+      "back": "I am thirsty",
+      "example": "Tengo sed."
+    },
+    {
+      "id": "c1-u08-f03",
+      "unit": "c1-u08",
+      "kind": "production",
+      "front": "I am cold",
+      "back": "Tengo frío",
+      "example": "Tengo frío."
+    },
+    {
+      "id": "c1-u08-f04",
+      "unit": "c1-u08",
+      "kind": "recognition",
+      "front": "Tengo calor",
+      "back": "I am hot",
+      "example": "Tengo calor."
+    },
+    {
+      "id": "c1-u08-f05",
+      "unit": "c1-u08",
+      "kind": "production",
+      "front": "I am sleepy",
+      "back": "Tengo sueño",
+      "example": "Tengo sueño."
+    },
+    {
+      "id": "c1-u08-f06",
+      "unit": "c1-u08",
+      "kind": "recognition",
+      "front": "Tengo que estudiar",
+      "back": "I have to study",
+      "example": "Tengo que estudiar."
+    },
+    {
+      "id": "c1-u08-f07",
+      "unit": "c1-u08",
+      "kind": "production",
+      "front": "She or he is thirty",
+      "back": "Tiene treinta años",
+      "example": "Tiene treinta años."
+    },
+    {
+      "id": "c1-u08-f08",
+      "unit": "c1-u08",
+      "kind": "recognition",
+      "front": "Mi hermana",
+      "back": "My sister",
+      "example": "Mi hermana."
+    },
+    {
+      "id": "c1-u08-f09",
+      "unit": "c1-u08",
+      "kind": "production",
+      "front": "My brothers or siblings",
+      "back": "Mis hermanos",
+      "example": "Mis hermanos."
+    },
+    {
+      "id": "c1-u08-f10",
+      "unit": "c1-u08",
+      "kind": "recognition",
+      "front": "Nuestra casa",
+      "back": "Our house",
+      "example": "Nuestra casa."
+    },
+    {
+      "id": "c1-u08-f11",
+      "unit": "c1-u08",
+      "kind": "production",
+      "front": "Our books",
+      "back": "Nuestros libros",
+      "example": "Nuestros libros."
+    },
+    {
+      "id": "c1-u08-f12",
+      "unit": "c1-u08",
+      "kind": "recognition",
+      "front": "Su amiga",
+      "back": "His/her/your/their friend",
+      "example": "Su amiga."
+    },
+    {
+      "id": "c1-u08-f13",
+      "unit": "c1-u08",
+      "kind": "production",
+      "front": "Ana’s book",
+      "back": "El libro de Ana",
+      "example": "El libro de Ana."
+    },
+    {
+      "id": "c1-u08-f14",
+      "unit": "c1-u08",
+      "kind": "recognition",
+      "front": "Tiene el pelo corto",
+      "back": "She or he has short hair",
+      "example": "Tiene el pelo corto."
+    },
+    {
+      "id": "c1-u08-f15",
+      "unit": "c1-u08",
+      "kind": "production",
+      "front": "She or he is kind",
+      "back": "Es amable",
+      "example": "Es amable."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c1-u08-q01",
+      "type": "cloze",
+      "prompt": "Complete: Yo ___ hambre.",
+      "answers": [
+        "tengo"
+      ],
+      "explanation": "Hunger uses tener; the yo form is tengo. Check the subject and the intended meaning before choosing a form.",
+      "concept": "Tener and common needs"
+    },
+    {
+      "id": "c1-u08-q02",
+      "type": "cloze",
+      "prompt": "Complete: Ella ___ treinta años.",
+      "answers": [
+        "tiene"
+      ],
+      "explanation": "Age uses tener, and ella takes tiene. Check the subject and the intended meaning before choosing a form.",
+      "concept": "Whose? Agreement follows the thing"
+    },
+    {
+      "id": "c1-u08-q03",
+      "type": "cloze",
+      "prompt": "Complete: ___ hermanas (my sisters).",
+      "answers": [
+        "Mis"
+      ],
+      "explanation": "The plural possessed noun requires mis, even with one owner. Check the subject and the intended meaning before choosing a form.",
+      "concept": "Describe respectfully and clearly"
+    },
+    {
+      "id": "c1-u08-q04",
+      "type": "cloze",
+      "prompt": "Complete: ___ casa (our house).",
+      "answers": [
+        "Nuestra"
+      ],
+      "explanation": "Casa is feminine singular; nuestro agrees with that noun. Check the subject and the intended meaning before choosing a form.",
+      "concept": "Tener and common needs"
+    },
+    {
+      "id": "c1-u08-q05",
+      "type": "cloze",
+      "prompt": "Complete: Tengo ___ estudiar.",
+      "answers": [
+        "que"
+      ],
+      "explanation": "Tener que plus infinitive expresses an obligation. Check the subject and the intended meaning before choosing a form.",
+      "concept": "Whose? Agreement follows the thing"
+    },
+    {
+      "id": "c1-u08-q06",
+      "type": "cloze",
+      "prompt": "Complete: Tú ___ un libro.",
+      "answers": [
+        "tienes"
+      ],
+      "explanation": "Tú takes the stem-changing form tienes. Check the subject and the intended meaning before choosing a form.",
+      "concept": "Describe respectfully and clearly"
+    },
+    {
+      "id": "c1-u08-q07",
+      "type": "matching",
+      "prompt": "Select the expression that communicates: I am hungry.",
+      "options": [
+        "Tengo hambre",
+        "Nuestra casa",
+        "El libro de Ana"
+      ],
+      "answers": [
+        "Tengo hambre"
+      ],
+      "explanation": "“Tengo hambre” communicates “I am hungry.” The other choices communicate “Our house” and “Ana’s book”; those do not answer this prompt.",
+      "concept": "Meaning in context"
+    },
+    {
+      "id": "c1-u08-q08",
+      "type": "choice",
+      "prompt": "Select the expression that communicates: I am thirsty.",
+      "options": [
+        "Tengo sed",
+        "Nuestros libros",
+        "Tiene el pelo corto"
+      ],
+      "answers": [
+        "Tengo sed"
+      ],
+      "explanation": "“Tengo sed” communicates “I am thirsty.” The other choices communicate “Our books” and “She or he has short hair”; those do not answer this prompt.",
+      "concept": "Meaning in context"
+    },
+    {
+      "id": "c1-u08-q09",
+      "type": "matching",
+      "prompt": "Select the expression that communicates: I am cold.",
+      "options": [
+        "Tengo frío",
+        "Su amiga",
+        "Es amable"
+      ],
+      "answers": [
+        "Tengo frío"
+      ],
+      "explanation": "“Tengo frío” communicates “I am cold.” The other choices communicate “His/her/your/their friend” and “She or he is kind”; those do not answer this prompt.",
+      "concept": "Meaning in context"
+    },
+    {
+      "id": "c1-u08-q10",
+      "type": "choice",
+      "prompt": "Select the expression that communicates: I am hot.",
+      "options": [
+        "Tengo calor",
+        "El libro de Ana",
+        "Tengo hambre"
+      ],
+      "answers": [
+        "Tengo calor"
+      ],
+      "explanation": "“Tengo calor” communicates “I am hot.” The other choices communicate “Ana’s book” and “I am hungry”; those do not answer this prompt.",
+      "concept": "Meaning in context"
+    },
+    {
+      "id": "c1-u08-q11",
+      "type": "matching",
+      "prompt": "Select the expression that communicates: I am sleepy.",
+      "options": [
+        "Tengo sueño",
+        "Tiene el pelo corto",
+        "Tengo sed"
+      ],
+      "answers": [
+        "Tengo sueño"
+      ],
+      "explanation": "“Tengo sueño” communicates “I am sleepy.” The other choices communicate “She or he has short hair” and “I am thirsty”; those do not answer this prompt.",
+      "concept": "Meaning in context"
+    },
+    {
+      "id": "c1-u08-q12",
+      "type": "choice",
+      "prompt": "Select the expression that communicates: I have to study.",
+      "options": [
+        "Tengo que estudiar",
+        "Es amable",
+        "Tengo frío"
+      ],
+      "answers": [
+        "Tengo que estudiar"
+      ],
+      "explanation": "“Tengo que estudiar” communicates “I have to study.” The other choices communicate “She or he is kind” and “I am cold”; those do not answer this prompt.",
+      "concept": "Meaning in context"
+    }
+  ],
+  "homework": [
+    {
+      "id": "c1-u08-h1",
+      "skill": "Reading & writing",
+      "prompt": "Read the original text twice. Identify who is involved, the situation, and three key details. Rewrite it with two meaningful changes and underline the forms that had to change.",
+      "model": "Use the original text as a comparison model. Preserve its grammatical relationships, but change facts. Explain each changed ending using one of this unit’s mini-lectures.",
+      "rubric": "0–2 each: accurate key details, coherent changes, target grammar, explanation of corrections. Maximum 8; self-assessment is not instructor validation."
+    },
+    {
+      "id": "c1-u08-h2",
+      "skill": "Listening",
+      "prompt": "Listen to the original text using an available Spanish device voice or a willing reader. Hide the text, note five words or phrases you hear, then compare. Record the source and two uncertainties. If audio is unavailable, complete reading preparation and mark listening as not yet completed.",
+      "model": "A useful log includes source, date, words actually heard, and a correction confirmed against the text. Synthetic speech is listening rehearsal and does not represent the range of natural accents.",
+      "rubric": "0–2 each: documented source, specific notes, comparison, actionable next step. Score the process; do not invent comprehension evidence."
+    },
+    {
+      "id": "c1-u08-h3",
+      "skill": "Speaking & interaction",
+      "prompt": "Describe a real or invented support network. Give three people’s relationships, two descriptions, and one need or obligation for today. Clarify an ambiguous su when your partner asks.",
+      "model": "Use the dialogue or reading for a model of suitable language, then change the facts. Include one request for clarification and a response to it. Save your recording or a written interaction reflection.",
+      "rubric": "0–3 each: task completion, comprehensibility, target-form control, responsiveness. A 3 means independently effective for this task; 2 some help; 1 frequent help; 0 no evidence. Mark solo work as rehearsal."
+    },
+    {
+      "id": "c1-u08-h4",
+      "skill": "Retrieval & reflection",
+      "prompt": "After at least one day, produce five flashcard phrases without looking. Use two in new sentences. Compare with your earlier work and write one concrete plan for the next study session.",
+      "model": "Example reflection format: I retrieved [phrase], but confused [form]. I will revisit [lecture] and use the corrected form in [specific situation].",
+      "rubric": "Count successful retrieval separately from task quality. A useful reflection names an error, a correction, and a new use."
+    }
+  ]
+}

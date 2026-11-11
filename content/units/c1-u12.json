@@ -1,0 +1,379 @@
+{
+  "id": "c1-u12",
+  "course": 1,
+  "number": 12,
+  "title": "Your first conversations",
+  "subtitle": "Bring it all together",
+  "status": "authored",
+  "prerequisites": [
+    "c1-u11"
+  ],
+  "objectives": [
+    "Sustain a short introduction with clarification and follow-up.",
+    "Write an organized personal profile using familiar language.",
+    "Identify strengths and priorities from multiple forms of evidence."
+  ],
+  "warmup": "Without notes, retrieve three phrases from Unit 11. Use each in a new situation, then explain one correction from your last quiz. If you cannot retrieve a phrase, review its card before starting this unit.",
+  "lectures": [
+    {
+      "title": "Connect ideas rather than list forms",
+      "body": "A useful introduction is more than a conjugation test. Start with who you are and where you are from, describe a routine, add an interest, and propose a future activity. Use y to add, pero to contrast, porque to explain, and después to sequence. Keep each sentence manageable. Pronouns may be omitted when the subject stays clear; repeat a name when switching people. Before submitting writing, check one layer at a time: meaning, verb subject, noun agreement, then accents and punctuation. Editing is a learning activity, not a reason to hide your first draft."
+    },
+    {
+      "title": "Repair is part of communication",
+      "body": "A listener who requests clarification is doing real language work. Use ¿Puede repetir?, Más despacio, por favor, or ¿Quiere decir…? as a learned phrase for Do you mean…? Repeat a number or a key noun to check understanding. In a final conversation, include an unexpected follow-up so you must respond to meaning rather than deliver a memorized script. If no partner is available, record two possible responses and improvise a reply to each. Label that evidence solo rehearsal; it does not demonstrate the same ability as live interaction."
+    },
+    {
+      "title": "Assess several things separately",
+      "body": "Complete the course final without notes, then compare it with earlier practice. Keep quiz accuracy, lesson completion, review activity, and communication rubrics separate. A high quiz score can coexist with slow speech, and comfortable speaking can coexist with spelling gaps. Save a 100–130-word profile and a two-minute presentation in your portfolio. Use the rubric to identify one specific improvement, such as clarifying numbers or maintaining agreement. No result awards college credit or an official CEFR level. Continue to Course II after revisiting weak prerequisites rather than treating one percentage as permission to forget them."
+    }
+  ],
+  "reading": "Hola, me llamo Elena y soy de México. Ahora vivo en Quito y trabajo en una biblioteca. Nuestra casa está cerca del parque. Los martes estudio español con Diego. Me gustan las novelas y me gusta caminar, pero no tengo mucho tiempo. Normalmente me levanto a las siete. Este sábado voy a tomar un café con mis amigos. ¿Y tú? ¿Qué te gusta hacer? Read for communication goals, not just grammar. Then change the person, place, schedule, and plan to make an original profile.",
+  "worked": [
+    {
+      "prompt": "Complete: Soy ___ México.",
+      "answer": "de",
+      "reason": "Origin uses ser de; en would express a different relation."
+    },
+    {
+      "prompt": "Complete: Nuestra casa ___ cerca.",
+      "answer": "está",
+      "reason": "A known building’s location uses estar."
+    },
+    {
+      "prompt": "Complete: Me ___ las novelas.",
+      "answer": "gustan",
+      "reason": "Plural novelas controls plural gustan."
+    },
+    {
+      "prompt": "Complete: ___ levanto a las siete. (yo)",
+      "answer": "Me",
+      "reason": "The reflexive pronoun must match the yo subject."
+    },
+    {
+      "prompt": "Complete: Voy a ___ un café. (have/drink)",
+      "answer": "tomar",
+      "reason": "The action after ir a remains infinitive."
+    },
+    {
+      "prompt": "Complete: No trabajo ___ domingos.",
+      "answer": "los",
+      "reason": "Los domingos expresses a recurring Sunday routine."
+    }
+  ],
+  "task": "Final capstone: write a 100–130-word profile and deliver a two-minute introduction. Include identity, origin, routine, location, interests, and a plan. Answer three partner follow-up questions; if solo, label your recording as rehearsal. Save an initial and revised version with a reflection.",
+  "culture": "A beginner introduction does not have to represent a country or culture. Speak as an individual and ask open questions about the other person. Cultural curiosity works best when it leaves room for different experiences.",
+  "selfAssessment": [
+    "I can sustain a short introduction with clarification and follow-up.",
+    "I can write an organized personal profile using familiar language.",
+    "I can identify strengths and priorities from multiple forms of evidence."
+  ],
+  "remediation": "Group missed items by concept, not by score. Reread the relevant mini-lecture, explain one worked example aloud, and write two new examples. Rehearse the communication task after a day. If you can select an answer but cannot use it in an exchange, prioritize retrieval and partner practice.",
+  "resources": [
+    "lt-course"
+  ],
+  "cards": [
+    {
+      "id": "c1-u12-f01",
+      "unit": "c1-u12",
+      "kind": "production",
+      "front": "Now I live in Quito",
+      "back": "Ahora vivo en Quito",
+      "example": "Ahora vivo en Quito."
+    },
+    {
+      "id": "c1-u12-f02",
+      "unit": "c1-u12",
+      "kind": "recognition",
+      "front": "Trabajo en una biblioteca",
+      "back": "I work in a library",
+      "example": "Trabajo en una biblioteca."
+    },
+    {
+      "id": "c1-u12-f03",
+      "unit": "c1-u12",
+      "kind": "production",
+      "front": "Our house is nearby",
+      "back": "Nuestra casa está cerca",
+      "example": "Nuestra casa está cerca."
+    },
+    {
+      "id": "c1-u12-f04",
+      "unit": "c1-u12",
+      "kind": "recognition",
+      "front": "Me gustan las novelas",
+      "back": "I like novels",
+      "example": "Me gustan las novelas."
+    },
+    {
+      "id": "c1-u12-f05",
+      "unit": "c1-u12",
+      "kind": "production",
+      "front": "I do not have much time",
+      "back": "No tengo mucho tiempo",
+      "example": "No tengo mucho tiempo."
+    },
+    {
+      "id": "c1-u12-f06",
+      "unit": "c1-u12",
+      "kind": "recognition",
+      "front": "Este sábado",
+      "back": "This Saturday",
+      "example": "Este sábado."
+    },
+    {
+      "id": "c1-u12-f07",
+      "unit": "c1-u12",
+      "kind": "production",
+      "front": "I am going to have a coffee",
+      "back": "Voy a tomar un café",
+      "example": "Voy a tomar un café."
+    },
+    {
+      "id": "c1-u12-f08",
+      "unit": "c1-u12",
+      "kind": "recognition",
+      "front": "Con mis amigos",
+      "back": "With my friends",
+      "example": "Con mis amigos."
+    },
+    {
+      "id": "c1-u12-f09",
+      "unit": "c1-u12",
+      "kind": "production",
+      "front": "What do you like doing?",
+      "back": "¿Qué te gusta hacer?",
+      "example": "¿Qué te gusta hacer?"
+    },
+    {
+      "id": "c1-u12-f10",
+      "unit": "c1-u12",
+      "kind": "recognition",
+      "front": "¿Quiere decir…?",
+      "back": "Do you mean…? (polite)",
+      "example": "¿Quiere decir…?"
+    },
+    {
+      "id": "c1-u12-f11",
+      "unit": "c1-u12",
+      "kind": "production",
+      "front": "I need to practice more",
+      "back": "Necesito practicar más",
+      "example": "Necesito practicar más."
+    },
+    {
+      "id": "c1-u12-f12",
+      "unit": "c1-u12",
+      "kind": "recognition",
+      "front": "Entiendo la idea",
+      "back": "I understand the idea",
+      "example": "Entiendo la idea."
+    },
+    {
+      "id": "c1-u12-f13",
+      "unit": "c1-u12",
+      "kind": "production",
+      "front": "I do not understand that word",
+      "back": "No entiendo esa palabra",
+      "example": "No entiendo esa palabra."
+    },
+    {
+      "id": "c1-u12-f14",
+      "unit": "c1-u12",
+      "kind": "recognition",
+      "front": "¿Puede dar un ejemplo?",
+      "back": "Can you give an example?",
+      "example": "¿Puede dar un ejemplo?"
+    },
+    {
+      "id": "c1-u12-f15",
+      "unit": "c1-u12",
+      "kind": "production",
+      "front": "Thank you for the help",
+      "back": "Gracias por la ayuda",
+      "example": "Gracias por la ayuda."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c1-u12-q01",
+      "type": "cloze",
+      "prompt": "Complete: Soy ___ México.",
+      "answers": [
+        "de"
+      ],
+      "explanation": "Origin uses ser de; en would express a different relation. Check the subject and the intended meaning before choosing a form.",
+      "concept": "Connect ideas rather than list forms"
+    },
+    {
+      "id": "c1-u12-q02",
+      "type": "cloze",
+      "prompt": "Complete: Nuestra casa ___ cerca.",
+      "answers": [
+        "está"
+      ],
+      "explanation": "A known building’s location uses estar. Check the subject and the intended meaning before choosing a form.",
+      "concept": "Repair is part of communication"
+    },
+    {
+      "id": "c1-u12-q03",
+      "type": "cloze",
+      "prompt": "Complete: Me ___ las novelas.",
+      "answers": [
+        "gustan"
+      ],
+      "explanation": "Plural novelas controls plural gustan. Check the subject and the intended meaning before choosing a form.",
+      "concept": "Assess several things separately"
+    },
+    {
+      "id": "c1-u12-q04",
+      "type": "cloze",
+      "prompt": "Complete: ___ levanto a las siete. (yo)",
+      "answers": [
+        "Me"
+      ],
+      "explanation": "The reflexive pronoun must match the yo subject. Check the subject and the intended meaning before choosing a form.",
+      "concept": "Connect ideas rather than list forms"
+    },
+    {
+      "id": "c1-u12-q05",
+      "type": "cloze",
+      "prompt": "Complete: Voy a ___ un café. (have/drink)",
+      "answers": [
+        "tomar"
+      ],
+      "explanation": "The action after ir a remains infinitive. Check the subject and the intended meaning before choosing a form.",
+      "concept": "Repair is part of communication"
+    },
+    {
+      "id": "c1-u12-q06",
+      "type": "cloze",
+      "prompt": "Complete: No trabajo ___ domingos.",
+      "answers": [
+        "los"
+      ],
+      "explanation": "Los domingos expresses a recurring Sunday routine. Check the subject and the intended meaning before choosing a form.",
+      "concept": "Assess several things separately"
+    },
+    {
+      "id": "c1-u12-q07",
+      "type": "matching",
+      "prompt": "Select the expression that communicates: Now I live in Quito.",
+      "options": [
+        "Ahora vivo en Quito",
+        "¿Quiere decir…?",
+        "No entiendo esa palabra"
+      ],
+      "answers": [
+        "Ahora vivo en Quito"
+      ],
+      "explanation": "“Ahora vivo en Quito” communicates “Now I live in Quito.” The other choices communicate “Do you mean…? (polite)” and “I do not understand that word”; those do not answer this prompt.",
+      "concept": "Meaning in context"
+    },
+    {
+      "id": "c1-u12-q08",
+      "type": "choice",
+      "prompt": "Select the expression that communicates: I work in a library.",
+      "options": [
+        "Trabajo en una biblioteca",
+        "Necesito practicar más",
+        "¿Puede dar un ejemplo?"
+      ],
+      "answers": [
+        "Trabajo en una biblioteca"
+      ],
+      "explanation": "“Trabajo en una biblioteca” communicates “I work in a library.” The other choices communicate “I need to practice more” and “Can you give an example?”; those do not answer this prompt.",
+      "concept": "Meaning in context"
+    },
+    {
+      "id": "c1-u12-q09",
+      "type": "matching",
+      "prompt": "Select the expression that communicates: Our house is nearby.",
+      "options": [
+        "Nuestra casa está cerca",
+        "Entiendo la idea",
+        "Gracias por la ayuda"
+      ],
+      "answers": [
+        "Nuestra casa está cerca"
+      ],
+      "explanation": "“Nuestra casa está cerca” communicates “Our house is nearby.” The other choices communicate “I understand the idea” and “Thank you for the help”; those do not answer this prompt.",
+      "concept": "Meaning in context"
+    },
+    {
+      "id": "c1-u12-q10",
+      "type": "choice",
+      "prompt": "Select the expression that communicates: I like novels.",
+      "options": [
+        "Me gustan las novelas",
+        "No entiendo esa palabra",
+        "Ahora vivo en Quito"
+      ],
+      "answers": [
+        "Me gustan las novelas"
+      ],
+      "explanation": "“Me gustan las novelas” communicates “I like novels.” The other choices communicate “I do not understand that word” and “Now I live in Quito”; those do not answer this prompt.",
+      "concept": "Meaning in context"
+    },
+    {
+      "id": "c1-u12-q11",
+      "type": "matching",
+      "prompt": "Select the expression that communicates: I do not have much time.",
+      "options": [
+        "No tengo mucho tiempo",
+        "¿Puede dar un ejemplo?",
+        "Trabajo en una biblioteca"
+      ],
+      "answers": [
+        "No tengo mucho tiempo"
+      ],
+      "explanation": "“No tengo mucho tiempo” communicates “I do not have much time.” The other choices communicate “Can you give an example?” and “I work in a library”; those do not answer this prompt.",
+      "concept": "Meaning in context"
+    },
+    {
+      "id": "c1-u12-q12",
+      "type": "choice",
+      "prompt": "Select the expression that communicates: This Saturday.",
+      "options": [
+        "Este sábado",
+        "Gracias por la ayuda",
+        "Nuestra casa está cerca"
+      ],
+      "answers": [
+        "Este sábado"
+      ],
+      "explanation": "“Este sábado” communicates “This Saturday.” The other choices communicate “Thank you for the help” and “Our house is nearby”; those do not answer this prompt.",
+      "concept": "Meaning in context"
+    }
+  ],
+  "homework": [
+    {
+      "id": "c1-u12-h1",
+      "skill": "Reading & writing",
+      "prompt": "Read the original text twice. Identify who is involved, the situation, and three key details. Rewrite it with two meaningful changes and underline the forms that had to change.",
+      "model": "Use the original text as a comparison model. Preserve its grammatical relationships, but change facts. Explain each changed ending using one of this unit’s mini-lectures.",
+      "rubric": "0–2 each: accurate key details, coherent changes, target grammar, explanation of corrections. Maximum 8; self-assessment is not instructor validation."
+    },
+    {
+      "id": "c1-u12-h2",
+      "skill": "Listening",
+      "prompt": "Listen to the original text using an available Spanish device voice or a willing reader. Hide the text, note five words or phrases you hear, then compare. Record the source and two uncertainties. If audio is unavailable, complete reading preparation and mark listening as not yet completed.",
+      "model": "A useful log includes source, date, words actually heard, and a correction confirmed against the text. Synthetic speech is listening rehearsal and does not represent the range of natural accents.",
+      "rubric": "0–2 each: documented source, specific notes, comparison, actionable next step. Score the process; do not invent comprehension evidence."
+    },
+    {
+      "id": "c1-u12-h3",
+      "skill": "Speaking & interaction",
+      "prompt": "Final capstone: write a 100–130-word profile and deliver a two-minute introduction. Include identity, origin, routine, location, interests, and a plan. Answer three partner follow-up questions; if solo, label your recording as rehearsal. Save an initial and revised version with a reflection.",
+      "model": "Use the dialogue or reading for a model of suitable language, then change the facts. Include one request for clarification and a response to it. Save your recording or a written interaction reflection.",
+      "rubric": "0–3 each: task completion, comprehensibility, target-form control, responsiveness. A 3 means independently effective for this task; 2 some help; 1 frequent help; 0 no evidence. Mark solo work as rehearsal."
+    },
+    {
+      "id": "c1-u12-h4",
+      "skill": "Retrieval & reflection",
+      "prompt": "After at least one day, produce five flashcard phrases without looking. Use two in new sentences. Compare with your earlier work and write one concrete plan for the next study session.",
+      "model": "Example reflection format: I retrieved [phrase], but confused [form]. I will revisit [lecture] and use the corrected form in [specific situation].",
+      "rubric": "Count successful retrieval separately from task quality. A useful reflection names an error, a correction, and a new use."
+    }
+  ]
+}

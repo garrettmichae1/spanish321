@@ -1,0 +1,381 @@
+{
+  "id": "c1-u06",
+  "course": 1,
+  "number": 6,
+  "title": "Questions, negation & midterm",
+  "subtitle": "Asking better questions",
+  "status": "authored",
+  "prerequisites": [
+    "c1-u05"
+  ],
+  "objectives": [
+    "Ask information and yes/no questions.",
+    "Use no, nunca, and nadie in basic negatives.",
+    "Combine Units 1–5 in an information-gap exchange."
+  ],
+  "warmup": "Without notes, retrieve three phrases from Unit 5. Use each in a new situation, then explain one correction from your last quiz. If you cannot retrieve a phrase, review its card before starting this unit.",
+  "lectures": [
+    {
+      "title": "Questions have a purpose",
+      "body": "A yes/no question may have the same words as a statement: ¿Trabajas aquí? Intonation and question marks signal the question. Information words include qué (what), quién (who), dónde (where), cuándo (when), cómo (how), cuánto (how much), and por qué (why). These carry accents in direct questions. Cuánto agrees when it modifies a noun: ¿Cuántos libros? ¿Cuántas clases? Choose the question from the information you need, not from an English sentence pattern. ¿De dónde eres? needs de because the answer expresses origin: Soy de Perú."
+    },
+    {
+      "title": "Negation without English do",
+      "body": "Put no before the verb: No estudio aquí. Negative words may follow that structure: No trabajo nunca; No conozco a nadie. When the negative word comes before the verb, no is usually omitted: Nunca trabajo los domingos. These patterns are normal Spanish, not a logical mistake called a double negative. For today, use one negative pattern accurately in a familiar context. Nada means nothing or not anything; nadie refers to people. No means no/not and is different from the affirmative sí, whose accent matters."
+    },
+    {
+      "title": "A midterm is a sample, not a label",
+      "body": "This unit consolidates earlier learning. Prepare by introducing yourself, spelling your name, describing an object, giving a time, and explaining two daily habits without looking. In practice mode, use corrections to identify concepts you need to revisit. In assessment mode, answer once without notes and preserve that attempt separately. A quiz samples recognition and controlled production; it cannot establish a CEFR level or spontaneous conversation ability. Add the practical exchange and writing sample to your portfolio. When you miss an item, state the rule and create a new example rather than memorizing only the answer."
+    }
+  ],
+  "reading": "—¿Dónde estudias?\n—Estudio en casa.\n—¿Cuándo estudias?\n—Los lunes y los jueves, a las siete.\n—¿Por qué estudias español?\n—Porque trabajo con estudiantes de México.\n—¿Trabajas los domingos?\n—No, nunca trabajo los domingos.\nRead the exchange and notice that por qué is two accented question words, while porque introduces the reason. Now replace the place, schedule, and reason with fictional information.",
+  "worked": [
+    {
+      "prompt": "Ask “Where do you live?” using tú.",
+      "answer": "¿Dónde vives?",
+      "reason": "Dónde asks location; vives matches familiar singular tú."
+    },
+    {
+      "prompt": "Complete: ¿___ libros tienes? (How many)",
+      "answer": "Cuántos",
+      "reason": "Libros is masculine plural, so cuánto becomes cuántos."
+    },
+    {
+      "prompt": "Complete: ¿___ qué estudias? (Why)",
+      "answer": "Por",
+      "reason": "Por qué asks why; porque gives a reason."
+    },
+    {
+      "prompt": "Complete: No trabajo ___ (never).",
+      "answer": "nunca",
+      "reason": "A negative word after the verb can accompany no."
+    },
+    {
+      "prompt": "Complete: ___ trabajo los domingos. (Never)",
+      "answer": "Nunca",
+      "reason": "When nunca precedes the verb, a second no is not needed."
+    },
+    {
+      "prompt": "Complete: ¿De dónde ___ usted?",
+      "answer": "es",
+      "reason": "Usted takes es; de dónde asks about origin."
+    }
+  ],
+  "task": "Midterm exchange: meet a new classmate, ask five distinct questions, confirm a meeting time, and describe two objects in the room. Write a 70–90-word profile afterward. Use the course rubric in the assessment guide.",
+  "culture": "Question intonation is not identical across Spanish-speaking communities. A rising contour is not the only valid signal. Pay attention to the words, context, and local patterns rather than imposing English intonation on every question.",
+  "selfAssessment": [
+    "I can ask information and yes/no questions.",
+    "I can use no, nunca, and nadie in basic negatives.",
+    "I can combine Units 1–5 in an information-gap exchange."
+  ],
+  "remediation": "Group missed items by concept, not by score. Reread the relevant mini-lecture, explain one worked example aloud, and write two new examples. Rehearse the communication task after a day. If you can select an answer but cannot use it in an exchange, prioritize retrieval and partner practice.",
+  "resources": [
+    "sd-questions"
+  ],
+  "cards": [
+    {
+      "id": "c1-u06-f01",
+      "unit": "c1-u06",
+      "kind": "production",
+      "front": "What do you study?",
+      "back": "¿Qué estudias?",
+      "example": "¿Qué estudias?"
+    },
+    {
+      "id": "c1-u06-f02",
+      "unit": "c1-u06",
+      "kind": "recognition",
+      "front": "¿Quién es?",
+      "back": "Who is it?",
+      "example": "¿Quién es?"
+    },
+    {
+      "id": "c1-u06-f03",
+      "unit": "c1-u06",
+      "kind": "production",
+      "front": "Where do you work?",
+      "back": "¿Dónde trabajas?",
+      "example": "¿Dónde trabajas?"
+    },
+    {
+      "id": "c1-u06-f04",
+      "unit": "c1-u06",
+      "kind": "recognition",
+      "front": "¿Cuándo estudias?",
+      "back": "When do you study?",
+      "example": "¿Cuándo estudias?"
+    },
+    {
+      "id": "c1-u06-f05",
+      "unit": "c1-u06",
+      "kind": "production",
+      "front": "How is it spelled?",
+      "back": "¿Cómo se escribe?",
+      "example": "¿Cómo se escribe?"
+    },
+    {
+      "id": "c1-u06-f06",
+      "unit": "c1-u06",
+      "kind": "recognition",
+      "front": "¿Cuántos libros?",
+      "back": "How many books?",
+      "example": "¿Cuántos libros?"
+    },
+    {
+      "id": "c1-u06-f07",
+      "unit": "c1-u06",
+      "kind": "production",
+      "front": "How many classes?",
+      "back": "¿Cuántas clases?",
+      "example": "¿Cuántas clases?"
+    },
+    {
+      "id": "c1-u06-f08",
+      "unit": "c1-u06",
+      "kind": "recognition",
+      "front": "¿Por qué estudias?",
+      "back": "Why do you study?",
+      "example": "¿Por qué estudias?"
+    },
+    {
+      "id": "c1-u06-f09",
+      "unit": "c1-u06",
+      "kind": "production",
+      "front": "Because I work here",
+      "back": "Porque trabajo aquí",
+      "example": "Porque trabajo aquí."
+    },
+    {
+      "id": "c1-u06-f10",
+      "unit": "c1-u06",
+      "kind": "recognition",
+      "front": "Nunca trabajo los domingos",
+      "back": "I never work on Sundays",
+      "example": "Nunca trabajo los domingos."
+    },
+    {
+      "id": "c1-u06-f11",
+      "unit": "c1-u06",
+      "kind": "production",
+      "front": "I do not understand anything",
+      "back": "No entiendo nada",
+      "example": "No entiendo nada."
+    },
+    {
+      "id": "c1-u06-f12",
+      "unit": "c1-u06",
+      "kind": "recognition",
+      "front": "No hay nadie",
+      "back": "There is nobody",
+      "example": "No hay nadie."
+    },
+    {
+      "id": "c1-u06-f13",
+      "unit": "c1-u06",
+      "kind": "production",
+      "front": "Is it at seven?",
+      "back": "¿Es a las siete?",
+      "example": "¿Es a las siete?"
+    },
+    {
+      "id": "c1-u06-f14",
+      "unit": "c1-u06",
+      "kind": "recognition",
+      "front": "¿Puede repetir la pregunta?",
+      "back": "Can you repeat the question?",
+      "example": "¿Puede repetir la pregunta?"
+    },
+    {
+      "id": "c1-u06-f15",
+      "unit": "c1-u06",
+      "kind": "production",
+      "front": "One moment, please",
+      "back": "Un momento, por favor",
+      "example": "Un momento, por favor."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c1-u06-q01",
+      "type": "typed",
+      "prompt": "Ask “Where do you live?” using tú.",
+      "answers": [
+        "¿Dónde vives?",
+        "¿Dónde vives tú?",
+        "¿Tú dónde vives?"
+      ],
+      "explanation": "Dónde asks location; vives matches familiar singular tú. Check the subject and the intended meaning before choosing a form.",
+      "concept": "Questions have a purpose"
+    },
+    {
+      "id": "c1-u06-q02",
+      "type": "cloze",
+      "prompt": "Complete: ¿___ libros tienes? (How many)",
+      "answers": [
+        "Cuántos"
+      ],
+      "explanation": "Libros is masculine plural, so cuánto becomes cuántos. Check the subject and the intended meaning before choosing a form.",
+      "concept": "Negation without English do"
+    },
+    {
+      "id": "c1-u06-q03",
+      "type": "cloze",
+      "prompt": "Complete: ¿___ qué estudias? (Why)",
+      "answers": [
+        "Por"
+      ],
+      "explanation": "Por qué asks why; porque gives a reason. Check the subject and the intended meaning before choosing a form.",
+      "concept": "A midterm is a sample, not a label"
+    },
+    {
+      "id": "c1-u06-q04",
+      "type": "cloze",
+      "prompt": "Complete: No trabajo ___ (never).",
+      "answers": [
+        "nunca"
+      ],
+      "explanation": "A negative word after the verb can accompany no. Check the subject and the intended meaning before choosing a form.",
+      "concept": "Questions have a purpose"
+    },
+    {
+      "id": "c1-u06-q05",
+      "type": "cloze",
+      "prompt": "Complete: ___ trabajo los domingos. (Never)",
+      "answers": [
+        "Nunca"
+      ],
+      "explanation": "When nunca precedes the verb, a second no is not needed. Check the subject and the intended meaning before choosing a form.",
+      "concept": "Negation without English do"
+    },
+    {
+      "id": "c1-u06-q06",
+      "type": "cloze",
+      "prompt": "Complete: ¿De dónde ___ usted?",
+      "answers": [
+        "es"
+      ],
+      "explanation": "Usted takes es; de dónde asks about origin. Check the subject and the intended meaning before choosing a form.",
+      "concept": "A midterm is a sample, not a label"
+    },
+    {
+      "id": "c1-u06-q07",
+      "type": "matching",
+      "prompt": "Select the expression that communicates: What do you study?.",
+      "options": [
+        "¿Qué estudias?",
+        "Nunca trabajo los domingos",
+        "¿Es a las siete?"
+      ],
+      "answers": [
+        "¿Qué estudias?"
+      ],
+      "explanation": "“¿Qué estudias?” communicates “What do you study?.” The other choices communicate “I never work on Sundays” and “Is it at seven?”; those do not answer this prompt.",
+      "concept": "Meaning in context"
+    },
+    {
+      "id": "c1-u06-q08",
+      "type": "choice",
+      "prompt": "Select the expression that communicates: Who is it?.",
+      "options": [
+        "¿Quién es?",
+        "No entiendo nada",
+        "¿Puede repetir la pregunta?"
+      ],
+      "answers": [
+        "¿Quién es?"
+      ],
+      "explanation": "“¿Quién es?” communicates “Who is it?.” The other choices communicate “I do not understand anything” and “Can you repeat the question?”; those do not answer this prompt.",
+      "concept": "Meaning in context"
+    },
+    {
+      "id": "c1-u06-q09",
+      "type": "matching",
+      "prompt": "Select the expression that communicates: Where do you work?.",
+      "options": [
+        "¿Dónde trabajas?",
+        "No hay nadie",
+        "Un momento, por favor"
+      ],
+      "answers": [
+        "¿Dónde trabajas?"
+      ],
+      "explanation": "“¿Dónde trabajas?” communicates “Where do you work?.” The other choices communicate “There is nobody” and “One moment, please”; those do not answer this prompt.",
+      "concept": "Meaning in context"
+    },
+    {
+      "id": "c1-u06-q10",
+      "type": "choice",
+      "prompt": "Select the expression that communicates: When do you study?.",
+      "options": [
+        "¿Cuándo estudias?",
+        "¿Es a las siete?",
+        "¿Qué estudias?"
+      ],
+      "answers": [
+        "¿Cuándo estudias?"
+      ],
+      "explanation": "“¿Cuándo estudias?” communicates “When do you study?.” The other choices communicate “Is it at seven?” and “What do you study?”; those do not answer this prompt.",
+      "concept": "Meaning in context"
+    },
+    {
+      "id": "c1-u06-q11",
+      "type": "matching",
+      "prompt": "Select the expression that communicates: How is it spelled?.",
+      "options": [
+        "¿Cómo se escribe?",
+        "¿Puede repetir la pregunta?",
+        "¿Quién es?"
+      ],
+      "answers": [
+        "¿Cómo se escribe?"
+      ],
+      "explanation": "“¿Cómo se escribe?” communicates “How is it spelled?.” The other choices communicate “Can you repeat the question?” and “Who is it?”; those do not answer this prompt.",
+      "concept": "Meaning in context"
+    },
+    {
+      "id": "c1-u06-q12",
+      "type": "choice",
+      "prompt": "Select the expression that communicates: How many books?.",
+      "options": [
+        "¿Cuántos libros?",
+        "Un momento, por favor",
+        "¿Dónde trabajas?"
+      ],
+      "answers": [
+        "¿Cuántos libros?"
+      ],
+      "explanation": "“¿Cuántos libros?” communicates “How many books?.” The other choices communicate “One moment, please” and “Where do you work?”; those do not answer this prompt.",
+      "concept": "Meaning in context"
+    }
+  ],
+  "homework": [
+    {
+      "id": "c1-u06-h1",
+      "skill": "Reading & writing",
+      "prompt": "Read the original text twice. Identify who is involved, the situation, and three key details. Rewrite it with two meaningful changes and underline the forms that had to change.",
+      "model": "Use the original text as a comparison model. Preserve its grammatical relationships, but change facts. Explain each changed ending using one of this unit’s mini-lectures.",
+      "rubric": "0–2 each: accurate key details, coherent changes, target grammar, explanation of corrections. Maximum 8; self-assessment is not instructor validation."
+    },
+    {
+      "id": "c1-u06-h2",
+      "skill": "Listening",
+      "prompt": "Listen to the original text using an available Spanish device voice or a willing reader. Hide the text, note five words or phrases you hear, then compare. Record the source and two uncertainties. If audio is unavailable, complete reading preparation and mark listening as not yet completed.",
+      "model": "A useful log includes source, date, words actually heard, and a correction confirmed against the text. Synthetic speech is listening rehearsal and does not represent the range of natural accents.",
+      "rubric": "0–2 each: documented source, specific notes, comparison, actionable next step. Score the process; do not invent comprehension evidence."
+    },
+    {
+      "id": "c1-u06-h3",
+      "skill": "Speaking & interaction",
+      "prompt": "Midterm exchange: meet a new classmate, ask five distinct questions, confirm a meeting time, and describe two objects in the room. Write a 70–90-word profile afterward. Use the course rubric in the assessment guide.",
+      "model": "Use the dialogue or reading for a model of suitable language, then change the facts. Include one request for clarification and a response to it. Save your recording or a written interaction reflection.",
+      "rubric": "0–3 each: task completion, comprehensibility, target-form control, responsiveness. A 3 means independently effective for this task; 2 some help; 1 frequent help; 0 no evidence. Mark solo work as rehearsal."
+    },
+    {
+      "id": "c1-u06-h4",
+      "skill": "Retrieval & reflection",
+      "prompt": "After at least one day, produce five flashcard phrases without looking. Use two in new sentences. Compare with your earlier work and write one concrete plan for the next study session.",
+      "model": "Example reflection format: I retrieved [phrase], but confused [form]. I will revisit [lecture] and use the corrected form in [specific situation].",
+      "rubric": "Count successful retrieval separately from task quality. A useful reflection names an error, a correction, and a new use."
+    }
+  ]
+}

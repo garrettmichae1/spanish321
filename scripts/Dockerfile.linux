@@ -1,0 +1,10 @@
+# syntax=docker/dockerfile:1
+# A single COPY/RUN avoids excessive VFS layer duplication on managed builders.
+FROM rust:slim-trixie
+COPY . /app
+RUN --mount=type=cache,target=/app/target --mount=type=cache,target=/usr/local/cargo/registry --mount=type=secret,id=proxy_ca,required=true \
+    apt-get -o Acquire::https::CaInfo=/run/secrets/proxy_ca update && \
+    apt-get -o Acquire::https::CaInfo=/run/secrets/proxy_ca install -y --no-install-recommends libwebkit2gtk-4.1-dev build-essential curl file libxdo-dev libssl-dev librsvg2-dev libayatana-appindicator3-dev pkg-config xvfb xauth xdotool dbus-x11 nodejs ca-certificates python3-gi && \
+    cd /app && CARGO_HTTP_CAINFO=/run/secrets/proxy_ca node node_modules/@tauri-apps/cli/tauri.js build --bundles deb --config '{"build":{"beforeBuildCommand":""}}' && \
+    cp target/release/spanish321 /app/spanish321 && cp target/release/bundle/deb/*.deb /app/ && \
+    useradd --create-home learner && mkdir -p /tmp/native-evidence && chmod 777 /tmp/native-evidence
