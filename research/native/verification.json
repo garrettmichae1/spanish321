@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-11-12T01:22:48.989098+00:00",
+  "checkedAt": "2026-11-12T01:37:56.570559+00:00",
   "platform": "Debian 13 x86_64, isolated Docker, Xvfb + WebKitGTK",
   "network": "disabled throughout installation, upgrade and functional checks",
   "package": "Spanish321_0.2.0_amd64.deb",
-  "sha256": "5307313d496401bbc61af8655e010c7609dde6f812bce973b5fcd05a5334ee61",
-  "bytes": 8167002,
+  "sha256": "b68152e82a6233d2952dc9d641b41276a990f011d147d9634ed3b8ecc86883f2",
+  "bytes": 7828752,
   "checks": {
     "nativeReleaseBuild": "passed",
     "debInstallation": "passed",
@@ -16,7 +16,8 @@
     "reopen": "passed",
     "nativeSaveDialog": "passed; exported backup contains persisted homework",
     "nativeReviewScheduling": "passed; Good scheduled one day, persisted via Rust IPC",
-    "nativeMicrophoneConsent": "passed; explicit dialog inspected; cancellation created no recording"
+    "nativeMicrophoneConsent": "passed; explicit dialog inspected; cancellation created no recording",
+    "contentUpdatePreservation": "passed before new input; final 60 hashes match source"
   },
   "notVerified": [
     "physical microphone capture and sound quality",
@@ -24,5 +25,8 @@
     "macOS installation and OS integration",
     "Windows installation and OS integration",
     "resource video/audio playback where catalog marks unknown"
-  ]
+  ],
+  "buildPlatform": "Ubuntu 24.04 x86_64 GitHub Actions; also independently compiled in Debian 13 Docker",
+  "applicationCommit": "d1e93375fad9883bfaa0f3e65c67def9552b275d",
+  "ci": "https://github.com/garrettmichae1/spanish321/actions/runs/43134580670"
 }

@@ -28,7 +28,7 @@ sudo apt install ./Spanish321_0.2.0_amd64.deb
 
 Then launch **Spanish321** from your applications menu. Dependencies may require internet during installation; the course itself is packaged. This is an unsigned independent-study build, not a signed public release. See [verification scope and limitations](docs/CONTENT-REVIEW.md) and the [user guide](docs/USER-GUIDE.md).
 
-Linux Debian 13 x86_64 is the primary native test platform. macOS DMG and Windows NSIS packages have CI build jobs; a successful build is distinct from installation, microphone, screen-reader and upgrade testing on those operating systems. Public releases are not published automatically.
+Linux Debian 13 x86_64 is the primary native test platform. macOS Apple Silicon DMG and Windows x64 NSIS packages built successfully in CI; a successful build is distinct from installation, microphone, screen-reader and upgrade testing on those operating systems. Public releases are not published automatically.
 
 ## Development from source
 
@@ -65,11 +65,12 @@ The authoritative bundled content is `content/units/*.json`, with original Markd
 node --import tsx scripts/schema.ts  # JSON schemas + content revision manifest
 npm run validate                   # all 60 units, keys, references and assessments
 npm run guides                     # HTML/Markdown books and UTF-8 CSVs
+node scripts/pdf-guides.mjs         # optional: PDF guides using installed Chromium
 python scripts/check-resources.py # refresh retrieval evidence; review results
 ```
 
 Authoring source records for Courses II–V are in `scripts/authoring/`. After regenerating those records, run `python scripts/authoring/enrichment.py`, `python scripts/authoring/card-context.py`, `python scripts/refine-content.py`, then regenerate schemas/manifest and validate. Never reuse a published activity ID for a different task.
 
-See the [curriculum audit](docs/CURRICULUM.md), [architecture and scheduling algorithm](docs/ARCHITECTURE.md), [content review report](docs/CONTENT-REVIEW.md), and [remaining release checks](docs/RELEASE-GATES.md).
+See the [complete syllabus](docs/SYLLABUS.md), [educator review packet](docs/EDUCATOR-REVIEW.md), [curriculum audit](docs/CURRICULUM.md), [architecture and scheduling algorithm](docs/ARCHITECTURE.md), [content review report](docs/CONTENT-REVIEW.md), and [remaining release checks](docs/RELEASE-GATES.md).
 
 The existing GPL-3.0 license is preserved. A separate CC BY-SA 4.0 license for original educational content is proposed, not activated; confirm that choice before a public release. Third-party resources retain their own terms. No creator audio, video, transcript, quiz or article is redistributed.

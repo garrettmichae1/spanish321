@@ -212,6 +212,17 @@ test("records with a simulated microphone, saves and reopens local audio", async
   expect(await page.locator("audio").getAttribute("src")).toMatch(
     /^data:audio\//,
   );
+  await context.setOffline(true);
+  await page.evaluate(async () => {
+    const audio = document.querySelector("audio")!;
+    audio.muted = true;
+    await audio.play();
+  });
+  await expect
+    .poll(() =>
+      page.evaluate(() => document.querySelector("audio")!.currentTime),
+    )
+    .toBeGreaterThan(0);
 });
 test("advanced course search, multi-pair matching, filtered reviews and printable exports work offline", async ({
   page,

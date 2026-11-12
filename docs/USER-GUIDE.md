@@ -2,7 +2,7 @@
 
 ## Installation status
 
-There is no signed, student-ready application release. A local Debian 13 x86_64 preview package was built, installed and smoke-tested offline. If you receive that package, verify SHA256SUMS, install with `sudo apt install ./Spanish321_0.2.0_amd64.deb`, and launch Spanish321 from your applications menu. Package dependencies may require internet during installation; study content then works locally. Developers can compile from source; that is different from installing a tested end-user release. Any locally prepared native package is a preview and its verification scope is in the content-review report. macOS and Windows installers have CI build configurations; installation and OS integration require separate testing.
+There is no signed, student-ready application release. A local Debian 13 x86_64 preview package was built, installed and smoke-tested offline. If you receive that package, verify SHA256SUMS, install with `sudo apt install ./Spanish321_0.2.0_amd64.deb`, and launch Spanish321 from your applications menu. Package dependencies may require internet during installation; study content then works locally. Developers can compile from source; that is different from installing a tested end-user release. Any locally prepared native package is a preview and its verification scope is in the content-review report. macOS Apple Silicon and Windows x64 installers built successfully in CI. Their installation, launch and OS integration have not been tested.
 
 ## Your first session
 
@@ -25,7 +25,7 @@ No account, subscription, telemetry or default upload is used. Microphone permis
 
 Settings → Download backup exports versioned JSON. Restore validates, asks before replacing data, then restores it. Export a current copy first. Flashcard CSV exports all cards or an individual unit. For new imports, assign unique IDs such as custom-travel-001; kinds are recognition or production. The header is `id,unit,kind,front,back,example`.
 
-Lesson → Export printable guide saves a complete standalone HTML guide. Open it in a browser and print or save as PDF. Desktop exports use the native Save dialog. Developer-generated guides in release/guides include all answer keys and rubric text in HTML and Markdown. HTML can be printed to PDF without changing the source content.
+Lesson → Export printable guide saves a complete standalone HTML guide. Open it in a browser and print or save as PDF. Desktop exports use the native Save dialog. Developer-generated guides in release/guides include all answer keys and rubric text in HTML and Markdown. HTML can be printed to PDF without changing the source content. The prepared study pack also includes all 80 guides as PDFs with page numbers and bookmarks.
 
 ## Limits
 

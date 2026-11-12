@@ -13,7 +13,7 @@ All 60 units are authored and usable. This checklist separates implemented learn
 - [x] Automated accessibility checks on nine core screens, scalable text and mobile navigation.
 - [x] Resource retrieval evidence with uncertain playback/captions explicitly flagged and original offline alternatives.
 - [x] Native Linux installer build, with installed-package verification recorded in the content-review report.
-- [x] macOS/Windows packaging, native microphone purpose declarations, and CI builds configured; no public release action.
+- [x] macOS/Windows packaging, native microphone purpose declarations, and successful three-platform CI builds; no public release action.
 
 ## Independent validation and public distribution
 

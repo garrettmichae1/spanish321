@@ -1,0 +1,17 @@
+{
+  "applicationCommit": "d1e93375fad9883bfaa0f3e65c67def9552b275d",
+  "verificationRun": "https://github.com/garrettmichae1/spanish321/actions/runs/43134580660",
+  "verificationConclusion": "success",
+  "desktopRun": "https://github.com/garrettmichae1/spanish321/actions/runs/43134580670",
+  "desktopBuilds": {
+    "ubuntu-24.04 amd64 deb": "success",
+    "macos-latest aarch64 dmg": "success",
+    "windows-latest x64 NSIS": "success"
+  },
+  "functionalInstallationChecks": {
+    "Linux Debian 13 x86_64": "passed offline installation, upgrade, reopening, persistence, native exports and scheduling",
+    "macOS": "not performed",
+    "Windows": "not performed"
+  },
+  "physicalMicrophoneChecks": "not performed"
+}

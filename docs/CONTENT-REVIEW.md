@@ -8,7 +8,7 @@ Review date: 2026-11-12. This is an engineering and editorial self-review, **not
 - 148 original mini-lectures (about 15,042 words), 60 original readings/dialogues, 361 worked examples, 903 phrase/sentence cards, 735 unit quiz questions, and 240 homework activities.
 - Every unit has 3–5 objectives, prerequisites/retrieval, 2–4 lectures, reading, resources, worked examples, 15–25 cards, 12–20 quiz questions, four homework activities, a practical task, cultural/regional notes and remediation.
 - All five courses have entry checks, cumulative midterms/finals, performance tasks and transparent rubrics: 15 assessments total. They reference the published question bank; repeated success on known items is not independent proficiency evidence.
-- All 60 unit guides, 15 assessment guides, five combined course books and CSVs are generated from the same bundled content. Standalone HTML guides can be printed to PDF.
+- All 60 unit guides, 15 assessment guides, five combined course books and CSVs are generated from the same bundled content. Eighty printable PDF guides include page numbers and bookmarks; standalone HTML and Markdown are also included. The five course books total 473 pages, including practice, homework, resources and answer keys.
 - Forty-seven resource records distinguish successful retrieval, restrictions and unknown playback/caption status. Advanced assignments use precise selection criteria for changing authentic-media collections. No third-party text or media is copied into lessons.
 
 ## Editorial changes
@@ -24,16 +24,16 @@ Original Spanish I activity IDs retain their meanings; new multi-pair activities
 - Production React/TypeScript build and complete-content validator pass.
 - 65 frontend unit tests exercise scheduling, Unicode/accent distinctions, CSV roundtrip, backup rejection and all authored answer keys/distractors.
 - 7 Rust tests exercise scheduling bounds, grading normalization, full schema validation across all units, SQLite migrations, rejected restore atomicity, reopening persistence, and content updates preserving retired IDs.
-- Chromium E2E covers offline beginner/advanced learning, mobile navigation, valid and invalid backups, assessment separation, CSV collision rejection, simulated microphone persistence, search, complete matching, filtered reviews and printable export.
+- Chromium E2E covers offline beginner/advanced learning, mobile navigation, valid and invalid backups, assessment separation, CSV collision rejection, simulated microphone persistence and actual offline audio playback, search, complete matching, filtered reviews and printable export.
 - Automated WCAG A/AA checks pass on nine core screens. This does not substitute for manual assistive-technology testing.
 
 ## Platforms and media
 
-The 7.79 MiB Linux installer was installed over 0.1.0 with an existing version-1 database. Migration to version 2 preserved homework and registered all 60 content revisions. Native keyboard writing, reopening, the Save dialog and exported backup, one-day flashcard scheduling through Rust IPC, and microphone-consent cancellation passed. Physical audio capture remains unverified.
+The Linux installer was installed over 0.1.0 with an existing version-1 database. Migration to version 2 preserved homework and registered all 60 content revisions. Native keyboard writing, reopening, the Save dialog and exported backup, one-day flashcard scheduling through Rust IPC, and microphone-consent cancellation passed. Physical audio capture remains unverified.
 
 Native Linux verification and package checksums are recorded in `research/native/verification.json`. Tests use an unprivileged learner in a network-disabled Debian 13 x86_64 container with Xvfb and WebKitGTK. They are distinct from browser tests. Host native compilation lacked GTK/WebKit development packages; the container supplies the official prerequisites without disabling certificate or application sandbox checks.
 
-macOS and Windows have installer build jobs; build results and functional installation tests must be reported separately. No signing/notarization is configured. Browser recording tests use generated test audio; they do not establish physical-device audio quality. Native permission prompts and synthetic-device behavior are likewise distinct from a physical microphone test.
+All three installer jobs passed on GitHub Actions for commit d1e9337: Ubuntu 24.04 amd64 DEB, macOS Apple Silicon DMG, and Windows x64 NSIS. The downloaded Ubuntu package was additionally installed and checked on offline Debian 13. macOS/Windows installation, launch and OS integration were not exercised. See `research/ci-verification.json`; compilation and core tests do not establish installation behavior. No signing/notarization is configured. Browser recording tests use generated test audio; they do not establish physical-device audio quality. Native permission prompts and synthetic-device behavior are likewise distinct from a physical microphone test.
 
 Resource checks are in `research/resource-checks.json` and `research/expansion-resource-checks.json`. HTTP success and title inspection do not establish playback. The restricted YouTube playlist and unverified captions are labeled. External media requires internet; original written learning remains offline.
 
@@ -42,3 +42,5 @@ Resource checks are in `research/resource-checks.json` and `research/expansion-r
 Qualified educator review, observed student sessions, manual screen-reader testing, physical microphone checks, and macOS/Windows installation/upgrade testing remain outstanding. Do not present the course as professionally validated or the entire media experience as offline. The independent-study materials and engineering results are provided with these limits visible.
 
 The existing GPL-3.0 license remains. Separate CC BY-SA 4.0 educational-content licensing is proposed pending confirmation. Source pushes to the requested main branch are authorized; no public binary release is created. Local installers, study packs, checksums and dependency metadata are prepared for review.
+
+Final application verification passed: https://github.com/garrettmichae1/spanish321/actions/runs/43134580660 . All-platform installer builds passed: https://github.com/garrettmichae1/spanish321/actions/runs/43134580670 . These are build artifacts, not a signed public release.
