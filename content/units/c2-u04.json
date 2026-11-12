@@ -187,7 +187,7 @@
     {
       "id": "c2-u04-q01",
       "type": "cloze",
-      "prompt": "Complete: ___ doy el libro a Ana.",
+      "prompt": "Use an indirect-object pronoun: ___ doy el libro a Ana.",
       "answers": [
         "Le"
       ],
@@ -207,7 +207,7 @@
     {
       "id": "c2-u04-q03",
       "type": "cloze",
-      "prompt": "Complete: ___ envío una carta a mis colegas.",
+      "prompt": "Use an indirect-object pronoun: ___ envío una carta a mis colegas.",
       "answers": [
         "Les"
       ],

@@ -1,6 +1,8 @@
 #!/bin/bash
 set -euo pipefail
 export DISPLAY=:98 WEBKIT_DISABLE_DMABUF_RENDERER=1
+# Remove only this script’s prior test export, so stale output cannot pass.
+rm -f /home/learner/spanish321-native-backup.json
 Xvfb :98 -screen 0 1440x1000x24 >/tmp/native-evidence/export-xvfb.log 2>&1 &
 xvfb_pid=$!
 for i in {1..20}; do xdotool getdisplaygeometry >/dev/null 2>&1 && break; sleep .2; done

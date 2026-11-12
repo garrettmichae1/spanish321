@@ -206,7 +206,9 @@
       "prompt": "Complete: El punto ___ es distinguir ambas fases. (decisive)",
       "answers": [
         "decisivo",
-        "determinante"
+        "determinante",
+        "clave",
+        "crucial"
       ],
       "explanation": "This signpost directs attention to the central distinction.",
       "concept": "Diseñar para escuchar"

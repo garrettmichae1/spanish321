@@ -48,6 +48,24 @@ prompts={
 'c5-u10-q04':'Complete: La ironía puede contrastar sentido literal y ___. (context)',
 'c5-u12-q03':'Complete: La evaluación de un compañero debe identificarse como evaluación ___. (give a Spanish phrase meaning peer evaluation)',
 }
+# Make person/tense constraints explicit where an isolated cloze was ambiguous.
+prompts.update({
+ 'c2-u04-q01':'Use an indirect-object pronoun: ___ doy el libro a Ana.',
+ 'c2-u04-q03':'Use an indirect-object pronoun: ___ envío una carta a mis colegas.',
+ 'c2-u11-q05':'Complete the present perfect: Yo ___ visto la película. (haber)',
+ 'c2-u11-q06':'Complete the present perfect: Todavía no lo ___ hecho. (haber, nosotros)',
+ 'c3-u02-q04':'Complete the past perfect: Yo ___ terminado cuando llamaste. (haber)',
+ 'c3-u06-q01':'Complete with Según (according to) or Contra (against), based on attribution: ___ la coordinadora, el acceso mejoró.',
+ 'c3-u06-q03':'Complete the past perfect: Antes de abrir la sala, ya se ___ reunido varias veces. (haber, ellos)',
+ 'c3-u09-q01':'Complete: No creo que el plan ___ suficiente. (ser, present subjunctive)',
+ 'c4-u04-q01':'Complete the present perfect subjunctive: Me alegra que tú ___ venido. (haber)',
+ 'c4-u05-q05':'Complete: Dijo que él ___ en Quito. (vivir, present indicative; current residence explicitly maintained)',
+})
+variants.update({
+ 'c3-u11-q06':['Según'],
+ 'c4-u05-q01':['el día siguiente','un día después'],
+ 'c5-u07-q03':['determinante','clave','crucial'],
+})
 # Remove variants incompatible with the newly narrowed instruction.
 for key in ['c4-u07-q02','c5-u04-q02','c5-u08-q01','c5-u08-q03','c5-u10-q04']:
  variants.pop(key,None)

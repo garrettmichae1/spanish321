@@ -213,7 +213,7 @@
     {
       "id": "c3-u02-q04",
       "type": "cloze",
-      "prompt": "Complete: Yo ___ terminado cuando llamaste.",
+      "prompt": "Complete the past perfect: Yo ___ terminado cuando llamaste. (haber)",
       "answers": [
         "había"
       ],

@@ -183,7 +183,7 @@
     {
       "id": "c3-u09-q01",
       "type": "cloze",
-      "prompt": "Complete: No creo que ___ suficiente. (ser)",
+      "prompt": "Complete: No creo que el plan ___ suficiente. (ser, present subjunctive)",
       "answers": [
         "sea"
       ],

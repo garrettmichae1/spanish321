@@ -22,6 +22,18 @@ root=Gdk.get_default_root_window()
 Gdk.pixbuf_get_from_window(root,0,0,1440,1000).savev('/tmp/native-evidence/native-dashboard.png','png',[],[])
 PY
 kill -0 "$app_pid"
+if [[ "${NATIVE_EXPECT_EXISTING:-0}" == "1" ]]; then
+python3 - <<'EXISTING'
+import pathlib,sqlite3,json
+p=next(pathlib.Path('/home/learner/.local/share').rglob('learner.sqlite3'))
+c=sqlite3.connect(p)
+s=json.loads(c.execute('SELECT json FROM learner_state WHERE id=1').fetchone()[0])
+assert any(h['text']=='Native offline homework persists.' for h in s['homework'].values())
+assert c.execute('PRAGMA user_version').fetchone()[0]==2
+assert c.execute('SELECT COUNT(*) FROM content_manifest').fetchone()[0]==60
+print('Prior writing survived startup and migration before new input.')
+EXISTING
+fi
 # Focus the Assignments screen, then its unit selector and first writing field.
 xdotool mousemove 110 410 click 1
 sleep 1

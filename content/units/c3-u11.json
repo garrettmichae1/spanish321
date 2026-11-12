@@ -238,7 +238,8 @@
       "type": "cloze",
       "prompt": "Complete: ___ mi experiencia, funciona mejor.",
       "answers": [
-        "En"
+        "En",
+        "Según"
       ],
       "explanation": "En mi experiencia limits the claim to the speaker’s own experience.",
       "concept": "Repair is a collaborative skill"

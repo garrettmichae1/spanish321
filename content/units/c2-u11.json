@@ -227,7 +227,7 @@
     {
       "id": "c2-u11-q05",
       "type": "cloze",
-      "prompt": "Complete: Yo ___ visto la película.",
+      "prompt": "Complete the present perfect: Yo ___ visto la película. (haber)",
       "answers": [
         "he"
       ],
@@ -237,7 +237,7 @@
     {
       "id": "c2-u11-q06",
       "type": "cloze",
-      "prompt": "Complete: Todavía no lo ___ hecho. (nosotros)",
+      "prompt": "Complete the present perfect: Todavía no lo ___ hecho. (haber, nosotros)",
       "answers": [
         "hemos"
       ],

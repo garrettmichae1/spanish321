@@ -185,7 +185,9 @@
       "type": "cloze",
       "prompt": "Report from a later day: Dijo: “Voy mañana” → Dijo que iba ___.",
       "answers": [
-        "al día siguiente"
+        "al día siguiente",
+        "el día siguiente",
+        "un día después"
       ],
       "explanation": "The time expression must be anchored to the original day, not the reporting day.",
       "concept": "Perspective moves"
@@ -223,7 +225,7 @@
     {
       "id": "c4-u05-q05",
       "type": "cloze",
-      "prompt": "Complete: Dijo que ___ en Quito. (vivir, current residence explicitly maintained)",
+      "prompt": "Complete: Dijo que él ___ en Quito. (vivir, present indicative; current residence explicitly maintained)",
       "answers": [
         "vive"
       ],

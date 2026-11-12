@@ -183,7 +183,7 @@
     {
       "id": "c3-u06-q01",
       "type": "cloze",
-      "prompt": "Complete the attribution: ___ la coordinadora, el acceso mejoró.",
+      "prompt": "Complete with Según (according to) or Contra (against), based on attribution: ___ la coordinadora, el acceso mejoró.",
       "answers": [
         "Según"
       ],
@@ -206,7 +206,7 @@
     {
       "id": "c3-u06-q03",
       "type": "cloze",
-      "prompt": "Complete: Antes de abrir la sala, ya se ___ reunido varias veces.",
+      "prompt": "Complete the past perfect: Antes de abrir la sala, ya se ___ reunido varias veces. (haber, ellos)",
       "answers": [
         "habían"
       ],
