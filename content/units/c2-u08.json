@@ -1,0 +1,388 @@
+{
+  "id": "c2-u08",
+  "course": 2,
+  "number": 8,
+  "title": "Imperfect & past habits",
+  "subtitle": "Describe what life used to be like",
+  "status": "authored",
+  "prerequisites": [
+    "c2-u07"
+  ],
+  "objectives": [
+    "Form the imperfect, including ser, ir and ver.",
+    "Describe past routines and circumstances.",
+    "Avoid turning an English translation cue into a tense rule."
+  ],
+  "warmup": "Retrieve two sentences and one repair strategy from c2-u07. Change the subject or situation in each sentence and explain what changed. Then read today’s objectives and predict where your existing language may be insufficient.",
+  "lectures": [
+    {
+      "title": "A past viewed from inside",
+      "body": "The imperfect presents a past situation without focusing on its endpoints: Vivíamos cerca del río. Regular ar endings are aba, abas, aba, ábamos, abais, aban; er/ir endings are ía, ías, ía, íamos, íais, ían. The three commonly taught irregular verbs are ser (era, eras, era, éramos, erais, eran), ir (iba…) and ver (veía…). First and third singular forms coincide, so context or a name can matter. Do not assume the imperfect means an event never ended; it simply does not present the ending as the main point."
+    },
+    {
+      "title": "Habits and background",
+      "body": "De niño jugaba en el parque describes a recurring activity. Eran las ocho, hacía frío, and tenía diez años often supply background time, weather and age. Those functions help explain tense choice, but the same information can be framed as a bounded event in other contexts. English used to is helpful for habits, while was/were may correspond to either Spanish past tense. Write a picture of the setting before introducing a new event. If a listener asks what happened next, an endless string of imperfect descriptions may not answer the question; Unit 9 combines the two perspectives."
+    },
+    {
+      "title": "Background has a point of view",
+      "body": "Consider **A las ocho, la plaza estaba vacía y llovía**. The speaker places the listener inside a past scene. The imperfect does not assert that the plaza remained empty forever or that the rain never stopped; those endpoints simply are not the focus. **Era pequeña** can describe a shop that still exists. “Temporary versus permanent” is not a reliable way to choose a past tense.\n\nFor habits, frequency expressions help establish a repeated scene: **Cada sábado íbamos al mercado**. A bounded summary can instead package many repetitions as one period: **Durante ese mes fuimos al mercado cuatro veces**. The number of real-world actions does not by itself force the imperfect. What matters is how the speaker presents them.\n\nWrite a short childhood scene using one location, one recurring action and one description. Then add a new sentence about a single event from that setting, reserving fuller contrasts for the next unit. A partner should be able to tell which information sets the scene and which event moves the account forward."
+    }
+  ],
+  "reading": "Cuando Lucía era niña, vivía en un barrio pequeño. Su abuela tenía una tienda y conocía a casi todos los vecinos. Los sábados Lucía iba a la plaza con sus primos. Jugaban, compraban pan y volvían antes de comer. La plaza era diferente: había menos coches y más árboles. Lucía no dice que todo fuera mejor; recuerda también que el transporte era limitado. Hoy quiere saber cómo recuerdan el barrio otras personas. Separa hechos descritos de valoraciones personales y prepara dos preguntas que no sugieran que todos tuvieron la misma experiencia.",
+  "worked": [
+    {
+      "prompt": "Complete: Nosotros ___ cerca. (vivir, imperfect)",
+      "answer": "vivíamos",
+      "reason": "The nosotros er/ir imperfect ending is íamos, with its written accent."
+    },
+    {
+      "prompt": "Complete: Ella ___ a la plaza. (ir, imperfect)",
+      "answer": "iba",
+      "reason": "Ir has the irregular imperfect stem iba; it does not follow regular ir endings."
+    },
+    {
+      "prompt": "Complete: Nosotros ___ estudiantes. (ser, imperfect)",
+      "answer": "éramos",
+      "reason": "Ser uses éramos, with stress preserved by the written accent."
+    },
+    {
+      "prompt": "Complete: Yo ___ a mi abuela. (ver, imperfect)",
+      "answer": "veía",
+      "reason": "Ver retains the e in veía; the accent marks the stressed í."
+    },
+    {
+      "prompt": "Complete: De niño ___ en el parque. (jugar, yo imperfect)",
+      "answer": "jugaba",
+      "reason": "Regular ar imperfect uses aba; the present stem change does not carry over."
+    },
+    {
+      "prompt": "Complete: ___ las ocho. (ser, imperfect)",
+      "answer": "Eran",
+      "reason": "Plural clock time uses eran in this background description."
+    }
+  ],
+  "cards": [
+    {
+      "id": "c2-u08-f01",
+      "unit": "c2-u08",
+      "kind": "production",
+      "front": "We lived near the river",
+      "back": "Vivíamos cerca del río",
+      "example": "Vivíamos cerca del río"
+    },
+    {
+      "id": "c2-u08-f02",
+      "unit": "c2-u08",
+      "kind": "recognition",
+      "front": "Iba a la plaza",
+      "back": "I used to go to the square",
+      "example": "Iba a la plaza"
+    },
+    {
+      "id": "c2-u08-f03",
+      "unit": "c2-u08",
+      "kind": "production",
+      "front": "We were students",
+      "back": "Éramos estudiantes",
+      "example": "Éramos estudiantes"
+    },
+    {
+      "id": "c2-u08-f04",
+      "unit": "c2-u08",
+      "kind": "recognition",
+      "front": "Veía a mi abuela",
+      "back": "I used to see my grandmother",
+      "example": "Veía a mi abuela"
+    },
+    {
+      "id": "c2-u08-f05",
+      "unit": "c2-u08",
+      "kind": "production",
+      "front": "I used to play in the park",
+      "back": "Jugaba en el parque",
+      "example": "Jugaba en el parque"
+    },
+    {
+      "id": "c2-u08-f06",
+      "unit": "c2-u08",
+      "kind": "recognition",
+      "front": "Eran las ocho",
+      "back": "It was eight o’clock",
+      "example": "Eran las ocho"
+    },
+    {
+      "id": "c2-u08-f07",
+      "unit": "c2-u08",
+      "kind": "production",
+      "front": "It was cold",
+      "back": "Hacía frío",
+      "example": "Hacía frío"
+    },
+    {
+      "id": "c2-u08-f08",
+      "unit": "c2-u08",
+      "kind": "recognition",
+      "front": "Tenía diez años",
+      "back": "I was ten years old",
+      "example": "Tenía diez años"
+    },
+    {
+      "id": "c2-u08-f09",
+      "unit": "c2-u08",
+      "kind": "production",
+      "front": "There were more trees",
+      "back": "Había más árboles",
+      "example": "Había más árboles"
+    },
+    {
+      "id": "c2-u08-f10",
+      "unit": "c2-u08",
+      "kind": "recognition",
+      "front": "Los sábados volvíamos temprano",
+      "back": "On Saturdays we used to return early",
+      "example": "Los sábados volvíamos temprano"
+    },
+    {
+      "id": "c2-u08-f11",
+      "unit": "c2-u08",
+      "kind": "production",
+      "front": "When I was a girl",
+      "back": "Cuando era niña",
+      "example": "Cuando era niña"
+    },
+    {
+      "id": "c2-u08-f12",
+      "unit": "c2-u08",
+      "kind": "recognition",
+      "front": "Antes vivía aquí",
+      "back": "I used to live here",
+      "example": "Antes vivía aquí"
+    },
+    {
+      "id": "c2-u08-f13",
+      "unit": "c2-u08",
+      "kind": "production",
+      "front": "She or he knew the neighbors",
+      "back": "Conocía a los vecinos",
+      "example": "Conocía a los vecinos"
+    },
+    {
+      "id": "c2-u08-f14",
+      "unit": "c2-u08",
+      "kind": "recognition",
+      "front": "No todo era mejor",
+      "back": "Not everything was better",
+      "example": "No todo era mejor"
+    },
+    {
+      "id": "c2-u08-f15",
+      "unit": "c2-u08",
+      "kind": "production",
+      "front": "What was the neighborhood like?",
+      "back": "¿Cómo era el barrio?",
+      "example": "¿Cómo era el barrio?"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c2-u08-q01",
+      "type": "cloze",
+      "prompt": "Complete: Nosotros ___ cerca. (vivir, imperfect)",
+      "answers": [
+        "vivíamos"
+      ],
+      "explanation": "The nosotros er/ir imperfect ending is íamos, with its written accent.",
+      "concept": "A past viewed from inside"
+    },
+    {
+      "id": "c2-u08-q02",
+      "type": "cloze",
+      "prompt": "Complete: Ella ___ a la plaza. (ir, imperfect)",
+      "answers": [
+        "iba"
+      ],
+      "explanation": "Ir has the irregular imperfect stem iba; it does not follow regular ir endings.",
+      "concept": "A past viewed from inside"
+    },
+    {
+      "id": "c2-u08-q03",
+      "type": "cloze",
+      "prompt": "Complete: Nosotros ___ estudiantes. (ser, imperfect)",
+      "answers": [
+        "éramos"
+      ],
+      "explanation": "Ser uses éramos, with stress preserved by the written accent.",
+      "concept": "A past viewed from inside"
+    },
+    {
+      "id": "c2-u08-q04",
+      "type": "cloze",
+      "prompt": "Complete: Yo ___ a mi abuela. (ver, imperfect)",
+      "answers": [
+        "veía"
+      ],
+      "explanation": "Ver retains the e in veía; the accent marks the stressed í.",
+      "concept": "Habits and background"
+    },
+    {
+      "id": "c2-u08-q05",
+      "type": "cloze",
+      "prompt": "Complete: De niño ___ en el parque. (jugar, yo imperfect)",
+      "answers": [
+        "jugaba"
+      ],
+      "explanation": "Regular ar imperfect uses aba; the present stem change does not carry over.",
+      "concept": "Habits and background"
+    },
+    {
+      "id": "c2-u08-q06",
+      "type": "cloze",
+      "prompt": "Complete: ___ las ocho. (ser, imperfect)",
+      "answers": [
+        "Eran"
+      ],
+      "explanation": "Plural clock time uses eran in this background description.",
+      "concept": "Habits and background"
+    },
+    {
+      "id": "c2-u08-q07",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: We lived near the river.",
+      "options": [
+        "Había más árboles",
+        "Conocía a los vecinos",
+        "Vivíamos cerca del río"
+      ],
+      "answers": [
+        "Vivíamos cerca del río"
+      ],
+      "explanation": "“Vivíamos cerca del río” expresses “We lived near the river”. “Había más árboles” instead means “There were more trees”. “Conocía a los vecinos” instead means “She or he knew the neighbors”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c2-u08-q08",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: I used to go to the square.",
+      "options": [
+        "No todo era mejor",
+        "Iba a la plaza",
+        "Los sábados volvíamos temprano"
+      ],
+      "answers": [
+        "Iba a la plaza"
+      ],
+      "explanation": "“Iba a la plaza” expresses “I used to go to the square”. “No todo era mejor” instead means “Not everything was better”. “Los sábados volvíamos temprano” instead means “On Saturdays we used to return early”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c2-u08-q09",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: We were students.",
+      "options": [
+        "Éramos estudiantes",
+        "Cuando era niña",
+        "¿Cómo era el barrio?"
+      ],
+      "answers": [
+        "Éramos estudiantes"
+      ],
+      "explanation": "“Éramos estudiantes” expresses “We were students”. “Cuando era niña” instead means “When I was a girl”. “¿Cómo era el barrio?” instead means “What was the neighborhood like?”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c2-u08-q10",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: I used to see my grandmother.",
+      "options": [
+        "Antes vivía aquí",
+        "Vivíamos cerca del río",
+        "Veía a mi abuela"
+      ],
+      "answers": [
+        "Veía a mi abuela"
+      ],
+      "explanation": "“Veía a mi abuela” expresses “I used to see my grandmother”. “Antes vivía aquí” instead means “I used to live here”. “Vivíamos cerca del río” instead means “We lived near the river”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c2-u08-q11",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: I used to play in the park.",
+      "options": [
+        "Iba a la plaza",
+        "Jugaba en el parque",
+        "Conocía a los vecinos"
+      ],
+      "answers": [
+        "Jugaba en el parque"
+      ],
+      "explanation": "“Jugaba en el parque” expresses “I used to play in the park”. “Iba a la plaza” instead means “I used to go to the square”. “Conocía a los vecinos” instead means “She or he knew the neighbors”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c2-u08-q12",
+      "type": "matching",
+      "prompt": "Match each English meaning to its Spanish expression. Use each expression once.",
+      "answers": [
+        "[\"Jugaba en el parque\",\"Hacía frío\",\"Había más árboles\"]"
+      ],
+      "explanation": "“Jugaba en el parque” means “I used to play in the park”. “Hacía frío” means “It was cold”. “Había más árboles” means “There were more trees”. Each alternative belongs to a different meaning; check the whole phrase, including its grammatical person and register.",
+      "concept": "Meaning and register",
+      "pairs": [
+        {
+          "left": "I used to play in the park",
+          "right": "Jugaba en el parque"
+        },
+        {
+          "left": "It was cold",
+          "right": "Hacía frío"
+        },
+        {
+          "left": "There were more trees",
+          "right": "Había más árboles"
+        }
+      ]
+    }
+  ],
+  "homework": [
+    {
+      "id": "c2-u08-h1",
+      "skill": "Reading & writing",
+      "prompt": "Read the original text for this unit. Identify its situation, central message, and three supporting details. Then write a new version of 100–140 words for a different person or audience. Use the target patterns, change at least three facts, and explain two revisions.",
+      "model": "Cuando Lucía era niña, vivía en un barrio pequeño. Su abuela tenía una tienda y conocía a casi todos los vecinos. Los sábados Lucía iba a la plaza con sus primos. Jugaban, compraban pan y volvían antes de comer. La plaza era diferente: había menos coches y más árboles. Lucía no dice que todo fuera mejor; recuerda también que el transporte era limitado. Hoy quiere saber cómo recuerdan el barrio otras personas. Separa hechos descritos de valoraciones personales y prepara dos preguntas que no sugieran que todos tuvieron la misma experiencia.\n\nThis is the source model, not a text to submit unchanged. A successful adaptation retains the communicative purpose while changing relevant forms and facts. Compare with the worked examples for the reasons behind form choices.",
+      "rubric": "0–3 each: fulfills the specified purpose; organized and comprehensible; target forms support meaning; revisions are explained with examples. 0 = no evidence, 1 = substantial help needed, 2 = effective with some support, 3 = independently effective for this task. Record who evaluated the work."
+    },
+    {
+      "id": "c2-u08-h2",
+      "skill": "Listening",
+      "prompt": "Complete the resource assignment, or ask a willing reader to read the original text without showing it to you. First listen for the situation and purpose; listen again for three details and one contrast. Write a 60–100-word listening log naming the source, words actually heard, one uncertainty, and how you checked it. If using local synthesized speech, label it synthetic. Text-only preparation is not completed listening.",
+      "model": "A useful log separates the speaker’s message from your interpretation: “I heard [specific phrase]; I understood [claim]; I was uncertain about [word/relationship]; checking [text or partner] changed my interpretation to [correction].” Use the unit reading as an answer reference for a read-aloud version, never as evidence of an external speaker’s words.",
+      "rubric": "0–2 each: identifies source and listening conditions; retrieves central meaning; supports three details; checks a specific uncertainty. Do not count a copied transcript as independent comprehension."
+    },
+    {
+      "id": "c2-u08-h3",
+      "skill": "Speaking & interaction",
+      "prompt": "Interview a willing person about a past routine, using fictional information if preferred. Ask about setting, habit and one difference from today; avoid assuming the past was better.",
+      "model": "Use the original reading/dialogue and the sentence-pattern cards as preparation. Make a brief outline, then put it away. Your partner should introduce a detail you did not prepare. Respond, request clarification if needed, and summarize what you agreed or still disagree about. Solo fallback: record two possible viewpoints and improvise a response after a pause; label it rehearsal.",
+      "rubric": "0–3 each: task fulfillment, comprehensibility, control of target language, responsiveness to another speaker. A partner or instructor should cite one example per score. Solo rehearsal provides no evidence for live responsiveness; mark that dimension not observed."
+    },
+    {
+      "id": "c2-u08-h4",
+      "skill": "Retrieval & reflection",
+      "prompt": "On a later day, retrieve six cards without looking. Use three in a fresh response to the practical task. Identify one recurring form error and one communication difficulty. Produce a corrected example, explain the reason, and schedule a specific follow-up exchange or listening session.",
+      "model": "Compare your response with these two models: Vivíamos cerca del río / Iba a la plaza. A useful reflection explains the function, not just the spelling. Revisit the first worked item and create a different example of its principle.",
+      "rubric": "Report recall count separately from performance. Reflection is complete when it contains an observed difficulty, an explained correction, a fresh example, and an actionable next session."
+    }
+  ],
+  "task": "Interview a willing person about a past routine, using fictional information if preferred. Ask about setting, habit and one difference from today; avoid assuming the past was better.",
+  "culture": "Memory is selective. A nostalgic description is one person’s perspective, not historical proof about an entire place. Compare experiences respectfully and distinguish memory from a verified public fact.",
+  "selfAssessment": [
+    "I can form the imperfect, including ser, ir and ver.",
+    "I can describe past routines and circumstances.",
+    "I can avoid turning an English translation cue into a tense rule."
+  ],
+  "remediation": "Sort mistakes by form, meaning, and interaction. For form errors, explain a worked example and create a contrasting pair. For comprehension errors, replay a short segment or use a willing reader and verify your interpretation. For interaction difficulties, repeat the practical task with one new constraint. Compare evidence across days; repeated selection of a known answer alone is not mastery.",
+  "resources": [
+    "sd-imperfect"
+  ]
+}

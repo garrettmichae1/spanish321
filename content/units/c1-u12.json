@@ -344,6 +344,30 @@
       ],
       "explanation": "“Este sábado” communicates “This Saturday.” The other choices communicate “Thank you for the help” and “Our house is nearby”; those do not answer this prompt.",
       "concept": "Meaning in context"
+    },
+    {
+      "id": "c1-u12-q13",
+      "type": "matching",
+      "prompt": "Match each English meaning to its Spanish expression. Use each expression once.",
+      "answers": [
+        "[\"No tengo mucho tiempo\",\"Voy a tomar un café\",\"¿Qué te gusta hacer?\"]"
+      ],
+      "explanation": "“No tengo mucho tiempo” means “I do not have much time”. “Voy a tomar un café” means “I am going to have a coffee”. “¿Qué te gusta hacer?” means “What do you like doing?”. Each alternative belongs to a different meaning; check the whole phrase, including its grammatical person and register.",
+      "concept": "Meaning and register",
+      "pairs": [
+        {
+          "left": "I do not have much time",
+          "right": "No tengo mucho tiempo"
+        },
+        {
+          "left": "I am going to have a coffee",
+          "right": "Voy a tomar un café"
+        },
+        {
+          "left": "What do you like doing?",
+          "right": "¿Qué te gusta hacer?"
+        }
+      ]
     }
   ],
   "homework": [

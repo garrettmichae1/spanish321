@@ -1,0 +1,385 @@
+{
+  "id": "c5-u12",
+  "course": 5,
+  "number": 12,
+  "title": "Portfolio & capstone",
+  "subtitle": "Make your portfolio an argument about learning",
+  "status": "authored",
+  "prerequisites": [
+    "c5-u11"
+  ],
+  "objectives": [
+    "Select evidence that supports specific development claims.",
+    "Deliver a capstone and respond spontaneously.",
+    "Create a sustainable continuation plan with honest limitations."
+  ],
+  "warmup": "Retrieve two sentences and one repair strategy from c5-u11. Change the subject or situation in each sentence and explain what changed. Then read today’s objectives and predict where your existing language may be insufficient.",
+  "lectures": [
+    {
+      "title": "Seleccionar y justificar",
+      "body": "Un portafolio no es una carpeta con todo lo producido. Selecciona una muestra inicial, una revisada y una de transferencia para varias habilidades. Explica qué muestran, bajo qué condiciones se produjeron y qué no permiten concluir. Separa finalización, precisión de cuestionarios, actividad de repaso y desempeño comunicativo. Una mejora de escritura revisada no demuestra automáticamente una mejora de comprensión oral espontánea. Atribuye la evaluación: automática, propia, de un compañero o de un instructor. Incluye errores que todavía persisten y ejemplos de cómo los gestionas durante una interacción real."
+    },
+    {
+      "title": "Continuar sin una promesa artificial",
+      "body": "El capstone debe integrar una pregunta significativa, fuentes consultadas, un producto escrito, una presentación y una discusión con preguntas imprevistas. Después diseña un plan de inmersión sostenible: qué escucharás o leerás, con quién conversarás, qué producirás y cómo revisarás patrones recurrentes. Define señales para ajustar la dificultad: comprender la idea central pero perder matices requiere una intervención distinta de no reconocer el tema. No prometas fluidez en un número fijo de semanas ni traduzcas una puntuación del curso a una certificación. La autonomía consiste en elegir tareas útiles, contrastar evidencia y seguir participando incluso cuando quedan límites."
+    }
+  ],
+  "reading": "En su portafolio final, Nora incluye un relato inicial, una versión revisada y una conversación sobre un tema distinto. Explica que ahora identifica mejor a los participantes de una historia y distingue con más claridad una propuesta hipotética de un acuerdo. Adjunta comentarios de dos interlocutores y señala que ambos conocían el contexto, por lo que aún quiere probar su explicación con alguien nuevo. También incluye una síntesis de audio y reconoce que necesitó una segunda escucha para verificar nombres. En el capstone defiende una propuesta de acceso a la biblioteca, responde preguntas y modifica una condición. Su plan de continuación combina lectura semanal, escucha de distintos hablantes, una conversación regular y una revisión mensual de dos patrones. No declara que el proceso haya terminado: presenta un conjunto de capacidades observadas, condiciones de apoyo y próximos pasos. Redacta tu conclusión de portafolio con ese mismo grado de especificidad y honestidad.",
+  "worked": [
+    {
+      "prompt": "Does lesson completion by itself establish communication proficiency? Write sí or no.",
+      "answer": "no",
+      "reason": "Completion records activity; demonstrated communication requires appropriate performance evidence."
+    },
+    {
+      "prompt": "Complete: Cada muestra debe indicar sus ___ de producción. (conditions)",
+      "answer": "condiciones",
+      "reason": "Preparation, time and support affect what a sample can demonstrate."
+    },
+    {
+      "prompt": "Complete: La evaluación de un compañero debe identificarse como evaluación ___. (peer, Spanish adjective)",
+      "answer": "entre pares / de pares",
+      "reason": "The evaluator must be labeled accurately rather than implying automatic or instructor validation."
+    },
+    {
+      "prompt": "Complete: No conviene ___ una puntuación en una certificación oficial. (convert)",
+      "answer": "convertir",
+      "reason": "A course score is not an official certification or guaranteed CEFR equivalence."
+    },
+    {
+      "prompt": "Complete: Busco tareas que ___ útiles para mis objetivos. (ser, desired unspecified tasks)",
+      "answer": "sean",
+      "reason": "The sought, unspecified tasks take subjunctive in the relative clause."
+    },
+    {
+      "prompt": "Complete: Aunque todavía ___ dificultades, puedo seguir participando. (tener, yo asserted fact)",
+      "answer": "tengo",
+      "reason": "Indicative presents the ongoing difficulties as an acknowledged fact rather than a hypothetical concession."
+    }
+  ],
+  "cards": [
+    {
+      "id": "c5-u12-f01",
+      "unit": "c5-u12",
+      "kind": "production",
+      "front": "Completion does not demonstrate mastery",
+      "back": "La finalización no demuestra dominio",
+      "example": "La finalización no demuestra dominio"
+    },
+    {
+      "id": "c5-u12-f02",
+      "unit": "c5-u12",
+      "kind": "recognition",
+      "front": "Indicaré las condiciones de producción",
+      "back": "I will state the production conditions",
+      "example": "Indicaré las condiciones de producción"
+    },
+    {
+      "id": "c5-u12-f03",
+      "unit": "c5-u12",
+      "kind": "production",
+      "front": "The evaluation was by peers",
+      "back": "La evaluación fue entre pares",
+      "example": "La evaluación fue entre pares"
+    },
+    {
+      "id": "c5-u12-f04",
+      "unit": "c5-u12",
+      "kind": "recognition",
+      "front": "No convertiré una puntuación en certificación",
+      "back": "I will not turn a score into certification",
+      "example": "No convertiré una puntuación en certificación"
+    },
+    {
+      "id": "c5-u12-f05",
+      "unit": "c5-u12",
+      "kind": "production",
+      "front": "I seek tasks that are useful",
+      "back": "Busco tareas que sean útiles",
+      "example": "Busco tareas que sean útiles"
+    },
+    {
+      "id": "c5-u12-f06",
+      "unit": "c5-u12",
+      "kind": "recognition",
+      "front": "Aunque todavía tengo dificultades",
+      "back": "Although I still have difficulties",
+      "example": "Aunque todavía tengo dificultades, puedo mantener la conversación."
+    },
+    {
+      "id": "c5-u12-f07",
+      "unit": "c5-u12",
+      "kind": "production",
+      "front": "This sample supports a specific claim",
+      "back": "Esta muestra apoya una afirmación concreta",
+      "example": "Esta muestra apoya una afirmación concreta"
+    },
+    {
+      "id": "c5-u12-f08",
+      "unit": "c5-u12",
+      "kind": "recognition",
+      "front": "La transferencia se observó en otro tema",
+      "back": "Transfer was observed on another topic",
+      "example": "La transferencia se observó en otro tema"
+    },
+    {
+      "id": "c5-u12-f09",
+      "unit": "c5-u12",
+      "kind": "production",
+      "front": "I needed a second listen",
+      "back": "Necesité una segunda escucha",
+      "example": "Necesité una segunda escucha"
+    },
+    {
+      "id": "c5-u12-f10",
+      "unit": "c5-u12",
+      "kind": "recognition",
+      "front": "La revisión conserva los límites",
+      "back": "The revision preserves the limitations",
+      "example": "La revisión conserva los límites"
+    },
+    {
+      "id": "c5-u12-f11",
+      "unit": "c5-u12",
+      "kind": "production",
+      "front": "My next goal will be…",
+      "back": "Mi próximo objetivo será…",
+      "example": "Mi próximo objetivo será aclarar los referentes en relatos improvisados."
+    },
+    {
+      "id": "c5-u12-f12",
+      "unit": "c5-u12",
+      "kind": "recognition",
+      "front": "Ajustaré la dificultad según lo observado",
+      "back": "I will adjust difficulty based on observation",
+      "example": "Ajustaré la dificultad según lo observado"
+    },
+    {
+      "id": "c5-u12-f13",
+      "unit": "c5-u12",
+      "kind": "production",
+      "front": "Conversation will remain part of the plan",
+      "back": "La conversación seguirá siendo parte del plan",
+      "example": "La conversación seguirá siendo parte del plan"
+    },
+    {
+      "id": "c5-u12-f14",
+      "unit": "c5-u12",
+      "kind": "recognition",
+      "front": "Puedo seguir aprendiendo con autonomía",
+      "back": "I can continue learning independently",
+      "example": "Puedo seguir aprendiendo con autonomía"
+    },
+    {
+      "id": "c5-u12-f15",
+      "unit": "c5-u12",
+      "kind": "production",
+      "front": "The portfolio documents a process",
+      "back": "El portafolio documenta un proceso",
+      "example": "El portafolio documenta un proceso"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c5-u12-q01",
+      "type": "typed",
+      "prompt": "Does lesson completion by itself establish communication proficiency? Write sí or no.",
+      "answers": [
+        "no"
+      ],
+      "explanation": "Completion records activity; demonstrated communication requires appropriate performance evidence.",
+      "concept": "Seleccionar y justificar"
+    },
+    {
+      "id": "c5-u12-q02",
+      "type": "cloze",
+      "prompt": "Complete: Cada muestra debe indicar sus ___ de producción. (conditions)",
+      "answers": [
+        "condiciones"
+      ],
+      "explanation": "Preparation, time and support affect what a sample can demonstrate.",
+      "concept": "Seleccionar y justificar"
+    },
+    {
+      "id": "c5-u12-q03",
+      "type": "cloze",
+      "prompt": "Complete: La evaluación de un compañero debe identificarse como evaluación ___. (give a Spanish phrase meaning peer evaluation)",
+      "answers": [
+        "entre pares",
+        "de pares"
+      ],
+      "explanation": "The evaluator must be labeled accurately rather than implying automatic or instructor validation.",
+      "concept": "Seleccionar y justificar"
+    },
+    {
+      "id": "c5-u12-q04",
+      "type": "cloze",
+      "prompt": "Complete: No conviene ___ una puntuación en una certificación oficial. (convert)",
+      "answers": [
+        "convertir"
+      ],
+      "explanation": "A course score is not an official certification or guaranteed CEFR equivalence.",
+      "concept": "Continuar sin una promesa artificial"
+    },
+    {
+      "id": "c5-u12-q05",
+      "type": "cloze",
+      "prompt": "Complete: Busco tareas que ___ útiles para mis objetivos. (ser, desired unspecified tasks)",
+      "answers": [
+        "sean"
+      ],
+      "explanation": "The sought, unspecified tasks take subjunctive in the relative clause.",
+      "concept": "Continuar sin una promesa artificial"
+    },
+    {
+      "id": "c5-u12-q06",
+      "type": "cloze",
+      "prompt": "Complete: Aunque todavía ___ dificultades, puedo seguir participando. (tener, yo asserted fact)",
+      "answers": [
+        "tengo"
+      ],
+      "explanation": "Indicative presents the ongoing difficulties as an acknowledged fact rather than a hypothetical concession.",
+      "concept": "Continuar sin una promesa artificial"
+    },
+    {
+      "id": "c5-u12-q07",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: Completion does not demonstrate mastery.",
+      "options": [
+        "Necesité una segunda escucha",
+        "La conversación seguirá siendo parte del plan",
+        "La finalización no demuestra dominio"
+      ],
+      "answers": [
+        "La finalización no demuestra dominio"
+      ],
+      "explanation": "“La finalización no demuestra dominio” expresses “Completion does not demonstrate mastery”. “Necesité una segunda escucha” instead means “I needed a second listen”. “La conversación seguirá siendo parte del plan” instead means “Conversation will remain part of the plan”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c5-u12-q08",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: I will state the production conditions.",
+      "options": [
+        "Puedo seguir aprendiendo con autonomía",
+        "Indicaré las condiciones de producción",
+        "La revisión conserva los límites"
+      ],
+      "answers": [
+        "Indicaré las condiciones de producción"
+      ],
+      "explanation": "“Indicaré las condiciones de producción” expresses “I will state the production conditions”. “Puedo seguir aprendiendo con autonomía” instead means “I can continue learning independently”. “La revisión conserva los límites” instead means “The revision preserves the limitations”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c5-u12-q09",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: The evaluation was by peers.",
+      "options": [
+        "La evaluación fue entre pares",
+        "Mi próximo objetivo será…",
+        "El portafolio documenta un proceso"
+      ],
+      "answers": [
+        "La evaluación fue entre pares"
+      ],
+      "explanation": "“La evaluación fue entre pares” expresses “The evaluation was by peers”. “Mi próximo objetivo será…” instead means “My next goal will be…”. “El portafolio documenta un proceso” instead means “The portfolio documents a process”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c5-u12-q10",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: I will not turn a score into certification.",
+      "options": [
+        "Ajustaré la dificultad según lo observado",
+        "La finalización no demuestra dominio",
+        "No convertiré una puntuación en certificación"
+      ],
+      "answers": [
+        "No convertiré una puntuación en certificación"
+      ],
+      "explanation": "“No convertiré una puntuación en certificación” expresses “I will not turn a score into certification”. “Ajustaré la dificultad según lo observado” instead means “I will adjust difficulty based on observation”. “La finalización no demuestra dominio” instead means “Completion does not demonstrate mastery”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c5-u12-q11",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: I seek tasks that are useful.",
+      "options": [
+        "Indicaré las condiciones de producción",
+        "Busco tareas que sean útiles",
+        "La conversación seguirá siendo parte del plan"
+      ],
+      "answers": [
+        "Busco tareas que sean útiles"
+      ],
+      "explanation": "“Busco tareas que sean útiles” expresses “I seek tasks that are useful”. “Indicaré las condiciones de producción” instead means “I will state the production conditions”. “La conversación seguirá siendo parte del plan” instead means “Conversation will remain part of the plan”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c5-u12-q12",
+      "type": "matching",
+      "prompt": "Match each English meaning to its Spanish expression. Use each expression once.",
+      "answers": [
+        "[\"Busco tareas que sean útiles\",\"Esta muestra apoya una afirmación concreta\",\"Necesité una segunda escucha\"]"
+      ],
+      "explanation": "“Busco tareas que sean útiles” means “I seek tasks that are useful”. “Esta muestra apoya una afirmación concreta” means “This sample supports a specific claim”. “Necesité una segunda escucha” means “I needed a second listen”. Each alternative belongs to a different meaning; check the whole phrase, including its grammatical person and register.",
+      "concept": "Meaning and register",
+      "pairs": [
+        {
+          "left": "I seek tasks that are useful",
+          "right": "Busco tareas que sean útiles"
+        },
+        {
+          "left": "This sample supports a specific claim",
+          "right": "Esta muestra apoya una afirmación concreta"
+        },
+        {
+          "left": "I needed a second listen",
+          "right": "Necesité una segunda escucha"
+        }
+      ]
+    }
+  ],
+  "homework": [
+    {
+      "id": "c5-u12-h1",
+      "skill": "Reading & writing",
+      "prompt": "Read the original text for this unit. Identify its situation, central message, and three supporting details. Then write a new version of 300–400 words for a different person or audience. Use the target patterns, change at least three facts, and explain two revisions.",
+      "model": "En su portafolio final, Nora incluye un relato inicial, una versión revisada y una conversación sobre un tema distinto. Explica que ahora identifica mejor a los participantes de una historia y distingue con más claridad una propuesta hipotética de un acuerdo. Adjunta comentarios de dos interlocutores y señala que ambos conocían el contexto, por lo que aún quiere probar su explicación con alguien nuevo. También incluye una síntesis de audio y reconoce que necesitó una segunda escucha para verificar nombres. En el capstone defiende una propuesta de acceso a la biblioteca, responde preguntas y modifica una condición. Su plan de continuación combina lectura semanal, escucha de distintos hablantes, una conversación regular y una revisión mensual de dos patrones. No declara que el proceso haya terminado: presenta un conjunto de capacidades observadas, condiciones de apoyo y próximos pasos. Redacta tu conclusión de portafolio con ese mismo grado de especificidad y honestidad.\n\nThis is the source model, not a text to submit unchanged. A successful adaptation retains the communicative purpose while changing relevant forms and facts. Compare with the worked examples for the reasons behind form choices.",
+      "rubric": "0–3 each: fulfills the specified purpose; organized and comprehensible; target forms support meaning; revisions are explained with examples. 0 = no evidence, 1 = substantial help needed, 2 = effective with some support, 3 = independently effective for this task. Record who evaluated the work."
+    },
+    {
+      "id": "c5-u12-h2",
+      "skill": "Listening",
+      "prompt": "Complete the resource assignment, or ask a willing reader to read the original text without showing it to you. First listen for the situation and purpose; listen again for three details and one contrast. Write a 60–100-word listening log naming the source, words actually heard, one uncertainty, and how you checked it. If using local synthesized speech, label it synthetic. Text-only preparation is not completed listening.",
+      "model": "A useful log separates the speaker’s message from your interpretation: “I heard [specific phrase]; I understood [claim]; I was uncertain about [word/relationship]; checking [text or partner] changed my interpretation to [correction].” Use the unit reading as an answer reference for a read-aloud version, never as evidence of an external speaker’s words.",
+      "rubric": "0–2 each: identifies source and listening conditions; retrieves central meaning; supports three details; checks a specific uncertainty. Do not count a copied transcript as independent comprehension."
+    },
+    {
+      "id": "c5-u12-h3",
+      "skill": "Speaking & interaction",
+      "prompt": "Final capstone: submit a 600–800-word source-backed project, deliver a seven-minute presentation and hold a ten-minute discussion with real follow-ups. Curate six portfolio items across skills, with evaluator labels and a continuing immersion plan. Solo rehearsal cannot satisfy live-interaction evidence; record that criterion as not observed.",
+      "model": "Use the original reading/dialogue and the sentence-pattern cards as preparation. Make a brief outline, then put it away. Your partner should introduce a detail you did not prepare. Respond, request clarification if needed, and summarize what you agreed or still disagree about. Solo fallback: record two possible viewpoints and improvise a response after a pause; label it rehearsal.",
+      "rubric": "0–3 each: task fulfillment, comprehensibility, control of target language, responsiveness to another speaker. A partner or instructor should cite one example per score. Solo rehearsal provides no evidence for live responsiveness; mark that dimension not observed."
+    },
+    {
+      "id": "c5-u12-h4",
+      "skill": "Retrieval & reflection",
+      "prompt": "On a later day, retrieve six cards without looking. Use three in a fresh response to the practical task. Identify one recurring form error and one communication difficulty. Produce a corrected example, explain the reason, and schedule a specific follow-up exchange or listening session.",
+      "model": "Compare your response with these two models: La finalización no demuestra dominio / Indicaré las condiciones de producción. A useful reflection explains the function, not just the spelling. Revisit the first worked item and create a different example of its principle.",
+      "rubric": "Report recall count separately from performance. Reflection is complete when it contains an observed difficulty, an explained correction, a fresh example, and an actionable next session."
+    }
+  ],
+  "task": "Final capstone: submit a 600–800-word source-backed project, deliver a seven-minute presentation and hold a ten-minute discussion with real follow-ups. Curate six portfolio items across skills, with evaluator labels and a continuing immersion plan. Solo rehearsal cannot satisfy live-interaction evidence; record that criterion as not observed.",
+  "culture": "Advanced communication includes knowing when to seek clarification or expertise. An advanced course is a development opportunity, not a promise that every professional, literary or regional context will be equally familiar.",
+  "selfAssessment": [
+    "I can select evidence that supports specific development claims.",
+    "I can deliver a capstone and respond spontaneously.",
+    "I can create a sustainable continuation plan with honest limitations."
+  ],
+  "remediation": "Sort mistakes by form, meaning, and interaction. For form errors, explain a worked example and create a contrasting pair. For comprehension errors, replay a short segment or use a willing reader and verify your interpretation. For interaction difficulties, repeat the practical task with one new constraint. Compare evidence across days; repeated selection of a known answer alone is not mastery.",
+  "resources": [
+    "cefr"
+  ]
+}

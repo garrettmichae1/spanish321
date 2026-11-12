@@ -1,0 +1,388 @@
+{
+  "id": "c2-u03",
+  "course": 2,
+  "number": 3,
+  "title": "Direct-object pronouns",
+  "subtitle": "Refer without repeating",
+  "status": "authored",
+  "prerequisites": [
+    "c2-u02"
+  ],
+  "objectives": [
+    "Identify direct objects in familiar sentences.",
+    "Choose and place lo, la, los and las.",
+    "Clarify a pronoun’s referent in a transaction."
+  ],
+  "warmup": "Retrieve two sentences and one repair strategy from c2-u02. Change the subject or situation in each sentence and explain what changed. Then read today’s objectives and predict where your existing language may be insufficient.",
+  "lectures": [
+    {
+      "title": "Find what the verb affects",
+      "body": "A direct object completes the action without an intervening recipient: Compro el libro → Lo compro. The pronouns lo, la, los, las agree with the grammatical gender and number of the object: las entradas → las. Me, te, nos and os can also be direct objects: ¿Me escuchas? Personal a may introduce a human direct object: Veo a Ana → La veo. It does not automatically require le. Keep track of the noun before replacing it. If two possible referents compete, repeat the noun instead of making the listener guess."
+    },
+    {
+      "title": "Position and interpretation",
+      "body": "Place the pronoun before a conjugated verb: No la necesito. With an appropriate verb-plus-infinitive construction, either before the first verb or attached to the infinitive works: Lo quiero comprar / Quiero comprarlo. Never insert it between the preposition and infinitive in voy a comprarlo. Attached pronouns are one written word. Do not replace an entire sentence with a gendered noun pronoun without considering meaning; neutral lo can refer to an idea, as in no lo sé, a use you will develop later. Some regions use le for certain male human direct objects; recognize this documented variation while practicing the course’s lo/la system."
+    },
+    {
+      "title": "Keep the referent clear",
+      "body": "Suppose a shop assistant asks **¿Necesita la bolsa?** A useful answer is **Sí, la necesito**, because **la** retrieves the already identified bag. Without that shared context, **La necesito** leaves the listener wondering what you need. Pronouns reduce repetition only after the reference is sufficiently clear. In a longer exchange, repeat a noun when the topic changes: **La bolsa está bien, pero necesito las entradas. ¿Las tiene?**\n\nThe direct object can be a person. **Veo a Ana → La veo** shows why the personal **a** does not automatically create an indirect object. Ask what role the person plays in the event, rather than classifying every phrase beginning with **a** identically. Some regions use **le** for a male human direct object in accepted contexts; recognize this variation while practicing the broadly Latin American **lo/la** distinction here.\n\nWith two verbs, compare **Lo quiero comprar** and **Quiero comprarlo**. With a single ordinary finite verb, use **Lo compro**, not *comprolo*. Before substituting a pronoun, identify its referent, gender and number, and then choose a permitted position."
+    }
+  ],
+  "reading": "—¿Tienes las entradas para el concierto?\n—Sí, las tengo en el teléfono.\n—Perfecto. ¿Necesitamos imprimirlas?\n—No, podemos mostrarlas en la puerta.\n—¿Y el mapa? No lo encuentro.\n—Lo voy a enviar ahora.\n—Gracias. Veo a Ana en la estación. ¿La esperamos aquí?\n—Sí, pero explica dónde estamos: hay dos puertas.\nEncuentra el referente de las, lo y la. Después vuelve a contar la situación usando los sustantivos completos. Observa cuándo esa repetición ayuda y cuándo resulta innecesaria.",
+  "worked": [
+    {
+      "prompt": "Replace el libro: Compro el libro → ___ compro.",
+      "answer": "Lo",
+      "reason": "Libro is masculine singular and directly affected by comprar."
+    },
+    {
+      "prompt": "Replace las entradas: Tengo las entradas → ___ tengo.",
+      "answer": "Las",
+      "reason": "The pronoun agrees with the feminine plural noun, not the speaker."
+    },
+    {
+      "prompt": "Replace Ana: Veo a Ana → ___ veo.",
+      "answer": "La",
+      "reason": "Ana is a direct object despite personal a; the default pattern here uses la."
+    },
+    {
+      "prompt": "Attach lo to comprar.",
+      "answer": "comprarlo",
+      "reason": "An attached infinitive pronoun forms one word; do not write comprar lo."
+    },
+    {
+      "prompt": "Negate “La necesito.”",
+      "answer": "No la necesito",
+      "reason": "No comes before the pronoun and conjugated verb."
+    },
+    {
+      "prompt": "Complete: Quiero ___ las entradas. (imprimir with no pronoun)",
+      "answer": "imprimir",
+      "reason": "The second verb remains infinitive; the object is still explicitly named."
+    }
+  ],
+  "cards": [
+    {
+      "id": "c2-u03-f01",
+      "unit": "c2-u03",
+      "kind": "production",
+      "front": "I buy it (masculine)",
+      "back": "Lo compro",
+      "example": "Lo compro"
+    },
+    {
+      "id": "c2-u03-f02",
+      "unit": "c2-u03",
+      "kind": "recognition",
+      "front": "La necesito",
+      "back": "I need it (feminine)",
+      "example": "La necesito"
+    },
+    {
+      "id": "c2-u03-f03",
+      "unit": "c2-u03",
+      "kind": "production",
+      "front": "I have them (feminine)",
+      "back": "Las tengo",
+      "example": "Las tengo"
+    },
+    {
+      "id": "c2-u03-f04",
+      "unit": "c2-u03",
+      "kind": "recognition",
+      "front": "Los veo",
+      "back": "I see them (masculine)",
+      "example": "Los veo"
+    },
+    {
+      "id": "c2-u03-f05",
+      "unit": "c2-u03",
+      "kind": "production",
+      "front": "I want to buy it",
+      "back": "Quiero comprarlo",
+      "example": "Quiero comprarlo"
+    },
+    {
+      "id": "c2-u03-f06",
+      "unit": "c2-u03",
+      "kind": "recognition",
+      "front": "Lo quiero comprar",
+      "back": "I want to buy it (pronoun before verb)",
+      "example": "Lo quiero comprar"
+    },
+    {
+      "id": "c2-u03-f07",
+      "unit": "c2-u03",
+      "kind": "production",
+      "front": "I do not need it (feminine)",
+      "back": "No la necesito",
+      "example": "No la necesito"
+    },
+    {
+      "id": "c2-u03-f08",
+      "unit": "c2-u03",
+      "kind": "recognition",
+      "front": "¿Me escuchas?",
+      "back": "Can you hear me?",
+      "example": "¿Me escuchas?"
+    },
+    {
+      "id": "c2-u03-f09",
+      "unit": "c2-u03",
+      "kind": "production",
+      "front": "We can show them (feminine)",
+      "back": "Podemos mostrarlas",
+      "example": "Podemos mostrarlas"
+    },
+    {
+      "id": "c2-u03-f10",
+      "unit": "c2-u03",
+      "kind": "recognition",
+      "front": "No lo encuentro",
+      "back": "I cannot find it",
+      "example": "No lo encuentro"
+    },
+    {
+      "id": "c2-u03-f11",
+      "unit": "c2-u03",
+      "kind": "production",
+      "front": "We wait for her here",
+      "back": "La esperamos aquí",
+      "example": "La esperamos aquí"
+    },
+    {
+      "id": "c2-u03-f12",
+      "unit": "c2-u03",
+      "kind": "recognition",
+      "front": "Voy a enviarlo",
+      "back": "I am going to send it",
+      "example": "Voy a enviarlo"
+    },
+    {
+      "id": "c2-u03-f13",
+      "unit": "c2-u03",
+      "kind": "production",
+      "front": "Where do I put them (feminine)?",
+      "back": "¿Dónde las pongo?",
+      "example": "¿Dónde las pongo?"
+    },
+    {
+      "id": "c2-u03-f14",
+      "unit": "c2-u03",
+      "kind": "recognition",
+      "front": "Necesito el mapa",
+      "back": "I need the map",
+      "example": "Necesito el mapa"
+    },
+    {
+      "id": "c2-u03-f15",
+      "unit": "c2-u03",
+      "kind": "production",
+      "front": "I prefer to repeat the name",
+      "back": "Prefiero repetir el nombre",
+      "example": "Prefiero repetir el nombre"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c2-u03-q01",
+      "type": "cloze",
+      "prompt": "Replace el libro: Compro el libro → ___ compro.",
+      "answers": [
+        "Lo"
+      ],
+      "explanation": "Libro is masculine singular and directly affected by comprar.",
+      "concept": "Find what the verb affects"
+    },
+    {
+      "id": "c2-u03-q02",
+      "type": "cloze",
+      "prompt": "Replace las entradas: Tengo las entradas → ___ tengo.",
+      "answers": [
+        "Las"
+      ],
+      "explanation": "The pronoun agrees with the feminine plural noun, not the speaker.",
+      "concept": "Find what the verb affects"
+    },
+    {
+      "id": "c2-u03-q03",
+      "type": "cloze",
+      "prompt": "Replace Ana: Veo a Ana → ___ veo.",
+      "answers": [
+        "La"
+      ],
+      "explanation": "Ana is a direct object despite personal a; the default pattern here uses la.",
+      "concept": "Find what the verb affects"
+    },
+    {
+      "id": "c2-u03-q04",
+      "type": "typed",
+      "prompt": "Attach lo to comprar.",
+      "answers": [
+        "comprarlo"
+      ],
+      "explanation": "An attached infinitive pronoun forms one word; do not write comprar lo.",
+      "concept": "Position and interpretation"
+    },
+    {
+      "id": "c2-u03-q05",
+      "type": "typed",
+      "prompt": "Negate “La necesito.”",
+      "answers": [
+        "No la necesito"
+      ],
+      "explanation": "No comes before the pronoun and conjugated verb.",
+      "concept": "Position and interpretation"
+    },
+    {
+      "id": "c2-u03-q06",
+      "type": "cloze",
+      "prompt": "Complete: Quiero ___ las entradas. (imprimir with no pronoun)",
+      "answers": [
+        "imprimir"
+      ],
+      "explanation": "The second verb remains infinitive; the object is still explicitly named.",
+      "concept": "Position and interpretation"
+    },
+    {
+      "id": "c2-u03-q07",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: I buy it (masculine).",
+      "options": [
+        "Podemos mostrarlas",
+        "¿Dónde las pongo?",
+        "Lo compro"
+      ],
+      "answers": [
+        "Lo compro"
+      ],
+      "explanation": "“Lo compro” expresses “I buy it (masculine)”. “Podemos mostrarlas” instead means “We can show them (feminine)”. “¿Dónde las pongo?” instead means “Where do I put them (feminine)?”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c2-u03-q08",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: I need it (feminine).",
+      "options": [
+        "Necesito el mapa",
+        "La necesito",
+        "No lo encuentro"
+      ],
+      "answers": [
+        "La necesito"
+      ],
+      "explanation": "“La necesito” expresses “I need it (feminine)”. “Necesito el mapa” instead means “I need the map”. “No lo encuentro” instead means “I cannot find it”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c2-u03-q09",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: I have them (feminine).",
+      "options": [
+        "Las tengo",
+        "La esperamos aquí",
+        "Prefiero repetir el nombre"
+      ],
+      "answers": [
+        "Las tengo"
+      ],
+      "explanation": "“Las tengo” expresses “I have them (feminine)”. “La esperamos aquí” instead means “We wait for her here”. “Prefiero repetir el nombre” instead means “I prefer to repeat the name”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c2-u03-q10",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: I see them (masculine).",
+      "options": [
+        "Voy a enviarlo",
+        "Lo compro",
+        "Los veo"
+      ],
+      "answers": [
+        "Los veo"
+      ],
+      "explanation": "“Los veo” expresses “I see them (masculine)”. “Voy a enviarlo” instead means “I am going to send it”. “Lo compro” instead means “I buy it (masculine)”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c2-u03-q11",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: I want to buy it.",
+      "options": [
+        "La necesito",
+        "Quiero comprarlo",
+        "¿Dónde las pongo?"
+      ],
+      "answers": [
+        "Quiero comprarlo"
+      ],
+      "explanation": "“Quiero comprarlo” expresses “I want to buy it”. “La necesito” instead means “I need it (feminine)”. “¿Dónde las pongo?” instead means “Where do I put them (feminine)?”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c2-u03-q12",
+      "type": "matching",
+      "prompt": "Match each English meaning to its Spanish expression. Use each expression once.",
+      "answers": [
+        "[\"Quiero comprarlo\",\"No la necesito\",\"Podemos mostrarlas\"]"
+      ],
+      "explanation": "“Quiero comprarlo” means “I want to buy it”. “No la necesito” means “I do not need it (feminine)”. “Podemos mostrarlas” means “We can show them (feminine)”. Each alternative belongs to a different meaning; check the whole phrase, including its grammatical person and register.",
+      "concept": "Meaning and register",
+      "pairs": [
+        {
+          "left": "I want to buy it",
+          "right": "Quiero comprarlo"
+        },
+        {
+          "left": "I do not need it (feminine)",
+          "right": "No la necesito"
+        },
+        {
+          "left": "We can show them (feminine)",
+          "right": "Podemos mostrarlas"
+        }
+      ]
+    }
+  ],
+  "homework": [
+    {
+      "id": "c2-u03-h1",
+      "skill": "Reading & writing",
+      "prompt": "Read the original text for this unit. Identify its situation, central message, and three supporting details. Then write a new version of 100–140 words for a different person or audience. Use the target patterns, change at least three facts, and explain two revisions.",
+      "model": "—¿Tienes las entradas para el concierto?\n—Sí, las tengo en el teléfono.\n—Perfecto. ¿Necesitamos imprimirlas?\n—No, podemos mostrarlas en la puerta.\n—¿Y el mapa? No lo encuentro.\n—Lo voy a enviar ahora.\n—Gracias. Veo a Ana en la estación. ¿La esperamos aquí?\n—Sí, pero explica dónde estamos: hay dos puertas.\nEncuentra el referente de las, lo y la. Después vuelve a contar la situación usando los sustantivos completos. Observa cuándo esa repetición ayuda y cuándo resulta innecesaria.\n\nThis is the source model, not a text to submit unchanged. A successful adaptation retains the communicative purpose while changing relevant forms and facts. Compare with the worked examples for the reasons behind form choices.",
+      "rubric": "0–3 each: fulfills the specified purpose; organized and comprehensible; target forms support meaning; revisions are explained with examples. 0 = no evidence, 1 = substantial help needed, 2 = effective with some support, 3 = independently effective for this task. Record who evaluated the work."
+    },
+    {
+      "id": "c2-u03-h2",
+      "skill": "Listening",
+      "prompt": "Complete the resource assignment, or ask a willing reader to read the original text without showing it to you. First listen for the situation and purpose; listen again for three details and one contrast. Write a 60–100-word listening log naming the source, words actually heard, one uncertainty, and how you checked it. If using local synthesized speech, label it synthetic. Text-only preparation is not completed listening.",
+      "model": "A useful log separates the speaker’s message from your interpretation: “I heard [specific phrase]; I understood [claim]; I was uncertain about [word/relationship]; checking [text or partner] changed my interpretation to [correction].” Use the unit reading as an answer reference for a read-aloud version, never as evidence of an external speaker’s words.",
+      "rubric": "0–2 each: identifies source and listening conditions; retrieves central meaning; supports three details; checks a specific uncertainty. Do not count a copied transcript as independent comprehension."
+    },
+    {
+      "id": "c2-u03-h3",
+      "skill": "Speaking & interaction",
+      "prompt": "Arrange tickets, a map and a meeting place. Use object pronouns, then deliberately ask which object your partner means when a reference is ambiguous.",
+      "model": "Use the original reading/dialogue and the sentence-pattern cards as preparation. Make a brief outline, then put it away. Your partner should introduce a detail you did not prepare. Respond, request clarification if needed, and summarize what you agreed or still disagree about. Solo fallback: record two possible viewpoints and improvise a response after a pause; label it rehearsal.",
+      "rubric": "0–3 each: task fulfillment, comprehensibility, control of target language, responsiveness to another speaker. A partner or instructor should cite one example per score. Solo rehearsal provides no evidence for live responsiveness; mark that dimension not observed."
+    },
+    {
+      "id": "c2-u03-h4",
+      "skill": "Retrieval & reflection",
+      "prompt": "On a later day, retrieve six cards without looking. Use three in a fresh response to the practical task. Identify one recurring form error and one communication difficulty. Produce a corrected example, explain the reason, and schedule a specific follow-up exchange or listening session.",
+      "model": "Compare your response with these two models: Lo compro / La necesito. A useful reflection explains the function, not just the spelling. Revisit the first worked item and create a different example of its principle.",
+      "rubric": "Report recall count separately from performance. Reflection is complete when it contains an observed difficulty, an explained correction, a fresh example, and an actionable next session."
+    }
+  ],
+  "task": "Arrange tickets, a map and a meeting place. Use object pronouns, then deliberately ask which object your partner means when a reference is ambiguous.",
+  "culture": "Leísmo varies by place and referent; some uses are accepted in standard descriptions, especially masculine singular persons. Recognition of variation does not mean every pronoun is interchangeable in every context.",
+  "selfAssessment": [
+    "I can identify direct objects in familiar sentences.",
+    "I can choose and place lo, la, los and las.",
+    "I can clarify a pronoun’s referent in a transaction."
+  ],
+  "remediation": "Sort mistakes by form, meaning, and interaction. For form errors, explain a worked example and create a contrasting pair. For comprehension errors, replay a short segment or use a willing reader and verify your interpretation. For interaction difficulties, repeat the practical task with one new constraint. Compare evidence across days; repeated selection of a known answer alone is not mastery.",
+  "resources": [
+    "sd-direct"
+  ]
+}

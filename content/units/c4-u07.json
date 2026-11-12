@@ -1,0 +1,387 @@
+{
+  "id": "c4-u07",
+  "course": 4,
+  "number": 7,
+  "title": "Connectors & argument",
+  "subtitle": "Build an argument the reader can follow",
+  "status": "authored",
+  "prerequisites": [
+    "c4-u06"
+  ],
+  "objectives": [
+    "Organize claim, support, concession and conclusion.",
+    "Choose connectors by logical relationship.",
+    "Avoid presenting correlation as established causation."
+  ],
+  "warmup": "Retrieve two sentences and one repair strategy from c4-u06. Change the subject or situation in each sentence and explain what changed. Then read today’s objectives and predict where your existing language may be insufficient.",
+  "lectures": [
+    {
+      "title": "Logic before connectors",
+      "body": "A connector names a relationship; it cannot create evidence. Por tanto signals a conclusion supported by what precedes. Sin embargo introduces a relevant contrast. Además adds a point; en cambio contrasts alternatives; aun así preserves a conclusion despite a concession. Because of that, adding por tanto between unrelated claims does not make the inference valid. Draft the argument in plain sentences first: claim, support, warrant connecting support to claim, limitation. Then select connectors that accurately describe those relationships. If you cannot explain the warrant, investigate rather than decorating the gap."
+    },
+    {
+      "title": "Concede without abandoning the point",
+      "body": "Aunque la propuesta tiene un costo, podría mejorar el acceso concedes an asserted cost and offers a possible benefit. Aunque tenga un costo can frame the cost as a condition or non-asserted concession. These are useful nuances, not a mechanical rule that aunque always takes one mood. Address a strong objection fairly, then respond with evidence or a narrowed recommendation. Distinguish causes from associations: attendance rose after a new schedule, but publicity or seasonal change may also have contributed. Your conclusion can recommend a limited trial when the evidence does not yet justify permanent adoption."
+    }
+  ],
+  "reading": "Ampliar el horario podría facilitar el acceso a personas que trabajan de día. Sin embargo, esa ventaja no demuestra por sí sola que cualquier ampliación sea sostenible. El personal disponible y la forma de anunciar el cambio también importan. Durante una prueba anterior aumentó la asistencia; aun así, coincidió con una campaña de difusión, por lo que no puede atribuirse todo el aumento al horario. La propuesta más prudente sería realizar una nueva prueba, registrar quiénes participan y revisar su costo. Aunque esta estrategia requiere tiempo, permite decidir con información más pertinente. La conclusión defiende una acción limitada, no la certeza de que la política funcionará para todos.",
+  "worked": [
+    {
+      "prompt": "Choose the connector for a relevant contrast: “Hay una ventaja. ___, existe un costo.”",
+      "answer": "Sin embargo",
+      "reason": "Sin embargo introduces a contrast; an additive connector would not express the same relationship."
+    },
+    {
+      "prompt": "Choose the connector meaning “even so”.",
+      "answer": "aun así",
+      "reason": "Aun así preserves a point despite a concession and normally has unaccented aun in this expression."
+    },
+    {
+      "prompt": "Complete: ___ tanto, conviene hacer una prueba.",
+      "answer": "Por",
+      "reason": "Por tanto marks an inferred conclusion and requires adequate supporting premises."
+    },
+    {
+      "prompt": "Does an increase after a policy alone establish that the policy caused it? Write sí or no.",
+      "answer": "no",
+      "reason": "Other changes may explain the increase; temporal order alone does not establish causation."
+    },
+    {
+      "prompt": "Complete: Aunque la propuesta ___ un costo conocido, podría ayudar. (tener, asserted fact)",
+      "answer": "tiene",
+      "reason": "Indicative presents the cost as an asserted fact in the concession."
+    },
+    {
+      "prompt": "Complete: Aunque ___ un costo, la consideraríamos. (tener, hypothetical concession)",
+      "answer": "tenga",
+      "reason": "Subjunctive frames the cost as a hypothetical or non-asserted concession."
+    }
+  ],
+  "cards": [
+    {
+      "id": "c4-u07-f01",
+      "unit": "c4-u07",
+      "kind": "production",
+      "front": "However, there is a cost",
+      "back": "Sin embargo, existe un costo",
+      "example": "Sin embargo, existe un costo"
+    },
+    {
+      "id": "c4-u07-f02",
+      "unit": "c4-u07",
+      "kind": "recognition",
+      "front": "Aun así, conviene intentarlo",
+      "back": "Even so, it is worth trying",
+      "example": "Aun así, conviene intentarlo"
+    },
+    {
+      "id": "c4-u07-f03",
+      "unit": "c4-u07",
+      "kind": "production",
+      "front": "Therefore, I propose a trial",
+      "back": "Por tanto, propongo una prueba",
+      "example": "Por tanto, propongo una prueba"
+    },
+    {
+      "id": "c4-u07-f04",
+      "unit": "c4-u07",
+      "kind": "recognition",
+      "front": "No demuestra una relación causal",
+      "back": "It does not demonstrate a causal relationship",
+      "example": "No demuestra una relación causal"
+    },
+    {
+      "id": "c4-u07-f05",
+      "unit": "c4-u07",
+      "kind": "production",
+      "front": "Although it has a known cost",
+      "back": "Aunque tiene un costo conocido",
+      "example": "Aunque tiene un costo conocido, la propuesta podría ser útil."
+    },
+    {
+      "id": "c4-u07-f06",
+      "unit": "c4-u07",
+      "kind": "recognition",
+      "front": "Aunque tenga un costo",
+      "back": "Even if it has a cost",
+      "example": "Aunque tenga un costo, la consideraríamos si resuelve el problema."
+    },
+    {
+      "id": "c4-u07-f07",
+      "unit": "c4-u07",
+      "kind": "production",
+      "front": "Furthermore, we should consider…",
+      "back": "Además, debemos considerar…",
+      "example": "Además, debemos considerar a quienes no usan internet."
+    },
+    {
+      "id": "c4-u07-f08",
+      "unit": "c4-u07",
+      "kind": "recognition",
+      "front": "En cambio, la otra opción…",
+      "back": "By contrast, the other option…",
+      "example": "En cambio, la otra opción permite reservar por teléfono."
+    },
+    {
+      "id": "c4-u07-f09",
+      "unit": "c4-u07",
+      "kind": "production",
+      "front": "The strongest objection is…",
+      "back": "La objeción más fuerte es…",
+      "example": "La objeción más fuerte es que todavía no conocemos la demanda."
+    },
+    {
+      "id": "c4-u07-f10",
+      "unit": "c4-u07",
+      "kind": "recognition",
+      "front": "Concedo ese punto",
+      "back": "I concede that point",
+      "example": "Concedo ese punto"
+    },
+    {
+      "id": "c4-u07-f11",
+      "unit": "c4-u07",
+      "kind": "production",
+      "front": "That limits the conclusion",
+      "back": "Eso limita la conclusión",
+      "example": "Eso limita la conclusión"
+    },
+    {
+      "id": "c4-u07-f12",
+      "unit": "c4-u07",
+      "kind": "recognition",
+      "front": "La evidencia respalda una prueba",
+      "back": "The evidence supports a trial",
+      "example": "La evidencia respalda una prueba"
+    },
+    {
+      "id": "c4-u07-f13",
+      "unit": "c4-u07",
+      "kind": "production",
+      "front": "Not necessarily permanent adoption",
+      "back": "No necesariamente una adopción permanente",
+      "example": "No necesariamente una adopción permanente"
+    },
+    {
+      "id": "c4-u07-f14",
+      "unit": "c4-u07",
+      "kind": "recognition",
+      "front": "La relación entre estas ideas",
+      "back": "The relationship between these ideas",
+      "example": "La relación entre estas ideas requiere una explicación más clara."
+    },
+    {
+      "id": "c4-u07-f15",
+      "unit": "c4-u07",
+      "kind": "production",
+      "front": "This step still needs justification",
+      "back": "Falta justificar este paso",
+      "example": "Falta justificar este paso"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c4-u07-q01",
+      "type": "cloze",
+      "prompt": "Choose the connector for a relevant contrast: “Hay una ventaja. ___, existe un costo.”",
+      "answers": [
+        "Sin embargo",
+        "No obstante",
+        "Aun así",
+        "Ahora bien"
+      ],
+      "explanation": "Sin embargo introduces a contrast; an additive connector would not express the same relationship.",
+      "concept": "Logic before connectors"
+    },
+    {
+      "id": "c4-u07-q02",
+      "type": "typed",
+      "prompt": "Write the two-word connector meaning “even so”, beginning with aun.",
+      "answers": [
+        "aun así"
+      ],
+      "explanation": "Aun así preserves a point despite a concession and normally has unaccented aun in this expression.",
+      "concept": "Logic before connectors"
+    },
+    {
+      "id": "c4-u07-q03",
+      "type": "cloze",
+      "prompt": "Complete: ___ tanto, conviene hacer una prueba.",
+      "answers": [
+        "Por"
+      ],
+      "explanation": "Por tanto marks an inferred conclusion and requires adequate supporting premises.",
+      "concept": "Logic before connectors"
+    },
+    {
+      "id": "c4-u07-q04",
+      "type": "typed",
+      "prompt": "Does an increase after a policy alone establish that the policy caused it? Write sí or no.",
+      "answers": [
+        "no"
+      ],
+      "explanation": "Other changes may explain the increase; temporal order alone does not establish causation.",
+      "concept": "Concede without abandoning the point"
+    },
+    {
+      "id": "c4-u07-q05",
+      "type": "cloze",
+      "prompt": "Complete: Aunque la propuesta ___ un costo conocido, podría ayudar. (tener, asserted fact)",
+      "answers": [
+        "tiene"
+      ],
+      "explanation": "Indicative presents the cost as an asserted fact in the concession.",
+      "concept": "Concede without abandoning the point"
+    },
+    {
+      "id": "c4-u07-q06",
+      "type": "cloze",
+      "prompt": "Complete: Aunque ___ un costo, la consideraríamos. (tener, hypothetical concession)",
+      "answers": [
+        "tenga"
+      ],
+      "explanation": "Subjunctive frames the cost as a hypothetical or non-asserted concession.",
+      "concept": "Concede without abandoning the point"
+    },
+    {
+      "id": "c4-u07-q07",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: However, there is a cost.",
+      "options": [
+        "La objeción más fuerte es…",
+        "No necesariamente una adopción permanente",
+        "Sin embargo, existe un costo"
+      ],
+      "answers": [
+        "Sin embargo, existe un costo"
+      ],
+      "explanation": "“Sin embargo, existe un costo” expresses “However, there is a cost”. “La objeción más fuerte es…” instead means “The strongest objection is…”. “No necesariamente una adopción permanente” instead means “Not necessarily permanent adoption”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c4-u07-q08",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: Even so, it is worth trying.",
+      "options": [
+        "La relación entre estas ideas",
+        "Aun así, conviene intentarlo",
+        "Concedo ese punto"
+      ],
+      "answers": [
+        "Aun así, conviene intentarlo"
+      ],
+      "explanation": "“Aun así, conviene intentarlo” expresses “Even so, it is worth trying”. “La relación entre estas ideas” instead means “The relationship between these ideas”. “Concedo ese punto” instead means “I concede that point”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c4-u07-q09",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: Therefore, I propose a trial.",
+      "options": [
+        "Por tanto, propongo una prueba",
+        "Eso limita la conclusión",
+        "Falta justificar este paso"
+      ],
+      "answers": [
+        "Por tanto, propongo una prueba"
+      ],
+      "explanation": "“Por tanto, propongo una prueba” expresses “Therefore, I propose a trial”. “Eso limita la conclusión” instead means “That limits the conclusion”. “Falta justificar este paso” instead means “This step still needs justification”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c4-u07-q10",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: It does not demonstrate a causal relationship.",
+      "options": [
+        "La evidencia respalda una prueba",
+        "Sin embargo, existe un costo",
+        "No demuestra una relación causal"
+      ],
+      "answers": [
+        "No demuestra una relación causal"
+      ],
+      "explanation": "“No demuestra una relación causal” expresses “It does not demonstrate a causal relationship”. “La evidencia respalda una prueba” instead means “The evidence supports a trial”. “Sin embargo, existe un costo” instead means “However, there is a cost”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c4-u07-q11",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: Although it has a known cost.",
+      "options": [
+        "Aun así, conviene intentarlo",
+        "Aunque tiene un costo conocido",
+        "No necesariamente una adopción permanente"
+      ],
+      "answers": [
+        "Aunque tiene un costo conocido"
+      ],
+      "explanation": "“Aunque tiene un costo conocido” expresses “Although it has a known cost”. “Aun así, conviene intentarlo” instead means “Even so, it is worth trying”. “No necesariamente una adopción permanente” instead means “Not necessarily permanent adoption”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c4-u07-q12",
+      "type": "matching",
+      "prompt": "Match each English meaning to its Spanish expression. Use each expression once.",
+      "answers": [
+        "[\"Aunque tiene un costo conocido\",\"Además, debemos considerar…\",\"La objeción más fuerte es…\"]"
+      ],
+      "explanation": "“Aunque tiene un costo conocido” means “Although it has a known cost”. “Además, debemos considerar…” means “Furthermore, we should consider…”. “La objeción más fuerte es…” means “The strongest objection is…”. Each alternative belongs to a different meaning; check the whole phrase, including its grammatical person and register.",
+      "concept": "Meaning and register",
+      "pairs": [
+        {
+          "left": "Although it has a known cost",
+          "right": "Aunque tiene un costo conocido"
+        },
+        {
+          "left": "Furthermore, we should consider…",
+          "right": "Además, debemos considerar…"
+        },
+        {
+          "left": "The strongest objection is…",
+          "right": "La objeción más fuerte es…"
+        }
+      ]
+    }
+  ],
+  "homework": [
+    {
+      "id": "c4-u07-h1",
+      "skill": "Reading & writing",
+      "prompt": "Read the original text for this unit. Identify its situation, central message, and three supporting details. Then write a new version of 220–280 words for a different person or audience. Use the target patterns, change at least three facts, and explain two revisions.",
+      "model": "Ampliar el horario podría facilitar el acceso a personas que trabajan de día. Sin embargo, esa ventaja no demuestra por sí sola que cualquier ampliación sea sostenible. El personal disponible y la forma de anunciar el cambio también importan. Durante una prueba anterior aumentó la asistencia; aun así, coincidió con una campaña de difusión, por lo que no puede atribuirse todo el aumento al horario. La propuesta más prudente sería realizar una nueva prueba, registrar quiénes participan y revisar su costo. Aunque esta estrategia requiere tiempo, permite decidir con información más pertinente. La conclusión defiende una acción limitada, no la certeza de que la política funcionará para todos.\n\nThis is the source model, not a text to submit unchanged. A successful adaptation retains the communicative purpose while changing relevant forms and facts. Compare with the worked examples for the reasons behind form choices.",
+      "rubric": "0–3 each: fulfills the specified purpose; organized and comprehensible; target forms support meaning; revisions are explained with examples. 0 = no evidence, 1 = substantial help needed, 2 = effective with some support, 3 = independently effective for this task. Record who evaluated the work."
+    },
+    {
+      "id": "c4-u07-h2",
+      "skill": "Listening",
+      "prompt": "Complete the resource assignment, or ask a willing reader to read the original text without showing it to you. First listen for the situation and purpose; listen again for three details and one contrast. Write a 60–100-word listening log naming the source, words actually heard, one uncertainty, and how you checked it. If using local synthesized speech, label it synthetic. Text-only preparation is not completed listening.",
+      "model": "A useful log separates the speaker’s message from your interpretation: “I heard [specific phrase]; I understood [claim]; I was uncertain about [word/relationship]; checking [text or partner] changed my interpretation to [correction].” Use the unit reading as an answer reference for a read-aloud version, never as evidence of an external speaker’s words.",
+      "rubric": "0–2 each: identifies source and listening conditions; retrieves central meaning; supports three details; checks a specific uncertainty. Do not count a copied transcript as independent comprehension."
+    },
+    {
+      "id": "c4-u07-h3",
+      "skill": "Speaking & interaction",
+      "prompt": "Write and defend a 300-word proposal with a concession and a response to the strongest objection. Ask a partner to identify any unsupported logical step.",
+      "model": "Use the original reading/dialogue and the sentence-pattern cards as preparation. Make a brief outline, then put it away. Your partner should introduce a detail you did not prepare. Respond, request clarification if needed, and summarize what you agreed or still disagree about. Solo fallback: record two possible viewpoints and improvise a response after a pause; label it rehearsal.",
+      "rubric": "0–3 each: task fulfillment, comprehensibility, control of target language, responsiveness to another speaker. A partner or instructor should cite one example per score. Solo rehearsal provides no evidence for live responsiveness; mark that dimension not observed."
+    },
+    {
+      "id": "c4-u07-h4",
+      "skill": "Retrieval & reflection",
+      "prompt": "On a later day, retrieve six cards without looking. Use three in a fresh response to the practical task. Identify one recurring form error and one communication difficulty. Produce a corrected example, explain the reason, and schedule a specific follow-up exchange or listening session.",
+      "model": "Compare your response with these two models: Sin embargo, existe un costo / Aun así, conviene intentarlo. A useful reflection explains the function, not just the spelling. Revisit the first worked item and create a different example of its principle.",
+      "rubric": "Report recall count separately from performance. Reflection is complete when it contains an observed difficulty, an explained correction, a fresh example, and an actionable next session."
+    }
+  ],
+  "task": "Write and defend a 300-word proposal with a concession and a response to the strongest objection. Ask a partner to identify any unsupported logical step.",
+  "culture": "Debate styles differ, but fairness to an opposing position is compatible with clear disagreement. Avoid treating confidence, rapid speech or elaborate vocabulary as proof that an argument is well supported.",
+  "selfAssessment": [
+    "I can organize claim, support, concession and conclusion.",
+    "I can choose connectors by logical relationship.",
+    "I can avoid presenting correlation as established causation."
+  ],
+  "remediation": "Sort mistakes by form, meaning, and interaction. For form errors, explain a worked example and create a contrasting pair. For comprehension errors, replay a short segment or use a willing reader and verify your interpretation. For interaction difficulties, repeat the practical task with one new constraint. Compare evidence across days; repeated selection of a known answer alone is not mastery.",
+  "resources": [
+    "sd-connectors"
+  ]
+}

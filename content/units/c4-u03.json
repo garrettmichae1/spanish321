@@ -1,0 +1,384 @@
+{
+  "id": "c4-u03",
+  "course": 4,
+  "number": 3,
+  "title": "Real & hypothetical si clauses",
+  "subtitle": "Real conditions and hypothetical choices",
+  "status": "authored",
+  "prerequisites": [
+    "c4-u02"
+  ],
+  "objectives": [
+    "Build open and hypothetical si clauses.",
+    "Avoid future or conditional in the standard open si clause.",
+    "Negotiate a conditional agreement with clear commitments."
+  ],
+  "warmup": "Retrieve two sentences and one repair strategy from c4-u02. Change the subject or situation in each sentence and explain what changed. Then read today’s objectives and predict where your existing language may be insufficient.",
+  "lectures": [
+    {
+      "title": "Open conditions",
+      "body": "Si tengo tiempo, iré presents an open condition with present indicative and a possible future result. The result can also be a present statement or a command: Si necesitas ayuda, llámame. In these standard future-oriented conditions, do not write si tendré tiempo. Si means if and has no accent; sí is affirmative. A condition is not a prediction that it will be met. State what happens if it is not met as well as what happens if it is. This is particularly useful for schedules, contingencies and shared responsibilities."
+    },
+    {
+      "title": "A hypothetical frame",
+      "body": "Si tuviera tiempo, iría presents a more hypothetical or distanced scenario, using imperfect subjunctive plus conditional. It does not automatically prove that the condition is impossible; context determines how remote it is. Do not use si tendría in the standard construction practiced here. Reverse clause order freely when meaning remains clear: Iría si tuviera tiempo. Yo que tú is another advice frame: Yo que tú, lo comprobaría. Keep it considerate. When negotiating, separate an imagined improvement from an actual commitment, and specify who will confirm whether the condition has been fulfilled."
+    }
+  ],
+  "reading": "—Si recibimos la autorización esta semana, abriremos la sala el lunes.\n—¿Y si llega después?\n—Mantendremos el horario actual hasta confirmarlo.\n—Si tuviéramos más personal, podríamos ampliar también el domingo.\n—Eso sería útil, pero todavía no tenemos ese recurso. Propongo evaluar primero el lunes.\n—De acuerdo. Si necesitas ayuda con el aviso, llámame.\nEl diálogo combina una condición abierta, un escenario hipotético y una oferta práctica. Redacta un breve acuerdo que conserve esas diferencias y evite anunciar como seguro un horario que depende de autorización.",
+  "worked": [
+    {
+      "prompt": "Complete: Si ___ tiempo mañana, iré. (tener, yo open condition)",
+      "answer": "tengo",
+      "reason": "The standard future-oriented si clause uses present indicative, not future."
+    },
+    {
+      "prompt": "Complete: Si ___ tiempo, iría. (tener, yo hypothetical ra form)",
+      "answer": "tuviera",
+      "reason": "The hypothetical frame uses imperfect subjunctive in the condition."
+    },
+    {
+      "prompt": "Complete: Si tuviera tiempo, ___. (ir, yo)",
+      "answer": "iría",
+      "reason": "The hypothetical result uses conditional iría."
+    },
+    {
+      "prompt": "Complete: ___ necesitas ayuda, llámame.",
+      "answer": "Si",
+      "reason": "Conditional si is unaccented; affirmative sí has a different function."
+    },
+    {
+      "prompt": "Complete: Yo que tú, lo ___. (comprobar, conditional)",
+      "answer": "comprobaría",
+      "reason": "The advice frame uses conditional to propose what the speaker would do."
+    },
+    {
+      "prompt": "Complete: Si recibimos permiso, ___ el lunes. (abrir, nosotros future)",
+      "answer": "abriremos",
+      "reason": "A future result can follow an open present-indicative condition."
+    }
+  ],
+  "cards": [
+    {
+      "id": "c4-u03-f01",
+      "unit": "c4-u03",
+      "kind": "production",
+      "front": "If I have time, I will go",
+      "back": "Si tengo tiempo, iré",
+      "example": "Si tengo tiempo, iré"
+    },
+    {
+      "id": "c4-u03-f02",
+      "unit": "c4-u03",
+      "kind": "recognition",
+      "front": "Si tuviera tiempo, iría",
+      "back": "If I had time, I would go",
+      "example": "Si tuviera tiempo, iría"
+    },
+    {
+      "id": "c4-u03-f03",
+      "unit": "c4-u03",
+      "kind": "production",
+      "front": "If you need help, call me",
+      "back": "Si necesitas ayuda, llámame",
+      "example": "Si necesitas ayuda, llámame"
+    },
+    {
+      "id": "c4-u03-f04",
+      "unit": "c4-u03",
+      "kind": "recognition",
+      "front": "Si recibimos permiso, abriremos",
+      "back": "If we receive permission, we will open",
+      "example": "Si recibimos permiso, abriremos"
+    },
+    {
+      "id": "c4-u03-f05",
+      "unit": "c4-u03",
+      "kind": "production",
+      "front": "If I were you, I would check it",
+      "back": "Yo que tú, lo comprobaría",
+      "example": "Yo que tú, lo comprobaría"
+    },
+    {
+      "id": "c4-u03-f06",
+      "unit": "c4-u03",
+      "kind": "recognition",
+      "front": "Eso sería útil",
+      "back": "That would be useful",
+      "example": "Eso sería útil"
+    },
+    {
+      "id": "c4-u03-f07",
+      "unit": "c4-u03",
+      "kind": "production",
+      "front": "It depends on authorization",
+      "back": "Depende de la autorización",
+      "example": "Depende de la autorización"
+    },
+    {
+      "id": "c4-u03-f08",
+      "unit": "c4-u03",
+      "kind": "recognition",
+      "front": "¿Y si llega después?",
+      "back": "What if it arrives later?",
+      "example": "¿Y si llega después?"
+    },
+    {
+      "id": "c4-u03-f09",
+      "unit": "c4-u03",
+      "kind": "production",
+      "front": "We will keep the current schedule",
+      "back": "Mantendremos el horario actual",
+      "example": "Mantendremos el horario actual"
+    },
+    {
+      "id": "c4-u03-f10",
+      "unit": "c4-u03",
+      "kind": "recognition",
+      "front": "No es un compromiso todavía",
+      "back": "It is not yet a commitment",
+      "example": "No es un compromiso todavía"
+    },
+    {
+      "id": "c4-u03-f11",
+      "unit": "c4-u03",
+      "kind": "production",
+      "front": "In that case, we could wait",
+      "back": "En ese caso, podríamos esperar",
+      "example": "En ese caso, podríamos esperar"
+    },
+    {
+      "id": "c4-u03-f12",
+      "unit": "c4-u03",
+      "kind": "recognition",
+      "front": "Siempre que se confirme",
+      "back": "Provided that it is confirmed",
+      "example": "Siempre que se confirme"
+    },
+    {
+      "id": "c4-u03-f13",
+      "unit": "c4-u03",
+      "kind": "production",
+      "front": "If not, we will seek another option",
+      "back": "Si no, buscaremos otra opción",
+      "example": "Si no, buscaremos otra opción"
+    },
+    {
+      "id": "c4-u03-f14",
+      "unit": "c4-u03",
+      "kind": "recognition",
+      "front": "Con más recursos, sería distinto",
+      "back": "With more resources, it would be different",
+      "example": "Con más recursos, sería distinto"
+    },
+    {
+      "id": "c4-u03-f15",
+      "unit": "c4-u03",
+      "kind": "production",
+      "front": "It remains subject to confirmation",
+      "back": "Queda sujeto a confirmación",
+      "example": "Queda sujeto a confirmación"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c4-u03-q01",
+      "type": "cloze",
+      "prompt": "Complete: Si ___ tiempo mañana, iré. (tener, yo open condition)",
+      "answers": [
+        "tengo"
+      ],
+      "explanation": "The standard future-oriented si clause uses present indicative, not future.",
+      "concept": "Open conditions"
+    },
+    {
+      "id": "c4-u03-q02",
+      "type": "cloze",
+      "prompt": "Complete: Si ___ tiempo, iría. (tener, yo hypothetical ra form)",
+      "answers": [
+        "tuviera"
+      ],
+      "explanation": "The hypothetical frame uses imperfect subjunctive in the condition.",
+      "concept": "Open conditions"
+    },
+    {
+      "id": "c4-u03-q03",
+      "type": "cloze",
+      "prompt": "Complete: Si tuviera tiempo, ___. (ir, yo)",
+      "answers": [
+        "iría"
+      ],
+      "explanation": "The hypothetical result uses conditional iría.",
+      "concept": "Open conditions"
+    },
+    {
+      "id": "c4-u03-q04",
+      "type": "cloze",
+      "prompt": "Complete: ___ necesitas ayuda, llámame.",
+      "answers": [
+        "Si"
+      ],
+      "explanation": "Conditional si is unaccented; affirmative sí has a different function.",
+      "concept": "A hypothetical frame"
+    },
+    {
+      "id": "c4-u03-q05",
+      "type": "cloze",
+      "prompt": "Complete: Yo que tú, lo ___. (comprobar, conditional)",
+      "answers": [
+        "comprobaría"
+      ],
+      "explanation": "The advice frame uses conditional to propose what the speaker would do.",
+      "concept": "A hypothetical frame"
+    },
+    {
+      "id": "c4-u03-q06",
+      "type": "cloze",
+      "prompt": "Complete: Si recibimos permiso, ___ el lunes. (abrir, nosotros future)",
+      "answers": [
+        "abriremos"
+      ],
+      "explanation": "A future result can follow an open present-indicative condition.",
+      "concept": "A hypothetical frame"
+    },
+    {
+      "id": "c4-u03-q07",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: If I have time, I will go.",
+      "options": [
+        "Mantendremos el horario actual",
+        "Si no, buscaremos otra opción",
+        "Si tengo tiempo, iré"
+      ],
+      "answers": [
+        "Si tengo tiempo, iré"
+      ],
+      "explanation": "“Si tengo tiempo, iré” expresses “If I have time, I will go”. “Mantendremos el horario actual” instead means “We will keep the current schedule”. “Si no, buscaremos otra opción” instead means “If not, we will seek another option”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c4-u03-q08",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: If I had time, I would go.",
+      "options": [
+        "Con más recursos, sería distinto",
+        "Si tuviera tiempo, iría",
+        "No es un compromiso todavía"
+      ],
+      "answers": [
+        "Si tuviera tiempo, iría"
+      ],
+      "explanation": "“Si tuviera tiempo, iría” expresses “If I had time, I would go”. “Con más recursos, sería distinto” instead means “With more resources, it would be different”. “No es un compromiso todavía” instead means “It is not yet a commitment”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c4-u03-q09",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: If you need help, call me.",
+      "options": [
+        "Si necesitas ayuda, llámame",
+        "En ese caso, podríamos esperar",
+        "Queda sujeto a confirmación"
+      ],
+      "answers": [
+        "Si necesitas ayuda, llámame"
+      ],
+      "explanation": "“Si necesitas ayuda, llámame” expresses “If you need help, call me”. “En ese caso, podríamos esperar” instead means “In that case, we could wait”. “Queda sujeto a confirmación” instead means “It remains subject to confirmation”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c4-u03-q10",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: If we receive permission, we will open.",
+      "options": [
+        "Siempre que se confirme",
+        "Si tengo tiempo, iré",
+        "Si recibimos permiso, abriremos"
+      ],
+      "answers": [
+        "Si recibimos permiso, abriremos"
+      ],
+      "explanation": "“Si recibimos permiso, abriremos” expresses “If we receive permission, we will open”. “Siempre que se confirme” instead means “Provided that it is confirmed”. “Si tengo tiempo, iré” instead means “If I have time, I will go”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c4-u03-q11",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: If I were you, I would check it.",
+      "options": [
+        "Si tuviera tiempo, iría",
+        "Yo que tú, lo comprobaría",
+        "Si no, buscaremos otra opción"
+      ],
+      "answers": [
+        "Yo que tú, lo comprobaría"
+      ],
+      "explanation": "“Yo que tú, lo comprobaría” expresses “If I were you, I would check it”. “Si tuviera tiempo, iría” instead means “If I had time, I would go”. “Si no, buscaremos otra opción” instead means “If not, we will seek another option”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c4-u03-q12",
+      "type": "matching",
+      "prompt": "Match each English meaning to its Spanish expression. Use each expression once.",
+      "answers": [
+        "[\"Yo que tú, lo comprobaría\",\"Depende de la autorización\",\"Mantendremos el horario actual\"]"
+      ],
+      "explanation": "“Yo que tú, lo comprobaría” means “If I were you, I would check it”. “Depende de la autorización” means “It depends on authorization”. “Mantendremos el horario actual” means “We will keep the current schedule”. Each alternative belongs to a different meaning; check the whole phrase, including its grammatical person and register.",
+      "concept": "Meaning and register",
+      "pairs": [
+        {
+          "left": "If I were you, I would check it",
+          "right": "Yo que tú, lo comprobaría"
+        },
+        {
+          "left": "It depends on authorization",
+          "right": "Depende de la autorización"
+        },
+        {
+          "left": "We will keep the current schedule",
+          "right": "Mantendremos el horario actual"
+        }
+      ]
+    }
+  ],
+  "homework": [
+    {
+      "id": "c4-u03-h1",
+      "skill": "Reading & writing",
+      "prompt": "Read the original text for this unit. Identify its situation, central message, and three supporting details. Then write a new version of 220–280 words for a different person or audience. Use the target patterns, change at least three facts, and explain two revisions.",
+      "model": "—Si recibimos la autorización esta semana, abriremos la sala el lunes.\n—¿Y si llega después?\n—Mantendremos el horario actual hasta confirmarlo.\n—Si tuviéramos más personal, podríamos ampliar también el domingo.\n—Eso sería útil, pero todavía no tenemos ese recurso. Propongo evaluar primero el lunes.\n—De acuerdo. Si necesitas ayuda con el aviso, llámame.\nEl diálogo combina una condición abierta, un escenario hipotético y una oferta práctica. Redacta un breve acuerdo que conserve esas diferencias y evite anunciar como seguro un horario que depende de autorización.\n\nThis is the source model, not a text to submit unchanged. A successful adaptation retains the communicative purpose while changing relevant forms and facts. Compare with the worked examples for the reasons behind form choices.",
+      "rubric": "0–3 each: fulfills the specified purpose; organized and comprehensible; target forms support meaning; revisions are explained with examples. 0 = no evidence, 1 = substantial help needed, 2 = effective with some support, 3 = independently effective for this task. Record who evaluated the work."
+    },
+    {
+      "id": "c4-u03-h2",
+      "skill": "Listening",
+      "prompt": "Complete the resource assignment, or ask a willing reader to read the original text without showing it to you. First listen for the situation and purpose; listen again for three details and one contrast. Write a 60–100-word listening log naming the source, words actually heard, one uncertainty, and how you checked it. If using local synthesized speech, label it synthetic. Text-only preparation is not completed listening.",
+      "model": "A useful log separates the speaker’s message from your interpretation: “I heard [specific phrase]; I understood [claim]; I was uncertain about [word/relationship]; checking [text or partner] changed my interpretation to [correction].” Use the unit reading as an answer reference for a read-aloud version, never as evidence of an external speaker’s words.",
+      "rubric": "0–2 each: identifies source and listening conditions; retrieves central meaning; supports three details; checks a specific uncertainty. Do not count a copied transcript as independent comprehension."
+    },
+    {
+      "id": "c4-u03-h3",
+      "skill": "Speaking & interaction",
+      "prompt": "Negotiate a project with one uncertain authorization and one hypothetical extra resource. State the open plan, fallback, and imagined improvement separately.",
+      "model": "Use the original reading/dialogue and the sentence-pattern cards as preparation. Make a brief outline, then put it away. Your partner should introduce a detail you did not prepare. Respond, request clarification if needed, and summarize what you agreed or still disagree about. Solo fallback: record two possible viewpoints and improvise a response after a pause; label it rehearsal.",
+      "rubric": "0–3 each: task fulfillment, comprehensibility, control of target language, responsiveness to another speaker. A partner or instructor should cite one example per score. Solo rehearsal provides no evidence for live responsiveness; mark that dimension not observed."
+    },
+    {
+      "id": "c4-u03-h4",
+      "skill": "Retrieval & reflection",
+      "prompt": "On a later day, retrieve six cards without looking. Use three in a fresh response to the practical task. Identify one recurring form error and one communication difficulty. Produce a corrected example, explain the reason, and schedule a specific follow-up exchange or listening session.",
+      "model": "Compare your response with these two models: Si tengo tiempo, iré / Si tuviera tiempo, iría. A useful reflection explains the function, not just the spelling. Revisit the first worked item and create a different example of its principle.",
+      "rubric": "Report recall count separately from performance. Reflection is complete when it contains an observed difficulty, an explained correction, a fresh example, and an actionable next session."
+    }
+  ],
+  "task": "Negotiate a project with one uncertain authorization and one hypothetical extra resource. State the open plan, fallback, and imagined improvement separately.",
+  "culture": "Conditional language can soften disagreement but also create ambiguity about promises. In professional settings, confirm in writing which conditions apply and who is responsible for checking them.",
+  "selfAssessment": [
+    "I can build open and hypothetical si clauses.",
+    "I can avoid future or conditional in the standard open si clause.",
+    "I can negotiate a conditional agreement with clear commitments."
+  ],
+  "remediation": "Sort mistakes by form, meaning, and interaction. For form errors, explain a worked example and create a contrasting pair. For comprehension errors, replay a short segment or use a willing reader and verify your interpretation. For interaction difficulties, repeat the practical task with one new constraint. Compare evidence across days; repeated selection of a known answer alone is not mastery.",
+  "resources": [
+    "sd-conditional"
+  ]
+}

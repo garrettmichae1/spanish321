@@ -12,6 +12,15 @@
         "type": "string"
       }
     },
+    "selfChecks": {
+      "type": "object",
+      "propertyNames": {
+        "type": "string"
+      },
+      "additionalProperties": {
+        "type": "boolean"
+      }
+    },
     "reviews": {
       "type": "object",
       "propertyNames": {
@@ -112,10 +121,14 @@
             }
           },
           "score": {
-            "type": "number"
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 9007199254740991
           },
           "total": {
-            "type": "number"
+            "type": "integer",
+            "exclusiveMinimum": 0,
+            "maximum": 9007199254740991
           }
         },
         "required": [
@@ -234,7 +247,8 @@
         "type": "object",
         "properties": {
           "id": {
-            "type": "string"
+            "type": "string",
+            "minLength": 1
           },
           "front": {
             "type": "string",
@@ -255,7 +269,8 @@
             ]
           },
           "unit": {
-            "type": "string"
+            "type": "string",
+            "minLength": 1
           }
         },
         "required": [

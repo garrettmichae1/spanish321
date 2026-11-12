@@ -1,0 +1,391 @@
+{
+  "id": "c5-u04",
+  "course": 5,
+  "number": 4,
+  "title": "Multiple-source synthesis",
+  "subtitle": "Synthesize without erasing disagreement",
+  "status": "authored",
+  "prerequisites": [
+    "c5-u03"
+  ],
+  "objectives": [
+    "Organize multiple sources around a research question.",
+    "Attribute facts, interpretations and uncertainty accurately.",
+    "Write a synthesis that preserves consequential differences."
+  ],
+  "warmup": "Retrieve two sentences and one repair strategy from c5-u03. Change the subject or situation in each sentence and explain what changed. Then read today’s objectives and predict where your existing language may be insufficient.",
+  "lectures": [
+    {
+      "title": "De fichas a relaciones",
+      "body": "Prepara una ficha por fuente: autor, fecha, propósito, población, método, afirmación principal y límite. Después agrupa las fichas por pregunta, no solo por autor. Una fuente puede medir asistencia, otra describir barreras y otra proponer criterios de justicia. No son intercambiables. Busca convergencias reales y diferencias explicables por el contexto. Si dos cifras no usan la misma definición, no las combines como si formaran una sola serie. En la síntesis, cada afirmación importante debe poder rastrearse a una fuente o identificarse como inferencia tuya."
+    },
+    {
+      "title": "Una voz propia y responsable",
+      "body": "Tu voz aparece al organizar y evaluar, no al ocultar el origen de las ideas. Introduce una conclusión proporcional: En conjunto, las fuentes sugieren…, aunque no permiten establecer…. Evita una falsa unanimidad; un desacuerdo relevante puede ser precisamente el hallazgo central. Distingue una cita textual, una paráfrasis y una síntesis de varias fuentes. Si necesitas traducir una idea, indica que es tu traducción cuando importe y comprueba que no aumente la certeza. Termina con lo que puede decidirse, lo que requiere más investigación y qué evidencia adicional sería útil."
+    },
+    {
+      "title": "Una síntesis trabajada, con límites visibles",
+      "body": "Supón tres fichas ficticias: A registra 240 **visitas** en cuatro tardes; B recoge entrevistas con seis personas que tuvieron dificultades para reservar; C calcula el costo de mantener abierto un turno adicional. No puedes escribir que “240 personas piden una ampliación”: A no cuenta necesariamente personas distintas y no mide una petición. Tampoco puedes convertir las seis entrevistas en un porcentaje de toda la población sin una muestra adecuada.\n\nUna síntesis proporcional sería: **El registro muestra uso del servicio durante el período observado; las entrevistas identifican barreras que ese recuento no describe. La estimación de costos permite planificar una prueba, pero no demuestra por sí sola su beneficio.** Cada oración conserva la función de su fuente. La recomendación puede ser propia: **Proponemos una prueba limitada que mida usuarios distintos, intentos fallidos de reserva y costo por turno**.\n\nObserva la diferencia entre resumir tres documentos por separado y relacionarlos mediante una pregunta. La síntesis explica qué aporta cada fuente, dónde no son comparables y qué decisión puede sostenerse. Identifica expresamente que estas cifras son un ejercicio ficticio, no datos de una biblioteca real."
+    }
+  ],
+  "reading": "**Dossier original ficticio.** La fuente A describe registros de entrada durante seis semanas y observa más visitas los sábados. La fuente B resume entrevistas con personas que trabajan los sábados y señala dificultades para asistir. La fuente C presenta un presupuesto que permitiría ampliar dos tardes, pero no todos los días. Una síntesis débil diría que “todas las fuentes apoyan abrir más los sábados”. Una síntesis más fiel distinguiría demanda observada, necesidades no captadas por esa demanda y restricciones de recursos. Podría recomendar comparar una ampliación sabatina con dos tardes, sin afirmar que una entrevista cuantifica cuántas personas se beneficiarían. También tendría que reconocer que los registros cuentan visitas, no necesariamente personas distintas. El dossier permite formular una decisión investigable; no proporciona por sí solo la respuesta definitiva. Redacta una síntesis que mantenga visibles las diferencias y señale una pregunta que cada fuente no puede responder.",
+  "worked": [
+    {
+      "prompt": "Do visits necessarily equal distinct people? Write sí or no.",
+      "answer": "no",
+      "reason": "One person may make multiple visits; the unit of measurement must be checked."
+    },
+    {
+      "prompt": "Complete: Cada afirmación debe poder ___ a una fuente. (be traced, infinitive)",
+      "answer": "rastrearse",
+      "reason": "Traceability lets a reader inspect the evidence behind a claim."
+    },
+    {
+      "prompt": "Complete: En conjunto, las fuentes ___ una posibilidad, sin demostrarla. (suggest, present plural)",
+      "answer": "sugieren",
+      "reason": "Sugieren preserves a tentative conclusion; demuestran would overstate support."
+    },
+    {
+      "prompt": "Can differently defined figures be automatically combined into one series? Write sí or no.",
+      "answer": "no",
+      "reason": "Differences in definition or population can make numerical combination misleading."
+    },
+    {
+      "prompt": "Complete: La síntesis debe conservar los ___ relevantes. (disagreements)",
+      "answer": "desacuerdos",
+      "reason": "A synthesis should not erase consequential differences to create artificial consensus."
+    },
+    {
+      "prompt": "Complete: Una paráfrasis debe ___ el grado de certeza. (preserve)",
+      "answer": "conservar",
+      "reason": "Faithful paraphrase keeps the source’s strength of commitment rather than silently strengthening it."
+    }
+  ],
+  "cards": [
+    {
+      "id": "c5-u04-f01",
+      "unit": "c5-u04",
+      "kind": "production",
+      "front": "Visits do not equal distinct people",
+      "back": "Las visitas no equivalen a personas distintas",
+      "example": "Las visitas no equivalen a personas distintas"
+    },
+    {
+      "id": "c5-u04-f02",
+      "unit": "c5-u04",
+      "kind": "recognition",
+      "front": "La afirmación puede rastrearse a una fuente",
+      "back": "The claim can be traced to a source",
+      "example": "La afirmación puede rastrearse a una fuente"
+    },
+    {
+      "id": "c5-u04-f03",
+      "unit": "c5-u04",
+      "kind": "production",
+      "front": "The sources suggest a possibility",
+      "back": "Las fuentes sugieren una posibilidad",
+      "example": "Las fuentes sugieren una posibilidad"
+    },
+    {
+      "id": "c5-u04-f04",
+      "unit": "c5-u04",
+      "kind": "recognition",
+      "front": "Las definiciones no son comparables",
+      "back": "The definitions are not comparable",
+      "example": "Las definiciones no son comparables"
+    },
+    {
+      "id": "c5-u04-f05",
+      "unit": "c5-u04",
+      "kind": "production",
+      "front": "We must preserve relevant disagreements",
+      "back": "Debemos conservar los desacuerdos relevantes",
+      "example": "Debemos conservar los desacuerdos relevantes"
+    },
+    {
+      "id": "c5-u04-f06",
+      "unit": "c5-u04",
+      "kind": "recognition",
+      "front": "La paráfrasis conserva el grado de certeza",
+      "back": "The paraphrase preserves certainty",
+      "example": "La paráfrasis conserva el grado de certeza"
+    },
+    {
+      "id": "c5-u04-f07",
+      "unit": "c5-u04",
+      "kind": "production",
+      "front": "The source measures something else",
+      "back": "La fuente mide otra cosa",
+      "example": "La fuente mide otra cosa"
+    },
+    {
+      "id": "c5-u04-f08",
+      "unit": "c5-u04",
+      "kind": "recognition",
+      "front": "La demanda observada no incluye todas las necesidades",
+      "back": "Observed demand does not include all needs",
+      "example": "La demanda observada no incluye todas las necesidades"
+    },
+    {
+      "id": "c5-u04-f09",
+      "unit": "c5-u04",
+      "kind": "production",
+      "front": "This is my inference",
+      "back": "Esta es una inferencia mía",
+      "example": "Esta es una inferencia mía"
+    },
+    {
+      "id": "c5-u04-f10",
+      "unit": "c5-u04",
+      "kind": "recognition",
+      "front": "Según los registros disponibles",
+      "back": "According to available records",
+      "example": "Según los registros disponibles, hubo más visitas durante la prueba."
+    },
+    {
+      "id": "c5-u04-f11",
+      "unit": "c5-u04",
+      "kind": "production",
+      "front": "My translation of the idea would be…",
+      "back": "Mi traducción de la idea sería…",
+      "example": "Mi traducción de la idea sería…"
+    },
+    {
+      "id": "c5-u04-f12",
+      "unit": "c5-u04",
+      "kind": "recognition",
+      "front": "No hay unanimidad entre las fuentes",
+      "back": "There is no unanimity among the sources",
+      "example": "No hay unanimidad entre las fuentes"
+    },
+    {
+      "id": "c5-u04-f13",
+      "unit": "c5-u04",
+      "kind": "production",
+      "front": "The budget constraint matters",
+      "back": "La restricción presupuestaria importa",
+      "example": "La restricción presupuestaria importa"
+    },
+    {
+      "id": "c5-u04-f14",
+      "unit": "c5-u04",
+      "kind": "recognition",
+      "front": "Falta una comparación directa",
+      "back": "A direct comparison is missing",
+      "example": "Falta una comparación directa"
+    },
+    {
+      "id": "c5-u04-f15",
+      "unit": "c5-u04",
+      "kind": "production",
+      "front": "The decision remains open",
+      "back": "La decisión sigue abierta",
+      "example": "La decisión sigue abierta"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c5-u04-q01",
+      "type": "typed",
+      "prompt": "Do visits necessarily equal distinct people? Write sí or no.",
+      "answers": [
+        "no"
+      ],
+      "explanation": "One person may make multiple visits; the unit of measurement must be checked.",
+      "concept": "De fichas a relaciones"
+    },
+    {
+      "id": "c5-u04-q02",
+      "type": "cloze",
+      "prompt": "Complete: Cada afirmación debe poder ___ a una fuente. (be traced; use rastrear with se)",
+      "answers": [
+        "rastrearse"
+      ],
+      "explanation": "Traceability lets a reader inspect the evidence behind a claim.",
+      "concept": "De fichas a relaciones"
+    },
+    {
+      "id": "c5-u04-q03",
+      "type": "cloze",
+      "prompt": "Complete: En conjunto, las fuentes ___ una posibilidad, sin demostrarla. (suggest, present plural)",
+      "answers": [
+        "sugieren"
+      ],
+      "explanation": "Sugieren preserves a tentative conclusion; demuestran would overstate support.",
+      "concept": "De fichas a relaciones"
+    },
+    {
+      "id": "c5-u04-q04",
+      "type": "typed",
+      "prompt": "Can differently defined figures be automatically combined into one series? Write sí or no.",
+      "answers": [
+        "no"
+      ],
+      "explanation": "Differences in definition or population can make numerical combination misleading.",
+      "concept": "Una voz propia y responsable"
+    },
+    {
+      "id": "c5-u04-q05",
+      "type": "cloze",
+      "prompt": "Complete: La síntesis debe conservar los ___ relevantes. (disagreements)",
+      "answers": [
+        "desacuerdos",
+        "disensos"
+      ],
+      "explanation": "A synthesis should not erase consequential differences to create artificial consensus.",
+      "concept": "Una voz propia y responsable"
+    },
+    {
+      "id": "c5-u04-q06",
+      "type": "cloze",
+      "prompt": "Complete: Una paráfrasis debe ___ el grado de certeza. (preserve)",
+      "answers": [
+        "conservar",
+        "mantener",
+        "preservar"
+      ],
+      "explanation": "Faithful paraphrase keeps the source’s strength of commitment rather than silently strengthening it.",
+      "concept": "Una voz propia y responsable"
+    },
+    {
+      "id": "c5-u04-q07",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: Visits do not equal distinct people.",
+      "options": [
+        "Esta es una inferencia mía",
+        "La restricción presupuestaria importa",
+        "Las visitas no equivalen a personas distintas"
+      ],
+      "answers": [
+        "Las visitas no equivalen a personas distintas"
+      ],
+      "explanation": "“Las visitas no equivalen a personas distintas” expresses “Visits do not equal distinct people”. “Esta es una inferencia mía” instead means “This is my inference”. “La restricción presupuestaria importa” instead means “The budget constraint matters”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c5-u04-q08",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: The claim can be traced to a source.",
+      "options": [
+        "Falta una comparación directa",
+        "La afirmación puede rastrearse a una fuente",
+        "Según los registros disponibles"
+      ],
+      "answers": [
+        "La afirmación puede rastrearse a una fuente"
+      ],
+      "explanation": "“La afirmación puede rastrearse a una fuente” expresses “The claim can be traced to a source”. “Falta una comparación directa” instead means “A direct comparison is missing”. “Según los registros disponibles” instead means “According to available records”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c5-u04-q09",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: The sources suggest a possibility.",
+      "options": [
+        "Las fuentes sugieren una posibilidad",
+        "Mi traducción de la idea sería…",
+        "La decisión sigue abierta"
+      ],
+      "answers": [
+        "Las fuentes sugieren una posibilidad"
+      ],
+      "explanation": "“Las fuentes sugieren una posibilidad” expresses “The sources suggest a possibility”. “Mi traducción de la idea sería…” instead means “My translation of the idea would be…”. “La decisión sigue abierta” instead means “The decision remains open”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c5-u04-q10",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: The definitions are not comparable.",
+      "options": [
+        "No hay unanimidad entre las fuentes",
+        "Las visitas no equivalen a personas distintas",
+        "Las definiciones no son comparables"
+      ],
+      "answers": [
+        "Las definiciones no son comparables"
+      ],
+      "explanation": "“Las definiciones no son comparables” expresses “The definitions are not comparable”. “No hay unanimidad entre las fuentes” instead means “There is no unanimity among the sources”. “Las visitas no equivalen a personas distintas” instead means “Visits do not equal distinct people”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c5-u04-q11",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: We must preserve relevant disagreements.",
+      "options": [
+        "La afirmación puede rastrearse a una fuente",
+        "Debemos conservar los desacuerdos relevantes",
+        "La restricción presupuestaria importa"
+      ],
+      "answers": [
+        "Debemos conservar los desacuerdos relevantes"
+      ],
+      "explanation": "“Debemos conservar los desacuerdos relevantes” expresses “We must preserve relevant disagreements”. “La afirmación puede rastrearse a una fuente” instead means “The claim can be traced to a source”. “La restricción presupuestaria importa” instead means “The budget constraint matters”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c5-u04-q12",
+      "type": "matching",
+      "prompt": "Match each English meaning to its Spanish expression. Use each expression once.",
+      "answers": [
+        "[\"Debemos conservar los desacuerdos relevantes\",\"La fuente mide otra cosa\",\"Esta es una inferencia mía\"]"
+      ],
+      "explanation": "“Debemos conservar los desacuerdos relevantes” means “We must preserve relevant disagreements”. “La fuente mide otra cosa” means “The source measures something else”. “Esta es una inferencia mía” means “This is my inference”. Each alternative belongs to a different meaning; check the whole phrase, including its grammatical person and register.",
+      "concept": "Meaning and register",
+      "pairs": [
+        {
+          "left": "We must preserve relevant disagreements",
+          "right": "Debemos conservar los desacuerdos relevantes"
+        },
+        {
+          "left": "The source measures something else",
+          "right": "La fuente mide otra cosa"
+        },
+        {
+          "left": "This is my inference",
+          "right": "Esta es una inferencia mía"
+        }
+      ]
+    }
+  ],
+  "homework": [
+    {
+      "id": "c5-u04-h1",
+      "skill": "Reading & writing",
+      "prompt": "Read the original text for this unit. Identify its situation, central message, and three supporting details. Then write a new version of 300–400 words for a different person or audience. Use the target patterns, change at least three facts, and explain two revisions.",
+      "model": "**Dossier original ficticio.** La fuente A describe registros de entrada durante seis semanas y observa más visitas los sábados. La fuente B resume entrevistas con personas que trabajan los sábados y señala dificultades para asistir. La fuente C presenta un presupuesto que permitiría ampliar dos tardes, pero no todos los días. Una síntesis débil diría que “todas las fuentes apoyan abrir más los sábados”. Una síntesis más fiel distinguiría demanda observada, necesidades no captadas por esa demanda y restricciones de recursos. Podría recomendar comparar una ampliación sabatina con dos tardes, sin afirmar que una entrevista cuantifica cuántas personas se beneficiarían. También tendría que reconocer que los registros cuentan visitas, no necesariamente personas distintas. El dossier permite formular una decisión investigable; no proporciona por sí solo la respuesta definitiva. Redacta una síntesis que mantenga visibles las diferencias y señale una pregunta que cada fuente no puede responder.\n\nThis is the source model, not a text to submit unchanged. A successful adaptation retains the communicative purpose while changing relevant forms and facts. Compare with the worked examples for the reasons behind form choices.",
+      "rubric": "0–3 each: fulfills the specified purpose; organized and comprehensible; target forms support meaning; revisions are explained with examples. 0 = no evidence, 1 = substantial help needed, 2 = effective with some support, 3 = independently effective for this task. Record who evaluated the work."
+    },
+    {
+      "id": "c5-u04-h2",
+      "skill": "Listening",
+      "prompt": "Complete the resource assignment, or ask a willing reader to read the original text without showing it to you. First listen for the situation and purpose; listen again for three details and one contrast. Write a 60–100-word listening log naming the source, words actually heard, one uncertainty, and how you checked it. If using local synthesized speech, label it synthetic. Text-only preparation is not completed listening.",
+      "model": "A useful log separates the speaker’s message from your interpretation: “I heard [specific phrase]; I understood [claim]; I was uncertain about [word/relationship]; checking [text or partner] changed my interpretation to [correction].” Use the unit reading as an answer reference for a read-aloud version, never as evidence of an external speaker’s words.",
+      "rubric": "0–2 each: identifies source and listening conditions; retrieves central meaning; supports three details; checks a specific uncertainty. Do not count a copied transcript as independent comprehension."
+    },
+    {
+      "id": "c5-u04-h3",
+      "skill": "Speaking & interaction",
+      "prompt": "Compare three public sources you can actually access, or the fictional dossier. Write a 350–450-word synthesis with attribution, a source matrix and one justified research question; discuss a disputed inference.",
+      "model": "Use the original reading/dialogue and the sentence-pattern cards as preparation. Make a brief outline, then put it away. Your partner should introduce a detail you did not prepare. Respond, request clarification if needed, and summarize what you agreed or still disagree about. Solo fallback: record two possible viewpoints and improvise a response after a pause; label it rehearsal.",
+      "rubric": "0–3 each: task fulfillment, comprehensibility, control of target language, responsiveness to another speaker. A partner or instructor should cite one example per score. Solo rehearsal provides no evidence for live responsiveness; mark that dimension not observed."
+    },
+    {
+      "id": "c5-u04-h4",
+      "skill": "Retrieval & reflection",
+      "prompt": "On a later day, retrieve six cards without looking. Use three in a fresh response to the practical task. Identify one recurring form error and one communication difficulty. Produce a corrected example, explain the reason, and schedule a specific follow-up exchange or listening session.",
+      "model": "Compare your response with these two models: Las visitas no equivalen a personas distintas / La afirmación puede rastrearse a una fuente. A useful reflection explains the function, not just the spelling. Revisit the first worked item and create a different example of its principle.",
+      "rubric": "Report recall count separately from performance. Reflection is complete when it contains an observed difficulty, an explained correction, a fresh example, and an actionable next session."
+    }
+  ],
+  "task": "Compare three public sources you can actually access, or the fictional dossier. Write a 350–450-word synthesis with attribution, a source matrix and one justified research question; discuss a disputed inference.",
+  "culture": "Sources produced in different communities may use different institutional categories. Translate the meaning of those categories carefully rather than assuming a familiar label names the same system everywhere.",
+  "selfAssessment": [
+    "I can organize multiple sources around a research question.",
+    "I can attribute facts, interpretations and uncertainty accurately.",
+    "I can write a synthesis that preserves consequential differences."
+  ],
+  "remediation": "Sort mistakes by form, meaning, and interaction. For form errors, explain a worked example and create a contrasting pair. For comprehension errors, replay a short segment or use a willing reader and verify your interpretation. For interaction difficulties, repeat the practical task with one new constraint. Compare evidence across days; repeated selection of a known answer alone is not mastery.",
+  "resources": [
+    "rtve-documentos"
+  ]
+}

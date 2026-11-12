@@ -1,6 +1,6 @@
 # Curriculum design and prerequisite audit
 
-Status: 12 Spanish I units are authored drafts; the other 48 units are syllabus entries. This is **not** a complete beginner-to-advanced course or a professionally validated curriculum. Qualified Spanish-educator review has not occurred.
+Status: all 60 units are authored, with original lessons, practice, answer keys, homework and communication tasks. This is an engineering-authored independent-study curriculum. Qualified Spanish-educator review has not occurred; it is not professionally validated.
 
 The canonical full 60-unit sequence is `content/syllabus.json`. All units have stable IDs. Unit 1 starts without prerequisites; each subsequent unit assumes the preceding unit, and each course assumes the previous course’s capstone. This is a recommendation, not an app lock: learners with prior knowledge can inspect earlier content. Approximately 5–8 hours per unit is an initial workload estimate, not a deadline or fluency promise.
 
@@ -11,7 +11,7 @@ The canonical full 60-unit sequence is `content/syllabus.json`. All units have s
 - Add pronoun recognition for tú, usted, ustedes, vosotros and vos in I.2, and keep regional notes in I.5. Productive default is broadly Latin American Spanish. Do not equate formality with one universal social relationship.
 - Introduce tener for age as a chunk in I.4; analyze it fully in I.8. Introduce common requests as chunks before command morphology.
 - Introduce contractions al/del in context before location and movement tasks. Include present progressive as a contrast with habits in I.10, without overusing it.
-- II.3–4 require the object/subject distinction and gustar experience. Add personal a and prepositional pronouns before combined objects; sequence lo/la/los/las, then le/les, then se lo. These additions remain to be authored.
+- II.3–4 require the object/subject distinction and gustar experience. Add personal a and prepositional pronouns before combined objects; sequence lo/la/los/las, then le/les, then se lo. These bridges are included in the authored lessons.
 - II.10 must distinguish affirmative tú, negative tú, usted and ustedes commands. Teach the yo-stem formation bridge before calling these forms “subjunctive”; III.7 then develops mood and communicative meaning. Vos/vosotros recognition requires regional treatment.
 - II.11 needs explicit past participles, haber, and common irregular participles before present perfect. Regional present-perfect/preterite variation is essential; never label one regional distribution wrong.
 - III.2 reuses participles and imperfect haber before past perfect; III.4 precedes hypothetical conditionals in IV.3. III.5 relative clauses prepare III.9.
@@ -28,7 +28,7 @@ The canonical full 60-unit sequence is `content/syllabus.json`. All units have s
 | IV · Discussion (B2-oriented) | Interpret sources, argue, qualify and negotiate | III explanation plus indicative/subjunctive contrast | Interpret and discuss multiple sources | Supported persuasive presentation and rebuttal |
 | V · Advanced (B2–C1 stretch) | Synthesize complex sources, adapt register, respond spontaneously | Individual diagnostic and recurring-error inventory | Research briefing and live discussion | Portfolio, capstone, questions, continuing immersion plan |
 
-These are design targets, not promised outcomes, accreditation, credit, or CEFR certification. Only I has lesson drafts; the assessment plans above are not a substitute for authored assessment banks.
+These are design targets, not promised outcomes, accreditation, credit, or CEFR certification. All five courses have entry, cumulative midterm and cumulative final question sets in `content/assessments.json`, plus performance tasks and transparent rubrics. Controlled exams reuse the published bank; their scores must not be interpreted as independent proficiency certification.
 
 ## Common performance rubric
 

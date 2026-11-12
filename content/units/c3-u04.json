@@ -1,0 +1,384 @@
+{
+  "id": "c3-u04",
+  "course": 3,
+  "number": 4,
+  "title": "Conditional & possibilities",
+  "subtitle": "Possibilities without overpromising",
+  "status": "authored",
+  "prerequisites": [
+    "c3-u03"
+  ],
+  "objectives": [
+    "Form conditional verbs with regular and irregular stems.",
+    "Make courteous requests and recommendations.",
+    "Distinguish a tentative proposal from a commitment."
+  ],
+  "warmup": "Retrieve two sentences and one repair strategy from c3-u03. Change the subject or situation in each sentence and explain what changed. Then read today’s objectives and predict where your existing language may be insufficient.",
+  "lectures": [
+    {
+      "title": "One ending set",
+      "body": "Conditional endings are ía, ías, ía, íamos, íais, ían attached to an infinitive or the same irregular stems used in the future: hablaría, tendría, podría, haríamos. Do not confuse comía (imperfect) with comería (conditional): the latter retains the full infinitive. The conditional can express a hypothetical result, a polite request or a future viewed from a past reference: Dijo que vendría. Full hypothetical si clauses come in Course IV; for now, learn meaningful independent proposals such as Sería útil revisar el horario."
+    },
+    {
+      "title": "Courtesy is contextual",
+      "body": "¿Podría explicarlo otra vez? reduces directness, but a conditional ending does not automatically make any demand appropriate. State the need and give the other person room to respond. Yo recomendaría el tren is a tentative recommendation, while recomiendo can be suitable when you have a clear role and evidence. Me gustaría participar expresses a wish without confirming availability. If plans depend on conditions, name those conditions rather than letting the listener mistake a possibility for an agreement. Use ¿Te serviría…? to check the effect on the other person, then explicitly confirm any final commitment."
+    }
+  ],
+  "reading": "—Me gustaría participar en la visita, pero trabajo hasta las nueve.\n—Podrías encontrarnos en la entrada de la biblioteca.\n—¿Podría pedirte la dirección exacta?\n—Claro. Yo recomendaría llegar a las diez, aunque sería mejor confirmar la hora con la coordinadora.\n—Gracias. ¿Te serviría que llevara una copia del programa?\n—Sí, sería útil. Cuando confirmes tu horario, avísame.\nLas últimas dos frases incluyen estructuras que se desarrollarán más adelante; concéntrate ahora en los condicionales y en qué parte del plan está confirmada. Redacta una respuesta que acepte una propuesta y deje otra pendiente.",
+  "worked": [
+    {
+      "prompt": "Complete: ___ participar. (I would like, using gustar)",
+      "answer": "me gustaría",
+      "reason": "The conditional gustar phrase expresses a courteous wish, not a confirmed arrangement."
+    },
+    {
+      "prompt": "Complete: ¿___ explicarlo otra vez? (poder, usted conditional)",
+      "answer": "Podría",
+      "reason": "Poder uses podr- plus ía for usted."
+    },
+    {
+      "prompt": "Complete: Nosotros ___ más tiempo. (tener, conditional)",
+      "answer": "tendríamos",
+      "reason": "Tener shares the future/conditional irregular stem tendr-."
+    },
+    {
+      "prompt": "Complete: Yo ___ el tren. (recomendar, conditional)",
+      "answer": "recomendaría",
+      "reason": "Attach ía to the infinitive; the present stem change is not used."
+    },
+    {
+      "prompt": "Complete: Ella dijo que ___ después. (venir, conditional)",
+      "answer": "vendría",
+      "reason": "Vendr- plus ía can express a later event from a past reference point."
+    },
+    {
+      "prompt": "Complete: Nosotros ___ una copia. (hacer, conditional)",
+      "answer": "haríamos",
+      "reason": "Hacer uses har- plus the conditional nosotros ending íamos."
+    }
+  ],
+  "cards": [
+    {
+      "id": "c3-u04-f01",
+      "unit": "c3-u04",
+      "kind": "production",
+      "front": "I would like to participate",
+      "back": "Me gustaría participar",
+      "example": "Me gustaría participar"
+    },
+    {
+      "id": "c3-u04-f02",
+      "unit": "c3-u04",
+      "kind": "recognition",
+      "front": "¿Podría explicarlo otra vez?",
+      "back": "Could you explain it again?",
+      "example": "¿Podría explicarlo otra vez?"
+    },
+    {
+      "id": "c3-u04-f03",
+      "unit": "c3-u04",
+      "kind": "production",
+      "front": "We would have more time",
+      "back": "Tendríamos más tiempo",
+      "example": "Tendríamos más tiempo"
+    },
+    {
+      "id": "c3-u04-f04",
+      "unit": "c3-u04",
+      "kind": "recognition",
+      "front": "Recomendaría el tren",
+      "back": "I would recommend the train",
+      "example": "Recomendaría el tren"
+    },
+    {
+      "id": "c3-u04-f05",
+      "unit": "c3-u04",
+      "kind": "production",
+      "front": "She or he said they would come later",
+      "back": "Dijo que vendría después",
+      "example": "Dijo que vendría después"
+    },
+    {
+      "id": "c3-u04-f06",
+      "unit": "c3-u04",
+      "kind": "recognition",
+      "front": "Haríamos una copia",
+      "back": "We would make a copy",
+      "example": "Haríamos una copia"
+    },
+    {
+      "id": "c3-u04-f07",
+      "unit": "c3-u04",
+      "kind": "production",
+      "front": "It would be useful to review the schedule",
+      "back": "Sería útil revisar el horario",
+      "example": "Sería útil revisar el horario"
+    },
+    {
+      "id": "c3-u04-f08",
+      "unit": "c3-u04",
+      "kind": "recognition",
+      "front": "¿Te serviría otra hora?",
+      "back": "Would another time work for you?",
+      "example": "¿Te serviría otra hora?"
+    },
+    {
+      "id": "c3-u04-f09",
+      "unit": "c3-u04",
+      "kind": "production",
+      "front": "You could meet us there",
+      "back": "Podrías encontrarnos allí",
+      "example": "Podrías encontrarnos allí"
+    },
+    {
+      "id": "c3-u04-f10",
+      "unit": "c3-u04",
+      "kind": "recognition",
+      "front": "No sería posible hoy",
+      "back": "It would not be possible today",
+      "example": "No sería posible hoy"
+    },
+    {
+      "id": "c3-u04-f11",
+      "unit": "c3-u04",
+      "kind": "production",
+      "front": "I would prefer to wait",
+      "back": "Preferiría esperar",
+      "example": "Preferiría esperar"
+    },
+    {
+      "id": "c3-u04-f12",
+      "unit": "c3-u04",
+      "kind": "recognition",
+      "front": "Querría confirmar un detalle",
+      "back": "I would like to confirm a detail",
+      "example": "Querría confirmar un detalle"
+    },
+    {
+      "id": "c3-u04-f13",
+      "unit": "c3-u04",
+      "kind": "production",
+      "front": "I would leave it pending",
+      "back": "Lo dejaría pendiente",
+      "example": "Lo dejaría pendiente"
+    },
+    {
+      "id": "c3-u04-f14",
+      "unit": "c3-u04",
+      "kind": "recognition",
+      "front": "Dependería del horario",
+      "back": "It would depend on the schedule",
+      "example": "Dependería del horario"
+    },
+    {
+      "id": "c3-u04-f15",
+      "unit": "c3-u04",
+      "kind": "production",
+      "front": "I confirm that I am going to attend",
+      "back": "Confirmo que voy a asistir",
+      "example": "Confirmo que voy a asistir"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c3-u04-q01",
+      "type": "cloze",
+      "prompt": "Complete: ___ participar. (I would like, using gustar)",
+      "answers": [
+        "me gustaría"
+      ],
+      "explanation": "The conditional gustar phrase expresses a courteous wish, not a confirmed arrangement.",
+      "concept": "One ending set"
+    },
+    {
+      "id": "c3-u04-q02",
+      "type": "cloze",
+      "prompt": "Complete: ¿___ explicarlo otra vez? (poder, usted conditional)",
+      "answers": [
+        "Podría"
+      ],
+      "explanation": "Poder uses podr- plus ía for usted.",
+      "concept": "One ending set"
+    },
+    {
+      "id": "c3-u04-q03",
+      "type": "cloze",
+      "prompt": "Complete: Nosotros ___ más tiempo. (tener, conditional)",
+      "answers": [
+        "tendríamos"
+      ],
+      "explanation": "Tener shares the future/conditional irregular stem tendr-.",
+      "concept": "One ending set"
+    },
+    {
+      "id": "c3-u04-q04",
+      "type": "cloze",
+      "prompt": "Complete: Yo ___ el tren. (recomendar, conditional)",
+      "answers": [
+        "recomendaría"
+      ],
+      "explanation": "Attach ía to the infinitive; the present stem change is not used.",
+      "concept": "Courtesy is contextual"
+    },
+    {
+      "id": "c3-u04-q05",
+      "type": "cloze",
+      "prompt": "Complete: Ella dijo que ___ después. (venir, conditional)",
+      "answers": [
+        "vendría"
+      ],
+      "explanation": "Vendr- plus ía can express a later event from a past reference point.",
+      "concept": "Courtesy is contextual"
+    },
+    {
+      "id": "c3-u04-q06",
+      "type": "cloze",
+      "prompt": "Complete: Nosotros ___ una copia. (hacer, conditional)",
+      "answers": [
+        "haríamos"
+      ],
+      "explanation": "Hacer uses har- plus the conditional nosotros ending íamos.",
+      "concept": "Courtesy is contextual"
+    },
+    {
+      "id": "c3-u04-q07",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: I would like to participate.",
+      "options": [
+        "Podrías encontrarnos allí",
+        "Lo dejaría pendiente",
+        "Me gustaría participar"
+      ],
+      "answers": [
+        "Me gustaría participar"
+      ],
+      "explanation": "“Me gustaría participar” expresses “I would like to participate”. “Podrías encontrarnos allí” instead means “You could meet us there”. “Lo dejaría pendiente” instead means “I would leave it pending”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c3-u04-q08",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: Could you explain it again?.",
+      "options": [
+        "Dependería del horario",
+        "¿Podría explicarlo otra vez?",
+        "No sería posible hoy"
+      ],
+      "answers": [
+        "¿Podría explicarlo otra vez?"
+      ],
+      "explanation": "“¿Podría explicarlo otra vez?” expresses “Could you explain it again?”. “Dependería del horario” instead means “It would depend on the schedule”. “No sería posible hoy” instead means “It would not be possible today”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c3-u04-q09",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: We would have more time.",
+      "options": [
+        "Tendríamos más tiempo",
+        "Preferiría esperar",
+        "Confirmo que voy a asistir"
+      ],
+      "answers": [
+        "Tendríamos más tiempo"
+      ],
+      "explanation": "“Tendríamos más tiempo” expresses “We would have more time”. “Preferiría esperar” instead means “I would prefer to wait”. “Confirmo que voy a asistir” instead means “I confirm that I am going to attend”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c3-u04-q10",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: I would recommend the train.",
+      "options": [
+        "Querría confirmar un detalle",
+        "Me gustaría participar",
+        "Recomendaría el tren"
+      ],
+      "answers": [
+        "Recomendaría el tren"
+      ],
+      "explanation": "“Recomendaría el tren” expresses “I would recommend the train”. “Querría confirmar un detalle” instead means “I would like to confirm a detail”. “Me gustaría participar” instead means “I would like to participate”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c3-u04-q11",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: She or he said they would come later.",
+      "options": [
+        "¿Podría explicarlo otra vez?",
+        "Dijo que vendría después",
+        "Lo dejaría pendiente"
+      ],
+      "answers": [
+        "Dijo que vendría después"
+      ],
+      "explanation": "“Dijo que vendría después” expresses “She or he said they would come later”. “¿Podría explicarlo otra vez?” instead means “Could you explain it again?”. “Lo dejaría pendiente” instead means “I would leave it pending”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c3-u04-q12",
+      "type": "matching",
+      "prompt": "Match each English meaning to its Spanish expression. Use each expression once.",
+      "answers": [
+        "[\"Dijo que vendría después\",\"Sería útil revisar el horario\",\"Podrías encontrarnos allí\"]"
+      ],
+      "explanation": "“Dijo que vendría después” means “She or he said they would come later”. “Sería útil revisar el horario” means “It would be useful to review the schedule”. “Podrías encontrarnos allí” means “You could meet us there”. Each alternative belongs to a different meaning; check the whole phrase, including its grammatical person and register.",
+      "concept": "Meaning and register",
+      "pairs": [
+        {
+          "left": "She or he said they would come later",
+          "right": "Dijo que vendría después"
+        },
+        {
+          "left": "It would be useful to review the schedule",
+          "right": "Sería útil revisar el horario"
+        },
+        {
+          "left": "You could meet us there",
+          "right": "Podrías encontrarnos allí"
+        }
+      ]
+    }
+  ],
+  "homework": [
+    {
+      "id": "c3-u04-h1",
+      "skill": "Reading & writing",
+      "prompt": "Read the original text for this unit. Identify its situation, central message, and three supporting details. Then write a new version of 150–200 words for a different person or audience. Use the target patterns, change at least three facts, and explain two revisions.",
+      "model": "—Me gustaría participar en la visita, pero trabajo hasta las nueve.\n—Podrías encontrarnos en la entrada de la biblioteca.\n—¿Podría pedirte la dirección exacta?\n—Claro. Yo recomendaría llegar a las diez, aunque sería mejor confirmar la hora con la coordinadora.\n—Gracias. ¿Te serviría que llevara una copia del programa?\n—Sí, sería útil. Cuando confirmes tu horario, avísame.\nLas últimas dos frases incluyen estructuras que se desarrollarán más adelante; concéntrate ahora en los condicionales y en qué parte del plan está confirmada. Redacta una respuesta que acepte una propuesta y deje otra pendiente.\n\nThis is the source model, not a text to submit unchanged. A successful adaptation retains the communicative purpose while changing relevant forms and facts. Compare with the worked examples for the reasons behind form choices.",
+      "rubric": "0–3 each: fulfills the specified purpose; organized and comprehensible; target forms support meaning; revisions are explained with examples. 0 = no evidence, 1 = substantial help needed, 2 = effective with some support, 3 = independently effective for this task. Record who evaluated the work."
+    },
+    {
+      "id": "c3-u04-h2",
+      "skill": "Listening",
+      "prompt": "Complete the resource assignment, or ask a willing reader to read the original text without showing it to you. First listen for the situation and purpose; listen again for three details and one contrast. Write a 60–100-word listening log naming the source, words actually heard, one uncertainty, and how you checked it. If using local synthesized speech, label it synthetic. Text-only preparation is not completed listening.",
+      "model": "A useful log separates the speaker’s message from your interpretation: “I heard [specific phrase]; I understood [claim]; I was uncertain about [word/relationship]; checking [text or partner] changed my interpretation to [correction].” Use the unit reading as an answer reference for a read-aloud version, never as evidence of an external speaker’s words.",
+      "rubric": "0–2 each: identifies source and listening conditions; retrieves central meaning; supports three details; checks a specific uncertainty. Do not count a copied transcript as independent comprehension."
+    },
+    {
+      "id": "c3-u04-h3",
+      "skill": "Speaking & interaction",
+      "prompt": "Negotiate a schedule with conflicting needs. Make two tentative proposals, a polite clarification request, and a final explicit agreement.",
+      "model": "Use the original reading/dialogue and the sentence-pattern cards as preparation. Make a brief outline, then put it away. Your partner should introduce a detail you did not prepare. Respond, request clarification if needed, and summarize what you agreed or still disagree about. Solo fallback: record two possible viewpoints and improvise a response after a pause; label it rehearsal.",
+      "rubric": "0–3 each: task fulfillment, comprehensibility, control of target language, responsiveness to another speaker. A partner or instructor should cite one example per score. Solo rehearsal provides no evidence for live responsiveness; mark that dimension not observed."
+    },
+    {
+      "id": "c3-u04-h4",
+      "skill": "Retrieval & reflection",
+      "prompt": "On a later day, retrieve six cards without looking. Use three in a fresh response to the practical task. Identify one recurring form error and one communication difficulty. Produce a corrected example, explain the reason, and schedule a specific follow-up exchange or listening session.",
+      "model": "Compare your response with these two models: Me gustaría participar / ¿Podría explicarlo otra vez?. A useful reflection explains the function, not just the spelling. Revisit the first worked item and create a different example of its principle.",
+      "rubric": "Report recall count separately from performance. Reflection is complete when it contains an observed difficulty, an explained correction, a fresh example, and an actionable next session."
+    }
+  ],
+  "task": "Negotiate a schedule with conflicting needs. Make two tentative proposals, a polite clarification request, and a final explicit agreement.",
+  "culture": "Politeness strategies depend on relationship and institution. Excessive indirectness can obscure a practical answer; combine considerate phrasing with a clear statement of what is agreed and what is only possible.",
+  "selfAssessment": [
+    "I can form conditional verbs with regular and irregular stems.",
+    "I can make courteous requests and recommendations.",
+    "I can distinguish a tentative proposal from a commitment."
+  ],
+  "remediation": "Sort mistakes by form, meaning, and interaction. For form errors, explain a worked example and create a contrasting pair. For comprehension errors, replay a short segment or use a willing reader and verify your interpretation. For interaction difficulties, repeat the practical task with one new constraint. Compare evidence across days; repeated selection of a known answer alone is not mastery.",
+  "resources": [
+    "sd-conditional"
+  ]
+}

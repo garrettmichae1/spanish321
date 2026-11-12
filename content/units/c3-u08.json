@@ -1,0 +1,384 @@
+{
+  "id": "c3-u08",
+  "course": 3,
+  "number": 8,
+  "title": "Wishes, emotion & influence",
+  "subtitle": "Recommend without taking over",
+  "status": "authored",
+  "prerequisites": [
+    "c3-u07"
+  ],
+  "objectives": [
+    "Express wishes, emotion and recommendations with appropriate clauses.",
+    "Distinguish infinitive and changed-subject structures.",
+    "Respond respectfully when advice is declined."
+  ],
+  "warmup": "Retrieve two sentences and one repair strategy from c3-u07. Change the subject or situation in each sentence and explain what changed. Then read today’s objectives and predict where your existing language may be insufficient.",
+  "lectures": [
+    {
+      "title": "Influence and evaluation",
+      "body": "Recomiendo que descanses, prefiero que lleguen temprano and me preocupa que no haya acceso all present an attitude toward an event. The dependent subjunctive does not certify that the event is uncertain; it reflects the construction. With a general or same-subject recommendation, an infinitive can work: Recomiendo descansar; prefiero llegar temprano. Choose who is supposed to act before selecting the structure. Avoid adding a subject change accidentally: Espero terminar says I hope to finish; espero que termines addresses someone else’s completion."
+    },
+    {
+      "title": "Turn a recommendation into an exchange",
+      "body": "Advice should respond to an expressed need. Ask what matters to the person, propose an action, explain a reason, and check their reaction: Te sugiero que compares los horarios porque cambian los fines de semana. ¿Te serviría? Me preocupa que… can identify a risk without accusing someone. Acknowledge refusal: Entiendo; podemos buscar otra opción. Do not confuse linguistic practice with professional medical, legal or financial authority. Practice ordinary study, scheduling or collaboration scenarios, and seek appropriate expertise for consequential advice. The communicative success is a workable response, not merely a correct ending."
+    }
+  ],
+  "reading": "—Quiero mejorar mi español, pero no puedo estudiar dos horas seguidas.\n—Te sugiero que distribuyas la práctica en sesiones más cortas.\n—Me preocupa que no sea suficiente.\n—Entiendo. Lo importante es que puedas mantener el plan y conversar con alguien cuando sea posible.\n—Prefiero que revisemos mi horario antes de decidir.\n—De acuerdo. Me alegra que quieras adaptar el plan a tu vida.\nExplica qué necesidad expresa la primera persona, qué recomendación recibe y cómo modifica la propuesta. Después prepara otra recomendación que incluya una razón y una oportunidad real de rechazarla.",
+  "worked": [
+    {
+      "prompt": "Complete: Te recomiendo que ___. (descansar, tú)",
+      "answer": "descanses",
+      "reason": "A recommendation influencing another subject uses subjunctive in this que clause."
+    },
+    {
+      "prompt": "Complete: Prefiero ___ temprano. (llegar, same subject)",
+      "answer": "llegar",
+      "reason": "The same-subject preference uses an infinitive here."
+    },
+    {
+      "prompt": "Complete: Me preocupa que no ___ acceso. (haber)",
+      "answer": "haya",
+      "reason": "The evaluative concern takes present subjunctive haya."
+    },
+    {
+      "prompt": "Complete: Espero que tú ___ hoy. (terminar)",
+      "answer": "termines",
+      "reason": "The changed subject requires a finite dependent clause with subjunctive."
+    },
+    {
+      "prompt": "Complete: Me alegra que ustedes ___ adaptar el plan. (querer)",
+      "answer": "quieran",
+      "reason": "The emotional evaluation takes subjunctive; third plural has the ie stem change."
+    },
+    {
+      "prompt": "Complete: Es importante que nosotros ___ mantenerlo. (poder)",
+      "answer": "podamos",
+      "reason": "Nosotros present subjunctive poder retains the o rather than the singular ue change."
+    }
+  ],
+  "cards": [
+    {
+      "id": "c3-u08-f01",
+      "unit": "c3-u08",
+      "kind": "production",
+      "front": "I recommend that you rest",
+      "back": "Te recomiendo que descanses",
+      "example": "Te recomiendo que descanses"
+    },
+    {
+      "id": "c3-u08-f02",
+      "unit": "c3-u08",
+      "kind": "recognition",
+      "front": "Prefiero llegar temprano",
+      "back": "I prefer to arrive early",
+      "example": "Prefiero llegar temprano"
+    },
+    {
+      "id": "c3-u08-f03",
+      "unit": "c3-u08",
+      "kind": "production",
+      "front": "I am concerned that there is no access",
+      "back": "Me preocupa que no haya acceso",
+      "example": "Me preocupa que no haya acceso"
+    },
+    {
+      "id": "c3-u08-f04",
+      "unit": "c3-u08",
+      "kind": "recognition",
+      "front": "Espero que termines hoy",
+      "back": "I hope you finish today",
+      "example": "Espero que termines hoy"
+    },
+    {
+      "id": "c3-u08-f05",
+      "unit": "c3-u08",
+      "kind": "production",
+      "front": "I am glad they want to participate",
+      "back": "Me alegra que quieran participar",
+      "example": "Me alegra que quieran participar"
+    },
+    {
+      "id": "c3-u08-f06",
+      "unit": "c3-u08",
+      "kind": "recognition",
+      "front": "Es importante que podamos mantenerlo",
+      "back": "It is important that we can sustain it",
+      "example": "Es importante que podamos mantenerlo"
+    },
+    {
+      "id": "c3-u08-f07",
+      "unit": "c3-u08",
+      "kind": "production",
+      "front": "I suggest you compare schedules",
+      "back": "Te sugiero que compares los horarios",
+      "example": "Te sugiero que compares los horarios"
+    },
+    {
+      "id": "c3-u08-f08",
+      "unit": "c3-u08",
+      "kind": "recognition",
+      "front": "¿Te serviría este plan?",
+      "back": "Would this plan work for you?",
+      "example": "¿Te serviría este plan?"
+    },
+    {
+      "id": "c3-u08-f09",
+      "unit": "c3-u08",
+      "kind": "production",
+      "front": "I understand your concern",
+      "back": "Entiendo tu preocupación",
+      "example": "Entiendo tu preocupación"
+    },
+    {
+      "id": "c3-u08-f10",
+      "unit": "c3-u08",
+      "kind": "recognition",
+      "front": "Podemos buscar otra opción",
+      "back": "We can look for another option",
+      "example": "Podemos buscar otra opción"
+    },
+    {
+      "id": "c3-u08-f11",
+      "unit": "c3-u08",
+      "kind": "production",
+      "front": "I prefer that we review it",
+      "back": "Prefiero que lo revisemos",
+      "example": "Prefiero que lo revisemos"
+    },
+    {
+      "id": "c3-u08-f12",
+      "unit": "c3-u08",
+      "kind": "recognition",
+      "front": "Lo importante es que sea útil",
+      "back": "The important thing is that it be useful",
+      "example": "Lo importante es que sea útil"
+    },
+    {
+      "id": "c3-u08-f13",
+      "unit": "c3-u08",
+      "kind": "production",
+      "front": "I do not want to impose a solution",
+      "back": "No quiero imponer una solución",
+      "example": "No quiero imponer una solución"
+    },
+    {
+      "id": "c3-u08-f14",
+      "unit": "c3-u08",
+      "kind": "recognition",
+      "front": "Gracias por la sugerencia",
+      "back": "Thank you for the suggestion",
+      "example": "Gracias por la sugerencia"
+    },
+    {
+      "id": "c3-u08-f15",
+      "unit": "c3-u08",
+      "kind": "production",
+      "front": "I need to think about it",
+      "back": "Necesito pensarlo",
+      "example": "Necesito pensarlo"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c3-u08-q01",
+      "type": "cloze",
+      "prompt": "Complete: Te recomiendo que ___. (descansar, tú)",
+      "answers": [
+        "descanses"
+      ],
+      "explanation": "A recommendation influencing another subject uses subjunctive in this que clause.",
+      "concept": "Influence and evaluation"
+    },
+    {
+      "id": "c3-u08-q02",
+      "type": "cloze",
+      "prompt": "Complete: Prefiero ___ temprano. (llegar, same subject)",
+      "answers": [
+        "llegar"
+      ],
+      "explanation": "The same-subject preference uses an infinitive here.",
+      "concept": "Influence and evaluation"
+    },
+    {
+      "id": "c3-u08-q03",
+      "type": "cloze",
+      "prompt": "Complete: Me preocupa que no ___ acceso. (haber)",
+      "answers": [
+        "haya"
+      ],
+      "explanation": "The evaluative concern takes present subjunctive haya.",
+      "concept": "Influence and evaluation"
+    },
+    {
+      "id": "c3-u08-q04",
+      "type": "cloze",
+      "prompt": "Complete: Espero que tú ___ hoy. (terminar)",
+      "answers": [
+        "termines"
+      ],
+      "explanation": "The changed subject requires a finite dependent clause with subjunctive.",
+      "concept": "Turn a recommendation into an exchange"
+    },
+    {
+      "id": "c3-u08-q05",
+      "type": "cloze",
+      "prompt": "Complete: Me alegra que ustedes ___ adaptar el plan. (querer)",
+      "answers": [
+        "quieran"
+      ],
+      "explanation": "The emotional evaluation takes subjunctive; third plural has the ie stem change.",
+      "concept": "Turn a recommendation into an exchange"
+    },
+    {
+      "id": "c3-u08-q06",
+      "type": "cloze",
+      "prompt": "Complete: Es importante que nosotros ___ mantenerlo. (poder)",
+      "answers": [
+        "podamos"
+      ],
+      "explanation": "Nosotros present subjunctive poder retains the o rather than the singular ue change.",
+      "concept": "Turn a recommendation into an exchange"
+    },
+    {
+      "id": "c3-u08-q07",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: I recommend that you rest.",
+      "options": [
+        "Entiendo tu preocupación",
+        "No quiero imponer una solución",
+        "Te recomiendo que descanses"
+      ],
+      "answers": [
+        "Te recomiendo que descanses"
+      ],
+      "explanation": "“Te recomiendo que descanses” expresses “I recommend that you rest”. “Entiendo tu preocupación” instead means “I understand your concern”. “No quiero imponer una solución” instead means “I do not want to impose a solution”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c3-u08-q08",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: I prefer to arrive early.",
+      "options": [
+        "Gracias por la sugerencia",
+        "Prefiero llegar temprano",
+        "Podemos buscar otra opción"
+      ],
+      "answers": [
+        "Prefiero llegar temprano"
+      ],
+      "explanation": "“Prefiero llegar temprano” expresses “I prefer to arrive early”. “Gracias por la sugerencia” instead means “Thank you for the suggestion”. “Podemos buscar otra opción” instead means “We can look for another option”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c3-u08-q09",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: I am concerned that there is no access.",
+      "options": [
+        "Me preocupa que no haya acceso",
+        "Prefiero que lo revisemos",
+        "Necesito pensarlo"
+      ],
+      "answers": [
+        "Me preocupa que no haya acceso"
+      ],
+      "explanation": "“Me preocupa que no haya acceso” expresses “I am concerned that there is no access”. “Prefiero que lo revisemos” instead means “I prefer that we review it”. “Necesito pensarlo” instead means “I need to think about it”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c3-u08-q10",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: I hope you finish today.",
+      "options": [
+        "Lo importante es que sea útil",
+        "Te recomiendo que descanses",
+        "Espero que termines hoy"
+      ],
+      "answers": [
+        "Espero que termines hoy"
+      ],
+      "explanation": "“Espero que termines hoy” expresses “I hope you finish today”. “Lo importante es que sea útil” instead means “The important thing is that it be useful”. “Te recomiendo que descanses” instead means “I recommend that you rest”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c3-u08-q11",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: I am glad they want to participate.",
+      "options": [
+        "Prefiero llegar temprano",
+        "Me alegra que quieran participar",
+        "No quiero imponer una solución"
+      ],
+      "answers": [
+        "Me alegra que quieran participar"
+      ],
+      "explanation": "“Me alegra que quieran participar” expresses “I am glad they want to participate”. “Prefiero llegar temprano” instead means “I prefer to arrive early”. “No quiero imponer una solución” instead means “I do not want to impose a solution”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c3-u08-q12",
+      "type": "matching",
+      "prompt": "Match each English meaning to its Spanish expression. Use each expression once.",
+      "answers": [
+        "[\"Me alegra que quieran participar\",\"Te sugiero que compares los horarios\",\"Entiendo tu preocupación\"]"
+      ],
+      "explanation": "“Me alegra que quieran participar” means “I am glad they want to participate”. “Te sugiero que compares los horarios” means “I suggest you compare schedules”. “Entiendo tu preocupación” means “I understand your concern”. Each alternative belongs to a different meaning; check the whole phrase, including its grammatical person and register.",
+      "concept": "Meaning and register",
+      "pairs": [
+        {
+          "left": "I am glad they want to participate",
+          "right": "Me alegra que quieran participar"
+        },
+        {
+          "left": "I suggest you compare schedules",
+          "right": "Te sugiero que compares los horarios"
+        },
+        {
+          "left": "I understand your concern",
+          "right": "Entiendo tu preocupación"
+        }
+      ]
+    }
+  ],
+  "homework": [
+    {
+      "id": "c3-u08-h1",
+      "skill": "Reading & writing",
+      "prompt": "Read the original text for this unit. Identify its situation, central message, and three supporting details. Then write a new version of 150–200 words for a different person or audience. Use the target patterns, change at least three facts, and explain two revisions.",
+      "model": "—Quiero mejorar mi español, pero no puedo estudiar dos horas seguidas.\n—Te sugiero que distribuyas la práctica en sesiones más cortas.\n—Me preocupa que no sea suficiente.\n—Entiendo. Lo importante es que puedas mantener el plan y conversar con alguien cuando sea posible.\n—Prefiero que revisemos mi horario antes de decidir.\n—De acuerdo. Me alegra que quieras adaptar el plan a tu vida.\nExplica qué necesidad expresa la primera persona, qué recomendación recibe y cómo modifica la propuesta. Después prepara otra recomendación que incluya una razón y una oportunidad real de rechazarla.\n\nThis is the source model, not a text to submit unchanged. A successful adaptation retains the communicative purpose while changing relevant forms and facts. Compare with the worked examples for the reasons behind form choices.",
+      "rubric": "0–3 each: fulfills the specified purpose; organized and comprehensible; target forms support meaning; revisions are explained with examples. 0 = no evidence, 1 = substantial help needed, 2 = effective with some support, 3 = independently effective for this task. Record who evaluated the work."
+    },
+    {
+      "id": "c3-u08-h2",
+      "skill": "Listening",
+      "prompt": "Complete the resource assignment, or ask a willing reader to read the original text without showing it to you. First listen for the situation and purpose; listen again for three details and one contrast. Write a 60–100-word listening log naming the source, words actually heard, one uncertainty, and how you checked it. If using local synthesized speech, label it synthetic. Text-only preparation is not completed listening.",
+      "model": "A useful log separates the speaker’s message from your interpretation: “I heard [specific phrase]; I understood [claim]; I was uncertain about [word/relationship]; checking [text or partner] changed my interpretation to [correction].” Use the unit reading as an answer reference for a read-aloud version, never as evidence of an external speaker’s words.",
+      "rubric": "0–2 each: identifies source and listening conditions; retrieves central meaning; supports three details; checks a specific uncertainty. Do not count a copied transcript as independent comprehension."
+    },
+    {
+      "id": "c3-u08-h3",
+      "skill": "Speaking & interaction",
+      "prompt": "Help a partner revise a study or shared-work plan. Ask about constraints, make two justified recommendations, and adapt after one is declined.",
+      "model": "Use the original reading/dialogue and the sentence-pattern cards as preparation. Make a brief outline, then put it away. Your partner should introduce a detail you did not prepare. Respond, request clarification if needed, and summarize what you agreed or still disagree about. Solo fallback: record two possible viewpoints and improvise a response after a pause; label it rehearsal.",
+      "rubric": "0–3 each: task fulfillment, comprehensibility, control of target language, responsiveness to another speaker. A partner or instructor should cite one example per score. Solo rehearsal provides no evidence for live responsiveness; mark that dimension not observed."
+    },
+    {
+      "id": "c3-u08-h4",
+      "skill": "Retrieval & reflection",
+      "prompt": "On a later day, retrieve six cards without looking. Use three in a fresh response to the practical task. Identify one recurring form error and one communication difficulty. Produce a corrected example, explain the reason, and schedule a specific follow-up exchange or listening session.",
+      "model": "Compare your response with these two models: Te recomiendo que descanses / Prefiero llegar temprano. A useful reflection explains the function, not just the spelling. Revisit the first worked item and create a different example of its principle.",
+      "rubric": "Report recall count separately from performance. Reflection is complete when it contains an observed difficulty, an explained correction, a fresh example, and an actionable next session."
+    }
+  ],
+  "task": "Help a partner revise a study or shared-work plan. Ask about constraints, make two justified recommendations, and adapt after one is declined.",
+  "culture": "Advice can imply authority or intimacy. Ask whether suggestions are welcome and avoid assuming that a polite listener has agreed. Explicit confirmation makes collaboration clearer.",
+  "selfAssessment": [
+    "I can express wishes, emotion and recommendations with appropriate clauses.",
+    "I can distinguish infinitive and changed-subject structures.",
+    "I can respond respectfully when advice is declined."
+  ],
+  "remediation": "Sort mistakes by form, meaning, and interaction. For form errors, explain a worked example and create a contrasting pair. For comprehension errors, replay a short segment or use a willing reader and verify your interpretation. For interaction difficulties, repeat the practical task with one new constraint. Compare evidence across days; repeated selection of a known answer alone is not mastery.",
+  "resources": [
+    "sd-triggers"
+  ]
+}

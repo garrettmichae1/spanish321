@@ -1,11 +1,13 @@
 [package]
 name = "spanish321"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
 [build-dependencies]
 tauri-build = { version = "2", features = [] }
 [dependencies]
-tauri = { version = "2", features = [] }
+tauri = { version = "2.12.5", features = [] }
 tauri-plugin-opener = "2"
 spanish321-core = { path = "../crates/learning-core" }
 rusqlite = { version = "0.38", features = ["bundled"] }
+tauri-plugin-dialog = "2.8.4"
+serde_json = "1"

@@ -1,6 +1,21 @@
 use rusqlite::{Connection, OptionalExtension};
 use serde::{Deserialize, Serialize};
+use std::sync::LazyLock;
 use unicode_normalization::UnicodeNormalization;
+static STATE_VALIDATOR: LazyLock<jsonschema::Validator> = LazyLock::new(|| {
+    jsonschema::validator_for(
+        &serde_json::from_str(include_str!("../../../content/backup.schema.json"))
+            .expect("Bundled backup schema"),
+    )
+    .expect("Valid backup schema")
+});
+static UNIT_VALIDATOR: LazyLock<jsonschema::Validator> = LazyLock::new(|| {
+    jsonschema::validator_for(
+        &serde_json::from_str(include_str!("../../../content/unit.schema.json"))
+            .expect("Bundled unit schema"),
+    )
+    .expect("Valid unit schema")
+});
 #[derive(Debug, Clone, Serialize, Deserialize, PartialEq)]
 pub struct Review {
     pub interval: f64,
@@ -78,46 +93,45 @@ pub fn migrate(db: &Connection) -> Result<(), String> {
     let version: i64 = db
         .pragma_query_value(None, "user_version", |r| r.get(0))
         .map_err(|e| e.to_string())?;
-    if version > 1 {
+    if version > 2 {
         return Err("Database created by a newer application; update before opening it.".into());
     }
     if version == 0 {
         db.execute_batch("BEGIN IMMEDIATE; CREATE TABLE IF NOT EXISTS learner_state (id INTEGER PRIMARY KEY CHECK(id=1), json TEXT NOT NULL); CREATE TABLE IF NOT EXISTS recovery (id INTEGER PRIMARY KEY CHECK(id=1), json TEXT NOT NULL); PRAGMA user_version=1; COMMIT;").map_err(|e|e.to_string())?;
     }
+    if version < 2 {
+        db.execute_batch("BEGIN IMMEDIATE; CREATE TABLE IF NOT EXISTS content_manifest (id TEXT PRIMARY KEY, revision TEXT NOT NULL); PRAGMA user_version=2; COMMIT;").map_err(|e| e.to_string())?;
+    }
     Ok(())
+}
+pub fn sync_content(db: &Connection, json: &str) -> Result<(), String> {
+    let manifest: std::collections::BTreeMap<String, String> =
+        serde_json::from_str(json).map_err(|e| e.to_string())?;
+    let tx = db.unchecked_transaction().map_err(|e| e.to_string())?;
+    for (id, revision) in manifest {
+        tx.execute("INSERT INTO content_manifest(id,revision) VALUES(?1,?2) ON CONFLICT(id) DO UPDATE SET revision=excluded.revision", [&id,&revision]).map_err(|e|e.to_string())?;
+    }
+    // Learner records and retired IDs are intentionally untouched by content updates.
+    tx.commit().map_err(|e| e.to_string())
 }
 pub fn validate_state(json: &str) -> Result<(), String> {
     if json.len() > 100_000_000 {
         return Err("Backup exceeds 100 MB".into());
     }
     let v: serde_json::Value = serde_json::from_str(json).map_err(|e| e.to_string())?;
-    if v["version"] != 1 {
-        return Err("Unsupported backup version".into());
-    }
-    for key in [
-        "completed",
-        "history",
-        "attempts",
-        "logs",
-        "recordings",
-        "customCards",
-    ] {
-        if !v[key].is_array() {
-            return Err(format!("Missing array: {key}"));
+    STATE_VALIDATOR
+        .validate(&v)
+        .map_err(|e| format!("Invalid learner data: {e}"))?;
+    for a in v["attempts"].as_array().unwrap() {
+        if a["score"].as_u64() > a["total"].as_u64() {
+            return Err("Score exceeds question count".into());
         }
     }
-    for key in ["reviews", "homework"] {
-        if !v[key].is_object() {
-            return Err(format!("Missing object: {key}"));
+    let mut ids = std::collections::HashSet::new();
+    for c in v["customCards"].as_array().unwrap() {
+        if !ids.insert(c["id"].as_str().unwrap()) {
+            return Err("Duplicate custom card ID".into());
         }
-    }
-    let limit = v["dailyLimit"].as_u64().ok_or("Invalid daily limit")?;
-    if !(1..=200).contains(&limit) {
-        return Err("Invalid daily limit".into());
-    }
-    let scale = v["textScale"].as_f64().ok_or("Invalid text scale")?;
-    if !(1.0..=1.5).contains(&scale) {
-        return Err("Invalid text scale".into());
     }
     Ok(())
 }
@@ -141,17 +155,9 @@ pub fn save(db: &mut Connection, json: &str) -> Result<(), String> {
 }
 pub fn validate_content(json: &str) -> Result<(), String> {
     let v: serde_json::Value = serde_json::from_str(json).map_err(|e| e.to_string())?;
-    for (key, min) in [
-        ("lectures", 2),
-        ("cards", 15),
-        ("quiz", 12),
-        ("worked", 6),
-        ("homework", 3),
-    ] {
-        if v[key].as_array().map_or(0, |a| a.len()) < min {
-            return Err(format!("Incomplete {key}"));
-        }
-    }
+    UNIT_VALIDATOR
+        .validate(&v)
+        .map_err(|e| format!("Invalid curriculum: {e}"))?;
     let mut ids = std::collections::HashSet::new();
     for q in v["quiz"].as_array().unwrap() {
         let id = q["id"].as_str().ok_or("Missing question id")?;
@@ -219,7 +225,7 @@ mod tests {
         assert_eq!(load(&db).unwrap(), Some(state()));
         assert!(save(&mut db, "{}").is_err());
         assert_eq!(load(&db).unwrap(), Some(state()));
-        db.pragma_update(None, "user_version", 2).unwrap();
+        db.pragma_update(None, "user_version", 3).unwrap();
         assert!(migrate(&db).is_err());
     }
     #[test]
@@ -239,7 +245,36 @@ mod tests {
     }
     #[test]
     fn content() {
-        validate_content(include_str!("../../../content/units/c1-u01.json")).unwrap();
+        for file in
+            std::fs::read_dir(concat!(env!("CARGO_MANIFEST_DIR"), "/../../content/units")).unwrap()
+        {
+            let file = file.unwrap();
+            if file.path().extension().is_some_and(|e| e == "json") {
+                let json = std::fs::read_to_string(file.path()).unwrap();
+                validate_content(&json)
+                    .unwrap_or_else(|e| panic!("{}: {e}", file.path().display()));
+            }
+        }
         assert!(validate_content("{}").is_err());
+    }
+    #[test]
+    fn nested_validation_and_upgrade_preserve_data() {
+        let mut db = Connection::open_in_memory().unwrap();
+        db.execute_batch("CREATE TABLE learner_state(id INTEGER PRIMARY KEY,json TEXT NOT NULL); CREATE TABLE recovery(id INTEGER PRIMARY KEY,json TEXT NOT NULL); PRAGMA user_version=1;").unwrap();
+        let mut v: serde_json::Value = serde_json::from_str(&state()).unwrap();
+        v["completed"] = serde_json::json!(["retired-unit"]);
+        save(&mut db, &v.to_string()).unwrap();
+        migrate(&db).unwrap();
+        sync_content(&db, r#"{"new-unit":"revision-1"}"#).unwrap();
+        sync_content(&db, r#"{"new-unit":"revision-2"}"#).unwrap();
+        assert_eq!(load(&db).unwrap(), Some(v.to_string()));
+        v["reviews"] =
+            serde_json::json!({"bad":{"interval":-1,"ease":2.5,"due":0,"reps":0,"lapses":0}});
+        assert!(save(&mut db, &v.to_string()).is_err());
+        assert!(!load(&db).unwrap().unwrap().contains("bad"));
+        let mut u: serde_json::Value =
+            serde_json::from_str(include_str!("../../../content/units/c2-u01.json")).unwrap();
+        u["cards"][0]["kind"] = serde_json::json!("unsupported");
+        assert!(validate_content(&u.to_string()).is_err());
     }
 }

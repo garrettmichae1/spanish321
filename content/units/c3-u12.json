@@ -1,0 +1,384 @@
+{
+  "id": "c3-u12",
+  "course": 3,
+  "number": 12,
+  "title": "Problem-solving presentation",
+  "subtitle": "Solve a practical problem together",
+  "status": "authored",
+  "prerequisites": [
+    "c3-u11"
+  ],
+  "objectives": [
+    "Define a problem and compare feasible responses.",
+    "Present a supported recommendation with uncertainty.",
+    "Respond to unprepared questions and revise the plan."
+  ],
+  "warmup": "Retrieve two sentences and one repair strategy from c3-u11. Change the subject or situation in each sentence and explain what changed. Then read today’s objectives and predict where your existing language may be insufficient.",
+  "lectures": [
+    {
+      "title": "Define success before choosing a solution",
+      "body": "A problem-solving presentation should identify the people affected, the current obstacle and the criteria for a useful response. “Improve the library” is too broad; “make the Saturday registration process understandable to first-time visitors” is actionable. Compare two or three options using criteria such as clarity, cost, access and available time. Distinguish an observed problem from a proposed explanation. Use indicative for what you can support, conditional for tentative effects and subjunctive in suitable recommendations: Recomiendo que probemos…. Do not let a grammatical showcase replace a decision that an audience can understand."
+    },
+    {
+      "title": "Questions are part of the presentation",
+      "body": "Prepare an outline rather than a complete script. After presenting, invite questions, paraphrase one to check understanding, and answer with evidence or a stated limit: No tengo ese dato; tendría que comprobarlo. If a question reveals a weakness, revise the proposal explicitly. The final portfolio should contain an initial plan, feedback, a revision and a reflection identifying both language development and decision quality. Solo fallback can rehearse delivery and anticipated objections, but it cannot demonstrate responsiveness to another person’s unexpected question. Keep those evidence categories separate."
+    }
+  ],
+  "reading": "La biblioteca quiere reducir la confusión durante la inscripción. Nora propone observar dos sesiones, recoger preguntas frecuentes y probar un formulario más claro. Un colega sugiere traducir todos los materiales inmediatamente. Nora reconoce el valor de la traducción, pero explica que primero deben identificar qué instrucciones resultan confusas incluso para lectores de español. La coordinadora pregunta cuánto costará la prueba. Nora no inventa una cifra: propone solicitar una estimación y limitar inicialmente el trabajo a una página. Al final acuerdan evaluar si los visitantes completan el proceso con menos ayuda, sin utilizar ese dato como única medida de accesibilidad. El plan conserva una pregunta abierta: cómo incluir a quienes no pueden leer el formulario.",
+  "worked": [
+    {
+      "prompt": "Complete: Recomiendo que ___ una prueba. (hacer, nosotros)",
+      "answer": "hagamos",
+      "reason": "The recommendation takes subjunctive and the irregular stem hag-."
+    },
+    {
+      "prompt": "Complete: No tengo ese dato; ___ que comprobarlo. (tener, yo conditional)",
+      "answer": "tendría",
+      "reason": "The conditional marks a needed verification rather than an invented answer."
+    },
+    {
+      "prompt": "Complete: Primero debemos ___ el problema. (definir)",
+      "answer": "definir",
+      "reason": "After debemos, the second verb remains infinitive."
+    },
+    {
+      "prompt": "Complete: El formulario ___ probamos era confuso.",
+      "answer": "que",
+      "reason": "The relative clause identifies which form was tested."
+    },
+    {
+      "prompt": "Complete: Antes de la reunión, ya ___ recogido las preguntas. (nosotros)",
+      "answer": "habíamos",
+      "reason": "The questions were collected before a past reference point, requiring past perfect."
+    },
+    {
+      "prompt": "Complete: Buscamos una solución que ___ accesible. (ser, unspecified desired solution)",
+      "answer": "sea",
+      "reason": "The relative clause states a requirement for a sought solution, so subjunctive is appropriate."
+    }
+  ],
+  "cards": [
+    {
+      "id": "c3-u12-f01",
+      "unit": "c3-u12",
+      "kind": "production",
+      "front": "I recommend that we run a trial",
+      "back": "Recomiendo que hagamos una prueba",
+      "example": "Recomiendo que hagamos una prueba"
+    },
+    {
+      "id": "c3-u12-f02",
+      "unit": "c3-u12",
+      "kind": "recognition",
+      "front": "Tendría que comprobarlo",
+      "back": "I would need to check it",
+      "example": "Tendría que comprobarlo"
+    },
+    {
+      "id": "c3-u12-f03",
+      "unit": "c3-u12",
+      "kind": "production",
+      "front": "We need to define the problem",
+      "back": "Debemos definir el problema",
+      "example": "Debemos definir el problema"
+    },
+    {
+      "id": "c3-u12-f04",
+      "unit": "c3-u12",
+      "kind": "recognition",
+      "front": "El formulario que probamos",
+      "back": "The form we tested",
+      "example": "El formulario que probamos tenía una pregunta ambigua."
+    },
+    {
+      "id": "c3-u12-f05",
+      "unit": "c3-u12",
+      "kind": "production",
+      "front": "We had already collected the questions",
+      "back": "Ya habíamos recogido las preguntas",
+      "example": "Ya habíamos recogido las preguntas"
+    },
+    {
+      "id": "c3-u12-f06",
+      "unit": "c3-u12",
+      "kind": "recognition",
+      "front": "Buscamos una solución que sea accesible",
+      "back": "We seek an accessible solution",
+      "example": "Buscamos una solución que sea accesible"
+    },
+    {
+      "id": "c3-u12-f07",
+      "unit": "c3-u12",
+      "kind": "production",
+      "front": "The main criterion is…",
+      "back": "El criterio principal es…",
+      "example": "El criterio principal es que la solución sea accesible."
+    },
+    {
+      "id": "c3-u12-f08",
+      "unit": "c3-u12",
+      "kind": "recognition",
+      "front": "Esta opción tendría una ventaja",
+      "back": "This option would have an advantage",
+      "example": "Esta opción tendría una ventaja"
+    },
+    {
+      "id": "c3-u12-f09",
+      "unit": "c3-u12",
+      "kind": "production",
+      "front": "I cannot confirm that figure",
+      "back": "No puedo confirmar esa cifra",
+      "example": "No puedo confirmar esa cifra"
+    },
+    {
+      "id": "c3-u12-f10",
+      "unit": "c3-u12",
+      "kind": "recognition",
+      "front": "Si he entendido la pregunta",
+      "back": "If I have understood the question",
+      "example": "Si he entendido la pregunta"
+    },
+    {
+      "id": "c3-u12-f11",
+      "unit": "c3-u12",
+      "kind": "production",
+      "front": "I am going to revise the proposal",
+      "back": "Voy a reformular la propuesta",
+      "example": "Voy a reformular la propuesta"
+    },
+    {
+      "id": "c3-u12-f12",
+      "unit": "c3-u12",
+      "kind": "recognition",
+      "front": "Necesitamos escuchar a los usuarios",
+      "back": "We need to listen to the users",
+      "example": "Necesitamos escuchar a los usuarios"
+    },
+    {
+      "id": "c3-u12-f13",
+      "unit": "c3-u12",
+      "kind": "production",
+      "front": "We can limit the trial",
+      "back": "Podemos limitar la prueba",
+      "example": "Podemos limitar la prueba"
+    },
+    {
+      "id": "c3-u12-f14",
+      "unit": "c3-u12",
+      "kind": "recognition",
+      "front": "Queda una pregunta abierta",
+      "back": "One question remains open",
+      "example": "Queda una pregunta abierta"
+    },
+    {
+      "id": "c3-u12-f15",
+      "unit": "c3-u12",
+      "kind": "production",
+      "front": "Thank you for pointing out that problem",
+      "back": "Gracias por señalar ese problema",
+      "example": "Gracias por señalar ese problema"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c3-u12-q01",
+      "type": "cloze",
+      "prompt": "Complete: Recomiendo que ___ una prueba. (hacer, nosotros)",
+      "answers": [
+        "hagamos"
+      ],
+      "explanation": "The recommendation takes subjunctive and the irregular stem hag-.",
+      "concept": "Define success before choosing a solution"
+    },
+    {
+      "id": "c3-u12-q02",
+      "type": "cloze",
+      "prompt": "Complete: No tengo ese dato; ___ que comprobarlo. (tener, yo conditional)",
+      "answers": [
+        "tendría"
+      ],
+      "explanation": "The conditional marks a needed verification rather than an invented answer.",
+      "concept": "Define success before choosing a solution"
+    },
+    {
+      "id": "c3-u12-q03",
+      "type": "cloze",
+      "prompt": "Complete: Primero debemos ___ el problema. (definir)",
+      "answers": [
+        "definir"
+      ],
+      "explanation": "After debemos, the second verb remains infinitive.",
+      "concept": "Define success before choosing a solution"
+    },
+    {
+      "id": "c3-u12-q04",
+      "type": "cloze",
+      "prompt": "Complete: El formulario ___ probamos era confuso.",
+      "answers": [
+        "que"
+      ],
+      "explanation": "The relative clause identifies which form was tested.",
+      "concept": "Questions are part of the presentation"
+    },
+    {
+      "id": "c3-u12-q05",
+      "type": "cloze",
+      "prompt": "Complete: Antes de la reunión, ya ___ recogido las preguntas. (nosotros)",
+      "answers": [
+        "habíamos"
+      ],
+      "explanation": "The questions were collected before a past reference point, requiring past perfect.",
+      "concept": "Questions are part of the presentation"
+    },
+    {
+      "id": "c3-u12-q06",
+      "type": "cloze",
+      "prompt": "Complete: Buscamos una solución que ___ accesible. (ser, unspecified desired solution)",
+      "answers": [
+        "sea"
+      ],
+      "explanation": "The relative clause states a requirement for a sought solution, so subjunctive is appropriate.",
+      "concept": "Questions are part of the presentation"
+    },
+    {
+      "id": "c3-u12-q07",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: I recommend that we run a trial.",
+      "options": [
+        "No puedo confirmar esa cifra",
+        "Podemos limitar la prueba",
+        "Recomiendo que hagamos una prueba"
+      ],
+      "answers": [
+        "Recomiendo que hagamos una prueba"
+      ],
+      "explanation": "“Recomiendo que hagamos una prueba” expresses “I recommend that we run a trial”. “No puedo confirmar esa cifra” instead means “I cannot confirm that figure”. “Podemos limitar la prueba” instead means “We can limit the trial”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c3-u12-q08",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: I would need to check it.",
+      "options": [
+        "Queda una pregunta abierta",
+        "Tendría que comprobarlo",
+        "Si he entendido la pregunta"
+      ],
+      "answers": [
+        "Tendría que comprobarlo"
+      ],
+      "explanation": "“Tendría que comprobarlo” expresses “I would need to check it”. “Queda una pregunta abierta” instead means “One question remains open”. “Si he entendido la pregunta” instead means “If I have understood the question”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c3-u12-q09",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: We need to define the problem.",
+      "options": [
+        "Debemos definir el problema",
+        "Voy a reformular la propuesta",
+        "Gracias por señalar ese problema"
+      ],
+      "answers": [
+        "Debemos definir el problema"
+      ],
+      "explanation": "“Debemos definir el problema” expresses “We need to define the problem”. “Voy a reformular la propuesta” instead means “I am going to revise the proposal”. “Gracias por señalar ese problema” instead means “Thank you for pointing out that problem”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c3-u12-q10",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: The form we tested.",
+      "options": [
+        "Necesitamos escuchar a los usuarios",
+        "Recomiendo que hagamos una prueba",
+        "El formulario que probamos"
+      ],
+      "answers": [
+        "El formulario que probamos"
+      ],
+      "explanation": "“El formulario que probamos” expresses “The form we tested”. “Necesitamos escuchar a los usuarios” instead means “We need to listen to the users”. “Recomiendo que hagamos una prueba” instead means “I recommend that we run a trial”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c3-u12-q11",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: We had already collected the questions.",
+      "options": [
+        "Tendría que comprobarlo",
+        "Ya habíamos recogido las preguntas",
+        "Podemos limitar la prueba"
+      ],
+      "answers": [
+        "Ya habíamos recogido las preguntas"
+      ],
+      "explanation": "“Ya habíamos recogido las preguntas” expresses “We had already collected the questions”. “Tendría que comprobarlo” instead means “I would need to check it”. “Podemos limitar la prueba” instead means “We can limit the trial”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c3-u12-q12",
+      "type": "matching",
+      "prompt": "Match each English meaning to its Spanish expression. Use each expression once.",
+      "answers": [
+        "[\"Ya habíamos recogido las preguntas\",\"El criterio principal es…\",\"No puedo confirmar esa cifra\"]"
+      ],
+      "explanation": "“Ya habíamos recogido las preguntas” means “We had already collected the questions”. “El criterio principal es…” means “The main criterion is…”. “No puedo confirmar esa cifra” means “I cannot confirm that figure”. Each alternative belongs to a different meaning; check the whole phrase, including its grammatical person and register.",
+      "concept": "Meaning and register",
+      "pairs": [
+        {
+          "left": "We had already collected the questions",
+          "right": "Ya habíamos recogido las preguntas"
+        },
+        {
+          "left": "The main criterion is…",
+          "right": "El criterio principal es…"
+        },
+        {
+          "left": "I cannot confirm that figure",
+          "right": "No puedo confirmar esa cifra"
+        }
+      ]
+    }
+  ],
+  "homework": [
+    {
+      "id": "c3-u12-h1",
+      "skill": "Reading & writing",
+      "prompt": "Read the original text for this unit. Identify its situation, central message, and three supporting details. Then write a new version of 150–200 words for a different person or audience. Use the target patterns, change at least three facts, and explain two revisions.",
+      "model": "La biblioteca quiere reducir la confusión durante la inscripción. Nora propone observar dos sesiones, recoger preguntas frecuentes y probar un formulario más claro. Un colega sugiere traducir todos los materiales inmediatamente. Nora reconoce el valor de la traducción, pero explica que primero deben identificar qué instrucciones resultan confusas incluso para lectores de español. La coordinadora pregunta cuánto costará la prueba. Nora no inventa una cifra: propone solicitar una estimación y limitar inicialmente el trabajo a una página. Al final acuerdan evaluar si los visitantes completan el proceso con menos ayuda, sin utilizar ese dato como única medida de accesibilidad. El plan conserva una pregunta abierta: cómo incluir a quienes no pueden leer el formulario.\n\nThis is the source model, not a text to submit unchanged. A successful adaptation retains the communicative purpose while changing relevant forms and facts. Compare with the worked examples for the reasons behind form choices.",
+      "rubric": "0–3 each: fulfills the specified purpose; organized and comprehensible; target forms support meaning; revisions are explained with examples. 0 = no evidence, 1 = substantial help needed, 2 = effective with some support, 3 = independently effective for this task. Record who evaluated the work."
+    },
+    {
+      "id": "c3-u12-h2",
+      "skill": "Listening",
+      "prompt": "Complete the resource assignment, or ask a willing reader to read the original text without showing it to you. First listen for the situation and purpose; listen again for three details and one contrast. Write a 60–100-word listening log naming the source, words actually heard, one uncertainty, and how you checked it. If using local synthesized speech, label it synthetic. Text-only preparation is not completed listening.",
+      "model": "A useful log separates the speaker’s message from your interpretation: “I heard [specific phrase]; I understood [claim]; I was uncertain about [word/relationship]; checking [text or partner] changed my interpretation to [correction].” Use the unit reading as an answer reference for a read-aloud version, never as evidence of an external speaker’s words.",
+      "rubric": "0–2 each: identifies source and listening conditions; retrieves central meaning; supports three details; checks a specific uncertainty. Do not count a copied transcript as independent comprehension."
+    },
+    {
+      "id": "c3-u12-h3",
+      "skill": "Speaking & interaction",
+      "prompt": "Final capstone: present a practical problem and two possible solutions in four minutes. Submit a 250-word recommendation, answer three unprepared questions, and revise one element after feedback.",
+      "model": "Use the original reading/dialogue and the sentence-pattern cards as preparation. Make a brief outline, then put it away. Your partner should introduce a detail you did not prepare. Respond, request clarification if needed, and summarize what you agreed or still disagree about. Solo fallback: record two possible viewpoints and improvise a response after a pause; label it rehearsal.",
+      "rubric": "0–3 each: task fulfillment, comprehensibility, control of target language, responsiveness to another speaker. A partner or instructor should cite one example per score. Solo rehearsal provides no evidence for live responsiveness; mark that dimension not observed."
+    },
+    {
+      "id": "c3-u12-h4",
+      "skill": "Retrieval & reflection",
+      "prompt": "On a later day, retrieve six cards without looking. Use three in a fresh response to the practical task. Identify one recurring form error and one communication difficulty. Produce a corrected example, explain the reason, and schedule a specific follow-up exchange or listening session.",
+      "model": "Compare your response with these two models: Recomiendo que hagamos una prueba / Tendría que comprobarlo. A useful reflection explains the function, not just the spelling. Revisit the first worked item and create a different example of its principle.",
+      "rubric": "Report recall count separately from performance. Reflection is complete when it contains an observed difficulty, an explained correction, a fresh example, and an actionable next session."
+    }
+  ],
+  "task": "Final capstone: present a practical problem and two possible solutions in four minutes. Submit a 250-word recommendation, answer three unprepared questions, and revise one element after feedback.",
+  "culture": "A solution can help one group while creating a barrier for another. Ask who is absent from your evidence and invite relevant perspectives rather than treating a convenient sample as the whole community.",
+  "selfAssessment": [
+    "I can define a problem and compare feasible responses.",
+    "I can present a supported recommendation with uncertainty.",
+    "I can respond to unprepared questions and revise the plan."
+  ],
+  "remediation": "Sort mistakes by form, meaning, and interaction. For form errors, explain a worked example and create a contrasting pair. For comprehension errors, replay a short segment or use a willing reader and verify your interpretation. For interaction difficulties, repeat the practical task with one new constraint. Compare evidence across days; repeated selection of a known answer alone is not mastery.",
+  "resources": [
+    "rtve-documentos"
+  ]
+}

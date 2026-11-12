@@ -1,0 +1,388 @@
+{
+  "id": "c2-u05",
+  "course": 2,
+  "number": 5,
+  "title": "Comparisons & quantities",
+  "subtitle": "Choose with reasons",
+  "status": "authored",
+  "prerequisites": [
+    "c2-u04"
+  ],
+  "objectives": [
+    "Compare qualities and quantities accurately.",
+    "Use irregular comparative forms.",
+    "Recommend an option using two relevant criteria."
+  ],
+  "warmup": "Retrieve two sentences and one repair strategy from c2-u04. Change the subject or situation in each sentence and explain what changed. Then read today’s objectives and predict where your existing language may be insufficient.",
+  "lectures": [
+    {
+      "title": "Comparisons name the criterion",
+      "body": "Use más/menos + adjective + que: Este tren es más rápido que el autobús. Equality uses tan + adjective + como: Es tan cómodo como el otro. Quantities use tanto/tanta/tantos/tantas + noun + como: Tengo tantas preguntas como tú. Match tanto to the counted noun. With a verb, use tanto como without adjective agreement: Trabajo tanto como ella. A comparison is useful only when the criterion matters: barato describes price; económico can have a wider economical sense. Clarify whether you mean total cost, travel time, accessibility or comfort."
+    },
+    {
+      "title": "Avoid mechanical more",
+      "body": "Common irregular comparisons include mejor, peor, mayor and menor. Mejor is often better, not más bueno in the basic comparison of quality; mayor commonly compares age. Más grande remains useful for physical size, and context changes the choice. A relative superlative uses an article: Es la opción más barata de las tres. Before a number threshold, more than usually uses de: más de veinte euros. Contrast with a direct comparison: gasto más que tú. Explain one disadvantage as well as one advantage; a balanced recommendation helps the listener choose under their own priorities."
+    },
+    {
+      "title": "Make the comparison fair",
+      "body": "A comparison needs a dimension and a reference point. **Este hotel es mejor** may invite **¿Mejor en qué sentido?** Add a reason: **Es más tranquilo que el otro, pero está más lejos del centro**. **Mejor** and **peor** are common quality comparisons; do not create *más mejor* as the ordinary equivalent of “better.” Age can use **mayor/menor**, while physical size normally calls for **más grande/más pequeño** in this context.\n\nQuantity follows a different pattern from adjective comparison. **Tiene tantas habitaciones como el otro hotel** makes **tantas** agree with **habitaciones**. **Es tan cómodo como el otro** keeps **tan** unchanged before an adjective. Compare **Cuesta más que el otro** with **Cuesta más de cien dólares**: the first compares two items, while the second sets a numerical threshold.\n\nIn a practical choice, avoid inventing a universal winner. State the user’s priorities first, compare at least two relevant features, and acknowledge a drawback. **Para una visita corta elegiría…** will become available later; for now **Prefiero este porque…** is enough to make a reasoned choice."
+    }
+  ],
+  "reading": "Lucía y Andrés comparan tres rutas. El tren cuesta veinte euros y tarda cuarenta minutos. El autobús cuesta doce euros, pero tarda una hora y diez. La bicicleta no tiene ese costo, aunque requiere más esfuerzo y depende del tiempo. Lucía prefiere el tren porque hoy tiene una cita importante. Andrés elige el autobús: tiene más tiempo que Lucía y quiere gastar menos de quince euros. Ninguna opción es “la mejor” sin conocer las necesidades. Explica qué criterio usa cada persona y recomienda una ruta para alguien con poco tiempo y un presupuesto de veinticinco euros.",
+  "worked": [
+    {
+      "prompt": "Complete: Es más rápido ___ el autobús.",
+      "answer": "que",
+      "reason": "Que introduces the other member of a comparison."
+    },
+    {
+      "prompt": "Complete: Es tan cómodo ___ el tren.",
+      "answer": "como",
+      "reason": "Equality pairs tan with como, not que."
+    },
+    {
+      "prompt": "Complete: Tengo ___ preguntas como tú.",
+      "answer": "tantas",
+      "reason": "Preguntas is feminine plural, so the quantity word agrees."
+    },
+    {
+      "prompt": "Complete: Cuesta más ___ veinte euros.",
+      "answer": "de",
+      "reason": "A numeric threshold normally takes de in this construction."
+    },
+    {
+      "prompt": "Supply the basic comparative of bueno for quality.",
+      "answer": "mejor",
+      "reason": "Mejor is the usual irregular comparative of quality; avoid mechanically adding más."
+    },
+    {
+      "prompt": "Complete: Es ___ opción más barata.",
+      "answer": "la",
+      "reason": "The feminine noun opción requires la in this relative superlative."
+    }
+  ],
+  "cards": [
+    {
+      "id": "c2-u05-f01",
+      "unit": "c2-u05",
+      "kind": "production",
+      "front": "Faster than the bus",
+      "back": "Más rápido que el autobús",
+      "example": "Más rápido que el autobús"
+    },
+    {
+      "id": "c2-u05-f02",
+      "unit": "c2-u05",
+      "kind": "recognition",
+      "front": "Tan cómodo como el tren",
+      "back": "As comfortable as the train",
+      "example": "Tan cómodo como el tren"
+    },
+    {
+      "id": "c2-u05-f03",
+      "unit": "c2-u05",
+      "kind": "production",
+      "front": "As many questions as you",
+      "back": "Tantas preguntas como tú",
+      "example": "Tantas preguntas como tú"
+    },
+    {
+      "id": "c2-u05-f04",
+      "unit": "c2-u05",
+      "kind": "recognition",
+      "front": "Más de veinte euros",
+      "back": "More than twenty euros",
+      "example": "Más de veinte euros"
+    },
+    {
+      "id": "c2-u05-f05",
+      "unit": "c2-u05",
+      "kind": "production",
+      "front": "The cheapest option",
+      "back": "La opción más barata",
+      "example": "Esta es la opción más barata, pero está lejos."
+    },
+    {
+      "id": "c2-u05-f06",
+      "unit": "c2-u05",
+      "kind": "recognition",
+      "front": "Es mejor para mí",
+      "back": "It is better for me",
+      "example": "Es mejor para mí"
+    },
+    {
+      "id": "c2-u05-f07",
+      "unit": "c2-u05",
+      "kind": "production",
+      "front": "I have less time",
+      "back": "Tengo menos tiempo",
+      "example": "Tengo menos tiempo"
+    },
+    {
+      "id": "c2-u05-f08",
+      "unit": "c2-u05",
+      "kind": "recognition",
+      "front": "Cuesta menos de quince euros",
+      "back": "It costs less than fifteen euros",
+      "example": "Cuesta menos de quince euros"
+    },
+    {
+      "id": "c2-u05-f09",
+      "unit": "c2-u05",
+      "kind": "production",
+      "front": "It depends on your priorities",
+      "back": "Depende de tus prioridades",
+      "example": "Depende de tus prioridades"
+    },
+    {
+      "id": "c2-u05-f10",
+      "unit": "c2-u05",
+      "kind": "recognition",
+      "front": "Trabajo tanto como ella",
+      "back": "I work as much as she does",
+      "example": "Trabajo tanto como ella"
+    },
+    {
+      "id": "c2-u05-f11",
+      "unit": "c2-u05",
+      "kind": "production",
+      "front": "She or he is older than I am",
+      "back": "Es mayor que yo",
+      "example": "Es mayor que yo"
+    },
+    {
+      "id": "c2-u05-f12",
+      "unit": "c2-u05",
+      "kind": "recognition",
+      "front": "Es más grande",
+      "back": "It is bigger",
+      "example": "Es más grande"
+    },
+    {
+      "id": "c2-u05-f13",
+      "unit": "c2-u05",
+      "kind": "production",
+      "front": "It is worse for this case",
+      "back": "Es peor para este caso",
+      "example": "Es peor para este caso"
+    },
+    {
+      "id": "c2-u05-f14",
+      "unit": "c2-u05",
+      "kind": "recognition",
+      "front": "Aunque cuesta más",
+      "back": "Although it costs more",
+      "example": "Prefiero el tren aunque cuesta más."
+    },
+    {
+      "id": "c2-u05-f15",
+      "unit": "c2-u05",
+      "kind": "production",
+      "front": "I prefer this option because…",
+      "back": "Prefiero esta opción porque…",
+      "example": "Prefiero esta opción porque incluye el transporte."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c2-u05-q01",
+      "type": "cloze",
+      "prompt": "Complete: Es más rápido ___ el autobús.",
+      "answers": [
+        "que"
+      ],
+      "explanation": "Que introduces the other member of a comparison.",
+      "concept": "Comparisons name the criterion"
+    },
+    {
+      "id": "c2-u05-q02",
+      "type": "cloze",
+      "prompt": "Complete: Es tan cómodo ___ el tren.",
+      "answers": [
+        "como"
+      ],
+      "explanation": "Equality pairs tan with como, not que.",
+      "concept": "Comparisons name the criterion"
+    },
+    {
+      "id": "c2-u05-q03",
+      "type": "cloze",
+      "prompt": "Complete: Tengo ___ preguntas como tú.",
+      "answers": [
+        "tantas"
+      ],
+      "explanation": "Preguntas is feminine plural, so the quantity word agrees.",
+      "concept": "Comparisons name the criterion"
+    },
+    {
+      "id": "c2-u05-q04",
+      "type": "cloze",
+      "prompt": "Complete: Cuesta más ___ veinte euros.",
+      "answers": [
+        "de"
+      ],
+      "explanation": "A numeric threshold normally takes de in this construction.",
+      "concept": "Avoid mechanical more"
+    },
+    {
+      "id": "c2-u05-q05",
+      "type": "typed",
+      "prompt": "Supply the basic comparative of bueno for quality.",
+      "answers": [
+        "mejor"
+      ],
+      "explanation": "Mejor is the usual irregular comparative of quality; avoid mechanically adding más.",
+      "concept": "Avoid mechanical more"
+    },
+    {
+      "id": "c2-u05-q06",
+      "type": "cloze",
+      "prompt": "Complete: Es ___ opción más barata.",
+      "answers": [
+        "la"
+      ],
+      "explanation": "The feminine noun opción requires la in this relative superlative.",
+      "concept": "Avoid mechanical more"
+    },
+    {
+      "id": "c2-u05-q07",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: Faster than the bus.",
+      "options": [
+        "Depende de tus prioridades",
+        "Es peor para este caso",
+        "Más rápido que el autobús"
+      ],
+      "answers": [
+        "Más rápido que el autobús"
+      ],
+      "explanation": "“Más rápido que el autobús” expresses “Faster than the bus”. “Depende de tus prioridades” instead means “It depends on your priorities”. “Es peor para este caso” instead means “It is worse for this case”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c2-u05-q08",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: As comfortable as the train.",
+      "options": [
+        "Aunque cuesta más",
+        "Tan cómodo como el tren",
+        "Trabajo tanto como ella"
+      ],
+      "answers": [
+        "Tan cómodo como el tren"
+      ],
+      "explanation": "“Tan cómodo como el tren” expresses “As comfortable as the train”. “Aunque cuesta más” instead means “Although it costs more”. “Trabajo tanto como ella” instead means “I work as much as she does”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c2-u05-q09",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: As many questions as you.",
+      "options": [
+        "Tantas preguntas como tú",
+        "Es mayor que yo",
+        "Prefiero esta opción porque…"
+      ],
+      "answers": [
+        "Tantas preguntas como tú"
+      ],
+      "explanation": "“Tantas preguntas como tú” expresses “As many questions as you”. “Es mayor que yo” instead means “She or he is older than I am”. “Prefiero esta opción porque…” instead means “I prefer this option because…”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c2-u05-q10",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: More than twenty euros.",
+      "options": [
+        "Es más grande",
+        "Más rápido que el autobús",
+        "Más de veinte euros"
+      ],
+      "answers": [
+        "Más de veinte euros"
+      ],
+      "explanation": "“Más de veinte euros” expresses “More than twenty euros”. “Es más grande” instead means “It is bigger”. “Más rápido que el autobús” instead means “Faster than the bus”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c2-u05-q11",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: The cheapest option.",
+      "options": [
+        "Tan cómodo como el tren",
+        "La opción más barata",
+        "Es peor para este caso"
+      ],
+      "answers": [
+        "La opción más barata"
+      ],
+      "explanation": "“La opción más barata” expresses “The cheapest option”. “Tan cómodo como el tren” instead means “As comfortable as the train”. “Es peor para este caso” instead means “It is worse for this case”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c2-u05-q12",
+      "type": "matching",
+      "prompt": "Match each English meaning to its Spanish expression. Use each expression once.",
+      "answers": [
+        "[\"La opción más barata\",\"Tengo menos tiempo\",\"Depende de tus prioridades\"]"
+      ],
+      "explanation": "“La opción más barata” means “The cheapest option”. “Tengo menos tiempo” means “I have less time”. “Depende de tus prioridades” means “It depends on your priorities”. Each alternative belongs to a different meaning; check the whole phrase, including its grammatical person and register.",
+      "concept": "Meaning and register",
+      "pairs": [
+        {
+          "left": "The cheapest option",
+          "right": "La opción más barata"
+        },
+        {
+          "left": "I have less time",
+          "right": "Tengo menos tiempo"
+        },
+        {
+          "left": "It depends on your priorities",
+          "right": "Depende de tus prioridades"
+        }
+      ]
+    }
+  ],
+  "homework": [
+    {
+      "id": "c2-u05-h1",
+      "skill": "Reading & writing",
+      "prompt": "Read the original text for this unit. Identify its situation, central message, and three supporting details. Then write a new version of 100–140 words for a different person or audience. Use the target patterns, change at least three facts, and explain two revisions.",
+      "model": "Lucía y Andrés comparan tres rutas. El tren cuesta veinte euros y tarda cuarenta minutos. El autobús cuesta doce euros, pero tarda una hora y diez. La bicicleta no tiene ese costo, aunque requiere más esfuerzo y depende del tiempo. Lucía prefiere el tren porque hoy tiene una cita importante. Andrés elige el autobús: tiene más tiempo que Lucía y quiere gastar menos de quince euros. Ninguna opción es “la mejor” sin conocer las necesidades. Explica qué criterio usa cada persona y recomienda una ruta para alguien con poco tiempo y un presupuesto de veinticinco euros.\n\nThis is the source model, not a text to submit unchanged. A successful adaptation retains the communicative purpose while changing relevant forms and facts. Compare with the worked examples for the reasons behind form choices.",
+      "rubric": "0–3 each: fulfills the specified purpose; organized and comprehensible; target forms support meaning; revisions are explained with examples. 0 = no evidence, 1 = substantial help needed, 2 = effective with some support, 3 = independently effective for this task. Record who evaluated the work."
+    },
+    {
+      "id": "c2-u05-h2",
+      "skill": "Listening",
+      "prompt": "Complete the resource assignment, or ask a willing reader to read the original text without showing it to you. First listen for the situation and purpose; listen again for three details and one contrast. Write a 60–100-word listening log naming the source, words actually heard, one uncertainty, and how you checked it. If using local synthesized speech, label it synthetic. Text-only preparation is not completed listening.",
+      "model": "A useful log separates the speaker’s message from your interpretation: “I heard [specific phrase]; I understood [claim]; I was uncertain about [word/relationship]; checking [text or partner] changed my interpretation to [correction].” Use the unit reading as an answer reference for a read-aloud version, never as evidence of an external speaker’s words.",
+      "rubric": "0–2 each: identifies source and listening conditions; retrieves central meaning; supports three details; checks a specific uncertainty. Do not count a copied transcript as independent comprehension."
+    },
+    {
+      "id": "c2-u05-h3",
+      "skill": "Speaking & interaction",
+      "prompt": "Choose transport or accommodation with a partner who values a different criterion. Compare three options, state the tradeoff, and agree on a choice.",
+      "model": "Use the original reading/dialogue and the sentence-pattern cards as preparation. Make a brief outline, then put it away. Your partner should introduce a detail you did not prepare. Respond, request clarification if needed, and summarize what you agreed or still disagree about. Solo fallback: record two possible viewpoints and improvise a response after a pause; label it rehearsal.",
+      "rubric": "0–3 each: task fulfillment, comprehensibility, control of target language, responsiveness to another speaker. A partner or instructor should cite one example per score. Solo rehearsal provides no evidence for live responsiveness; mark that dimension not observed."
+    },
+    {
+      "id": "c2-u05-h4",
+      "skill": "Retrieval & reflection",
+      "prompt": "On a later day, retrieve six cards without looking. Use three in a fresh response to the practical task. Identify one recurring form error and one communication difficulty. Produce a corrected example, explain the reason, and schedule a specific follow-up exchange or listening session.",
+      "model": "Compare your response with these two models: Más rápido que el autobús / Tan cómodo como el tren. A useful reflection explains the function, not just the spelling. Revisit the first worked item and create a different example of its principle.",
+      "rubric": "Report recall count separately from performance. Reflection is complete when it contains an observed difficulty, an explained correction, a fresh example, and an actionable next session."
+    }
+  ],
+  "task": "Choose transport or accommodation with a partner who values a different criterion. Compare three options, state the tradeoff, and agree on a choice.",
+  "culture": "Price comparisons should use the actual currency and local costs; the fictional prices here do not describe a real destination. Accessibility, safety and caregiving needs can matter more than the cheapest fare.",
+  "selfAssessment": [
+    "I can compare qualities and quantities accurately.",
+    "I can use irregular comparative forms.",
+    "I can recommend an option using two relevant criteria."
+  ],
+  "remediation": "Sort mistakes by form, meaning, and interaction. For form errors, explain a worked example and create a contrasting pair. For comprehension errors, replay a short segment or use a willing reader and verify your interpretation. For interaction difficulties, repeat the practical task with one new constraint. Compare evidence across days; repeated selection of a known answer alone is not mastery.",
+  "resources": [
+    "sd-comparisons"
+  ]
+}

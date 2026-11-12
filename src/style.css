@@ -2480,3 +2480,16 @@ label.button:focus-within {
     grid-template-columns: 1fr;
   }
 }
+
+/* Text on the pale course banner needs sufficient contrast at small sizes. */
+.course-banner p {
+  color: #526357;
+}
+.matching-pairs {
+  display: grid;
+  gap: 16px;
+}
+.matching-pairs select {
+  margin-top: 8px;
+  width: 100%;
+}

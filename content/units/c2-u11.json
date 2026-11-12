@@ -1,0 +1,388 @@
+{
+  "id": "c2-u11",
+  "course": 2,
+  "number": 11,
+  "title": "Por, para & present perfect",
+  "subtitle": "Purpose, cause, and experience",
+  "status": "authored",
+  "prerequisites": [
+    "c2-u10"
+  ],
+  "objectives": [
+    "Distinguish common por and para meanings in context.",
+    "Form the present perfect with haber and a participle.",
+    "Recognize regional variation in recent-past framing."
+  ],
+  "warmup": "Retrieve two sentences and one repair strategy from c2-u10. Change the subject or situation in each sentence and explain what changed. Then read today’s objectives and predict where your existing language may be insufficient.",
+  "lectures": [
+    {
+      "title": "Reason and intended destination",
+      "body": "Para commonly introduces a goal, recipient, intended use or deadline: Estudio para trabajar aquí; es para Ana; para el viernes. Por commonly introduces a reason, route, exchange, duration in some contexts or agent: Gracias por ayudar; paso por el parque; lo compré por diez euros. These are meaning families, not a complete word-for-word translation of for. Contrast Lo hice por Ana (because of/on behalf of Ana) with Lo hice para Ana (intended for Ana). Some contexts admit both with a change in perspective. Explain what you mean instead of asking which preposition is always “correct” after an English word."
+    },
+    {
+      "title": "Experience connected to now",
+      "body": "Present perfect uses he, has, ha, hemos, habéis, han plus a participle. Regular participles end in ado or ido: hablado, comido, vivido. Frequent irregulars include hecho, dicho, visto, escrito, puesto, vuelto, abierto and roto. With haber, the participle does not agree with the subject or object: Hemos escrito las cartas. This differs from an adjective: las cartas están escritas. Ya, todavía no and alguna vez can help discuss experience. Many Latin American speakers use the preterite where some speakers in Spain prefer the present perfect for a recent period; neither region’s distribution should be imposed universally. Learn the form and attend to local use."
+    },
+    {
+      "title": "Connect a perfect form to the time frame",
+      "body": "The present perfect combines present **haber** with a participle: **he, has, ha, hemos, habéis, han** + **hablado/comido/vivido**. Frequent irregular participles include **hecho, dicho, visto, escrito, abierto, puesto, vuelto, roto**. With haber, the participle does not agree with the object: **He escrito las cartas**, not *he escritas*. With estar as a description, agreement is possible: **Las cartas están escritas**.\n\nSome speakers commonly use **Hoy he hablado con Ana**, while others naturally say **Hoy hablé con Ana**. Treat this as a regional and contextual distribution, not proof that one speaker has failed to learn the tense. The present perfect can connect experience or a result to the present; it does not map mechanically to every English present perfect.\n\nFor **por/para**, group reasons by message: **por el parque** can describe a route, **por diez dólares** an exchange, **para Ana** an intended recipient, **para mañana** a deadline. Explain the relationship rather than translating the isolated English word “for.” An ambiguous sentence may allow both prepositions with different meanings."
+    }
+  ],
+  "reading": "—¿Has preparado el informe para Ana?\n—Sí, lo he escrito, pero todavía no lo he enviado.\n—Gracias por hacerlo. Lo necesita para el viernes.\n—Hoy pasé por su oficina, pero no estaba.\n—Puedes enviárselo por correo.\n—Buena idea. ¿Alguna vez has trabajado con ella?\n—Sí, trabajé con ella el año pasado.\nExplica el propósito de para y los usos de por. Identifica las formas de haber y los participios. La alternancia entre pasé y he escrito es compatible con una conversación real; no cambies todas las formas por una supuesta regla regional absoluta.",
+  "worked": [
+    {
+      "prompt": "Complete: Estudio ___ trabajar aquí.",
+      "answer": "para",
+      "reason": "The infinitive expresses the intended goal of studying."
+    },
+    {
+      "prompt": "Complete: Gracias ___ ayudarme.",
+      "answer": "por",
+      "reason": "Por introduces the action for which thanks are given."
+    },
+    {
+      "prompt": "Complete: Es un regalo ___ Ana.",
+      "answer": "para",
+      "reason": "Ana is the intended recipient of the gift."
+    },
+    {
+      "prompt": "Complete: Hemos ___ las cartas. (escribir)",
+      "answer": "escrito",
+      "reason": "Escrito is irregular and stays invariant after haber despite plural cartas."
+    },
+    {
+      "prompt": "Complete: Yo ___ visto la película.",
+      "answer": "he",
+      "reason": "Yo takes he in the present perfect auxiliary paradigm."
+    },
+    {
+      "prompt": "Complete: Todavía no lo ___ hecho. (nosotros)",
+      "answer": "hemos",
+      "reason": "Nosotros takes hemos; the participle hecho does not change for number."
+    }
+  ],
+  "cards": [
+    {
+      "id": "c2-u11-f01",
+      "unit": "c2-u11",
+      "kind": "production",
+      "front": "I study in order to work here",
+      "back": "Estudio para trabajar aquí",
+      "example": "Estudio para trabajar aquí"
+    },
+    {
+      "id": "c2-u11-f02",
+      "unit": "c2-u11",
+      "kind": "recognition",
+      "front": "Gracias por ayudarme",
+      "back": "Thank you for helping me",
+      "example": "Gracias por ayudarme"
+    },
+    {
+      "id": "c2-u11-f03",
+      "unit": "c2-u11",
+      "kind": "production",
+      "front": "It is intended for Ana",
+      "back": "Es para Ana",
+      "example": "Es para Ana"
+    },
+    {
+      "id": "c2-u11-f04",
+      "unit": "c2-u11",
+      "kind": "recognition",
+      "front": "Hemos escrito las cartas",
+      "back": "We have written the letters",
+      "example": "Hemos escrito las cartas"
+    },
+    {
+      "id": "c2-u11-f05",
+      "unit": "c2-u11",
+      "kind": "production",
+      "front": "I have seen the film",
+      "back": "He visto la película",
+      "example": "He visto la película"
+    },
+    {
+      "id": "c2-u11-f06",
+      "unit": "c2-u11",
+      "kind": "recognition",
+      "front": "Todavía no lo hemos hecho",
+      "back": "We have not done it yet",
+      "example": "Todavía no lo hemos hecho"
+    },
+    {
+      "id": "c2-u11-f07",
+      "unit": "c2-u11",
+      "kind": "production",
+      "front": "By or for Friday as a deadline",
+      "back": "Para el viernes",
+      "example": "Necesito la respuesta para el viernes."
+    },
+    {
+      "id": "c2-u11-f08",
+      "unit": "c2-u11",
+      "kind": "recognition",
+      "front": "Pasé por el parque",
+      "back": "I passed through the park",
+      "example": "Pasé por el parque"
+    },
+    {
+      "id": "c2-u11-f09",
+      "unit": "c2-u11",
+      "kind": "production",
+      "front": "I bought it for ten euros",
+      "back": "Lo compré por diez euros",
+      "example": "Lo compré por diez euros"
+    },
+    {
+      "id": "c2-u11-f10",
+      "unit": "c2-u11",
+      "kind": "recognition",
+      "front": "Lo hice por Ana",
+      "back": "I did it because of or on behalf of Ana",
+      "example": "Lo hice por Ana"
+    },
+    {
+      "id": "c2-u11-f11",
+      "unit": "c2-u11",
+      "kind": "production",
+      "front": "I made it for Ana",
+      "back": "Lo hice para Ana",
+      "example": "Lo hice para Ana"
+    },
+    {
+      "id": "c2-u11-f12",
+      "unit": "c2-u11",
+      "kind": "recognition",
+      "front": "¿Alguna vez has viajado allí?",
+      "back": "Have you ever traveled there?",
+      "example": "¿Alguna vez has viajado allí?"
+    },
+    {
+      "id": "c2-u11-f13",
+      "unit": "c2-u11",
+      "kind": "production",
+      "front": "I have already finished",
+      "back": "Ya he terminado",
+      "example": "Ya he terminado"
+    },
+    {
+      "id": "c2-u11-f14",
+      "unit": "c2-u11",
+      "kind": "recognition",
+      "front": "Lo he puesto aquí",
+      "back": "I have put it here",
+      "example": "Lo he puesto aquí"
+    },
+    {
+      "id": "c2-u11-f15",
+      "unit": "c2-u11",
+      "kind": "production",
+      "front": "I have told it to him/her/them",
+      "back": "Se lo he dicho",
+      "example": "Se lo he dicho"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c2-u11-q01",
+      "type": "cloze",
+      "prompt": "Complete: Estudio ___ trabajar aquí.",
+      "answers": [
+        "para"
+      ],
+      "explanation": "The infinitive expresses the intended goal of studying.",
+      "concept": "Reason and intended destination"
+    },
+    {
+      "id": "c2-u11-q02",
+      "type": "cloze",
+      "prompt": "Complete: Gracias ___ ayudarme.",
+      "answers": [
+        "por"
+      ],
+      "explanation": "Por introduces the action for which thanks are given.",
+      "concept": "Reason and intended destination"
+    },
+    {
+      "id": "c2-u11-q03",
+      "type": "cloze",
+      "prompt": "Complete: Es un regalo ___ Ana.",
+      "answers": [
+        "para"
+      ],
+      "explanation": "Ana is the intended recipient of the gift.",
+      "concept": "Reason and intended destination"
+    },
+    {
+      "id": "c2-u11-q04",
+      "type": "cloze",
+      "prompt": "Complete: Hemos ___ las cartas. (escribir)",
+      "answers": [
+        "escrito"
+      ],
+      "explanation": "Escrito is irregular and stays invariant after haber despite plural cartas.",
+      "concept": "Experience connected to now"
+    },
+    {
+      "id": "c2-u11-q05",
+      "type": "cloze",
+      "prompt": "Complete: Yo ___ visto la película.",
+      "answers": [
+        "he"
+      ],
+      "explanation": "Yo takes he in the present perfect auxiliary paradigm.",
+      "concept": "Experience connected to now"
+    },
+    {
+      "id": "c2-u11-q06",
+      "type": "cloze",
+      "prompt": "Complete: Todavía no lo ___ hecho. (nosotros)",
+      "answers": [
+        "hemos"
+      ],
+      "explanation": "Nosotros takes hemos; the participle hecho does not change for number.",
+      "concept": "Experience connected to now"
+    },
+    {
+      "id": "c2-u11-q07",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: I study in order to work here.",
+      "options": [
+        "Lo compré por diez euros",
+        "Ya he terminado",
+        "Estudio para trabajar aquí"
+      ],
+      "answers": [
+        "Estudio para trabajar aquí"
+      ],
+      "explanation": "“Estudio para trabajar aquí” expresses “I study in order to work here”. “Lo compré por diez euros” instead means “I bought it for ten euros”. “Ya he terminado” instead means “I have already finished”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c2-u11-q08",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: Thank you for helping me.",
+      "options": [
+        "Lo he puesto aquí",
+        "Gracias por ayudarme",
+        "Lo hice por Ana"
+      ],
+      "answers": [
+        "Gracias por ayudarme"
+      ],
+      "explanation": "“Gracias por ayudarme” expresses “Thank you for helping me”. “Lo he puesto aquí” instead means “I have put it here”. “Lo hice por Ana” instead means “I did it because of or on behalf of Ana”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c2-u11-q09",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: It is intended for Ana.",
+      "options": [
+        "Es para Ana",
+        "Lo hice para Ana",
+        "Se lo he dicho"
+      ],
+      "answers": [
+        "Es para Ana"
+      ],
+      "explanation": "“Es para Ana” expresses “It is intended for Ana”. “Lo hice para Ana” instead means “I made it for Ana”. “Se lo he dicho” instead means “I have told it to him/her/them”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c2-u11-q10",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: We have written the letters.",
+      "options": [
+        "¿Alguna vez has viajado allí?",
+        "Estudio para trabajar aquí",
+        "Hemos escrito las cartas"
+      ],
+      "answers": [
+        "Hemos escrito las cartas"
+      ],
+      "explanation": "“Hemos escrito las cartas” expresses “We have written the letters”. “¿Alguna vez has viajado allí?” instead means “Have you ever traveled there?”. “Estudio para trabajar aquí” instead means “I study in order to work here”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c2-u11-q11",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: I have seen the film.",
+      "options": [
+        "Gracias por ayudarme",
+        "He visto la película",
+        "Ya he terminado"
+      ],
+      "answers": [
+        "He visto la película"
+      ],
+      "explanation": "“He visto la película” expresses “I have seen the film”. “Gracias por ayudarme” instead means “Thank you for helping me”. “Ya he terminado” instead means “I have already finished”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c2-u11-q12",
+      "type": "matching",
+      "prompt": "Match each English meaning to its Spanish expression. Use each expression once.",
+      "answers": [
+        "[\"He visto la película\",\"Para el viernes\",\"Lo compré por diez euros\"]"
+      ],
+      "explanation": "“He visto la película” means “I have seen the film”. “Para el viernes” means “By or for Friday as a deadline”. “Lo compré por diez euros” means “I bought it for ten euros”. Each alternative belongs to a different meaning; check the whole phrase, including its grammatical person and register.",
+      "concept": "Meaning and register",
+      "pairs": [
+        {
+          "left": "I have seen the film",
+          "right": "He visto la película"
+        },
+        {
+          "left": "By or for Friday as a deadline",
+          "right": "Para el viernes"
+        },
+        {
+          "left": "I bought it for ten euros",
+          "right": "Lo compré por diez euros"
+        }
+      ]
+    }
+  ],
+  "homework": [
+    {
+      "id": "c2-u11-h1",
+      "skill": "Reading & writing",
+      "prompt": "Read the original text for this unit. Identify its situation, central message, and three supporting details. Then write a new version of 100–140 words for a different person or audience. Use the target patterns, change at least three facts, and explain two revisions.",
+      "model": "—¿Has preparado el informe para Ana?\n—Sí, lo he escrito, pero todavía no lo he enviado.\n—Gracias por hacerlo. Lo necesita para el viernes.\n—Hoy pasé por su oficina, pero no estaba.\n—Puedes enviárselo por correo.\n—Buena idea. ¿Alguna vez has trabajado con ella?\n—Sí, trabajé con ella el año pasado.\nExplica el propósito de para y los usos de por. Identifica las formas de haber y los participios. La alternancia entre pasé y he escrito es compatible con una conversación real; no cambies todas las formas por una supuesta regla regional absoluta.\n\nThis is the source model, not a text to submit unchanged. A successful adaptation retains the communicative purpose while changing relevant forms and facts. Compare with the worked examples for the reasons behind form choices.",
+      "rubric": "0–3 each: fulfills the specified purpose; organized and comprehensible; target forms support meaning; revisions are explained with examples. 0 = no evidence, 1 = substantial help needed, 2 = effective with some support, 3 = independently effective for this task. Record who evaluated the work."
+    },
+    {
+      "id": "c2-u11-h2",
+      "skill": "Listening",
+      "prompt": "Complete the resource assignment, or ask a willing reader to read the original text without showing it to you. First listen for the situation and purpose; listen again for three details and one contrast. Write a 60–100-word listening log naming the source, words actually heard, one uncertainty, and how you checked it. If using local synthesized speech, label it synthetic. Text-only preparation is not completed listening.",
+      "model": "A useful log separates the speaker’s message from your interpretation: “I heard [specific phrase]; I understood [claim]; I was uncertain about [word/relationship]; checking [text or partner] changed my interpretation to [correction].” Use the unit reading as an answer reference for a read-aloud version, never as evidence of an external speaker’s words.",
+      "rubric": "0–2 each: identifies source and listening conditions; retrieves central meaning; supports three details; checks a specific uncertainty. Do not count a copied transcript as independent comprehension."
+    },
+    {
+      "id": "c2-u11-h3",
+      "skill": "Speaking & interaction",
+      "prompt": "Plan a shared project: explain its purpose, recipient and deadline, then report what you have done and what remains. Ask a partner about one relevant past experience.",
+      "model": "Use the original reading/dialogue and the sentence-pattern cards as preparation. Make a brief outline, then put it away. Your partner should introduce a detail you did not prepare. Respond, request clarification if needed, and summarize what you agreed or still disagree about. Solo fallback: record two possible viewpoints and improvise a response after a pause; label it rehearsal.",
+      "rubric": "0–3 each: task fulfillment, comprehensibility, control of target language, responsiveness to another speaker. A partner or instructor should cite one example per score. Solo rehearsal provides no evidence for live responsiveness; mark that dimension not observed."
+    },
+    {
+      "id": "c2-u11-h4",
+      "skill": "Retrieval & reflection",
+      "prompt": "On a later day, retrieve six cards without looking. Use three in a fresh response to the practical task. Identify one recurring form error and one communication difficulty. Produce a corrected example, explain the reason, and schedule a specific follow-up exchange or listening session.",
+      "model": "Compare your response with these two models: Estudio para trabajar aquí / Gracias por ayudarme. A useful reflection explains the function, not just the spelling. Revisit the first worked item and create a different example of its principle.",
+      "rubric": "Report recall count separately from performance. Reflection is complete when it contains an observed difficulty, an explained correction, a fresh example, and an actionable next session."
+    }
+  ],
+  "task": "Plan a shared project: explain its purpose, recipient and deadline, then report what you have done and what remains. Ask a partner about one relevant past experience.",
+  "culture": "Present-perfect usage differs within as well as between countries. Listen to the actual speech community. A course may teach a useful contrast without treating one variety’s recent-past pattern as a universal test of correctness.",
+  "selfAssessment": [
+    "I can distinguish common por and para meanings in context.",
+    "I can form the present perfect with haber and a participle.",
+    "I can recognize regional variation in recent-past framing."
+  ],
+  "remediation": "Sort mistakes by form, meaning, and interaction. For form errors, explain a worked example and create a contrasting pair. For comprehension errors, replay a short segment or use a willing reader and verify your interpretation. For interaction difficulties, repeat the practical task with one new constraint. Compare evidence across days; repeated selection of a known answer alone is not mastery.",
+  "resources": [
+    "sd-perfect"
+  ]
+}

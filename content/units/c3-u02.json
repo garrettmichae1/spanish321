@@ -1,0 +1,384 @@
+{
+  "id": "c3-u02",
+  "course": 3,
+  "number": 2,
+  "title": "Perfect tenses & sequence",
+  "subtitle": "What had already happened",
+  "status": "authored",
+  "prerequisites": [
+    "c3-u01"
+  ],
+  "objectives": [
+    "Form present and past perfect tenses.",
+    "Locate an earlier event relative to a past reference point.",
+    "Distinguish participles with haber from agreeing adjectives."
+  ],
+  "warmup": "Retrieve two sentences and one repair strategy from c3-u01. Change the subject or situation in each sentence and explain what changed. Then read today’s objectives and predict where your existing language may be insufficient.",
+  "lectures": [
+    {
+      "title": "Two reference points",
+      "body": "He terminado connects completion to the present frame; había terminado places completion before another past reference point. Past perfect uses imperfect haber: había, habías, había, habíamos, habíais, habían plus a participle. Cuando llegué, ya habían salido says their departure preceded my arrival. The past perfect is not required for every event that happened long ago; it expresses a relationship to another past moment. Ya and todavía no clarify whether the earlier event had happened by that point. Establish the reference point before choosing the compound tense."
+    },
+    {
+      "title": "Keep the compound together",
+      "body": "After haber the participle stays invariant: Ellas habían escrito las cartas. Do not change it to escritas because the writers or letters are feminine. Adjectival/passive uses do agree: Las cartas estaban escritas. Common irregular participles include visto, hecho, dicho, escrito, vuelto, puesto, roto, abierto and muerto. Object pronouns precede the conjugated auxiliary: Se lo había explicado. Avoid placing them between haber and the participle. In conversation, you can unpack a confusing sequence with primero and después before restating it with the past perfect; grammar should make the relationship clearer, not more opaque."
+    }
+  ],
+  "reading": "Cuando Nora llegó a la oficina, el equipo ya había empezado la reunión. Ella había enviado el informe la noche anterior, pero nadie lo había abierto: el archivo tenía un nombre poco claro. Durante la pausa, Nora explicó dónde estaba y se lo mostró a una colega. Después de la reunión escribió un mensaje: «He cambiado el nombre del archivo y he añadido una fecha. Antes no había pensado en cómo lo iban a buscar». La colega respondió que el contenido estaba bien organizado, pero que faltaba una síntesis inicial. Distingue los cambios realizados antes de la reunión, los realizados después y las reflexiones conectadas con el presente del mensaje.",
+  "worked": [
+    {
+      "prompt": "Complete: Cuando llegué, ya ___ salido. (ellos)",
+      "answer": "habían",
+      "reason": "The departure precedes another past event; plural habían agrees with ellos."
+    },
+    {
+      "prompt": "Complete: Ellas habían ___ las cartas. (escribir)",
+      "answer": "escrito",
+      "reason": "The participle stays invariant after haber; escritas would be adjectival agreement."
+    },
+    {
+      "prompt": "Complete: Las cartas estaban ___. (escribir, adjective)",
+      "answer": "escritas",
+      "reason": "After estar as a resulting-state adjective, the form agrees with feminine plural cartas."
+    },
+    {
+      "prompt": "Complete: Yo ___ terminado cuando llamaste.",
+      "answer": "había",
+      "reason": "A completed event before the past call uses the past perfect auxiliary había."
+    },
+    {
+      "prompt": "Complete: Se lo había ___. (decir)",
+      "answer": "dicho",
+      "reason": "Decir has the irregular participle dicho."
+    },
+    {
+      "prompt": "Complete: Nosotros hemos ___ el documento. (abrir)",
+      "answer": "abierto",
+      "reason": "Abrir uses the irregular participle abierto; no plural ending is added after haber."
+    }
+  ],
+  "cards": [
+    {
+      "id": "c3-u02-f01",
+      "unit": "c3-u02",
+      "kind": "production",
+      "front": "They had already left",
+      "back": "Ya habían salido",
+      "example": "Ya habían salido"
+    },
+    {
+      "id": "c3-u02-f02",
+      "unit": "c3-u02",
+      "kind": "recognition",
+      "front": "Habían escrito las cartas",
+      "back": "They had written the letters",
+      "example": "Habían escrito las cartas"
+    },
+    {
+      "id": "c3-u02-f03",
+      "unit": "c3-u02",
+      "kind": "production",
+      "front": "The letters were written as a resulting state",
+      "back": "Las cartas estaban escritas",
+      "example": "Las cartas estaban escritas"
+    },
+    {
+      "id": "c3-u02-f04",
+      "unit": "c3-u02",
+      "kind": "recognition",
+      "front": "Había terminado cuando llamaste",
+      "back": "I had finished when you called",
+      "example": "Había terminado cuando llamaste"
+    },
+    {
+      "id": "c3-u02-f05",
+      "unit": "c3-u02",
+      "kind": "production",
+      "front": "I had told it to him/her/them",
+      "back": "Se lo había dicho",
+      "example": "Se lo había dicho"
+    },
+    {
+      "id": "c3-u02-f06",
+      "unit": "c3-u02",
+      "kind": "recognition",
+      "front": "Hemos abierto el documento",
+      "back": "We have opened the document",
+      "example": "Hemos abierto el documento"
+    },
+    {
+      "id": "c3-u02-f07",
+      "unit": "c3-u02",
+      "kind": "production",
+      "front": "She or he had not arrived yet",
+      "back": "Todavía no había llegado",
+      "example": "Todavía no había llegado"
+    },
+    {
+      "id": "c3-u02-f08",
+      "unit": "c3-u02",
+      "kind": "recognition",
+      "front": "La noche anterior",
+      "back": "The previous night",
+      "example": "La noche anterior ya habíamos preparado las notas."
+    },
+    {
+      "id": "c3-u02-f09",
+      "unit": "c3-u02",
+      "kind": "production",
+      "front": "Up to that moment",
+      "back": "Hasta ese momento",
+      "example": "Hasta ese momento"
+    },
+    {
+      "id": "c3-u02-f10",
+      "unit": "c3-u02",
+      "kind": "recognition",
+      "front": "He cambiado el nombre",
+      "back": "I have changed the name",
+      "example": "He cambiado el nombre"
+    },
+    {
+      "id": "c3-u02-f11",
+      "unit": "c3-u02",
+      "kind": "production",
+      "front": "I had not thought about it",
+      "back": "No lo había pensado",
+      "example": "No lo había pensado"
+    },
+    {
+      "id": "c3-u02-f12",
+      "unit": "c3-u02",
+      "kind": "recognition",
+      "front": "¿Lo habías visto antes?",
+      "back": "Had you seen it before?",
+      "example": "¿Lo habías visto antes?"
+    },
+    {
+      "id": "c3-u02-f13",
+      "unit": "c3-u02",
+      "kind": "production",
+      "front": "They had already put it here",
+      "back": "Ya lo habían puesto aquí",
+      "example": "Ya lo habían puesto aquí"
+    },
+    {
+      "id": "c3-u02-f14",
+      "unit": "c3-u02",
+      "kind": "recognition",
+      "front": "Después de haberlo leído",
+      "back": "After having read it",
+      "example": "Después de haberlo leído, decidí hacer otra pregunta."
+    },
+    {
+      "id": "c3-u02-f15",
+      "unit": "c3-u02",
+      "kind": "production",
+      "front": "We had returned early",
+      "back": "Habíamos vuelto temprano",
+      "example": "Habíamos vuelto temprano"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c3-u02-q01",
+      "type": "cloze",
+      "prompt": "Complete: Cuando llegué, ya ___ salido. (ellos)",
+      "answers": [
+        "habían"
+      ],
+      "explanation": "The departure precedes another past event; plural habían agrees with ellos.",
+      "concept": "Two reference points"
+    },
+    {
+      "id": "c3-u02-q02",
+      "type": "cloze",
+      "prompt": "Complete: Ellas habían ___ las cartas. (escribir)",
+      "answers": [
+        "escrito"
+      ],
+      "explanation": "The participle stays invariant after haber; escritas would be adjectival agreement.",
+      "concept": "Two reference points"
+    },
+    {
+      "id": "c3-u02-q03",
+      "type": "cloze",
+      "prompt": "Complete: Las cartas estaban ___. (escribir, adjective)",
+      "answers": [
+        "escritas"
+      ],
+      "explanation": "After estar as a resulting-state adjective, the form agrees with feminine plural cartas.",
+      "concept": "Two reference points"
+    },
+    {
+      "id": "c3-u02-q04",
+      "type": "cloze",
+      "prompt": "Complete: Yo ___ terminado cuando llamaste.",
+      "answers": [
+        "había"
+      ],
+      "explanation": "A completed event before the past call uses the past perfect auxiliary había.",
+      "concept": "Keep the compound together"
+    },
+    {
+      "id": "c3-u02-q05",
+      "type": "cloze",
+      "prompt": "Complete: Se lo había ___. (decir)",
+      "answers": [
+        "dicho"
+      ],
+      "explanation": "Decir has the irregular participle dicho.",
+      "concept": "Keep the compound together"
+    },
+    {
+      "id": "c3-u02-q06",
+      "type": "cloze",
+      "prompt": "Complete: Nosotros hemos ___ el documento. (abrir)",
+      "answers": [
+        "abierto"
+      ],
+      "explanation": "Abrir uses the irregular participle abierto; no plural ending is added after haber.",
+      "concept": "Keep the compound together"
+    },
+    {
+      "id": "c3-u02-q07",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: They had already left.",
+      "options": [
+        "Hasta ese momento",
+        "Ya lo habían puesto aquí",
+        "Ya habían salido"
+      ],
+      "answers": [
+        "Ya habían salido"
+      ],
+      "explanation": "“Ya habían salido” expresses “They had already left”. “Hasta ese momento” instead means “Up to that moment”. “Ya lo habían puesto aquí” instead means “They had already put it here”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c3-u02-q08",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: They had written the letters.",
+      "options": [
+        "Después de haberlo leído",
+        "Habían escrito las cartas",
+        "He cambiado el nombre"
+      ],
+      "answers": [
+        "Habían escrito las cartas"
+      ],
+      "explanation": "“Habían escrito las cartas” expresses “They had written the letters”. “Después de haberlo leído” instead means “After having read it”. “He cambiado el nombre” instead means “I have changed the name”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c3-u02-q09",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: The letters were written as a resulting state.",
+      "options": [
+        "Las cartas estaban escritas",
+        "No lo había pensado",
+        "Habíamos vuelto temprano"
+      ],
+      "answers": [
+        "Las cartas estaban escritas"
+      ],
+      "explanation": "“Las cartas estaban escritas” expresses “The letters were written as a resulting state”. “No lo había pensado” instead means “I had not thought about it”. “Habíamos vuelto temprano” instead means “We had returned early”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c3-u02-q10",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: I had finished when you called.",
+      "options": [
+        "¿Lo habías visto antes?",
+        "Ya habían salido",
+        "Había terminado cuando llamaste"
+      ],
+      "answers": [
+        "Había terminado cuando llamaste"
+      ],
+      "explanation": "“Había terminado cuando llamaste” expresses “I had finished when you called”. “¿Lo habías visto antes?” instead means “Had you seen it before?”. “Ya habían salido” instead means “They had already left”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c3-u02-q11",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: I had told it to him/her/them.",
+      "options": [
+        "Habían escrito las cartas",
+        "Se lo había dicho",
+        "Ya lo habían puesto aquí"
+      ],
+      "answers": [
+        "Se lo había dicho"
+      ],
+      "explanation": "“Se lo había dicho” expresses “I had told it to him/her/them”. “Habían escrito las cartas” instead means “They had written the letters”. “Ya lo habían puesto aquí” instead means “They had already put it here”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c3-u02-q12",
+      "type": "matching",
+      "prompt": "Match each English meaning to its Spanish expression. Use each expression once.",
+      "answers": [
+        "[\"Se lo había dicho\",\"Todavía no había llegado\",\"Hasta ese momento\"]"
+      ],
+      "explanation": "“Se lo había dicho” means “I had told it to him/her/them”. “Todavía no había llegado” means “She or he had not arrived yet”. “Hasta ese momento” means “Up to that moment”. Each alternative belongs to a different meaning; check the whole phrase, including its grammatical person and register.",
+      "concept": "Meaning and register",
+      "pairs": [
+        {
+          "left": "I had told it to him/her/them",
+          "right": "Se lo había dicho"
+        },
+        {
+          "left": "She or he had not arrived yet",
+          "right": "Todavía no había llegado"
+        },
+        {
+          "left": "Up to that moment",
+          "right": "Hasta ese momento"
+        }
+      ]
+    }
+  ],
+  "homework": [
+    {
+      "id": "c3-u02-h1",
+      "skill": "Reading & writing",
+      "prompt": "Read the original text for this unit. Identify its situation, central message, and three supporting details. Then write a new version of 150–200 words for a different person or audience. Use the target patterns, change at least three facts, and explain two revisions.",
+      "model": "Cuando Nora llegó a la oficina, el equipo ya había empezado la reunión. Ella había enviado el informe la noche anterior, pero nadie lo había abierto: el archivo tenía un nombre poco claro. Durante la pausa, Nora explicó dónde estaba y se lo mostró a una colega. Después de la reunión escribió un mensaje: «He cambiado el nombre del archivo y he añadido una fecha. Antes no había pensado en cómo lo iban a buscar». La colega respondió que el contenido estaba bien organizado, pero que faltaba una síntesis inicial. Distingue los cambios realizados antes de la reunión, los realizados después y las reflexiones conectadas con el presente del mensaje.\n\nThis is the source model, not a text to submit unchanged. A successful adaptation retains the communicative purpose while changing relevant forms and facts. Compare with the worked examples for the reasons behind form choices.",
+      "rubric": "0–3 each: fulfills the specified purpose; organized and comprehensible; target forms support meaning; revisions are explained with examples. 0 = no evidence, 1 = substantial help needed, 2 = effective with some support, 3 = independently effective for this task. Record who evaluated the work."
+    },
+    {
+      "id": "c3-u02-h2",
+      "skill": "Listening",
+      "prompt": "Complete the resource assignment, or ask a willing reader to read the original text without showing it to you. First listen for the situation and purpose; listen again for three details and one contrast. Write a 60–100-word listening log naming the source, words actually heard, one uncertainty, and how you checked it. If using local synthesized speech, label it synthetic. Text-only preparation is not completed listening.",
+      "model": "A useful log separates the speaker’s message from your interpretation: “I heard [specific phrase]; I understood [claim]; I was uncertain about [word/relationship]; checking [text or partner] changed my interpretation to [correction].” Use the unit reading as an answer reference for a read-aloud version, never as evidence of an external speaker’s words.",
+      "rubric": "0–2 each: identifies source and listening conditions; retrieves central meaning; supports three details; checks a specific uncertainty. Do not count a copied transcript as independent comprehension."
+    },
+    {
+      "id": "c3-u02-h3",
+      "skill": "Speaking & interaction",
+      "prompt": "Explain a project handoff using two timelines: what had been completed before a meeting and what has changed since. Have a partner reconstruct the order.",
+      "model": "Use the original reading/dialogue and the sentence-pattern cards as preparation. Make a brief outline, then put it away. Your partner should introduce a detail you did not prepare. Respond, request clarification if needed, and summarize what you agreed or still disagree about. Solo fallback: record two possible viewpoints and improvise a response after a pause; label it rehearsal.",
+      "rubric": "0–3 each: task fulfillment, comprehensibility, control of target language, responsiveness to another speaker. A partner or instructor should cite one example per score. Solo rehearsal provides no evidence for live responsiveness; mark that dimension not observed."
+    },
+    {
+      "id": "c3-u02-h4",
+      "skill": "Retrieval & reflection",
+      "prompt": "On a later day, retrieve six cards without looking. Use three in a fresh response to the practical task. Identify one recurring form error and one communication difficulty. Produce a corrected example, explain the reason, and schedule a specific follow-up exchange or listening session.",
+      "model": "Compare your response with these two models: Ya habían salido / Habían escrito las cartas. A useful reflection explains the function, not just the spelling. Revisit the first worked item and create a different example of its principle.",
+      "rubric": "Report recall count separately from performance. Reflection is complete when it contains an observed difficulty, an explained correction, a fresh example, and an actionable next session."
+    }
+  ],
+  "task": "Explain a project handoff using two timelines: what had been completed before a meeting and what has changed since. Have a partner reconstruct the order.",
+  "culture": "Recent-past preferences vary regionally, but the earlier-than-a-past-reference relationship of the past perfect is broadly useful. Do not replace regional present-perfect patterns with a claim that one region is less precise.",
+  "selfAssessment": [
+    "I can form present and past perfect tenses.",
+    "I can locate an earlier event relative to a past reference point.",
+    "I can distinguish participles with haber from agreeing adjectives."
+  ],
+  "remediation": "Sort mistakes by form, meaning, and interaction. For form errors, explain a worked example and create a contrasting pair. For comprehension errors, replay a short segment or use a willing reader and verify your interpretation. For interaction difficulties, repeat the practical task with one new constraint. Compare evidence across days; repeated selection of a known answer alone is not mastery.",
+  "resources": [
+    "sd-past-perfect"
+  ]
+}

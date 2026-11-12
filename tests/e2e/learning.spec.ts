@@ -16,6 +16,7 @@ test("complete offline learning loop, persistence and export", async ({
   await expect(
     page.getByRole("heading", { name: "Sounds, spelling & survival phrases" }),
   ).toBeVisible();
+  await page.locator(".self-check input").first().check();
   await page.getByRole("button", { name: "Mark lesson read" }).click();
   await expect(
     page.getByRole("button", { name: "Lesson read", exact: true }),
@@ -55,7 +56,7 @@ test("complete offline learning loop, persistence and export", async ({
     "Hola. Soy Ana. ¿Puede repetir, por favor?",
   );
   await page.getByRole("button", { name: "Portfolio", exact: true }).click();
-  await expect(page.locator(".stat").first()).toContainText("1/12");
+  await expect(page.locator(".stat").first()).toContainText("1/60");
   await expect(page.locator(".result-row")).toContainText("practice");
   await page.getByRole("button", { name: "Settings & backup" }).click();
   const dl = page.waitForEvent("download");
@@ -64,21 +65,20 @@ test("complete offline learning loop, persistence and export", async ({
   expect(file).toBeTruthy();
   await context.setOffline(false);
 });
-test("course map distinguishes drafts from planned courses and works on mobile", async ({
-  page,
-}) => {
+test("all five authored courses are usable on mobile", async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 });
   await page.goto("/");
   await page.getByRole("button", { name: "Toggle navigation" }).click();
   await page.getByRole("button", { name: "Courses", exact: true }).click();
   await expect(page.locator(".unit-card")).toHaveCount(12);
   await page.getByRole("button", { name: "Spanish II", exact: true }).click();
+  await expect(page.locator(".unit-card").first()).toBeEnabled();
+  await page.getByRole("button", { name: "Advanced", exact: true }).click();
+  await expect(page.locator(".unit-card")).toHaveCount(12);
+  await page.locator(".unit-card").last().click();
   await expect(
-    page.getByText("This course is a syllabus, not a usable course yet.", {
-      exact: false,
-    }),
+    page.getByRole("heading", { name: "Portfolio & capstone", exact: true }),
   ).toBeVisible();
-  await expect(page.locator(".unit-card").first()).toBeDisabled();
   expect(
     await page.evaluate(
       () => document.documentElement.scrollWidth <= window.innerWidth,
@@ -124,6 +124,7 @@ test("restores valid backups, preserves retired content IDs and separates assess
   const fs = await import("node:fs/promises");
   const backup = JSON.parse(await fs.readFile(file!, "utf8"));
   expect(backup.attempts[0].mode).toBe("assessment");
+  backup.selfChecks = { "c1-u01:0": true };
   backup.completed.push("retired-content-stable-id");
   backup.homework["c1-u01-h1"] = {
     text: "Restored writing with accents: sí, él, año.",
@@ -152,6 +153,7 @@ test("restores valid backups, preserves retired content IDs and separates assess
     await fs.readFile((await (await next).path())!, "utf8"),
   );
   expect(restored.completed).toContain("retired-content-stable-id");
+  expect(restored.selfChecks["c1-u01:0"]).toBe(true);
 });
 test("imports CSV atomically and preserves Spanish characters", async ({
   page,
@@ -209,5 +211,54 @@ test("records with a simulated microphone, saves and reopens local audio", async
   await expect(page.locator("audio")).toHaveCount(1);
   expect(await page.locator("audio").getAttribute("src")).toMatch(
     /^data:audio\//,
+  );
+});
+test("advanced course search, multi-pair matching, filtered reviews and printable exports work offline", async ({
+  page,
+  context,
+}) => {
+  await page.goto("/");
+  await page.evaluate(async () => {
+    await navigator.serviceWorker.ready;
+  });
+  await page.reload();
+  await context.setOffline(true);
+  await page.getByRole("button", { name: "Courses", exact: true }).click();
+  await page.getByRole("button", { name: "Advanced", exact: true }).click();
+  await page.getByLabel("Search this course").fill("microficción");
+  await expect(page.locator(".unit-card")).toHaveCount(1);
+  await page.locator(".unit-card").click();
+  await expect(
+    page.getByRole("heading", {
+      name: "Literature, film & humor",
+      exact: true,
+    }),
+  ).toBeVisible();
+  const exported = page.waitForEvent("download");
+  await page.getByRole("button", { name: "Export printable guide" }).click();
+  const fs = await import("node:fs/promises");
+  const html = await fs.readFile((await (await exported).path())!, "utf8");
+  expect(html).toContain("Quiz answer key");
+  expect(html).toContain("Advanced Spanish");
+  await page.getByRole("button", { name: "Practice this unit" }).click();
+  const unit = JSON.parse(
+    await fs.readFile("content/units/c5-u10.json", "utf8"),
+  ) as { quiz: { pairs?: { left: string; right: string }[] }[] };
+  const pairs = unit.quiz.find((q) => q.pairs)!.pairs!;
+  for (const pair of pairs)
+    await page
+      .getByRole("combobox", { name: pair.left, exact: true })
+      .selectOption(pair.right);
+  await page.getByRole("button", { name: "Check my answers" }).click();
+  await expect(page.locator(".matching-pairs").locator("..")).toContainText(
+    "Correct",
+  );
+  await page
+    .getByRole("button", { name: /^Flashcards/ })
+    .first()
+    .click();
+  await page.locator(".filter-bar select").selectOption("course:5");
+  await expect(page.locator(".flashcard")).toContainText(
+    "The conditions should be comparable",
   );
 });

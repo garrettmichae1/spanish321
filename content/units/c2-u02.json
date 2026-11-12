@@ -1,0 +1,388 @@
+{
+  "id": "c2-u02",
+  "course": 2,
+  "number": 2,
+  "title": "Reflexive routines",
+  "subtitle": "Routines with other people",
+  "status": "authored",
+  "prerequisites": [
+    "c2-u01"
+  ],
+  "objectives": [
+    "Use reflexive pronouns with routines and infinitives.",
+    "Distinguish an action on oneself from an action on another person.",
+    "Negotiate a practical shared routine."
+  ],
+  "warmup": "Retrieve two sentences and one repair strategy from c2-u01. Change the subject or situation in each sentence and explain what changed. Then read today’s objectives and predict where your existing language may be insufficient.",
+  "lectures": [
+    {
+      "title": "Who receives the action?",
+      "body": "Me lavo describes washing myself; lavo los platos describes washing dishes. With a body part, Spanish commonly uses the definite article: Me lavo las manos, not a required possessive equivalent of my. Reflexive pronouns match the subject: me, te, se, nos, os, se. Place one before a conjugated verb or attach it to an infinitive: Me voy a levantar / Voy a levantarme. Both positions work in this construction; do not use both at once. A stem-changing reflexive verb keeps its verb pattern: me acuesto, nos acostamos. Not every se is reflexive; later courses distinguish other uses."
+    },
+    {
+      "title": "Routines are negotiable",
+      "body": "Use primero, después, antes de and después de to organize a routine. After a preposition, a verb normally stays infinitive: antes de salir, después de ducharse. If a different subject follows, a finite clause is often needed; do not force every English before-sentence into an infinitive. In this unit keep the subject constant. To negotiate, state a need, ask about the other person’s need, and propose a sequence: Necesito ducharme antes de salir. ¿Te parece bien? This is more useful than listing activities without acknowledging a shared bathroom, transport schedule or caregiving responsibility."
+    },
+    {
+      "title": "Who performs the action, and who experiences it?",
+      "body": "In **Ana lava el coche**, the subject Ana washes something else. In **Ana se lava**, the subject also receives the action. In **Ana se lava las manos**, the body part appears with an article; the pronoun already identifies whose hands are involved. *Ana lava sus manos* is not a good mechanical replacement for the ordinary routine expression. Context can justify a possessive, but it is not the default pattern to memorize.\n\nA two-verb phrase gives you two useful positions: **Me voy a acostar temprano** and **Voy a acostarme temprano**. The pronoun still refers to yo in both. You cannot attach **se** just because the dictionary prints **acostarse**: that **se** marks the dictionary form, not every speaker. Notice also **nos acostamos** versus **me acuesto**; choosing the pronoun does not eliminate the stem change.\n\nBuild a three-step account with **antes de**, **después de** and **luego**. After a preposition, use an infinitive: **Después de levantarme, desayuno**. Ask a partner one practical follow-up about time or sequence. This checks whether the routine is comprehensible beyond a memorized list."
+    }
+  ],
+  "reading": "—Me levanto a las seis y media. ¿Y tú?\n—Normalmente a las siete, pero mañana necesito salir temprano.\n—Entonces puedes ducharte primero. Yo preparo el desayuno.\n—Gracias. Después de ducharme, voy a vestirme y preparar la mochila.\n—¿Te acuestas temprano esta noche?\n—Sí. Me acuesto a las diez. ¿Te parece bien usar el baño hasta las siete?\n—Sí, pero necesito lavarme las manos antes de cocinar.\nResume el acuerdo: quién usa el baño, qué hace la otra persona y qué pequeña excepción necesitan prever.",
+  "worked": [
+    {
+      "prompt": "Complete: Me lavo ___ manos.",
+      "answer": "las",
+      "reason": "The reflexive construction normally uses the definite article with the body part."
+    },
+    {
+      "prompt": "Complete: Nosotros nos ___ temprano. (acostar)",
+      "answer": "acostamos",
+      "reason": "Nosotros retains o; the reflexive pronoun does not create a stem change."
+    },
+    {
+      "prompt": "Complete: Voy a ___ (ducharse, yo).",
+      "answer": "ducharme",
+      "reason": "Attach the matching me pronoun to the infinitive."
+    },
+    {
+      "prompt": "Complete: Después de ___, desayuno. (levantarse, yo)",
+      "answer": "levantarme",
+      "reason": "A preposition takes an infinitive here; the same person performs both actions."
+    },
+    {
+      "prompt": "Complete: Ella ___ lava las manos.",
+      "answer": "se",
+      "reason": "The third-person subject requires the reflexive pronoun se."
+    },
+    {
+      "prompt": "Complete: ___ los platos. (lavar, yo)",
+      "answer": "Lavo",
+      "reason": "Washing dishes is not an action performed on oneself; no reflexive pronoun is needed."
+    }
+  ],
+  "cards": [
+    {
+      "id": "c2-u02-f01",
+      "unit": "c2-u02",
+      "kind": "production",
+      "front": "I wash my hands",
+      "back": "Me lavo las manos",
+      "example": "Me lavo las manos"
+    },
+    {
+      "id": "c2-u02-f02",
+      "unit": "c2-u02",
+      "kind": "recognition",
+      "front": "Nos acostamos temprano",
+      "back": "We go to bed early",
+      "example": "Nos acostamos temprano"
+    },
+    {
+      "id": "c2-u02-f03",
+      "unit": "c2-u02",
+      "kind": "production",
+      "front": "I am going to shower",
+      "back": "Voy a ducharme",
+      "example": "Voy a ducharme"
+    },
+    {
+      "id": "c2-u02-f04",
+      "unit": "c2-u02",
+      "kind": "recognition",
+      "front": "Me voy a duchar",
+      "back": "I am going to shower (pronoun before verb)",
+      "example": "Me voy a duchar"
+    },
+    {
+      "id": "c2-u02-f05",
+      "unit": "c2-u02",
+      "kind": "production",
+      "front": "Before leaving",
+      "back": "Antes de salir",
+      "example": "Antes de salir, compruebo la dirección."
+    },
+    {
+      "id": "c2-u02-f06",
+      "unit": "c2-u02",
+      "kind": "recognition",
+      "front": "Después de vestirme",
+      "back": "After getting dressed",
+      "example": "Después de vestirme, preparo el desayuno."
+    },
+    {
+      "id": "c2-u02-f07",
+      "unit": "c2-u02",
+      "kind": "production",
+      "front": "Does that work for you?",
+      "back": "¿Te parece bien?",
+      "example": "¿Te parece bien?"
+    },
+    {
+      "id": "c2-u02-f08",
+      "unit": "c2-u02",
+      "kind": "recognition",
+      "front": "Necesito usar el baño",
+      "back": "I need to use the bathroom",
+      "example": "Necesito usar el baño"
+    },
+    {
+      "id": "c2-u02-f09",
+      "unit": "c2-u02",
+      "kind": "production",
+      "front": "You can shower first",
+      "back": "Puedes ducharte primero",
+      "example": "Puedes ducharte primero"
+    },
+    {
+      "id": "c2-u02-f10",
+      "unit": "c2-u02",
+      "kind": "recognition",
+      "front": "Preparo el desayuno",
+      "back": "I prepare breakfast",
+      "example": "Preparo el desayuno"
+    },
+    {
+      "id": "c2-u02-f11",
+      "unit": "c2-u02",
+      "kind": "production",
+      "front": "I go to bed at ten",
+      "back": "Me acuesto a las diez",
+      "example": "Me acuesto a las diez"
+    },
+    {
+      "id": "c2-u02-f12",
+      "unit": "c2-u02",
+      "kind": "recognition",
+      "front": "Se levanta temprano",
+      "back": "She or he gets up early",
+      "example": "Se levanta temprano"
+    },
+    {
+      "id": "c2-u02-f13",
+      "unit": "c2-u02",
+      "kind": "production",
+      "front": "I wash the dishes",
+      "back": "Lavo los platos",
+      "example": "Lavo los platos"
+    },
+    {
+      "id": "c2-u02-f14",
+      "unit": "c2-u02",
+      "kind": "recognition",
+      "front": "Nos vemos a las siete",
+      "back": "We will see each other at seven",
+      "example": "Nos vemos a las siete"
+    },
+    {
+      "id": "c2-u02-f15",
+      "unit": "c2-u02",
+      "kind": "production",
+      "front": "We have to organize ourselves",
+      "back": "Tenemos que organizarnos",
+      "example": "Tenemos que organizarnos"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c2-u02-q01",
+      "type": "cloze",
+      "prompt": "Complete: Me lavo ___ manos.",
+      "answers": [
+        "las"
+      ],
+      "explanation": "The reflexive construction normally uses the definite article with the body part.",
+      "concept": "Who receives the action?"
+    },
+    {
+      "id": "c2-u02-q02",
+      "type": "cloze",
+      "prompt": "Complete: Nosotros nos ___ temprano. (acostar)",
+      "answers": [
+        "acostamos"
+      ],
+      "explanation": "Nosotros retains o; the reflexive pronoun does not create a stem change.",
+      "concept": "Who receives the action?"
+    },
+    {
+      "id": "c2-u02-q03",
+      "type": "cloze",
+      "prompt": "Complete: Voy a ___ (ducharse, yo).",
+      "answers": [
+        "ducharme"
+      ],
+      "explanation": "Attach the matching me pronoun to the infinitive.",
+      "concept": "Who receives the action?"
+    },
+    {
+      "id": "c2-u02-q04",
+      "type": "cloze",
+      "prompt": "Complete: Después de ___, desayuno. (levantarse, yo)",
+      "answers": [
+        "levantarme"
+      ],
+      "explanation": "A preposition takes an infinitive here; the same person performs both actions.",
+      "concept": "Routines are negotiable"
+    },
+    {
+      "id": "c2-u02-q05",
+      "type": "cloze",
+      "prompt": "Complete: Ella ___ lava las manos.",
+      "answers": [
+        "se"
+      ],
+      "explanation": "The third-person subject requires the reflexive pronoun se.",
+      "concept": "Routines are negotiable"
+    },
+    {
+      "id": "c2-u02-q06",
+      "type": "cloze",
+      "prompt": "Complete: ___ los platos. (lavar, yo)",
+      "answers": [
+        "Lavo"
+      ],
+      "explanation": "Washing dishes is not an action performed on oneself; no reflexive pronoun is needed.",
+      "concept": "Routines are negotiable"
+    },
+    {
+      "id": "c2-u02-q07",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: I wash my hands.",
+      "options": [
+        "Puedes ducharte primero",
+        "Lavo los platos",
+        "Me lavo las manos"
+      ],
+      "answers": [
+        "Me lavo las manos"
+      ],
+      "explanation": "“Me lavo las manos” expresses “I wash my hands”. “Puedes ducharte primero” instead means “You can shower first”. “Lavo los platos” instead means “I wash the dishes”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c2-u02-q08",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: We go to bed early.",
+      "options": [
+        "Nos vemos a las siete",
+        "Nos acostamos temprano",
+        "Preparo el desayuno"
+      ],
+      "answers": [
+        "Nos acostamos temprano"
+      ],
+      "explanation": "“Nos acostamos temprano” expresses “We go to bed early”. “Nos vemos a las siete” instead means “We will see each other at seven”. “Preparo el desayuno” instead means “I prepare breakfast”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c2-u02-q09",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: I am going to shower.",
+      "options": [
+        "Voy a ducharme",
+        "Me acuesto a las diez",
+        "Tenemos que organizarnos"
+      ],
+      "answers": [
+        "Voy a ducharme"
+      ],
+      "explanation": "“Voy a ducharme” expresses “I am going to shower”. “Me acuesto a las diez” instead means “I go to bed at ten”. “Tenemos que organizarnos” instead means “We have to organize ourselves”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c2-u02-q10",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: I am going to shower (pronoun before verb).",
+      "options": [
+        "Se levanta temprano",
+        "Me lavo las manos",
+        "Me voy a duchar"
+      ],
+      "answers": [
+        "Me voy a duchar"
+      ],
+      "explanation": "“Me voy a duchar” expresses “I am going to shower (pronoun before verb)”. “Se levanta temprano” instead means “She or he gets up early”. “Me lavo las manos” instead means “I wash my hands”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c2-u02-q11",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: Before leaving.",
+      "options": [
+        "Nos acostamos temprano",
+        "Antes de salir",
+        "Lavo los platos"
+      ],
+      "answers": [
+        "Antes de salir"
+      ],
+      "explanation": "“Antes de salir” expresses “Before leaving”. “Nos acostamos temprano” instead means “We go to bed early”. “Lavo los platos” instead means “I wash the dishes”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c2-u02-q12",
+      "type": "matching",
+      "prompt": "Match each English meaning to its Spanish expression. Use each expression once.",
+      "answers": [
+        "[\"Antes de salir\",\"¿Te parece bien?\",\"Puedes ducharte primero\"]"
+      ],
+      "explanation": "“Antes de salir” means “Before leaving”. “¿Te parece bien?” means “Does that work for you?”. “Puedes ducharte primero” means “You can shower first”. Each alternative belongs to a different meaning; check the whole phrase, including its grammatical person and register.",
+      "concept": "Meaning and register",
+      "pairs": [
+        {
+          "left": "Before leaving",
+          "right": "Antes de salir"
+        },
+        {
+          "left": "Does that work for you?",
+          "right": "¿Te parece bien?"
+        },
+        {
+          "left": "You can shower first",
+          "right": "Puedes ducharte primero"
+        }
+      ]
+    }
+  ],
+  "homework": [
+    {
+      "id": "c2-u02-h1",
+      "skill": "Reading & writing",
+      "prompt": "Read the original text for this unit. Identify its situation, central message, and three supporting details. Then write a new version of 100–140 words for a different person or audience. Use the target patterns, change at least three facts, and explain two revisions.",
+      "model": "—Me levanto a las seis y media. ¿Y tú?\n—Normalmente a las siete, pero mañana necesito salir temprano.\n—Entonces puedes ducharte primero. Yo preparo el desayuno.\n—Gracias. Después de ducharme, voy a vestirme y preparar la mochila.\n—¿Te acuestas temprano esta noche?\n—Sí. Me acuesto a las diez. ¿Te parece bien usar el baño hasta las siete?\n—Sí, pero necesito lavarme las manos antes de cocinar.\nResume el acuerdo: quién usa el baño, qué hace la otra persona y qué pequeña excepción necesitan prever.\n\nThis is the source model, not a text to submit unchanged. A successful adaptation retains the communicative purpose while changing relevant forms and facts. Compare with the worked examples for the reasons behind form choices.",
+      "rubric": "0–3 each: fulfills the specified purpose; organized and comprehensible; target forms support meaning; revisions are explained with examples. 0 = no evidence, 1 = substantial help needed, 2 = effective with some support, 3 = independently effective for this task. Record who evaluated the work."
+    },
+    {
+      "id": "c2-u02-h2",
+      "skill": "Listening",
+      "prompt": "Complete the resource assignment, or ask a willing reader to read the original text without showing it to you. First listen for the situation and purpose; listen again for three details and one contrast. Write a 60–100-word listening log naming the source, words actually heard, one uncertainty, and how you checked it. If using local synthesized speech, label it synthetic. Text-only preparation is not completed listening.",
+      "model": "A useful log separates the speaker’s message from your interpretation: “I heard [specific phrase]; I understood [claim]; I was uncertain about [word/relationship]; checking [text or partner] changed my interpretation to [correction].” Use the unit reading as an answer reference for a read-aloud version, never as evidence of an external speaker’s words.",
+      "rubric": "0–2 each: identifies source and listening conditions; retrieves central meaning; supports three details; checks a specific uncertainty. Do not count a copied transcript as independent comprehension."
+    },
+    {
+      "id": "c2-u02-h3",
+      "skill": "Speaking & interaction",
+      "prompt": "Plan a shared morning with a partner. Each person has one non-negotiable need; find a workable order and confirm it. Solo: create two schedules and explain how you resolved a conflict.",
+      "model": "Use the original reading/dialogue and the sentence-pattern cards as preparation. Make a brief outline, then put it away. Your partner should introduce a detail you did not prepare. Respond, request clarification if needed, and summarize what you agreed or still disagree about. Solo fallback: record two possible viewpoints and improvise a response after a pause; label it rehearsal.",
+      "rubric": "0–3 each: task fulfillment, comprehensibility, control of target language, responsiveness to another speaker. A partner or instructor should cite one example per score. Solo rehearsal provides no evidence for live responsiveness; mark that dimension not observed."
+    },
+    {
+      "id": "c2-u02-h4",
+      "skill": "Retrieval & reflection",
+      "prompt": "On a later day, retrieve six cards without looking. Use three in a fresh response to the practical task. Identify one recurring form error and one communication difficulty. Produce a corrected example, explain the reason, and schedule a specific follow-up exchange or listening session.",
+      "model": "Compare your response with these two models: Me lavo las manos / Nos acostamos temprano. A useful reflection explains the function, not just the spelling. Revisit the first worked item and create a different example of its principle.",
+      "rubric": "Report recall count separately from performance. Reflection is complete when it contains an observed difficulty, an explained correction, a fresh example, and an actionable next session."
+    }
+  ],
+  "task": "Plan a shared morning with a partner. Each person has one non-negotiable need; find a workable order and confirm it. Solo: create two schedules and explain how you resolved a conflict.",
+  "culture": "Daily routines depend on work, climate, family and personal circumstances. Avoid treating a textbook’s timetable as a national norm. Ask individuals about their needs rather than predicting them from nationality.",
+  "selfAssessment": [
+    "I can use reflexive pronouns with routines and infinitives.",
+    "I can distinguish an action on oneself from an action on another person.",
+    "I can negotiate a practical shared routine."
+  ],
+  "remediation": "Sort mistakes by form, meaning, and interaction. For form errors, explain a worked example and create a contrasting pair. For comprehension errors, replay a short segment or use a willing reader and verify your interpretation. For interaction difficulties, repeat the practical task with one new constraint. Compare evidence across days; repeated selection of a known answer alone is not mastery.",
+  "resources": [
+    "sd-reflexive"
+  ]
+}

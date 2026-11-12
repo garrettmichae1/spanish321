@@ -1,0 +1,385 @@
+{
+  "id": "c4-u06",
+  "course": 4,
+  "number": 6,
+  "title": "Multiple-source midterm",
+  "subtitle": "Read sources against each other",
+  "status": "authored",
+  "prerequisites": [
+    "c4-u05"
+  ],
+  "objectives": [
+    "Compare claims, methods and scopes across sources.",
+    "Explain agreement and disagreement without forcing a consensus.",
+    "Produce an attributed synthesis and discuss its limits."
+  ],
+  "warmup": "Retrieve two sentences and one repair strategy from c4-u05. Change the subject or situation in each sentence and explain what changed. Then read today’s objectives and predict where your existing language may be insufficient.",
+  "lectures": [
+    {
+      "title": "A source matrix before a conclusion",
+      "body": "For each source, record author or institution, date, purpose, main claim, evidence type and population or context. Two sources may appear to disagree because they measure different outcomes or periods. A survey of registered users does not automatically represent nonusers. An interview can explain a mechanism but cannot by itself establish its prevalence. Read the original context before lifting a memorable sentence. If you cannot access a source, mark it unavailable rather than summarizing from a title as though you read the full text."
+    },
+    {
+      "title": "Synthesis preserves differences",
+      "body": "A synthesis organizes sources around a question. It is not three isolated summaries joined by además. Use contrast and attribution: Mientras el informe cuantifica…, la entrevista describe…. State where evidence converges, where it conflicts and what additional information would resolve the difference. Acknowledge uncertainty in the conclusion. In the midterm discussion, another participant should challenge one inference. Respond by locating support or narrowing the claim, not by changing the source’s wording. Keep your source notes available for checking while distinguishing an independent speaking performance from a prepared script."
+    }
+  ],
+  "reading": "**Caso original, no datos reales.** Un informe interno de una biblioteca dice que la asistencia total aumentó durante una prueba de horario. Una encuesta a usuarios registrados indica que la mayoría prefiere la mañana. En una entrevista, una trabajadora nocturna explica que nunca puede asistir por la mañana y que por eso no está registrada. Los documentos no permiten concluir simplemente que “la comunidad prefiere la mañana”: la encuesta excluye precisamente a algunas personas afectadas por el horario. Tampoco basta una entrevista para estimar cuántas personas comparten esa situación. Una síntesis responsable identifica el aumento observado, describe a quién representa la encuesta y propone consultar a no usuarios antes de fijar una política permanente.",
+  "worked": [
+    {
+      "prompt": "In the case, does a survey of registered users necessarily represent nonusers? Write sí or no.",
+      "answer": "no",
+      "reason": "The sampling frame excludes nonusers, so that population cannot be assumed represented."
+    },
+    {
+      "prompt": "Does one interview establish the prevalence of the experience? Write sí or no.",
+      "answer": "no",
+      "reason": "An interview can illuminate a mechanism or experience without measuring its population frequency."
+    },
+    {
+      "prompt": "Complete: ___ el informe cuantifica asistencia, la entrevista describe una experiencia.",
+      "answer": "Mientras",
+      "reason": "Mientras can organize a contrast between the functions of two sources."
+    },
+    {
+      "prompt": "Complete: No basta con que una fuente lo ___ para que sea cierto. (afirmar)",
+      "answer": "afirme",
+      "reason": "The construction presents an insufficient condition rather than endorsing the assertion."
+    },
+    {
+      "prompt": "Complete: Es necesario que ___ a quienes no usan el servicio. (consultar, nosotros)",
+      "answer": "consultemos",
+      "reason": "The evaluative necessity selects a subjunctive recommendation."
+    },
+    {
+      "prompt": "Complete: La conclusión debe ajustarse al ___ de la evidencia. (scope)",
+      "answer": "alcance",
+      "reason": "Alcance describes the range of claims the evidence can reasonably support."
+    }
+  ],
+  "cards": [
+    {
+      "id": "c4-u06-f01",
+      "unit": "c4-u06",
+      "kind": "production",
+      "front": "The sample excludes nonusers",
+      "back": "La muestra excluye a los no usuarios",
+      "example": "La muestra excluye a los no usuarios"
+    },
+    {
+      "id": "c4-u06-f02",
+      "unit": "c4-u06",
+      "kind": "recognition",
+      "front": "Una entrevista no mide la prevalencia",
+      "back": "An interview does not measure prevalence",
+      "example": "Una entrevista no mide la prevalencia"
+    },
+    {
+      "id": "c4-u06-f03",
+      "unit": "c4-u06",
+      "kind": "production",
+      "front": "Whereas the report quantifies…",
+      "back": "Mientras el informe cuantifica…",
+      "example": "Mientras el informe cuantifica visitas, la entrevista describe una experiencia."
+    },
+    {
+      "id": "c4-u06-f04",
+      "unit": "c4-u06",
+      "kind": "recognition",
+      "front": "No basta con que lo afirme",
+      "back": "It is not enough that it asserts it",
+      "example": "No basta con que lo afirme"
+    },
+    {
+      "id": "c4-u06-f05",
+      "unit": "c4-u06",
+      "kind": "production",
+      "front": "It is necessary that we consult",
+      "back": "Es necesario que consultemos",
+      "example": "Es necesario que consultemos"
+    },
+    {
+      "id": "c4-u06-f06",
+      "unit": "c4-u06",
+      "kind": "recognition",
+      "front": "El alcance de la evidencia",
+      "back": "The scope of the evidence",
+      "example": "Debemos explicar el alcance de la evidencia antes de recomendar una medida."
+    },
+    {
+      "id": "c4-u06-f07",
+      "unit": "c4-u06",
+      "kind": "production",
+      "front": "The sources agree on…",
+      "back": "Las fuentes coinciden en…",
+      "example": "Las fuentes coinciden en que existe una dificultad de acceso."
+    },
+    {
+      "id": "c4-u06-f08",
+      "unit": "c4-u06",
+      "kind": "recognition",
+      "front": "Difieren en el período observado",
+      "back": "They differ in the period observed",
+      "example": "Difieren en el período observado"
+    },
+    {
+      "id": "c4-u06-f09",
+      "unit": "c4-u06",
+      "kind": "production",
+      "front": "I could not access the full text",
+      "back": "No pude acceder al texto completo",
+      "example": "No pude acceder al texto completo"
+    },
+    {
+      "id": "c4-u06-f10",
+      "unit": "c4-u06",
+      "kind": "recognition",
+      "front": "Esta inferencia requiere cautela",
+      "back": "This inference requires caution",
+      "example": "Esta inferencia requiere cautela"
+    },
+    {
+      "id": "c4-u06-f11",
+      "unit": "c4-u06",
+      "kind": "production",
+      "front": "The population studied",
+      "back": "La población estudiada",
+      "example": "La población estudiada no incluye a quienes nunca se inscribieron."
+    },
+    {
+      "id": "c4-u06-f12",
+      "unit": "c4-u06",
+      "kind": "recognition",
+      "front": "El dato no responde a esa pregunta",
+      "back": "The datum does not answer that question",
+      "example": "El dato no responde a esa pregunta"
+    },
+    {
+      "id": "c4-u06-f13",
+      "unit": "c4-u06",
+      "kind": "production",
+      "front": "One possible explanation is…",
+      "back": "Una explicación posible es…",
+      "example": "Una explicación posible es que el aviso llegara demasiado tarde."
+    },
+    {
+      "id": "c4-u06-f14",
+      "unit": "c4-u06",
+      "kind": "recognition",
+      "front": "Habría que contrastarlo",
+      "back": "It would need to be cross-checked",
+      "example": "Habría que contrastarlo"
+    },
+    {
+      "id": "c4-u06-f15",
+      "unit": "c4-u06",
+      "kind": "production",
+      "front": "It does not follow from the source",
+      "back": "No se desprende de la fuente",
+      "example": "No se desprende de la fuente"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c4-u06-q01",
+      "type": "typed",
+      "prompt": "In the case, does a survey of registered users necessarily represent nonusers? Write sí or no.",
+      "answers": [
+        "no"
+      ],
+      "explanation": "The sampling frame excludes nonusers, so that population cannot be assumed represented.",
+      "concept": "A source matrix before a conclusion"
+    },
+    {
+      "id": "c4-u06-q02",
+      "type": "typed",
+      "prompt": "Does one interview establish the prevalence of the experience? Write sí or no.",
+      "answers": [
+        "no"
+      ],
+      "explanation": "An interview can illuminate a mechanism or experience without measuring its population frequency.",
+      "concept": "A source matrix before a conclusion"
+    },
+    {
+      "id": "c4-u06-q03",
+      "type": "cloze",
+      "prompt": "Complete: ___ el informe cuantifica asistencia, la entrevista describe una experiencia.",
+      "answers": [
+        "Mientras",
+        "Mientras que"
+      ],
+      "explanation": "Mientras can organize a contrast between the functions of two sources.",
+      "concept": "A source matrix before a conclusion"
+    },
+    {
+      "id": "c4-u06-q04",
+      "type": "cloze",
+      "prompt": "Complete: No basta con que una fuente lo ___ para que sea cierto. (afirmar)",
+      "answers": [
+        "afirme"
+      ],
+      "explanation": "The construction presents an insufficient condition rather than endorsing the assertion.",
+      "concept": "Synthesis preserves differences"
+    },
+    {
+      "id": "c4-u06-q05",
+      "type": "cloze",
+      "prompt": "Complete: Es necesario que ___ a quienes no usan el servicio. (consultar, nosotros)",
+      "answers": [
+        "consultemos"
+      ],
+      "explanation": "The evaluative necessity selects a subjunctive recommendation.",
+      "concept": "Synthesis preserves differences"
+    },
+    {
+      "id": "c4-u06-q06",
+      "type": "cloze",
+      "prompt": "Complete: La conclusión debe ajustarse al ___ de la evidencia. (scope)",
+      "answers": [
+        "alcance"
+      ],
+      "explanation": "Alcance describes the range of claims the evidence can reasonably support.",
+      "concept": "Synthesis preserves differences"
+    },
+    {
+      "id": "c4-u06-q07",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: The sample excludes nonusers.",
+      "options": [
+        "No pude acceder al texto completo",
+        "Una explicación posible es…",
+        "La muestra excluye a los no usuarios"
+      ],
+      "answers": [
+        "La muestra excluye a los no usuarios"
+      ],
+      "explanation": "“La muestra excluye a los no usuarios” expresses “The sample excludes nonusers”. “No pude acceder al texto completo” instead means “I could not access the full text”. “Una explicación posible es…” instead means “One possible explanation is…”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c4-u06-q08",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: An interview does not measure prevalence.",
+      "options": [
+        "Habría que contrastarlo",
+        "Una entrevista no mide la prevalencia",
+        "Esta inferencia requiere cautela"
+      ],
+      "answers": [
+        "Una entrevista no mide la prevalencia"
+      ],
+      "explanation": "“Una entrevista no mide la prevalencia” expresses “An interview does not measure prevalence”. “Habría que contrastarlo” instead means “It would need to be cross-checked”. “Esta inferencia requiere cautela” instead means “This inference requires caution”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c4-u06-q09",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: Whereas the report quantifies….",
+      "options": [
+        "Mientras el informe cuantifica…",
+        "La población estudiada",
+        "No se desprende de la fuente"
+      ],
+      "answers": [
+        "Mientras el informe cuantifica…"
+      ],
+      "explanation": "“Mientras el informe cuantifica…” expresses “Whereas the report quantifies…”. “La población estudiada” instead means “The population studied”. “No se desprende de la fuente” instead means “It does not follow from the source”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c4-u06-q10",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: It is not enough that it asserts it.",
+      "options": [
+        "El dato no responde a esa pregunta",
+        "La muestra excluye a los no usuarios",
+        "No basta con que lo afirme"
+      ],
+      "answers": [
+        "No basta con que lo afirme"
+      ],
+      "explanation": "“No basta con que lo afirme” expresses “It is not enough that it asserts it”. “El dato no responde a esa pregunta” instead means “The datum does not answer that question”. “La muestra excluye a los no usuarios” instead means “The sample excludes nonusers”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c4-u06-q11",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: It is necessary that we consult.",
+      "options": [
+        "Una entrevista no mide la prevalencia",
+        "Es necesario que consultemos",
+        "Una explicación posible es…"
+      ],
+      "answers": [
+        "Es necesario que consultemos"
+      ],
+      "explanation": "“Es necesario que consultemos” expresses “It is necessary that we consult”. “Una entrevista no mide la prevalencia” instead means “An interview does not measure prevalence”. “Una explicación posible es…” instead means “One possible explanation is…”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c4-u06-q12",
+      "type": "matching",
+      "prompt": "Match each English meaning to its Spanish expression. Use each expression once.",
+      "answers": [
+        "[\"Es necesario que consultemos\",\"Las fuentes coinciden en…\",\"No pude acceder al texto completo\"]"
+      ],
+      "explanation": "“Es necesario que consultemos” means “It is necessary that we consult”. “Las fuentes coinciden en…” means “The sources agree on…”. “No pude acceder al texto completo” means “I could not access the full text”. Each alternative belongs to a different meaning; check the whole phrase, including its grammatical person and register.",
+      "concept": "Meaning and register",
+      "pairs": [
+        {
+          "left": "It is necessary that we consult",
+          "right": "Es necesario que consultemos"
+        },
+        {
+          "left": "The sources agree on…",
+          "right": "Las fuentes coinciden en…"
+        },
+        {
+          "left": "I could not access the full text",
+          "right": "No pude acceder al texto completo"
+        }
+      ]
+    }
+  ],
+  "homework": [
+    {
+      "id": "c4-u06-h1",
+      "skill": "Reading & writing",
+      "prompt": "Read the original text for this unit. Identify its situation, central message, and three supporting details. Then write a new version of 220–280 words for a different person or audience. Use the target patterns, change at least three facts, and explain two revisions.",
+      "model": "**Caso original, no datos reales.** Un informe interno de una biblioteca dice que la asistencia total aumentó durante una prueba de horario. Una encuesta a usuarios registrados indica que la mayoría prefiere la mañana. En una entrevista, una trabajadora nocturna explica que nunca puede asistir por la mañana y que por eso no está registrada. Los documentos no permiten concluir simplemente que “la comunidad prefiere la mañana”: la encuesta excluye precisamente a algunas personas afectadas por el horario. Tampoco basta una entrevista para estimar cuántas personas comparten esa situación. Una síntesis responsable identifica el aumento observado, describe a quién representa la encuesta y propone consultar a no usuarios antes de fijar una política permanente.\n\nThis is the source model, not a text to submit unchanged. A successful adaptation retains the communicative purpose while changing relevant forms and facts. Compare with the worked examples for the reasons behind form choices.",
+      "rubric": "0–3 each: fulfills the specified purpose; organized and comprehensible; target forms support meaning; revisions are explained with examples. 0 = no evidence, 1 = substantial help needed, 2 = effective with some support, 3 = independently effective for this task. Record who evaluated the work."
+    },
+    {
+      "id": "c4-u06-h2",
+      "skill": "Listening",
+      "prompt": "Complete the resource assignment, or ask a willing reader to read the original text without showing it to you. First listen for the situation and purpose; listen again for three details and one contrast. Write a 60–100-word listening log naming the source, words actually heard, one uncertainty, and how you checked it. If using local synthesized speech, label it synthetic. Text-only preparation is not completed listening.",
+      "model": "A useful log separates the speaker’s message from your interpretation: “I heard [specific phrase]; I understood [claim]; I was uncertain about [word/relationship]; checking [text or partner] changed my interpretation to [correction].” Use the unit reading as an answer reference for a read-aloud version, never as evidence of an external speaker’s words.",
+      "rubric": "0–2 each: identifies source and listening conditions; retrieves central meaning; supports three details; checks a specific uncertainty. Do not count a copied transcript as independent comprehension."
+    },
+    {
+      "id": "c4-u06-h3",
+      "skill": "Speaking & interaction",
+      "prompt": "Midterm: compare two accessible public sources or the three original case summaries. Produce a 280–350-word synthesis, attribute claims, and discuss one challenged inference with a partner.",
+      "model": "Use the original reading/dialogue and the sentence-pattern cards as preparation. Make a brief outline, then put it away. Your partner should introduce a detail you did not prepare. Respond, request clarification if needed, and summarize what you agreed or still disagree about. Solo fallback: record two possible viewpoints and improvise a response after a pause; label it rehearsal.",
+      "rubric": "0–3 each: task fulfillment, comprehensibility, control of target language, responsiveness to another speaker. A partner or instructor should cite one example per score. Solo rehearsal provides no evidence for live responsiveness; mark that dimension not observed."
+    },
+    {
+      "id": "c4-u06-h4",
+      "skill": "Retrieval & reflection",
+      "prompt": "On a later day, retrieve six cards without looking. Use three in a fresh response to the practical task. Identify one recurring form error and one communication difficulty. Produce a corrected example, explain the reason, and schedule a specific follow-up exchange or listening session.",
+      "model": "Compare your response with these two models: La muestra excluye a los no usuarios / Una entrevista no mide la prevalencia. A useful reflection explains the function, not just the spelling. Revisit the first worked item and create a different example of its principle.",
+      "rubric": "Report recall count separately from performance. Reflection is complete when it contains an observed difficulty, an explained correction, a fresh example, and an actionable next session."
+    }
+  ],
+  "task": "Midterm: compare two accessible public sources or the three original case summaries. Produce a 280–350-word synthesis, attribute claims, and discuss one challenged inference with a partner.",
+  "culture": "Institutional prestige and personal testimony each deserve scrutiny appropriate to their role. Evaluate methods and context without dismissing speakers merely because of accent, nationality or social status.",
+  "selfAssessment": [
+    "I can compare claims, methods and scopes across sources.",
+    "I can explain agreement and disagreement without forcing a consensus.",
+    "I can produce an attributed synthesis and discuss its limits."
+  ],
+  "remediation": "Sort mistakes by form, meaning, and interaction. For form errors, explain a worked example and create a contrasting pair. For comprehension errors, replay a short segment or use a willing reader and verify your interpretation. For interaction difficulties, repeat the practical task with one new constraint. Compare evidence across days; repeated selection of a known answer alone is not mastery.",
+  "resources": [
+    "rtve-documentos"
+  ]
+}

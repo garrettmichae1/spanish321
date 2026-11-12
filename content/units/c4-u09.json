@@ -1,0 +1,386 @@
+{
+  "id": "c4-u09",
+  "course": 4,
+  "number": 9,
+  "title": "News & differing viewpoints",
+  "subtitle": "Listen for viewpoints, not only facts",
+  "status": "authored",
+  "prerequisites": [
+    "c4-u08"
+  ],
+  "objectives": [
+    "Identify framing and attribution in news or interviews.",
+    "Separate a source’s assertion from the presenter’s wording.",
+    "Summarize opposing positions without caricature."
+  ],
+  "warmup": "Retrieve two sentences and one repair strategy from c4-u08. Change the subject or situation in each sentence and explain what changed. Then read today’s objectives and predict where your existing language may be insufficient.",
+  "lectures": [
+    {
+      "title": "Framing selects attention",
+      "body": "A headline, opening question or quotation choice can shape what an audience notices before any factual claim is false. Ask what issue is foregrounded, whose voice is heard and what context is omitted. Distinguish a reporter’s description, an interviewee’s allegation and a verified document. Verbs such as afirmó, sostuvo, reconoció and admitió can imply different stances; do not substitute them casually in a summary. An accurate summary preserves uncertainty and attribution. If a recording is unavailable, do not infer its content from a title or promotional description."
+    },
+    {
+      "title": "Escucha por capas",
+      "body": "En la primera escucha identifica el tema, los participantes y la pregunta central. En la segunda anota dos argumentos de cada posición y la evidencia que mencionan. En una tercera pasada revisa un segmento breve que no entendiste. Un acento desconocido puede aumentar la dificultad sin reducir la calidad del argumento. Si hay transcripción gratuita publicada por el creador, úsala para comprobar un punto después de escuchar, no como sustituto permanente. Resume una posición de manera que su defensor pueda reconocerla; después formula tu crítica por separado."
+    }
+  ],
+  "reading": "En una entrevista ficticia, una periodista pregunta si la ampliación de horario fue “un gasto inútil”. La coordinadora responde que la prueba permitió identificar necesidades antes invisibles. Un vecino afirma que nunca vio la sala llena. Otra vecina explica que pudo estudiar allí después de su turno. Ninguna de esas intervenciones, aislada, determina el costo por usuario ni el efecto total de la política. La expresión “gasto inútil” propone una valoración antes de examinar criterios de utilidad. Una síntesis cuidadosa podría decir que los participantes discrepan sobre cómo medir el beneficio y que faltan datos comparables. También debería reconocer que una sala no necesita estar llena para ofrecer un servicio valioso, sin concluir por ello que cualquier costo esté justificado.",
+  "worked": [
+    {
+      "prompt": "Does the phrase “gasto inútil” supply a neutral factual description? Write sí or no.",
+      "answer": "no",
+      "reason": "It includes an evaluative frame whose criteria need examination."
+    },
+    {
+      "prompt": "Complete: El vecino ___ que nunca vio la sala llena. (afirmar, preterite)",
+      "answer": "afirmó",
+      "reason": "Afirmó attributes an assertion without automatically verifying its content."
+    },
+    {
+      "prompt": "Does one observation that a room was not full establish total policy impact? Write sí or no.",
+      "answer": "no",
+      "reason": "A single observation does not represent all time periods or define the relevant outcome."
+    },
+    {
+      "prompt": "Complete: Los participantes discrepan ___ cómo medir el beneficio.",
+      "answer": "sobre",
+      "reason": "Sobre introduces the issue of disagreement in this construction."
+    },
+    {
+      "prompt": "Complete: Es importante que la síntesis ___ la incertidumbre. (conservar)",
+      "answer": "conserve",
+      "reason": "The evaluative necessity uses subjunctive and calls for faithful handling of uncertainty."
+    },
+    {
+      "prompt": "Complete the phrase meaning “separately”: por ___.",
+      "answer": "separado",
+      "reason": "Separating source summary from your critique prevents misattribution."
+    }
+  ],
+  "cards": [
+    {
+      "id": "c4-u09-f01",
+      "unit": "c4-u09",
+      "kind": "production",
+      "front": "The question contains an evaluation",
+      "back": "La pregunta contiene una valoración",
+      "example": "La pregunta contiene una valoración"
+    },
+    {
+      "id": "c4-u09-f02",
+      "unit": "c4-u09",
+      "kind": "recognition",
+      "front": "El vecino afirmó que…",
+      "back": "The neighbor asserted that…",
+      "example": "El vecino afirmó que nunca había visto la sala llena."
+    },
+    {
+      "id": "c4-u09-f03",
+      "unit": "c4-u09",
+      "kind": "production",
+      "front": "One observation does not establish the total effect",
+      "back": "Una observación no establece el efecto total",
+      "example": "Una observación no establece el efecto total"
+    },
+    {
+      "id": "c4-u09-f04",
+      "unit": "c4-u09",
+      "kind": "recognition",
+      "front": "Discrepan sobre cómo medir el beneficio",
+      "back": "They disagree on how to measure the benefit",
+      "example": "Discrepan sobre cómo medir el beneficio"
+    },
+    {
+      "id": "c4-u09-f05",
+      "unit": "c4-u09",
+      "kind": "production",
+      "front": "It is important that it preserve uncertainty",
+      "back": "Es importante que conserve la incertidumbre",
+      "example": "Es importante que conserve la incertidumbre"
+    },
+    {
+      "id": "c4-u09-f06",
+      "unit": "c4-u09",
+      "kind": "recognition",
+      "front": "Presentaré mi crítica por separado",
+      "back": "I will present my critique separately",
+      "example": "Presentaré mi crítica por separado"
+    },
+    {
+      "id": "c4-u09-f07",
+      "unit": "c4-u09",
+      "kind": "production",
+      "front": "Which voices are missing?",
+      "back": "¿Qué voces faltan?",
+      "example": "¿Qué voces faltan?"
+    },
+    {
+      "id": "c4-u09-f08",
+      "unit": "c4-u09",
+      "kind": "recognition",
+      "front": "El titular destaca…",
+      "back": "The headline emphasizes…",
+      "example": "El titular destaca el costo, pero el texto también describe beneficios."
+    },
+    {
+      "id": "c4-u09-f09",
+      "unit": "c4-u09",
+      "kind": "production",
+      "front": "The interviewee maintained that…",
+      "back": "La entrevistada sostuvo que…",
+      "example": "La entrevistada sostuvo que faltaba información sobre las reservas."
+    },
+    {
+      "id": "c4-u09-f10",
+      "unit": "c4-u09",
+      "kind": "recognition",
+      "front": "No he verificado esa afirmación",
+      "back": "I have not verified that claim",
+      "example": "No he verificado esa afirmación"
+    },
+    {
+      "id": "c4-u09-f11",
+      "unit": "c4-u09",
+      "kind": "production",
+      "front": "The source attributes the figure to…",
+      "back": "La fuente atribuye el dato a…",
+      "example": "La fuente atribuye el dato a…"
+    },
+    {
+      "id": "c4-u09-f12",
+      "unit": "c4-u09",
+      "kind": "recognition",
+      "front": "El encuadre influye en la interpretación",
+      "back": "The framing influences interpretation",
+      "example": "El encuadre influye en la interpretación"
+    },
+    {
+      "id": "c4-u09-f13",
+      "unit": "c4-u09",
+      "kind": "production",
+      "front": "A faithful summary would be…",
+      "back": "Una síntesis fiel sería…",
+      "example": "Una síntesis fiel sería que ambas personas reconocen el problema, pero discrepan sobre la solución."
+    },
+    {
+      "id": "c4-u09-f14",
+      "unit": "c4-u09",
+      "kind": "recognition",
+      "front": "Ese verbo añade una valoración",
+      "back": "That verb adds an evaluation",
+      "example": "Ese verbo añade una valoración"
+    },
+    {
+      "id": "c4-u09-f15",
+      "unit": "c4-u09",
+      "kind": "production",
+      "front": "It is useful to hear the full context",
+      "back": "Conviene escuchar el contexto completo",
+      "example": "Conviene escuchar el contexto completo"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c4-u09-q01",
+      "type": "typed",
+      "prompt": "Does the phrase “gasto inútil” supply a neutral factual description? Write sí or no.",
+      "answers": [
+        "no"
+      ],
+      "explanation": "It includes an evaluative frame whose criteria need examination.",
+      "concept": "Framing selects attention"
+    },
+    {
+      "id": "c4-u09-q02",
+      "type": "cloze",
+      "prompt": "Complete: El vecino ___ que nunca vio la sala llena. (afirmar, preterite)",
+      "answers": [
+        "afirmó"
+      ],
+      "explanation": "Afirmó attributes an assertion without automatically verifying its content.",
+      "concept": "Framing selects attention"
+    },
+    {
+      "id": "c4-u09-q03",
+      "type": "typed",
+      "prompt": "Does one observation that a room was not full establish total policy impact? Write sí or no.",
+      "answers": [
+        "no"
+      ],
+      "explanation": "A single observation does not represent all time periods or define the relevant outcome.",
+      "concept": "Framing selects attention"
+    },
+    {
+      "id": "c4-u09-q04",
+      "type": "cloze",
+      "prompt": "Complete: Los participantes discrepan ___ cómo medir el beneficio.",
+      "answers": [
+        "sobre",
+        "en",
+        "acerca de"
+      ],
+      "explanation": "Sobre introduces the issue of disagreement in this construction.",
+      "concept": "Escucha por capas"
+    },
+    {
+      "id": "c4-u09-q05",
+      "type": "cloze",
+      "prompt": "Complete: Es importante que la síntesis ___ la incertidumbre. (conservar)",
+      "answers": [
+        "conserve"
+      ],
+      "explanation": "The evaluative necessity uses subjunctive and calls for faithful handling of uncertainty.",
+      "concept": "Escucha por capas"
+    },
+    {
+      "id": "c4-u09-q06",
+      "type": "cloze",
+      "prompt": "Complete the phrase meaning “separately”: por ___.",
+      "answers": [
+        "separado"
+      ],
+      "explanation": "Separating source summary from your critique prevents misattribution.",
+      "concept": "Escucha por capas"
+    },
+    {
+      "id": "c4-u09-q07",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: The question contains an evaluation.",
+      "options": [
+        "La entrevistada sostuvo que…",
+        "Una síntesis fiel sería…",
+        "La pregunta contiene una valoración"
+      ],
+      "answers": [
+        "La pregunta contiene una valoración"
+      ],
+      "explanation": "“La pregunta contiene una valoración” expresses “The question contains an evaluation”. “La entrevistada sostuvo que…” instead means “The interviewee maintained that…”. “Una síntesis fiel sería…” instead means “A faithful summary would be…”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c4-u09-q08",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: The neighbor asserted that….",
+      "options": [
+        "Ese verbo añade una valoración",
+        "El vecino afirmó que…",
+        "No he verificado esa afirmación"
+      ],
+      "answers": [
+        "El vecino afirmó que…"
+      ],
+      "explanation": "“El vecino afirmó que…” expresses “The neighbor asserted that…”. “Ese verbo añade una valoración” instead means “That verb adds an evaluation”. “No he verificado esa afirmación” instead means “I have not verified that claim”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c4-u09-q09",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: One observation does not establish the total effect.",
+      "options": [
+        "Una observación no establece el efecto total",
+        "La fuente atribuye el dato a…",
+        "Conviene escuchar el contexto completo"
+      ],
+      "answers": [
+        "Una observación no establece el efecto total"
+      ],
+      "explanation": "“Una observación no establece el efecto total” expresses “One observation does not establish the total effect”. “La fuente atribuye el dato a…” instead means “The source attributes the figure to…”. “Conviene escuchar el contexto completo” instead means “It is useful to hear the full context”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c4-u09-q10",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: They disagree on how to measure the benefit.",
+      "options": [
+        "El encuadre influye en la interpretación",
+        "La pregunta contiene una valoración",
+        "Discrepan sobre cómo medir el beneficio"
+      ],
+      "answers": [
+        "Discrepan sobre cómo medir el beneficio"
+      ],
+      "explanation": "“Discrepan sobre cómo medir el beneficio” expresses “They disagree on how to measure the benefit”. “El encuadre influye en la interpretación” instead means “The framing influences interpretation”. “La pregunta contiene una valoración” instead means “The question contains an evaluation”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c4-u09-q11",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: It is important that it preserve uncertainty.",
+      "options": [
+        "El vecino afirmó que…",
+        "Es importante que conserve la incertidumbre",
+        "Una síntesis fiel sería…"
+      ],
+      "answers": [
+        "Es importante que conserve la incertidumbre"
+      ],
+      "explanation": "“Es importante que conserve la incertidumbre” expresses “It is important that it preserve uncertainty”. “El vecino afirmó que…” instead means “The neighbor asserted that…”. “Una síntesis fiel sería…” instead means “A faithful summary would be…”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c4-u09-q12",
+      "type": "matching",
+      "prompt": "Match each English meaning to its Spanish expression. Use each expression once.",
+      "answers": [
+        "[\"Es importante que conserve la incertidumbre\",\"¿Qué voces faltan?\",\"La entrevistada sostuvo que…\"]"
+      ],
+      "explanation": "“Es importante que conserve la incertidumbre” means “It is important that it preserve uncertainty”. “¿Qué voces faltan?” means “Which voices are missing?”. “La entrevistada sostuvo que…” means “The interviewee maintained that…”. Each alternative belongs to a different meaning; check the whole phrase, including its grammatical person and register.",
+      "concept": "Meaning and register",
+      "pairs": [
+        {
+          "left": "It is important that it preserve uncertainty",
+          "right": "Es importante que conserve la incertidumbre"
+        },
+        {
+          "left": "Which voices are missing?",
+          "right": "¿Qué voces faltan?"
+        },
+        {
+          "left": "The interviewee maintained that…",
+          "right": "La entrevistada sostuvo que…"
+        }
+      ]
+    }
+  ],
+  "homework": [
+    {
+      "id": "c4-u09-h1",
+      "skill": "Reading & writing",
+      "prompt": "Read the original text for this unit. Identify its situation, central message, and three supporting details. Then write a new version of 220–280 words for a different person or audience. Use the target patterns, change at least three facts, and explain two revisions.",
+      "model": "En una entrevista ficticia, una periodista pregunta si la ampliación de horario fue “un gasto inútil”. La coordinadora responde que la prueba permitió identificar necesidades antes invisibles. Un vecino afirma que nunca vio la sala llena. Otra vecina explica que pudo estudiar allí después de su turno. Ninguna de esas intervenciones, aislada, determina el costo por usuario ni el efecto total de la política. La expresión “gasto inútil” propone una valoración antes de examinar criterios de utilidad. Una síntesis cuidadosa podría decir que los participantes discrepan sobre cómo medir el beneficio y que faltan datos comparables. También debería reconocer que una sala no necesita estar llena para ofrecer un servicio valioso, sin concluir por ello que cualquier costo esté justificado.\n\nThis is the source model, not a text to submit unchanged. A successful adaptation retains the communicative purpose while changing relevant forms and facts. Compare with the worked examples for the reasons behind form choices.",
+      "rubric": "0–3 each: fulfills the specified purpose; organized and comprehensible; target forms support meaning; revisions are explained with examples. 0 = no evidence, 1 = substantial help needed, 2 = effective with some support, 3 = independently effective for this task. Record who evaluated the work."
+    },
+    {
+      "id": "c4-u09-h2",
+      "skill": "Listening",
+      "prompt": "Complete the resource assignment, or ask a willing reader to read the original text without showing it to you. First listen for the situation and purpose; listen again for three details and one contrast. Write a 60–100-word listening log naming the source, words actually heard, one uncertainty, and how you checked it. If using local synthesized speech, label it synthetic. Text-only preparation is not completed listening.",
+      "model": "A useful log separates the speaker’s message from your interpretation: “I heard [specific phrase]; I understood [claim]; I was uncertain about [word/relationship]; checking [text or partner] changed my interpretation to [correction].” Use the unit reading as an answer reference for a read-aloud version, never as evidence of an external speaker’s words.",
+      "rubric": "0–2 each: identifies source and listening conditions; retrieves central meaning; supports three details; checks a specific uncertainty. Do not count a copied transcript as independent comprehension."
+    },
+    {
+      "id": "c4-u09-h3",
+      "skill": "Speaking & interaction",
+      "prompt": "Choose a verified-access interview or use the original case. Summarize two viewpoints, identify one framing choice, and discuss your interpretation with a partner who proposes an alternative reading.",
+      "model": "Use the original reading/dialogue and the sentence-pattern cards as preparation. Make a brief outline, then put it away. Your partner should introduce a detail you did not prepare. Respond, request clarification if needed, and summarize what you agreed or still disagree about. Solo fallback: record two possible viewpoints and improvise a response after a pause; label it rehearsal.",
+      "rubric": "0–3 each: task fulfillment, comprehensibility, control of target language, responsiveness to another speaker. A partner or instructor should cite one example per score. Solo rehearsal provides no evidence for live responsiveness; mark that dimension not observed."
+    },
+    {
+      "id": "c4-u09-h4",
+      "skill": "Retrieval & reflection",
+      "prompt": "On a later day, retrieve six cards without looking. Use three in a fresh response to the practical task. Identify one recurring form error and one communication difficulty. Produce a corrected example, explain the reason, and schedule a specific follow-up exchange or listening session.",
+      "model": "Compare your response with these two models: La pregunta contiene una valoración / El vecino afirmó que…. A useful reflection explains the function, not just the spelling. Revisit the first worked item and create a different example of its principle.",
+      "rubric": "Report recall count separately from performance. Reflection is complete when it contains an observed difficulty, an explained correction, a fresh example, and an actionable next session."
+    }
+  ],
+  "task": "Choose a verified-access interview or use the original case. Summarize two viewpoints, identify one framing choice, and discuss your interpretation with a partner who proposes an alternative reading.",
+  "culture": "Accent, speaking speed and prestige register can bias judgments of credibility. Evaluate the claim and its evidence separately from whether the speaker resembles a familiar media voice.",
+  "selfAssessment": [
+    "I can identify framing and attribution in news or interviews.",
+    "I can separate a source’s assertion from the presenter’s wording.",
+    "I can summarize opposing positions without caricature."
+  ],
+  "remediation": "Sort mistakes by form, meaning, and interaction. For form errors, explain a worked example and create a contrasting pair. For comprehension errors, replay a short segment or use a willing reader and verify your interpretation. For interaction difficulties, repeat the practical task with one new constraint. Compare evidence across days; repeated selection of a known answer alone is not mastery.",
+  "resources": [
+    "rtve-documentos"
+  ]
+}

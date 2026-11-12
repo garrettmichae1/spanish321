@@ -1,0 +1,384 @@
+{
+  "id": "c3-u10",
+  "course": 3,
+  "number": 10,
+  "title": "Impersonal & passive se",
+  "subtitle": "Describe a process without inventing an actor",
+  "status": "authored",
+  "prerequisites": [
+    "c3-u09"
+  ],
+  "objectives": [
+    "Distinguish impersonal from passive se constructions.",
+    "Use agreement in common passive-se sentences.",
+    "Explain an institutional process clearly."
+  ],
+  "warmup": "Retrieve two sentences and one repair strategy from c3-u09. Change the subject or situation in each sentence and explain what changed. Then read today’s objectives and predict where your existing language may be insufficient.",
+  "lectures": [
+    {
+      "title": "Focus on the process",
+      "body": "Se venden libros is commonly analyzed as passive se: libros is the plural grammatical subject, so the verb is plural. Se vende una casa has singular agreement. Impersonal se lacks a lexical subject and normally uses a singular verb: Se vive bien aquí; se trabaja mucho. With a personal-a object, use singular: Se busca a los responsables. Do not apply a simplistic “plural noun anywhere means plural verb” rule. Look at the noun’s grammatical role and whether the sentence is presenting a subject or an object."
+    },
+    {
+      "title": "Clarity and responsibility",
+      "body": "Se puede solicitar ayuda foregrounds an available action without naming the applicant. These forms are useful for instructions, notices and process descriptions, but they can also conceal who is responsible: Se cometieron errores. If responsibility matters, ask quién or name the actor. Not every se is passive or impersonal: se levanta is reflexive/pronominal in familiar contexts, and se lo doy contains the indirect pronoun replacement for le. Explain a process in steps and identify where a person must act, where an institution responds, and what information is still missing."
+    }
+  ],
+  "reading": "En la biblioteca se ofrecen talleres gratuitos. Para inscribirse, se completa un formulario y se elige un horario. Se atiende a los participantes en recepción, donde se pueden resolver dudas. No se publican datos personales en el tablón. Un aviso anterior decía solamente «Se revisarán las solicitudes». Nora propone añadir quién las revisa y cuándo se comunica la decisión, porque los participantes necesitan saber a quién preguntar. La nueva versión indica: «El equipo de coordinación revisará las solicitudes el lunes y enviará una respuesta el martes». Compara la claridad de ambas versiones sin suponer que toda construcción con se es evasiva.",
+  "worked": [
+    {
+      "prompt": "Complete: Se ___ libros. (vender, passive se)",
+      "answer": "venden",
+      "reason": "Plural libros is the subject of the passive-se construction, so the verb agrees."
+    },
+    {
+      "prompt": "Complete: Se ___ una casa. (vender)",
+      "answer": "vende",
+      "reason": "Singular casa takes singular agreement in this passive-se sentence."
+    },
+    {
+      "prompt": "Complete: Se ___ bien aquí. (vivir, impersonal)",
+      "answer": "vive",
+      "reason": "Impersonal se has no plural subject and uses a singular verb."
+    },
+    {
+      "prompt": "Complete: Se ___ a los participantes. (atender, impersonal)",
+      "answer": "atiende",
+      "reason": "Personal a introduces an object; the impersonal verb stays singular."
+    },
+    {
+      "prompt": "Complete: No se ___ datos personales. (publicar, passive se)",
+      "answer": "publican",
+      "reason": "Plural datos personales is the subject and controls plural agreement."
+    },
+    {
+      "prompt": "In “Se lo doy”, is se passive? Write sí or no.",
+      "answer": "no",
+      "reason": "Here se replaces indirect le/les before lo; the sentence has an understood yo subject."
+    }
+  ],
+  "cards": [
+    {
+      "id": "c3-u10-f01",
+      "unit": "c3-u10",
+      "kind": "production",
+      "front": "Books are sold",
+      "back": "Se venden libros",
+      "example": "Se venden libros"
+    },
+    {
+      "id": "c3-u10-f02",
+      "unit": "c3-u10",
+      "kind": "recognition",
+      "front": "Se vende una casa",
+      "back": "A house is for sale",
+      "example": "Se vende una casa"
+    },
+    {
+      "id": "c3-u10-f03",
+      "unit": "c3-u10",
+      "kind": "production",
+      "front": "People live well here",
+      "back": "Se vive bien aquí",
+      "example": "Se vive bien aquí"
+    },
+    {
+      "id": "c3-u10-f04",
+      "unit": "c3-u10",
+      "kind": "recognition",
+      "front": "Se atiende a los participantes",
+      "back": "Participants are attended to",
+      "example": "Se atiende a los participantes"
+    },
+    {
+      "id": "c3-u10-f05",
+      "unit": "c3-u10",
+      "kind": "production",
+      "front": "Personal data are not published",
+      "back": "No se publican datos personales",
+      "example": "No se publican datos personales"
+    },
+    {
+      "id": "c3-u10-f06",
+      "unit": "c3-u10",
+      "kind": "recognition",
+      "front": "Se lo doy",
+      "back": "I give it to him/her/them",
+      "example": "Se lo doy"
+    },
+    {
+      "id": "c3-u10-f07",
+      "unit": "c3-u10",
+      "kind": "production",
+      "front": "Free workshops are offered",
+      "back": "Se ofrecen talleres gratuitos",
+      "example": "Se ofrecen talleres gratuitos"
+    },
+    {
+      "id": "c3-u10-f08",
+      "unit": "c3-u10",
+      "kind": "recognition",
+      "front": "Se completa un formulario",
+      "back": "A form is completed",
+      "example": "Se completa un formulario"
+    },
+    {
+      "id": "c3-u10-f09",
+      "unit": "c3-u10",
+      "kind": "production",
+      "front": "Questions can be resolved",
+      "back": "Se pueden resolver dudas",
+      "example": "Se pueden resolver dudas"
+    },
+    {
+      "id": "c3-u10-f10",
+      "unit": "c3-u10",
+      "kind": "recognition",
+      "front": "¿Quién revisa las solicitudes?",
+      "back": "Who reviews the applications?",
+      "example": "¿Quién revisa las solicitudes?"
+    },
+    {
+      "id": "c3-u10-f11",
+      "unit": "c3-u10",
+      "kind": "production",
+      "front": "When is the decision communicated?",
+      "back": "¿Cuándo se comunica la decisión?",
+      "example": "¿Cuándo se comunica la decisión?"
+    },
+    {
+      "id": "c3-u10-f12",
+      "unit": "c3-u10",
+      "kind": "recognition",
+      "front": "El equipo enviará una respuesta",
+      "back": "The team will send a response",
+      "example": "El equipo enviará una respuesta"
+    },
+    {
+      "id": "c3-u10-f13",
+      "unit": "c3-u10",
+      "kind": "production",
+      "front": "To register",
+      "back": "Para inscribirse",
+      "example": "Para inscribirse, hay que completar este formulario."
+    },
+    {
+      "id": "c3-u10-f14",
+      "unit": "c3-u10",
+      "kind": "recognition",
+      "front": "Se trabaja mucho",
+      "back": "People work a lot",
+      "example": "Se trabaja mucho"
+    },
+    {
+      "id": "c3-u10-f15",
+      "unit": "c3-u10",
+      "kind": "production",
+      "front": "It is useful to clarify responsibility",
+      "back": "Conviene aclarar la responsabilidad",
+      "example": "Conviene aclarar la responsabilidad"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c3-u10-q01",
+      "type": "cloze",
+      "prompt": "Complete: Se ___ libros. (vender, passive se)",
+      "answers": [
+        "venden"
+      ],
+      "explanation": "Plural libros is the subject of the passive-se construction, so the verb agrees.",
+      "concept": "Focus on the process"
+    },
+    {
+      "id": "c3-u10-q02",
+      "type": "cloze",
+      "prompt": "Complete: Se ___ una casa. (vender)",
+      "answers": [
+        "vende"
+      ],
+      "explanation": "Singular casa takes singular agreement in this passive-se sentence.",
+      "concept": "Focus on the process"
+    },
+    {
+      "id": "c3-u10-q03",
+      "type": "cloze",
+      "prompt": "Complete: Se ___ bien aquí. (vivir, impersonal)",
+      "answers": [
+        "vive"
+      ],
+      "explanation": "Impersonal se has no plural subject and uses a singular verb.",
+      "concept": "Focus on the process"
+    },
+    {
+      "id": "c3-u10-q04",
+      "type": "cloze",
+      "prompt": "Complete: Se ___ a los participantes. (atender, impersonal)",
+      "answers": [
+        "atiende"
+      ],
+      "explanation": "Personal a introduces an object; the impersonal verb stays singular.",
+      "concept": "Clarity and responsibility"
+    },
+    {
+      "id": "c3-u10-q05",
+      "type": "cloze",
+      "prompt": "Complete: No se ___ datos personales. (publicar, passive se)",
+      "answers": [
+        "publican"
+      ],
+      "explanation": "Plural datos personales is the subject and controls plural agreement.",
+      "concept": "Clarity and responsibility"
+    },
+    {
+      "id": "c3-u10-q06",
+      "type": "typed",
+      "prompt": "In “Se lo doy”, is se passive? Write sí or no.",
+      "answers": [
+        "no"
+      ],
+      "explanation": "Here se replaces indirect le/les before lo; the sentence has an understood yo subject.",
+      "concept": "Clarity and responsibility"
+    },
+    {
+      "id": "c3-u10-q07",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: Books are sold.",
+      "options": [
+        "Se pueden resolver dudas",
+        "Para inscribirse",
+        "Se venden libros"
+      ],
+      "answers": [
+        "Se venden libros"
+      ],
+      "explanation": "“Se venden libros” expresses “Books are sold”. “Se pueden resolver dudas” instead means “Questions can be resolved”. “Para inscribirse” instead means “To register”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c3-u10-q08",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: A house is for sale.",
+      "options": [
+        "Se trabaja mucho",
+        "Se vende una casa",
+        "¿Quién revisa las solicitudes?"
+      ],
+      "answers": [
+        "Se vende una casa"
+      ],
+      "explanation": "“Se vende una casa” expresses “A house is for sale”. “Se trabaja mucho” instead means “People work a lot”. “¿Quién revisa las solicitudes?” instead means “Who reviews the applications?”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c3-u10-q09",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: People live well here.",
+      "options": [
+        "Se vive bien aquí",
+        "¿Cuándo se comunica la decisión?",
+        "Conviene aclarar la responsabilidad"
+      ],
+      "answers": [
+        "Se vive bien aquí"
+      ],
+      "explanation": "“Se vive bien aquí” expresses “People live well here”. “¿Cuándo se comunica la decisión?” instead means “When is the decision communicated?”. “Conviene aclarar la responsabilidad” instead means “It is useful to clarify responsibility”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c3-u10-q10",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: Participants are attended to.",
+      "options": [
+        "El equipo enviará una respuesta",
+        "Se venden libros",
+        "Se atiende a los participantes"
+      ],
+      "answers": [
+        "Se atiende a los participantes"
+      ],
+      "explanation": "“Se atiende a los participantes” expresses “Participants are attended to”. “El equipo enviará una respuesta” instead means “The team will send a response”. “Se venden libros” instead means “Books are sold”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c3-u10-q11",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: Personal data are not published.",
+      "options": [
+        "Se vende una casa",
+        "No se publican datos personales",
+        "Para inscribirse"
+      ],
+      "answers": [
+        "No se publican datos personales"
+      ],
+      "explanation": "“No se publican datos personales” expresses “Personal data are not published”. “Se vende una casa” instead means “A house is for sale”. “Para inscribirse” instead means “To register”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c3-u10-q12",
+      "type": "matching",
+      "prompt": "Match each English meaning to its Spanish expression. Use each expression once.",
+      "answers": [
+        "[\"No se publican datos personales\",\"Se ofrecen talleres gratuitos\",\"Se pueden resolver dudas\"]"
+      ],
+      "explanation": "“No se publican datos personales” means “Personal data are not published”. “Se ofrecen talleres gratuitos” means “Free workshops are offered”. “Se pueden resolver dudas” means “Questions can be resolved”. Each alternative belongs to a different meaning; check the whole phrase, including its grammatical person and register.",
+      "concept": "Meaning and register",
+      "pairs": [
+        {
+          "left": "Personal data are not published",
+          "right": "No se publican datos personales"
+        },
+        {
+          "left": "Free workshops are offered",
+          "right": "Se ofrecen talleres gratuitos"
+        },
+        {
+          "left": "Questions can be resolved",
+          "right": "Se pueden resolver dudas"
+        }
+      ]
+    }
+  ],
+  "homework": [
+    {
+      "id": "c3-u10-h1",
+      "skill": "Reading & writing",
+      "prompt": "Read the original text for this unit. Identify its situation, central message, and three supporting details. Then write a new version of 150–200 words for a different person or audience. Use the target patterns, change at least three facts, and explain two revisions.",
+      "model": "En la biblioteca se ofrecen talleres gratuitos. Para inscribirse, se completa un formulario y se elige un horario. Se atiende a los participantes en recepción, donde se pueden resolver dudas. No se publican datos personales en el tablón. Un aviso anterior decía solamente «Se revisarán las solicitudes». Nora propone añadir quién las revisa y cuándo se comunica la decisión, porque los participantes necesitan saber a quién preguntar. La nueva versión indica: «El equipo de coordinación revisará las solicitudes el lunes y enviará una respuesta el martes». Compara la claridad de ambas versiones sin suponer que toda construcción con se es evasiva.\n\nThis is the source model, not a text to submit unchanged. A successful adaptation retains the communicative purpose while changing relevant forms and facts. Compare with the worked examples for the reasons behind form choices.",
+      "rubric": "0–3 each: fulfills the specified purpose; organized and comprehensible; target forms support meaning; revisions are explained with examples. 0 = no evidence, 1 = substantial help needed, 2 = effective with some support, 3 = independently effective for this task. Record who evaluated the work."
+    },
+    {
+      "id": "c3-u10-h2",
+      "skill": "Listening",
+      "prompt": "Complete the resource assignment, or ask a willing reader to read the original text without showing it to you. First listen for the situation and purpose; listen again for three details and one contrast. Write a 60–100-word listening log naming the source, words actually heard, one uncertainty, and how you checked it. If using local synthesized speech, label it synthetic. Text-only preparation is not completed listening.",
+      "model": "A useful log separates the speaker’s message from your interpretation: “I heard [specific phrase]; I understood [claim]; I was uncertain about [word/relationship]; checking [text or partner] changed my interpretation to [correction].” Use the unit reading as an answer reference for a read-aloud version, never as evidence of an external speaker’s words.",
+      "rubric": "0–2 each: identifies source and listening conditions; retrieves central meaning; supports three details; checks a specific uncertainty. Do not count a copied transcript as independent comprehension."
+    },
+    {
+      "id": "c3-u10-h3",
+      "skill": "Speaking & interaction",
+      "prompt": "Explain a registration or borrowing process to a partner. Use se where useful, then identify the responsible person for one step and answer two clarification questions.",
+      "model": "Use the original reading/dialogue and the sentence-pattern cards as preparation. Make a brief outline, then put it away. Your partner should introduce a detail you did not prepare. Respond, request clarification if needed, and summarize what you agreed or still disagree about. Solo fallback: record two possible viewpoints and improvise a response after a pause; label it rehearsal.",
+      "rubric": "0–3 each: task fulfillment, comprehensibility, control of target language, responsiveness to another speaker. A partner or instructor should cite one example per score. Solo rehearsal provides no evidence for live responsiveness; mark that dimension not observed."
+    },
+    {
+      "id": "c3-u10-h4",
+      "skill": "Retrieval & reflection",
+      "prompt": "On a later day, retrieve six cards without looking. Use three in a fresh response to the practical task. Identify one recurring form error and one communication difficulty. Produce a corrected example, explain the reason, and schedule a specific follow-up exchange or listening session.",
+      "model": "Compare your response with these two models: Se venden libros / Se vende una casa. A useful reflection explains the function, not just the spelling. Revisit the first worked item and create a different example of its principle.",
+      "rubric": "Report recall count separately from performance. Reflection is complete when it contains an observed difficulty, an explained correction, a fresh example, and an actionable next session."
+    }
+  ],
+  "task": "Explain a registration or borrowing process to a partner. Use se where useful, then identify the responsible person for one step and answer two clarification questions.",
+  "culture": "Public notices differ in style and accessibility. Concise language is not always clear language: an unspecified actor or deadline may leave newcomers unable to act. Test your instructions with someone unfamiliar with the process.",
+  "selfAssessment": [
+    "I can distinguish impersonal from passive se constructions.",
+    "I can use agreement in common passive-se sentences.",
+    "I can explain an institutional process clearly."
+  ],
+  "remediation": "Sort mistakes by form, meaning, and interaction. For form errors, explain a worked example and create a contrasting pair. For comprehension errors, replay a short segment or use a willing reader and verify your interpretation. For interaction difficulties, repeat the practical task with one new constraint. Compare evidence across days; repeated selection of a known answer alone is not mastery.",
+  "resources": [
+    "sd-se"
+  ]
+}

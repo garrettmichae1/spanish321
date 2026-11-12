@@ -344,6 +344,30 @@
       ],
       "explanation": "“Soy de Perú” communicates “I am from Peru.” The other choices communicate “You are students (ustedes)” and “You are (usted)”; those do not answer this prompt.",
       "concept": "Meaning in context"
+    },
+    {
+      "id": "c1-u02-q13",
+      "type": "matching",
+      "prompt": "Match each English meaning to its Spanish expression. Use each expression once.",
+      "answers": [
+        "[\"Ellas son médicas\",\"¿De dónde eres?\",\"Me llamo Ana\"]"
+      ],
+      "explanation": "“Ellas son médicas” means “They are doctors (women)”. “¿De dónde eres?” means “Where are you from? (tú)”. “Me llamo Ana” means “My name is Ana”. Each alternative belongs to a different meaning; check the whole phrase, including its grammatical person and register.",
+      "concept": "Meaning and register",
+      "pairs": [
+        {
+          "left": "They are doctors (women)",
+          "right": "Ellas son médicas"
+        },
+        {
+          "left": "Where are you from? (tú)",
+          "right": "¿De dónde eres?"
+        },
+        {
+          "left": "My name is Ana",
+          "right": "Me llamo Ana"
+        }
+      ]
     }
   ],
   "homework": [

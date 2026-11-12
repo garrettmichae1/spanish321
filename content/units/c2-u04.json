@@ -1,0 +1,388 @@
+{
+  "id": "c2-u04",
+  "course": 2,
+  "number": 4,
+  "title": "Indirect & combined pronouns",
+  "subtitle": "Give, send, and explain",
+  "status": "authored",
+  "prerequisites": [
+    "c2-u03"
+  ],
+  "objectives": [
+    "Distinguish recipient from direct object.",
+    "Combine indirect and direct pronouns in the correct order.",
+    "Confirm who receives an item or message."
+  ],
+  "warmup": "Retrieve two sentences and one repair strategy from c2-u03. Change the subject or situation in each sentence and explain what changed. Then read today’s objectives and predict where your existing language may be insufficient.",
+  "lectures": [
+    {
+      "title": "The recipient and the thing",
+      "body": "In Le doy el libro a Ana, el libro is what is given and Ana is the recipient. Indirect pronouns are me, te, le, nos, os, les. Le and les do not encode gender; number follows the recipient. A clarifying a phrase can coexist with the pronoun: Les escribo a mis colegas. Do not choose les merely because the thing sent is plural. In Les envío una carta, there is one letter but multiple recipients. Gustar already gave you experience with an indirect experiencer; now extend pronouns to transferring things and information."
+    },
+    {
+      "title": "Two pronouns, one sequence",
+      "body": "Put the indirect pronoun first: Te lo doy, not lo te doy. Le or les changes to se immediately before lo, la, los or las: Se lo doy a Ana; Se lo doy a mis colegas. Se here does not mean the action is reflexive, and it does not reveal the number of recipients. Clarify when necessary. In an infinitive construction, keep the pair together: Voy a dártelo / Te lo voy a dar. An attached pair may require an accent to preserve stress. Check dártelo rather than dropping the accent. In this unit, prioritize identifying the two roles before accelerating speech."
+    },
+    {
+      "title": "Separate the thing from the recipient",
+      "body": "Start with **Entrego las llaves a Elena**. The thing delivered is **las llaves**; the recipient is **Elena**. Replace the thing alone: **Las entrego a Elena**. Replace or repeat the recipient with a pronoun: **Le entrego las llaves a Elena**. Replace both: **Se las entrego a Elena**. The final phrase can remain when it clarifies who receives them. **Se** does not tell you whether the recipient is singular or plural.\n\nNow change only the recipient: **Te las entrego a ti**. Change only the thing: **Se lo entrego a Elena**, referring to **el documento**. This controlled contrast is more useful than memorizing *se lo* as an indivisible word. The indirect pronoun comes first; **le/les** becomes **se** before **lo/la/los/las**. Neither **me** nor **te** undergoes that replacement.\n\nAfter a preposition, use **para mí**, **para ti**, **para ella**, **conmigo** and **contigo** where appropriate. **Para mí** and the indirect pronoun **me** are not interchangeable building blocks in every sentence. Explain the recipient and the object in plain words before choosing the construction."
+    }
+  ],
+  "reading": "—¿Le enviaste el horario a Marta?\n—Todavía no. Se lo voy a enviar ahora.\n—Envíalo también a los voluntarios.\n—Sí, les envío una copia. ¿Quieres el documento original?\n—Sí, por favor. ¿Me lo puedes dar después de la reunión?\n—Claro. Te lo doy a las cinco.\nLa primera pregunta contiene una forma de pasado que estudiarás pronto: enviaste, “you sent”. No necesitas producirla todavía. Identifica los destinatarios y el documento en cada respuesta; explica por qué se lo no permite saber por sí solo si hay uno o varios destinatarios.",
+  "worked": [
+    {
+      "prompt": "Complete: ___ doy el libro a Ana.",
+      "answer": "Le",
+      "reason": "Ana is one recipient; the indirect pronoun is le."
+    },
+    {
+      "prompt": "Replace both objects: Doy el libro a Ana → ___ doy a Ana.",
+      "answer": "Se lo",
+      "reason": "Le becomes se before masculine singular direct-object lo."
+    },
+    {
+      "prompt": "Complete: ___ envío una carta a mis colegas.",
+      "answer": "Les",
+      "reason": "The plural recipients require les even though carta is singular."
+    },
+    {
+      "prompt": "Complete: ___ lo doy a ti.",
+      "answer": "Te",
+      "reason": "Indirect te comes before direct lo; the a phrase clarifies the recipient."
+    },
+    {
+      "prompt": "Attach te + lo to dar, preserving stress.",
+      "answer": "dártelo",
+      "reason": "The pair stays together and the written accent preserves stress on dar."
+    },
+    {
+      "prompt": "Complete: No ___ lo doy a Ana.",
+      "answer": "se",
+      "reason": "Negation precedes the pronoun pair; le changes to se before lo."
+    }
+  ],
+  "cards": [
+    {
+      "id": "c2-u04-f01",
+      "unit": "c2-u04",
+      "kind": "production",
+      "front": "I give Ana the book",
+      "back": "Le doy el libro a Ana",
+      "example": "Le doy el libro a Ana"
+    },
+    {
+      "id": "c2-u04-f02",
+      "unit": "c2-u04",
+      "kind": "recognition",
+      "front": "Se lo doy a Ana",
+      "back": "I give it to Ana",
+      "example": "Se lo doy a Ana"
+    },
+    {
+      "id": "c2-u04-f03",
+      "unit": "c2-u04",
+      "kind": "production",
+      "front": "I send them a letter",
+      "back": "Les envío una carta",
+      "example": "Les envío una carta"
+    },
+    {
+      "id": "c2-u04-f04",
+      "unit": "c2-u04",
+      "kind": "recognition",
+      "front": "Te lo doy",
+      "back": "I give it to you",
+      "example": "Te lo doy"
+    },
+    {
+      "id": "c2-u04-f05",
+      "unit": "c2-u04",
+      "kind": "production",
+      "front": "Can you give it to me?",
+      "back": "¿Me lo puedes dar?",
+      "example": "¿Me lo puedes dar?"
+    },
+    {
+      "id": "c2-u04-f06",
+      "unit": "c2-u04",
+      "kind": "recognition",
+      "front": "Voy a dártelo",
+      "back": "I am going to give it to you",
+      "example": "Voy a dártelo"
+    },
+    {
+      "id": "c2-u04-f07",
+      "unit": "c2-u04",
+      "kind": "production",
+      "front": "I explain it to him/her/them (feminine object)",
+      "back": "Se la explico",
+      "example": "Se la explico"
+    },
+    {
+      "id": "c2-u04-f08",
+      "unit": "c2-u04",
+      "kind": "recognition",
+      "front": "Nos lo muestran",
+      "back": "They show it to us",
+      "example": "Nos lo muestran"
+    },
+    {
+      "id": "c2-u04-f09",
+      "unit": "c2-u04",
+      "kind": "production",
+      "front": "I send them to you (feminine)",
+      "back": "Te las envío",
+      "example": "Te las envío"
+    },
+    {
+      "id": "c2-u04-f10",
+      "unit": "c2-u04",
+      "kind": "recognition",
+      "front": "¿A quién se lo das?",
+      "back": "To whom are you giving it?",
+      "example": "¿A quién se lo das?"
+    },
+    {
+      "id": "c2-u04-f11",
+      "unit": "c2-u04",
+      "kind": "production",
+      "front": "Not yet",
+      "back": "Todavía no",
+      "example": "Todavía no"
+    },
+    {
+      "id": "c2-u04-f12",
+      "unit": "c2-u04",
+      "kind": "recognition",
+      "front": "Después de la reunión",
+      "back": "After the meeting",
+      "example": "Te envío el documento después de la reunión."
+    },
+    {
+      "id": "c2-u04-f13",
+      "unit": "c2-u04",
+      "kind": "production",
+      "front": "A copy for each person",
+      "back": "Una copia para cada persona",
+      "example": "Necesitamos una copia para cada persona."
+    },
+    {
+      "id": "c2-u04-f14",
+      "unit": "c2-u04",
+      "kind": "recognition",
+      "front": "Le escribo a Marta",
+      "back": "I write to Marta",
+      "example": "Le escribo a Marta"
+    },
+    {
+      "id": "c2-u04-f15",
+      "unit": "c2-u04",
+      "kind": "production",
+      "front": "I explain the plan to them",
+      "back": "Les explico el plan",
+      "example": "Les explico el plan"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c2-u04-q01",
+      "type": "cloze",
+      "prompt": "Complete: ___ doy el libro a Ana.",
+      "answers": [
+        "Le"
+      ],
+      "explanation": "Ana is one recipient; the indirect pronoun is le.",
+      "concept": "The recipient and the thing"
+    },
+    {
+      "id": "c2-u04-q02",
+      "type": "cloze",
+      "prompt": "Replace both objects: Doy el libro a Ana → ___ doy a Ana.",
+      "answers": [
+        "Se lo"
+      ],
+      "explanation": "Le becomes se before masculine singular direct-object lo.",
+      "concept": "The recipient and the thing"
+    },
+    {
+      "id": "c2-u04-q03",
+      "type": "cloze",
+      "prompt": "Complete: ___ envío una carta a mis colegas.",
+      "answers": [
+        "Les"
+      ],
+      "explanation": "The plural recipients require les even though carta is singular.",
+      "concept": "The recipient and the thing"
+    },
+    {
+      "id": "c2-u04-q04",
+      "type": "cloze",
+      "prompt": "Complete: ___ lo doy a ti.",
+      "answers": [
+        "Te"
+      ],
+      "explanation": "Indirect te comes before direct lo; the a phrase clarifies the recipient.",
+      "concept": "Two pronouns, one sequence"
+    },
+    {
+      "id": "c2-u04-q05",
+      "type": "typed",
+      "prompt": "Attach te + lo to dar, preserving stress.",
+      "answers": [
+        "dártelo"
+      ],
+      "explanation": "The pair stays together and the written accent preserves stress on dar.",
+      "concept": "Two pronouns, one sequence"
+    },
+    {
+      "id": "c2-u04-q06",
+      "type": "cloze",
+      "prompt": "Complete: No ___ lo doy a Ana.",
+      "answers": [
+        "se"
+      ],
+      "explanation": "Negation precedes the pronoun pair; le changes to se before lo.",
+      "concept": "Two pronouns, one sequence"
+    },
+    {
+      "id": "c2-u04-q07",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: I give Ana the book.",
+      "options": [
+        "Te las envío",
+        "Una copia para cada persona",
+        "Le doy el libro a Ana"
+      ],
+      "answers": [
+        "Le doy el libro a Ana"
+      ],
+      "explanation": "“Le doy el libro a Ana” expresses “I give Ana the book”. “Te las envío” instead means “I send them to you (feminine)”. “Una copia para cada persona” instead means “A copy for each person”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c2-u04-q08",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: I give it to Ana.",
+      "options": [
+        "Le escribo a Marta",
+        "Se lo doy a Ana",
+        "¿A quién se lo das?"
+      ],
+      "answers": [
+        "Se lo doy a Ana"
+      ],
+      "explanation": "“Se lo doy a Ana” expresses “I give it to Ana”. “Le escribo a Marta” instead means “I write to Marta”. “¿A quién se lo das?” instead means “To whom are you giving it?”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c2-u04-q09",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: I send them a letter.",
+      "options": [
+        "Les envío una carta",
+        "Todavía no",
+        "Les explico el plan"
+      ],
+      "answers": [
+        "Les envío una carta"
+      ],
+      "explanation": "“Les envío una carta” expresses “I send them a letter”. “Todavía no” instead means “Not yet”. “Les explico el plan” instead means “I explain the plan to them”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c2-u04-q10",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: I give it to you.",
+      "options": [
+        "Después de la reunión",
+        "Le doy el libro a Ana",
+        "Te lo doy"
+      ],
+      "answers": [
+        "Te lo doy"
+      ],
+      "explanation": "“Te lo doy” expresses “I give it to you”. “Después de la reunión” instead means “After the meeting”. “Le doy el libro a Ana” instead means “I give Ana the book”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c2-u04-q11",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: Can you give it to me?.",
+      "options": [
+        "Se lo doy a Ana",
+        "¿Me lo puedes dar?",
+        "Una copia para cada persona"
+      ],
+      "answers": [
+        "¿Me lo puedes dar?"
+      ],
+      "explanation": "“¿Me lo puedes dar?” expresses “Can you give it to me?”. “Se lo doy a Ana” instead means “I give it to Ana”. “Una copia para cada persona” instead means “A copy for each person”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c2-u04-q12",
+      "type": "matching",
+      "prompt": "Match each English meaning to its Spanish expression. Use each expression once.",
+      "answers": [
+        "[\"¿Me lo puedes dar?\",\"Se la explico\",\"Te las envío\"]"
+      ],
+      "explanation": "“¿Me lo puedes dar?” means “Can you give it to me?”. “Se la explico” means “I explain it to him/her/them (feminine object)”. “Te las envío” means “I send them to you (feminine)”. Each alternative belongs to a different meaning; check the whole phrase, including its grammatical person and register.",
+      "concept": "Meaning and register",
+      "pairs": [
+        {
+          "left": "Can you give it to me?",
+          "right": "¿Me lo puedes dar?"
+        },
+        {
+          "left": "I explain it to him/her/them (feminine object)",
+          "right": "Se la explico"
+        },
+        {
+          "left": "I send them to you (feminine)",
+          "right": "Te las envío"
+        }
+      ]
+    }
+  ],
+  "homework": [
+    {
+      "id": "c2-u04-h1",
+      "skill": "Reading & writing",
+      "prompt": "Read the original text for this unit. Identify its situation, central message, and three supporting details. Then write a new version of 100–140 words for a different person or audience. Use the target patterns, change at least three facts, and explain two revisions.",
+      "model": "—¿Le enviaste el horario a Marta?\n—Todavía no. Se lo voy a enviar ahora.\n—Envíalo también a los voluntarios.\n—Sí, les envío una copia. ¿Quieres el documento original?\n—Sí, por favor. ¿Me lo puedes dar después de la reunión?\n—Claro. Te lo doy a las cinco.\nLa primera pregunta contiene una forma de pasado que estudiarás pronto: enviaste, “you sent”. No necesitas producirla todavía. Identifica los destinatarios y el documento en cada respuesta; explica por qué se lo no permite saber por sí solo si hay uno o varios destinatarios.\n\nThis is the source model, not a text to submit unchanged. A successful adaptation retains the communicative purpose while changing relevant forms and facts. Compare with the worked examples for the reasons behind form choices.",
+      "rubric": "0–3 each: fulfills the specified purpose; organized and comprehensible; target forms support meaning; revisions are explained with examples. 0 = no evidence, 1 = substantial help needed, 2 = effective with some support, 3 = independently effective for this task. Record who evaluated the work."
+    },
+    {
+      "id": "c2-u04-h2",
+      "skill": "Listening",
+      "prompt": "Complete the resource assignment, or ask a willing reader to read the original text without showing it to you. First listen for the situation and purpose; listen again for three details and one contrast. Write a 60–100-word listening log naming the source, words actually heard, one uncertainty, and how you checked it. If using local synthesized speech, label it synthetic. Text-only preparation is not completed listening.",
+      "model": "A useful log separates the speaker’s message from your interpretation: “I heard [specific phrase]; I understood [claim]; I was uncertain about [word/relationship]; checking [text or partner] changed my interpretation to [correction].” Use the unit reading as an answer reference for a read-aloud version, never as evidence of an external speaker’s words.",
+      "rubric": "0–2 each: identifies source and listening conditions; retrieves central meaning; supports three details; checks a specific uncertainty. Do not count a copied transcript as independent comprehension."
+    },
+    {
+      "id": "c2-u04-h3",
+      "skill": "Speaking & interaction",
+      "prompt": "Organize distribution of documents to three people. Change one recipient mid-conversation. Confirm the item and recipient before completing each transfer.",
+      "model": "Use the original reading/dialogue and the sentence-pattern cards as preparation. Make a brief outline, then put it away. Your partner should introduce a detail you did not prepare. Respond, request clarification if needed, and summarize what you agreed or still disagree about. Solo fallback: record two possible viewpoints and improvise a response after a pause; label it rehearsal.",
+      "rubric": "0–3 each: task fulfillment, comprehensibility, control of target language, responsiveness to another speaker. A partner or instructor should cite one example per score. Solo rehearsal provides no evidence for live responsiveness; mark that dimension not observed."
+    },
+    {
+      "id": "c2-u04-h4",
+      "skill": "Retrieval & reflection",
+      "prompt": "On a later day, retrieve six cards without looking. Use three in a fresh response to the practical task. Identify one recurring form error and one communication difficulty. Produce a corrected example, explain the reason, and schedule a specific follow-up exchange or listening session.",
+      "model": "Compare your response with these two models: Le doy el libro a Ana / Se lo doy a Ana. A useful reflection explains the function, not just the spelling. Revisit the first worked item and create a different example of its principle.",
+      "rubric": "Report recall count separately from performance. Reflection is complete when it contains an observed difficulty, an explained correction, a fresh example, and an actionable next session."
+    }
+  ],
+  "task": "Organize distribution of documents to three people. Change one recipient mid-conversation. Confirm the item and recipient before completing each transfer.",
+  "culture": "Pronoun doubling has regional patterns beyond this introductory lesson. A clarifying a phrase is often useful and natural; do not remove it automatically as “redundant” when it prevents misunderstanding.",
+  "selfAssessment": [
+    "I can distinguish recipient from direct object.",
+    "I can combine indirect and direct pronouns in the correct order.",
+    "I can confirm who receives an item or message."
+  ],
+  "remediation": "Sort mistakes by form, meaning, and interaction. For form errors, explain a worked example and create a contrasting pair. For comprehension errors, replay a short segment or use a willing reader and verify your interpretation. For interaction difficulties, repeat the practical task with one new constraint. Compare evidence across days; repeated selection of a known answer alone is not mastery.",
+  "resources": [
+    "sd-combined"
+  ]
+}

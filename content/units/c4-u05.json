@@ -1,0 +1,384 @@
+{
+  "id": "c4-u05",
+  "course": 4,
+  "number": 5,
+  "title": "Reported speech",
+  "subtitle": "Report what someone meant",
+  "status": "authored",
+  "prerequisites": [
+    "c4-u04"
+  ],
+  "objectives": [
+    "Transform direct speech while preserving reference and stance.",
+    "Adjust time/place expressions when the context changes.",
+    "Avoid mechanical tense changes that alter current facts."
+  ],
+  "warmup": "Retrieve two sentences and one repair strategy from c4-u04. Change the subject or situation in each sentence and explain what changed. Then read today’s objectives and predict where your existing language may be insufficient.",
+  "lectures": [
+    {
+      "title": "Perspective moves",
+      "body": "Direct speech preserves a speaker’s wording: Ana dijo: «Voy mañana». Reporting from a later context may require Ana dijo que iba al día siguiente. Yo, aquí and mañana refer to the original speaker, place and day, so ask what they mean in the new report. Future can become conditional from a past viewpoint: Dijo que vendría. Requests can become reported influence: Pidió que llegáramos temprano. Do not invent a quotation if you only remember the idea. A faithful paraphrase should preserve the content, attribution and degree of certainty."
+    },
+    {
+      "title": "Backshift is not an automatic machine",
+      "body": "Spanish reporting does not require every tense to shift in every context. Dijo que vive en Quito may be appropriate if the residence is presented as still current; dijo que vivía en Quito frames it from the earlier account. The choice can affect what the reporter commits to. Preserve a speaker’s limits: dijo que quizá podría venir is not equivalent to confirmó que vendría. Distinguish a question from an assertion and a proposal from a decision. When accuracy matters, return the paraphrase to the speaker for confirmation or explicitly mark what has not been checked."
+    }
+  ],
+  "reading": "El lunes, la coordinadora dijo: «Mañana revisaremos las solicitudes aquí. Quizá podamos responder el miércoles». El jueves, Nora redacta una síntesis: «La coordinadora dijo que revisarían las solicitudes al día siguiente en la oficina y que quizá podrían responder el miércoles». Un compañero propone cambiar quizá podrían por responderían para que suene más firme. Nora rechaza el cambio porque borraría la incertidumbre original. También evita afirmar que la revisión efectivamente ocurrió: el mensaje citado anunciaba un plan, no confirmaba su ejecución. Explica qué detalles cambian por el nuevo punto de vista y cuáles deben conservarse para no alterar el compromiso de la fuente.",
+  "worked": [
+    {
+      "prompt": "Report from a later day: Dijo: “Voy mañana” → Dijo que iba ___.",
+      "answer": "al día siguiente",
+      "reason": "The time expression must be anchored to the original day, not the reporting day."
+    },
+    {
+      "prompt": "Complete: Dijo que ___ después. (venir, future from a past viewpoint)",
+      "answer": "vendría",
+      "reason": "Conditional can represent a future event viewed from the past reporting point."
+    },
+    {
+      "prompt": "Complete: Pidió que nosotros ___ temprano. (llegar, ra form)",
+      "answer": "llegáramos",
+      "reason": "A reported request with a past frame takes imperfect subjunctive; nosotros needs an accent."
+    },
+    {
+      "prompt": "Does “quizá podría venir” express the same commitment as “confirmó que vendría”? Write sí or no.",
+      "answer": "no",
+      "reason": "The first is uncertain; the second reports confirmation and would strengthen the source’s commitment."
+    },
+    {
+      "prompt": "Complete: Dijo que ___ en Quito. (vivir, current residence explicitly maintained)",
+      "answer": "vive",
+      "reason": "Indicative present can preserve a fact presented as still current; backshift is not automatic."
+    },
+    {
+      "prompt": "Complete the attribution meaning “according to her account”: ___ su relato.",
+      "answer": "según",
+      "reason": "Attribution indicates the source of the information rather than independent verification."
+    }
+  ],
+  "cards": [
+    {
+      "id": "c4-u05-f01",
+      "unit": "c4-u05",
+      "kind": "production",
+      "front": "She or he said they were going the following day",
+      "back": "Dijo que iba al día siguiente",
+      "example": "Dijo que iba al día siguiente"
+    },
+    {
+      "id": "c4-u05-f02",
+      "unit": "c4-u05",
+      "kind": "recognition",
+      "front": "Dijo que vendría después",
+      "back": "She or he said they would come later",
+      "example": "Dijo que vendría después"
+    },
+    {
+      "id": "c4-u05-f03",
+      "unit": "c4-u05",
+      "kind": "production",
+      "front": "She or he asked us to arrive early",
+      "back": "Pidió que llegáramos temprano",
+      "example": "Pidió que llegáramos temprano"
+    },
+    {
+      "id": "c4-u05-f04",
+      "unit": "c4-u05",
+      "kind": "recognition",
+      "front": "Quizá podría venir",
+      "back": "Perhaps she or he could come",
+      "example": "Quizá podría venir"
+    },
+    {
+      "id": "c4-u05-f05",
+      "unit": "c4-u05",
+      "kind": "production",
+      "front": "She or he said they live in Quito as still-current information",
+      "back": "Dijo que vive en Quito",
+      "example": "Dijo que vive en Quito"
+    },
+    {
+      "id": "c4-u05-f06",
+      "unit": "c4-u05",
+      "kind": "recognition",
+      "front": "Según su relato",
+      "back": "According to their account",
+      "example": "Según su relato, nadie había confirmado la reserva."
+    },
+    {
+      "id": "c4-u05-f07",
+      "unit": "c4-u05",
+      "kind": "production",
+      "front": "At that time",
+      "back": "En aquel momento",
+      "example": "En aquel momento, la propuesta todavía estaba en discusión."
+    },
+    {
+      "id": "c4-u05-f08",
+      "unit": "c4-u05",
+      "kind": "recognition",
+      "front": "Allí, no aquí",
+      "back": "There, not here",
+      "example": "Allí, no aquí"
+    },
+    {
+      "id": "c4-u05-f09",
+      "unit": "c4-u05",
+      "kind": "production",
+      "front": "She or he did not confirm it would happen",
+      "back": "No confirmó que fuera a ocurrir",
+      "example": "No confirmó que fuera a ocurrir"
+    },
+    {
+      "id": "c4-u05-f10",
+      "unit": "c4-u05",
+      "kind": "recognition",
+      "front": "La propuesta seguía pendiente",
+      "back": "The proposal remained pending",
+      "example": "La propuesta seguía pendiente"
+    },
+    {
+      "id": "c4-u05-f11",
+      "unit": "c4-u05",
+      "kind": "production",
+      "front": "I do not remember the exact words",
+      "back": "No recuerdo las palabras exactas",
+      "example": "No recuerdo las palabras exactas"
+    },
+    {
+      "id": "c4-u05-f12",
+      "unit": "c4-u05",
+      "kind": "recognition",
+      "front": "Lo estoy parafraseando",
+      "back": "I am paraphrasing it",
+      "example": "Lo estoy parafraseando"
+    },
+    {
+      "id": "c4-u05-f13",
+      "unit": "c4-u05",
+      "kind": "production",
+      "front": "That would change the degree of certainty",
+      "back": "Eso cambiaría el grado de certeza",
+      "example": "Eso cambiaría el grado de certeza"
+    },
+    {
+      "id": "c4-u05-f14",
+      "unit": "c4-u05",
+      "kind": "recognition",
+      "front": "¿Es fiel esta síntesis?",
+      "back": "Is this summary faithful?",
+      "example": "¿Es fiel esta síntesis?"
+    },
+    {
+      "id": "c4-u05-f15",
+      "unit": "c4-u05",
+      "kind": "production",
+      "front": "The announcement does not prove implementation",
+      "back": "El anuncio no prueba la ejecución",
+      "example": "El anuncio no prueba la ejecución"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c4-u05-q01",
+      "type": "cloze",
+      "prompt": "Report from a later day: Dijo: “Voy mañana” → Dijo que iba ___.",
+      "answers": [
+        "al día siguiente"
+      ],
+      "explanation": "The time expression must be anchored to the original day, not the reporting day.",
+      "concept": "Perspective moves"
+    },
+    {
+      "id": "c4-u05-q02",
+      "type": "cloze",
+      "prompt": "Complete: Dijo que ___ después. (venir, future from a past viewpoint)",
+      "answers": [
+        "vendría"
+      ],
+      "explanation": "Conditional can represent a future event viewed from the past reporting point.",
+      "concept": "Perspective moves"
+    },
+    {
+      "id": "c4-u05-q03",
+      "type": "cloze",
+      "prompt": "Complete: Pidió que nosotros ___ temprano. (llegar, ra form)",
+      "answers": [
+        "llegáramos"
+      ],
+      "explanation": "A reported request with a past frame takes imperfect subjunctive; nosotros needs an accent.",
+      "concept": "Perspective moves"
+    },
+    {
+      "id": "c4-u05-q04",
+      "type": "typed",
+      "prompt": "Does “quizá podría venir” express the same commitment as “confirmó que vendría”? Write sí or no.",
+      "answers": [
+        "no"
+      ],
+      "explanation": "The first is uncertain; the second reports confirmation and would strengthen the source’s commitment.",
+      "concept": "Backshift is not an automatic machine"
+    },
+    {
+      "id": "c4-u05-q05",
+      "type": "cloze",
+      "prompt": "Complete: Dijo que ___ en Quito. (vivir, current residence explicitly maintained)",
+      "answers": [
+        "vive"
+      ],
+      "explanation": "Indicative present can preserve a fact presented as still current; backshift is not automatic.",
+      "concept": "Backshift is not an automatic machine"
+    },
+    {
+      "id": "c4-u05-q06",
+      "type": "cloze",
+      "prompt": "Complete the attribution meaning “according to her account”: ___ su relato.",
+      "answers": [
+        "según"
+      ],
+      "explanation": "Attribution indicates the source of the information rather than independent verification.",
+      "concept": "Backshift is not an automatic machine"
+    },
+    {
+      "id": "c4-u05-q07",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: She or he said they were going the following day.",
+      "options": [
+        "No confirmó que fuera a ocurrir",
+        "Eso cambiaría el grado de certeza",
+        "Dijo que iba al día siguiente"
+      ],
+      "answers": [
+        "Dijo que iba al día siguiente"
+      ],
+      "explanation": "“Dijo que iba al día siguiente” expresses “She or he said they were going the following day”. “No confirmó que fuera a ocurrir” instead means “She or he did not confirm it would happen”. “Eso cambiaría el grado de certeza” instead means “That would change the degree of certainty”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c4-u05-q08",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: She or he said they would come later.",
+      "options": [
+        "¿Es fiel esta síntesis?",
+        "Dijo que vendría después",
+        "La propuesta seguía pendiente"
+      ],
+      "answers": [
+        "Dijo que vendría después"
+      ],
+      "explanation": "“Dijo que vendría después” expresses “She or he said they would come later”. “¿Es fiel esta síntesis?” instead means “Is this summary faithful?”. “La propuesta seguía pendiente” instead means “The proposal remained pending”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c4-u05-q09",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: She or he asked us to arrive early.",
+      "options": [
+        "Pidió que llegáramos temprano",
+        "No recuerdo las palabras exactas",
+        "El anuncio no prueba la ejecución"
+      ],
+      "answers": [
+        "Pidió que llegáramos temprano"
+      ],
+      "explanation": "“Pidió que llegáramos temprano” expresses “She or he asked us to arrive early”. “No recuerdo las palabras exactas” instead means “I do not remember the exact words”. “El anuncio no prueba la ejecución” instead means “The announcement does not prove implementation”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c4-u05-q10",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: Perhaps she or he could come.",
+      "options": [
+        "Lo estoy parafraseando",
+        "Dijo que iba al día siguiente",
+        "Quizá podría venir"
+      ],
+      "answers": [
+        "Quizá podría venir"
+      ],
+      "explanation": "“Quizá podría venir” expresses “Perhaps she or he could come”. “Lo estoy parafraseando” instead means “I am paraphrasing it”. “Dijo que iba al día siguiente” instead means “She or he said they were going the following day”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c4-u05-q11",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: She or he said they live in Quito as still-current information.",
+      "options": [
+        "Dijo que vendría después",
+        "Dijo que vive en Quito",
+        "Eso cambiaría el grado de certeza"
+      ],
+      "answers": [
+        "Dijo que vive en Quito"
+      ],
+      "explanation": "“Dijo que vive en Quito” expresses “She or he said they live in Quito as still-current information”. “Dijo que vendría después” instead means “She or he said they would come later”. “Eso cambiaría el grado de certeza” instead means “That would change the degree of certainty”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c4-u05-q12",
+      "type": "matching",
+      "prompt": "Match each English meaning to its Spanish expression. Use each expression once.",
+      "answers": [
+        "[\"Dijo que vive en Quito\",\"En aquel momento\",\"No confirmó que fuera a ocurrir\"]"
+      ],
+      "explanation": "“Dijo que vive en Quito” means “She or he said they live in Quito as still-current information”. “En aquel momento” means “At that time”. “No confirmó que fuera a ocurrir” means “She or he did not confirm it would happen”. Each alternative belongs to a different meaning; check the whole phrase, including its grammatical person and register.",
+      "concept": "Meaning and register",
+      "pairs": [
+        {
+          "left": "She or he said they live in Quito as still-current information",
+          "right": "Dijo que vive en Quito"
+        },
+        {
+          "left": "At that time",
+          "right": "En aquel momento"
+        },
+        {
+          "left": "She or he did not confirm it would happen",
+          "right": "No confirmó que fuera a ocurrir"
+        }
+      ]
+    }
+  ],
+  "homework": [
+    {
+      "id": "c4-u05-h1",
+      "skill": "Reading & writing",
+      "prompt": "Read the original text for this unit. Identify its situation, central message, and three supporting details. Then write a new version of 220–280 words for a different person or audience. Use the target patterns, change at least three facts, and explain two revisions.",
+      "model": "El lunes, la coordinadora dijo: «Mañana revisaremos las solicitudes aquí. Quizá podamos responder el miércoles». El jueves, Nora redacta una síntesis: «La coordinadora dijo que revisarían las solicitudes al día siguiente en la oficina y que quizá podrían responder el miércoles». Un compañero propone cambiar quizá podrían por responderían para que suene más firme. Nora rechaza el cambio porque borraría la incertidumbre original. También evita afirmar que la revisión efectivamente ocurrió: el mensaje citado anunciaba un plan, no confirmaba su ejecución. Explica qué detalles cambian por el nuevo punto de vista y cuáles deben conservarse para no alterar el compromiso de la fuente.\n\nThis is the source model, not a text to submit unchanged. A successful adaptation retains the communicative purpose while changing relevant forms and facts. Compare with the worked examples for the reasons behind form choices.",
+      "rubric": "0–3 each: fulfills the specified purpose; organized and comprehensible; target forms support meaning; revisions are explained with examples. 0 = no evidence, 1 = substantial help needed, 2 = effective with some support, 3 = independently effective for this task. Record who evaluated the work."
+    },
+    {
+      "id": "c4-u05-h2",
+      "skill": "Listening",
+      "prompt": "Complete the resource assignment, or ask a willing reader to read the original text without showing it to you. First listen for the situation and purpose; listen again for three details and one contrast. Write a 60–100-word listening log naming the source, words actually heard, one uncertainty, and how you checked it. If using local synthesized speech, label it synthetic. Text-only preparation is not completed listening.",
+      "model": "A useful log separates the speaker’s message from your interpretation: “I heard [specific phrase]; I understood [claim]; I was uncertain about [word/relationship]; checking [text or partner] changed my interpretation to [correction].” Use the unit reading as an answer reference for a read-aloud version, never as evidence of an external speaker’s words.",
+      "rubric": "0–2 each: identifies source and listening conditions; retrieves central meaning; supports three details; checks a specific uncertainty. Do not count a copied transcript as independent comprehension."
+    },
+    {
+      "id": "c4-u05-h3",
+      "skill": "Speaking & interaction",
+      "prompt": "Have a partner announce a plan with one uncertainty and one request. Report it from a later day and another place; let the partner check whether you preserved the commitment accurately.",
+      "model": "Use the original reading/dialogue and the sentence-pattern cards as preparation. Make a brief outline, then put it away. Your partner should introduce a detail you did not prepare. Respond, request clarification if needed, and summarize what you agreed or still disagree about. Solo fallback: record two possible viewpoints and improvise a response after a pause; label it rehearsal.",
+      "rubric": "0–3 each: task fulfillment, comprehensibility, control of target language, responsiveness to another speaker. A partner or instructor should cite one example per score. Solo rehearsal provides no evidence for live responsiveness; mark that dimension not observed."
+    },
+    {
+      "id": "c4-u05-h4",
+      "skill": "Retrieval & reflection",
+      "prompt": "On a later day, retrieve six cards without looking. Use three in a fresh response to the practical task. Identify one recurring form error and one communication difficulty. Produce a corrected example, explain the reason, and schedule a specific follow-up exchange or listening session.",
+      "model": "Compare your response with these two models: Dijo que iba al día siguiente / Dijo que vendría después. A useful reflection explains the function, not just the spelling. Revisit the first worked item and create a different example of its principle.",
+      "rubric": "Report recall count separately from performance. Reflection is complete when it contains an observed difficulty, an explained correction, a fresh example, and an actionable next session."
+    }
+  ],
+  "task": "Have a partner announce a plan with one uncertainty and one request. Report it from a later day and another place; let the partner check whether you preserved the commitment accurately.",
+  "culture": "Reported speech can alter reputations or decisions. Distinguish an exact quotation from a paraphrase and obtain permission before attributing sensitive remarks in a portfolio shared beyond the practice setting.",
+  "selfAssessment": [
+    "I can transform direct speech while preserving reference and stance.",
+    "I can adjust time/place expressions when the context changes.",
+    "I can avoid mechanical tense changes that alter current facts."
+  ],
+  "remediation": "Sort mistakes by form, meaning, and interaction. For form errors, explain a worked example and create a contrasting pair. For comprehension errors, replay a short segment or use a willing reader and verify your interpretation. For interaction difficulties, repeat the practical task with one new constraint. Compare evidence across days; repeated selection of a known answer alone is not mastery.",
+  "resources": [
+    "sd-conditional"
+  ]
+}

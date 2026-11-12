@@ -1,0 +1,385 @@
+{
+  "id": "c5-u03",
+  "course": 5,
+  "number": 3,
+  "title": "Complex reading & arguments",
+  "subtitle": "Read the argument behind the prose",
+  "status": "authored",
+  "prerequisites": [
+    "c5-u02"
+  ],
+  "objectives": [
+    "Identify thesis, evidence, assumptions and counterarguments.",
+    "Distinguish a descriptive claim from a recommendation.",
+    "Evaluate whether a conclusion exceeds its support."
+  ],
+  "warmup": "Retrieve two sentences and one repair strategy from c5-u02. Change the subject or situation in each sentence and explain what changed. Then read today’s objectives and predict where your existing language may be insufficient.",
+  "lectures": [
+    {
+      "title": "Una lectura en dos niveles",
+      "body": "Primero reconstruye lo que el texto intenta decir; después evalúa si lo sostiene. Busca la tesis, las razones, la evidencia y el supuesto que conecta evidencia y conclusión. Una afirmación descriptiva dice cómo es o fue algo; una normativa propone cómo debería ser. El paso de una a otra requiere criterios. Que una política sea popular no demuestra por sí solo que sea justa, accesible o eficaz. Tampoco una objeción parcial refuta necesariamente toda la propuesta. Anota el alcance exacto de las afirmaciones: algunos, en este período y según esta muestra no equivalen a todos, siempre y en cualquier contexto."
+    },
+    {
+      "title": "Criticar con fidelidad",
+      "body": "Antes de rechazar un argumento, formula su versión más sólida y localiza el pasaje que la apoya. Distingue ausencia de evidencia de evidencia de ausencia. Si un texto no estudia a no usuarios, no puedes afirmar que demuestre que no existen necesidades entre ellos. Reconoce también lo que sí aporta. Una crítica útil identifica una limitación y explica su consecuencia para una decisión concreta. Evita evaluar únicamente el estilo: un texto elegante puede tener un salto inferencial, y uno poco pulido puede contener información importante. Usa paráfrasis propias y citas breves solo cuando las condiciones de uso lo permitan."
+    }
+  ],
+  "reading": "**Argumento original para analizar.** Un grupo propone que la biblioteca cierre una hora antes porque durante tres tardes observó pocas personas en la última hora. Sostiene que el ahorro permitiría comprar más libros. La propuesta identifica un costo y un uso alternativo de recursos, pero deja abiertas varias preguntas. ¿Fueron esas tardes representativas de exámenes, vacaciones y distintos días de la semana? ¿Qué tareas realizaban las pocas personas presentes y qué alternativas tenían? ¿El ahorro calculado se produciría realmente si los contratos del personal no cambian? Estas preguntas no demuestran que el cierre sea una mala idea. Indican que la conclusión necesita evidencia sobre el período observado, el efecto del cierre y el ahorro disponible. Una recomendación provisional podría ampliar la observación antes de decidir. El lector debe distinguir esa cautela de una defensa automática del horario actual: pedir mejor evidencia no obliga a mantener para siempre cualquier política existente.",
+  "worked": [
+    {
+      "prompt": "Complete: Una afirmación ___ propone cómo debería ser algo. (normative)",
+      "answer": "normativa",
+      "reason": "A normative claim proposes what ought to be and requires explicit evaluative criteria."
+    },
+    {
+      "prompt": "Does popularity alone establish fairness? Write sí or no.",
+      "answer": "no",
+      "reason": "Popularity and fairness are different criteria; an inference between them needs justification."
+    },
+    {
+      "prompt": "Complete: Ausencia de evidencia no equivale a evidencia de ___.",
+      "answer": "ausencia",
+      "reason": "A failure to study a phenomenon does not by itself demonstrate that it is absent."
+    },
+    {
+      "prompt": "Complete: Las tres tardes podrían no ser ___. (representative)",
+      "answer": "representativas",
+      "reason": "A limited observation period may not reflect the range of relevant conditions."
+    },
+    {
+      "prompt": "Does asking for stronger evidence necessarily defend the current policy forever? Write sí or no.",
+      "answer": "no",
+      "reason": "A provisional request for evidence does not commit the reader to permanent preservation of the status quo."
+    },
+    {
+      "prompt": "Complete: La conclusión excede el ___ de los datos. (scope)",
+      "answer": "alcance",
+      "reason": "The scope of the data limits what conclusions they can support."
+    }
+  ],
+  "cards": [
+    {
+      "id": "c5-u03-f01",
+      "unit": "c5-u03",
+      "kind": "production",
+      "front": "A normative claim",
+      "back": "Una afirmación normativa",
+      "example": "Una afirmación normativa propone cómo debería ser una situación."
+    },
+    {
+      "id": "c5-u03-f02",
+      "unit": "c5-u03",
+      "kind": "recognition",
+      "front": "La popularidad no demuestra justicia",
+      "back": "Popularity does not demonstrate fairness",
+      "example": "La popularidad no demuestra justicia"
+    },
+    {
+      "id": "c5-u03-f03",
+      "unit": "c5-u03",
+      "kind": "production",
+      "front": "Absence of evidence is not evidence of absence",
+      "back": "Ausencia de evidencia no es evidencia de ausencia",
+      "example": "Ausencia de evidencia no es evidencia de ausencia"
+    },
+    {
+      "id": "c5-u03-f04",
+      "unit": "c5-u03",
+      "kind": "recognition",
+      "front": "Las observaciones no son representativas",
+      "back": "The observations are not representative",
+      "example": "Las observaciones no son representativas"
+    },
+    {
+      "id": "c5-u03-f05",
+      "unit": "c5-u03",
+      "kind": "production",
+      "front": "Asking for evidence does not imply preserving everything",
+      "back": "Pedir evidencia no implica mantener todo igual",
+      "example": "Pedir evidencia no implica mantener todo igual"
+    },
+    {
+      "id": "c5-u03-f06",
+      "unit": "c5-u03",
+      "kind": "recognition",
+      "front": "La conclusión excede el alcance de los datos",
+      "back": "The conclusion exceeds the scope of the data",
+      "example": "La conclusión excede el alcance de los datos"
+    },
+    {
+      "id": "c5-u03-f07",
+      "unit": "c5-u03",
+      "kind": "production",
+      "front": "The assumption connecting the two ideas",
+      "back": "El supuesto que conecta ambas ideas",
+      "example": "El supuesto que conecta ambas ideas"
+    },
+    {
+      "id": "c5-u03-f08",
+      "unit": "c5-u03",
+      "kind": "recognition",
+      "front": "La versión más sólida del argumento",
+      "back": "The strongest version of the argument",
+      "example": "La versión más sólida del argumento"
+    },
+    {
+      "id": "c5-u03-f09",
+      "unit": "c5-u03",
+      "kind": "production",
+      "front": "This objection is partial",
+      "back": "Esta objeción es parcial",
+      "example": "Esta objeción es parcial"
+    },
+    {
+      "id": "c5-u03-f10",
+      "unit": "c5-u03",
+      "kind": "recognition",
+      "front": "El texto aporta información relevante",
+      "back": "The text contributes relevant information",
+      "example": "El texto aporta información relevante"
+    },
+    {
+      "id": "c5-u03-f11",
+      "unit": "c5-u03",
+      "kind": "production",
+      "front": "That population was not studied",
+      "back": "No se estudió esa población",
+      "example": "No se estudió esa población"
+    },
+    {
+      "id": "c5-u03-f12",
+      "unit": "c5-u03",
+      "kind": "recognition",
+      "front": "Conviene ampliar la observación",
+      "back": "It is useful to extend observation",
+      "example": "Conviene ampliar la observación"
+    },
+    {
+      "id": "c5-u03-f13",
+      "unit": "c5-u03",
+      "kind": "production",
+      "front": "The saving is still hypothetical",
+      "back": "El ahorro es todavía hipotético",
+      "example": "El ahorro es todavía hipotético"
+    },
+    {
+      "id": "c5-u03-f14",
+      "unit": "c5-u03",
+      "kind": "recognition",
+      "front": "El criterio debe explicitarse",
+      "back": "The criterion should be made explicit",
+      "example": "El criterio debe explicitarse"
+    },
+    {
+      "id": "c5-u03-f15",
+      "unit": "c5-u03",
+      "kind": "production",
+      "front": "Caution does not equal rejection",
+      "back": "La cautela no equivale a rechazo",
+      "example": "La cautela no equivale a rechazo"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c5-u03-q01",
+      "type": "cloze",
+      "prompt": "Complete: Una afirmación ___ propone cómo debería ser algo. (normative)",
+      "answers": [
+        "normativa"
+      ],
+      "explanation": "A normative claim proposes what ought to be and requires explicit evaluative criteria.",
+      "concept": "Una lectura en dos niveles"
+    },
+    {
+      "id": "c5-u03-q02",
+      "type": "typed",
+      "prompt": "Does popularity alone establish fairness? Write sí or no.",
+      "answers": [
+        "no"
+      ],
+      "explanation": "Popularity and fairness are different criteria; an inference between them needs justification.",
+      "concept": "Una lectura en dos niveles"
+    },
+    {
+      "id": "c5-u03-q03",
+      "type": "cloze",
+      "prompt": "Complete: Ausencia de evidencia no equivale a evidencia de ___.",
+      "answers": [
+        "ausencia"
+      ],
+      "explanation": "A failure to study a phenomenon does not by itself demonstrate that it is absent.",
+      "concept": "Una lectura en dos niveles"
+    },
+    {
+      "id": "c5-u03-q04",
+      "type": "cloze",
+      "prompt": "Complete: Las tres tardes podrían no ser ___. (representative)",
+      "answers": [
+        "representativas"
+      ],
+      "explanation": "A limited observation period may not reflect the range of relevant conditions.",
+      "concept": "Criticar con fidelidad"
+    },
+    {
+      "id": "c5-u03-q05",
+      "type": "typed",
+      "prompt": "Does asking for stronger evidence necessarily defend the current policy forever? Write sí or no.",
+      "answers": [
+        "no"
+      ],
+      "explanation": "A provisional request for evidence does not commit the reader to permanent preservation of the status quo.",
+      "concept": "Criticar con fidelidad"
+    },
+    {
+      "id": "c5-u03-q06",
+      "type": "cloze",
+      "prompt": "Complete: La conclusión excede el ___ de los datos. (scope)",
+      "answers": [
+        "alcance",
+        "ámbito"
+      ],
+      "explanation": "The scope of the data limits what conclusions they can support.",
+      "concept": "Criticar con fidelidad"
+    },
+    {
+      "id": "c5-u03-q07",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: A normative claim.",
+      "options": [
+        "Esta objeción es parcial",
+        "El ahorro es todavía hipotético",
+        "Una afirmación normativa"
+      ],
+      "answers": [
+        "Una afirmación normativa"
+      ],
+      "explanation": "“Una afirmación normativa” expresses “A normative claim”. “Esta objeción es parcial” instead means “This objection is partial”. “El ahorro es todavía hipotético” instead means “The saving is still hypothetical”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c5-u03-q08",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: Popularity does not demonstrate fairness.",
+      "options": [
+        "El criterio debe explicitarse",
+        "La popularidad no demuestra justicia",
+        "El texto aporta información relevante"
+      ],
+      "answers": [
+        "La popularidad no demuestra justicia"
+      ],
+      "explanation": "“La popularidad no demuestra justicia” expresses “Popularity does not demonstrate fairness”. “El criterio debe explicitarse” instead means “The criterion should be made explicit”. “El texto aporta información relevante” instead means “The text contributes relevant information”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c5-u03-q09",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: Absence of evidence is not evidence of absence.",
+      "options": [
+        "Ausencia de evidencia no es evidencia de ausencia",
+        "No se estudió esa población",
+        "La cautela no equivale a rechazo"
+      ],
+      "answers": [
+        "Ausencia de evidencia no es evidencia de ausencia"
+      ],
+      "explanation": "“Ausencia de evidencia no es evidencia de ausencia” expresses “Absence of evidence is not evidence of absence”. “No se estudió esa población” instead means “That population was not studied”. “La cautela no equivale a rechazo” instead means “Caution does not equal rejection”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c5-u03-q10",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: The observations are not representative.",
+      "options": [
+        "Conviene ampliar la observación",
+        "Una afirmación normativa",
+        "Las observaciones no son representativas"
+      ],
+      "answers": [
+        "Las observaciones no son representativas"
+      ],
+      "explanation": "“Las observaciones no son representativas” expresses “The observations are not representative”. “Conviene ampliar la observación” instead means “It is useful to extend observation”. “Una afirmación normativa” instead means “A normative claim”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c5-u03-q11",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: Asking for evidence does not imply preserving everything.",
+      "options": [
+        "La popularidad no demuestra justicia",
+        "Pedir evidencia no implica mantener todo igual",
+        "El ahorro es todavía hipotético"
+      ],
+      "answers": [
+        "Pedir evidencia no implica mantener todo igual"
+      ],
+      "explanation": "“Pedir evidencia no implica mantener todo igual” expresses “Asking for evidence does not imply preserving everything”. “La popularidad no demuestra justicia” instead means “Popularity does not demonstrate fairness”. “El ahorro es todavía hipotético” instead means “The saving is still hypothetical”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c5-u03-q12",
+      "type": "matching",
+      "prompt": "Match each English meaning to its Spanish expression. Use each expression once.",
+      "answers": [
+        "[\"Pedir evidencia no implica mantener todo igual\",\"El supuesto que conecta ambas ideas\",\"Esta objeción es parcial\"]"
+      ],
+      "explanation": "“Pedir evidencia no implica mantener todo igual” means “Asking for evidence does not imply preserving everything”. “El supuesto que conecta ambas ideas” means “The assumption connecting the two ideas”. “Esta objeción es parcial” means “This objection is partial”. Each alternative belongs to a different meaning; check the whole phrase, including its grammatical person and register.",
+      "concept": "Meaning and register",
+      "pairs": [
+        {
+          "left": "Asking for evidence does not imply preserving everything",
+          "right": "Pedir evidencia no implica mantener todo igual"
+        },
+        {
+          "left": "The assumption connecting the two ideas",
+          "right": "El supuesto que conecta ambas ideas"
+        },
+        {
+          "left": "This objection is partial",
+          "right": "Esta objeción es parcial"
+        }
+      ]
+    }
+  ],
+  "homework": [
+    {
+      "id": "c5-u03-h1",
+      "skill": "Reading & writing",
+      "prompt": "Read the original text for this unit. Identify its situation, central message, and three supporting details. Then write a new version of 300–400 words for a different person or audience. Use the target patterns, change at least three facts, and explain two revisions.",
+      "model": "**Argumento original para analizar.** Un grupo propone que la biblioteca cierre una hora antes porque durante tres tardes observó pocas personas en la última hora. Sostiene que el ahorro permitiría comprar más libros. La propuesta identifica un costo y un uso alternativo de recursos, pero deja abiertas varias preguntas. ¿Fueron esas tardes representativas de exámenes, vacaciones y distintos días de la semana? ¿Qué tareas realizaban las pocas personas presentes y qué alternativas tenían? ¿El ahorro calculado se produciría realmente si los contratos del personal no cambian? Estas preguntas no demuestran que el cierre sea una mala idea. Indican que la conclusión necesita evidencia sobre el período observado, el efecto del cierre y el ahorro disponible. Una recomendación provisional podría ampliar la observación antes de decidir. El lector debe distinguir esa cautela de una defensa automática del horario actual: pedir mejor evidencia no obliga a mantener para siempre cualquier política existente.\n\nThis is the source model, not a text to submit unchanged. A successful adaptation retains the communicative purpose while changing relevant forms and facts. Compare with the worked examples for the reasons behind form choices.",
+      "rubric": "0–3 each: fulfills the specified purpose; organized and comprehensible; target forms support meaning; revisions are explained with examples. 0 = no evidence, 1 = substantial help needed, 2 = effective with some support, 3 = independently effective for this task. Record who evaluated the work."
+    },
+    {
+      "id": "c5-u03-h2",
+      "skill": "Listening",
+      "prompt": "Complete the resource assignment, or ask a willing reader to read the original text without showing it to you. First listen for the situation and purpose; listen again for three details and one contrast. Write a 60–100-word listening log naming the source, words actually heard, one uncertainty, and how you checked it. If using local synthesized speech, label it synthetic. Text-only preparation is not completed listening.",
+      "model": "A useful log separates the speaker’s message from your interpretation: “I heard [specific phrase]; I understood [claim]; I was uncertain about [word/relationship]; checking [text or partner] changed my interpretation to [correction].” Use the unit reading as an answer reference for a read-aloud version, never as evidence of an external speaker’s words.",
+      "rubric": "0–2 each: identifies source and listening conditions; retrieves central meaning; supports three details; checks a specific uncertainty. Do not count a copied transcript as independent comprehension."
+    },
+    {
+      "id": "c5-u03-h3",
+      "skill": "Speaking & interaction",
+      "prompt": "Annotate an accessible complex article or the original argument. Produce a thesis–evidence–assumption map, then defend one strength and one consequential limitation in discussion.",
+      "model": "Use the original reading/dialogue and the sentence-pattern cards as preparation. Make a brief outline, then put it away. Your partner should introduce a detail you did not prepare. Respond, request clarification if needed, and summarize what you agreed or still disagree about. Solo fallback: record two possible viewpoints and improvise a response after a pause; label it rehearsal.",
+      "rubric": "0–3 each: task fulfillment, comprehensibility, control of target language, responsiveness to another speaker. A partner or instructor should cite one example per score. Solo rehearsal provides no evidence for live responsiveness; mark that dimension not observed."
+    },
+    {
+      "id": "c5-u03-h4",
+      "skill": "Retrieval & reflection",
+      "prompt": "On a later day, retrieve six cards without looking. Use three in a fresh response to the practical task. Identify one recurring form error and one communication difficulty. Produce a corrected example, explain the reason, and schedule a specific follow-up exchange or listening session.",
+      "model": "Compare your response with these two models: Una afirmación normativa / La popularidad no demuestra justicia. A useful reflection explains the function, not just the spelling. Revisit the first worked item and create a different example of its principle.",
+      "rubric": "Report recall count separately from performance. Reflection is complete when it contains an observed difficulty, an explained correction, a fresh example, and an actionable next session."
+    }
+  ],
+  "task": "Annotate an accessible complex article or the original argument. Produce a thesis–evidence–assumption map, then defend one strength and one consequential limitation in discussion.",
+  "culture": "Argument evaluation should not depend on whether a text matches your preferred political or cultural view. Apply the same questions about scope, evidence and inference to claims you find appealing.",
+  "selfAssessment": [
+    "I can identify thesis, evidence, assumptions and counterarguments.",
+    "I can distinguish a descriptive claim from a recommendation.",
+    "I can evaluate whether a conclusion exceeds its support."
+  ],
+  "remediation": "Sort mistakes by form, meaning, and interaction. For form errors, explain a worked example and create a contrasting pair. For comprehension errors, replay a short segment or use a willing reader and verify your interpretation. For interaction difficulties, repeat the practical task with one new constraint. Compare evidence across days; repeated selection of a known answer alone is not mastery.",
+  "resources": [
+    "cervantes-readings"
+  ]
+}

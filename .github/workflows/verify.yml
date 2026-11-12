@@ -1,4 +1,4 @@
-name: Verify learning preview
+name: Verify offline learning library
 on: [push, pull_request, workflow_dispatch]
 permissions:
   contents: read
@@ -19,7 +19,7 @@ jobs:
       - run: npm run test:e2e
       - uses: actions/upload-artifact@v4
         with:
-          name: learning-preview-and-printable-guides
+          name: offline-learning-and-printable-guides
           path: |
             dist/
             release/

@@ -1,0 +1,387 @@
+{
+  "id": "c5-u10",
+  "course": 5,
+  "number": 10,
+  "title": "Literature, film & humor",
+  "subtitle": "Interpret a story, scene or joke",
+  "status": "authored",
+  "prerequisites": [
+    "c5-u09"
+  ],
+  "objectives": [
+    "Distinguish narrator, character and author.",
+    "Support an interpretation with specific textual or audiovisual evidence.",
+    "Explain ambiguity, irony or humor without claiming one universal reading."
+  ],
+  "warmup": "Retrieve two sentences and one repair strategy from c5-u09. Change the subject or situation in each sentence and explain what changed. Then read today’s objectives and predict where your existing language may be insufficient.",
+  "lectures": [
+    {
+      "title": "Interpretar no es adivinar al autor",
+      "body": "En una obra, distingue quién narra, quién habla y qué sabe cada personaje. Una afirmación de un narrador no coincide necesariamente con la opinión del autor. Observa repeticiones, silencios, contrastes y cambios de perspectiva. En cine, añade encuadre, montaje, sonido y actuación, sin inventar detalles de una escena que no viste. Una interpretación debe conectar un indicio con una explicación y reconocer alternativas plausibles. No todas las lecturas tienen el mismo apoyo, pero el texto tampoco suele reducirse a una única moraleja que deba adivinarse."
+    },
+    {
+      "title": "Humor y referencias compartidas",
+      "body": "La ironía puede producir una distancia entre las palabras literales y el contexto: “Qué puntualidad” ante un retraso puede ser una crítica, una broma afectuosa o algo más ambiguo. La relación entre los personajes importa. Explica el mecanismo del humor antes de generalizar sobre una cultura: contraste, doble sentido, expectativa frustrada o referencia compartida. Cuando una broma afecta a una persona, distinguir intención y efecto sigue siendo relevante. Para material externo, utiliza obras de acceso legítimo y enlaza al creador; no redistribuyas películas, transcripciones ni fragmentos extensos sin autorización."
+    }
+  ],
+  "reading": "**Microficción original: La silla reservada.** Cada jueves, Elena dejaba una silla vacía junto a la ventana de la biblioteca. Nadie preguntaba por quién esperaba. Una tarde llegó Tomás con veinte minutos de retraso y dijo que el autobús había decidido tomarse vacaciones. «Qué puntualidad», respondió Elena, sin levantar la vista. Tomás se sentó en otra silla. Durante una hora, ambos leyeron en silencio. Al cerrar, una niña preguntó por qué nadie usaba el asiento de la ventana. Elena miró a Tomás y dijo: «Porque todavía no hemos decidido si está reservado». Él sonrió, pero no respondió. Al jueves siguiente, la silla seguía vacía; esta vez había dos libros encima. El relato no explica directamente la relación entre los personajes ni el significado de la reserva. Examina qué puede inferirse de la repetición, la ironía y el gesto final, y qué permanece abierto. Defiende dos lecturas posibles sin añadir una biografía que el texto no ofrece.",
+  "worked": [
+    {
+      "prompt": "Does a narrator’s statement always equal the author’s belief? Write sí or no.",
+      "answer": "no",
+      "reason": "Narrator and author are distinct interpretive roles; a text may create distance between them."
+    },
+    {
+      "prompt": "Complete: Una interpretación necesita ___ textuales. (clues)",
+      "answer": "indicios",
+      "reason": "Specific textual clues connect the interpretation to observable features rather than invention."
+    },
+    {
+      "prompt": "In the microfiction, is the characters’ full relationship explicitly explained? Write sí or no.",
+      "answer": "no",
+      "reason": "The text leaves the relationship open; a reading must preserve that uncertainty."
+    },
+    {
+      "prompt": "Complete: La ironía puede contrastar sentido literal y ___.",
+      "answer": "contexto",
+      "reason": "Context can create a gap between literal wording and intended or perceived force."
+    },
+    {
+      "prompt": "Complete: No conviene ___ una biografía que el texto no ofrece. (invent)",
+      "answer": "inventar",
+      "reason": "Unsupported biographical detail would exceed the text’s evidence."
+    },
+    {
+      "prompt": "Complete: Dos lecturas pueden ser plausibles si tienen ___ en el texto. (support)",
+      "answer": "apoyo",
+      "reason": "Alternative readings should be assessed by their textual support, not assumed equally valid without evidence."
+    }
+  ],
+  "cards": [
+    {
+      "id": "c5-u10-f01",
+      "unit": "c5-u10",
+      "kind": "production",
+      "front": "The narrator is not the author",
+      "back": "El narrador no equivale al autor",
+      "example": "El narrador no equivale al autor"
+    },
+    {
+      "id": "c5-u10-f02",
+      "unit": "c5-u10",
+      "kind": "recognition",
+      "front": "La lectura se apoya en indicios textuales",
+      "back": "The reading rests on textual clues",
+      "example": "La lectura se apoya en indicios textuales"
+    },
+    {
+      "id": "c5-u10-f03",
+      "unit": "c5-u10",
+      "kind": "production",
+      "front": "The relationship remains open",
+      "back": "La relación queda abierta",
+      "example": "La relación queda abierta"
+    },
+    {
+      "id": "c5-u10-f04",
+      "unit": "c5-u10",
+      "kind": "recognition",
+      "front": "La ironía depende del contexto",
+      "back": "Irony depends on context",
+      "example": "La ironía depende del contexto"
+    },
+    {
+      "id": "c5-u10-f05",
+      "unit": "c5-u10",
+      "kind": "production",
+      "front": "We should not invent a biography",
+      "back": "No conviene inventar una biografía",
+      "example": "No conviene inventar una biografía"
+    },
+    {
+      "id": "c5-u10-f06",
+      "unit": "c5-u10",
+      "kind": "recognition",
+      "front": "Ambas lecturas tienen apoyo en el texto",
+      "back": "Both readings have textual support",
+      "example": "Ambas lecturas tienen apoyo en el texto"
+    },
+    {
+      "id": "c5-u10-f07",
+      "unit": "c5-u10",
+      "kind": "production",
+      "front": "The repetition suggests…",
+      "back": "La repetición sugiere…",
+      "example": "La repetición sugiere que la espera tiene importancia para el personaje."
+    },
+    {
+      "id": "c5-u10-f08",
+      "unit": "c5-u10",
+      "kind": "recognition",
+      "front": "El silencio puede interpretarse como…",
+      "back": "The silence can be interpreted as…",
+      "example": "El silencio puede interpretarse como una duda, aunque el texto no lo confirma."
+    },
+    {
+      "id": "c5-u10-f09",
+      "unit": "c5-u10",
+      "kind": "production",
+      "front": "The final gesture changes the reading",
+      "back": "El gesto final modifica la lectura",
+      "example": "El gesto final modifica la lectura"
+    },
+    {
+      "id": "c5-u10-f10",
+      "unit": "c5-u10",
+      "kind": "recognition",
+      "front": "No es la única interpretación posible",
+      "back": "It is not the only possible interpretation",
+      "example": "No es la única interpretación posible"
+    },
+    {
+      "id": "c5-u10-f11",
+      "unit": "c5-u10",
+      "kind": "production",
+      "front": "The expectation is frustrated",
+      "back": "La expectativa se frustra",
+      "example": "La expectativa se frustra"
+    },
+    {
+      "id": "c5-u10-f12",
+      "unit": "c5-u10",
+      "kind": "recognition",
+      "front": "La broma admite varios efectos",
+      "back": "The joke allows several effects",
+      "example": "La broma admite varios efectos"
+    },
+    {
+      "id": "c5-u10-f13",
+      "unit": "c5-u10",
+      "kind": "production",
+      "front": "One would need to see the full scene",
+      "back": "Habría que ver la escena completa",
+      "example": "Habría que ver la escena completa"
+    },
+    {
+      "id": "c5-u10-f14",
+      "unit": "c5-u10",
+      "kind": "recognition",
+      "front": "No atribuyo esa opinión al autor",
+      "back": "I do not attribute that opinion to the author",
+      "example": "No atribuyo esa opinión al autor"
+    },
+    {
+      "id": "c5-u10-f15",
+      "unit": "c5-u10",
+      "kind": "production",
+      "front": "My reading has this limit",
+      "back": "Mi lectura tiene este límite",
+      "example": "Mi lectura tiene este límite"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c5-u10-q01",
+      "type": "typed",
+      "prompt": "Does a narrator’s statement always equal the author’s belief? Write sí or no.",
+      "answers": [
+        "no"
+      ],
+      "explanation": "Narrator and author are distinct interpretive roles; a text may create distance between them.",
+      "concept": "Interpretar no es adivinar al autor"
+    },
+    {
+      "id": "c5-u10-q02",
+      "type": "cloze",
+      "prompt": "Complete: Una interpretación necesita ___ textuales. (clues)",
+      "answers": [
+        "indicios",
+        "pistas"
+      ],
+      "explanation": "Specific textual clues connect the interpretation to observable features rather than invention.",
+      "concept": "Interpretar no es adivinar al autor"
+    },
+    {
+      "id": "c5-u10-q03",
+      "type": "typed",
+      "prompt": "In the microfiction, is the characters’ full relationship explicitly explained? Write sí or no.",
+      "answers": [
+        "no"
+      ],
+      "explanation": "The text leaves the relationship open; a reading must preserve that uncertainty.",
+      "concept": "Interpretar no es adivinar al autor"
+    },
+    {
+      "id": "c5-u10-q04",
+      "type": "cloze",
+      "prompt": "Complete: La ironía puede contrastar sentido literal y ___. (context)",
+      "answers": [
+        "contexto"
+      ],
+      "explanation": "Context can create a gap between literal wording and intended or perceived force.",
+      "concept": "Humor y referencias compartidas"
+    },
+    {
+      "id": "c5-u10-q05",
+      "type": "cloze",
+      "prompt": "Complete: No conviene ___ una biografía que el texto no ofrece. (invent)",
+      "answers": [
+        "inventar"
+      ],
+      "explanation": "Unsupported biographical detail would exceed the text’s evidence.",
+      "concept": "Humor y referencias compartidas"
+    },
+    {
+      "id": "c5-u10-q06",
+      "type": "cloze",
+      "prompt": "Complete: Dos lecturas pueden ser plausibles si tienen ___ en el texto. (support)",
+      "answers": [
+        "apoyo",
+        "sustento",
+        "respaldo"
+      ],
+      "explanation": "Alternative readings should be assessed by their textual support, not assumed equally valid without evidence.",
+      "concept": "Humor y referencias compartidas"
+    },
+    {
+      "id": "c5-u10-q07",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: The narrator is not the author.",
+      "options": [
+        "El gesto final modifica la lectura",
+        "Habría que ver la escena completa",
+        "El narrador no equivale al autor"
+      ],
+      "answers": [
+        "El narrador no equivale al autor"
+      ],
+      "explanation": "“El narrador no equivale al autor” expresses “The narrator is not the author”. “El gesto final modifica la lectura” instead means “The final gesture changes the reading”. “Habría que ver la escena completa” instead means “One would need to see the full scene”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c5-u10-q08",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: The reading rests on textual clues.",
+      "options": [
+        "No atribuyo esa opinión al autor",
+        "La lectura se apoya en indicios textuales",
+        "No es la única interpretación posible"
+      ],
+      "answers": [
+        "La lectura se apoya en indicios textuales"
+      ],
+      "explanation": "“La lectura se apoya en indicios textuales” expresses “The reading rests on textual clues”. “No atribuyo esa opinión al autor” instead means “I do not attribute that opinion to the author”. “No es la única interpretación posible” instead means “It is not the only possible interpretation”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c5-u10-q09",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: The relationship remains open.",
+      "options": [
+        "La relación queda abierta",
+        "La expectativa se frustra",
+        "Mi lectura tiene este límite"
+      ],
+      "answers": [
+        "La relación queda abierta"
+      ],
+      "explanation": "“La relación queda abierta” expresses “The relationship remains open”. “La expectativa se frustra” instead means “The expectation is frustrated”. “Mi lectura tiene este límite” instead means “My reading has this limit”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c5-u10-q10",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: Irony depends on context.",
+      "options": [
+        "La broma admite varios efectos",
+        "El narrador no equivale al autor",
+        "La ironía depende del contexto"
+      ],
+      "answers": [
+        "La ironía depende del contexto"
+      ],
+      "explanation": "“La ironía depende del contexto” expresses “Irony depends on context”. “La broma admite varios efectos” instead means “The joke allows several effects”. “El narrador no equivale al autor” instead means “The narrator is not the author”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c5-u10-q11",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: We should not invent a biography.",
+      "options": [
+        "La lectura se apoya en indicios textuales",
+        "No conviene inventar una biografía",
+        "Habría que ver la escena completa"
+      ],
+      "answers": [
+        "No conviene inventar una biografía"
+      ],
+      "explanation": "“No conviene inventar una biografía” expresses “We should not invent a biography”. “La lectura se apoya en indicios textuales” instead means “The reading rests on textual clues”. “Habría que ver la escena completa” instead means “One would need to see the full scene”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c5-u10-q12",
+      "type": "matching",
+      "prompt": "Match each English meaning to its Spanish expression. Use each expression once.",
+      "answers": [
+        "[\"No conviene inventar una biografía\",\"La repetición sugiere…\",\"El gesto final modifica la lectura\"]"
+      ],
+      "explanation": "“No conviene inventar una biografía” means “We should not invent a biography”. “La repetición sugiere…” means “The repetition suggests…”. “El gesto final modifica la lectura” means “The final gesture changes the reading”. Each alternative belongs to a different meaning; check the whole phrase, including its grammatical person and register.",
+      "concept": "Meaning and register",
+      "pairs": [
+        {
+          "left": "We should not invent a biography",
+          "right": "No conviene inventar una biografía"
+        },
+        {
+          "left": "The repetition suggests…",
+          "right": "La repetición sugiere…"
+        },
+        {
+          "left": "The final gesture changes the reading",
+          "right": "El gesto final modifica la lectura"
+        }
+      ]
+    }
+  ],
+  "homework": [
+    {
+      "id": "c5-u10-h1",
+      "skill": "Reading & writing",
+      "prompt": "Read the original text for this unit. Identify its situation, central message, and three supporting details. Then write a new version of 300–400 words for a different person or audience. Use the target patterns, change at least three facts, and explain two revisions.",
+      "model": "**Microficción original: La silla reservada.** Cada jueves, Elena dejaba una silla vacía junto a la ventana de la biblioteca. Nadie preguntaba por quién esperaba. Una tarde llegó Tomás con veinte minutos de retraso y dijo que el autobús había decidido tomarse vacaciones. «Qué puntualidad», respondió Elena, sin levantar la vista. Tomás se sentó en otra silla. Durante una hora, ambos leyeron en silencio. Al cerrar, una niña preguntó por qué nadie usaba el asiento de la ventana. Elena miró a Tomás y dijo: «Porque todavía no hemos decidido si está reservado». Él sonrió, pero no respondió. Al jueves siguiente, la silla seguía vacía; esta vez había dos libros encima. El relato no explica directamente la relación entre los personajes ni el significado de la reserva. Examina qué puede inferirse de la repetición, la ironía y el gesto final, y qué permanece abierto. Defiende dos lecturas posibles sin añadir una biografía que el texto no ofrece.\n\nThis is the source model, not a text to submit unchanged. A successful adaptation retains the communicative purpose while changing relevant forms and facts. Compare with the worked examples for the reasons behind form choices.",
+      "rubric": "0–3 each: fulfills the specified purpose; organized and comprehensible; target forms support meaning; revisions are explained with examples. 0 = no evidence, 1 = substantial help needed, 2 = effective with some support, 3 = independently effective for this task. Record who evaluated the work."
+    },
+    {
+      "id": "c5-u10-h2",
+      "skill": "Listening",
+      "prompt": "Complete the resource assignment, or ask a willing reader to read the original text without showing it to you. First listen for the situation and purpose; listen again for three details and one contrast. Write a 60–100-word listening log naming the source, words actually heard, one uncertainty, and how you checked it. If using local synthesized speech, label it synthetic. Text-only preparation is not completed listening.",
+      "model": "A useful log separates the speaker’s message from your interpretation: “I heard [specific phrase]; I understood [claim]; I was uncertain about [word/relationship]; checking [text or partner] changed my interpretation to [correction].” Use the unit reading as an answer reference for a read-aloud version, never as evidence of an external speaker’s words.",
+      "rubric": "0–2 each: identifies source and listening conditions; retrieves central meaning; supports three details; checks a specific uncertainty. Do not count a copied transcript as independent comprehension."
+    },
+    {
+      "id": "c5-u10-h3",
+      "skill": "Speaking & interaction",
+      "prompt": "Interpret the original microfiction with a partner, then compare it with a legally accessible short reading or scene you can actually inspect. Support two interpretations and respond to an alternative reading.",
+      "model": "Use the original reading/dialogue and the sentence-pattern cards as preparation. Make a brief outline, then put it away. Your partner should introduce a detail you did not prepare. Respond, request clarification if needed, and summarize what you agreed or still disagree about. Solo fallback: record two possible viewpoints and improvise a response after a pause; label it rehearsal.",
+      "rubric": "0–3 each: task fulfillment, comprehensibility, control of target language, responsiveness to another speaker. A partner or instructor should cite one example per score. Solo rehearsal provides no evidence for live responsiveness; mark that dimension not observed."
+    },
+    {
+      "id": "c5-u10-h4",
+      "skill": "Retrieval & reflection",
+      "prompt": "On a later day, retrieve six cards without looking. Use three in a fresh response to the practical task. Identify one recurring form error and one communication difficulty. Produce a corrected example, explain the reason, and schedule a specific follow-up exchange or listening session.",
+      "model": "Compare your response with these two models: El narrador no equivale al autor / La lectura se apoya en indicios textuales. A useful reflection explains the function, not just the spelling. Revisit the first worked item and create a different example of its principle.",
+      "rubric": "Report recall count separately from performance. Reflection is complete when it contains an observed difficulty, an explained correction, a fresh example, and an actionable next session."
+    }
+  ],
+  "task": "Interpret the original microfiction with a partner, then compare it with a legally accessible short reading or scene you can actually inspect. Support two interpretations and respond to an alternative reading.",
+  "culture": "Humor and literary references are not shared uniformly across a language community. A missed joke may reflect an unfamiliar reference rather than inadequate general proficiency. Explain the context without treating a culture as homogeneous.",
+  "selfAssessment": [
+    "I can distinguish narrator, character and author.",
+    "I can support an interpretation with specific textual or audiovisual evidence.",
+    "I can explain ambiguity, irony or humor without claiming one universal reading."
+  ],
+  "remediation": "Sort mistakes by form, meaning, and interaction. For form errors, explain a worked example and create a contrasting pair. For comprehension errors, replay a short segment or use a willing reader and verify your interpretation. For interaction difficulties, repeat the practical task with one new constraint. Compare evidence across days; repeated selection of a known answer alone is not mastery.",
+  "resources": [
+    "cervantes-readings"
+  ]
+}

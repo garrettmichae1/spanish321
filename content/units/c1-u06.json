@@ -346,6 +346,30 @@
       ],
       "explanation": "“¿Cuántos libros?” communicates “How many books?.” The other choices communicate “One moment, please” and “Where do you work?”; those do not answer this prompt.",
       "concept": "Meaning in context"
+    },
+    {
+      "id": "c1-u06-q13",
+      "type": "matching",
+      "prompt": "Match each English meaning to its Spanish expression. Use each expression once.",
+      "answers": [
+        "[\"¿Cómo se escribe?\",\"¿Cuántas clases?\",\"Porque trabajo aquí\"]"
+      ],
+      "explanation": "“¿Cómo se escribe?” means “How is it spelled?”. “¿Cuántas clases?” means “How many classes?”. “Porque trabajo aquí” means “Because I work here”. Each alternative belongs to a different meaning; check the whole phrase, including its grammatical person and register.",
+      "concept": "Meaning and register",
+      "pairs": [
+        {
+          "left": "How is it spelled?",
+          "right": "¿Cómo se escribe?"
+        },
+        {
+          "left": "How many classes?",
+          "right": "¿Cuántas clases?"
+        },
+        {
+          "left": "Because I work here",
+          "right": "Porque trabajo aquí"
+        }
+      ]
     }
   ],
   "homework": [

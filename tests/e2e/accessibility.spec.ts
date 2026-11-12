@@ -11,6 +11,10 @@ test("core screens have no automated WCAG A/AA violations", async ({
     "Assignments",
     "Flashcards",
     "Settings",
+    "Courses",
+    "Resources",
+    "Portfolio",
+    "Practice studio",
   ]) {
     if (screen === "Lesson")
       await page.getByRole("button", { name: "Start learning" }).click();

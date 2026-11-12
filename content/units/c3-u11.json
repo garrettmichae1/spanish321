@@ -1,0 +1,387 @@
+{
+  "id": "c3-u11",
+  "course": 3,
+  "number": 11,
+  "title": "Opinions & conversation repair",
+  "subtitle": "Disagree and keep the exchange going",
+  "status": "authored",
+  "prerequisites": [
+    "c3-u10"
+  ],
+  "objectives": [
+    "State an opinion with a reason and example.",
+    "Acknowledge a different position without falsely agreeing.",
+    "Use repair strategies during spontaneous discussion."
+  ],
+  "warmup": "Retrieve two sentences and one repair strategy from c3-u10. Change the subject or situation in each sentence and explain what changed. Then read today’s objectives and predict where your existing language may be insufficient.",
+  "lectures": [
+    {
+      "title": "Separate position, support and scope",
+      "body": "A useful opinion has a claim, a reason and an example: Creo que ampliar el horario ayudaría, porque algunas personas trabajan hasta tarde; por ejemplo…. Scope matters: a few comments do not establish what everyone wants. Use en mi experiencia or según la encuesta when that is the actual basis. Estoy de acuerdo en que… can identify common ground without agreeing with every conclusion. No estoy convencido de que… normally introduces a non-asserted conclusion with subjunctive. The aim is to make the relationship between evidence and opinion visible."
+    },
+    {
+      "title": "Repair is a collaborative skill",
+      "body": "When comprehension fails, ask a focused question: ¿Te refieres al horario del sábado o al de toda la semana? A general ¿Qué? is sometimes enough, but a focused repair shows what you did understand. To reformulate your own point, use lo que quiero decir es…; to check, use si te entiendo bien…. Acknowledge correction explicitly and change course. Polite disagreement can remain direct: Entiendo la ventaja, pero me preocupa el costo. Do not fill every pause with memorized connectors; a short pause to think may produce a more relevant response than a fluent but unrelated sentence."
+    }
+  ],
+  "reading": "—Creo que deberíamos abrir los domingos porque algunas familias no pueden venir entre semana.\n—Entiendo la ventaja, pero me preocupa el costo. No estoy convencida de que tengamos personal suficiente.\n—¿Te refieres a todos los domingos o a una prueba de un mes?\n—A un horario permanente. Una prueba limitada podría ser viable.\n—Entonces coincidimos en explorar una prueba. Lo que quiero decir es que necesitamos escuchar a las familias antes de fijar el horario.\n—De acuerdo. También habría que preguntar a quienes trabajan aquí.\nExplica cómo una pregunta de aclaración cambia el desacuerdo y qué información falta antes de decidir.",
+  "worked": [
+    {
+      "prompt": "Complete: Creo que ampliar el horario ___ útil. (ser, asserted opinion)",
+      "answer": "es",
+      "reason": "An affirmative belief normally presents its content with indicative."
+    },
+    {
+      "prompt": "Complete: No estoy convencida de que ___ personal suficiente. (tener, nosotros)",
+      "answer": "tengamos",
+      "reason": "The non-committal evaluative construction takes subjunctive here."
+    },
+    {
+      "prompt": "Write the reformulation phrase “What I mean is…”",
+      "answer": "Lo que quiero decir es",
+      "reason": "This introduces a clearer statement of the speaker’s intended point."
+    },
+    {
+      "prompt": "Complete: Si te ___ bien, propones una prueba. (entender, yo)",
+      "answer": "entiendo",
+      "reason": "This checks comprehension in the present indicative rather than pretending certainty."
+    },
+    {
+      "prompt": "Complete: Entiendo la ventaja, ___ me preocupa el costo.",
+      "answer": "pero",
+      "reason": "Pero acknowledges one point while introducing a relevant contrast."
+    },
+    {
+      "prompt": "Complete: ___ mi experiencia, funciona mejor.",
+      "answer": "En",
+      "reason": "En mi experiencia limits the claim to the speaker’s own experience."
+    }
+  ],
+  "cards": [
+    {
+      "id": "c3-u11-f01",
+      "unit": "c3-u11",
+      "kind": "production",
+      "front": "I think it would be useful",
+      "back": "Creo que sería útil",
+      "example": "Creo que sería útil"
+    },
+    {
+      "id": "c3-u11-f02",
+      "unit": "c3-u11",
+      "kind": "recognition",
+      "front": "No estoy convencida de que sea viable",
+      "back": "I am not convinced it is feasible",
+      "example": "No estoy convencida de que sea viable"
+    },
+    {
+      "id": "c3-u11-f03",
+      "unit": "c3-u11",
+      "kind": "production",
+      "front": "What I mean is…",
+      "back": "Lo que quiero decir es…",
+      "example": "Lo que quiero decir es que necesitamos más información."
+    },
+    {
+      "id": "c3-u11-f04",
+      "unit": "c3-u11",
+      "kind": "recognition",
+      "front": "Si te entiendo bien",
+      "back": "If I understand you correctly",
+      "example": "Si te entiendo bien"
+    },
+    {
+      "id": "c3-u11-f05",
+      "unit": "c3-u11",
+      "kind": "production",
+      "front": "I understand the advantage, but…",
+      "back": "Entiendo la ventaja, pero…",
+      "example": "Entiendo la ventaja, pero me preocupa el costo."
+    },
+    {
+      "id": "c3-u11-f06",
+      "unit": "c3-u11",
+      "kind": "recognition",
+      "front": "En mi experiencia",
+      "back": "In my experience",
+      "example": "En mi experiencia, una instrucción breve facilita la tarea."
+    },
+    {
+      "id": "c3-u11-f07",
+      "unit": "c3-u11",
+      "kind": "production",
+      "front": "Do you mean Saturday?",
+      "back": "¿Te refieres al sábado?",
+      "example": "¿Te refieres al sábado?"
+    },
+    {
+      "id": "c3-u11-f08",
+      "unit": "c3-u11",
+      "kind": "recognition",
+      "front": "Estoy de acuerdo en ese punto",
+      "back": "I agree on that point",
+      "example": "Estoy de acuerdo en ese punto"
+    },
+    {
+      "id": "c3-u11-f09",
+      "unit": "c3-u11",
+      "kind": "production",
+      "front": "Not necessarily",
+      "back": "No necesariamente",
+      "example": "No necesariamente"
+    },
+    {
+      "id": "c3-u11-f10",
+      "unit": "c3-u11",
+      "kind": "recognition",
+      "front": "¿En qué te basas?",
+      "back": "What is your basis for that?",
+      "example": "¿En qué te basas?"
+    },
+    {
+      "id": "c3-u11-f11",
+      "unit": "c3-u11",
+      "kind": "production",
+      "front": "We can check it",
+      "back": "Podemos comprobarlo",
+      "example": "Podemos comprobarlo"
+    },
+    {
+      "id": "c3-u11-f12",
+      "unit": "c3-u11",
+      "kind": "recognition",
+      "front": "Necesito aclarar mi idea",
+      "back": "I need to clarify my idea",
+      "example": "Necesito aclarar mi idea"
+    },
+    {
+      "id": "c3-u11-f13",
+      "unit": "c3-u11",
+      "kind": "production",
+      "front": "Thank you for the correction",
+      "back": "Gracias por la corrección",
+      "example": "Gracias por la corrección"
+    },
+    {
+      "id": "c3-u11-f14",
+      "unit": "c3-u11",
+      "kind": "recognition",
+      "front": "Tenemos un punto en común",
+      "back": "We have a point in common",
+      "example": "Tenemos un punto en común"
+    },
+    {
+      "id": "c3-u11-f15",
+      "unit": "c3-u11",
+      "kind": "production",
+      "front": "We are missing information",
+      "back": "Nos falta información",
+      "example": "Nos falta información"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c3-u11-q01",
+      "type": "cloze",
+      "prompt": "Complete: Creo que ampliar el horario ___ útil. (ser, asserted opinion)",
+      "answers": [
+        "es"
+      ],
+      "explanation": "An affirmative belief normally presents its content with indicative.",
+      "concept": "Separate position, support and scope"
+    },
+    {
+      "id": "c3-u11-q02",
+      "type": "cloze",
+      "prompt": "Complete: No estoy convencida de que ___ personal suficiente. (tener, nosotros)",
+      "answers": [
+        "tengamos"
+      ],
+      "explanation": "The non-committal evaluative construction takes subjunctive here.",
+      "concept": "Separate position, support and scope"
+    },
+    {
+      "id": "c3-u11-q03",
+      "type": "typed",
+      "prompt": "Write the reformulation phrase “What I mean is…”, beginning with Lo que.",
+      "answers": [
+        "Lo que quiero decir es",
+        "Lo que quiero decir es…"
+      ],
+      "explanation": "This introduces a clearer statement of the speaker’s intended point.",
+      "concept": "Separate position, support and scope"
+    },
+    {
+      "id": "c3-u11-q04",
+      "type": "cloze",
+      "prompt": "Complete: Si te ___ bien, propones una prueba. (entender, yo)",
+      "answers": [
+        "entiendo"
+      ],
+      "explanation": "This checks comprehension in the present indicative rather than pretending certainty.",
+      "concept": "Repair is a collaborative skill"
+    },
+    {
+      "id": "c3-u11-q05",
+      "type": "cloze",
+      "prompt": "Complete: Entiendo la ventaja, ___ me preocupa el costo.",
+      "answers": [
+        "pero",
+        "aunque",
+        "sin embargo"
+      ],
+      "explanation": "Pero acknowledges one point while introducing a relevant contrast.",
+      "concept": "Repair is a collaborative skill"
+    },
+    {
+      "id": "c3-u11-q06",
+      "type": "cloze",
+      "prompt": "Complete: ___ mi experiencia, funciona mejor.",
+      "answers": [
+        "En"
+      ],
+      "explanation": "En mi experiencia limits the claim to the speaker’s own experience.",
+      "concept": "Repair is a collaborative skill"
+    },
+    {
+      "id": "c3-u11-q07",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: I think it would be useful.",
+      "options": [
+        "No necesariamente",
+        "Gracias por la corrección",
+        "Creo que sería útil"
+      ],
+      "answers": [
+        "Creo que sería útil"
+      ],
+      "explanation": "“Creo que sería útil” expresses “I think it would be useful”. “No necesariamente” instead means “Not necessarily”. “Gracias por la corrección” instead means “Thank you for the correction”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c3-u11-q08",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: I am not convinced it is feasible.",
+      "options": [
+        "Tenemos un punto en común",
+        "No estoy convencida de que sea viable",
+        "¿En qué te basas?"
+      ],
+      "answers": [
+        "No estoy convencida de que sea viable"
+      ],
+      "explanation": "“No estoy convencida de que sea viable” expresses “I am not convinced it is feasible”. “Tenemos un punto en común” instead means “We have a point in common”. “¿En qué te basas?” instead means “What is your basis for that?”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c3-u11-q09",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: What I mean is….",
+      "options": [
+        "Lo que quiero decir es…",
+        "Podemos comprobarlo",
+        "Nos falta información"
+      ],
+      "answers": [
+        "Lo que quiero decir es…"
+      ],
+      "explanation": "“Lo que quiero decir es…” expresses “What I mean is…”. “Podemos comprobarlo” instead means “We can check it”. “Nos falta información” instead means “We are missing information”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c3-u11-q10",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: If I understand you correctly.",
+      "options": [
+        "Necesito aclarar mi idea",
+        "Creo que sería útil",
+        "Si te entiendo bien"
+      ],
+      "answers": [
+        "Si te entiendo bien"
+      ],
+      "explanation": "“Si te entiendo bien” expresses “If I understand you correctly”. “Necesito aclarar mi idea” instead means “I need to clarify my idea”. “Creo que sería útil” instead means “I think it would be useful”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c3-u11-q11",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: I understand the advantage, but….",
+      "options": [
+        "No estoy convencida de que sea viable",
+        "Entiendo la ventaja, pero…",
+        "Gracias por la corrección"
+      ],
+      "answers": [
+        "Entiendo la ventaja, pero…"
+      ],
+      "explanation": "“Entiendo la ventaja, pero…” expresses “I understand the advantage, but…”. “No estoy convencida de que sea viable” instead means “I am not convinced it is feasible”. “Gracias por la corrección” instead means “Thank you for the correction”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c3-u11-q12",
+      "type": "matching",
+      "prompt": "Match each English meaning to its Spanish expression. Use each expression once.",
+      "answers": [
+        "[\"Entiendo la ventaja, pero…\",\"¿Te refieres al sábado?\",\"No necesariamente\"]"
+      ],
+      "explanation": "“Entiendo la ventaja, pero…” means “I understand the advantage, but…”. “¿Te refieres al sábado?” means “Do you mean Saturday?”. “No necesariamente” means “Not necessarily”. Each alternative belongs to a different meaning; check the whole phrase, including its grammatical person and register.",
+      "concept": "Meaning and register",
+      "pairs": [
+        {
+          "left": "I understand the advantage, but…",
+          "right": "Entiendo la ventaja, pero…"
+        },
+        {
+          "left": "Do you mean Saturday?",
+          "right": "¿Te refieres al sábado?"
+        },
+        {
+          "left": "Not necessarily",
+          "right": "No necesariamente"
+        }
+      ]
+    }
+  ],
+  "homework": [
+    {
+      "id": "c3-u11-h1",
+      "skill": "Reading & writing",
+      "prompt": "Read the original text for this unit. Identify its situation, central message, and three supporting details. Then write a new version of 150–200 words for a different person or audience. Use the target patterns, change at least three facts, and explain two revisions.",
+      "model": "—Creo que deberíamos abrir los domingos porque algunas familias no pueden venir entre semana.\n—Entiendo la ventaja, pero me preocupa el costo. No estoy convencida de que tengamos personal suficiente.\n—¿Te refieres a todos los domingos o a una prueba de un mes?\n—A un horario permanente. Una prueba limitada podría ser viable.\n—Entonces coincidimos en explorar una prueba. Lo que quiero decir es que necesitamos escuchar a las familias antes de fijar el horario.\n—De acuerdo. También habría que preguntar a quienes trabajan aquí.\nExplica cómo una pregunta de aclaración cambia el desacuerdo y qué información falta antes de decidir.\n\nThis is the source model, not a text to submit unchanged. A successful adaptation retains the communicative purpose while changing relevant forms and facts. Compare with the worked examples for the reasons behind form choices.",
+      "rubric": "0–3 each: fulfills the specified purpose; organized and comprehensible; target forms support meaning; revisions are explained with examples. 0 = no evidence, 1 = substantial help needed, 2 = effective with some support, 3 = independently effective for this task. Record who evaluated the work."
+    },
+    {
+      "id": "c3-u11-h2",
+      "skill": "Listening",
+      "prompt": "Complete the resource assignment, or ask a willing reader to read the original text without showing it to you. First listen for the situation and purpose; listen again for three details and one contrast. Write a 60–100-word listening log naming the source, words actually heard, one uncertainty, and how you checked it. If using local synthesized speech, label it synthetic. Text-only preparation is not completed listening.",
+      "model": "A useful log separates the speaker’s message from your interpretation: “I heard [specific phrase]; I understood [claim]; I was uncertain about [word/relationship]; checking [text or partner] changed my interpretation to [correction].” Use the unit reading as an answer reference for a read-aloud version, never as evidence of an external speaker’s words.",
+      "rubric": "0–2 each: identifies source and listening conditions; retrieves central meaning; supports three details; checks a specific uncertainty. Do not count a copied transcript as independent comprehension."
+    },
+    {
+      "id": "c3-u11-h3",
+      "skill": "Speaking & interaction",
+      "prompt": "Discuss whether a shared service should extend its hours. State a claim, give a reason, ask two focused follow-ups, and summarize the remaining disagreement fairly.",
+      "model": "Use the original reading/dialogue and the sentence-pattern cards as preparation. Make a brief outline, then put it away. Your partner should introduce a detail you did not prepare. Respond, request clarification if needed, and summarize what you agreed or still disagree about. Solo fallback: record two possible viewpoints and improvise a response after a pause; label it rehearsal.",
+      "rubric": "0–3 each: task fulfillment, comprehensibility, control of target language, responsiveness to another speaker. A partner or instructor should cite one example per score. Solo rehearsal provides no evidence for live responsiveness; mark that dimension not observed."
+    },
+    {
+      "id": "c3-u11-h4",
+      "skill": "Retrieval & reflection",
+      "prompt": "On a later day, retrieve six cards without looking. Use three in a fresh response to the practical task. Identify one recurring form error and one communication difficulty. Produce a corrected example, explain the reason, and schedule a specific follow-up exchange or listening session.",
+      "model": "Compare your response with these two models: Creo que sería útil / No estoy convencida de que sea viable. A useful reflection explains the function, not just the spelling. Revisit the first worked item and create a different example of its principle.",
+      "rubric": "Report recall count separately from performance. Reflection is complete when it contains an observed difficulty, an explained correction, a fresh example, and an actionable next session."
+    }
+  ],
+  "task": "Discuss whether a shared service should extend its hours. State a claim, give a reason, ask two focused follow-ups, and summarize the remaining disagreement fairly.",
+  "culture": "Turn-taking and overlap vary by setting. Do not interpret every overlap as hostility or every silence as agreement. Ask how the group wants to structure discussion, especially when people have different communication styles.",
+  "selfAssessment": [
+    "I can state an opinion with a reason and example.",
+    "I can acknowledge a different position without falsely agreeing.",
+    "I can use repair strategies during spontaneous discussion."
+  ],
+  "remediation": "Sort mistakes by form, meaning, and interaction. For form errors, explain a worked example and create a contrasting pair. For comprehension errors, replay a short segment or use a willing reader and verify your interpretation. For interaction difficulties, repeat the practical task with one new constraint. Compare evidence across days; repeated selection of a known answer alone is not mastery.",
+  "resources": [
+    "radio-archive"
+  ]
+}

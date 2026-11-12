@@ -1,0 +1,386 @@
+{
+  "id": "c4-u11",
+  "course": 4,
+  "number": 11,
+  "title": "Culture & regional variation",
+  "subtitle": "Interpret variation without flattening it",
+  "status": "authored",
+  "prerequisites": [
+    "c4-u10"
+  ],
+  "objectives": [
+    "Distinguish regional, social and situational variation.",
+    "Recognize voseo and multiple address systems.",
+    "Revise literal translations that distort meaning or tone."
+  ],
+  "warmup": "Retrieve two sentences and one repair strategy from c4-u10. Change the subject or situation in each sentence and explain what changed. Then read today’s objectives and predict where your existing language may be insufficient.",
+  "lectures": [
+    {
+      "title": "Variation is structured",
+      "body": "Tú, vos and usted have different distributions and social meanings across communities. Ustedes is the normal plural address in much of the Spanish-speaking world; vosotros is common familiar plural in much of Spain. Voseo is not one single conjugation system: combinations of pronouns, verb forms and social uses vary. Consult a regional description rather than applying a Río de la Plata example everywhere. Lexical differences such as ordenador/computadora or local meanings of coger require context. Recognizing variation does not mean every form is equally appropriate in every setting; explain the region, audience and register involved."
+    },
+    {
+      "title": "Translate the action, not the words",
+      "body": "A literal equivalent may miss a phrase’s function. Quedo pendiente de su respuesta is not an instruction to imagine someone physically hanging; it signals awaiting a reply. Actual means current in many contexts, and asistir often means attend. Evaluate an idiom by who uses it, for what purpose and with what relationship. Do not sprinkle unfamiliar slang into formal speech to sound authentic. If uncertain, use a transparent paraphrase and ask a trusted speaker about the effect. Cultural interpretation should acknowledge internal diversity and avoid turning one encounter into a claim about an entire nation."
+    }
+  ],
+  "reading": "En un equipo internacional, una persona escribe «¿Vos podés revisar el archivo?», otra responde «Sí, lo reviso ahora», y una tercera pregunta si debe “asistir” a la reunión. Un nuevo integrante interpreta asistir como ayudar y ofrece preparar las diapositivas. El grupo aclara que aquí significa estar presente. Más tarde alguien propone cambiar la “versión actual” por una traducción literal de actual en inglés; otra persona señala que se refiere a la versión vigente. Ninguno de estos malentendidos implica falta de inteligencia. El equipo decide preguntar por la función de una expresión antes de corregir una variedad regional o imponer una traducción palabra por palabra.",
+  "worked": [
+    {
+      "prompt": "In this context, translate “la versión actual” into English.",
+      "answer": "the current version",
+      "reason": "Actual commonly means current here; English actual is a false-cognate trap."
+    },
+    {
+      "prompt": "In “asistir a la reunión”, give the English verb for asistir.",
+      "answer": "attend",
+      "reason": "The context concerns presence at the meeting, not the general English verb assist."
+    },
+    {
+      "prompt": "Does all voseo use one identical paradigm everywhere? Write sí or no.",
+      "answer": "no",
+      "reason": "Voseo varies in forms and social distribution across communities."
+    },
+    {
+      "prompt": "Complete common Río de la Plata voseo: Vos ___ revisar el archivo. (poder)",
+      "answer": "podés",
+      "reason": "This common voseo form uses podés; the label does not make it universal across all voseo regions."
+    },
+    {
+      "prompt": "Complete: Quedo ___ de su respuesta.",
+      "answer": "pendiente",
+      "reason": "The conventional expression signals awaiting a response, not a literal physical position."
+    },
+    {
+      "prompt": "Does one encounter justify a general claim about every person in a country? Write sí or no.",
+      "answer": "no",
+      "reason": "Individual experience does not establish a universal cultural pattern."
+    }
+  ],
+  "cards": [
+    {
+      "id": "c4-u11-f01",
+      "unit": "c4-u11",
+      "kind": "production",
+      "front": "The current version",
+      "back": "La versión actual",
+      "example": "La versión actual incluye las correcciones acordadas."
+    },
+    {
+      "id": "c4-u11-f02",
+      "unit": "c4-u11",
+      "kind": "recognition",
+      "front": "Asistir a la reunión",
+      "back": "Attend the meeting",
+      "example": "Asistir a la reunión"
+    },
+    {
+      "id": "c4-u11-f03",
+      "unit": "c4-u11",
+      "kind": "production",
+      "front": "Voseo varies by region",
+      "back": "El voseo varía según la región",
+      "example": "El voseo varía según la región"
+    },
+    {
+      "id": "c4-u11-f04",
+      "unit": "c4-u11",
+      "kind": "recognition",
+      "front": "Vos podés revisarlo",
+      "back": "You can review it in a common voseo variety",
+      "example": "Vos podés revisarlo"
+    },
+    {
+      "id": "c4-u11-f05",
+      "unit": "c4-u11",
+      "kind": "production",
+      "front": "I await your response",
+      "back": "Quedo pendiente de su respuesta",
+      "example": "Quedo pendiente de su respuesta"
+    },
+    {
+      "id": "c4-u11-f06",
+      "unit": "c4-u11",
+      "kind": "recognition",
+      "front": "No representa a todo el país",
+      "back": "It does not represent the whole country",
+      "example": "No representa a todo el país"
+    },
+    {
+      "id": "c4-u11-f07",
+      "unit": "c4-u11",
+      "kind": "production",
+      "front": "What does it mean here?",
+      "back": "¿Qué significa aquí?",
+      "example": "¿Qué significa aquí?"
+    },
+    {
+      "id": "c4-u11-f08",
+      "unit": "c4-u11",
+      "kind": "recognition",
+      "front": "¿En qué contexto se usa?",
+      "back": "In what context is it used?",
+      "example": "¿En qué contexto se usa?"
+    },
+    {
+      "id": "c4-u11-f09",
+      "unit": "c4-u11",
+      "kind": "production",
+      "front": "I prefer a clear paraphrase",
+      "back": "Prefiero una paráfrasis clara",
+      "example": "Prefiero una paráfrasis clara"
+    },
+    {
+      "id": "c4-u11-f10",
+      "unit": "c4-u11",
+      "kind": "recognition",
+      "front": "La forma es regional, no un error automático",
+      "back": "The form is regional, not automatically an error",
+      "example": "La forma es regional, no un error automático"
+    },
+    {
+      "id": "c4-u11-f11",
+      "unit": "c4-u11",
+      "kind": "production",
+      "front": "The expression serves another function",
+      "back": "La expresión cumple otra función",
+      "example": "La expresión cumple otra función"
+    },
+    {
+      "id": "c4-u11-f12",
+      "unit": "c4-u11",
+      "kind": "recognition",
+      "front": "Puede sonar demasiado informal",
+      "back": "It may sound too informal",
+      "example": "Puede sonar demasiado informal"
+    },
+    {
+      "id": "c4-u11-f13",
+      "unit": "c4-u11",
+      "kind": "production",
+      "front": "It should not be translated literally",
+      "back": "No conviene traducirlo literalmente",
+      "example": "No conviene traducirlo literalmente"
+    },
+    {
+      "id": "c4-u11-f14",
+      "unit": "c4-u11",
+      "kind": "recognition",
+      "front": "¿Cómo prefieren que me dirija a ustedes?",
+      "back": "How do you prefer that I address you?",
+      "example": "¿Cómo prefieren que me dirija a ustedes?"
+    },
+    {
+      "id": "c4-u11-f15",
+      "unit": "c4-u11",
+      "kind": "production",
+      "front": "Interpretation depends on the relationship",
+      "back": "La interpretación depende de la relación",
+      "example": "La interpretación depende de la relación"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c4-u11-q01",
+      "type": "typed",
+      "prompt": "In this context, translate “la versión actual” into English.",
+      "answers": [
+        "the current version",
+        "current version"
+      ],
+      "explanation": "Actual commonly means current here; English actual is a false-cognate trap.",
+      "concept": "Variation is structured"
+    },
+    {
+      "id": "c4-u11-q02",
+      "type": "typed",
+      "prompt": "In “asistir a la reunión”, give the English verb for asistir.",
+      "answers": [
+        "attend",
+        "to attend"
+      ],
+      "explanation": "The context concerns presence at the meeting, not the general English verb assist.",
+      "concept": "Variation is structured"
+    },
+    {
+      "id": "c4-u11-q03",
+      "type": "typed",
+      "prompt": "Does all voseo use one identical paradigm everywhere? Write sí or no.",
+      "answers": [
+        "no"
+      ],
+      "explanation": "Voseo varies in forms and social distribution across communities.",
+      "concept": "Variation is structured"
+    },
+    {
+      "id": "c4-u11-q04",
+      "type": "cloze",
+      "prompt": "Complete common Río de la Plata voseo: Vos ___ revisar el archivo. (poder)",
+      "answers": [
+        "podés"
+      ],
+      "explanation": "This common voseo form uses podés; the label does not make it universal across all voseo regions.",
+      "concept": "Translate the action, not the words"
+    },
+    {
+      "id": "c4-u11-q05",
+      "type": "cloze",
+      "prompt": "Complete: Quedo ___ de su respuesta. (awaiting, beginning with p)",
+      "answers": [
+        "pendiente"
+      ],
+      "explanation": "The conventional expression signals awaiting a response, not a literal physical position.",
+      "concept": "Translate the action, not the words"
+    },
+    {
+      "id": "c4-u11-q06",
+      "type": "typed",
+      "prompt": "Does one encounter justify a general claim about every person in a country? Write sí or no.",
+      "answers": [
+        "no"
+      ],
+      "explanation": "Individual experience does not establish a universal cultural pattern.",
+      "concept": "Translate the action, not the words"
+    },
+    {
+      "id": "c4-u11-q07",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: The current version.",
+      "options": [
+        "Prefiero una paráfrasis clara",
+        "No conviene traducirlo literalmente",
+        "La versión actual"
+      ],
+      "answers": [
+        "La versión actual"
+      ],
+      "explanation": "“La versión actual” expresses “The current version”. “Prefiero una paráfrasis clara” instead means “I prefer a clear paraphrase”. “No conviene traducirlo literalmente” instead means “It should not be translated literally”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c4-u11-q08",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: Attend the meeting.",
+      "options": [
+        "¿Cómo prefieren que me dirija a ustedes?",
+        "Asistir a la reunión",
+        "La forma es regional, no un error automático"
+      ],
+      "answers": [
+        "Asistir a la reunión"
+      ],
+      "explanation": "“Asistir a la reunión” expresses “Attend the meeting”. “¿Cómo prefieren que me dirija a ustedes?” instead means “How do you prefer that I address you?”. “La forma es regional, no un error automático” instead means “The form is regional, not automatically an error”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c4-u11-q09",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: Voseo varies by region.",
+      "options": [
+        "El voseo varía según la región",
+        "La expresión cumple otra función",
+        "La interpretación depende de la relación"
+      ],
+      "answers": [
+        "El voseo varía según la región"
+      ],
+      "explanation": "“El voseo varía según la región” expresses “Voseo varies by region”. “La expresión cumple otra función” instead means “The expression serves another function”. “La interpretación depende de la relación” instead means “Interpretation depends on the relationship”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c4-u11-q10",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: You can review it in a common voseo variety.",
+      "options": [
+        "Puede sonar demasiado informal",
+        "La versión actual",
+        "Vos podés revisarlo"
+      ],
+      "answers": [
+        "Vos podés revisarlo"
+      ],
+      "explanation": "“Vos podés revisarlo” expresses “You can review it in a common voseo variety”. “Puede sonar demasiado informal” instead means “It may sound too informal”. “La versión actual” instead means “The current version”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c4-u11-q11",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: I await your response.",
+      "options": [
+        "Asistir a la reunión",
+        "Quedo pendiente de su respuesta",
+        "No conviene traducirlo literalmente"
+      ],
+      "answers": [
+        "Quedo pendiente de su respuesta"
+      ],
+      "explanation": "“Quedo pendiente de su respuesta” expresses “I await your response”. “Asistir a la reunión” instead means “Attend the meeting”. “No conviene traducirlo literalmente” instead means “It should not be translated literally”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c4-u11-q12",
+      "type": "matching",
+      "prompt": "Match each English meaning to its Spanish expression. Use each expression once.",
+      "answers": [
+        "[\"Quedo pendiente de su respuesta\",\"¿Qué significa aquí?\",\"Prefiero una paráfrasis clara\"]"
+      ],
+      "explanation": "“Quedo pendiente de su respuesta” means “I await your response”. “¿Qué significa aquí?” means “What does it mean here?”. “Prefiero una paráfrasis clara” means “I prefer a clear paraphrase”. Each alternative belongs to a different meaning; check the whole phrase, including its grammatical person and register.",
+      "concept": "Meaning and register",
+      "pairs": [
+        {
+          "left": "I await your response",
+          "right": "Quedo pendiente de su respuesta"
+        },
+        {
+          "left": "What does it mean here?",
+          "right": "¿Qué significa aquí?"
+        },
+        {
+          "left": "I prefer a clear paraphrase",
+          "right": "Prefiero una paráfrasis clara"
+        }
+      ]
+    }
+  ],
+  "homework": [
+    {
+      "id": "c4-u11-h1",
+      "skill": "Reading & writing",
+      "prompt": "Read the original text for this unit. Identify its situation, central message, and three supporting details. Then write a new version of 220–280 words for a different person or audience. Use the target patterns, change at least three facts, and explain two revisions.",
+      "model": "En un equipo internacional, una persona escribe «¿Vos podés revisar el archivo?», otra responde «Sí, lo reviso ahora», y una tercera pregunta si debe “asistir” a la reunión. Un nuevo integrante interpreta asistir como ayudar y ofrece preparar las diapositivas. El grupo aclara que aquí significa estar presente. Más tarde alguien propone cambiar la “versión actual” por una traducción literal de actual en inglés; otra persona señala que se refiere a la versión vigente. Ninguno de estos malentendidos implica falta de inteligencia. El equipo decide preguntar por la función de una expresión antes de corregir una variedad regional o imponer una traducción palabra por palabra.\n\nThis is the source model, not a text to submit unchanged. A successful adaptation retains the communicative purpose while changing relevant forms and facts. Compare with the worked examples for the reasons behind form choices.",
+      "rubric": "0–3 each: fulfills the specified purpose; organized and comprehensible; target forms support meaning; revisions are explained with examples. 0 = no evidence, 1 = substantial help needed, 2 = effective with some support, 3 = independently effective for this task. Record who evaluated the work."
+    },
+    {
+      "id": "c4-u11-h2",
+      "skill": "Listening",
+      "prompt": "Complete the resource assignment, or ask a willing reader to read the original text without showing it to you. First listen for the situation and purpose; listen again for three details and one contrast. Write a 60–100-word listening log naming the source, words actually heard, one uncertainty, and how you checked it. If using local synthesized speech, label it synthetic. Text-only preparation is not completed listening.",
+      "model": "A useful log separates the speaker’s message from your interpretation: “I heard [specific phrase]; I understood [claim]; I was uncertain about [word/relationship]; checking [text or partner] changed my interpretation to [correction].” Use the unit reading as an answer reference for a read-aloud version, never as evidence of an external speaker’s words.",
+      "rubric": "0–2 each: identifies source and listening conditions; retrieves central meaning; supports three details; checks a specific uncertainty. Do not count a copied transcript as independent comprehension."
+    },
+    {
+      "id": "c4-u11-h3",
+      "skill": "Speaking & interaction",
+      "prompt": "Analyze three expressions from a regional reference or a willing speaker. Explain their function, audience and possible misunderstanding; rewrite a literal translation and justify the change.",
+      "model": "Use the original reading/dialogue and the sentence-pattern cards as preparation. Make a brief outline, then put it away. Your partner should introduce a detail you did not prepare. Respond, request clarification if needed, and summarize what you agreed or still disagree about. Solo fallback: record two possible viewpoints and improvise a response after a pause; label it rehearsal.",
+      "rubric": "0–3 each: task fulfillment, comprehensibility, control of target language, responsiveness to another speaker. A partner or instructor should cite one example per score. Solo rehearsal provides no evidence for live responsiveness; mark that dimension not observed."
+    },
+    {
+      "id": "c4-u11-h4",
+      "skill": "Retrieval & reflection",
+      "prompt": "On a later day, retrieve six cards without looking. Use three in a fresh response to the practical task. Identify one recurring form error and one communication difficulty. Produce a corrected example, explain the reason, and schedule a specific follow-up exchange or listening session.",
+      "model": "Compare your response with these two models: La versión actual / Asistir a la reunión. A useful reflection explains the function, not just the spelling. Revisit the first worked item and create a different example of its principle.",
+      "rubric": "Report recall count separately from performance. Reflection is complete when it contains an observed difficulty, an explained correction, a fresh example, and an actionable next session."
+    }
+  ],
+  "task": "Analyze three expressions from a regional reference or a willing speaker. Explain their function, audience and possible misunderstanding; rewrite a literal translation and justify the change.",
+  "culture": "Use regional labels carefully and cite the source of your observation. Standard reference works describe variation but do not replace the preferences of the actual people with whom you interact.",
+  "selfAssessment": [
+    "I can distinguish regional, social and situational variation.",
+    "I can recognize voseo and multiple address systems.",
+    "I can revise literal translations that distort meaning or tone."
+  ],
+  "remediation": "Sort mistakes by form, meaning, and interaction. For form errors, explain a worked example and create a contrasting pair. For comprehension errors, replay a short segment or use a willing reader and verify your interpretation. For interaction difficulties, repeat the practical task with one new constraint. Compare evidence across days; repeated selection of a known answer alone is not mastery.",
+  "resources": [
+    "rae-voseo"
+  ]
+}

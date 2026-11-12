@@ -1,0 +1,384 @@
+{
+  "id": "c3-u09",
+  "course": 3,
+  "number": 9,
+  "title": "Doubt, purpose & clauses",
+  "subtitle": "Unknown people, purpose and timing",
+  "status": "authored",
+  "prerequisites": [
+    "c3-u08"
+  ],
+  "objectives": [
+    "Use subjunctive in selected doubt and purpose clauses.",
+    "Contrast known and sought antecedents.",
+    "Distinguish habitual from anticipated temporal events."
+  ],
+  "warmup": "Retrieve two sentences and one repair strategy from c3-u08. Change the subject or situation in each sentence and explain what changed. Then read today’s objectives and predict where your existing language may be insufficient.",
+  "lectures": [
+    {
+      "title": "What you assert and what you seek",
+      "body": "No creo que sea suficiente usually withholds the positive assertion and uses subjunctive. Creo que es suficiente asserts a belief and normally uses indicative. Negation alone is not a universal mood switch; examine the whole construction. In relative clauses, Conozco a alguien que habla portugués identifies an actual person, while Busco a alguien que hable portugués describes a requirement without identifying a known candidate. The difference is not whether Portuguese speakers exist anywhere; it concerns the speaker’s reference in this conversation."
+    },
+    {
+      "title": "Purpose and an event still ahead",
+      "body": "Para que introduces a purpose clause with subjunctive when there is a distinct subject: Te lo envío para que lo revises. With a shared subject, para + infinitive often suffices: Estudio para mejorar. Temporal cuando takes indicative for habits or reported events, but subjunctive for an anticipated event: Cuando viene, hablamos versus Cuando venga, hablaremos. This is not a license to use subjunctive after every cuando. Ask whether the event is being asserted as recurring/occurred or is still ahead in the relevant frame. Before que clauses can also show subjunctive; learn their meaning with concrete examples."
+    }
+  ],
+  "reading": "La biblioteca busca a alguien que pueda coordinar un taller bilingüe. Nora conoce a una persona que habla portugués, pero no sabe si tiene tiempo. Le envía el programa para que lo revise. En el mensaje escribe: «Cuando tengas una respuesta, avísame. No creo que sea necesario decidir hoy». Su colega responde: «Cuando organizo un taller, primero hablo con los participantes. Quiero saber qué necesitan». Compara el evento futuro de tener una respuesta con la práctica habitual de organizar un taller. Después cambia la oferta para describir a una candidata ya identificada y disponible.",
+  "worked": [
+    {
+      "prompt": "Complete: No creo que ___ suficiente. (ser)",
+      "answer": "sea",
+      "reason": "The speaker withholds the positive assertion in this conventional negative-belief construction."
+    },
+    {
+      "prompt": "Complete: Conozco a alguien que ___ portugués. (hablar, known person)",
+      "answer": "habla",
+      "reason": "The indicative describes an identified actual person known to the speaker."
+    },
+    {
+      "prompt": "Complete: Busco a alguien que ___ portugués. (hablar, unspecified candidate)",
+      "answer": "hable",
+      "reason": "The relative clause states a requirement for a not-yet-identified candidate."
+    },
+    {
+      "prompt": "Complete: Te lo envío para que lo ___. (revisar, tú)",
+      "answer": "revises",
+      "reason": "Para que introduces the purpose to be carried out by another subject."
+    },
+    {
+      "prompt": "Complete: Cuando ___ mañana, hablaremos. (venir, tú)",
+      "answer": "vengas",
+      "reason": "The anticipated future arrival takes subjunctive after cuando."
+    },
+    {
+      "prompt": "Complete: Cuando ___ los lunes, hablamos. (venir, tú habitual)",
+      "answer": "vienes",
+      "reason": "An asserted habitual event takes indicative in this temporal clause."
+    }
+  ],
+  "cards": [
+    {
+      "id": "c3-u09-f01",
+      "unit": "c3-u09",
+      "kind": "production",
+      "front": "I do not think it is enough",
+      "back": "No creo que sea suficiente",
+      "example": "No creo que sea suficiente"
+    },
+    {
+      "id": "c3-u09-f02",
+      "unit": "c3-u09",
+      "kind": "recognition",
+      "front": "Conozco a alguien que habla portugués",
+      "back": "I know someone who speaks Portuguese",
+      "example": "Conozco a alguien que habla portugués"
+    },
+    {
+      "id": "c3-u09-f03",
+      "unit": "c3-u09",
+      "kind": "production",
+      "front": "I am looking for someone who speaks Portuguese",
+      "back": "Busco a alguien que hable portugués",
+      "example": "Busco a alguien que hable portugués"
+    },
+    {
+      "id": "c3-u09-f04",
+      "unit": "c3-u09",
+      "kind": "recognition",
+      "front": "Te lo envío para que lo revises",
+      "back": "I send it so you can review it",
+      "example": "Te lo envío para que lo revises"
+    },
+    {
+      "id": "c3-u09-f05",
+      "unit": "c3-u09",
+      "kind": "production",
+      "front": "When you come, we will talk",
+      "back": "Cuando vengas, hablaremos",
+      "example": "Cuando vengas, hablaremos"
+    },
+    {
+      "id": "c3-u09-f06",
+      "unit": "c3-u09",
+      "kind": "recognition",
+      "front": "Cuando vienes, hablamos",
+      "back": "When you come habitually, we talk",
+      "example": "Cuando vienes, hablamos"
+    },
+    {
+      "id": "c3-u09-f07",
+      "unit": "c3-u09",
+      "kind": "production",
+      "front": "Before it ends",
+      "back": "Antes de que termine",
+      "example": "Envíame la pregunta antes de que termine la reunión."
+    },
+    {
+      "id": "c3-u09-f08",
+      "unit": "c3-u09",
+      "kind": "recognition",
+      "front": "Estudio para mejorar",
+      "back": "I study in order to improve",
+      "example": "Estudio para mejorar"
+    },
+    {
+      "id": "c3-u09-f09",
+      "unit": "c3-u09",
+      "kind": "production",
+      "front": "It is not certain they can come",
+      "back": "No es seguro que puedan venir",
+      "example": "No es seguro que puedan venir"
+    },
+    {
+      "id": "c3-u09-f10",
+      "unit": "c3-u09",
+      "kind": "recognition",
+      "front": "Dudo que sea posible",
+      "back": "I doubt it is possible",
+      "example": "Dudo que sea posible"
+    },
+    {
+      "id": "c3-u09-f11",
+      "unit": "c3-u09",
+      "kind": "production",
+      "front": "We need a room with access as a requirement",
+      "back": "Necesitamos una sala que tenga acceso",
+      "example": "Necesitamos una sala que tenga acceso"
+    },
+    {
+      "id": "c3-u09-f12",
+      "unit": "c3-u09",
+      "kind": "recognition",
+      "front": "La sala que tenemos es pequeña",
+      "back": "The room we have is small",
+      "example": "La sala que tenemos es pequeña"
+    },
+    {
+      "id": "c3-u09-f13",
+      "unit": "c3-u09",
+      "kind": "production",
+      "front": "Let me know when you know",
+      "back": "Avísame cuando sepas",
+      "example": "Avísame cuando sepas"
+    },
+    {
+      "id": "c3-u09-f14",
+      "unit": "c3-u09",
+      "kind": "recognition",
+      "front": "Para que todos participen",
+      "back": "So everyone can participate",
+      "example": "Vamos a ofrecer otra opción para que todos participen."
+    },
+    {
+      "id": "c3-u09-f15",
+      "unit": "c3-u09",
+      "kind": "production",
+      "front": "There is no need to decide today",
+      "back": "No hace falta decidir hoy",
+      "example": "No hace falta decidir hoy"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c3-u09-q01",
+      "type": "cloze",
+      "prompt": "Complete: No creo que ___ suficiente. (ser)",
+      "answers": [
+        "sea"
+      ],
+      "explanation": "The speaker withholds the positive assertion in this conventional negative-belief construction.",
+      "concept": "What you assert and what you seek"
+    },
+    {
+      "id": "c3-u09-q02",
+      "type": "cloze",
+      "prompt": "Complete: Conozco a alguien que ___ portugués. (hablar, known person)",
+      "answers": [
+        "habla"
+      ],
+      "explanation": "The indicative describes an identified actual person known to the speaker.",
+      "concept": "What you assert and what you seek"
+    },
+    {
+      "id": "c3-u09-q03",
+      "type": "cloze",
+      "prompt": "Complete: Busco a alguien que ___ portugués. (hablar, unspecified candidate)",
+      "answers": [
+        "hable"
+      ],
+      "explanation": "The relative clause states a requirement for a not-yet-identified candidate.",
+      "concept": "What you assert and what you seek"
+    },
+    {
+      "id": "c3-u09-q04",
+      "type": "cloze",
+      "prompt": "Complete: Te lo envío para que lo ___. (revisar, tú)",
+      "answers": [
+        "revises"
+      ],
+      "explanation": "Para que introduces the purpose to be carried out by another subject.",
+      "concept": "Purpose and an event still ahead"
+    },
+    {
+      "id": "c3-u09-q05",
+      "type": "cloze",
+      "prompt": "Complete: Cuando ___ mañana, hablaremos. (venir, tú)",
+      "answers": [
+        "vengas"
+      ],
+      "explanation": "The anticipated future arrival takes subjunctive after cuando.",
+      "concept": "Purpose and an event still ahead"
+    },
+    {
+      "id": "c3-u09-q06",
+      "type": "cloze",
+      "prompt": "Complete: Cuando ___ los lunes, hablamos. (venir, tú habitual)",
+      "answers": [
+        "vienes"
+      ],
+      "explanation": "An asserted habitual event takes indicative in this temporal clause.",
+      "concept": "Purpose and an event still ahead"
+    },
+    {
+      "id": "c3-u09-q07",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: I do not think it is enough.",
+      "options": [
+        "No es seguro que puedan venir",
+        "Avísame cuando sepas",
+        "No creo que sea suficiente"
+      ],
+      "answers": [
+        "No creo que sea suficiente"
+      ],
+      "explanation": "“No creo que sea suficiente” expresses “I do not think it is enough”. “No es seguro que puedan venir” instead means “It is not certain they can come”. “Avísame cuando sepas” instead means “Let me know when you know”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c3-u09-q08",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: I know someone who speaks Portuguese.",
+      "options": [
+        "Para que todos participen",
+        "Conozco a alguien que habla portugués",
+        "Dudo que sea posible"
+      ],
+      "answers": [
+        "Conozco a alguien que habla portugués"
+      ],
+      "explanation": "“Conozco a alguien que habla portugués” expresses “I know someone who speaks Portuguese”. “Para que todos participen” instead means “So everyone can participate”. “Dudo que sea posible” instead means “I doubt it is possible”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c3-u09-q09",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: I am looking for someone who speaks Portuguese.",
+      "options": [
+        "Busco a alguien que hable portugués",
+        "Necesitamos una sala que tenga acceso",
+        "No hace falta decidir hoy"
+      ],
+      "answers": [
+        "Busco a alguien que hable portugués"
+      ],
+      "explanation": "“Busco a alguien que hable portugués” expresses “I am looking for someone who speaks Portuguese”. “Necesitamos una sala que tenga acceso” instead means “We need a room with access as a requirement”. “No hace falta decidir hoy” instead means “There is no need to decide today”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c3-u09-q10",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: I send it so you can review it.",
+      "options": [
+        "La sala que tenemos es pequeña",
+        "No creo que sea suficiente",
+        "Te lo envío para que lo revises"
+      ],
+      "answers": [
+        "Te lo envío para que lo revises"
+      ],
+      "explanation": "“Te lo envío para que lo revises” expresses “I send it so you can review it”. “La sala que tenemos es pequeña” instead means “The room we have is small”. “No creo que sea suficiente” instead means “I do not think it is enough”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c3-u09-q11",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: When you come, we will talk.",
+      "options": [
+        "Conozco a alguien que habla portugués",
+        "Cuando vengas, hablaremos",
+        "Avísame cuando sepas"
+      ],
+      "answers": [
+        "Cuando vengas, hablaremos"
+      ],
+      "explanation": "“Cuando vengas, hablaremos” expresses “When you come, we will talk”. “Conozco a alguien que habla portugués” instead means “I know someone who speaks Portuguese”. “Avísame cuando sepas” instead means “Let me know when you know”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c3-u09-q12",
+      "type": "matching",
+      "prompt": "Match each English meaning to its Spanish expression. Use each expression once.",
+      "answers": [
+        "[\"Cuando vengas, hablaremos\",\"Antes de que termine\",\"No es seguro que puedan venir\"]"
+      ],
+      "explanation": "“Cuando vengas, hablaremos” means “When you come, we will talk”. “Antes de que termine” means “Before it ends”. “No es seguro que puedan venir” means “It is not certain they can come”. Each alternative belongs to a different meaning; check the whole phrase, including its grammatical person and register.",
+      "concept": "Meaning and register",
+      "pairs": [
+        {
+          "left": "When you come, we will talk",
+          "right": "Cuando vengas, hablaremos"
+        },
+        {
+          "left": "Before it ends",
+          "right": "Antes de que termine"
+        },
+        {
+          "left": "It is not certain they can come",
+          "right": "No es seguro que puedan venir"
+        }
+      ]
+    }
+  ],
+  "homework": [
+    {
+      "id": "c3-u09-h1",
+      "skill": "Reading & writing",
+      "prompt": "Read the original text for this unit. Identify its situation, central message, and three supporting details. Then write a new version of 150–200 words for a different person or audience. Use the target patterns, change at least three facts, and explain two revisions.",
+      "model": "La biblioteca busca a alguien que pueda coordinar un taller bilingüe. Nora conoce a una persona que habla portugués, pero no sabe si tiene tiempo. Le envía el programa para que lo revise. En el mensaje escribe: «Cuando tengas una respuesta, avísame. No creo que sea necesario decidir hoy». Su colega responde: «Cuando organizo un taller, primero hablo con los participantes. Quiero saber qué necesitan». Compara el evento futuro de tener una respuesta con la práctica habitual de organizar un taller. Después cambia la oferta para describir a una candidata ya identificada y disponible.\n\nThis is the source model, not a text to submit unchanged. A successful adaptation retains the communicative purpose while changing relevant forms and facts. Compare with the worked examples for the reasons behind form choices.",
+      "rubric": "0–3 each: fulfills the specified purpose; organized and comprehensible; target forms support meaning; revisions are explained with examples. 0 = no evidence, 1 = substantial help needed, 2 = effective with some support, 3 = independently effective for this task. Record who evaluated the work."
+    },
+    {
+      "id": "c3-u09-h2",
+      "skill": "Listening",
+      "prompt": "Complete the resource assignment, or ask a willing reader to read the original text without showing it to you. First listen for the situation and purpose; listen again for three details and one contrast. Write a 60–100-word listening log naming the source, words actually heard, one uncertainty, and how you checked it. If using local synthesized speech, label it synthetic. Text-only preparation is not completed listening.",
+      "model": "A useful log separates the speaker’s message from your interpretation: “I heard [specific phrase]; I understood [claim]; I was uncertain about [word/relationship]; checking [text or partner] changed my interpretation to [correction].” Use the unit reading as an answer reference for a read-aloud version, never as evidence of an external speaker’s words.",
+      "rubric": "0–2 each: identifies source and listening conditions; retrieves central meaning; supports three details; checks a specific uncertainty. Do not count a copied transcript as independent comprehension."
+    },
+    {
+      "id": "c3-u09-h3",
+      "skill": "Speaking & interaction",
+      "prompt": "Recruit a collaborator for a fictional project. Distinguish a known person from a desired profile, explain the purpose, and agree what happens when a future condition is met.",
+      "model": "Use the original reading/dialogue and the sentence-pattern cards as preparation. Make a brief outline, then put it away. Your partner should introduce a detail you did not prepare. Respond, request clarification if needed, and summarize what you agreed or still disagree about. Solo fallback: record two possible viewpoints and improvise a response after a pause; label it rehearsal.",
+      "rubric": "0–3 each: task fulfillment, comprehensibility, control of target language, responsiveness to another speaker. A partner or instructor should cite one example per score. Solo rehearsal provides no evidence for live responsiveness; mark that dimension not observed."
+    },
+    {
+      "id": "c3-u09-h4",
+      "skill": "Retrieval & reflection",
+      "prompt": "On a later day, retrieve six cards without looking. Use three in a fresh response to the practical task. Identify one recurring form error and one communication difficulty. Produce a corrected example, explain the reason, and schedule a specific follow-up exchange or listening session.",
+      "model": "Compare your response with these two models: No creo que sea suficiente / Conozco a alguien que habla portugués. A useful reflection explains the function, not just the spelling. Revisit the first worked item and create a different example of its principle.",
+      "rubric": "Report recall count separately from performance. Reflection is complete when it contains an observed difficulty, an explained correction, a fresh example, and an actionable next session."
+    }
+  ],
+  "task": "Recruit a collaborator for a fictional project. Distinguish a known person from a desired profile, explain the purpose, and agree what happens when a future condition is met.",
+  "culture": "Institutional requirements should describe relevant skills rather than stereotypes about nationality or identity. “A person who speaks Portuguese” is a language requirement, not a claim that only one nationality can fulfill it.",
+  "selfAssessment": [
+    "I can use subjunctive in selected doubt and purpose clauses.",
+    "I can contrast known and sought antecedents.",
+    "I can distinguish habitual from anticipated temporal events."
+  ],
+  "remediation": "Sort mistakes by form, meaning, and interaction. For form errors, explain a worked example and create a contrasting pair. For comprehension errors, replay a short segment or use a willing reader and verify your interpretation. For interaction difficulties, repeat the practical task with one new constraint. Compare evidence across days; repeated selection of a known answer alone is not mastery.",
+  "resources": [
+    "sd-mood"
+  ]
+}

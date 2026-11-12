@@ -38,7 +38,7 @@ for (const file of readdirSync("content/units").filter((f) =>
   for (const r of u.resources)
     if (!resources.some((x) => x.id === r))
       throw Error("Unresolved resource " + r);
-  if (/\bTODO\b|lorem ipsum/i.test(JSON.stringify(u)))
+  if (/\bTODO\b|[Ll]orem ipsum/.test(JSON.stringify(u)))
     throw Error("Placeholder in authored unit");
 }
 for (const c of syllabus)
@@ -52,7 +52,7 @@ for (const c of syllabus)
     }
   }
 console.log(
-  `Validated ${readdirSync("content/units").filter((f) => f.endsWith(".json")).length} authored units, ${cards} cards, ${questions} answer keys; 48 planned units are NOT complete.`,
+  `Validated ${readdirSync("content/units").filter((f) => f.endsWith(".json")).length} authored units, ${cards} cards, ${questions} answer keys; all 60 syllabus units must be authored.`,
 );
 const assessments = JSON.parse(
   readFileSync("content/assessments.json", "utf8"),
@@ -65,4 +65,61 @@ for (const a of assessments) {
 }
 console.log(
   "Validated entry, cumulative midterm and cumulative final question references.",
+);
+const files = readdirSync("content/units").filter((f) => f.endsWith(".json"));
+const authored = files.map((f) =>
+  UnitSchema.parse(JSON.parse(readFileSync(`content/units/${f}`, "utf8"))),
+);
+if (syllabus.length !== 5 || authored.length !== 60)
+  throw Error("The release requires all five courses and 60 units");
+for (const c of syllabus) {
+  if (
+    c.units.length !== 12 ||
+    authored.filter((u) => u.course === c.id).length !== 12
+  )
+    throw Error("Course does not have 12 authored units");
+  for (const u of c.units) {
+    const full = authored.find((x) => x.id === u.id);
+    if (!full || full.status !== "authored" || u.status !== "authored")
+      throw Error("Unfinished unit " + u.id);
+    if (JSON.stringify(full.prerequisites) !== JSON.stringify(u.prerequisites))
+      throw Error("Prerequisites disagree " + u.id);
+  }
+  const exams = (
+    assessments as { id: string; questions: string[]; course?: number }[]
+  ).filter((a) => a.course === c.id);
+  if (exams.length !== 3)
+    throw Error(
+      "Missing entry, midterm or final assessment for course " + c.id,
+    );
+  for (const suffix of ["entry", "midterm", "final"])
+    if (!exams.some((a) => a.id.includes(suffix)))
+      throw Error("Missing assessment " + c.id + suffix);
+}
+for (const u of authored) {
+  for (const q of u.quiz) {
+    if (q.type === "matching" && q.pairs) {
+      if (
+        new Set(q.pairs.map((p) => p.left)).size !== q.pairs.length ||
+        new Set(q.pairs.map((p) => p.right)).size !== q.pairs.length
+      )
+        throw Error("Ambiguous matching " + q.id);
+      const wrong = q.pairs.map((p) => p.right).reverse();
+      if (grade(q, JSON.stringify(wrong)))
+        throw Error("Incorrect matching accepted " + q.id);
+    }
+  }
+  for (const id of u.resources) {
+    const r = resources.find((r) => r.id === id)!;
+    if (
+      !r.units.includes(u.id) ||
+      !r.offline ||
+      !r.checkedAt ||
+      !r.verification
+    )
+      throw Error("Incomplete resource metadata " + id);
+  }
+}
+console.log(
+  "All five courses, prerequisites, assessment coverage, and resource associations passed.",
 );

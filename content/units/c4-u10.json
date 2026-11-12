@@ -1,0 +1,384 @@
+{
+  "id": "c4-u10",
+  "course": 4,
+  "number": 10,
+  "title": "Debate & negotiation",
+  "subtitle": "Negotiate after the first objection",
+  "status": "authored",
+  "prerequisites": [
+    "c4-u09"
+  ],
+  "objectives": [
+    "Rebut an argument without attacking the speaker.",
+    "Make conditional concessions and clarify agreements.",
+    "Ask and answer spontaneous follow-up questions."
+  ],
+  "warmup": "Retrieve two sentences and one repair strategy from c4-u09. Change the subject or situation in each sentence and explain what changed. Then read today’s objectives and predict where your existing language may be insufficient.",
+  "lectures": [
+    {
+      "title": "Respond to the strongest version",
+      "body": "Before rebutting, paraphrase the claim fairly and ask whether you understood it. Identify whether you contest the fact, the inference, the criterion or the proposed action. Those are different disagreements. Entiendo el dato, pero no veo que justifique esa conclusión challenges an inference without denying the data. Avoid replacing an argument with a weaker version that is easier to reject. If evidence changes your position, say so explicitly. A productive discussion can end in a narrowed agreement or a well-defined unresolved question rather than total consensus."
+    },
+    {
+      "title": "Concessions with conditions",
+      "body": "Podríamos aceptar esa opción siempre que se revise el costo states a conditional concession. Specify who checks the condition and when. If a proposal affects different people, ask what each person can change and what is non-negotiable. A tradeoff should be explicit rather than hidden in vague language. In spontaneous follow-up, pause, restate the question and answer its actual focus; do not redirect automatically to your prepared speech. End by summarizing agreed actions, remaining disagreements and the next verification step. Have the other participant correct your summary before treating it as an agreement."
+    }
+  ],
+  "reading": "—Entiendo que prefieres un horario más amplio. Mi objeción es que no sabemos cuánto trabajo adicional implica.\n—Es una preocupación válida. ¿Aceptarías una prueba limitada si registramos las horas del personal?\n—Podría aceptarla siempre que definamos un límite antes de empezar.\n—Propongo cuatro semanas y una revisión intermedia.\n—¿Quién recogería la información?\n—El equipo de coordinación, pero tendría que confirmar su disponibilidad.\n—Entonces todavía no tenemos un acuerdo definitivo sobre ese punto.\nEl intercambio avanza porque distingue una aceptación condicionada de una decisión cerrada. Formula una pregunta de seguimiento que examine una consecuencia todavía no discutida.",
+  "worked": [
+    {
+      "prompt": "Complete: No veo que el dato ___ esa conclusión. (justificar)",
+      "answer": "justifique",
+      "reason": "The negative stance toward the inference licenses subjunctive in this clause."
+    },
+    {
+      "prompt": "Complete: Podríamos aceptarlo siempre que se ___ el costo. (revisar)",
+      "answer": "revise",
+      "reason": "Siempre que expresses a condition and takes subjunctive here."
+    },
+    {
+      "prompt": "Complete: ¿Quién ___ la información? (recoger, conditional)",
+      "answer": "recogería",
+      "reason": "The conditional asks about a proposed responsibility rather than an established action."
+    },
+    {
+      "prompt": "Complete: El equipo tendría que ___ su disponibilidad.",
+      "answer": "confirmar",
+      "reason": "Tener que is followed by an infinitive."
+    },
+    {
+      "prompt": "Does conditional acceptance automatically mean a final unconditional agreement? Write sí or no.",
+      "answer": "no",
+      "reason": "The stated condition still needs to be fulfilled or verified before treating acceptance as final."
+    },
+    {
+      "prompt": "Complete: Mi objeción se refiere a la ___, no a la persona. (inference)",
+      "answer": "inferencia",
+      "reason": "Naming the inferential step keeps the rebuttal focused on the argument."
+    }
+  ],
+  "cards": [
+    {
+      "id": "c4-u10-f01",
+      "unit": "c4-u10",
+      "kind": "production",
+      "front": "I do not see that it justifies that conclusion",
+      "back": "No veo que justifique esa conclusión",
+      "example": "No veo que justifique esa conclusión"
+    },
+    {
+      "id": "c4-u10-f02",
+      "unit": "c4-u10",
+      "kind": "recognition",
+      "front": "Siempre que se revise el costo",
+      "back": "Provided the cost is reviewed",
+      "example": "Siempre que se revise el costo"
+    },
+    {
+      "id": "c4-u10-f03",
+      "unit": "c4-u10",
+      "kind": "production",
+      "front": "Who would collect the information?",
+      "back": "¿Quién recogería la información?",
+      "example": "¿Quién recogería la información?"
+    },
+    {
+      "id": "c4-u10-f04",
+      "unit": "c4-u10",
+      "kind": "recognition",
+      "front": "Tendría que confirmar su disponibilidad",
+      "back": "They would need to confirm availability",
+      "example": "Tendría que confirmar su disponibilidad"
+    },
+    {
+      "id": "c4-u10-f05",
+      "unit": "c4-u10",
+      "kind": "production",
+      "front": "Acceptance is conditional",
+      "back": "La aceptación es condicionada",
+      "example": "La aceptación es condicionada"
+    },
+    {
+      "id": "c4-u10-f06",
+      "unit": "c4-u10",
+      "kind": "recognition",
+      "front": "Mi objeción se refiere a la inferencia",
+      "back": "My objection concerns the inference",
+      "example": "Mi objeción se refiere a la inferencia"
+    },
+    {
+      "id": "c4-u10-f07",
+      "unit": "c4-u10",
+      "kind": "production",
+      "front": "If I have understood you correctly",
+      "back": "Si te he entendido bien",
+      "example": "Si te he entendido bien"
+    },
+    {
+      "id": "c4-u10-f08",
+      "unit": "c4-u10",
+      "kind": "recognition",
+      "front": "Acepto ese punto, pero…",
+      "back": "I accept that point, but…",
+      "example": "Acepto ese punto, pero necesito comprobar la estimación."
+    },
+    {
+      "id": "c4-u10-f09",
+      "unit": "c4-u10",
+      "kind": "production",
+      "front": "Which part is negotiable?",
+      "back": "¿Qué parte es negociable?",
+      "example": "¿Qué parte es negociable?"
+    },
+    {
+      "id": "c4-u10-f10",
+      "unit": "c4-u10",
+      "kind": "recognition",
+      "front": "Ese límite es importante para mí",
+      "back": "That limit matters to me",
+      "example": "Ese límite es importante para mí"
+    },
+    {
+      "id": "c4-u10-f11",
+      "unit": "c4-u10",
+      "kind": "production",
+      "front": "I propose an interim review",
+      "back": "Propongo una revisión intermedia",
+      "example": "Propongo una revisión intermedia"
+    },
+    {
+      "id": "c4-u10-f12",
+      "unit": "c4-u10",
+      "kind": "recognition",
+      "front": "Queda pendiente de confirmación",
+      "back": "It remains pending confirmation",
+      "example": "Queda pendiente de confirmación"
+    },
+    {
+      "id": "c4-u10-f13",
+      "unit": "c4-u10",
+      "kind": "production",
+      "front": "I have changed my mind on that point",
+      "back": "He cambiado de opinión sobre ese punto",
+      "example": "He cambiado de opinión sobre ese punto"
+    },
+    {
+      "id": "c4-u10-f14",
+      "unit": "c4-u10",
+      "kind": "recognition",
+      "front": "Resumamos lo acordado",
+      "back": "Let us summarize what was agreed",
+      "example": "Resumamos lo acordado"
+    },
+    {
+      "id": "c4-u10-f15",
+      "unit": "c4-u10",
+      "kind": "production",
+      "front": "Is any condition missing?",
+      "back": "¿Falta alguna condición?",
+      "example": "¿Falta alguna condición?"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c4-u10-q01",
+      "type": "cloze",
+      "prompt": "Complete: No veo que el dato ___ esa conclusión. (justificar)",
+      "answers": [
+        "justifique"
+      ],
+      "explanation": "The negative stance toward the inference licenses subjunctive in this clause.",
+      "concept": "Respond to the strongest version"
+    },
+    {
+      "id": "c4-u10-q02",
+      "type": "cloze",
+      "prompt": "Complete: Podríamos aceptarlo siempre que se ___ el costo. (revisar)",
+      "answers": [
+        "revise"
+      ],
+      "explanation": "Siempre que expresses a condition and takes subjunctive here.",
+      "concept": "Respond to the strongest version"
+    },
+    {
+      "id": "c4-u10-q03",
+      "type": "cloze",
+      "prompt": "Complete: ¿Quién ___ la información? (recoger, conditional)",
+      "answers": [
+        "recogería"
+      ],
+      "explanation": "The conditional asks about a proposed responsibility rather than an established action.",
+      "concept": "Respond to the strongest version"
+    },
+    {
+      "id": "c4-u10-q04",
+      "type": "cloze",
+      "prompt": "Complete: El equipo tendría que ___ su disponibilidad. (confirm)",
+      "answers": [
+        "confirmar"
+      ],
+      "explanation": "Tener que is followed by an infinitive.",
+      "concept": "Concessions with conditions"
+    },
+    {
+      "id": "c4-u10-q05",
+      "type": "typed",
+      "prompt": "Does conditional acceptance automatically mean a final unconditional agreement? Write sí or no.",
+      "answers": [
+        "no"
+      ],
+      "explanation": "The stated condition still needs to be fulfilled or verified before treating acceptance as final.",
+      "concept": "Concessions with conditions"
+    },
+    {
+      "id": "c4-u10-q06",
+      "type": "cloze",
+      "prompt": "Complete: Mi objeción se refiere a la ___, no a la persona. (inference)",
+      "answers": [
+        "inferencia"
+      ],
+      "explanation": "Naming the inferential step keeps the rebuttal focused on the argument.",
+      "concept": "Concessions with conditions"
+    },
+    {
+      "id": "c4-u10-q07",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: I do not see that it justifies that conclusion.",
+      "options": [
+        "¿Qué parte es negociable?",
+        "He cambiado de opinión sobre ese punto",
+        "No veo que justifique esa conclusión"
+      ],
+      "answers": [
+        "No veo que justifique esa conclusión"
+      ],
+      "explanation": "“No veo que justifique esa conclusión” expresses “I do not see that it justifies that conclusion”. “¿Qué parte es negociable?” instead means “Which part is negotiable?”. “He cambiado de opinión sobre ese punto” instead means “I have changed my mind on that point”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c4-u10-q08",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: Provided the cost is reviewed.",
+      "options": [
+        "Resumamos lo acordado",
+        "Siempre que se revise el costo",
+        "Ese límite es importante para mí"
+      ],
+      "answers": [
+        "Siempre que se revise el costo"
+      ],
+      "explanation": "“Siempre que se revise el costo” expresses “Provided the cost is reviewed”. “Resumamos lo acordado” instead means “Let us summarize what was agreed”. “Ese límite es importante para mí” instead means “That limit matters to me”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c4-u10-q09",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: Who would collect the information?.",
+      "options": [
+        "¿Quién recogería la información?",
+        "Propongo una revisión intermedia",
+        "¿Falta alguna condición?"
+      ],
+      "answers": [
+        "¿Quién recogería la información?"
+      ],
+      "explanation": "“¿Quién recogería la información?” expresses “Who would collect the information?”. “Propongo una revisión intermedia” instead means “I propose an interim review”. “¿Falta alguna condición?” instead means “Is any condition missing?”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c4-u10-q10",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: They would need to confirm availability.",
+      "options": [
+        "Queda pendiente de confirmación",
+        "No veo que justifique esa conclusión",
+        "Tendría que confirmar su disponibilidad"
+      ],
+      "answers": [
+        "Tendría que confirmar su disponibilidad"
+      ],
+      "explanation": "“Tendría que confirmar su disponibilidad” expresses “They would need to confirm availability”. “Queda pendiente de confirmación” instead means “It remains pending confirmation”. “No veo que justifique esa conclusión” instead means “I do not see that it justifies that conclusion”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c4-u10-q11",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: Acceptance is conditional.",
+      "options": [
+        "Siempre que se revise el costo",
+        "La aceptación es condicionada",
+        "He cambiado de opinión sobre ese punto"
+      ],
+      "answers": [
+        "La aceptación es condicionada"
+      ],
+      "explanation": "“La aceptación es condicionada” expresses “Acceptance is conditional”. “Siempre que se revise el costo” instead means “Provided the cost is reviewed”. “He cambiado de opinión sobre ese punto” instead means “I have changed my mind on that point”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c4-u10-q12",
+      "type": "matching",
+      "prompt": "Match each English meaning to its Spanish expression. Use each expression once.",
+      "answers": [
+        "[\"La aceptación es condicionada\",\"Si te he entendido bien\",\"¿Qué parte es negociable?\"]"
+      ],
+      "explanation": "“La aceptación es condicionada” means “Acceptance is conditional”. “Si te he entendido bien” means “If I have understood you correctly”. “¿Qué parte es negociable?” means “Which part is negotiable?”. Each alternative belongs to a different meaning; check the whole phrase, including its grammatical person and register.",
+      "concept": "Meaning and register",
+      "pairs": [
+        {
+          "left": "Acceptance is conditional",
+          "right": "La aceptación es condicionada"
+        },
+        {
+          "left": "If I have understood you correctly",
+          "right": "Si te he entendido bien"
+        },
+        {
+          "left": "Which part is negotiable?",
+          "right": "¿Qué parte es negociable?"
+        }
+      ]
+    }
+  ],
+  "homework": [
+    {
+      "id": "c4-u10-h1",
+      "skill": "Reading & writing",
+      "prompt": "Read the original text for this unit. Identify its situation, central message, and three supporting details. Then write a new version of 220–280 words for a different person or audience. Use the target patterns, change at least three facts, and explain two revisions.",
+      "model": "—Entiendo que prefieres un horario más amplio. Mi objeción es que no sabemos cuánto trabajo adicional implica.\n—Es una preocupación válida. ¿Aceptarías una prueba limitada si registramos las horas del personal?\n—Podría aceptarla siempre que definamos un límite antes de empezar.\n—Propongo cuatro semanas y una revisión intermedia.\n—¿Quién recogería la información?\n—El equipo de coordinación, pero tendría que confirmar su disponibilidad.\n—Entonces todavía no tenemos un acuerdo definitivo sobre ese punto.\nEl intercambio avanza porque distingue una aceptación condicionada de una decisión cerrada. Formula una pregunta de seguimiento que examine una consecuencia todavía no discutida.\n\nThis is the source model, not a text to submit unchanged. A successful adaptation retains the communicative purpose while changing relevant forms and facts. Compare with the worked examples for the reasons behind form choices.",
+      "rubric": "0–3 each: fulfills the specified purpose; organized and comprehensible; target forms support meaning; revisions are explained with examples. 0 = no evidence, 1 = substantial help needed, 2 = effective with some support, 3 = independently effective for this task. Record who evaluated the work."
+    },
+    {
+      "id": "c4-u10-h2",
+      "skill": "Listening",
+      "prompt": "Complete the resource assignment, or ask a willing reader to read the original text without showing it to you. First listen for the situation and purpose; listen again for three details and one contrast. Write a 60–100-word listening log naming the source, words actually heard, one uncertainty, and how you checked it. If using local synthesized speech, label it synthetic. Text-only preparation is not completed listening.",
+      "model": "A useful log separates the speaker’s message from your interpretation: “I heard [specific phrase]; I understood [claim]; I was uncertain about [word/relationship]; checking [text or partner] changed my interpretation to [correction].” Use the unit reading as an answer reference for a read-aloud version, never as evidence of an external speaker’s words.",
+      "rubric": "0–2 each: identifies source and listening conditions; retrieves central meaning; supports three details; checks a specific uncertainty. Do not count a copied transcript as independent comprehension."
+    },
+    {
+      "id": "c4-u10-h3",
+      "skill": "Speaking & interaction",
+      "prompt": "Negotiate a limited trial with a partner assigned different constraints. Include a rebuttal, a conditional concession and three spontaneous follow-ups. Produce a shared written record of what is and is not agreed.",
+      "model": "Use the original reading/dialogue and the sentence-pattern cards as preparation. Make a brief outline, then put it away. Your partner should introduce a detail you did not prepare. Respond, request clarification if needed, and summarize what you agreed or still disagree about. Solo fallback: record two possible viewpoints and improvise a response after a pause; label it rehearsal.",
+      "rubric": "0–3 each: task fulfillment, comprehensibility, control of target language, responsiveness to another speaker. A partner or instructor should cite one example per score. Solo rehearsal provides no evidence for live responsiveness; mark that dimension not observed."
+    },
+    {
+      "id": "c4-u10-h4",
+      "skill": "Retrieval & reflection",
+      "prompt": "On a later day, retrieve six cards without looking. Use three in a fresh response to the practical task. Identify one recurring form error and one communication difficulty. Produce a corrected example, explain the reason, and schedule a specific follow-up exchange or listening session.",
+      "model": "Compare your response with these two models: No veo que justifique esa conclusión / Siempre que se revise el costo. A useful reflection explains the function, not just the spelling. Revisit the first worked item and create a different example of its principle.",
+      "rubric": "Report recall count separately from performance. Reflection is complete when it contains an observed difficulty, an explained correction, a fresh example, and an actionable next session."
+    }
+  ],
+  "task": "Negotiate a limited trial with a partner assigned different constraints. Include a rebuttal, a conditional concession and three spontaneous follow-ups. Produce a shared written record of what is and is not agreed.",
+  "culture": "A fast or forceful debating style is not universally preferred. Agree on turn-taking and time to think. Good negotiation includes listening and accurately recording a partial agreement, not simply speaking the most.",
+  "selfAssessment": [
+    "I can rebut an argument without attacking the speaker.",
+    "I can make conditional concessions and clarify agreements.",
+    "I can ask and answer spontaneous follow-up questions."
+  ],
+  "remediation": "Sort mistakes by form, meaning, and interaction. For form errors, explain a worked example and create a contrasting pair. For comprehension errors, replay a short segment or use a willing reader and verify your interpretation. For interaction difficulties, repeat the practical task with one new constraint. Compare evidence across days; repeated selection of a known answer alone is not mastery.",
+  "resources": [
+    "radio-archive"
+  ]
+}

@@ -345,6 +345,30 @@
       ],
       "explanation": "“el problema” communicates “the problem.” The other choices communicate “the pages” and “a pencil”; those do not answer this prompt.",
       "concept": "Meaning in context"
+    },
+    {
+      "id": "c1-u03-q13",
+      "type": "matching",
+      "prompt": "Match each English meaning to its Spanish expression. Use each expression once.",
+      "answers": [
+        "[\"la clase\",\"la mano\",\"una mesa roja\"]"
+      ],
+      "explanation": "“la clase” means “the class”. “la mano” means “the hand”. “una mesa roja” means “a red table”. Each alternative belongs to a different meaning; check the whole phrase, including its grammatical person and register.",
+      "concept": "Meaning and register",
+      "pairs": [
+        {
+          "left": "the class",
+          "right": "la clase"
+        },
+        {
+          "left": "the hand",
+          "right": "la mano"
+        },
+        {
+          "left": "a red table",
+          "right": "una mesa roja"
+        }
+      ]
     }
   ],
   "homework": [

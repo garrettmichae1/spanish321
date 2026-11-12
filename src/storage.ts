@@ -55,17 +55,46 @@ export async function nextReview(
     ? invoke("schedule_review", { old, rating, now })
     : schedule(old, rating, now);
 }
+async function downloadBytes(name: string, bytes: Uint8Array, type: string) {
+  try {
+    if (native) {
+      await invoke("export_file", { name, bytes: Array.from(bytes) });
+      return;
+    }
+    const buffer = new ArrayBuffer(bytes.length);
+    new Uint8Array(buffer).set(bytes);
+    const url = URL.createObjectURL(new Blob([buffer], { type }));
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = name;
+    a.click();
+    setTimeout(() => URL.revokeObjectURL(url), 1000);
+  } catch (error) {
+    window.dispatchEvent(
+      new CustomEvent("export-error", {
+        detail: "Export failed: " + String(error),
+      }),
+    );
+  }
+}
 export function download(
   name: string,
   body: string,
   type = "application/json",
 ) {
-  const url = URL.createObjectURL(new Blob([body], { type }));
-  const a = document.createElement("a");
-  a.href = url;
-  a.download = name;
-  a.click();
-  setTimeout(() => URL.revokeObjectURL(url), 1000);
+  void downloadBytes(name, new TextEncoder().encode(body), type);
+}
+export function downloadAudio(id: string, data: string) {
+  const type = data.slice(5, data.indexOf(";"));
+  const ext = type.includes("mp4")
+    ? "m4a"
+    : type.includes("ogg")
+      ? "ogg"
+      : "webm";
+  const bytes = Uint8Array.from(atob(data.split(",")[1]), (c) =>
+    c.charCodeAt(0),
+  );
+  void downloadBytes(`${id}.${ext}`, bytes, type);
 }
 export async function openResource(url: string) {
   if (!/^https:\/\//.test(url))
@@ -74,4 +103,8 @@ export async function openResource(url: string) {
     const { openUrl } = await import("@tauri-apps/plugin-opener");
     await openUrl(url);
   } else window.open(url, "_blank", "noopener,noreferrer");
+}
+
+export async function requestMicrophonePermission() {
+  return native ? invoke<boolean>("request_microphone") : true;
 }

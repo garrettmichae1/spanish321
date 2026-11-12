@@ -47,6 +47,18 @@ export function normalize(s: string) {
     .replace(/\s+/g, " ");
 }
 export function grade(q: Question, answer: string) {
+  if (q.pairs) {
+    try {
+      const values: unknown = JSON.parse(answer);
+      return (
+        Array.isArray(values) &&
+        values.length === q.pairs.length &&
+        q.pairs.every((p, i) => p.right === values[i])
+      );
+    } catch {
+      return false;
+    }
+  }
   return q.answers.some((a) =>
     q.options ? a === answer : normalize(a) === normalize(answer),
   );

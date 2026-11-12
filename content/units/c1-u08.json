@@ -344,6 +344,30 @@
       ],
       "explanation": "“Tengo que estudiar” communicates “I have to study.” The other choices communicate “She or he is kind” and “I am cold”; those do not answer this prompt.",
       "concept": "Meaning in context"
+    },
+    {
+      "id": "c1-u08-q13",
+      "type": "matching",
+      "prompt": "Match each English meaning to its Spanish expression. Use each expression once.",
+      "answers": [
+        "[\"Tengo sueño\",\"Tiene treinta años\",\"Mis hermanos\"]"
+      ],
+      "explanation": "“Tengo sueño” means “I am sleepy”. “Tiene treinta años” means “She or he is thirty”. “Mis hermanos” means “My brothers or siblings”. Each alternative belongs to a different meaning; check the whole phrase, including its grammatical person and register.",
+      "concept": "Meaning and register",
+      "pairs": [
+        {
+          "left": "I am sleepy",
+          "right": "Tengo sueño"
+        },
+        {
+          "left": "She or he is thirty",
+          "right": "Tiene treinta años"
+        },
+        {
+          "left": "My brothers or siblings",
+          "right": "Mis hermanos"
+        }
+      ]
     }
   ],
   "homework": [

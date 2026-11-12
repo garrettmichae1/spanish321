@@ -1,0 +1,385 @@
+{
+  "id": "c5-u11",
+  "course": 5,
+  "number": 11,
+  "title": "Conversation & error repair",
+  "subtitle": "Repair recurring errors during real conversation",
+  "status": "authored",
+  "prerequisites": [
+    "c5-u10"
+  ],
+  "objectives": [
+    "Sustain an extended exchange across topic shifts.",
+    "Identify recurring errors by communicative effect.",
+    "Practice repair without sacrificing participation."
+  ],
+  "warmup": "Retrieve two sentences and one repair strategy from c5-u10. Change the subject or situation in each sentence and explain what changed. Then read today’s objectives and predict where your existing language may be insufficient.",
+  "lectures": [
+    {
+      "title": "Conversar exige cambiar de plan",
+      "body": "Una conversación extensa incluye cambios de tema, referencias implícitas, interrupciones y preguntas que no elegiste. Prepara recursos para entrar, mantener y cerrar un turno: sobre ese punto…, antes de pasar a…, ¿puedo comprobar algo? Escuchar no es solo esperar para hablar; debes actualizar tu interpretación cuando aparece nueva información. Si pierdes una referencia, pide una aclaración específica. Si te equivocas, una reparación breve suele bastar. Corregir cada detalle en tiempo real puede impedir la interacción; decide qué errores afectan al significado y cuáles puedes revisar después."
+    },
+    {
+      "title": "Un ciclo de reparación verificable",
+      "body": "Con permiso, graba un fragmento o toma notas inmediatamente después. Selecciona dos dificultades recurrentes, transcribe solo tus propios ejemplos necesarios y explica la corrección. Practica contrastes breves y vuelve a conversar sobre otro tema. Cuenta oportunidades además de errores: equivocarte dos veces en veinte usos no equivale a dos errores en dos usos. Pide al interlocutor que señale si necesitó aclaración, sin convertirlo en un examinador permanente. Conserva también ejemplos de éxito. La meta es una comunicación más flexible y precisa, no una vigilancia que haga imposible participar."
+    }
+  ],
+  "reading": "En una conversación de quince minutos, Nora usa varias veces un pronombre ambiguo y dos veces confunde una condición hipotética con un plan confirmado. Después elige esas dos pautas para trabajar, en lugar de corregir toda la grabación. Escribe una reformulación con nombres claros y otra que distingue “si recibimos permiso, abriremos” de “si tuviéramos más personal, abriríamos”. En la siguiente conversación el tema cambia a la organización de un evento. Nora hace más pausas al cambiar de sujeto y resume explícitamente qué está acordado. Su interlocutor necesita una aclaración sobre un nombre, pero ninguna sobre el compromiso. El resultado no demuestra perfección; ofrece evidencia concreta de transferencia en dos aspectos. Para evaluarlo mejor, Nora registra también cuántas oportunidades tuvo de usar esas estructuras y si preparó el contenido de antemano.",
+  "worked": [
+    {
+      "prompt": "Complete: Conviene contar oportunidades además de ___. (errors)",
+      "answer": "errores",
+      "reason": "Error counts need a denominator or opportunity context to support meaningful comparison."
+    },
+    {
+      "prompt": "Complete: Si recibimos permiso, ___. (abrir, nosotros future)",
+      "answer": "abriremos",
+      "reason": "An open condition can lead to a future plan, distinct from a hypothetical conditional result."
+    },
+    {
+      "prompt": "Complete: Si tuviéramos más personal, ___. (abrir, nosotros conditional)",
+      "answer": "abriríamos",
+      "reason": "The hypothetical condition pairs with conditional in the result."
+    },
+    {
+      "prompt": "Should every minor form error interrupt a live exchange? Write sí or no.",
+      "answer": "no",
+      "reason": "Constant interruption can undermine participation; prioritize meaning and review other patterns afterward."
+    },
+    {
+      "prompt": "Complete: Voy a ___ el referente para evitar confusión. (clarify)",
+      "answer": "aclarar",
+      "reason": "Clarifying the referent addresses a specific comprehension problem."
+    },
+    {
+      "prompt": "Complete: La mejora debe comprobarse en un tema ___. (new)",
+      "answer": "nuevo",
+      "reason": "A new topic provides stronger transfer evidence than repetition of the same prepared response."
+    }
+  ],
+  "cards": [
+    {
+      "id": "c5-u11-f01",
+      "unit": "c5-u11",
+      "kind": "production",
+      "front": "I will count opportunities as well as errors",
+      "back": "Contaré oportunidades además de errores",
+      "example": "Contaré oportunidades además de errores"
+    },
+    {
+      "id": "c5-u11-f02",
+      "unit": "c5-u11",
+      "kind": "recognition",
+      "front": "Si recibimos permiso, abriremos",
+      "back": "If we receive permission, we will open",
+      "example": "Si recibimos permiso, abriremos"
+    },
+    {
+      "id": "c5-u11-f03",
+      "unit": "c5-u11",
+      "kind": "production",
+      "front": "If we had more staff, we would open",
+      "back": "Si tuviéramos más personal, abriríamos",
+      "example": "Si tuviéramos más personal, abriríamos"
+    },
+    {
+      "id": "c5-u11-f04",
+      "unit": "c5-u11",
+      "kind": "recognition",
+      "front": "No interrumpiré por cada detalle",
+      "back": "I will not interrupt over every detail",
+      "example": "No interrumpiré por cada detalle"
+    },
+    {
+      "id": "c5-u11-f05",
+      "unit": "c5-u11",
+      "kind": "production",
+      "front": "I am going to clarify the referent",
+      "back": "Voy a aclarar el referente",
+      "example": "Voy a aclarar el referente"
+    },
+    {
+      "id": "c5-u11-f06",
+      "unit": "c5-u11",
+      "kind": "recognition",
+      "front": "Lo comprobaré en un tema nuevo",
+      "back": "I will check it on a new topic",
+      "example": "Lo comprobaré en un tema nuevo"
+    },
+    {
+      "id": "c5-u11-f07",
+      "unit": "c5-u11",
+      "kind": "production",
+      "front": "On that point, I would like to add…",
+      "back": "Sobre ese punto, quisiera añadir…",
+      "example": "Sobre ese punto, quisiera añadir un ejemplo de la conversación anterior."
+    },
+    {
+      "id": "c5-u11-f08",
+      "unit": "c5-u11",
+      "kind": "recognition",
+      "front": "Antes de pasar a otro tema",
+      "back": "Before moving to another topic",
+      "example": "Antes de pasar a otro tema"
+    },
+    {
+      "id": "c5-u11-f09",
+      "unit": "c5-u11",
+      "kind": "production",
+      "front": "May I check something?",
+      "back": "¿Puedo comprobar algo?",
+      "example": "¿Puedo comprobar algo?"
+    },
+    {
+      "id": "c5-u11-f10",
+      "unit": "c5-u11",
+      "kind": "recognition",
+      "front": "He perdido la referencia",
+      "back": "I have lost the reference",
+      "example": "He perdido la referencia"
+    },
+    {
+      "id": "c5-u11-f11",
+      "unit": "c5-u11",
+      "kind": "production",
+      "front": "Let me correct myself: I meant…",
+      "back": "Me corrijo: quería decir…",
+      "example": "Me corrijo: quería decir que la fecha está propuesta, no confirmada."
+    },
+    {
+      "id": "c5-u11-f12",
+      "unit": "c5-u11",
+      "kind": "recognition",
+      "front": "Dejemos ese detalle para la revisión",
+      "back": "Let us leave that detail for review",
+      "example": "Dejemos ese detalle para la revisión"
+    },
+    {
+      "id": "c5-u11-f13",
+      "unit": "c5-u11",
+      "kind": "production",
+      "front": "This pattern appears again",
+      "back": "Esta pauta vuelve a aparecer",
+      "example": "Esta pauta vuelve a aparecer"
+    },
+    {
+      "id": "c5-u11-f14",
+      "unit": "c5-u11",
+      "kind": "recognition",
+      "front": "También registraré lo que salió bien",
+      "back": "I will also record what went well",
+      "example": "También registraré lo que salió bien"
+    },
+    {
+      "id": "c5-u11-f15",
+      "unit": "c5-u11",
+      "kind": "production",
+      "front": "Participation remains important",
+      "back": "La participación sigue siendo importante",
+      "example": "La participación sigue siendo importante"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c5-u11-q01",
+      "type": "cloze",
+      "prompt": "Complete: Conviene contar oportunidades además de ___. (errors)",
+      "answers": [
+        "errores"
+      ],
+      "explanation": "Error counts need a denominator or opportunity context to support meaningful comparison.",
+      "concept": "Conversar exige cambiar de plan"
+    },
+    {
+      "id": "c5-u11-q02",
+      "type": "cloze",
+      "prompt": "Complete: Si recibimos permiso, ___. (abrir, nosotros future)",
+      "answers": [
+        "abriremos"
+      ],
+      "explanation": "An open condition can lead to a future plan, distinct from a hypothetical conditional result.",
+      "concept": "Conversar exige cambiar de plan"
+    },
+    {
+      "id": "c5-u11-q03",
+      "type": "cloze",
+      "prompt": "Complete: Si tuviéramos más personal, ___. (abrir, nosotros conditional)",
+      "answers": [
+        "abriríamos"
+      ],
+      "explanation": "The hypothetical condition pairs with conditional in the result.",
+      "concept": "Conversar exige cambiar de plan"
+    },
+    {
+      "id": "c5-u11-q04",
+      "type": "typed",
+      "prompt": "Should every minor form error interrupt a live exchange? Write sí or no.",
+      "answers": [
+        "no"
+      ],
+      "explanation": "Constant interruption can undermine participation; prioritize meaning and review other patterns afterward.",
+      "concept": "Un ciclo de reparación verificable"
+    },
+    {
+      "id": "c5-u11-q05",
+      "type": "cloze",
+      "prompt": "Complete: Voy a ___ el referente para evitar confusión. (clarify)",
+      "answers": [
+        "aclarar",
+        "clarificar"
+      ],
+      "explanation": "Clarifying the referent addresses a specific comprehension problem.",
+      "concept": "Un ciclo de reparación verificable"
+    },
+    {
+      "id": "c5-u11-q06",
+      "type": "cloze",
+      "prompt": "Complete: La mejora debe comprobarse en un tema ___. (new)",
+      "answers": [
+        "nuevo"
+      ],
+      "explanation": "A new topic provides stronger transfer evidence than repetition of the same prepared response.",
+      "concept": "Un ciclo de reparación verificable"
+    },
+    {
+      "id": "c5-u11-q07",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: I will count opportunities as well as errors.",
+      "options": [
+        "¿Puedo comprobar algo?",
+        "Esta pauta vuelve a aparecer",
+        "Contaré oportunidades además de errores"
+      ],
+      "answers": [
+        "Contaré oportunidades además de errores"
+      ],
+      "explanation": "“Contaré oportunidades además de errores” expresses “I will count opportunities as well as errors”. “¿Puedo comprobar algo?” instead means “May I check something?”. “Esta pauta vuelve a aparecer” instead means “This pattern appears again”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c5-u11-q08",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: If we receive permission, we will open.",
+      "options": [
+        "También registraré lo que salió bien",
+        "Si recibimos permiso, abriremos",
+        "He perdido la referencia"
+      ],
+      "answers": [
+        "Si recibimos permiso, abriremos"
+      ],
+      "explanation": "“Si recibimos permiso, abriremos” expresses “If we receive permission, we will open”. “También registraré lo que salió bien” instead means “I will also record what went well”. “He perdido la referencia” instead means “I have lost the reference”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c5-u11-q09",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: If we had more staff, we would open.",
+      "options": [
+        "Si tuviéramos más personal, abriríamos",
+        "Me corrijo: quería decir…",
+        "La participación sigue siendo importante"
+      ],
+      "answers": [
+        "Si tuviéramos más personal, abriríamos"
+      ],
+      "explanation": "“Si tuviéramos más personal, abriríamos” expresses “If we had more staff, we would open”. “Me corrijo: quería decir…” instead means “Let me correct myself: I meant…”. “La participación sigue siendo importante” instead means “Participation remains important”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c5-u11-q10",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: I will not interrupt over every detail.",
+      "options": [
+        "Dejemos ese detalle para la revisión",
+        "Contaré oportunidades además de errores",
+        "No interrumpiré por cada detalle"
+      ],
+      "answers": [
+        "No interrumpiré por cada detalle"
+      ],
+      "explanation": "“No interrumpiré por cada detalle” expresses “I will not interrupt over every detail”. “Dejemos ese detalle para la revisión” instead means “Let us leave that detail for review”. “Contaré oportunidades además de errores” instead means “I will count opportunities as well as errors”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c5-u11-q11",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: I am going to clarify the referent.",
+      "options": [
+        "Si recibimos permiso, abriremos",
+        "Voy a aclarar el referente",
+        "Esta pauta vuelve a aparecer"
+      ],
+      "answers": [
+        "Voy a aclarar el referente"
+      ],
+      "explanation": "“Voy a aclarar el referente” expresses “I am going to clarify the referent”. “Si recibimos permiso, abriremos” instead means “If we receive permission, we will open”. “Esta pauta vuelve a aparecer” instead means “This pattern appears again”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c5-u11-q12",
+      "type": "matching",
+      "prompt": "Match each English meaning to its Spanish expression. Use each expression once.",
+      "answers": [
+        "[\"Voy a aclarar el referente\",\"Sobre ese punto, quisiera añadir…\",\"¿Puedo comprobar algo?\"]"
+      ],
+      "explanation": "“Voy a aclarar el referente” means “I am going to clarify the referent”. “Sobre ese punto, quisiera añadir…” means “On that point, I would like to add…”. “¿Puedo comprobar algo?” means “May I check something?”. Each alternative belongs to a different meaning; check the whole phrase, including its grammatical person and register.",
+      "concept": "Meaning and register",
+      "pairs": [
+        {
+          "left": "I am going to clarify the referent",
+          "right": "Voy a aclarar el referente"
+        },
+        {
+          "left": "On that point, I would like to add…",
+          "right": "Sobre ese punto, quisiera añadir…"
+        },
+        {
+          "left": "May I check something?",
+          "right": "¿Puedo comprobar algo?"
+        }
+      ]
+    }
+  ],
+  "homework": [
+    {
+      "id": "c5-u11-h1",
+      "skill": "Reading & writing",
+      "prompt": "Read the original text for this unit. Identify its situation, central message, and three supporting details. Then write a new version of 300–400 words for a different person or audience. Use the target patterns, change at least three facts, and explain two revisions.",
+      "model": "En una conversación de quince minutos, Nora usa varias veces un pronombre ambiguo y dos veces confunde una condición hipotética con un plan confirmado. Después elige esas dos pautas para trabajar, en lugar de corregir toda la grabación. Escribe una reformulación con nombres claros y otra que distingue “si recibimos permiso, abriremos” de “si tuviéramos más personal, abriríamos”. En la siguiente conversación el tema cambia a la organización de un evento. Nora hace más pausas al cambiar de sujeto y resume explícitamente qué está acordado. Su interlocutor necesita una aclaración sobre un nombre, pero ninguna sobre el compromiso. El resultado no demuestra perfección; ofrece evidencia concreta de transferencia en dos aspectos. Para evaluarlo mejor, Nora registra también cuántas oportunidades tuvo de usar esas estructuras y si preparó el contenido de antemano.\n\nThis is the source model, not a text to submit unchanged. A successful adaptation retains the communicative purpose while changing relevant forms and facts. Compare with the worked examples for the reasons behind form choices.",
+      "rubric": "0–3 each: fulfills the specified purpose; organized and comprehensible; target forms support meaning; revisions are explained with examples. 0 = no evidence, 1 = substantial help needed, 2 = effective with some support, 3 = independently effective for this task. Record who evaluated the work."
+    },
+    {
+      "id": "c5-u11-h2",
+      "skill": "Listening",
+      "prompt": "Complete the resource assignment, or ask a willing reader to read the original text without showing it to you. First listen for the situation and purpose; listen again for three details and one contrast. Write a 60–100-word listening log naming the source, words actually heard, one uncertainty, and how you checked it. If using local synthesized speech, label it synthetic. Text-only preparation is not completed listening.",
+      "model": "A useful log separates the speaker’s message from your interpretation: “I heard [specific phrase]; I understood [claim]; I was uncertain about [word/relationship]; checking [text or partner] changed my interpretation to [correction].” Use the unit reading as an answer reference for a read-aloud version, never as evidence of an external speaker’s words.",
+      "rubric": "0–2 each: identifies source and listening conditions; retrieves central meaning; supports three details; checks a specific uncertainty. Do not count a copied transcript as independent comprehension."
+    },
+    {
+      "id": "c5-u11-h3",
+      "skill": "Speaking & interaction",
+      "prompt": "Hold a 12–15-minute conversation with topic changes and unprepared follow-ups. With consent, collect evidence, analyze two recurring patterns, and repeat on a new topic. Solo fallback rehearses repair but cannot complete the interaction criterion.",
+      "model": "Use the original reading/dialogue and the sentence-pattern cards as preparation. Make a brief outline, then put it away. Your partner should introduce a detail you did not prepare. Respond, request clarification if needed, and summarize what you agreed or still disagree about. Solo fallback: record two possible viewpoints and improvise a response after a pause; label it rehearsal.",
+      "rubric": "0–3 each: task fulfillment, comprehensibility, control of target language, responsiveness to another speaker. A partner or instructor should cite one example per score. Solo rehearsal provides no evidence for live responsiveness; mark that dimension not observed."
+    },
+    {
+      "id": "c5-u11-h4",
+      "skill": "Retrieval & reflection",
+      "prompt": "On a later day, retrieve six cards without looking. Use three in a fresh response to the practical task. Identify one recurring form error and one communication difficulty. Produce a corrected example, explain the reason, and schedule a specific follow-up exchange or listening session.",
+      "model": "Compare your response with these two models: Contaré oportunidades además de errores / Si recibimos permiso, abriremos. A useful reflection explains the function, not just the spelling. Revisit the first worked item and create a different example of its principle.",
+      "rubric": "Report recall count separately from performance. Reflection is complete when it contains an observed difficulty, an explained correction, a fresh example, and an actionable next session."
+    }
+  ],
+  "task": "Hold a 12–15-minute conversation with topic changes and unprepared follow-ups. With consent, collect evidence, analyze two recurring patterns, and repeat on a new topic. Solo fallback rehearses repair but cannot complete the interaction criterion.",
+  "culture": "Correction preferences differ. Agree whether and when feedback is welcome, and avoid making a partner responsible for constant language monitoring. A respectful exchange values their contribution as well as your practice.",
+  "selfAssessment": [
+    "I can sustain an extended exchange across topic shifts.",
+    "I can identify recurring errors by communicative effect.",
+    "I can practice repair without sacrificing participation."
+  ],
+  "remediation": "Sort mistakes by form, meaning, and interaction. For form errors, explain a worked example and create a contrasting pair. For comprehension errors, replay a short segment or use a willing reader and verify your interpretation. For interaction difficulties, repeat the practical task with one new constraint. Compare evidence across days; repeated selection of a known answer alone is not mastery.",
+  "resources": [
+    "radio-archive"
+  ]
+}

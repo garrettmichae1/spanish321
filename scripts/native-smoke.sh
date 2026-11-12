@@ -60,7 +60,7 @@ python3 - <<'PY'
 import pathlib,sqlite3,json
 paths=list(pathlib.Path('/home/learner/.local/share').rglob('learner.sqlite3'))
 assert paths,'Application-data SQLite database was not created'
-c=sqlite3.connect(paths[0]);assert c.execute('PRAGMA user_version').fetchone()[0]==1
+c=sqlite3.connect(paths[0]);assert c.execute('PRAGMA user_version').fetchone()[0]==2
 state=c.execute('SELECT json FROM learner_state WHERE id=1').fetchone()
 assert state,'UI did not persist its initial state through native IPC'
 assert json.loads(state[0])['version']==1

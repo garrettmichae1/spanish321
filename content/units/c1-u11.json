@@ -349,6 +349,30 @@
       ],
       "explanation": "“Sin leche” communicates “Without milk.” The other choices communicate “Tomorrow” and “How much does it cost?”; those do not answer this prompt.",
       "concept": "Meaning in context"
+    },
+    {
+      "id": "c1-u11-q13",
+      "type": "matching",
+      "prompt": "Match each English meaning to its Spanish expression. Use each expression once.",
+      "answers": [
+        "[\"¿Qué lleva?\",\"Con azúcar\",\"Voy a cocinar\"]"
+      ],
+      "explanation": "“¿Qué lleva?” means “What is in it?”. “Con azúcar” means “With sugar”. “Voy a cocinar” means “I am going to cook”. Each alternative belongs to a different meaning; check the whole phrase, including its grammatical person and register.",
+      "concept": "Meaning and register",
+      "pairs": [
+        {
+          "left": "What is in it?",
+          "right": "¿Qué lleva?"
+        },
+        {
+          "left": "With sugar",
+          "right": "Con azúcar"
+        },
+        {
+          "left": "I am going to cook",
+          "right": "Voy a cocinar"
+        }
+      ]
     }
   ],
   "homework": [

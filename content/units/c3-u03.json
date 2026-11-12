@@ -1,0 +1,384 @@
+{
+  "id": "c3-u03",
+  "course": 3,
+  "number": 3,
+  "title": "Future forms & predictions",
+  "subtitle": "Plans, predictions and uncertainty",
+  "status": "authored",
+  "prerequisites": [
+    "c3-u02"
+  ],
+  "objectives": [
+    "Form regular and frequent irregular futures.",
+    "Choose between present, ir a and future according to context.",
+    "Signal prediction rather than certainty."
+  ],
+  "warmup": "Retrieve two sentences and one repair strategy from c3-u02. Change the subject or situation in each sentence and explain what changed. Then read today’s objectives and predict where your existing language may be insufficient.",
+  "lectures": [
+    {
+      "title": "Future morphology",
+      "body": "Attach é, ás, á, emos, éis, án to the infinitive: hablaré, comerás, vivirán. The endings are shared across verb classes. Common irregular stems include tendr-, vendr-, podr-, pondr-, saldr-, sabr-, har-, dir- and querr-: tendremos, haré, dirán. A future form is not a guarantee. El tren llegará a las ocho may be a prediction or scheduled assertion, depending on context. State the basis for your forecast and leave room for uncertainty: Según el horario, llegará a las ocho; puede haber retrasos."
+    },
+    {
+      "title": "Several ways to talk about later",
+      "body": "The present can express a settled arrangement: Mañana trabajo. Ir a + infinitive often foregrounds a plan or developing expectation: Voy a llamar. The morphological future can express prediction, promises, formal announcements or conjecture. Estará en casa can mean a present-time guess: She or he is probably at home. Context determines the time interpretation; do not assume every future ending refers to tomorrow. For a first practical plan, state what is arranged, what is intended and what remains uncertain. Avoid teaching ir a as restricted to an exact “near future” interval; time distance alone does not decide the form."
+    }
+  ],
+  "reading": "El equipo organiza una visita a una biblioteca comunitaria. Nora escribe: «Mañana nos reunimos a las nueve. Voy a confirmar el transporte esta tarde. Según el horario, llegaremos antes de las diez, pero dependerá del tráfico. La coordinadora nos mostrará la sala nueva y podremos hacer preguntas». Un compañero pregunta por Luis. Nora responde: «No contesta; estará trabajando». La última frase no anuncia necesariamente un trabajo futuro: propone una explicación de su silencio actual. Marca qué partes del mensaje describen acuerdos, intenciones, predicciones y conjeturas. Después reformula el plan si la salida se retrasa media hora.",
+  "worked": [
+    {
+      "prompt": "Complete: Mañana yo ___ con ella. (hablar, future)",
+      "answer": "hablaré",
+      "reason": "The future adds é to the whole infinitive."
+    },
+    {
+      "prompt": "Complete: Nosotros ___ salir temprano. (poder, future)",
+      "answer": "podremos",
+      "reason": "Poder uses the irregular future stem podr- plus emos."
+    },
+    {
+      "prompt": "Complete: Ella ___ el informe. (hacer, future)",
+      "answer": "hará",
+      "reason": "Hacer uses har- rather than the complete infinitive."
+    },
+    {
+      "prompt": "Complete: Ellos ___ la respuesta. (saber, future)",
+      "answer": "sabrán",
+      "reason": "Saber uses the shortened future stem sabr-."
+    },
+    {
+      "prompt": "In “No contesta; estará trabajando”, choose the meaning: current conjecture or confirmed future schedule.",
+      "answer": "current conjecture",
+      "reason": "The present non-response makes the future form a plausible guess about now."
+    },
+    {
+      "prompt": "Complete: Voy a ___ el transporte. (confirmar)",
+      "answer": "confirmar",
+      "reason": "Ir a takes an infinitive, not a second conjugated future form."
+    }
+  ],
+  "cards": [
+    {
+      "id": "c3-u03-f01",
+      "unit": "c3-u03",
+      "kind": "production",
+      "front": "I will speak with her",
+      "back": "Hablaré con ella",
+      "example": "Hablaré con ella"
+    },
+    {
+      "id": "c3-u03-f02",
+      "unit": "c3-u03",
+      "kind": "recognition",
+      "front": "Podremos salir temprano",
+      "back": "We will be able to leave early",
+      "example": "Podremos salir temprano"
+    },
+    {
+      "id": "c3-u03-f03",
+      "unit": "c3-u03",
+      "kind": "production",
+      "front": "She or he will prepare the report",
+      "back": "Hará el informe",
+      "example": "Hará el informe"
+    },
+    {
+      "id": "c3-u03-f04",
+      "unit": "c3-u03",
+      "kind": "recognition",
+      "front": "Sabrán la respuesta",
+      "back": "They will know the answer",
+      "example": "Sabrán la respuesta"
+    },
+    {
+      "id": "c3-u03-f05",
+      "unit": "c3-u03",
+      "kind": "production",
+      "front": "She or he is probably working in a conjectural context",
+      "back": "Estará trabajando",
+      "example": "Estará trabajando"
+    },
+    {
+      "id": "c3-u03-f06",
+      "unit": "c3-u03",
+      "kind": "recognition",
+      "front": "Voy a confirmar el transporte",
+      "back": "I am going to confirm transport",
+      "example": "Voy a confirmar el transporte"
+    },
+    {
+      "id": "c3-u03-f07",
+      "unit": "c3-u03",
+      "kind": "production",
+      "front": "According to the schedule",
+      "back": "Según el horario",
+      "example": "Según el horario, el tren saldrá a las seis."
+    },
+    {
+      "id": "c3-u03-f08",
+      "unit": "c3-u03",
+      "kind": "recognition",
+      "front": "Llegaremos a las diez",
+      "back": "We will arrive at ten",
+      "example": "Llegaremos a las diez"
+    },
+    {
+      "id": "c3-u03-f09",
+      "unit": "c3-u03",
+      "kind": "production",
+      "front": "It will depend on traffic",
+      "back": "Dependerá del tráfico",
+      "example": "Dependerá del tráfico"
+    },
+    {
+      "id": "c3-u03-f10",
+      "unit": "c3-u03",
+      "kind": "recognition",
+      "front": "Mañana nos reunimos",
+      "back": "We meet tomorrow as an arrangement",
+      "example": "Mañana nos reunimos"
+    },
+    {
+      "id": "c3-u03-f11",
+      "unit": "c3-u03",
+      "kind": "production",
+      "front": "We will have time",
+      "back": "Tendremos tiempo",
+      "example": "Tendremos tiempo"
+    },
+    {
+      "id": "c3-u03-f12",
+      "unit": "c3-u03",
+      "kind": "recognition",
+      "front": "Vendrá más tarde",
+      "back": "She or he will come later",
+      "example": "Vendrá más tarde"
+    },
+    {
+      "id": "c3-u03-f13",
+      "unit": "c3-u03",
+      "kind": "production",
+      "front": "I will put it here",
+      "back": "Lo pondré aquí",
+      "example": "Lo pondré aquí"
+    },
+    {
+      "id": "c3-u03-f14",
+      "unit": "c3-u03",
+      "kind": "recognition",
+      "front": "No puedo garantizarlo",
+      "back": "I cannot guarantee it",
+      "example": "No puedo garantizarlo"
+    },
+    {
+      "id": "c3-u03-f15",
+      "unit": "c3-u03",
+      "kind": "production",
+      "front": "If everything goes well",
+      "back": "Si todo va bien",
+      "example": "Si todo va bien"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c3-u03-q01",
+      "type": "cloze",
+      "prompt": "Complete: Mañana yo ___ con ella. (hablar, future)",
+      "answers": [
+        "hablaré"
+      ],
+      "explanation": "The future adds é to the whole infinitive.",
+      "concept": "Future morphology"
+    },
+    {
+      "id": "c3-u03-q02",
+      "type": "cloze",
+      "prompt": "Complete: Nosotros ___ salir temprano. (poder, future)",
+      "answers": [
+        "podremos"
+      ],
+      "explanation": "Poder uses the irregular future stem podr- plus emos.",
+      "concept": "Future morphology"
+    },
+    {
+      "id": "c3-u03-q03",
+      "type": "cloze",
+      "prompt": "Complete: Ella ___ el informe. (hacer, future)",
+      "answers": [
+        "hará"
+      ],
+      "explanation": "Hacer uses har- rather than the complete infinitive.",
+      "concept": "Future morphology"
+    },
+    {
+      "id": "c3-u03-q04",
+      "type": "cloze",
+      "prompt": "Complete: Ellos ___ la respuesta. (saber, future)",
+      "answers": [
+        "sabrán"
+      ],
+      "explanation": "Saber uses the shortened future stem sabr-.",
+      "concept": "Several ways to talk about later"
+    },
+    {
+      "id": "c3-u03-q05",
+      "type": "typed",
+      "prompt": "In “No contesta; estará trabajando”, choose the meaning: current conjecture or confirmed future schedule. Copy one of those English labels.",
+      "answers": [
+        "current conjecture"
+      ],
+      "explanation": "The present non-response makes the future form a plausible guess about now.",
+      "concept": "Several ways to talk about later"
+    },
+    {
+      "id": "c3-u03-q06",
+      "type": "cloze",
+      "prompt": "Complete: Voy a ___ el transporte. (confirmar)",
+      "answers": [
+        "confirmar"
+      ],
+      "explanation": "Ir a takes an infinitive, not a second conjugated future form.",
+      "concept": "Several ways to talk about later"
+    },
+    {
+      "id": "c3-u03-q07",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: I will speak with her.",
+      "options": [
+        "Dependerá del tráfico",
+        "Lo pondré aquí",
+        "Hablaré con ella"
+      ],
+      "answers": [
+        "Hablaré con ella"
+      ],
+      "explanation": "“Hablaré con ella” expresses “I will speak with her”. “Dependerá del tráfico” instead means “It will depend on traffic”. “Lo pondré aquí” instead means “I will put it here”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c3-u03-q08",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: We will be able to leave early.",
+      "options": [
+        "No puedo garantizarlo",
+        "Podremos salir temprano",
+        "Mañana nos reunimos"
+      ],
+      "answers": [
+        "Podremos salir temprano"
+      ],
+      "explanation": "“Podremos salir temprano” expresses “We will be able to leave early”. “No puedo garantizarlo” instead means “I cannot guarantee it”. “Mañana nos reunimos” instead means “We meet tomorrow as an arrangement”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c3-u03-q09",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: She or he will prepare the report.",
+      "options": [
+        "Hará el informe",
+        "Tendremos tiempo",
+        "Si todo va bien"
+      ],
+      "answers": [
+        "Hará el informe"
+      ],
+      "explanation": "“Hará el informe” expresses “She or he will prepare the report”. “Tendremos tiempo” instead means “We will have time”. “Si todo va bien” instead means “If everything goes well”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c3-u03-q10",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: They will know the answer.",
+      "options": [
+        "Vendrá más tarde",
+        "Hablaré con ella",
+        "Sabrán la respuesta"
+      ],
+      "answers": [
+        "Sabrán la respuesta"
+      ],
+      "explanation": "“Sabrán la respuesta” expresses “They will know the answer”. “Vendrá más tarde” instead means “She or he will come later”. “Hablaré con ella” instead means “I will speak with her”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c3-u03-q11",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: She or he is probably working in a conjectural context.",
+      "options": [
+        "Podremos salir temprano",
+        "Estará trabajando",
+        "Lo pondré aquí"
+      ],
+      "answers": [
+        "Estará trabajando"
+      ],
+      "explanation": "“Estará trabajando” expresses “She or he is probably working in a conjectural context”. “Podremos salir temprano” instead means “We will be able to leave early”. “Lo pondré aquí” instead means “I will put it here”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c3-u03-q12",
+      "type": "matching",
+      "prompt": "Match each English meaning to its Spanish expression. Use each expression once.",
+      "answers": [
+        "[\"Estará trabajando\",\"Según el horario\",\"Dependerá del tráfico\"]"
+      ],
+      "explanation": "“Estará trabajando” means “She or he is probably working in a conjectural context”. “Según el horario” means “According to the schedule”. “Dependerá del tráfico” means “It will depend on traffic”. Each alternative belongs to a different meaning; check the whole phrase, including its grammatical person and register.",
+      "concept": "Meaning and register",
+      "pairs": [
+        {
+          "left": "She or he is probably working in a conjectural context",
+          "right": "Estará trabajando"
+        },
+        {
+          "left": "According to the schedule",
+          "right": "Según el horario"
+        },
+        {
+          "left": "It will depend on traffic",
+          "right": "Dependerá del tráfico"
+        }
+      ]
+    }
+  ],
+  "homework": [
+    {
+      "id": "c3-u03-h1",
+      "skill": "Reading & writing",
+      "prompt": "Read the original text for this unit. Identify its situation, central message, and three supporting details. Then write a new version of 150–200 words for a different person or audience. Use the target patterns, change at least three facts, and explain two revisions.",
+      "model": "El equipo organiza una visita a una biblioteca comunitaria. Nora escribe: «Mañana nos reunimos a las nueve. Voy a confirmar el transporte esta tarde. Según el horario, llegaremos antes de las diez, pero dependerá del tráfico. La coordinadora nos mostrará la sala nueva y podremos hacer preguntas». Un compañero pregunta por Luis. Nora responde: «No contesta; estará trabajando». La última frase no anuncia necesariamente un trabajo futuro: propone una explicación de su silencio actual. Marca qué partes del mensaje describen acuerdos, intenciones, predicciones y conjeturas. Después reformula el plan si la salida se retrasa media hora.\n\nThis is the source model, not a text to submit unchanged. A successful adaptation retains the communicative purpose while changing relevant forms and facts. Compare with the worked examples for the reasons behind form choices.",
+      "rubric": "0–3 each: fulfills the specified purpose; organized and comprehensible; target forms support meaning; revisions are explained with examples. 0 = no evidence, 1 = substantial help needed, 2 = effective with some support, 3 = independently effective for this task. Record who evaluated the work."
+    },
+    {
+      "id": "c3-u03-h2",
+      "skill": "Listening",
+      "prompt": "Complete the resource assignment, or ask a willing reader to read the original text without showing it to you. First listen for the situation and purpose; listen again for three details and one contrast. Write a 60–100-word listening log naming the source, words actually heard, one uncertainty, and how you checked it. If using local synthesized speech, label it synthetic. Text-only preparation is not completed listening.",
+      "model": "A useful log separates the speaker’s message from your interpretation: “I heard [specific phrase]; I understood [claim]; I was uncertain about [word/relationship]; checking [text or partner] changed my interpretation to [correction].” Use the unit reading as an answer reference for a read-aloud version, never as evidence of an external speaker’s words.",
+      "rubric": "0–2 each: identifies source and listening conditions; retrieves central meaning; supports three details; checks a specific uncertainty. Do not count a copied transcript as independent comprehension."
+    },
+    {
+      "id": "c3-u03-h3",
+      "skill": "Speaking & interaction",
+      "prompt": "Plan an outing with a partner. Identify two fixed arrangements, two intentions and two uncertain predictions. Respond to a new constraint without presenting guesses as confirmed facts.",
+      "model": "Use the original reading/dialogue and the sentence-pattern cards as preparation. Make a brief outline, then put it away. Your partner should introduce a detail you did not prepare. Respond, request clarification if needed, and summarize what you agreed or still disagree about. Solo fallback: record two possible viewpoints and improvise a response after a pause; label it rehearsal.",
+      "rubric": "0–3 each: task fulfillment, comprehensibility, control of target language, responsiveness to another speaker. A partner or instructor should cite one example per score. Solo rehearsal provides no evidence for live responsiveness; mark that dimension not observed."
+    },
+    {
+      "id": "c3-u03-h4",
+      "skill": "Retrieval & reflection",
+      "prompt": "On a later day, retrieve six cards without looking. Use three in a fresh response to the practical task. Identify one recurring form error and one communication difficulty. Produce a corrected example, explain the reason, and schedule a specific follow-up exchange or listening session.",
+      "model": "Compare your response with these two models: Hablaré con ella / Podremos salir temprano. A useful reflection explains the function, not just the spelling. Revisit the first worked item and create a different example of its principle.",
+      "rubric": "Report recall count separately from performance. Reflection is complete when it contains an observed difficulty, an explained correction, a fresh example, and an actionable next session."
+    }
+  ],
+  "task": "Plan an outing with a partner. Identify two fixed arrangements, two intentions and two uncertain predictions. Respond to a new constraint without presenting guesses as confirmed facts.",
+  "culture": "Some varieties favor periphrastic future forms in everyday speech. This does not make morphological futures obsolete: register and communicative purpose affect their distribution. Listen to both informal and formal contexts.",
+  "selfAssessment": [
+    "I can form regular and frequent irregular futures.",
+    "I can choose between present, ir a and future according to context.",
+    "I can signal prediction rather than certainty."
+  ],
+  "remediation": "Sort mistakes by form, meaning, and interaction. For form errors, explain a worked example and create a contrasting pair. For comprehension errors, replay a short segment or use a willing reader and verify your interpretation. For interaction difficulties, repeat the practical task with one new constraint. Compare evidence across days; repeated selection of a known answer alone is not mastery.",
+  "resources": [
+    "sd-future"
+  ]
+}

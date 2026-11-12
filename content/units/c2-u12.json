@@ -1,0 +1,388 @@
+{
+  "id": "c2-u12",
+  "course": 2,
+  "number": 12,
+  "title": "Travel & storytelling project",
+  "subtitle": "A journey with a story",
+  "status": "authored",
+  "prerequisites": [
+    "c2-u11"
+  ],
+  "objectives": [
+    "Integrate present, past, pronouns and practical requests.",
+    "Tell a coherent travel or local-exploration story.",
+    "Use evidence to choose the next review priorities."
+  ],
+  "warmup": "Retrieve two sentences and one repair strategy from c2-u11. Change the subject or situation in each sentence and explain what changed. Then read today’s objectives and predict where your existing language may be insufficient.",
+  "lectures": [
+    {
+      "title": "A project with a real listener",
+      "body": "A useful travel account answers where, why, what happened and what the listener needs to know. Begin with a goal, give enough setting to orient the listener, select two or three events, and end with a result or recommendation. Use imperfect for background where appropriate and preterite to bound events; do not alternate mechanically. Replace repeated objects only when the referent stays clear. A listener unfamiliar with the place may need a map, an explained local term or a repeated name. Keep personal safety and private information in mind: invented itineraries work equally well for the language task."
+    },
+    {
+      "title": "Review the message and the language",
+      "body": "Before the final, produce a short account without notes. Then check direct/indirect roles, agreement, past viewpoint, and por/para meaning. Separate quiz accuracy from a writing rubric and a live interaction rubric. Your capstone includes an unexpected change: a canceled reservation, a dietary requirement or a missed connection. The aim is to respond, clarify and adapt, not to perform a flawless memorized monologue. Save the first version, feedback, and revision. If errors recur, revisit the unit that explains their function, then test the correction in a new situation rather than only retaking a familiar question."
+    },
+    {
+      "title": "Turn planning notes into a message someone can use",
+      "body": "A travel project should do more than display tense endings. Give the reader enough information to act: destination, sequence, practical constraints and a clear request. Then narrate a short completed episode with a setting and a result. Separate your future plan from your past experience so the listener can tell which details are confirmed, intended or already completed.\n\nFor example, **Vamos a salir a las ocho** describes a plan; **Salimos a las ocho ayer** reports an event; **Antes salíamos más tarde** describes an earlier habit. The identical-looking **salimos** needs context. Use pronouns when references are clear, but repeat a noun if two tickets or two people could be confused.\n\nPrepare the presentation once, then ask a partner to change a constraint: the shop is closed, the train is delayed, or a traveler cannot eat an ingredient. Your response is a separate sample of communication. Record which part was prepared and which was spontaneous. Review a weak feature with a fresh scenario instead of retaking the same multiple-choice bank until its answers are memorized."
+    }
+  ],
+  "reading": "El mes pasado hice una excursión con dos amigos. Queríamos conocer un pueblo cercano porque una amiga nos había recomendado su mercado. Cuando llegamos, llovía y algunas tiendas estaban cerradas. Primero buscamos un lugar para comer. Preguntamos qué llevaba la sopa y pedimos una opción sin carne. Después visitamos una exposición. La entrada era barata y la guía nos explicó la historia del edificio. Al volver, perdimos el autobús, pero una empleada nos mostró otra ruta. No todo salió como esperábamos; aun así, aprendimos a preguntar mejor y a confirmar los horarios. ¿Qué harías tú ante un cambio de transporte? Puedes responder con un plan usando ir a.",
+  "worked": [
+    {
+      "prompt": "Complete: Ayer ___ una excursión. (hacer, yo)",
+      "answer": "hice",
+      "reason": "Hacer uses the irregular stem hic- in the yo preterite."
+    },
+    {
+      "prompt": "Complete: Cuando llegamos, ___ mucho. (llover, background)",
+      "answer": "llovía",
+      "reason": "The imperfect presents weather as the background to arrival."
+    },
+    {
+      "prompt": "Complete: La guía ___ explicó la historia a nosotros.",
+      "answer": "nos",
+      "reason": "Nos represents the recipients of the explanation."
+    },
+    {
+      "prompt": "Complete: Buscamos un lugar ___ comer.",
+      "answer": "para",
+      "reason": "Para introduces the purpose of finding the place."
+    },
+    {
+      "prompt": "Complete: No ___ lo dé todavía. (to me, usted command)",
+      "answer": "me",
+      "reason": "The negative command places the indirect/direct pair before the verb."
+    },
+    {
+      "prompt": "Complete: Ya hemos ___ el plan. (hacer)",
+      "answer": "hecho",
+      "reason": "The present perfect uses the irregular participle hecho, which remains invariant."
+    }
+  ],
+  "cards": [
+    {
+      "id": "c2-u12-f01",
+      "unit": "c2-u12",
+      "kind": "production",
+      "front": "I went on an excursion",
+      "back": "Hice una excursión",
+      "example": "Hice una excursión"
+    },
+    {
+      "id": "c2-u12-f02",
+      "unit": "c2-u12",
+      "kind": "recognition",
+      "front": "Cuando llegamos, llovía",
+      "back": "When we arrived, it was raining",
+      "example": "Cuando llegamos, llovía"
+    },
+    {
+      "id": "c2-u12-f03",
+      "unit": "c2-u12",
+      "kind": "production",
+      "front": "She or he explained the history to us",
+      "back": "Nos explicó la historia",
+      "example": "Nos explicó la historia"
+    },
+    {
+      "id": "c2-u12-f04",
+      "unit": "c2-u12",
+      "kind": "recognition",
+      "front": "Un lugar para comer",
+      "back": "A place to eat",
+      "example": "Buscamos un lugar para comer cerca del museo."
+    },
+    {
+      "id": "c2-u12-f05",
+      "unit": "c2-u12",
+      "kind": "production",
+      "front": "Do not give it to me yet (usted)",
+      "back": "No me lo dé todavía",
+      "example": "No me lo dé todavía"
+    },
+    {
+      "id": "c2-u12-f06",
+      "unit": "c2-u12",
+      "kind": "recognition",
+      "front": "Ya hemos hecho el plan",
+      "back": "We have already made the plan",
+      "example": "Ya hemos hecho el plan"
+    },
+    {
+      "id": "c2-u12-f07",
+      "unit": "c2-u12",
+      "kind": "production",
+      "front": "We wanted to get to know the town",
+      "back": "Queríamos conocer el pueblo",
+      "example": "Queríamos conocer el pueblo"
+    },
+    {
+      "id": "c2-u12-f08",
+      "unit": "c2-u12",
+      "kind": "recognition",
+      "front": "Pedimos una opción sin carne",
+      "back": "We ordered an option without meat",
+      "example": "Pedimos una opción sin carne"
+    },
+    {
+      "id": "c2-u12-f09",
+      "unit": "c2-u12",
+      "kind": "production",
+      "front": "We missed the bus",
+      "back": "Perdimos el autobús",
+      "example": "Perdimos el autobús"
+    },
+    {
+      "id": "c2-u12-f10",
+      "unit": "c2-u12",
+      "kind": "recognition",
+      "front": "Nos mostró otra ruta",
+      "back": "She or he showed us another route",
+      "example": "Nos mostró otra ruta"
+    },
+    {
+      "id": "c2-u12-f11",
+      "unit": "c2-u12",
+      "kind": "production",
+      "front": "Not everything went as we expected",
+      "back": "No todo salió como esperábamos",
+      "example": "No todo salió como esperábamos"
+    },
+    {
+      "id": "c2-u12-f12",
+      "unit": "c2-u12",
+      "kind": "recognition",
+      "front": "Aun así, aprendimos mucho",
+      "back": "Even so, we learned a lot",
+      "example": "Aun así, aprendimos mucho"
+    },
+    {
+      "id": "c2-u12-f13",
+      "unit": "c2-u12",
+      "kind": "production",
+      "front": "I am going to confirm the schedule",
+      "back": "Voy a confirmar el horario",
+      "example": "Voy a confirmar el horario"
+    },
+    {
+      "id": "c2-u12-f14",
+      "unit": "c2-u12",
+      "kind": "recognition",
+      "front": "¿Qué recomienda usted?",
+      "back": "What do you recommend? (usted)",
+      "example": "¿Qué recomienda usted?"
+    },
+    {
+      "id": "c2-u12-f15",
+      "unit": "c2-u12",
+      "kind": "production",
+      "front": "I need to clarify one detail",
+      "back": "Necesito aclarar un detalle",
+      "example": "Necesito aclarar un detalle"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c2-u12-q01",
+      "type": "cloze",
+      "prompt": "Complete: Ayer ___ una excursión. (hacer, yo)",
+      "answers": [
+        "hice"
+      ],
+      "explanation": "Hacer uses the irregular stem hic- in the yo preterite.",
+      "concept": "A project with a real listener"
+    },
+    {
+      "id": "c2-u12-q02",
+      "type": "cloze",
+      "prompt": "Complete: Cuando llegamos, ___ mucho. (llover, background)",
+      "answers": [
+        "llovía"
+      ],
+      "explanation": "The imperfect presents weather as the background to arrival.",
+      "concept": "A project with a real listener"
+    },
+    {
+      "id": "c2-u12-q03",
+      "type": "cloze",
+      "prompt": "Complete: La guía ___ explicó la historia a nosotros.",
+      "answers": [
+        "nos"
+      ],
+      "explanation": "Nos represents the recipients of the explanation.",
+      "concept": "A project with a real listener"
+    },
+    {
+      "id": "c2-u12-q04",
+      "type": "cloze",
+      "prompt": "Complete: Buscamos un lugar ___ comer.",
+      "answers": [
+        "para"
+      ],
+      "explanation": "Para introduces the purpose of finding the place.",
+      "concept": "Review the message and the language"
+    },
+    {
+      "id": "c2-u12-q05",
+      "type": "cloze",
+      "prompt": "Complete: No ___ lo dé todavía. (to me, usted command)",
+      "answers": [
+        "me"
+      ],
+      "explanation": "The negative command places the indirect/direct pair before the verb.",
+      "concept": "Review the message and the language"
+    },
+    {
+      "id": "c2-u12-q06",
+      "type": "cloze",
+      "prompt": "Complete: Ya hemos ___ el plan. (hacer)",
+      "answers": [
+        "hecho"
+      ],
+      "explanation": "The present perfect uses the irregular participle hecho, which remains invariant.",
+      "concept": "Review the message and the language"
+    },
+    {
+      "id": "c2-u12-q07",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: I went on an excursion.",
+      "options": [
+        "Perdimos el autobús",
+        "Voy a confirmar el horario",
+        "Hice una excursión"
+      ],
+      "answers": [
+        "Hice una excursión"
+      ],
+      "explanation": "“Hice una excursión” expresses “I went on an excursion”. “Perdimos el autobús” instead means “We missed the bus”. “Voy a confirmar el horario” instead means “I am going to confirm the schedule”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c2-u12-q08",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: When we arrived, it was raining.",
+      "options": [
+        "¿Qué recomienda usted?",
+        "Cuando llegamos, llovía",
+        "Nos mostró otra ruta"
+      ],
+      "answers": [
+        "Cuando llegamos, llovía"
+      ],
+      "explanation": "“Cuando llegamos, llovía” expresses “When we arrived, it was raining”. “¿Qué recomienda usted?” instead means “What do you recommend? (usted)”. “Nos mostró otra ruta” instead means “She or he showed us another route”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c2-u12-q09",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: She or he explained the history to us.",
+      "options": [
+        "Nos explicó la historia",
+        "No todo salió como esperábamos",
+        "Necesito aclarar un detalle"
+      ],
+      "answers": [
+        "Nos explicó la historia"
+      ],
+      "explanation": "“Nos explicó la historia” expresses “She or he explained the history to us”. “No todo salió como esperábamos” instead means “Not everything went as we expected”. “Necesito aclarar un detalle” instead means “I need to clarify one detail”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c2-u12-q10",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: A place to eat.",
+      "options": [
+        "Aun así, aprendimos mucho",
+        "Hice una excursión",
+        "Un lugar para comer"
+      ],
+      "answers": [
+        "Un lugar para comer"
+      ],
+      "explanation": "“Un lugar para comer” expresses “A place to eat”. “Aun así, aprendimos mucho” instead means “Even so, we learned a lot”. “Hice una excursión” instead means “I went on an excursion”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c2-u12-q11",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: Do not give it to me yet (usted).",
+      "options": [
+        "Cuando llegamos, llovía",
+        "No me lo dé todavía",
+        "Voy a confirmar el horario"
+      ],
+      "answers": [
+        "No me lo dé todavía"
+      ],
+      "explanation": "“No me lo dé todavía” expresses “Do not give it to me yet (usted)”. “Cuando llegamos, llovía” instead means “When we arrived, it was raining”. “Voy a confirmar el horario” instead means “I am going to confirm the schedule”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c2-u12-q12",
+      "type": "matching",
+      "prompt": "Match each English meaning to its Spanish expression. Use each expression once.",
+      "answers": [
+        "[\"No me lo dé todavía\",\"Queríamos conocer el pueblo\",\"Perdimos el autobús\"]"
+      ],
+      "explanation": "“No me lo dé todavía” means “Do not give it to me yet (usted)”. “Queríamos conocer el pueblo” means “We wanted to get to know the town”. “Perdimos el autobús” means “We missed the bus”. Each alternative belongs to a different meaning; check the whole phrase, including its grammatical person and register.",
+      "concept": "Meaning and register",
+      "pairs": [
+        {
+          "left": "Do not give it to me yet (usted)",
+          "right": "No me lo dé todavía"
+        },
+        {
+          "left": "We wanted to get to know the town",
+          "right": "Queríamos conocer el pueblo"
+        },
+        {
+          "left": "We missed the bus",
+          "right": "Perdimos el autobús"
+        }
+      ]
+    }
+  ],
+  "homework": [
+    {
+      "id": "c2-u12-h1",
+      "skill": "Reading & writing",
+      "prompt": "Read the original text for this unit. Identify its situation, central message, and three supporting details. Then write a new version of 100–140 words for a different person or audience. Use the target patterns, change at least three facts, and explain two revisions.",
+      "model": "El mes pasado hice una excursión con dos amigos. Queríamos conocer un pueblo cercano porque una amiga nos había recomendado su mercado. Cuando llegamos, llovía y algunas tiendas estaban cerradas. Primero buscamos un lugar para comer. Preguntamos qué llevaba la sopa y pedimos una opción sin carne. Después visitamos una exposición. La entrada era barata y la guía nos explicó la historia del edificio. Al volver, perdimos el autobús, pero una empleada nos mostró otra ruta. No todo salió como esperábamos; aun así, aprendimos a preguntar mejor y a confirmar los horarios. ¿Qué harías tú ante un cambio de transporte? Puedes responder con un plan usando ir a.\n\nThis is the source model, not a text to submit unchanged. A successful adaptation retains the communicative purpose while changing relevant forms and facts. Compare with the worked examples for the reasons behind form choices.",
+      "rubric": "0–3 each: fulfills the specified purpose; organized and comprehensible; target forms support meaning; revisions are explained with examples. 0 = no evidence, 1 = substantial help needed, 2 = effective with some support, 3 = independently effective for this task. Record who evaluated the work."
+    },
+    {
+      "id": "c2-u12-h2",
+      "skill": "Listening",
+      "prompt": "Complete the resource assignment, or ask a willing reader to read the original text without showing it to you. First listen for the situation and purpose; listen again for three details and one contrast. Write a 60–100-word listening log naming the source, words actually heard, one uncertainty, and how you checked it. If using local synthesized speech, label it synthetic. Text-only preparation is not completed listening.",
+      "model": "A useful log separates the speaker’s message from your interpretation: “I heard [specific phrase]; I understood [claim]; I was uncertain about [word/relationship]; checking [text or partner] changed my interpretation to [correction].” Use the unit reading as an answer reference for a read-aloud version, never as evidence of an external speaker’s words.",
+      "rubric": "0–2 each: identifies source and listening conditions; retrieves central meaning; supports three details; checks a specific uncertainty. Do not count a copied transcript as independent comprehension."
+    },
+    {
+      "id": "c2-u12-h3",
+      "skill": "Speaking & interaction",
+      "prompt": "Final capstone: create a 180–220-word account and a three-minute travel or neighborhood presentation. Add practical advice and negotiate an unexpected change with a partner. Save a first draft, feedback and revision.",
+      "model": "Use the original reading/dialogue and the sentence-pattern cards as preparation. Make a brief outline, then put it away. Your partner should introduce a detail you did not prepare. Respond, request clarification if needed, and summarize what you agreed or still disagree about. Solo fallback: record two possible viewpoints and improvise a response after a pause; label it rehearsal.",
+      "rubric": "0–3 each: task fulfillment, comprehensibility, control of target language, responsiveness to another speaker. A partner or instructor should cite one example per score. Solo rehearsal provides no evidence for live responsiveness; mark that dimension not observed."
+    },
+    {
+      "id": "c2-u12-h4",
+      "skill": "Retrieval & reflection",
+      "prompt": "On a later day, retrieve six cards without looking. Use three in a fresh response to the practical task. Identify one recurring form error and one communication difficulty. Produce a corrected example, explain the reason, and schedule a specific follow-up exchange or listening session.",
+      "model": "Compare your response with these two models: Hice una excursión / Cuando llegamos, llovía. A useful reflection explains the function, not just the spelling. Revisit the first worked item and create a different example of its principle.",
+      "rubric": "Report recall count separately from performance. Reflection is complete when it contains an observed difficulty, an explained correction, a fresh example, and an actionable next session."
+    }
+  ],
+  "task": "Final capstone: create a 180–220-word account and a three-minute travel or neighborhood presentation. Add practical advice and negotiate an unexpected change with a partner. Save a first draft, feedback and revision.",
+  "culture": "Travel learning should not reduce communities to attractions or stereotypes. Attribute recommendations, ask permission before recording people, and distinguish your short visit from expertise about a place.",
+  "selfAssessment": [
+    "I can integrate present, past, pronouns and practical requests.",
+    "I can tell a coherent travel or local-exploration story.",
+    "I can use evidence to choose the next review priorities."
+  ],
+  "remediation": "Sort mistakes by form, meaning, and interaction. For form errors, explain a worked example and create a contrasting pair. For comprehension errors, replay a short segment or use a willing reader and verify your interpretation. For interaction difficulties, repeat the practical task with one new constraint. Compare evidence across days; repeated selection of a known answer alone is not mastery.",
+  "resources": [
+    "sd-past-contrast"
+  ]
+}

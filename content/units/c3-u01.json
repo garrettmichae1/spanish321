@@ -1,0 +1,384 @@
+{
+  "id": "c3-u01",
+  "course": 3,
+  "number": 1,
+  "title": "Connected past narration",
+  "subtitle": "A story with a clear point",
+  "status": "authored",
+  "prerequisites": [
+    "c2-u12"
+  ],
+  "objectives": [
+    "Maintain a coherent past timeline.",
+    "Distinguish the narrator’s knowledge from inference.",
+    "Respond to clarification while retelling an event."
+  ],
+  "warmup": "Retrieve two sentences and one repair strategy from c2-u12. Change the subject or situation in each sentence and explain what changed. Then read today’s objectives and predict where your existing language may be insufficient.",
+  "lectures": [
+    {
+      "title": "Choose the story, not just the tense",
+      "body": "A connected narrative has a purpose: explaining a delay, sharing an experience or justifying a decision. Select events that serve that purpose. Imperfect forms can establish circumstances and repeated activity; preterite forms can bound events and advance the account. Neither tense is assigned simply by the number of minutes an action lasted. Compare Vivía allí cuando lo conocí with Viví allí durante cinco años. The first places a meeting inside a situation; the second summarizes a completed residence. Keep subjects clear when several people appear, using names before pronouns become ambiguous."
+    },
+    {
+      "title": "Make the listener’s work manageable",
+      "body": "Use antes, mientras, después and al final to make relationships explicit. Antes de eso can repair an omitted earlier detail. Distinguish observation from interpretation: Vi que salió is not the same evidential claim as Parecía que quería salir. A retelling can preserve uncertainty: No recuerdo la hora exacta, pero ya era de noche. If a listener corrects your understanding, integrate the correction rather than defending the first version automatically. Your goal is a useful, traceable account. After drafting, underline every past form and explain its narrative function; replace mechanical tense alternation with purposeful choices."
+    }
+  ],
+  "reading": "El martes, Nora llegó tarde a una entrevista. Normalmente salía de casa con una hora de margen, pero ese día una calle estaba cerrada. Primero caminó hasta otra parada. Mientras esperaba, llamó a la oficina para explicar el problema. La persona que contestó parecía preocupada, aunque Nora no sabía si era por su retraso o por otra cosa. Al final tomó un taxi y llegó veinte minutos después de la hora acordada. En la entrevista explicó la secuencia sin culpar a nadie y preguntó si todavía podían hablar. Más tarde recordó un detalle: había recibido un aviso del cierre, pero no lo había leído. Ese dato cambia cómo interpreta su preparación, no el hecho de que la calle estaba cerrada.",
+  "worked": [
+    {
+      "prompt": "Complete: ___ allí cuando lo conocí. (vivir, yo background)",
+      "answer": "Vivía",
+      "reason": "The residence is background within which the bounded meeting occurs."
+    },
+    {
+      "prompt": "Complete: ___ allí durante cinco años, de 2015 a 2020. (vivir, yo bounded)",
+      "answer": "Viví",
+      "reason": "The sentence presents the whole residence as a completed period."
+    },
+    {
+      "prompt": "Complete: Mientras ___, llamó a la oficina. (esperar, ella background)",
+      "answer": "esperaba",
+      "reason": "Waiting is the ongoing scene for the call."
+    },
+    {
+      "prompt": "Choose the uncertainty marker: “___ la hora exacta.” (I do not remember)",
+      "answer": "No recuerdo",
+      "reason": "This explicitly marks a memory limit instead of presenting an invented precise detail."
+    },
+    {
+      "prompt": "Complete: Al final ___ veinte minutos tarde. (llegar, ella)",
+      "answer": "llegó",
+      "reason": "The arrival advances the bounded sequence and takes preterite."
+    },
+    {
+      "prompt": "Write the sequence repair phrase meaning “Before that.”",
+      "answer": "Antes de eso",
+      "reason": "This signals that the speaker is returning to an earlier point in the timeline."
+    }
+  ],
+  "cards": [
+    {
+      "id": "c3-u01-f01",
+      "unit": "c3-u01",
+      "kind": "production",
+      "front": "I was living there when I met him",
+      "back": "Vivía allí cuando lo conocí",
+      "example": "Vivía allí cuando lo conocí"
+    },
+    {
+      "id": "c3-u01-f02",
+      "unit": "c3-u01",
+      "kind": "recognition",
+      "front": "Viví allí durante cinco años",
+      "back": "I lived there for a completed five-year period",
+      "example": "Viví allí durante cinco años"
+    },
+    {
+      "id": "c3-u01-f03",
+      "unit": "c3-u01",
+      "kind": "production",
+      "front": "While I was waiting, I called",
+      "back": "Mientras esperaba, llamé",
+      "example": "Mientras esperaba, llamé"
+    },
+    {
+      "id": "c3-u01-f04",
+      "unit": "c3-u01",
+      "kind": "recognition",
+      "front": "No recuerdo la hora exacta",
+      "back": "I do not remember the exact time",
+      "example": "No recuerdo la hora exacta"
+    },
+    {
+      "id": "c3-u01-f05",
+      "unit": "c3-u01",
+      "kind": "production",
+      "front": "In the end she or he arrived late",
+      "back": "Al final llegó tarde",
+      "example": "Al final llegó tarde"
+    },
+    {
+      "id": "c3-u01-f06",
+      "unit": "c3-u01",
+      "kind": "recognition",
+      "front": "Antes de eso",
+      "back": "Before that",
+      "example": "Antes de eso, llamé a la oficina para confirmar."
+    },
+    {
+      "id": "c3-u01-f07",
+      "unit": "c3-u01",
+      "kind": "production",
+      "front": "As I remember it",
+      "back": "Según recuerdo",
+      "example": "Según recuerdo, la reunión empezó a las nueve."
+    },
+    {
+      "id": "c3-u01-f08",
+      "unit": "c3-u01",
+      "kind": "recognition",
+      "front": "Parecía preocupada",
+      "back": "She seemed worried",
+      "example": "Parecía preocupada"
+    },
+    {
+      "id": "c3-u01-f09",
+      "unit": "c3-u01",
+      "kind": "production",
+      "front": "I did not know why",
+      "back": "No sabía por qué",
+      "example": "No sabía por qué"
+    },
+    {
+      "id": "c3-u01-f10",
+      "unit": "c3-u01",
+      "kind": "recognition",
+      "front": "Primero expliqué el problema",
+      "back": "First I explained the problem",
+      "example": "Primero expliqué el problema"
+    },
+    {
+      "id": "c3-u01-f11",
+      "unit": "c3-u01",
+      "kind": "production",
+      "front": "Afterward she or he confirmed the time",
+      "back": "Después confirmó la hora",
+      "example": "Después confirmó la hora"
+    },
+    {
+      "id": "c3-u01-f12",
+      "unit": "c3-u01",
+      "kind": "recognition",
+      "front": "Lo que pasó fue…",
+      "back": "What happened was…",
+      "example": "Lo que pasó fue que el autobús llegó tarde."
+    },
+    {
+      "id": "c3-u01-f13",
+      "unit": "c3-u01",
+      "kind": "production",
+      "front": "I am missing a detail",
+      "back": "Me falta un detalle",
+      "example": "Me falta un detalle"
+    },
+    {
+      "id": "c3-u01-f14",
+      "unit": "c3-u01",
+      "kind": "recognition",
+      "front": "Ahora entiendo la secuencia",
+      "back": "Now I understand the sequence",
+      "example": "Ahora entiendo la secuencia"
+    },
+    {
+      "id": "c3-u01-f15",
+      "unit": "c3-u01",
+      "kind": "production",
+      "front": "What happened afterward?",
+      "back": "¿Qué ocurrió después?",
+      "example": "¿Qué ocurrió después?"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c3-u01-q01",
+      "type": "cloze",
+      "prompt": "Complete: ___ allí cuando lo conocí. (vivir, yo background)",
+      "answers": [
+        "Vivía"
+      ],
+      "explanation": "The residence is background within which the bounded meeting occurs.",
+      "concept": "Choose the story, not just the tense"
+    },
+    {
+      "id": "c3-u01-q02",
+      "type": "cloze",
+      "prompt": "Complete: ___ allí durante cinco años, de 2015 a 2020. (vivir, yo bounded)",
+      "answers": [
+        "Viví"
+      ],
+      "explanation": "The sentence presents the whole residence as a completed period.",
+      "concept": "Choose the story, not just the tense"
+    },
+    {
+      "id": "c3-u01-q03",
+      "type": "cloze",
+      "prompt": "Complete: Mientras ___, llamó a la oficina. (esperar, ella background)",
+      "answers": [
+        "esperaba"
+      ],
+      "explanation": "Waiting is the ongoing scene for the call.",
+      "concept": "Choose the story, not just the tense"
+    },
+    {
+      "id": "c3-u01-q04",
+      "type": "cloze",
+      "prompt": "Choose the uncertainty marker: “___ la hora exacta.” (I do not remember)",
+      "answers": [
+        "No recuerdo"
+      ],
+      "explanation": "This explicitly marks a memory limit instead of presenting an invented precise detail.",
+      "concept": "Make the listener’s work manageable"
+    },
+    {
+      "id": "c3-u01-q05",
+      "type": "cloze",
+      "prompt": "Complete: Al final ___ veinte minutos tarde. (llegar, ella)",
+      "answers": [
+        "llegó"
+      ],
+      "explanation": "The arrival advances the bounded sequence and takes preterite.",
+      "concept": "Make the listener’s work manageable"
+    },
+    {
+      "id": "c3-u01-q06",
+      "type": "typed",
+      "prompt": "Write the sequence repair phrase meaning “Before that”, beginning with Antes.",
+      "answers": [
+        "Antes de eso"
+      ],
+      "explanation": "This signals that the speaker is returning to an earlier point in the timeline.",
+      "concept": "Make the listener’s work manageable"
+    },
+    {
+      "id": "c3-u01-q07",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: I was living there when I met him.",
+      "options": [
+        "No sabía por qué",
+        "Me falta un detalle",
+        "Vivía allí cuando lo conocí"
+      ],
+      "answers": [
+        "Vivía allí cuando lo conocí"
+      ],
+      "explanation": "“Vivía allí cuando lo conocí” expresses “I was living there when I met him”. “No sabía por qué” instead means “I did not know why”. “Me falta un detalle” instead means “I am missing a detail”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c3-u01-q08",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: I lived there for a completed five-year period.",
+      "options": [
+        "Ahora entiendo la secuencia",
+        "Viví allí durante cinco años",
+        "Primero expliqué el problema"
+      ],
+      "answers": [
+        "Viví allí durante cinco años"
+      ],
+      "explanation": "“Viví allí durante cinco años” expresses “I lived there for a completed five-year period”. “Ahora entiendo la secuencia” instead means “Now I understand the sequence”. “Primero expliqué el problema” instead means “First I explained the problem”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c3-u01-q09",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: While I was waiting, I called.",
+      "options": [
+        "Mientras esperaba, llamé",
+        "Después confirmó la hora",
+        "¿Qué ocurrió después?"
+      ],
+      "answers": [
+        "Mientras esperaba, llamé"
+      ],
+      "explanation": "“Mientras esperaba, llamé” expresses “While I was waiting, I called”. “Después confirmó la hora” instead means “Afterward she or he confirmed the time”. “¿Qué ocurrió después?” instead means “What happened afterward?”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c3-u01-q10",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: I do not remember the exact time.",
+      "options": [
+        "Lo que pasó fue…",
+        "Vivía allí cuando lo conocí",
+        "No recuerdo la hora exacta"
+      ],
+      "answers": [
+        "No recuerdo la hora exacta"
+      ],
+      "explanation": "“No recuerdo la hora exacta” expresses “I do not remember the exact time”. “Lo que pasó fue…” instead means “What happened was…”. “Vivía allí cuando lo conocí” instead means “I was living there when I met him”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c3-u01-q11",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: In the end she or he arrived late.",
+      "options": [
+        "Viví allí durante cinco años",
+        "Al final llegó tarde",
+        "Me falta un detalle"
+      ],
+      "answers": [
+        "Al final llegó tarde"
+      ],
+      "explanation": "“Al final llegó tarde” expresses “In the end she or he arrived late”. “Viví allí durante cinco años” instead means “I lived there for a completed five-year period”. “Me falta un detalle” instead means “I am missing a detail”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c3-u01-q12",
+      "type": "matching",
+      "prompt": "Match each English meaning to its Spanish expression. Use each expression once.",
+      "answers": [
+        "[\"Al final llegó tarde\",\"Según recuerdo\",\"No sabía por qué\"]"
+      ],
+      "explanation": "“Al final llegó tarde” means “In the end she or he arrived late”. “Según recuerdo” means “As I remember it”. “No sabía por qué” means “I did not know why”. Each alternative belongs to a different meaning; check the whole phrase, including its grammatical person and register.",
+      "concept": "Meaning and register",
+      "pairs": [
+        {
+          "left": "In the end she or he arrived late",
+          "right": "Al final llegó tarde"
+        },
+        {
+          "left": "As I remember it",
+          "right": "Según recuerdo"
+        },
+        {
+          "left": "I did not know why",
+          "right": "No sabía por qué"
+        }
+      ]
+    }
+  ],
+  "homework": [
+    {
+      "id": "c3-u01-h1",
+      "skill": "Reading & writing",
+      "prompt": "Read the original text for this unit. Identify its situation, central message, and three supporting details. Then write a new version of 150–200 words for a different person or audience. Use the target patterns, change at least three facts, and explain two revisions.",
+      "model": "El martes, Nora llegó tarde a una entrevista. Normalmente salía de casa con una hora de margen, pero ese día una calle estaba cerrada. Primero caminó hasta otra parada. Mientras esperaba, llamó a la oficina para explicar el problema. La persona que contestó parecía preocupada, aunque Nora no sabía si era por su retraso o por otra cosa. Al final tomó un taxi y llegó veinte minutos después de la hora acordada. En la entrevista explicó la secuencia sin culpar a nadie y preguntó si todavía podían hablar. Más tarde recordó un detalle: había recibido un aviso del cierre, pero no lo había leído. Ese dato cambia cómo interpreta su preparación, no el hecho de que la calle estaba cerrada.\n\nThis is the source model, not a text to submit unchanged. A successful adaptation retains the communicative purpose while changing relevant forms and facts. Compare with the worked examples for the reasons behind form choices.",
+      "rubric": "0–3 each: fulfills the specified purpose; organized and comprehensible; target forms support meaning; revisions are explained with examples. 0 = no evidence, 1 = substantial help needed, 2 = effective with some support, 3 = independently effective for this task. Record who evaluated the work."
+    },
+    {
+      "id": "c3-u01-h2",
+      "skill": "Listening",
+      "prompt": "Complete the resource assignment, or ask a willing reader to read the original text without showing it to you. First listen for the situation and purpose; listen again for three details and one contrast. Write a 60–100-word listening log naming the source, words actually heard, one uncertainty, and how you checked it. If using local synthesized speech, label it synthetic. Text-only preparation is not completed listening.",
+      "model": "A useful log separates the speaker’s message from your interpretation: “I heard [specific phrase]; I understood [claim]; I was uncertain about [word/relationship]; checking [text or partner] changed my interpretation to [correction].” Use the unit reading as an answer reference for a read-aloud version, never as evidence of an external speaker’s words.",
+      "rubric": "0–2 each: identifies source and listening conditions; retrieves central meaning; supports three details; checks a specific uncertainty. Do not count a copied transcript as independent comprehension."
+    },
+    {
+      "id": "c3-u01-h3",
+      "skill": "Speaking & interaction",
+      "prompt": "Explain a delay or misunderstanding in three minutes. A partner asks for the order of two events and challenges one inference. Revise your account with an explicit uncertainty marker.",
+      "model": "Use the original reading/dialogue and the sentence-pattern cards as preparation. Make a brief outline, then put it away. Your partner should introduce a detail you did not prepare. Respond, request clarification if needed, and summarize what you agreed or still disagree about. Solo fallback: record two possible viewpoints and improvise a response after a pause; label it rehearsal.",
+      "rubric": "0–3 each: task fulfillment, comprehensibility, control of target language, responsiveness to another speaker. A partner or instructor should cite one example per score. Solo rehearsal provides no evidence for live responsiveness; mark that dimension not observed."
+    },
+    {
+      "id": "c3-u01-h4",
+      "skill": "Retrieval & reflection",
+      "prompt": "On a later day, retrieve six cards without looking. Use three in a fresh response to the practical task. Identify one recurring form error and one communication difficulty. Produce a corrected example, explain the reason, and schedule a specific follow-up exchange or listening session.",
+      "model": "Compare your response with these two models: Vivía allí cuando lo conocí / Viví allí durante cinco años. A useful reflection explains the function, not just the spelling. Revisit the first worked item and create a different example of its principle.",
+      "rubric": "Report recall count separately from performance. Reflection is complete when it contains an observed difficulty, an explained correction, a fresh example, and an actionable next session."
+    }
+  ],
+  "task": "Explain a delay or misunderstanding in three minutes. A partner asks for the order of two events and challenges one inference. Revise your account with an explicit uncertainty marker.",
+  "culture": "A detailed account is not automatically a reliable one. Different speakers may remember different aspects. Use language to separate evidence, memory and inference rather than assigning dishonesty to every disagreement.",
+  "selfAssessment": [
+    "I can maintain a coherent past timeline.",
+    "I can distinguish the narrator’s knowledge from inference.",
+    "I can respond to clarification while retelling an event."
+  ],
+  "remediation": "Sort mistakes by form, meaning, and interaction. For form errors, explain a worked example and create a contrasting pair. For comprehension errors, replay a short segment or use a willing reader and verify your interpretation. For interaction difficulties, repeat the practical task with one new constraint. Compare evidence across days; repeated selection of a known answer alone is not mastery.",
+  "resources": [
+    "sd-past-contrast"
+  ]
+}

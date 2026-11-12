@@ -344,6 +344,30 @@
       ],
       "explanation": "“Y cuarto” communicates “Quarter past.” The other choices communicate “I prefer not to say” and “It is two o’clock”; those do not answer this prompt.",
       "concept": "Meaning in context"
+    },
+    {
+      "id": "c1-u04-q13",
+      "type": "matching",
+      "prompt": "Match each English meaning to its Spanish expression. Use each expression once.",
+      "answers": [
+        "[\"Y media\",\"De la mañana\",\"El lunes\"]"
+      ],
+      "explanation": "“Y media” means “Half past”. “De la mañana” means “In the morning (clock time)”. “El lunes” means “On Monday”. Each alternative belongs to a different meaning; check the whole phrase, including its grammatical person and register.",
+      "concept": "Meaning and register",
+      "pairs": [
+        {
+          "left": "Half past",
+          "right": "Y media"
+        },
+        {
+          "left": "In the morning (clock time)",
+          "right": "De la mañana"
+        },
+        {
+          "left": "On Monday",
+          "right": "El lunes"
+        }
+      ]
     }
   ],
   "homework": [

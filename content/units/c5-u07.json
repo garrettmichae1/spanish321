@@ -1,0 +1,386 @@
+{
+  "id": "c5-u07",
+  "course": 5,
+  "number": 7,
+  "title": "Presentations & questions",
+  "subtitle": "Present, listen, and answer the actual question",
+  "status": "authored",
+  "prerequisites": [
+    "c5-u06"
+  ],
+  "objectives": [
+    "Design an oral presentation for a specific audience.",
+    "Use signposting without reading a complete script.",
+    "Respond directly to unexpected questions and acknowledge limits."
+  ],
+  "warmup": "Retrieve two sentences and one repair strategy from c5-u06. Change the subject or situation in each sentence and explain what changed. Then read today’s objectives and predict where your existing language may be insufficient.",
+  "lectures": [
+    {
+      "title": "Diseñar para escuchar",
+      "body": "El público no puede releer una frase oral con la misma facilidad que una página. Señala la pregunta, los pasos y las transiciones con economía: primero explicaré…, el punto decisivo es…, paso ahora a…. Usa ejemplos que reduzcan la abstracción y define los términos necesarios. Una diapositiva, si la utilizas, debe apoyar la explicación, no competir con ella mediante un bloque de texto. Ensaya el recorrido y el tiempo, pero evita memorizar cada palabra. La flexibilidad permite ajustar un ejemplo cuando el público muestra confusión o interés en otro aspecto."
+    },
+    {
+      "title": "Responder antes de ampliar",
+      "body": "Escucha la pregunta completa. Si contiene dos partes, sepáralas. Si es ambigua, verifica el foco: ¿Pregunta por el costo inicial o por el mantenimiento? Responde primero al punto principal; luego añade evidencia y un límite. No uses una frase de transición para eludir sistemáticamente lo preguntado. Una respuesta breve y pertinente puede mostrar más control que una respuesta larga preparada para otra pregunta. Si necesitas tiempo, una pausa explícita es legítima. Pide a un compañero que formule preguntas que tú no hayas escrito; esa imprevisibilidad distingue una conversación de una segunda recitación."
+    }
+  ],
+  "reading": "Durante una presentación, Nora explica cómo probar un nuevo sistema de reservas. Una oyente pregunta cuánto costará mantenerlo. Nora empieza a describir el costo de desarrollo, pero se detiene: «Perdón, usted preguntaba por el mantenimiento, no por la creación inicial». Después responde que esa cifra aún no está calculada y propone identificar las tareas recurrentes antes de estimarla. Otro participante pregunta si el sistema funcionará sin teléfono inteligente. Nora distingue la interfaz digital de una alternativa presencial y reconoce que esta última necesita una prueba específica. La calidad de las respuestas no depende de conocer todas las cifras, sino de comprender la pregunta, responder con lo disponible y no ocultar los límites. Prepara una apertura de noventa segundos para este caso y dos respuestas posibles a una pregunta que cambie el criterio de éxito.",
+  "worked": [
+    {
+      "prompt": "Complete: ¿Pregunta por el costo inicial o por el ___? (maintenance)",
+      "answer": "mantenimiento",
+      "reason": "The clarification distinguishes two different cost categories rather than answering the wrong question."
+    },
+    {
+      "prompt": "Should a long prepared answer replace a direct response to a different question? Write sí or no.",
+      "answer": "no",
+      "reason": "Relevance to the actual question matters more than length or rehearsed fluency."
+    },
+    {
+      "prompt": "Complete: El punto ___ es distinguir ambas fases. (decisive)",
+      "answer": "decisivo",
+      "reason": "This signpost directs attention to the central distinction."
+    },
+    {
+      "prompt": "Complete: Esa cifra aún no está ___. (calculated)",
+      "answer": "calculada",
+      "reason": "The adjective agrees with feminine singular cifra and marks a real information gap."
+    },
+    {
+      "prompt": "Complete: Reconozco que la alternativa ___ una prueba. (necesitar, asserted fact)",
+      "answer": "necesita",
+      "reason": "Reconozco que asserts the need, so indicative is appropriate."
+    },
+    {
+      "prompt": "Complete: Permítame ___ la pregunta en dos partes. (separate)",
+      "answer": "separar",
+      "reason": "After permítame, the action is expressed with an infinitive."
+    }
+  ],
+  "cards": [
+    {
+      "id": "c5-u07-f01",
+      "unit": "c5-u07",
+      "kind": "production",
+      "front": "Are you asking about maintenance?",
+      "back": "¿Pregunta por el mantenimiento?",
+      "example": "¿Pregunta por el mantenimiento?"
+    },
+    {
+      "id": "c5-u07-f02",
+      "unit": "c5-u07",
+      "kind": "recognition",
+      "front": "Responderé primero a ese punto",
+      "back": "I will answer that point first",
+      "example": "Responderé primero a ese punto"
+    },
+    {
+      "id": "c5-u07-f03",
+      "unit": "c5-u07",
+      "kind": "production",
+      "front": "The decisive point is…",
+      "back": "El punto decisivo es…",
+      "example": "El punto decisivo es distinguir el costo inicial del mantenimiento."
+    },
+    {
+      "id": "c5-u07-f04",
+      "unit": "c5-u07",
+      "kind": "recognition",
+      "front": "Esa cifra aún no está calculada",
+      "back": "That figure has not yet been calculated",
+      "example": "Esa cifra aún no está calculada"
+    },
+    {
+      "id": "c5-u07-f05",
+      "unit": "c5-u07",
+      "kind": "production",
+      "front": "I acknowledge that it needs a trial",
+      "back": "Reconozco que necesita una prueba",
+      "example": "Reconozco que necesita una prueba"
+    },
+    {
+      "id": "c5-u07-f06",
+      "unit": "c5-u07",
+      "kind": "recognition",
+      "front": "Permítame separar la pregunta",
+      "back": "Allow me to separate the question",
+      "example": "Permítame separar la pregunta"
+    },
+    {
+      "id": "c5-u07-f07",
+      "unit": "c5-u07",
+      "kind": "production",
+      "front": "I now move to the second part",
+      "back": "Paso ahora a la segunda parte",
+      "example": "Paso ahora a la segunda parte"
+    },
+    {
+      "id": "c5-u07-f08",
+      "unit": "c5-u07",
+      "kind": "recognition",
+      "front": "Un ejemplo concreto sería…",
+      "back": "A concrete example would be…",
+      "example": "Un ejemplo concreto sería ofrecer una reserva por teléfono."
+    },
+    {
+      "id": "c5-u07-f09",
+      "unit": "c5-u07",
+      "kind": "production",
+      "front": "I need a moment to think about it",
+      "back": "Necesito un momento para pensarlo",
+      "example": "Necesito un momento para pensarlo"
+    },
+    {
+      "id": "c5-u07-f10",
+      "unit": "c5-u07",
+      "kind": "recognition",
+      "front": "Si he entendido su pregunta",
+      "back": "If I have understood your question",
+      "example": "Si he entendido su pregunta"
+    },
+    {
+      "id": "c5-u07-f11",
+      "unit": "c5-u07",
+      "kind": "production",
+      "front": "My brief answer is…",
+      "back": "Mi respuesta breve es…",
+      "example": "Mi respuesta breve es que necesitamos una prueba limitada."
+    },
+    {
+      "id": "c5-u07-f12",
+      "unit": "c5-u07",
+      "kind": "recognition",
+      "front": "El límite de esta respuesta es…",
+      "back": "The limit of this answer is…",
+      "example": "El límite de esta respuesta es…"
+    },
+    {
+      "id": "c5-u07-f13",
+      "unit": "c5-u07",
+      "kind": "production",
+      "front": "I do not want to evade that point",
+      "back": "No quiero eludir ese punto",
+      "example": "No quiero eludir ese punto"
+    },
+    {
+      "id": "c5-u07-f14",
+      "unit": "c5-u07",
+      "kind": "recognition",
+      "front": "Puedo comprobarlo después",
+      "back": "I can check it afterward",
+      "example": "Puedo comprobarlo después"
+    },
+    {
+      "id": "c5-u07-f15",
+      "unit": "c5-u07",
+      "kind": "production",
+      "front": "Thank you for clarifying the question",
+      "back": "Gracias por precisar la pregunta",
+      "example": "Gracias por precisar la pregunta"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c5-u07-q01",
+      "type": "cloze",
+      "prompt": "Complete: ¿Pregunta por el costo inicial o por el ___? (maintenance)",
+      "answers": [
+        "mantenimiento"
+      ],
+      "explanation": "The clarification distinguishes two different cost categories rather than answering the wrong question.",
+      "concept": "Diseñar para escuchar"
+    },
+    {
+      "id": "c5-u07-q02",
+      "type": "typed",
+      "prompt": "Should a long prepared answer replace a direct response to a different question? Write sí or no.",
+      "answers": [
+        "no"
+      ],
+      "explanation": "Relevance to the actual question matters more than length or rehearsed fluency.",
+      "concept": "Diseñar para escuchar"
+    },
+    {
+      "id": "c5-u07-q03",
+      "type": "cloze",
+      "prompt": "Complete: El punto ___ es distinguir ambas fases. (decisive)",
+      "answers": [
+        "decisivo",
+        "determinante"
+      ],
+      "explanation": "This signpost directs attention to the central distinction.",
+      "concept": "Diseñar para escuchar"
+    },
+    {
+      "id": "c5-u07-q04",
+      "type": "cloze",
+      "prompt": "Complete: Esa cifra aún no está ___. (calculated)",
+      "answers": [
+        "calculada"
+      ],
+      "explanation": "The adjective agrees with feminine singular cifra and marks a real information gap.",
+      "concept": "Responder antes de ampliar"
+    },
+    {
+      "id": "c5-u07-q05",
+      "type": "cloze",
+      "prompt": "Complete: Reconozco que la alternativa ___ una prueba. (necesitar, asserted fact)",
+      "answers": [
+        "necesita"
+      ],
+      "explanation": "Reconozco que asserts the need, so indicative is appropriate.",
+      "concept": "Responder antes de ampliar"
+    },
+    {
+      "id": "c5-u07-q06",
+      "type": "cloze",
+      "prompt": "Complete: Permítame ___ la pregunta en dos partes. (separate)",
+      "answers": [
+        "separar",
+        "dividir"
+      ],
+      "explanation": "After permítame, the action is expressed with an infinitive.",
+      "concept": "Responder antes de ampliar"
+    },
+    {
+      "id": "c5-u07-q07",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: Are you asking about maintenance?.",
+      "options": [
+        "Necesito un momento para pensarlo",
+        "No quiero eludir ese punto",
+        "¿Pregunta por el mantenimiento?"
+      ],
+      "answers": [
+        "¿Pregunta por el mantenimiento?"
+      ],
+      "explanation": "“¿Pregunta por el mantenimiento?” expresses “Are you asking about maintenance?”. “Necesito un momento para pensarlo” instead means “I need a moment to think about it”. “No quiero eludir ese punto” instead means “I do not want to evade that point”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c5-u07-q08",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: I will answer that point first.",
+      "options": [
+        "Puedo comprobarlo después",
+        "Responderé primero a ese punto",
+        "Si he entendido su pregunta"
+      ],
+      "answers": [
+        "Responderé primero a ese punto"
+      ],
+      "explanation": "“Responderé primero a ese punto” expresses “I will answer that point first”. “Puedo comprobarlo después” instead means “I can check it afterward”. “Si he entendido su pregunta” instead means “If I have understood your question”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c5-u07-q09",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: The decisive point is….",
+      "options": [
+        "El punto decisivo es…",
+        "Mi respuesta breve es…",
+        "Gracias por precisar la pregunta"
+      ],
+      "answers": [
+        "El punto decisivo es…"
+      ],
+      "explanation": "“El punto decisivo es…” expresses “The decisive point is…”. “Mi respuesta breve es…” instead means “My brief answer is…”. “Gracias por precisar la pregunta” instead means “Thank you for clarifying the question”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c5-u07-q10",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: That figure has not yet been calculated.",
+      "options": [
+        "El límite de esta respuesta es…",
+        "¿Pregunta por el mantenimiento?",
+        "Esa cifra aún no está calculada"
+      ],
+      "answers": [
+        "Esa cifra aún no está calculada"
+      ],
+      "explanation": "“Esa cifra aún no está calculada” expresses “That figure has not yet been calculated”. “El límite de esta respuesta es…” instead means “The limit of this answer is…”. “¿Pregunta por el mantenimiento?” instead means “Are you asking about maintenance?”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c5-u07-q11",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: I acknowledge that it needs a trial.",
+      "options": [
+        "Responderé primero a ese punto",
+        "Reconozco que necesita una prueba",
+        "No quiero eludir ese punto"
+      ],
+      "answers": [
+        "Reconozco que necesita una prueba"
+      ],
+      "explanation": "“Reconozco que necesita una prueba” expresses “I acknowledge that it needs a trial”. “Responderé primero a ese punto” instead means “I will answer that point first”. “No quiero eludir ese punto” instead means “I do not want to evade that point”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c5-u07-q12",
+      "type": "matching",
+      "prompt": "Match each English meaning to its Spanish expression. Use each expression once.",
+      "answers": [
+        "[\"Reconozco que necesita una prueba\",\"Paso ahora a la segunda parte\",\"Necesito un momento para pensarlo\"]"
+      ],
+      "explanation": "“Reconozco que necesita una prueba” means “I acknowledge that it needs a trial”. “Paso ahora a la segunda parte” means “I now move to the second part”. “Necesito un momento para pensarlo” means “I need a moment to think about it”. Each alternative belongs to a different meaning; check the whole phrase, including its grammatical person and register.",
+      "concept": "Meaning and register",
+      "pairs": [
+        {
+          "left": "I acknowledge that it needs a trial",
+          "right": "Reconozco que necesita una prueba"
+        },
+        {
+          "left": "I now move to the second part",
+          "right": "Paso ahora a la segunda parte"
+        },
+        {
+          "left": "I need a moment to think about it",
+          "right": "Necesito un momento para pensarlo"
+        }
+      ]
+    }
+  ],
+  "homework": [
+    {
+      "id": "c5-u07-h1",
+      "skill": "Reading & writing",
+      "prompt": "Read the original text for this unit. Identify its situation, central message, and three supporting details. Then write a new version of 300–400 words for a different person or audience. Use the target patterns, change at least three facts, and explain two revisions.",
+      "model": "Durante una presentación, Nora explica cómo probar un nuevo sistema de reservas. Una oyente pregunta cuánto costará mantenerlo. Nora empieza a describir el costo de desarrollo, pero se detiene: «Perdón, usted preguntaba por el mantenimiento, no por la creación inicial». Después responde que esa cifra aún no está calculada y propone identificar las tareas recurrentes antes de estimarla. Otro participante pregunta si el sistema funcionará sin teléfono inteligente. Nora distingue la interfaz digital de una alternativa presencial y reconoce que esta última necesita una prueba específica. La calidad de las respuestas no depende de conocer todas las cifras, sino de comprender la pregunta, responder con lo disponible y no ocultar los límites. Prepara una apertura de noventa segundos para este caso y dos respuestas posibles a una pregunta que cambie el criterio de éxito.\n\nThis is the source model, not a text to submit unchanged. A successful adaptation retains the communicative purpose while changing relevant forms and facts. Compare with the worked examples for the reasons behind form choices.",
+      "rubric": "0–3 each: fulfills the specified purpose; organized and comprehensible; target forms support meaning; revisions are explained with examples. 0 = no evidence, 1 = substantial help needed, 2 = effective with some support, 3 = independently effective for this task. Record who evaluated the work."
+    },
+    {
+      "id": "c5-u07-h2",
+      "skill": "Listening",
+      "prompt": "Complete the resource assignment, or ask a willing reader to read the original text without showing it to you. First listen for the situation and purpose; listen again for three details and one contrast. Write a 60–100-word listening log naming the source, words actually heard, one uncertainty, and how you checked it. If using local synthesized speech, label it synthetic. Text-only preparation is not completed listening.",
+      "model": "A useful log separates the speaker’s message from your interpretation: “I heard [specific phrase]; I understood [claim]; I was uncertain about [word/relationship]; checking [text or partner] changed my interpretation to [correction].” Use the unit reading as an answer reference for a read-aloud version, never as evidence of an external speaker’s words.",
+      "rubric": "0–2 each: identifies source and listening conditions; retrieves central meaning; supports three details; checks a specific uncertainty. Do not count a copied transcript as independent comprehension."
+    },
+    {
+      "id": "c5-u07-h3",
+      "skill": "Speaking & interaction",
+      "prompt": "Deliver a six-minute presentation to a real listener or small group. Ask them to create four unprepared questions, including one ambiguity. Record which answers were direct, supported and appropriately limited.",
+      "model": "Use the original reading/dialogue and the sentence-pattern cards as preparation. Make a brief outline, then put it away. Your partner should introduce a detail you did not prepare. Respond, request clarification if needed, and summarize what you agreed or still disagree about. Solo fallback: record two possible viewpoints and improvise a response after a pause; label it rehearsal.",
+      "rubric": "0–3 each: task fulfillment, comprehensibility, control of target language, responsiveness to another speaker. A partner or instructor should cite one example per score. Solo rehearsal provides no evidence for live responsiveness; mark that dimension not observed."
+    },
+    {
+      "id": "c5-u07-h4",
+      "skill": "Retrieval & reflection",
+      "prompt": "On a later day, retrieve six cards without looking. Use three in a fresh response to the practical task. Identify one recurring form error and one communication difficulty. Produce a corrected example, explain the reason, and schedule a specific follow-up exchange or listening session.",
+      "model": "Compare your response with these two models: ¿Pregunta por el mantenimiento? / Responderé primero a ese punto. A useful reflection explains the function, not just the spelling. Revisit the first worked item and create a different example of its principle.",
+      "rubric": "Report recall count separately from performance. Reflection is complete when it contains an observed difficulty, an explained correction, a fresh example, and an actionable next session."
+    }
+  ],
+  "task": "Deliver a six-minute presentation to a real listener or small group. Ask them to create four unprepared questions, including one ambiguity. Record which answers were direct, supported and appropriately limited.",
+  "culture": "Audience expectations about eye contact, gesture and interruption vary. Evaluate clarity and responsiveness without treating one presentation style as a universal measure of confidence or respect.",
+  "selfAssessment": [
+    "I can design an oral presentation for a specific audience.",
+    "I can use signposting without reading a complete script.",
+    "I can respond directly to unexpected questions and acknowledge limits."
+  ],
+  "remediation": "Sort mistakes by form, meaning, and interaction. For form errors, explain a worked example and create a contrasting pair. For comprehension errors, replay a short segment or use a willing reader and verify your interpretation. For interaction difficulties, repeat the practical task with one new constraint. Compare evidence across days; repeated selection of a known answer alone is not mastery.",
+  "resources": [
+    "radio-archive"
+  ]
+}

@@ -6,13 +6,11 @@ import {
   BookOpen,
   Check,
   ChevronRight,
-  ChevronDown,
   Headphones,
   Home,
   Layers,
   Library,
   Mic,
-  MoreHorizontal,
   NotebookPen,
   Search,
   Settings,
@@ -45,12 +43,16 @@ import {
 import { exportCsv, parseCsv, freshReview, grade } from "./learning";
 import {
   download,
+  downloadAudio,
+  requestMicrophonePermission,
   loadState,
   saveState,
   nextReview,
   native,
   openResource,
 } from "./storage";
+import { unitGuideHtml } from "./guides";
+const courseName = (n: number) => syllabus[n - 1].title;
 type Page =
   | "Today"
   | "Courses"
@@ -108,6 +110,12 @@ export default function App() {
     [query, setQuery] = useState(""),
     [menu, setMenu] = useState(false),
     [toast, setToast] = useState("");
+  useEffect(() => {
+    const failed = (event: Event) =>
+      setError(String((event as CustomEvent).detail));
+    window.addEventListener("export-error", failed);
+    return () => window.removeEventListener("export-error", failed);
+  }, []);
   const [assessmentId, setAssessmentId] = useState("");
   const assessment = assessments.find((a) => a.id === assessmentId);
   const main = useRef<HTMLElement>(null);
@@ -161,7 +169,12 @@ export default function App() {
   const next = units.find((u) => !state.completed.includes(u.id)) ?? units[0];
   const allCards = [...units.flatMap((u) => u.cards), ...state.customCards];
   const due = allCards.filter(
-    (c) => (state.reviews[c.id]?.due ?? 0) <= Date.now(),
+    (c) =>
+      (state.completed.includes(c.unit) ||
+        c.unit === next.id ||
+        c.unit === "custom" ||
+        !!state.reviews[c.id]) &&
+      (state.reviews[c.id]?.due ?? 0) <= Date.now(),
   );
   const todayReviews = state.history.filter(
     (h) => dayKey(h.at) === dayKey(Date.now()),
@@ -211,7 +224,6 @@ export default function App() {
           <div>
             Your learning space<small>Spanish · Independent study</small>
           </div>
-          <ChevronDown size={14} />
         </div>
         <div className="nav-label">LEARN</div>
         <nav>
@@ -286,7 +298,6 @@ export default function App() {
                   : "Browser preview · local storage"}
               </small>
             </div>
-            <MoreHorizontal size={19} />
           </div>
         </div>
       </aside>
@@ -303,7 +314,9 @@ export default function App() {
             <span className="breadcrumb">
               Your learning space <ChevronRight size={13} />{" "}
               <strong>
-                {page === "Lesson" ? `Spanish I / Unit ${unit.number}` : page}
+                {page === "Lesson"
+                  ? `${courseName(unit.course)} / Unit ${unit.number}`
+                  : page}
               </strong>
             </span>
           </div>
@@ -358,11 +371,11 @@ export default function App() {
                     <div className="hero-copy">
                       <div className="eyebrow light">YOUR NEXT CHAPTER</div>
                       <div className="course-kicker">
-                        Spanish I <span>·</span> Unit{" "}
+                        {courseName(next.course)} <span>·</span> Unit{" "}
                         {String(next.number).padStart(2, "0")}
                       </div>
                       <h2>
-                        {next.number === 1 ? (
+                        {next.id === "c1-u01" ? (
                           <>
                             Every conversation
                             <br />
@@ -381,7 +394,7 @@ export default function App() {
                       </Button>
                       <div className="hero-foot">
                         <Clock size={14} /> 5–8 hours at your pace{" "}
-                        <span>•</span> Beginner
+                        <span>•</span> {syllabus[next.course - 1].level}
                       </div>
                     </div>
                     <div className="hero-art" aria-hidden="true">
@@ -462,7 +475,7 @@ export default function App() {
                     </button>
                   </div>
                   <div className="path-list">
-                    {syllabus.slice(0, 3).map((c) => (
+                    {syllabus.map((c) => (
                       <button
                         className="path-row"
                         key={c.id}
@@ -479,13 +492,11 @@ export default function App() {
                             {c.title}: {c.subtitle}
                           </strong>
                           <small>
-                            {c.level} <span>·</span> 12 units{" "}
-                            {c.id > 1 ? "· Curriculum planned" : ""}
+                            {c.level} <span>·</span> 12 units · 12 complete
+                            study units
                           </small>
                         </div>
-                        <span className="path-status">
-                          {c.id === 1 ? "In your library" : "Coming later"}
-                        </span>
+                        <span className="path-status">In your library</span>
                         <ChevronRight size={17} />
                       </button>
                     ))}
@@ -594,9 +605,7 @@ export default function App() {
               </div>
               <div className="footer-note">
                 <Leaf size={15} /> Made for curiosity, not competition.{" "}
-                <span>
-                  Spanish I learning preview · Educator review pending
-                </span>
+                <span>60 original study units · Educator review pending</span>
               </div>
             </>
           )}
@@ -631,69 +640,84 @@ export default function App() {
                 </div>
                 <GraduationCap size={48} strokeWidth={1} />
               </div>
-              {course > 1 && (
-                <div className="notice">
-                  This course is a syllabus, not a usable course yet. Full
-                  lessons, assessments, and verified resources remain to be
-                  authored. These are design targets, not certified proficiency
-                  outcomes.
-                </div>
-              )}
-              {course === 1 && (
+              <p className="muted">
+                Levels are design targets, not guaranteed outcomes or
+                certifications. Educator review is pending.
+              </p>
+              <label className="field-label">
+                Search this course
+                <input
+                  type="search"
+                  value={query}
+                  onChange={(e) => setQuery(e.target.value)}
+                  placeholder="A topic, phrase, or grammar question…"
+                />
+              </label>
+              {
                 <div className="assessment-strip">
-                  {assessments.map((a) => (
+                  {assessments
+                    .filter((a) => a.course === course)
+                    .map((a) => (
+                      <button
+                        key={a.id}
+                        onClick={() => {
+                          setUnitId(a.unit);
+                          setAssessmentId(a.id);
+                          go("Quiz");
+                        }}
+                      >
+                        <GraduationCap size={18} />
+                        <span>
+                          {a.title.split(" · ").at(-1)}
+                          <small>
+                            {a.questions.length} questions + performance task
+                          </small>
+                        </span>
+                        <ArrowRight size={16} />
+                      </button>
+                    ))}
+                </div>
+              }
+              <div className="unit-grid">
+                {syllabus[course - 1].units
+                  .filter(
+                    (u) =>
+                      !query ||
+                      JSON.stringify(units.find((x) => x.id === u.id))
+                        .toLocaleLowerCase("es")
+                        .includes(query.toLocaleLowerCase("es")),
+                  )
+                  .map((u) => (
                     <button
-                      key={a.id}
-                      onClick={() => {
-                        setUnitId(a.unit);
-                        setAssessmentId(a.id);
-                        go("Quiz");
-                      }}
+                      key={u.id}
+                      disabled={u.status === "planned"}
+                      className="unit-card"
+                      onClick={() => lesson(units.find((x) => x.id === u.id)!)}
                     >
-                      <GraduationCap size={18} />
-                      <span>
-                        {a.title.replace("Spanish I · ", "")}
-                        <small>
-                          {a.questions.length} questions + performance task
-                        </small>
-                      </span>
-                      <ArrowRight size={16} />
+                      <div className="unit-card-top">
+                        <span>UNIT {String(u.number).padStart(2, "0")}</span>
+                        {state.completed.includes(u.id) ? (
+                          <CheckCircle2 size={20} />
+                        ) : (
+                          <BookOpen size={19} />
+                        )}
+                      </div>
+                      <h3>{u.title}</h3>
+                      <small>
+                        {u.prerequisites.length
+                          ? `Prerequisite: ${u.prerequisites[0]}`
+                          : "No prior Spanish needed"}
+                      </small>
+                      <div className="unit-card-bottom">
+                        {u.status === "planned"
+                          ? "Planned"
+                          : state.completed.includes(u.id)
+                            ? "Lesson read"
+                            : "Explore lesson"}
+                        <ArrowRight size={16} />
+                      </div>
                     </button>
                   ))}
-                </div>
-              )}
-              <div className="unit-grid">
-                {syllabus[course - 1].units.map((u) => (
-                  <button
-                    key={u.id}
-                    disabled={u.status === "planned"}
-                    className="unit-card"
-                    onClick={() => lesson(units.find((x) => x.id === u.id)!)}
-                  >
-                    <div className="unit-card-top">
-                      <span>UNIT {String(u.number).padStart(2, "0")}</span>
-                      {state.completed.includes(u.id) ? (
-                        <CheckCircle2 size={20} />
-                      ) : (
-                        <BookOpen size={19} />
-                      )}
-                    </div>
-                    <h3>{u.title}</h3>
-                    <small>
-                      {u.prerequisites.length
-                        ? `Prerequisite: ${u.prerequisites[0]}`
-                        : "No prior Spanish needed"}
-                    </small>
-                    <div className="unit-card-bottom">
-                      {u.status === "planned"
-                        ? "Planned"
-                        : state.completed.includes(u.id)
-                          ? "Lesson read"
-                          : "Explore lesson"}
-                      <ArrowRight size={16} />
-                    </div>
-                  </button>
-                ))}
               </div>
             </>
           )}
@@ -703,7 +727,7 @@ export default function App() {
                 <ArrowLeft size={16} /> Course map
               </button>
               <PageTitle
-                eyebrow={`SPANISH I / UNIT ${String(unit.number).padStart(2, "0")}`}
+                eyebrow={`${courseName(unit.course).toUpperCase()} / UNIT ${String(unit.number).padStart(2, "0")}`}
                 title={unit.title}
                 description={unit.subtitle}
               />
@@ -786,9 +810,24 @@ export default function App() {
                   </section>
                   <section id="reflection">
                     <h2>Pause & reflect</h2>
-                    {unit.selfAssessment.map((s) => (
+                    {unit.selfAssessment.map((s, i) => (
                       <label className="self-check" key={s}>
-                        <input type="checkbox" />
+                        <input
+                          type="checkbox"
+                          checked={
+                            state.selfChecks?.[`${unit.id}:${i}`] ?? false
+                          }
+                          onChange={(e) => {
+                            const checked = e.target.checked;
+                            update((st) => ({
+                              ...st,
+                              selfChecks: {
+                                ...st.selfChecks,
+                                [`${unit.id}:${i}`]: checked,
+                              },
+                            }));
+                          }}
+                        />
                         {s}
                       </label>
                     ))}
@@ -847,8 +886,16 @@ export default function App() {
                   >
                     <Download size={16} /> Export flashcards
                   </button>
-                  <button onClick={() => window.print()}>
-                    <Download size={16} /> Print lesson guide
+                  <button
+                    onClick={() =>
+                      download(
+                        `${unit.id}-guide.html`,
+                        unitGuideHtml(unit, resources, courseName(unit.course)),
+                        "text/html;charset=utf-8",
+                      )
+                    }
+                  >
+                    <Download size={16} /> Export printable guide
                   </button>
                   <div className="toc-note">
                     <ShieldCheck size={19} />
@@ -994,7 +1041,7 @@ export default function App() {
               />
               <div className="stat-grid">
                 <Stat
-                  value={`${units.filter((u) => state.completed.includes(u.id)).length}/12`}
+                  value={`${units.filter((u) => state.completed.includes(u.id)).length}/${units.length}`}
                   label="Lessons marked read"
                 />
                 <Stat
@@ -1153,7 +1200,10 @@ export default function App() {
                         ...s,
                         dailyLimit: Math.max(
                           1,
-                          Math.min(200, Number(e.target.value) || 1),
+                          Math.min(
+                            200,
+                            Math.round(Number(e.target.value)) || 1,
+                          ),
                         ),
                       }))
                     }
@@ -1292,12 +1342,12 @@ export default function App() {
                 </div>
               </section>
               <section className="settings-card">
-                <h2>About this learning preview</h2>
+                <h2>About your learning library</h2>
                 <p>
-                  Version 0.1.0 · Spanish I contains 12 authored drafts. Courses
-                  II–V are planned. Spanish I includes cumulative question sets
-                  and capstone rubrics. Educator review and tested desktop
-                  installation remain release gates.
+                  Version 0.2.0 · Five courses, 60 authored units, cumulative
+                  assessments, and capstone rubrics. Qualified Spanish-educator
+                  review is pending. This is independent study material, not an
+                  accredited program.
                 </p>
                 <p>
                   {native
@@ -1315,7 +1365,7 @@ export default function App() {
         </main>
         <footer className="app-footer">
           Spanish321 <span>Learn at your pace. Keep what you learn.</span>
-          <span>Local-first · Spanish I preview</span>
+          <span>Local-first · Five courses, one clear path</span>
         </footer>
       </div>
       {toast && (
@@ -1365,7 +1415,7 @@ function UnitSelect({
       <select value={unitId} onChange={(e) => onChange(e.target.value)}>
         {units.map((u) => (
           <option key={u.id} value={u.id}>
-            {u.number}. {u.title}
+            {courseName(u.course)} · {u.number}. {u.title}
           </option>
         ))}
       </select>
@@ -1498,16 +1548,25 @@ function Flashcards({
   update: (f: (s: LearnerState) => LearnerState) => void;
   onError: (e: unknown) => void;
 }) {
-  const [filter, setFilter] = useState("all"),
+  const [filter, setFilter] = useState("introduced"),
     [difficult, setDifficult] = useState(false),
     [revealed, setRevealed] = useState(false),
     [busy, setBusy] = useState(false);
   const reviewed = state.history.filter(
     (h) => dayKey(h.at) === dayKey(Date.now()),
   ).length;
+  const next = units.find((u) => !state.completed.includes(u.id))?.id;
   const cards = [...units.flatMap((u) => u.cards), ...state.customCards].filter(
     (c) =>
-      (filter === "all" || c.unit === filter) &&
+      (filter === "all" ||
+        c.unit === filter ||
+        (filter === "introduced" &&
+          (state.completed.includes(c.unit) ||
+            c.unit === next ||
+            c.unit === "custom" ||
+            !!state.reviews[c.id])) ||
+        (filter.startsWith("course:") &&
+          c.unit.startsWith(`c${filter.split(":")[1]}-`))) &&
       (!difficult || (state.reviews[c.id]?.lapses ?? 0) > 0) &&
       (state.reviews[c.id]?.due ?? 0) <= Date.now(),
   );
@@ -1551,10 +1610,16 @@ function Flashcards({
               setRevealed(false);
             }}
           >
-            <option value="all">All authored units</option>
+            <option value="introduced">My current learning</option>
+            <option value="all">All 60 units</option>
+            {syllabus.map((c) => (
+              <option key={c.id} value={`course:${c.id}`}>
+                {c.title} · all units
+              </option>
+            ))}
             {units.map((u) => (
               <option key={u.id} value={u.id}>
-                Unit {u.number} · {u.title}
+                {courseName(u.course)} · Unit {u.number} · {u.title}
               </option>
             ))}
           </select>
@@ -1763,7 +1828,43 @@ function Quiz({
               <span>{String(i + 1).padStart(2, "0")}</span>
               {q.prompt}
             </legend>
-            {q.options ? (
+            {q.pairs ? (
+              <div className="matching-pairs">
+                {q.pairs.map((pair, pairIndex) => {
+                  const values: string[] = answers[q.id]
+                    ? JSON.parse(answers[q.id])
+                    : [];
+                  return (
+                    <label className="field-label" key={pair.left}>
+                      {pair.left}
+                      <select
+                        disabled={submitted}
+                        value={values[pairIndex] ?? ""}
+                        onChange={(e) => {
+                          const next = q.pairs!.map((_, n) =>
+                            n === pairIndex
+                              ? e.target.value
+                              : (values[n] ?? ""),
+                          );
+                          setAnswers({
+                            ...answers,
+                            [q.id]: JSON.stringify(next),
+                          });
+                        }}
+                      >
+                        <option value="">Choose a match…</option>
+                        {q
+                          .pairs!.map((p) => p.right)
+                          .sort((a, b) => a.localeCompare(b, "es"))
+                          .map((right) => (
+                            <option key={right}>{right}</option>
+                          ))}
+                      </select>
+                    </label>
+                  );
+                })}
+              </div>
+            ) : q.options ? (
               <div className="options">
                 {q.options.map((o) => (
                   <label key={o}>
@@ -1797,7 +1898,10 @@ function Quiz({
                   {grade(q, answers[q.id] ?? "")
                     ? "Correct"
                     : "Revisit this one"}{" "}
-                  · {q.answers.join(" / ")}
+                  ·{" "}
+                  {q.pairs
+                    ? q.pairs.map((p) => `${p.left} → ${p.right}`).join("; ")
+                    : q.answers.join(" / ")}
                 </strong>
                 <p>{q.explanation}</p>
               </div>
@@ -1869,6 +1973,7 @@ function Practice({
         throw Error(
           "Recording is unavailable in this runtime. Use a device recorder and keep a written practice log.",
         );
+      if (!(await requestMicrophonePermission())) return;
       const s = await navigator.mediaDevices.getUserMedia({ audio: true });
       stream.current = s;
       const r = new MediaRecorder(s);
@@ -1894,6 +1999,16 @@ function Practice({
           const data = String(file.result);
           if (data.length > 15_000_000) {
             onError("Recording is too large; record a shorter take.");
+            return;
+          }
+          if (
+            state.recordings.reduce((n, r) => n + r.data.length, 0) +
+              data.length >
+            80_000_000
+          ) {
+            onError(
+              "Recording storage is approaching the backup limit. Export and delete older recordings before recording again.",
+            );
             return;
           }
           update((st) => ({
@@ -2030,14 +2145,13 @@ function Practice({
             <small>{new Date(r.at).toLocaleString()}</small>
           </div>
           <audio controls src={r.data} />
-          <a
+          <button
             className="icon-button"
-            href={r.data}
-            download={`${r.id}.${r.data.includes("audio/mp4") ? "m4a" : r.data.includes("audio/ogg") ? "ogg" : "webm"}`}
+            onClick={() => downloadAudio(r.id, r.data)}
             aria-label={`Export ${r.name}`}
           >
             <Download size={18} />
-          </a>
+          </button>
           <button
             className="icon-button"
             aria-label={`Delete ${r.name}`}

@@ -1,0 +1,385 @@
+{
+  "id": "c5-u02",
+  "course": 5,
+  "number": 2,
+  "title": "Extended listening & notes",
+  "subtitle": "Listen long enough to understand structure",
+  "status": "authored",
+  "prerequisites": [
+    "c5-u01"
+  ],
+  "objectives": [
+    "Identify an extended speaker’s organization and stance.",
+    "Take selective notes without attempting a transcript.",
+    "Summarize with accurate attribution and uncertainty."
+  ],
+  "warmup": "Retrieve two sentences and one repair strategy from c5-u01. Change the subject or situation in each sentence and explain what changed. Then read today’s objectives and predict where your existing language may be insufficient.",
+  "lectures": [
+    {
+      "title": "Escuchar la arquitectura",
+      "body": "En una escucha extensa, intenta reconocer la pregunta central, las etapas del argumento y los cambios de perspectiva. Marcadores como ahora bien, por otra parte o para concluir ayudan, pero no sustituyen la comprensión. Anota palabras clave, relaciones y dudas; copiar cada palabra puede impedir seguir la idea siguiente. Separa lo que el hablante afirma de los ejemplos que utiliza. Un ejemplo llamativo no siempre es la tesis. En la primera pasada evita detenerte en cada palabra desconocida: marca un signo de interrogación y vuelve después a los segmentos que afectan al sentido global."
+    },
+    {
+      "title": "Resumir sin inflar la certeza",
+      "body": "Al terminar, reconstruye la idea principal antes de consultar una transcripción. Luego verifica nombres, cifras y el pasaje más incierto si el creador ofrece texto gratuitamente. No inventes una transcripción ni atribuyas citas exactas a partir de notas parciales. Una síntesis útil señala el propósito, dos o tres apoyos y una limitación. Si el audio es sintético o leído por un compañero, registra esa condición: sirve para practicar, pero no representa toda la variación del habla espontánea. Aumenta la duración gradualmente y conserva una tarea de interacción en la que alguien pueda preguntarte por una interpretación inesperada."
+    }
+  ],
+  "reading": "**Texto original para lectura en voz alta.** Cuando se habla de ampliar una biblioteca, suele imaginarse primero un edificio más grande. Sin embargo, el espacio físico es solo una parte del acceso. Un horario incompatible con el trabajo, una inscripción difícil de entender o la falta de información pueden excluir a una persona aunque haya mesas libres. Esto no significa que ampliar el edificio nunca sea necesario. Significa que conviene identificar el obstáculo antes de elegir la solución. En una consulta, algunas personas pueden pedir más salas y otras, simplemente, una respuesta clara sobre cómo reservarlas. Por otra parte, las necesidades cambian: una medida útil durante exámenes puede tener poco efecto en vacaciones. Mi propuesta es observar varios momentos, escuchar a usuarios y no usuarios, y describir qué problema se intenta resolver. Para concluir, mejorar el acceso exige relacionar recursos con usos concretos; una cifra de capacidad, aislada, no responde a todas las preguntas. Escucha sin mirar y organiza tus notas en problema, matiz, propuesta y conclusión.",
+  "worked": [
+    {
+      "prompt": "Complete the contrast marker: “Ahora ___, hay una limitación.”",
+      "answer": "bien",
+      "reason": "Ahora bien introduces a qualification or contrast rather than simply another chronological event."
+    },
+    {
+      "prompt": "Complete: Las notas deben registrar ideas y ___, no cada palabra. (relationships)",
+      "answer": "relaciones",
+      "reason": "Relationships between claims matter for reconstructing the structure of an extended argument."
+    },
+    {
+      "prompt": "Does a memorable example necessarily equal the speaker’s thesis? Write sí or no.",
+      "answer": "no",
+      "reason": "An example may support a thesis without stating the central claim."
+    },
+    {
+      "prompt": "Complete: No atribuiré una cita ___ a partir de notas parciales. (exact)",
+      "answer": "exacta",
+      "reason": "Exact quotation requires reliable wording, not an approximate memory."
+    },
+    {
+      "prompt": "Complete: Conviene verificar las cifras ___ de repetirlas.",
+      "answer": "antes",
+      "reason": "Verification before repetition reduces the risk of presenting a misheard number as fact."
+    },
+    {
+      "prompt": "Complete: El hablante no niega toda ampliación; introduce un ___. (qualification)",
+      "answer": "matiz",
+      "reason": "The text qualifies the role of buildings rather than rejecting every physical expansion."
+    }
+  ],
+  "cards": [
+    {
+      "id": "c5-u02-f01",
+      "unit": "c5-u02",
+      "kind": "production",
+      "front": "However, there is a limitation",
+      "back": "Ahora bien, hay una limitación",
+      "example": "Ahora bien, hay una limitación"
+    },
+    {
+      "id": "c5-u02-f02",
+      "unit": "c5-u02",
+      "kind": "recognition",
+      "front": "Registrar ideas y relaciones",
+      "back": "Record ideas and relationships",
+      "example": "Es útil registrar ideas y relaciones en lugar de copiar cada palabra."
+    },
+    {
+      "id": "c5-u02-f03",
+      "unit": "c5-u02",
+      "kind": "production",
+      "front": "The example is not necessarily the thesis",
+      "back": "El ejemplo no es necesariamente la tesis",
+      "example": "El ejemplo no es necesariamente la tesis"
+    },
+    {
+      "id": "c5-u02-f04",
+      "unit": "c5-u02",
+      "kind": "recognition",
+      "front": "No puedo atribuir una cita exacta",
+      "back": "I cannot attribute an exact quotation",
+      "example": "No puedo atribuir una cita exacta"
+    },
+    {
+      "id": "c5-u02-f05",
+      "unit": "c5-u02",
+      "kind": "production",
+      "front": "I will verify the figures before repeating them",
+      "back": "Verificaré las cifras antes de repetirlas",
+      "example": "Verificaré las cifras antes de repetirlas"
+    },
+    {
+      "id": "c5-u02-f06",
+      "unit": "c5-u02",
+      "kind": "recognition",
+      "front": "Introduce un matiz",
+      "back": "It introduces a qualification",
+      "example": "Introduce un matiz"
+    },
+    {
+      "id": "c5-u02-f07",
+      "unit": "c5-u02",
+      "kind": "production",
+      "front": "The central question is…",
+      "back": "La pregunta central es…",
+      "example": "La pregunta central es qué barrera impide utilizar el servicio."
+    },
+    {
+      "id": "c5-u02-f08",
+      "unit": "c5-u02",
+      "kind": "recognition",
+      "front": "El argumento se organiza en tres partes",
+      "back": "The argument has three parts",
+      "example": "El argumento se organiza en tres partes"
+    },
+    {
+      "id": "c5-u02-f09",
+      "unit": "c5-u02",
+      "kind": "production",
+      "front": "I lost the thread in this segment",
+      "back": "Me perdí en este segmento",
+      "example": "Me perdí en este segmento"
+    },
+    {
+      "id": "c5-u02-f10",
+      "unit": "c5-u02",
+      "kind": "recognition",
+      "front": "Voy a escucharlo de nuevo",
+      "back": "I will listen to it again",
+      "example": "Voy a escucharlo de nuevo"
+    },
+    {
+      "id": "c5-u02-f11",
+      "unit": "c5-u02",
+      "kind": "production",
+      "front": "According to the speaker",
+      "back": "Según el hablante",
+      "example": "Según el hablante, ampliar el edificio no resolvería todas las barreras."
+    },
+    {
+      "id": "c5-u02-f12",
+      "unit": "c5-u02",
+      "kind": "recognition",
+      "front": "La conclusión no equivale a…",
+      "back": "The conclusion is not equivalent to…",
+      "example": "La conclusión no equivale a rechazar cualquier ampliación."
+    },
+    {
+      "id": "c5-u02-f13",
+      "unit": "c5-u02",
+      "kind": "production",
+      "front": "The main support consists of…",
+      "back": "El apoyo principal consiste en…",
+      "example": "El apoyo principal consiste en comparar varias condiciones de acceso."
+    },
+    {
+      "id": "c5-u02-f14",
+      "unit": "c5-u02",
+      "kind": "recognition",
+      "front": "He separado ejemplos y afirmaciones",
+      "back": "I have separated examples and claims",
+      "example": "He separado ejemplos y afirmaciones"
+    },
+    {
+      "id": "c5-u02-f15",
+      "unit": "c5-u02",
+      "kind": "production",
+      "front": "My summary preserves uncertainty",
+      "back": "Mi síntesis conserva la incertidumbre",
+      "example": "Mi síntesis conserva la incertidumbre"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c5-u02-q01",
+      "type": "cloze",
+      "prompt": "Complete the contrast marker: “Ahora ___, hay una limitación.”",
+      "answers": [
+        "bien"
+      ],
+      "explanation": "Ahora bien introduces a qualification or contrast rather than simply another chronological event.",
+      "concept": "Escuchar la arquitectura"
+    },
+    {
+      "id": "c5-u02-q02",
+      "type": "cloze",
+      "prompt": "Complete: Las notas deben registrar ideas y ___, no cada palabra. (relationships)",
+      "answers": [
+        "relaciones"
+      ],
+      "explanation": "Relationships between claims matter for reconstructing the structure of an extended argument.",
+      "concept": "Escuchar la arquitectura"
+    },
+    {
+      "id": "c5-u02-q03",
+      "type": "typed",
+      "prompt": "Does a memorable example necessarily equal the speaker’s thesis? Write sí or no.",
+      "answers": [
+        "no"
+      ],
+      "explanation": "An example may support a thesis without stating the central claim.",
+      "concept": "Escuchar la arquitectura"
+    },
+    {
+      "id": "c5-u02-q04",
+      "type": "cloze",
+      "prompt": "Complete: No atribuiré una cita ___ a partir de notas parciales. (exact)",
+      "answers": [
+        "exacta"
+      ],
+      "explanation": "Exact quotation requires reliable wording, not an approximate memory.",
+      "concept": "Resumir sin inflar la certeza"
+    },
+    {
+      "id": "c5-u02-q05",
+      "type": "cloze",
+      "prompt": "Complete: Conviene verificar las cifras ___ de repetirlas.",
+      "answers": [
+        "antes"
+      ],
+      "explanation": "Verification before repetition reduces the risk of presenting a misheard number as fact.",
+      "concept": "Resumir sin inflar la certeza"
+    },
+    {
+      "id": "c5-u02-q06",
+      "type": "cloze",
+      "prompt": "Complete: El hablante no niega toda ampliación; introduce un ___. (qualification)",
+      "answers": [
+        "matiz",
+        "condicionante"
+      ],
+      "explanation": "The text qualifies the role of buildings rather than rejecting every physical expansion.",
+      "concept": "Resumir sin inflar la certeza"
+    },
+    {
+      "id": "c5-u02-q07",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: However, there is a limitation.",
+      "options": [
+        "Me perdí en este segmento",
+        "El apoyo principal consiste en…",
+        "Ahora bien, hay una limitación"
+      ],
+      "answers": [
+        "Ahora bien, hay una limitación"
+      ],
+      "explanation": "“Ahora bien, hay una limitación” expresses “However, there is a limitation”. “Me perdí en este segmento” instead means “I lost the thread in this segment”. “El apoyo principal consiste en…” instead means “The main support consists of…”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c5-u02-q08",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: Record ideas and relationships.",
+      "options": [
+        "He separado ejemplos y afirmaciones",
+        "Registrar ideas y relaciones",
+        "Voy a escucharlo de nuevo"
+      ],
+      "answers": [
+        "Registrar ideas y relaciones"
+      ],
+      "explanation": "“Registrar ideas y relaciones” expresses “Record ideas and relationships”. “He separado ejemplos y afirmaciones” instead means “I have separated examples and claims”. “Voy a escucharlo de nuevo” instead means “I will listen to it again”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c5-u02-q09",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: The example is not necessarily the thesis.",
+      "options": [
+        "El ejemplo no es necesariamente la tesis",
+        "Según el hablante",
+        "Mi síntesis conserva la incertidumbre"
+      ],
+      "answers": [
+        "El ejemplo no es necesariamente la tesis"
+      ],
+      "explanation": "“El ejemplo no es necesariamente la tesis” expresses “The example is not necessarily the thesis”. “Según el hablante” instead means “According to the speaker”. “Mi síntesis conserva la incertidumbre” instead means “My summary preserves uncertainty”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c5-u02-q10",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: I cannot attribute an exact quotation.",
+      "options": [
+        "La conclusión no equivale a…",
+        "Ahora bien, hay una limitación",
+        "No puedo atribuir una cita exacta"
+      ],
+      "answers": [
+        "No puedo atribuir una cita exacta"
+      ],
+      "explanation": "“No puedo atribuir una cita exacta” expresses “I cannot attribute an exact quotation”. “La conclusión no equivale a…” instead means “The conclusion is not equivalent to…”. “Ahora bien, hay una limitación” instead means “However, there is a limitation”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c5-u02-q11",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: I will verify the figures before repeating them.",
+      "options": [
+        "Registrar ideas y relaciones",
+        "Verificaré las cifras antes de repetirlas",
+        "El apoyo principal consiste en…"
+      ],
+      "answers": [
+        "Verificaré las cifras antes de repetirlas"
+      ],
+      "explanation": "“Verificaré las cifras antes de repetirlas” expresses “I will verify the figures before repeating them”. “Registrar ideas y relaciones” instead means “Record ideas and relationships”. “El apoyo principal consiste en…” instead means “The main support consists of…”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c5-u02-q12",
+      "type": "matching",
+      "prompt": "Match each English meaning to its Spanish expression. Use each expression once.",
+      "answers": [
+        "[\"Verificaré las cifras antes de repetirlas\",\"La pregunta central es…\",\"Me perdí en este segmento\"]"
+      ],
+      "explanation": "“Verificaré las cifras antes de repetirlas” means “I will verify the figures before repeating them”. “La pregunta central es…” means “The central question is…”. “Me perdí en este segmento” means “I lost the thread in this segment”. Each alternative belongs to a different meaning; check the whole phrase, including its grammatical person and register.",
+      "concept": "Meaning and register",
+      "pairs": [
+        {
+          "left": "I will verify the figures before repeating them",
+          "right": "Verificaré las cifras antes de repetirlas"
+        },
+        {
+          "left": "The central question is…",
+          "right": "La pregunta central es…"
+        },
+        {
+          "left": "I lost the thread in this segment",
+          "right": "Me perdí en este segmento"
+        }
+      ]
+    }
+  ],
+  "homework": [
+    {
+      "id": "c5-u02-h1",
+      "skill": "Reading & writing",
+      "prompt": "Read the original text for this unit. Identify its situation, central message, and three supporting details. Then write a new version of 300–400 words for a different person or audience. Use the target patterns, change at least three facts, and explain two revisions.",
+      "model": "**Texto original para lectura en voz alta.** Cuando se habla de ampliar una biblioteca, suele imaginarse primero un edificio más grande. Sin embargo, el espacio físico es solo una parte del acceso. Un horario incompatible con el trabajo, una inscripción difícil de entender o la falta de información pueden excluir a una persona aunque haya mesas libres. Esto no significa que ampliar el edificio nunca sea necesario. Significa que conviene identificar el obstáculo antes de elegir la solución. En una consulta, algunas personas pueden pedir más salas y otras, simplemente, una respuesta clara sobre cómo reservarlas. Por otra parte, las necesidades cambian: una medida útil durante exámenes puede tener poco efecto en vacaciones. Mi propuesta es observar varios momentos, escuchar a usuarios y no usuarios, y describir qué problema se intenta resolver. Para concluir, mejorar el acceso exige relacionar recursos con usos concretos; una cifra de capacidad, aislada, no responde a todas las preguntas. Escucha sin mirar y organiza tus notas en problema, matiz, propuesta y conclusión.\n\nThis is the source model, not a text to submit unchanged. A successful adaptation retains the communicative purpose while changing relevant forms and facts. Compare with the worked examples for the reasons behind form choices.",
+      "rubric": "0–3 each: fulfills the specified purpose; organized and comprehensible; target forms support meaning; revisions are explained with examples. 0 = no evidence, 1 = substantial help needed, 2 = effective with some support, 3 = independently effective for this task. Record who evaluated the work."
+    },
+    {
+      "id": "c5-u02-h2",
+      "skill": "Listening",
+      "prompt": "Complete the resource assignment, or ask a willing reader to read the original text without showing it to you. First listen for the situation and purpose; listen again for three details and one contrast. Write a 60–100-word listening log naming the source, words actually heard, one uncertainty, and how you checked it. If using local synthesized speech, label it synthetic. Text-only preparation is not completed listening.",
+      "model": "A useful log separates the speaker’s message from your interpretation: “I heard [specific phrase]; I understood [claim]; I was uncertain about [word/relationship]; checking [text or partner] changed my interpretation to [correction].” Use the unit reading as an answer reference for a read-aloud version, never as evidence of an external speaker’s words.",
+      "rubric": "0–2 each: identifies source and listening conditions; retrieves central meaning; supports three details; checks a specific uncertainty. Do not count a copied transcript as independent comprehension."
+    },
+    {
+      "id": "c5-u02-h3",
+      "skill": "Speaking & interaction",
+      "prompt": "Listen to an 8–12-minute publicly available segment selected under the resource criteria, or a willing reader’s extended reading. Produce a 150-word summary and answer partner questions using notes rather than a transcript.",
+      "model": "Use the original reading/dialogue and the sentence-pattern cards as preparation. Make a brief outline, then put it away. Your partner should introduce a detail you did not prepare. Respond, request clarification if needed, and summarize what you agreed or still disagree about. Solo fallback: record two possible viewpoints and improvise a response after a pause; label it rehearsal.",
+      "rubric": "0–3 each: task fulfillment, comprehensibility, control of target language, responsiveness to another speaker. A partner or instructor should cite one example per score. Solo rehearsal provides no evidence for live responsiveness; mark that dimension not observed."
+    },
+    {
+      "id": "c5-u02-h4",
+      "skill": "Retrieval & reflection",
+      "prompt": "On a later day, retrieve six cards without looking. Use three in a fresh response to the practical task. Identify one recurring form error and one communication difficulty. Produce a corrected example, explain the reason, and schedule a specific follow-up exchange or listening session.",
+      "model": "Compare your response with these two models: Ahora bien, hay una limitación / Registrar ideas y relaciones. A useful reflection explains the function, not just the spelling. Revisit the first worked item and create a different example of its principle.",
+      "rubric": "Report recall count separately from performance. Reflection is complete when it contains an observed difficulty, an explained correction, a fresh example, and an actionable next session."
+    }
+  ],
+  "task": "Listen to an 8–12-minute publicly available segment selected under the resource criteria, or a willing reader’s extended reading. Produce a 150-word summary and answer partner questions using notes rather than a transcript.",
+  "culture": "Extended audio can include unfamiliar accents, background sound and implicit cultural references. Record which factor caused difficulty; do not treat every comprehension problem as a grammar deficit.",
+  "selfAssessment": [
+    "I can identify an extended speaker’s organization and stance.",
+    "I can take selective notes without attempting a transcript.",
+    "I can summarize with accurate attribution and uncertainty."
+  ],
+  "remediation": "Sort mistakes by form, meaning, and interaction. For form errors, explain a worked example and create a contrasting pair. For comprehension errors, replay a short segment or use a willing reader and verify your interpretation. For interaction difficulties, repeat the practical task with one new constraint. Compare evidence across days; repeated selection of a known answer alone is not mastery.",
+  "resources": [
+    "rtve-documentos"
+  ]
+}

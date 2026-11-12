@@ -1,0 +1,388 @@
+{
+  "id": "c4-u04",
+  "course": 4,
+  "number": 4,
+  "title": "Perfect subjunctive & counterfactuals",
+  "subtitle": "Earlier events and unrealized alternatives",
+  "status": "authored",
+  "prerequisites": [
+    "c4-u03"
+  ],
+  "objectives": [
+    "Form present and past perfect subjunctives.",
+    "Express a completed event within an evaluative clause.",
+    "Discuss counterfactual past outcomes without confusing them with facts."
+  ],
+  "warmup": "Retrieve two sentences and one repair strategy from c4-u03. Change the subject or situation in each sentence and explain what changed. Then read today’s objectives and predict where your existing language may be insufficient.",
+  "lectures": [
+    {
+      "title": "Completion inside a subjunctive frame",
+      "body": "Present perfect subjunctive uses haya, hayas, haya, hayamos, hayáis, hayan plus an invariant participle: Me alegra que hayas venido. The form combines completion with a construction that selects subjunctive. Past perfect subjunctive uses hubiera/hubiese plus participle: Me sorprendió que hubieran terminado. Both ra and se forms are recognized. Do not make the participle agree after haber. Compare Escrito as part of hayan escrito with escritas in las notas están escritas. The reference point and the governing construction jointly determine the choice."
+    },
+    {
+      "title": "Counterfactual reflection",
+      "body": "Si hubiera revisado la fecha, no habría perdido la cita imagines an alternative to a past event. The si clause uses past perfect subjunctive; the result commonly uses conditional perfect, habría plus participle. Hubiera can also appear in the result in accepted usage, so do not treat every such example as wrong. Counterfactuals can analyze a process, but they do not establish that an imagined outcome was guaranteed. State what is known, what is plausible, and what remains uncertain. Avoid using hindsight grammar to blame a person for information that was unavailable at the time."
+    },
+    {
+      "title": "Past and present consequences need different results",
+      "body": "A counterfactual past condition typically uses **si hubiera/hubiese + participle**: **Si hubiera revisado la fecha, no habría perdido la cita**. The condition and missed appointment are both situated in the past. A different result can connect that past to now: **Si hubiera aceptado el puesto, ahora viviría en otra ciudad**. Here **viviría** describes a hypothetical present consequence, so a past-perfect result is not required.\n\nThe two imperfect-subjunctive series are both available in the condition. In many standard counterfactual results, **hubiera + participle** can also replace **habría + participle**: **Si lo hubiera sabido, te lo hubiera dicho**. Do not mark this common construction wrong simply because an introductory template teaches conditional perfect in the result. Conversely, do not generalize that interchangeability to every context containing hubiera or habría.\n\nWhen correcting a hypothetical statement, draw a short timeline: when is the imagined condition, when is the consequence, and what does the speaker believe actually happened? Then choose the construction. A meaningful explanation includes that timeline, not only the names of two tenses."
+    }
+  ],
+  "reading": "Nora revisa un error de comunicación. El aviso llegó tarde y varias personas no asistieron. Dice: «Me alegra que hayan venido quienes sí recibieron el mensaje, pero me preocupa que otros no hayan podido participar». Después añade: «Si hubiéramos revisado la lista antes, habríamos detectado algunas direcciones incorrectas». Una colega matiza: «Probablemente, aunque no sabemos si eso habría resuelto todos los problemas». El grupo distingue un hecho observado, una evaluación y una hipótesis sobre un pasado alternativo. Redacta una conclusión que permita mejorar el proceso sin convertir una posibilidad retrospectiva en una certeza.",
+  "worked": [
+    {
+      "prompt": "Complete: Me alegra que tú ___ venido.",
+      "answer": "hayas",
+      "reason": "Present perfect subjunctive uses hayas plus participle in this evaluative clause."
+    },
+    {
+      "prompt": "Complete: Me sorprendió que ellos ___ terminado. (ra form)",
+      "answer": "hubieran",
+      "reason": "The earlier completion is viewed from a past evaluative reference point."
+    },
+    {
+      "prompt": "Complete: Si yo ___ revisado la fecha, no habría perdido la cita. (ra form)",
+      "answer": "hubiera",
+      "reason": "A counterfactual past condition uses past perfect subjunctive."
+    },
+    {
+      "prompt": "Complete: Si lo hubiera sabido, te lo ___ dicho. (conditional perfect)",
+      "answer": "habría",
+      "reason": "The specified conditional-perfect result uses habría plus dicho."
+    },
+    {
+      "prompt": "Complete: Es posible que ellas hayan ___ las notas. (escribir)",
+      "answer": "escrito",
+      "reason": "The participle remains invariant after hayan; escritas would be incorrect here."
+    },
+    {
+      "prompt": "In a standard counterfactual result, can hubiera + participle sometimes replace habría + participle? Write sí or no.",
+      "answer": "sí",
+      "reason": "The alternative occurs in accepted usage; the course does not label it universally incorrect."
+    }
+  ],
+  "cards": [
+    {
+      "id": "c4-u04-f01",
+      "unit": "c4-u04",
+      "kind": "production",
+      "front": "I am glad you have come",
+      "back": "Me alegra que hayas venido",
+      "example": "Me alegra que hayas venido"
+    },
+    {
+      "id": "c4-u04-f02",
+      "unit": "c4-u04",
+      "kind": "recognition",
+      "front": "Me sorprendió que hubieran terminado",
+      "back": "I was surprised they had finished",
+      "example": "Me sorprendió que hubieran terminado"
+    },
+    {
+      "id": "c4-u04-f03",
+      "unit": "c4-u04",
+      "kind": "production",
+      "front": "If I had checked the date",
+      "back": "Si hubiera revisado la fecha",
+      "example": "Si hubiera revisado la fecha"
+    },
+    {
+      "id": "c4-u04-f04",
+      "unit": "c4-u04",
+      "kind": "recognition",
+      "front": "Te lo habría dicho",
+      "back": "I would have told you",
+      "example": "Te lo habría dicho"
+    },
+    {
+      "id": "c4-u04-f05",
+      "unit": "c4-u04",
+      "kind": "production",
+      "front": "It is possible they have written",
+      "back": "Es posible que hayan escrito",
+      "example": "Es posible que hayan escrito"
+    },
+    {
+      "id": "c4-u04-f06",
+      "unit": "c4-u04",
+      "kind": "recognition",
+      "front": "No habría resuelto todo",
+      "back": "It would not have solved everything",
+      "example": "No habría resuelto todo"
+    },
+    {
+      "id": "c4-u04-f07",
+      "unit": "c4-u04",
+      "kind": "production",
+      "front": "We do not know whether it would have worked",
+      "back": "No sabemos si habría funcionado",
+      "example": "No sabemos si habría funcionado"
+    },
+    {
+      "id": "c4-u04-f08",
+      "unit": "c4-u04",
+      "kind": "recognition",
+      "front": "Me preocupa que no hayan podido participar",
+      "back": "I worry that they have not been able to participate",
+      "example": "Me preocupa que no hayan podido participar"
+    },
+    {
+      "id": "c4-u04-f09",
+      "unit": "c4-u04",
+      "kind": "production",
+      "front": "We would have detected the error",
+      "back": "Habríamos detectado el error",
+      "example": "Habríamos detectado el error"
+    },
+    {
+      "id": "c4-u04-f10",
+      "unit": "c4-u04",
+      "kind": "recognition",
+      "front": "Si lo hubiéramos sabido antes",
+      "back": "If we had known it earlier",
+      "example": "Si lo hubiéramos sabido antes"
+    },
+    {
+      "id": "c4-u04-f11",
+      "unit": "c4-u04",
+      "kind": "production",
+      "front": "That does not show it was inevitable",
+      "back": "Eso no demuestra que fuera inevitable",
+      "example": "Eso no demuestra que fuera inevitable"
+    },
+    {
+      "id": "c4-u04-f12",
+      "unit": "c4-u04",
+      "kind": "recognition",
+      "front": "Con la información disponible entonces",
+      "back": "With the information available then",
+      "example": "Con la información disponible entonces, no habríamos podido prever el cambio."
+    },
+    {
+      "id": "c4-u04-f13",
+      "unit": "c4-u04",
+      "kind": "production",
+      "front": "We can learn from the process",
+      "back": "Podemos aprender del proceso",
+      "example": "Podemos aprender del proceso"
+    },
+    {
+      "id": "c4-u04-f14",
+      "unit": "c4-u04",
+      "kind": "recognition",
+      "front": "No conviene confundir hipótesis y hechos",
+      "back": "We should not confuse hypotheses and facts",
+      "example": "No conviene confundir hipótesis y hechos"
+    },
+    {
+      "id": "c4-u04-f15",
+      "unit": "c4-u04",
+      "kind": "production",
+      "front": "If only we had checked it",
+      "back": "Ojalá lo hubiéramos comprobado",
+      "example": "Ojalá lo hubiéramos comprobado"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c4-u04-q01",
+      "type": "cloze",
+      "prompt": "Complete: Me alegra que tú ___ venido.",
+      "answers": [
+        "hayas"
+      ],
+      "explanation": "Present perfect subjunctive uses hayas plus participle in this evaluative clause.",
+      "concept": "Completion inside a subjunctive frame"
+    },
+    {
+      "id": "c4-u04-q02",
+      "type": "cloze",
+      "prompt": "Complete: Me sorprendió que ellos ___ terminado. (ra form)",
+      "answers": [
+        "hubieran"
+      ],
+      "explanation": "The earlier completion is viewed from a past evaluative reference point.",
+      "concept": "Completion inside a subjunctive frame"
+    },
+    {
+      "id": "c4-u04-q03",
+      "type": "cloze",
+      "prompt": "Complete: Si yo ___ revisado la fecha, no habría perdido la cita. (ra form)",
+      "answers": [
+        "hubiera"
+      ],
+      "explanation": "A counterfactual past condition uses past perfect subjunctive.",
+      "concept": "Completion inside a subjunctive frame"
+    },
+    {
+      "id": "c4-u04-q04",
+      "type": "cloze",
+      "prompt": "Complete: Si lo hubiera sabido, te lo ___ dicho. (conditional perfect)",
+      "answers": [
+        "habría"
+      ],
+      "explanation": "The specified conditional-perfect result uses habría plus dicho.",
+      "concept": "Counterfactual reflection"
+    },
+    {
+      "id": "c4-u04-q05",
+      "type": "cloze",
+      "prompt": "Complete: Es posible que ellas hayan ___ las notas. (escribir)",
+      "answers": [
+        "escrito"
+      ],
+      "explanation": "The participle remains invariant after hayan; escritas would be incorrect here.",
+      "concept": "Counterfactual reflection"
+    },
+    {
+      "id": "c4-u04-q06",
+      "type": "typed",
+      "prompt": "In a standard counterfactual result, can hubiera + participle sometimes replace habría + participle? Write sí or no.",
+      "answers": [
+        "sí"
+      ],
+      "explanation": "The alternative occurs in accepted usage; the course does not label it universally incorrect.",
+      "concept": "Counterfactual reflection"
+    },
+    {
+      "id": "c4-u04-q07",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: I am glad you have come.",
+      "options": [
+        "Habríamos detectado el error",
+        "Podemos aprender del proceso",
+        "Me alegra que hayas venido"
+      ],
+      "answers": [
+        "Me alegra que hayas venido"
+      ],
+      "explanation": "“Me alegra que hayas venido” expresses “I am glad you have come”. “Habríamos detectado el error” instead means “We would have detected the error”. “Podemos aprender del proceso” instead means “We can learn from the process”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c4-u04-q08",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: I was surprised they had finished.",
+      "options": [
+        "No conviene confundir hipótesis y hechos",
+        "Me sorprendió que hubieran terminado",
+        "Si lo hubiéramos sabido antes"
+      ],
+      "answers": [
+        "Me sorprendió que hubieran terminado"
+      ],
+      "explanation": "“Me sorprendió que hubieran terminado” expresses “I was surprised they had finished”. “No conviene confundir hipótesis y hechos” instead means “We should not confuse hypotheses and facts”. “Si lo hubiéramos sabido antes” instead means “If we had known it earlier”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c4-u04-q09",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: If I had checked the date.",
+      "options": [
+        "Si hubiera revisado la fecha",
+        "Eso no demuestra que fuera inevitable",
+        "Ojalá lo hubiéramos comprobado"
+      ],
+      "answers": [
+        "Si hubiera revisado la fecha"
+      ],
+      "explanation": "“Si hubiera revisado la fecha” expresses “If I had checked the date”. “Eso no demuestra que fuera inevitable” instead means “That does not show it was inevitable”. “Ojalá lo hubiéramos comprobado” instead means “If only we had checked it”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c4-u04-q10",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: I would have told you.",
+      "options": [
+        "Con la información disponible entonces",
+        "Me alegra que hayas venido",
+        "Te lo habría dicho"
+      ],
+      "answers": [
+        "Te lo habría dicho"
+      ],
+      "explanation": "“Te lo habría dicho” expresses “I would have told you”. “Con la información disponible entonces” instead means “With the information available then”. “Me alegra que hayas venido” instead means “I am glad you have come”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c4-u04-q11",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: It is possible they have written.",
+      "options": [
+        "Me sorprendió que hubieran terminado",
+        "Es posible que hayan escrito",
+        "Podemos aprender del proceso"
+      ],
+      "answers": [
+        "Es posible que hayan escrito"
+      ],
+      "explanation": "“Es posible que hayan escrito” expresses “It is possible they have written”. “Me sorprendió que hubieran terminado” instead means “I was surprised they had finished”. “Podemos aprender del proceso” instead means “We can learn from the process”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c4-u04-q12",
+      "type": "matching",
+      "prompt": "Match each English meaning to its Spanish expression. Use each expression once.",
+      "answers": [
+        "[\"Es posible que hayan escrito\",\"No sabemos si habría funcionado\",\"Habríamos detectado el error\"]"
+      ],
+      "explanation": "“Es posible que hayan escrito” means “It is possible they have written”. “No sabemos si habría funcionado” means “We do not know whether it would have worked”. “Habríamos detectado el error” means “We would have detected the error”. Each alternative belongs to a different meaning; check the whole phrase, including its grammatical person and register.",
+      "concept": "Meaning and register",
+      "pairs": [
+        {
+          "left": "It is possible they have written",
+          "right": "Es posible que hayan escrito"
+        },
+        {
+          "left": "We do not know whether it would have worked",
+          "right": "No sabemos si habría funcionado"
+        },
+        {
+          "left": "We would have detected the error",
+          "right": "Habríamos detectado el error"
+        }
+      ]
+    }
+  ],
+  "homework": [
+    {
+      "id": "c4-u04-h1",
+      "skill": "Reading & writing",
+      "prompt": "Read the original text for this unit. Identify its situation, central message, and three supporting details. Then write a new version of 220–280 words for a different person or audience. Use the target patterns, change at least three facts, and explain two revisions.",
+      "model": "Nora revisa un error de comunicación. El aviso llegó tarde y varias personas no asistieron. Dice: «Me alegra que hayan venido quienes sí recibieron el mensaje, pero me preocupa que otros no hayan podido participar». Después añade: «Si hubiéramos revisado la lista antes, habríamos detectado algunas direcciones incorrectas». Una colega matiza: «Probablemente, aunque no sabemos si eso habría resuelto todos los problemas». El grupo distingue un hecho observado, una evaluación y una hipótesis sobre un pasado alternativo. Redacta una conclusión que permita mejorar el proceso sin convertir una posibilidad retrospectiva en una certeza.\n\nThis is the source model, not a text to submit unchanged. A successful adaptation retains the communicative purpose while changing relevant forms and facts. Compare with the worked examples for the reasons behind form choices.",
+      "rubric": "0–3 each: fulfills the specified purpose; organized and comprehensible; target forms support meaning; revisions are explained with examples. 0 = no evidence, 1 = substantial help needed, 2 = effective with some support, 3 = independently effective for this task. Record who evaluated the work."
+    },
+    {
+      "id": "c4-u04-h2",
+      "skill": "Listening",
+      "prompt": "Complete the resource assignment, or ask a willing reader to read the original text without showing it to you. First listen for the situation and purpose; listen again for three details and one contrast. Write a 60–100-word listening log naming the source, words actually heard, one uncertainty, and how you checked it. If using local synthesized speech, label it synthetic. Text-only preparation is not completed listening.",
+      "model": "A useful log separates the speaker’s message from your interpretation: “I heard [specific phrase]; I understood [claim]; I was uncertain about [word/relationship]; checking [text or partner] changed my interpretation to [correction].” Use the unit reading as an answer reference for a read-aloud version, never as evidence of an external speaker’s words.",
+      "rubric": "0–2 each: identifies source and listening conditions; retrieves central meaning; supports three details; checks a specific uncertainty. Do not count a copied transcript as independent comprehension."
+    },
+    {
+      "id": "c4-u04-h3",
+      "skill": "Speaking & interaction",
+      "prompt": "Analyze a fictional missed appointment or failed handoff. Separate known facts from two counterfactual possibilities, then propose a process improvement rather than personal blame.",
+      "model": "Use the original reading/dialogue and the sentence-pattern cards as preparation. Make a brief outline, then put it away. Your partner should introduce a detail you did not prepare. Respond, request clarification if needed, and summarize what you agreed or still disagree about. Solo fallback: record two possible viewpoints and improvise a response after a pause; label it rehearsal.",
+      "rubric": "0–3 each: task fulfillment, comprehensibility, control of target language, responsiveness to another speaker. A partner or instructor should cite one example per score. Solo rehearsal provides no evidence for live responsiveness; mark that dimension not observed."
+    },
+    {
+      "id": "c4-u04-h4",
+      "skill": "Retrieval & reflection",
+      "prompt": "On a later day, retrieve six cards without looking. Use three in a fresh response to the practical task. Identify one recurring form error and one communication difficulty. Produce a corrected example, explain the reason, and schedule a specific follow-up exchange or listening session.",
+      "model": "Compare your response with these two models: Me alegra que hayas venido / Me sorprendió que hubieran terminado. A useful reflection explains the function, not just the spelling. Revisit the first worked item and create a different example of its principle.",
+      "rubric": "Report recall count separately from performance. Reflection is complete when it contains an observed difficulty, an explained correction, a fresh example, and an actionable next session."
+    }
+  ],
+  "task": "Analyze a fictional missed appointment or failed handoff. Separate known facts from two counterfactual possibilities, then propose a process improvement rather than personal blame.",
+  "culture": "Retrospective criticism can imply that people should have known more than they did. Explain the information available at the time and distinguish a language exercise from a judgment about someone’s character.",
+  "selfAssessment": [
+    "I can form present and past perfect subjunctives.",
+    "I can express a completed event within an evaluative clause.",
+    "I can discuss counterfactual past outcomes without confusing them with facts."
+  ],
+  "remediation": "Sort mistakes by form, meaning, and interaction. For form errors, explain a worked example and create a contrasting pair. For comprehension errors, replay a short segment or use a willing reader and verify your interpretation. For interaction difficulties, repeat the practical task with one new constraint. Compare evidence across days; repeated selection of a known answer alone is not mastery.",
+  "resources": [
+    "sd-pluperfect-subjunctive"
+  ]
+}

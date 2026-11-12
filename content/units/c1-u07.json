@@ -344,6 +344,30 @@
       ],
       "explanation": "“Cerca del parque” communicates “Near the park.” The other choices communicate “Between the house and the park” and “There is a pharmacy”; those do not answer this prompt.",
       "concept": "Meaning in context"
+    },
+    {
+      "id": "c1-u07-q13",
+      "type": "matching",
+      "prompt": "Match each English meaning to its Spanish expression. Use each expression once.",
+      "answers": [
+        "[\"No hay nadie\",\"Lejos de aquí\",\"Delante de la casa\"]"
+      ],
+      "explanation": "“No hay nadie” means “There is nobody”. “Lejos de aquí” means “Far from here”. “Delante de la casa” means “In front of the house”. Each alternative belongs to a different meaning; check the whole phrase, including its grammatical person and register.",
+      "concept": "Meaning and register",
+      "pairs": [
+        {
+          "left": "There is nobody",
+          "right": "No hay nadie"
+        },
+        {
+          "left": "Far from here",
+          "right": "Lejos de aquí"
+        },
+        {
+          "left": "In front of the house",
+          "right": "Delante de la casa"
+        }
+      ]
     }
   ],
   "homework": [

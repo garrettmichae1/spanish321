@@ -1,0 +1,384 @@
+{
+  "id": "c4-u02",
+  "course": 4,
+  "number": 2,
+  "title": "Imperfect subjunctive",
+  "subtitle": "A wish viewed from the past",
+  "status": "authored",
+  "prerequisites": [
+    "c4-u01"
+  ],
+  "objectives": [
+    "Form imperfect subjunctives in ra and se.",
+    "Use past reporting with dependent wishes and recommendations.",
+    "Recognize polite imperfect-subjunctive chunks without overgeneralizing."
+  ],
+  "warmup": "Retrieve two sentences and one repair strategy from c4-u01. Change the subject or situation in each sentence and explain what changed. Then read today’s objectives and predict where your existing language may be insufficient.",
+  "lectures": [
+    {
+      "title": "From third-person preterite to subjunctive",
+      "body": "Take the third-person plural preterite and remove ron: hablaron → habla-, tuvieron → tuvie-, dijeron → dije-. Add ra, ras, ra, ramos, rais, ran, with a stress accent in nosotros: habláramos, tuviéramos. The parallel se series is hablara/hablase, tuviera/tuviese, dijera/dijese. Both series are widely recognized, though distribution differs by register and region. Do not derive the form from present yo or from an invented infinitive stem. Ir and ser share fuera/fuese because their preterite plurals are both fueron. Context distinguishes their meanings."
+    },
+    {
+      "title": "Past stance and current courtesy",
+      "body": "Quería que vinieras places a desire in a past frame. Le recomendé que revisara el informe reports a recommendation. The imperfect subjunctive does not inherently mean an action was unfinished or impossible; its interpretation depends on the clause relationship. Quisiera pedirle un favor is also a conventional courteous request about now. Do not assume every use therefore refers to the past. In narration, establish whose perspective and time frame you are reporting. Compare Quiero que vengas with quería que vinieras, then ask whether the wish still holds; the tense pattern alone may not answer that question."
+    }
+  ],
+  "reading": "La coordinadora explicó que quería que los vecinos participaran en el diseño del nuevo horario. Les pidió que describieran sus necesidades y que no se limitaran a elegir una casilla. Un participante dijo que prefería que la reunión fuera por la tarde, cuando podía asistir después del trabajo. Otra persona respondió: «Quisiera que también hubiera una forma de participar por escrito». La propuesta no negaba el valor de la reunión; intentaba incluir a quienes no podían hablar allí. Identifica los verbos que sitúan deseos o peticiones en una perspectiva pasada y distingue el uso cortés de quisiera en la intervención citada.",
+  "worked": [
+    {
+      "prompt": "Form the imperfect subjunctive yo of tener using ra.",
+      "answer": "tuviera",
+      "reason": "Tuvieron minus ron gives tuvie-, then ra; the present stem teng- is not used."
+    },
+    {
+      "prompt": "Form the imperfect subjunctive nosotros of hablar using ra.",
+      "answer": "habláramos",
+      "reason": "The nosotros form requires an accent to preserve the appropriate stress."
+    },
+    {
+      "prompt": "Form the imperfect subjunctive ellos of decir using se.",
+      "answer": "dijesen",
+      "reason": "Dijeron supplies dije-; the se-series third plural ending is sen."
+    },
+    {
+      "prompt": "Complete: Quería que tú ___. (venir, ra form)",
+      "answer": "vinieras",
+      "reason": "The past desire selects the imperfect subjunctive of venir."
+    },
+    {
+      "prompt": "Complete: Prefería que la reunión ___ por la tarde. (ser, ra form)",
+      "answer": "fuera",
+      "reason": "Ser uses the shared irregular imperfect-subjunctive form fuera."
+    },
+    {
+      "prompt": "Complete the courteous chunk: ___ pedirle un favor. (querer, ra form)",
+      "answer": "Quisiera",
+      "reason": "Quisiera can soften a present request rather than describing only past desire."
+    }
+  ],
+  "cards": [
+    {
+      "id": "c4-u02-f01",
+      "unit": "c4-u02",
+      "kind": "production",
+      "front": "That I/she/he had more time in a subjunctive context",
+      "back": "Tuviera más tiempo",
+      "example": "Tuviera más tiempo"
+    },
+    {
+      "id": "c4-u02-f02",
+      "unit": "c4-u02",
+      "kind": "recognition",
+      "front": "Quería que habláramos",
+      "back": "She or he wanted us to talk",
+      "example": "Quería que habláramos"
+    },
+    {
+      "id": "c4-u02-f03",
+      "unit": "c4-u02",
+      "kind": "production",
+      "front": "She or he asked them to tell the truth",
+      "back": "Pidió que dijesen la verdad",
+      "example": "Pidió que dijesen la verdad"
+    },
+    {
+      "id": "c4-u02-f04",
+      "unit": "c4-u02",
+      "kind": "recognition",
+      "front": "Quería que vinieras",
+      "back": "I wanted you to come",
+      "example": "Quería que vinieras"
+    },
+    {
+      "id": "c4-u02-f05",
+      "unit": "c4-u02",
+      "kind": "production",
+      "front": "I preferred it to be in the afternoon",
+      "back": "Prefería que fuera por la tarde",
+      "example": "Prefería que fuera por la tarde"
+    },
+    {
+      "id": "c4-u02-f06",
+      "unit": "c4-u02",
+      "kind": "recognition",
+      "front": "Quisiera pedirle un favor",
+      "back": "I would like to ask you a favor",
+      "example": "Quisiera pedirle un favor"
+    },
+    {
+      "id": "c4-u02-f07",
+      "unit": "c4-u02",
+      "kind": "production",
+      "front": "She or he asked them to participate",
+      "back": "Les pidió que participaran",
+      "example": "Les pidió que participaran"
+    },
+    {
+      "id": "c4-u02-f08",
+      "unit": "c4-u02",
+      "kind": "recognition",
+      "front": "Esperaba que lo revisaras",
+      "back": "I hoped you would review it",
+      "example": "Esperaba que lo revisaras"
+    },
+    {
+      "id": "c4-u02-f09",
+      "unit": "c4-u02",
+      "kind": "production",
+      "front": "It was important that there be access",
+      "back": "Era importante que hubiera acceso",
+      "example": "Era importante que hubiera acceso"
+    },
+    {
+      "id": "c4-u02-f10",
+      "unit": "c4-u02",
+      "kind": "recognition",
+      "front": "No quería que se limitaran a elegir",
+      "back": "She or he did not want them merely to choose",
+      "example": "No quería que se limitaran a elegir"
+    },
+    {
+      "id": "c4-u02-f11",
+      "unit": "c4-u02",
+      "kind": "production",
+      "front": "She or he suggested that we write",
+      "back": "Sugirió que escribiéramos",
+      "example": "Sugirió que escribiéramos"
+    },
+    {
+      "id": "c4-u02-f12",
+      "unit": "c4-u02",
+      "kind": "recognition",
+      "front": "Aunque no pudiera asistir",
+      "back": "Even if she or he could not attend",
+      "example": "Quería enviar sus comentarios aunque no pudiera asistir."
+    },
+    {
+      "id": "c4-u02-f13",
+      "unit": "c4-u02",
+      "kind": "production",
+      "front": "I was glad you came",
+      "back": "Me alegró que vinieras",
+      "example": "Me alegró que vinieras"
+    },
+    {
+      "id": "c4-u02-f14",
+      "unit": "c4-u02",
+      "kind": "recognition",
+      "front": "Quería saber qué pensabas",
+      "back": "I wanted to know what you thought",
+      "example": "Quería saber qué pensabas"
+    },
+    {
+      "id": "c4-u02-f15",
+      "unit": "c4-u02",
+      "kind": "production",
+      "front": "Both variants are possible",
+      "back": "Las dos variantes son posibles",
+      "example": "Las dos variantes son posibles"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c4-u02-q01",
+      "type": "typed",
+      "prompt": "Form the imperfect subjunctive yo of tener using ra.",
+      "answers": [
+        "tuviera"
+      ],
+      "explanation": "Tuvieron minus ron gives tuvie-, then ra; the present stem teng- is not used.",
+      "concept": "From third-person preterite to subjunctive"
+    },
+    {
+      "id": "c4-u02-q02",
+      "type": "typed",
+      "prompt": "Form the imperfect subjunctive nosotros of hablar using ra.",
+      "answers": [
+        "habláramos"
+      ],
+      "explanation": "The nosotros form requires an accent to preserve the appropriate stress.",
+      "concept": "From third-person preterite to subjunctive"
+    },
+    {
+      "id": "c4-u02-q03",
+      "type": "typed",
+      "prompt": "Form the imperfect subjunctive ellos of decir using se.",
+      "answers": [
+        "dijesen"
+      ],
+      "explanation": "Dijeron supplies dije-; the se-series third plural ending is sen.",
+      "concept": "From third-person preterite to subjunctive"
+    },
+    {
+      "id": "c4-u02-q04",
+      "type": "cloze",
+      "prompt": "Complete: Quería que tú ___. (venir, ra form)",
+      "answers": [
+        "vinieras"
+      ],
+      "explanation": "The past desire selects the imperfect subjunctive of venir.",
+      "concept": "Past stance and current courtesy"
+    },
+    {
+      "id": "c4-u02-q05",
+      "type": "cloze",
+      "prompt": "Complete: Prefería que la reunión ___ por la tarde. (ser, ra form)",
+      "answers": [
+        "fuera"
+      ],
+      "explanation": "Ser uses the shared irregular imperfect-subjunctive form fuera.",
+      "concept": "Past stance and current courtesy"
+    },
+    {
+      "id": "c4-u02-q06",
+      "type": "cloze",
+      "prompt": "Complete the courteous chunk: ___ pedirle un favor. (querer, ra form)",
+      "answers": [
+        "Quisiera"
+      ],
+      "explanation": "Quisiera can soften a present request rather than describing only past desire.",
+      "concept": "Past stance and current courtesy"
+    },
+    {
+      "id": "c4-u02-q07",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: That I/she/he had more time in a subjunctive context.",
+      "options": [
+        "Era importante que hubiera acceso",
+        "Me alegró que vinieras",
+        "Tuviera más tiempo"
+      ],
+      "answers": [
+        "Tuviera más tiempo"
+      ],
+      "explanation": "“Tuviera más tiempo” expresses “That I/she/he had more time in a subjunctive context”. “Era importante que hubiera acceso” instead means “It was important that there be access”. “Me alegró que vinieras” instead means “I was glad you came”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c4-u02-q08",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: She or he wanted us to talk.",
+      "options": [
+        "Quería saber qué pensabas",
+        "Quería que habláramos",
+        "No quería que se limitaran a elegir"
+      ],
+      "answers": [
+        "Quería que habláramos"
+      ],
+      "explanation": "“Quería que habláramos” expresses “She or he wanted us to talk”. “Quería saber qué pensabas” instead means “I wanted to know what you thought”. “No quería que se limitaran a elegir” instead means “She or he did not want them merely to choose”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c4-u02-q09",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: She or he asked them to tell the truth.",
+      "options": [
+        "Pidió que dijesen la verdad",
+        "Sugirió que escribiéramos",
+        "Las dos variantes son posibles"
+      ],
+      "answers": [
+        "Pidió que dijesen la verdad"
+      ],
+      "explanation": "“Pidió que dijesen la verdad” expresses “She or he asked them to tell the truth”. “Sugirió que escribiéramos” instead means “She or he suggested that we write”. “Las dos variantes son posibles” instead means “Both variants are possible”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c4-u02-q10",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: I wanted you to come.",
+      "options": [
+        "Aunque no pudiera asistir",
+        "Tuviera más tiempo",
+        "Quería que vinieras"
+      ],
+      "answers": [
+        "Quería que vinieras"
+      ],
+      "explanation": "“Quería que vinieras” expresses “I wanted you to come”. “Aunque no pudiera asistir” instead means “Even if she or he could not attend”. “Tuviera más tiempo” instead means “That I/she/he had more time in a subjunctive context”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c4-u02-q11",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: I preferred it to be in the afternoon.",
+      "options": [
+        "Quería que habláramos",
+        "Prefería que fuera por la tarde",
+        "Me alegró que vinieras"
+      ],
+      "answers": [
+        "Prefería que fuera por la tarde"
+      ],
+      "explanation": "“Prefería que fuera por la tarde” expresses “I preferred it to be in the afternoon”. “Quería que habláramos” instead means “She or he wanted us to talk”. “Me alegró que vinieras” instead means “I was glad you came”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c4-u02-q12",
+      "type": "matching",
+      "prompt": "Match each English meaning to its Spanish expression. Use each expression once.",
+      "answers": [
+        "[\"Prefería que fuera por la tarde\",\"Les pidió que participaran\",\"Era importante que hubiera acceso\"]"
+      ],
+      "explanation": "“Prefería que fuera por la tarde” means “I preferred it to be in the afternoon”. “Les pidió que participaran” means “She or he asked them to participate”. “Era importante que hubiera acceso” means “It was important that there be access”. Each alternative belongs to a different meaning; check the whole phrase, including its grammatical person and register.",
+      "concept": "Meaning and register",
+      "pairs": [
+        {
+          "left": "I preferred it to be in the afternoon",
+          "right": "Prefería que fuera por la tarde"
+        },
+        {
+          "left": "She or he asked them to participate",
+          "right": "Les pidió que participaran"
+        },
+        {
+          "left": "It was important that there be access",
+          "right": "Era importante que hubiera acceso"
+        }
+      ]
+    }
+  ],
+  "homework": [
+    {
+      "id": "c4-u02-h1",
+      "skill": "Reading & writing",
+      "prompt": "Read the original text for this unit. Identify its situation, central message, and three supporting details. Then write a new version of 220–280 words for a different person or audience. Use the target patterns, change at least three facts, and explain two revisions.",
+      "model": "La coordinadora explicó que quería que los vecinos participaran en el diseño del nuevo horario. Les pidió que describieran sus necesidades y que no se limitaran a elegir una casilla. Un participante dijo que prefería que la reunión fuera por la tarde, cuando podía asistir después del trabajo. Otra persona respondió: «Quisiera que también hubiera una forma de participar por escrito». La propuesta no negaba el valor de la reunión; intentaba incluir a quienes no podían hablar allí. Identifica los verbos que sitúan deseos o peticiones en una perspectiva pasada y distingue el uso cortés de quisiera en la intervención citada.\n\nThis is the source model, not a text to submit unchanged. A successful adaptation retains the communicative purpose while changing relevant forms and facts. Compare with the worked examples for the reasons behind form choices.",
+      "rubric": "0–3 each: fulfills the specified purpose; organized and comprehensible; target forms support meaning; revisions are explained with examples. 0 = no evidence, 1 = substantial help needed, 2 = effective with some support, 3 = independently effective for this task. Record who evaluated the work."
+    },
+    {
+      "id": "c4-u02-h2",
+      "skill": "Listening",
+      "prompt": "Complete the resource assignment, or ask a willing reader to read the original text without showing it to you. First listen for the situation and purpose; listen again for three details and one contrast. Write a 60–100-word listening log naming the source, words actually heard, one uncertainty, and how you checked it. If using local synthesized speech, label it synthetic. Text-only preparation is not completed listening.",
+      "model": "A useful log separates the speaker’s message from your interpretation: “I heard [specific phrase]; I understood [claim]; I was uncertain about [word/relationship]; checking [text or partner] changed my interpretation to [correction].” Use the unit reading as an answer reference for a read-aloud version, never as evidence of an external speaker’s words.",
+      "rubric": "0–2 each: identifies source and listening conditions; retrieves central meaning; supports three details; checks a specific uncertainty. Do not count a copied transcript as independent comprehension."
+    },
+    {
+      "id": "c4-u02-h3",
+      "skill": "Speaking & interaction",
+      "prompt": "Report a previous planning meeting. Include three requests or wishes, then make one courteous present request and explain the difference in interpretation.",
+      "model": "Use the original reading/dialogue and the sentence-pattern cards as preparation. Make a brief outline, then put it away. Your partner should introduce a detail you did not prepare. Respond, request clarification if needed, and summarize what you agreed or still disagree about. Solo fallback: record two possible viewpoints and improvise a response after a pause; label it rehearsal.",
+      "rubric": "0–3 each: task fulfillment, comprehensibility, control of target language, responsiveness to another speaker. A partner or instructor should cite one example per score. Solo rehearsal provides no evidence for live responsiveness; mark that dimension not observed."
+    },
+    {
+      "id": "c4-u02-h4",
+      "skill": "Retrieval & reflection",
+      "prompt": "On a later day, retrieve six cards without looking. Use three in a fresh response to the practical task. Identify one recurring form error and one communication difficulty. Produce a corrected example, explain the reason, and schedule a specific follow-up exchange or listening session.",
+      "model": "Compare your response with these two models: Tuviera más tiempo / Quería que habláramos. A useful reflection explains the function, not just the spelling. Revisit the first worked item and create a different example of its principle.",
+      "rubric": "Report recall count separately from performance. Reflection is complete when it contains an observed difficulty, an explained correction, a fresh example, and an actionable next session."
+    }
+  ],
+  "task": "Report a previous planning meeting. Include three requests or wishes, then make one courteous present request and explain the difference in interpretation.",
+  "culture": "The ra and se series are not competing measures of intelligence or correctness. Frequency varies by community and genre. Recognize both; choose a consistent productive pattern appropriate to your context.",
+  "selfAssessment": [
+    "I can form imperfect subjunctives in ra and se.",
+    "I can use past reporting with dependent wishes and recommendations.",
+    "I can recognize polite imperfect-subjunctive chunks without overgeneralizing."
+  ],
+  "remediation": "Sort mistakes by form, meaning, and interaction. For form errors, explain a worked example and create a contrasting pair. For comprehension errors, replay a short segment or use a willing reader and verify your interpretation. For interaction difficulties, repeat the practical task with one new constraint. Compare evidence across days; repeated selection of a known answer alone is not mastery.",
+  "resources": [
+    "sd-imperfect-subjunctive"
+  ]
+}

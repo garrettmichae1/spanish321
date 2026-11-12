@@ -1,0 +1,388 @@
+{
+  "id": "c2-u10",
+  "course": 2,
+  "number": 10,
+  "title": "Commands & everyday advice",
+  "subtitle": "Give useful instructions",
+  "status": "authored",
+  "prerequisites": [
+    "c2-u09"
+  ],
+  "objectives": [
+    "Form common affirmative and negative commands.",
+    "Place object pronouns in instructions.",
+    "Adapt advice to audience and relationship."
+  ],
+  "warmup": "Retrieve two sentences and one repair strategy from c2-u09. Change the subject or situation in each sentence and explain what changed. Then read today’s objectives and predict where your existing language may be insufficient.",
+  "lectures": [
+    {
+      "title": "Affirmative commands and address",
+      "body": "A regular affirmative tú command usually matches the present él/ella form: habla, come, escribe. Frequent irregulars are di, haz, ve, pon, sal, sé, ten, ven. Do not confuse command sé (be) with se. Usted and ustedes commonly use the present yo stem with opposite endings: hablo → hable/hablen; como → coma/coman. Negative tú uses that same family with s: no hables, no comas. These forms belong to the subjunctive system developed in Course III. Spelling and irregular yo forms matter: busque, no busques; tenga, no tengas. Learn commands in context, not as permission to order strangers around."
+    },
+    {
+      "title": "Pronouns and politeness",
+      "body": "Attach pronouns to affirmative commands: dime, dámelo, siéntate. Put them before negative commands: no me lo des, no te sientes. Written accents may preserve stress after attachment. A polite request may use ¿Puede…? rather than a direct command; por favor helps but does not erase an inappropriate tone or demand. With a familiar partner, explain the reason for advice: Descansa un poco porque pareces cansado. Recognize vosotros affirmative infinitive-r → d (hablad) and common voseo forms such as hablá, but use the paradigm appropriate to your interaction. Avoid mixing tú and usted endings unintentionally."
+    },
+    {
+      "title": "A usable instruction includes a sequence and a check",
+      "body": "Imagine helping someone print a ticket. **Abra el archivo. Compruebe la fecha. Imprímalo** is a coherent usted sequence. **No lo imprima todavía** changes both the polarity and the pronoun position. The command verb still refers to usted, while **lo** refers to the ticket or file. To address several people, use **abran, comprueben, imprímanlo**.\n\nA more collaborative opening is **¿Puede abrir el archivo, por favor?** Follow with a check such as **¿Se ve la fecha?** Commands are one linguistic tool; they are not the only socially appropriate way to accomplish an instruction. A novice learner should practice asking for clarification as well: **¿Cuál archivo? ¿Así está bien?**\n\nPay attention to short irregular negative commands: **no vayas**, **no seas**, **no des**, alongside **ve**, **sé**, **da** in affirmative tú. Do not invent *no ve* by putting no before an affirmative command. Give a willing partner a harmless three-step task, let them introduce a problem, and adapt the instruction to their actual question."
+    }
+  ],
+  "reading": "—Necesito llegar al centro de salud. ¿Me puede explicar el camino?\n—Claro. Siga esta calle y cruce en el semáforo. No cruce antes: hay mucho tráfico. Después gire a la derecha.\n—¿Está junto al mercado?\n—Sí. Lleve su documento, pero no me lo dé a mí; muéstrelo en recepción.\n—Gracias. ¿Puede repetir el último paso?\nLa explicación usa usted. Reescribe tres instrucciones para un amigo tratado de tú, conservando la información y el cuidado práctico. No conviertas este diálogo de orientación en asesoramiento médico.",
+  "worked": [
+    {
+      "prompt": "Give the affirmative tú command of hablar.",
+      "answer": "habla",
+      "reason": "Regular affirmative tú uses the third-person present form."
+    },
+    {
+      "prompt": "Give the negative tú command of hablar, including no.",
+      "answer": "no hables",
+      "reason": "Negative tú uses the opposite-vowel subjunctive-family form."
+    },
+    {
+      "prompt": "Give the usted command of tener.",
+      "answer": "tenga",
+      "reason": "The irregular yo stem teng- supplies the command form."
+    },
+    {
+      "prompt": "Attach me + lo to the affirmative tú command da.",
+      "answer": "dámelo",
+      "reason": "Affirmative commands attach the pair and retain stress with an accent."
+    },
+    {
+      "prompt": "Complete: No ___ lo des. (to me)",
+      "answer": "me",
+      "reason": "Negative commands place the pronouns before the verb."
+    },
+    {
+      "prompt": "Give the affirmative tú command meaning be.",
+      "answer": "sé",
+      "reason": "The command sé requires an accent and differs from the pronoun se."
+    }
+  ],
+  "cards": [
+    {
+      "id": "c2-u10-f01",
+      "unit": "c2-u10",
+      "kind": "production",
+      "front": "Speak more slowly (tú)",
+      "back": "Habla más despacio",
+      "example": "Habla más despacio"
+    },
+    {
+      "id": "c2-u10-f02",
+      "unit": "c2-u10",
+      "kind": "recognition",
+      "front": "No hables tan rápido",
+      "back": "Do not speak so quickly (tú)",
+      "example": "No hables tan rápido"
+    },
+    {
+      "id": "c2-u10-f03",
+      "unit": "c2-u10",
+      "kind": "production",
+      "front": "Be careful (usted)",
+      "back": "Tenga cuidado",
+      "example": "Tenga cuidado"
+    },
+    {
+      "id": "c2-u10-f04",
+      "unit": "c2-u10",
+      "kind": "recognition",
+      "front": "Dámelo, por favor",
+      "back": "Give it to me, please (tú)",
+      "example": "Dámelo, por favor"
+    },
+    {
+      "id": "c2-u10-f05",
+      "unit": "c2-u10",
+      "kind": "production",
+      "front": "Do not give it to me yet",
+      "back": "No me lo des todavía",
+      "example": "No me lo des todavía"
+    },
+    {
+      "id": "c2-u10-f06",
+      "unit": "c2-u10",
+      "kind": "recognition",
+      "front": "Sé paciente",
+      "back": "Be patient (tú)",
+      "example": "Sé paciente"
+    },
+    {
+      "id": "c2-u10-f07",
+      "unit": "c2-u10",
+      "kind": "production",
+      "front": "Follow this street (usted)",
+      "back": "Siga esta calle",
+      "example": "Siga esta calle"
+    },
+    {
+      "id": "c2-u10-f08",
+      "unit": "c2-u10",
+      "kind": "recognition",
+      "front": "Cruce en el semáforo",
+      "back": "Cross at the traffic light (usted)",
+      "example": "Cruce en el semáforo"
+    },
+    {
+      "id": "c2-u10-f09",
+      "unit": "c2-u10",
+      "kind": "production",
+      "front": "Turn right (usted)",
+      "back": "Gire a la derecha",
+      "example": "Gire a la derecha"
+    },
+    {
+      "id": "c2-u10-f10",
+      "unit": "c2-u10",
+      "kind": "recognition",
+      "front": "Lleve su documento",
+      "back": "Bring your document (usted)",
+      "example": "Lleve su documento"
+    },
+    {
+      "id": "c2-u10-f11",
+      "unit": "c2-u10",
+      "kind": "production",
+      "front": "Show it at reception (usted)",
+      "back": "Muéstrelo en recepción",
+      "example": "Muéstrelo en recepción"
+    },
+    {
+      "id": "c2-u10-f12",
+      "unit": "c2-u10",
+      "kind": "recognition",
+      "front": "Descansa un poco",
+      "back": "Rest a little (tú)",
+      "example": "Descansa un poco"
+    },
+    {
+      "id": "c2-u10-f13",
+      "unit": "c2-u10",
+      "kind": "production",
+      "front": "Come here, please (tú)",
+      "back": "Ven aquí, por favor",
+      "example": "Ven aquí, por favor"
+    },
+    {
+      "id": "c2-u10-f14",
+      "unit": "c2-u10",
+      "kind": "recognition",
+      "front": "Haz una pausa",
+      "back": "Take a break (tú)",
+      "example": "Haz una pausa"
+    },
+    {
+      "id": "c2-u10-f15",
+      "unit": "c2-u10",
+      "kind": "production",
+      "front": "Can you repeat the last step?",
+      "back": "¿Puede repetir el último paso?",
+      "example": "¿Puede repetir el último paso?"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c2-u10-q01",
+      "type": "typed",
+      "prompt": "Give the affirmative tú command of hablar.",
+      "answers": [
+        "habla"
+      ],
+      "explanation": "Regular affirmative tú uses the third-person present form.",
+      "concept": "Affirmative commands and address"
+    },
+    {
+      "id": "c2-u10-q02",
+      "type": "typed",
+      "prompt": "Give the negative tú command of hablar, including no.",
+      "answers": [
+        "no hables"
+      ],
+      "explanation": "Negative tú uses the opposite-vowel subjunctive-family form.",
+      "concept": "Affirmative commands and address"
+    },
+    {
+      "id": "c2-u10-q03",
+      "type": "typed",
+      "prompt": "Give the usted command of tener.",
+      "answers": [
+        "tenga"
+      ],
+      "explanation": "The irregular yo stem teng- supplies the command form.",
+      "concept": "Affirmative commands and address"
+    },
+    {
+      "id": "c2-u10-q04",
+      "type": "typed",
+      "prompt": "Attach me + lo to the affirmative tú command da.",
+      "answers": [
+        "dámelo"
+      ],
+      "explanation": "Affirmative commands attach the pair and retain stress with an accent.",
+      "concept": "Pronouns and politeness"
+    },
+    {
+      "id": "c2-u10-q05",
+      "type": "cloze",
+      "prompt": "Complete: No ___ lo des. (to me)",
+      "answers": [
+        "me"
+      ],
+      "explanation": "Negative commands place the pronouns before the verb.",
+      "concept": "Pronouns and politeness"
+    },
+    {
+      "id": "c2-u10-q06",
+      "type": "typed",
+      "prompt": "Give the affirmative tú command meaning be.",
+      "answers": [
+        "sé"
+      ],
+      "explanation": "The command sé requires an accent and differs from the pronoun se.",
+      "concept": "Pronouns and politeness"
+    },
+    {
+      "id": "c2-u10-q07",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: Speak more slowly (tú).",
+      "options": [
+        "Gire a la derecha",
+        "Ven aquí, por favor",
+        "Habla más despacio"
+      ],
+      "answers": [
+        "Habla más despacio"
+      ],
+      "explanation": "“Habla más despacio” expresses “Speak more slowly (tú)”. “Gire a la derecha” instead means “Turn right (usted)”. “Ven aquí, por favor” instead means “Come here, please (tú)”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c2-u10-q08",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: Do not speak so quickly (tú).",
+      "options": [
+        "Haz una pausa",
+        "No hables tan rápido",
+        "Lleve su documento"
+      ],
+      "answers": [
+        "No hables tan rápido"
+      ],
+      "explanation": "“No hables tan rápido” expresses “Do not speak so quickly (tú)”. “Haz una pausa” instead means “Take a break (tú)”. “Lleve su documento” instead means “Bring your document (usted)”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c2-u10-q09",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: Be careful (usted).",
+      "options": [
+        "Tenga cuidado",
+        "Muéstrelo en recepción",
+        "¿Puede repetir el último paso?"
+      ],
+      "answers": [
+        "Tenga cuidado"
+      ],
+      "explanation": "“Tenga cuidado” expresses “Be careful (usted)”. “Muéstrelo en recepción” instead means “Show it at reception (usted)”. “¿Puede repetir el último paso?” instead means “Can you repeat the last step?”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c2-u10-q10",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: Give it to me, please (tú).",
+      "options": [
+        "Descansa un poco",
+        "Habla más despacio",
+        "Dámelo, por favor"
+      ],
+      "answers": [
+        "Dámelo, por favor"
+      ],
+      "explanation": "“Dámelo, por favor” expresses “Give it to me, please (tú)”. “Descansa un poco” instead means “Rest a little (tú)”. “Habla más despacio” instead means “Speak more slowly (tú)”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c2-u10-q11",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: Do not give it to me yet.",
+      "options": [
+        "No hables tan rápido",
+        "No me lo des todavía",
+        "Ven aquí, por favor"
+      ],
+      "answers": [
+        "No me lo des todavía"
+      ],
+      "explanation": "“No me lo des todavía” expresses “Do not give it to me yet”. “No hables tan rápido” instead means “Do not speak so quickly (tú)”. “Ven aquí, por favor” instead means “Come here, please (tú)”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c2-u10-q12",
+      "type": "matching",
+      "prompt": "Match each English meaning to its Spanish expression. Use each expression once.",
+      "answers": [
+        "[\"No me lo des todavía\",\"Siga esta calle\",\"Gire a la derecha\"]"
+      ],
+      "explanation": "“No me lo des todavía” means “Do not give it to me yet”. “Siga esta calle” means “Follow this street (usted)”. “Gire a la derecha” means “Turn right (usted)”. Each alternative belongs to a different meaning; check the whole phrase, including its grammatical person and register.",
+      "concept": "Meaning and register",
+      "pairs": [
+        {
+          "left": "Do not give it to me yet",
+          "right": "No me lo des todavía"
+        },
+        {
+          "left": "Follow this street (usted)",
+          "right": "Siga esta calle"
+        },
+        {
+          "left": "Turn right (usted)",
+          "right": "Gire a la derecha"
+        }
+      ]
+    }
+  ],
+  "homework": [
+    {
+      "id": "c2-u10-h1",
+      "skill": "Reading & writing",
+      "prompt": "Read the original text for this unit. Identify its situation, central message, and three supporting details. Then write a new version of 100–140 words for a different person or audience. Use the target patterns, change at least three facts, and explain two revisions.",
+      "model": "—Necesito llegar al centro de salud. ¿Me puede explicar el camino?\n—Claro. Siga esta calle y cruce en el semáforo. No cruce antes: hay mucho tráfico. Después gire a la derecha.\n—¿Está junto al mercado?\n—Sí. Lleve su documento, pero no me lo dé a mí; muéstrelo en recepción.\n—Gracias. ¿Puede repetir el último paso?\nLa explicación usa usted. Reescribe tres instrucciones para un amigo tratado de tú, conservando la información y el cuidado práctico. No conviertas este diálogo de orientación en asesoramiento médico.\n\nThis is the source model, not a text to submit unchanged. A successful adaptation retains the communicative purpose while changing relevant forms and facts. Compare with the worked examples for the reasons behind form choices.",
+      "rubric": "0–3 each: fulfills the specified purpose; organized and comprehensible; target forms support meaning; revisions are explained with examples. 0 = no evidence, 1 = substantial help needed, 2 = effective with some support, 3 = independently effective for this task. Record who evaluated the work."
+    },
+    {
+      "id": "c2-u10-h2",
+      "skill": "Listening",
+      "prompt": "Complete the resource assignment, or ask a willing reader to read the original text without showing it to you. First listen for the situation and purpose; listen again for three details and one contrast. Write a 60–100-word listening log naming the source, words actually heard, one uncertainty, and how you checked it. If using local synthesized speech, label it synthetic. Text-only preparation is not completed listening.",
+      "model": "A useful log separates the speaker’s message from your interpretation: “I heard [specific phrase]; I understood [claim]; I was uncertain about [word/relationship]; checking [text or partner] changed my interpretation to [correction].” Use the unit reading as an answer reference for a read-aloud version, never as evidence of an external speaker’s words.",
+      "rubric": "0–2 each: identifies source and listening conditions; retrieves central meaning; supports three details; checks a specific uncertainty. Do not count a copied transcript as independent comprehension."
+    },
+    {
+      "id": "c2-u10-h3",
+      "skill": "Speaking & interaction",
+      "prompt": "Give a partner a five-step practical procedure. Include one prohibition, explain its reason, and check understanding. Then adapt the instructions for usted.",
+      "model": "Use the original reading/dialogue and the sentence-pattern cards as preparation. Make a brief outline, then put it away. Your partner should introduce a detail you did not prepare. Respond, request clarification if needed, and summarize what you agreed or still disagree about. Solo fallback: record two possible viewpoints and improvise a response after a pause; label it rehearsal.",
+      "rubric": "0–3 each: task fulfillment, comprehensibility, control of target language, responsiveness to another speaker. A partner or instructor should cite one example per score. Solo rehearsal provides no evidence for live responsiveness; mark that dimension not observed."
+    },
+    {
+      "id": "c2-u10-h4",
+      "skill": "Retrieval & reflection",
+      "prompt": "On a later day, retrieve six cards without looking. Use three in a fresh response to the practical task. Identify one recurring form error and one communication difficulty. Produce a corrected example, explain the reason, and schedule a specific follow-up exchange or listening session.",
+      "model": "Compare your response with these two models: Habla más despacio / No hables tan rápido. A useful reflection explains the function, not just the spelling. Revisit the first worked item and create a different example of its principle.",
+      "rubric": "Report recall count separately from performance. Reflection is complete when it contains an observed difficulty, an explained correction, a fresh example, and an actionable next session."
+    }
+  ],
+  "task": "Give a partner a five-step practical procedure. Include one prohibition, explain its reason, and check understanding. Then adapt the instructions for usted.",
+  "culture": "Directness is shaped by relationship, setting and local convention. A grammatically correct command can still be socially inappropriate. Observe how people request help in the actual community rather than equating a pronoun with politeness by itself.",
+  "selfAssessment": [
+    "I can form common affirmative and negative commands.",
+    "I can place object pronouns in instructions.",
+    "I can adapt advice to audience and relationship."
+  ],
+  "remediation": "Sort mistakes by form, meaning, and interaction. For form errors, explain a worked example and create a contrasting pair. For comprehension errors, replay a short segment or use a willing reader and verify your interpretation. For interaction difficulties, repeat the practical task with one new constraint. Compare evidence across days; repeated selection of a known answer alone is not mastery.",
+  "resources": [
+    "sd-commands"
+  ]
+}

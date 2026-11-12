@@ -1,38 +1,44 @@
 # Content and verification report
 
-Review date: 2026-11-11. This report describes an engineering self-review, **not** qualified Spanish-educator validation. No independent educator review has occurred.
+Review date: 2026-11-12. This is an engineering and editorial self-review, **not qualified Spanish-educator validation**. No independent educator review has occurred.
 
-## Actual inventory
+## Inventory
 
-- 60 sequential syllabus entries across five courses.
-- 12 authored Spanish I drafts; 48 later-course entries are planned and disabled in the course map.
-- 36 original mini-lectures (about 3,549 words), 12 original readings/dialogues, 73 worked examples, 183 flashcards, 147 unit quiz items and 48 homework activities.
-- Spanish I entry check (6 questions), cumulative midterm (18), and cumulative final (24), drawn transparently from tested unit banks; practical speaking/writing tasks and an analytic rubric are included. New assessment forms and independent answer-key review remain necessary.
-- Unit 1 receives the most detailed treatment. Units 2–12 need further pedagogical editing, more individualized media assignments, and greater variety beyond controlled form and phrase-selection questions.
-- Printable HTML/Markdown guides and unit CSVs are generated from the same source. Answer explanations are present; automatic acceptance tests do not prove linguistic correctness.
+- Five sequential courses; all 60 units have authored content and enabled lessons.
+- 148 original mini-lectures (about 15,042 words), 60 original readings/dialogues, 361 worked examples, 903 phrase/sentence cards, 735 unit quiz questions, and 240 homework activities.
+- Every unit has 3–5 objectives, prerequisites/retrieval, 2–4 lectures, reading, resources, worked examples, 15–25 cards, 12–20 quiz questions, four homework activities, a practical task, cultural/regional notes and remediation.
+- All five courses have entry checks, cumulative midterms/finals, performance tasks and transparent rubrics: 15 assessments total. They reference the published question bank; repeated success on known items is not independent proficiency evidence.
+- All 60 unit guides, 15 assessment guides, five combined course books and CSVs are generated from the same bundled content. Standalone HTML guides can be printed to PDF.
+- Forty-seven resource records distinguish successful retrieval, restrictions and unknown playback/caption status. Advanced assignments use precise selection criteria for changing authentic-media collections. No third-party text or media is copied into lessons.
 
-## Verified in this workspace
+## Editorial changes
 
-- Production React/TypeScript build.
-- 17 frontend tests, including every authored answer and every supplied distractor, normalization/accents, CSV roundtrip, schedule bounds, and invalid-backup rejection.
-- 6 Rust core tests: rating schedule, interval/ease bounds, accent handling, migrations/atomic invalid-restore rejection, persistence after reopening SQLite, and content-completeness checks.
-- 7 Chromium end-to-end tests: offline lessons/quizzes/homework/reviews and reload; mobile layout and planned-course status; malformed restore preservation; valid restore with retired IDs retained and assessment attempts distinct; CSV import/collision prevention; simulated microphone capture and reopen; automated accessibility across five core screens.
-- Axe WCAG A/AA checks found no automatic violations on the tested screens after contrast corrections. This does not substitute for manual screen-reader or disability-user testing.
-- Resource page retrieval checks. All resources assigned to authored units have successful HTTP retrieval evidence. YouTube playlist access was restricted here. Caption and video/audio playback availability are explicitly not verified. See research/resource-checks.json, content/resources.json, and the refresh script.
+The expansion includes object/reference clarity, personal a, prepositional pronouns, command/subjunctive bridges, participles, regional perfect-tense distribution, si-clause timelines, reported perspective, source synthesis, register, negotiation, literary interpretation and transfer of recurring-error repairs. Sixteen additional teaching passages explain particularly error-prone relationships in detail. Original fictional cases are identified as such; their numbers are not represented as research findings.
 
-## Platform status
+Answer keys accept specified legitimate alternatives, including relative constructions and common lexical variants. Ambiguous prompts were narrowed where useful. Automatic key tests prove agreement with the authored key, not that every possible natural-language response has been enumerated. Open communication tasks use human rubrics rather than pretending to offer semantic or fluency grading.
 
-- Linux host: Debian 13 x86_64, Node 24.22.1, workspace Rust 1.99.1. Host native compilation initially blocked by missing GTK/WebKit/GLib development packages and unavailable sudo/package helper.
-- Linux container: release compilation and a 5.21 MiB Debian package succeeded. Installed with dpkg on Debian 13 x86_64, launched as an unprivileged user with networking disabled, visually checked the packaged WebKitGTK interface, verified SQLite migration/native IPC persistence, typed homework by keyboard, closed/reopened, and recovered the writing. No application sandbox was disabled. See research/native/verification.json and screenshots. This is a limited native smoke test, not full platform certification.
-- macOS and Windows: packaging configuration and manual GitHub Actions matrix only. Not compiled, installed or tested here. No signing/notarization configured.
-- Browser microphone test uses generated test audio. It proves local capture/persistence wiring, not physical-device sound quality or desktop OS permission behavior.
+Original Spanish I activity IDs retain their meanings; new multi-pair activities have new IDs. Later-course entries were authored course by course, then checked for prerequisites, resource associations and cumulative assessment coverage.
 
-## Known limitations and release decision
+## Engineering verification
 
-Not production-ready for the requested complete course. Courses II–V must be authored and reviewed; student-facing educational completeness cannot be inferred from code tests. Native installation/upgrade tests, deep Rust-side backup validation, platform microphone/export checks, full human accessibility review, and qualified educator review remain release gates. No pronunciation, fluency, CEFR certification, college credit or accreditation claim is made.
+- Production React/TypeScript build and complete-content validator pass.
+- 65 frontend unit tests exercise scheduling, Unicode/accent distinctions, CSV roundtrip, backup rejection and all authored answer keys/distractors.
+- 7 Rust tests exercise scheduling bounds, grading normalization, full schema validation across all units, SQLite migrations, rejected restore atomicity, reopening persistence, and content updates preserving retired IDs.
+- Chromium E2E covers offline beginner/advanced learning, mobile navigation, valid and invalid backups, assessment separation, CSV collision rejection, simulated microphone persistence, search, complete matching, filtered reviews and printable export.
+- Automated WCAG A/AA checks pass on nine core screens. This does not substitute for manual assistive-technology testing.
 
-Existing GPL-3.0 is preserved. Proposed separate CC BY-SA 4.0 educational-content licensing needs owner confirmation before a public release. Third-party works are linked only. Pushing source to the user-requested main branch does not mark an end-user release.
+## Platforms and media
 
-## CI and locally prepared artifacts
+The 7.79 MiB Linux installer was installed over 0.1.0 with an existing version-1 database. Migration to version 2 preserved homework and registered all 60 content revisions. Native keyboard writing, reopening, the Save dialog and exported backup, one-day flashcard scheduling through Rust IPC, and microphone-consent cancellation passed. Physical audio capture remains unverified.
 
-Main-branch verification passed: https://github.com/garrettmichae1/spanish321/actions/runs/43122477013 . Local release assets include the Debian preview package, SHA-256 checksum, printable course/unit/assessment guides, and CSV flashcards. These are preview artifacts, not a published or signed public binary release.
+Native Linux verification and package checksums are recorded in `research/native/verification.json`. Tests use an unprivileged learner in a network-disabled Debian 13 x86_64 container with Xvfb and WebKitGTK. They are distinct from browser tests. Host native compilation lacked GTK/WebKit development packages; the container supplies the official prerequisites without disabling certificate or application sandbox checks.
+
+macOS and Windows have installer build jobs; build results and functional installation tests must be reported separately. No signing/notarization is configured. Browser recording tests use generated test audio; they do not establish physical-device audio quality. Native permission prompts and synthetic-device behavior are likewise distinct from a physical microphone test.
+
+Resource checks are in `research/resource-checks.json` and `research/expansion-resource-checks.json`. HTTP success and title inspection do not establish playback. The restricted YouTube playlist and unverified captions are labeled. External media requires internet; original written learning remains offline.
+
+## Remaining validation
+
+Qualified educator review, observed student sessions, manual screen-reader testing, physical microphone checks, and macOS/Windows installation/upgrade testing remain outstanding. Do not present the course as professionally validated or the entire media experience as offline. The independent-study materials and engineering results are provided with these limits visible.
+
+The existing GPL-3.0 license remains. Separate CC BY-SA 4.0 educational-content licensing is proposed pending confirmation. Source pushes to the requested main branch are authorized; no public binary release is created. Local installers, study packs, checksums and dependency metadata are prepared for review.

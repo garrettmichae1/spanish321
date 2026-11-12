@@ -1,0 +1,384 @@
+{
+  "id": "c5-u09",
+  "course": 5,
+  "number": 9,
+  "title": "Workplace collaboration",
+  "subtitle": "Collaborate across constraints",
+  "status": "authored",
+  "prerequisites": [
+    "c5-u08"
+  ],
+  "objectives": [
+    "Conduct a professional interview with relevant follow-ups.",
+    "Negotiate responsibilities, deadlines and fallback plans.",
+    "Record agreements without turning tentative language into promises."
+  ],
+  "warmup": "Retrieve two sentences and one repair strategy from c5-u08. Change the subject or situation in each sentence and explain what changed. Then read today’s objectives and predict where your existing language may be insufficient.",
+  "lectures": [
+    {
+      "title": "Entrevistar para comprender la tarea",
+      "body": "En una entrevista profesional, prepara preguntas sobre objetivos, responsabilidades, criterios y recursos. Pide ejemplos de problemas reales y de cómo se evalúa el trabajo. No conviertas cada respuesta en una oportunidad para repetir tu presentación personal. Una buena pregunta de seguimiento muestra que escuchaste: Cuando dice “revisar”, ¿incluye comprobar los datos o solo el estilo? Si no puedes compartir información confidencial, utiliza un ejemplo general o ficticio y dilo. Precisa qué experiencia tienes y qué tendrías que aprender; exagerar capacidad lingüística o técnica puede perjudicar la colaboración."
+    },
+    {
+      "title": "Acuerdos que resisten la memoria",
+      "body": "Después de negociar, registra quién hará qué, para cuándo, con qué criterio y qué ocurre si falta un recurso. “Intentaré enviarlo” no equivale a “lo enviaré el jueves”. Si una entrega depende de otra persona, nombra la dependencia sin trasladarle toda la culpa. Una minuta breve puede incluir acuerdos, pendientes y responsables de verificar. Pide confirmación antes de tratarla como definitiva. En el intercambio oral, practica ceder en una preferencia y mantener un límite importante; colaborar no significa aceptar toda demanda ni ganar cada punto."
+    }
+  ],
+  "reading": "Una responsable de proyecto pregunta a Nora si puede revisar un informe antes del viernes. Nora responde que puede revisar la coherencia y el lenguaje, pero necesita que otra persona confirme los datos financieros. La responsable aclara que eso ya está asignado. Luego pregunta si Nora puede entregar el jueves. Nora explica que ese plazo dependería de recibir la versión completa el martes; si llega después, propone entregar comentarios prioritarios y completar la revisión el viernes. Al final redactan una minuta con la tarea, la dependencia, el plazo y la alternativa. La conversación no concluye con una vaga promesa de “hacer lo posible”, sino con un acuerdo verificable. Identifica qué límite mantiene Nora, qué concesión ofrece y qué condición debe confirmar la otra persona.",
+  "worked": [
+    {
+      "prompt": "Complete: ¿La revisión ___ comprobar los datos? (include, present singular)",
+      "answer": "incluye",
+      "reason": "The follow-up clarifies the scope of the requested task."
+    },
+    {
+      "prompt": "Does “Intentaré enviarlo” equal an unconditional promise to deliver Thursday? Write sí or no.",
+      "answer": "no",
+      "reason": "Intentaré expresses an attempt, which is weaker than a definite delivery commitment."
+    },
+    {
+      "prompt": "Complete: El plazo ___ de recibir la versión completa. (depend, conditional)",
+      "answer": "dependería",
+      "reason": "Conditional expresses the dependency in a proposed plan."
+    },
+    {
+      "prompt": "Complete: Necesito que otra persona ___ los datos. (confirmar)",
+      "answer": "confirme",
+      "reason": "The changed-subject need takes a subjunctive clause."
+    },
+    {
+      "prompt": "Complete: La minuta distingue acuerdos y ___. (pending matters)",
+      "answer": "pendientes",
+      "reason": "Separating pending matters prevents an unresolved point from appearing settled."
+    },
+    {
+      "prompt": "Complete: Si llega después, ___ comentarios prioritarios. (entregar, yo future)",
+      "answer": "entregaré",
+      "reason": "An open present-indicative condition can take a future result."
+    }
+  ],
+  "cards": [
+    {
+      "id": "c5-u09-f01",
+      "unit": "c5-u09",
+      "kind": "production",
+      "front": "Does the review include checking the data?",
+      "back": "¿La revisión incluye comprobar los datos?",
+      "example": "¿La revisión incluye comprobar los datos?"
+    },
+    {
+      "id": "c5-u09-f02",
+      "unit": "c5-u09",
+      "kind": "recognition",
+      "front": "Intentaré enviarlo",
+      "back": "I will try to send it",
+      "example": "Intentaré enviarlo"
+    },
+    {
+      "id": "c5-u09-f03",
+      "unit": "c5-u09",
+      "kind": "production",
+      "front": "The deadline would depend on receiving the full version",
+      "back": "El plazo dependería de recibir la versión completa",
+      "example": "El plazo dependería de recibir la versión completa"
+    },
+    {
+      "id": "c5-u09-f04",
+      "unit": "c5-u09",
+      "kind": "recognition",
+      "front": "Necesito que otra persona confirme los datos",
+      "back": "I need another person to confirm the data",
+      "example": "Necesito que otra persona confirme los datos"
+    },
+    {
+      "id": "c5-u09-f05",
+      "unit": "c5-u09",
+      "kind": "production",
+      "front": "The minutes distinguish agreements and pending matters",
+      "back": "La minuta distingue acuerdos y pendientes",
+      "example": "La minuta distingue acuerdos y pendientes"
+    },
+    {
+      "id": "c5-u09-f06",
+      "unit": "c5-u09",
+      "kind": "recognition",
+      "front": "Entregaré comentarios prioritarios",
+      "back": "I will deliver priority comments",
+      "example": "Entregaré comentarios prioritarios"
+    },
+    {
+      "id": "c5-u09-f07",
+      "unit": "c5-u09",
+      "kind": "production",
+      "front": "That point is outside my experience",
+      "back": "Ese punto está fuera de mi experiencia",
+      "example": "Ese punto está fuera de mi experiencia"
+    },
+    {
+      "id": "c5-u09-f08",
+      "unit": "c5-u09",
+      "kind": "recognition",
+      "front": "Puedo aportar un ejemplo ficticio",
+      "back": "I can provide a fictional example",
+      "example": "Puedo aportar un ejemplo ficticio"
+    },
+    {
+      "id": "c5-u09-f09",
+      "unit": "c5-u09",
+      "kind": "production",
+      "front": "I cannot share confidential details",
+      "back": "No puedo compartir detalles confidenciales",
+      "example": "No puedo compartir detalles confidenciales"
+    },
+    {
+      "id": "c5-u09-f10",
+      "unit": "c5-u09",
+      "kind": "recognition",
+      "front": "Mantengo ese límite",
+      "back": "I maintain that limit",
+      "example": "Mantengo ese límite"
+    },
+    {
+      "id": "c5-u09-f11",
+      "unit": "c5-u09",
+      "kind": "production",
+      "front": "I can be flexible about the meeting date",
+      "back": "Puedo ceder en la fecha de la reunión",
+      "example": "Puedo ceder en la fecha de la reunión"
+    },
+    {
+      "id": "c5-u09-f12",
+      "unit": "c5-u09",
+      "kind": "recognition",
+      "front": "¿Quién verificará la condición?",
+      "back": "Who will verify the condition?",
+      "example": "¿Quién verificará la condición?"
+    },
+    {
+      "id": "c5-u09-f13",
+      "unit": "c5-u09",
+      "kind": "production",
+      "front": "Let us confirm the task scope",
+      "back": "Confirmemos el alcance de la tarea",
+      "example": "Confirmemos el alcance de la tarea"
+    },
+    {
+      "id": "c5-u09-f14",
+      "unit": "c5-u09",
+      "kind": "recognition",
+      "front": "La alternativa sería…",
+      "back": "The alternative would be…",
+      "example": "La alternativa sería entregar comentarios prioritarios el viernes."
+    },
+    {
+      "id": "c5-u09-f15",
+      "unit": "c5-u09",
+      "kind": "production",
+      "front": "Does this reflect what was agreed?",
+      "back": "¿Refleja esto lo acordado?",
+      "example": "¿Refleja esto lo acordado?"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c5-u09-q01",
+      "type": "cloze",
+      "prompt": "Complete: ¿La revisión ___ comprobar los datos? (include, present singular)",
+      "answers": [
+        "incluye"
+      ],
+      "explanation": "The follow-up clarifies the scope of the requested task.",
+      "concept": "Entrevistar para comprender la tarea"
+    },
+    {
+      "id": "c5-u09-q02",
+      "type": "typed",
+      "prompt": "Does “Intentaré enviarlo” equal an unconditional promise to deliver Thursday? Write sí or no.",
+      "answers": [
+        "no"
+      ],
+      "explanation": "Intentaré expresses an attempt, which is weaker than a definite delivery commitment.",
+      "concept": "Entrevistar para comprender la tarea"
+    },
+    {
+      "id": "c5-u09-q03",
+      "type": "cloze",
+      "prompt": "Complete: El plazo ___ de recibir la versión completa. (depend, conditional)",
+      "answers": [
+        "dependería"
+      ],
+      "explanation": "Conditional expresses the dependency in a proposed plan.",
+      "concept": "Entrevistar para comprender la tarea"
+    },
+    {
+      "id": "c5-u09-q04",
+      "type": "cloze",
+      "prompt": "Complete: Necesito que otra persona ___ los datos. (confirmar)",
+      "answers": [
+        "confirme"
+      ],
+      "explanation": "The changed-subject need takes a subjunctive clause.",
+      "concept": "Acuerdos que resisten la memoria"
+    },
+    {
+      "id": "c5-u09-q05",
+      "type": "cloze",
+      "prompt": "Complete: La minuta distingue acuerdos y ___. (pending matters)",
+      "answers": [
+        "pendientes"
+      ],
+      "explanation": "Separating pending matters prevents an unresolved point from appearing settled.",
+      "concept": "Acuerdos que resisten la memoria"
+    },
+    {
+      "id": "c5-u09-q06",
+      "type": "cloze",
+      "prompt": "Complete: Si llega después, ___ comentarios prioritarios. (entregar, yo future)",
+      "answers": [
+        "entregaré"
+      ],
+      "explanation": "An open present-indicative condition can take a future result.",
+      "concept": "Acuerdos que resisten la memoria"
+    },
+    {
+      "id": "c5-u09-q07",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: Does the review include checking the data?.",
+      "options": [
+        "No puedo compartir detalles confidenciales",
+        "Confirmemos el alcance de la tarea",
+        "¿La revisión incluye comprobar los datos?"
+      ],
+      "answers": [
+        "¿La revisión incluye comprobar los datos?"
+      ],
+      "explanation": "“¿La revisión incluye comprobar los datos?” expresses “Does the review include checking the data?”. “No puedo compartir detalles confidenciales” instead means “I cannot share confidential details”. “Confirmemos el alcance de la tarea” instead means “Let us confirm the task scope”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c5-u09-q08",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: I will try to send it.",
+      "options": [
+        "La alternativa sería…",
+        "Intentaré enviarlo",
+        "Mantengo ese límite"
+      ],
+      "answers": [
+        "Intentaré enviarlo"
+      ],
+      "explanation": "“Intentaré enviarlo” expresses “I will try to send it”. “La alternativa sería…” instead means “The alternative would be…”. “Mantengo ese límite” instead means “I maintain that limit”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c5-u09-q09",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: The deadline would depend on receiving the full version.",
+      "options": [
+        "El plazo dependería de recibir la versión completa",
+        "Puedo ceder en la fecha de la reunión",
+        "¿Refleja esto lo acordado?"
+      ],
+      "answers": [
+        "El plazo dependería de recibir la versión completa"
+      ],
+      "explanation": "“El plazo dependería de recibir la versión completa” expresses “The deadline would depend on receiving the full version”. “Puedo ceder en la fecha de la reunión” instead means “I can be flexible about the meeting date”. “¿Refleja esto lo acordado?” instead means “Does this reflect what was agreed?”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c5-u09-q10",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: I need another person to confirm the data.",
+      "options": [
+        "¿Quién verificará la condición?",
+        "¿La revisión incluye comprobar los datos?",
+        "Necesito que otra persona confirme los datos"
+      ],
+      "answers": [
+        "Necesito que otra persona confirme los datos"
+      ],
+      "explanation": "“Necesito que otra persona confirme los datos” expresses “I need another person to confirm the data”. “¿Quién verificará la condición?” instead means “Who will verify the condition?”. “¿La revisión incluye comprobar los datos?” instead means “Does the review include checking the data?”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c5-u09-q11",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: The minutes distinguish agreements and pending matters.",
+      "options": [
+        "Intentaré enviarlo",
+        "La minuta distingue acuerdos y pendientes",
+        "Confirmemos el alcance de la tarea"
+      ],
+      "answers": [
+        "La minuta distingue acuerdos y pendientes"
+      ],
+      "explanation": "“La minuta distingue acuerdos y pendientes” expresses “The minutes distinguish agreements and pending matters”. “Intentaré enviarlo” instead means “I will try to send it”. “Confirmemos el alcance de la tarea” instead means “Let us confirm the task scope”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c5-u09-q12",
+      "type": "matching",
+      "prompt": "Match each English meaning to its Spanish expression. Use each expression once.",
+      "answers": [
+        "[\"La minuta distingue acuerdos y pendientes\",\"Ese punto está fuera de mi experiencia\",\"No puedo compartir detalles confidenciales\"]"
+      ],
+      "explanation": "“La minuta distingue acuerdos y pendientes” means “The minutes distinguish agreements and pending matters”. “Ese punto está fuera de mi experiencia” means “That point is outside my experience”. “No puedo compartir detalles confidenciales” means “I cannot share confidential details”. Each alternative belongs to a different meaning; check the whole phrase, including its grammatical person and register.",
+      "concept": "Meaning and register",
+      "pairs": [
+        {
+          "left": "The minutes distinguish agreements and pending matters",
+          "right": "La minuta distingue acuerdos y pendientes"
+        },
+        {
+          "left": "That point is outside my experience",
+          "right": "Ese punto está fuera de mi experiencia"
+        },
+        {
+          "left": "I cannot share confidential details",
+          "right": "No puedo compartir detalles confidenciales"
+        }
+      ]
+    }
+  ],
+  "homework": [
+    {
+      "id": "c5-u09-h1",
+      "skill": "Reading & writing",
+      "prompt": "Read the original text for this unit. Identify its situation, central message, and three supporting details. Then write a new version of 300–400 words for a different person or audience. Use the target patterns, change at least three facts, and explain two revisions.",
+      "model": "Una responsable de proyecto pregunta a Nora si puede revisar un informe antes del viernes. Nora responde que puede revisar la coherencia y el lenguaje, pero necesita que otra persona confirme los datos financieros. La responsable aclara que eso ya está asignado. Luego pregunta si Nora puede entregar el jueves. Nora explica que ese plazo dependería de recibir la versión completa el martes; si llega después, propone entregar comentarios prioritarios y completar la revisión el viernes. Al final redactan una minuta con la tarea, la dependencia, el plazo y la alternativa. La conversación no concluye con una vaga promesa de “hacer lo posible”, sino con un acuerdo verificable. Identifica qué límite mantiene Nora, qué concesión ofrece y qué condición debe confirmar la otra persona.\n\nThis is the source model, not a text to submit unchanged. A successful adaptation retains the communicative purpose while changing relevant forms and facts. Compare with the worked examples for the reasons behind form choices.",
+      "rubric": "0–3 each: fulfills the specified purpose; organized and comprehensible; target forms support meaning; revisions are explained with examples. 0 = no evidence, 1 = substantial help needed, 2 = effective with some support, 3 = independently effective for this task. Record who evaluated the work."
+    },
+    {
+      "id": "c5-u09-h2",
+      "skill": "Listening",
+      "prompt": "Complete the resource assignment, or ask a willing reader to read the original text without showing it to you. First listen for the situation and purpose; listen again for three details and one contrast. Write a 60–100-word listening log naming the source, words actually heard, one uncertainty, and how you checked it. If using local synthesized speech, label it synthetic. Text-only preparation is not completed listening.",
+      "model": "A useful log separates the speaker’s message from your interpretation: “I heard [specific phrase]; I understood [claim]; I was uncertain about [word/relationship]; checking [text or partner] changed my interpretation to [correction].” Use the unit reading as an answer reference for a read-aloud version, never as evidence of an external speaker’s words.",
+      "rubric": "0–2 each: identifies source and listening conditions; retrieves central meaning; supports three details; checks a specific uncertainty. Do not count a copied transcript as independent comprehension."
+    },
+    {
+      "id": "c5-u09-h3",
+      "skill": "Speaking & interaction",
+      "prompt": "Roleplay a project interview followed by a deadline negotiation. Ask three unprepared follow-ups, maintain one boundary, and produce a confirmed agreement with a fallback.",
+      "model": "Use the original reading/dialogue and the sentence-pattern cards as preparation. Make a brief outline, then put it away. Your partner should introduce a detail you did not prepare. Respond, request clarification if needed, and summarize what you agreed or still disagree about. Solo fallback: record two possible viewpoints and improvise a response after a pause; label it rehearsal.",
+      "rubric": "0–3 each: task fulfillment, comprehensibility, control of target language, responsiveness to another speaker. A partner or instructor should cite one example per score. Solo rehearsal provides no evidence for live responsiveness; mark that dimension not observed."
+    },
+    {
+      "id": "c5-u09-h4",
+      "skill": "Retrieval & reflection",
+      "prompt": "On a later day, retrieve six cards without looking. Use three in a fresh response to the practical task. Identify one recurring form error and one communication difficulty. Produce a corrected example, explain the reason, and schedule a specific follow-up exchange or listening session.",
+      "model": "Compare your response with these two models: ¿La revisión incluye comprobar los datos? / Intentaré enviarlo. A useful reflection explains the function, not just the spelling. Revisit the first worked item and create a different example of its principle.",
+      "rubric": "Report recall count separately from performance. Reflection is complete when it contains an observed difficulty, an explained correction, a fresh example, and an actionable next session."
+    }
+  ],
+  "task": "Roleplay a project interview followed by a deadline negotiation. Ask three unprepared follow-ups, maintain one boundary, and produce a confirmed agreement with a fallback.",
+  "culture": "Professional norms differ across fields and workplaces. Clarify whether a date is a preference, estimate or commitment instead of interpreting agreement solely from tone, politeness or hierarchy.",
+  "selfAssessment": [
+    "I can conduct a professional interview with relevant follow-ups.",
+    "I can negotiate responsibilities, deadlines and fallback plans.",
+    "I can record agreements without turning tentative language into promises."
+  ],
+  "remediation": "Sort mistakes by form, meaning, and interaction. For form errors, explain a worked example and create a contrasting pair. For comprehension errors, replay a short segment or use a willing reader and verify your interpretation. For interaction difficulties, repeat the practical task with one new constraint. Compare evidence across days; repeated selection of a known answer alone is not mastery.",
+  "resources": [
+    "fundea"
+  ]
+}

@@ -1,0 +1,384 @@
+{
+  "id": "c4-u08",
+  "course": 4,
+  "number": 8,
+  "title": "Register & professional writing",
+  "subtitle": "Professional, clear and human",
+  "status": "authored",
+  "prerequisites": [
+    "c4-u07"
+  ],
+  "objectives": [
+    "Adapt register to recipient, purpose and medium.",
+    "Write a concise professional request with a clear action.",
+    "Revise wording that obscures responsibility or tone."
+  ],
+  "warmup": "Retrieve two sentences and one repair strategy from c4-u07. Change the subject or situation in each sentence and explain what changed. Then read today’s objectives and predict where your existing language may be insufficient.",
+  "lectures": [
+    {
+      "title": "Register is more than usted",
+      "body": "Register involves vocabulary, sentence structure, address, conventions and the relationship between participants. A professional email may use tú in one organization and usted in another. Check established practice rather than assuming formality from geography alone. A useful message states the purpose early, supplies necessary context, specifies the requested action and closes appropriately. Estimada señora… and Atentamente may suit some contexts; Hola, Ana and Saludos may suit others. Avoid ornate phrases that delay the request. Politeness should not make the recipient guess what you need or by when."
+    },
+    {
+      "title": "Concrete requests and accountable language",
+      "body": "Compare Se solicita que se proceda a la revisión with ¿Podría revisar el documento antes del jueves? The second identifies an action and deadline more directly. A clear deadline should include a date or time zone when ambiguity matters. Distinguish a request from a confirmation and an apology from an excuse. If you made an error, name it and propose a repair: Envié una versión anterior; adjunto la actualizada. Before sending, check names, attachments, pronoun consistency and whether a reader unfamiliar with the conversation can act. Do not include private learner work in an external message without a deliberate sharing decision."
+    }
+  ],
+  "reading": "**Asunto: Confirmación del horario de la visita**\nEstimada coordinadora:\nGracias por recibir a nuestro grupo. Quisiera confirmar si la visita del jueves 18 comenzará a las 10:00, hora local. En el programa aparece esa hora, pero el mensaje anterior indica las 10:30. ¿Podría aclararnos cuál es la correcta y si necesitamos llevar algún documento? Compartiré la confirmación con las ocho personas inscritas.\nAdjunto el programa que recibimos para facilitar la revisión. Si otra persona gestiona este asunto, agradecería que me indicara con quién comunicarme.\nSaludos cordiales,\nNora\nEl mensaje identifica una discrepancia sin acusar a nadie. Señala la acción necesaria, aporta el contexto y explica qué hará la remitente después.",
+  "worked": [
+    {
+      "prompt": "Complete the subject line meaning confirmation: “___ del horario de la visita”.",
+      "answer": "Confirmación",
+      "reason": "A concrete subject line helps the recipient identify the action and topic."
+    },
+    {
+      "prompt": "Complete: ¿___ aclararnos cuál es la hora correcta? (poder, usted conditional)",
+      "answer": "Podría",
+      "reason": "The conditional forms a courteous request while preserving a clear action."
+    },
+    {
+      "prompt": "Complete: Adjunto la versión ___. (updated, feminine)",
+      "answer": "actualizada",
+      "reason": "The adjective agrees with feminine singular versión; actual means current, not necessarily actual in English."
+    },
+    {
+      "prompt": "Complete: Agradecería que me ___ con quién comunicarme. (indicar, usted ra form)",
+      "answer": "indicara",
+      "reason": "The conditional request commonly pairs with imperfect subjunctive in this courteous construction."
+    },
+    {
+      "prompt": "Does professional register always require usted? Write sí or no.",
+      "answer": "no",
+      "reason": "Institutional and interpersonal conventions vary; professional communication may appropriately use tú."
+    },
+    {
+      "prompt": "Complete: Envié una versión anterior; adjunto la ___. (current one)",
+      "answer": "actual",
+      "reason": "Actual means current in this context, an important false-cognate distinction."
+    }
+  ],
+  "cards": [
+    {
+      "id": "c4-u08-f01",
+      "unit": "c4-u08",
+      "kind": "production",
+      "front": "Confirmation of the visit schedule",
+      "back": "Confirmación del horario de la visita",
+      "example": "Confirmación del horario de la visita"
+    },
+    {
+      "id": "c4-u08-f02",
+      "unit": "c4-u08",
+      "kind": "recognition",
+      "front": "¿Podría aclararnos la hora?",
+      "back": "Could you clarify the time for us?",
+      "example": "¿Podría aclararnos la hora?"
+    },
+    {
+      "id": "c4-u08-f03",
+      "unit": "c4-u08",
+      "kind": "production",
+      "front": "I attach the updated version",
+      "back": "Adjunto la versión actualizada",
+      "example": "Adjunto la versión actualizada"
+    },
+    {
+      "id": "c4-u08-f04",
+      "unit": "c4-u08",
+      "kind": "recognition",
+      "front": "Agradecería que me indicara…",
+      "back": "I would appreciate it if you indicated…",
+      "example": "Agradecería que me indicara cuál es el plazo correcto."
+    },
+    {
+      "id": "c4-u08-f05",
+      "unit": "c4-u08",
+      "kind": "production",
+      "front": "Kind regards",
+      "back": "Saludos cordiales",
+      "example": "Saludos cordiales"
+    },
+    {
+      "id": "c4-u08-f06",
+      "unit": "c4-u08",
+      "kind": "recognition",
+      "front": "La versión actual",
+      "back": "The current version",
+      "example": "La versión actual incluye las correcciones acordadas."
+    },
+    {
+      "id": "c4-u08-f07",
+      "unit": "c4-u08",
+      "kind": "production",
+      "front": "I would like to confirm a detail",
+      "back": "Quisiera confirmar un detalle",
+      "example": "Quisiera confirmar un detalle"
+    },
+    {
+      "id": "c4-u08-f08",
+      "unit": "c4-u08",
+      "kind": "recognition",
+      "front": "En el mensaje anterior figura…",
+      "back": "The previous message states…",
+      "example": "En el mensaje anterior figura una fecha distinta."
+    },
+    {
+      "id": "c4-u08-f09",
+      "unit": "c4-u08",
+      "kind": "production",
+      "front": "To facilitate the review",
+      "back": "Para facilitar la revisión",
+      "example": "Para facilitar la revisión, señalo los cambios al final."
+    },
+    {
+      "id": "c4-u08-f10",
+      "unit": "c4-u08",
+      "kind": "recognition",
+      "front": "¿Con quién debo comunicarme?",
+      "back": "Whom should I contact?",
+      "example": "¿Con quién debo comunicarme?"
+    },
+    {
+      "id": "c4-u08-f11",
+      "unit": "c4-u08",
+      "kind": "production",
+      "front": "Before Thursday at ten",
+      "back": "Antes del jueves a las diez",
+      "example": "Antes del jueves a las diez"
+    },
+    {
+      "id": "c4-u08-f12",
+      "unit": "c4-u08",
+      "kind": "recognition",
+      "front": "Hora local",
+      "back": "Local time",
+      "example": "Hora local"
+    },
+    {
+      "id": "c4-u08-f13",
+      "unit": "c4-u08",
+      "kind": "production",
+      "front": "I regret the confusion",
+      "back": "Lamento la confusión",
+      "example": "Lamento la confusión"
+    },
+    {
+      "id": "c4-u08-f14",
+      "unit": "c4-u08",
+      "kind": "recognition",
+      "front": "Compartiré la confirmación",
+      "back": "I will share the confirmation",
+      "example": "Compartiré la confirmación"
+    },
+    {
+      "id": "c4-u08-f15",
+      "unit": "c4-u08",
+      "kind": "production",
+      "front": "I await your response",
+      "back": "Quedo pendiente de su respuesta",
+      "example": "Quedo pendiente de su respuesta"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c4-u08-q01",
+      "type": "cloze",
+      "prompt": "Complete the subject line meaning confirmation: “___ del horario de la visita”.",
+      "answers": [
+        "Confirmación"
+      ],
+      "explanation": "A concrete subject line helps the recipient identify the action and topic.",
+      "concept": "Register is more than usted"
+    },
+    {
+      "id": "c4-u08-q02",
+      "type": "cloze",
+      "prompt": "Complete: ¿___ aclararnos cuál es la hora correcta? (poder, usted conditional)",
+      "answers": [
+        "Podría"
+      ],
+      "explanation": "The conditional forms a courteous request while preserving a clear action.",
+      "concept": "Register is more than usted"
+    },
+    {
+      "id": "c4-u08-q03",
+      "type": "cloze",
+      "prompt": "Complete: Adjunto la versión ___. (updated, feminine)",
+      "answers": [
+        "actualizada"
+      ],
+      "explanation": "The adjective agrees with feminine singular versión; actual means current, not necessarily actual in English.",
+      "concept": "Register is more than usted"
+    },
+    {
+      "id": "c4-u08-q04",
+      "type": "cloze",
+      "prompt": "Complete: Agradecería que me ___ con quién comunicarme. (indicar, usted ra form)",
+      "answers": [
+        "indicara"
+      ],
+      "explanation": "The conditional request commonly pairs with imperfect subjunctive in this courteous construction.",
+      "concept": "Concrete requests and accountable language"
+    },
+    {
+      "id": "c4-u08-q05",
+      "type": "typed",
+      "prompt": "Does professional register always require usted? Write sí or no.",
+      "answers": [
+        "no"
+      ],
+      "explanation": "Institutional and interpersonal conventions vary; professional communication may appropriately use tú.",
+      "concept": "Concrete requests and accountable language"
+    },
+    {
+      "id": "c4-u08-q06",
+      "type": "cloze",
+      "prompt": "Complete: Envié una versión anterior; adjunto la ___. (current one)",
+      "answers": [
+        "actual"
+      ],
+      "explanation": "Actual means current in this context, an important false-cognate distinction.",
+      "concept": "Concrete requests and accountable language"
+    },
+    {
+      "id": "c4-u08-q07",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: Confirmation of the visit schedule.",
+      "options": [
+        "Para facilitar la revisión",
+        "Lamento la confusión",
+        "Confirmación del horario de la visita"
+      ],
+      "answers": [
+        "Confirmación del horario de la visita"
+      ],
+      "explanation": "“Confirmación del horario de la visita” expresses “Confirmation of the visit schedule”. “Para facilitar la revisión” instead means “To facilitate the review”. “Lamento la confusión” instead means “I regret the confusion”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c4-u08-q08",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: Could you clarify the time for us?.",
+      "options": [
+        "Compartiré la confirmación",
+        "¿Podría aclararnos la hora?",
+        "¿Con quién debo comunicarme?"
+      ],
+      "answers": [
+        "¿Podría aclararnos la hora?"
+      ],
+      "explanation": "“¿Podría aclararnos la hora?” expresses “Could you clarify the time for us?”. “Compartiré la confirmación” instead means “I will share the confirmation”. “¿Con quién debo comunicarme?” instead means “Whom should I contact?”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c4-u08-q09",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: I attach the updated version.",
+      "options": [
+        "Adjunto la versión actualizada",
+        "Antes del jueves a las diez",
+        "Quedo pendiente de su respuesta"
+      ],
+      "answers": [
+        "Adjunto la versión actualizada"
+      ],
+      "explanation": "“Adjunto la versión actualizada” expresses “I attach the updated version”. “Antes del jueves a las diez” instead means “Before Thursday at ten”. “Quedo pendiente de su respuesta” instead means “I await your response”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c4-u08-q10",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: I would appreciate it if you indicated….",
+      "options": [
+        "Hora local",
+        "Confirmación del horario de la visita",
+        "Agradecería que me indicara…"
+      ],
+      "answers": [
+        "Agradecería que me indicara…"
+      ],
+      "explanation": "“Agradecería que me indicara…” expresses “I would appreciate it if you indicated…”. “Hora local” instead means “Local time”. “Confirmación del horario de la visita” instead means “Confirmation of the visit schedule”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c4-u08-q11",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: Kind regards.",
+      "options": [
+        "¿Podría aclararnos la hora?",
+        "Saludos cordiales",
+        "Lamento la confusión"
+      ],
+      "answers": [
+        "Saludos cordiales"
+      ],
+      "explanation": "“Saludos cordiales” expresses “Kind regards”. “¿Podría aclararnos la hora?” instead means “Could you clarify the time for us?”. “Lamento la confusión” instead means “I regret the confusion”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c4-u08-q12",
+      "type": "matching",
+      "prompt": "Match each English meaning to its Spanish expression. Use each expression once.",
+      "answers": [
+        "[\"Saludos cordiales\",\"Quisiera confirmar un detalle\",\"Para facilitar la revisión\"]"
+      ],
+      "explanation": "“Saludos cordiales” means “Kind regards”. “Quisiera confirmar un detalle” means “I would like to confirm a detail”. “Para facilitar la revisión” means “To facilitate the review”. Each alternative belongs to a different meaning; check the whole phrase, including its grammatical person and register.",
+      "concept": "Meaning and register",
+      "pairs": [
+        {
+          "left": "Kind regards",
+          "right": "Saludos cordiales"
+        },
+        {
+          "left": "I would like to confirm a detail",
+          "right": "Quisiera confirmar un detalle"
+        },
+        {
+          "left": "To facilitate the review",
+          "right": "Para facilitar la revisión"
+        }
+      ]
+    }
+  ],
+  "homework": [
+    {
+      "id": "c4-u08-h1",
+      "skill": "Reading & writing",
+      "prompt": "Read the original text for this unit. Identify its situation, central message, and three supporting details. Then write a new version of 220–280 words for a different person or audience. Use the target patterns, change at least three facts, and explain two revisions.",
+      "model": "**Asunto: Confirmación del horario de la visita**\nEstimada coordinadora:\nGracias por recibir a nuestro grupo. Quisiera confirmar si la visita del jueves 18 comenzará a las 10:00, hora local. En el programa aparece esa hora, pero el mensaje anterior indica las 10:30. ¿Podría aclararnos cuál es la correcta y si necesitamos llevar algún documento? Compartiré la confirmación con las ocho personas inscritas.\nAdjunto el programa que recibimos para facilitar la revisión. Si otra persona gestiona este asunto, agradecería que me indicara con quién comunicarme.\nSaludos cordiales,\nNora\nEl mensaje identifica una discrepancia sin acusar a nadie. Señala la acción necesaria, aporta el contexto y explica qué hará la remitente después.\n\nThis is the source model, not a text to submit unchanged. A successful adaptation retains the communicative purpose while changing relevant forms and facts. Compare with the worked examples for the reasons behind form choices.",
+      "rubric": "0–3 each: fulfills the specified purpose; organized and comprehensible; target forms support meaning; revisions are explained with examples. 0 = no evidence, 1 = substantial help needed, 2 = effective with some support, 3 = independently effective for this task. Record who evaluated the work."
+    },
+    {
+      "id": "c4-u08-h2",
+      "skill": "Listening",
+      "prompt": "Complete the resource assignment, or ask a willing reader to read the original text without showing it to you. First listen for the situation and purpose; listen again for three details and one contrast. Write a 60–100-word listening log naming the source, words actually heard, one uncertainty, and how you checked it. If using local synthesized speech, label it synthetic. Text-only preparation is not completed listening.",
+      "model": "A useful log separates the speaker’s message from your interpretation: “I heard [specific phrase]; I understood [claim]; I was uncertain about [word/relationship]; checking [text or partner] changed my interpretation to [correction].” Use the unit reading as an answer reference for a read-aloud version, never as evidence of an external speaker’s words.",
+      "rubric": "0–2 each: identifies source and listening conditions; retrieves central meaning; supports three details; checks a specific uncertainty. Do not count a copied transcript as independent comprehension."
+    },
+    {
+      "id": "c4-u08-h3",
+      "skill": "Speaking & interaction",
+      "prompt": "Write a professional request about conflicting information, then adapt it for a familiar colleague. A partner identifies the requested action, deadline and tone in each version.",
+      "model": "Use the original reading/dialogue and the sentence-pattern cards as preparation. Make a brief outline, then put it away. Your partner should introduce a detail you did not prepare. Respond, request clarification if needed, and summarize what you agreed or still disagree about. Solo fallback: record two possible viewpoints and improvise a response after a pause; label it rehearsal.",
+      "rubric": "0–3 each: task fulfillment, comprehensibility, control of target language, responsiveness to another speaker. A partner or instructor should cite one example per score. Solo rehearsal provides no evidence for live responsiveness; mark that dimension not observed."
+    },
+    {
+      "id": "c4-u08-h4",
+      "skill": "Retrieval & reflection",
+      "prompt": "On a later day, retrieve six cards without looking. Use three in a fresh response to the practical task. Identify one recurring form error and one communication difficulty. Produce a corrected example, explain the reason, and schedule a specific follow-up exchange or listening session.",
+      "model": "Compare your response with these two models: Confirmación del horario de la visita / ¿Podría aclararnos la hora?. A useful reflection explains the function, not just the spelling. Revisit the first worked item and create a different example of its principle.",
+      "rubric": "Report recall count separately from performance. Reflection is complete when it contains an observed difficulty, an explained correction, a fresh example, and an actionable next session."
+    }
+  ],
+  "task": "Write a professional request about conflicting information, then adapt it for a familiar colleague. A partner identifies the requested action, deadline and tone in each version.",
+  "culture": "Email greetings, closings and address choices differ across organizations and communities. Observe the recipient’s established style while keeping your message respectful, concise and actionable.",
+  "selfAssessment": [
+    "I can adapt register to recipient, purpose and medium.",
+    "I can write a concise professional request with a clear action.",
+    "I can revise wording that obscures responsibility or tone."
+  ],
+  "remediation": "Sort mistakes by form, meaning, and interaction. For form errors, explain a worked example and create a contrasting pair. For comprehension errors, replay a short segment or use a willing reader and verify your interpretation. For interaction difficulties, repeat the practical task with one new constraint. Compare evidence across days; repeated selection of a known answer alone is not mastery.",
+  "resources": [
+    "fundea"
+  ]
+}

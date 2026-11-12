@@ -1,0 +1,384 @@
+{
+  "id": "c4-u12",
+  "course": 4,
+  "number": 12,
+  "title": "Persuasive presentation",
+  "subtitle": "Persuade with support and limits",
+  "status": "authored",
+  "prerequisites": [
+    "c4-u11"
+  ],
+  "objectives": [
+    "Deliver an organized persuasive presentation.",
+    "Use sources proportionately and acknowledge uncertainty.",
+    "Respond to rebuttal and revise a recommendation."
+  ],
+  "warmup": "Retrieve two sentences and one repair strategy from c4-u11. Change the subject or situation in each sentence and explain what changed. Then read today’s objectives and predict where your existing language may be insufficient.",
+  "lectures": [
+    {
+      "title": "A claim the evidence can carry",
+      "body": "Begin with an explicit recommendation and criteria for judging it. Present the strongest relevant support, identify a serious objection and explain your response. A source-backed presentation is not a sequence of quotations; show how the evidence bears on the decision. Distinguish what you observed, what a source reports and what you infer. Include a practical implementation step and a way to revisit the decision. If the evidence supports only a trial, recommend a trial rather than a permanent policy. Strong persuasion can be cautious and specific."
+    },
+    {
+      "title": "Demonstrate responsiveness",
+      "body": "Prepare likely questions but include real, unprepared follow-up with a partner or group. Listen to the question’s scope, paraphrase if needed, and answer directly before adding context. No tengo ese dato is a useful honest response when paired with a verification plan. Afterward, revise one claim or limitation in response to feedback and explain why. The final assessment combines controlled language items, a written proposal and a recorded presentation/discussion; report the dimensions separately. A memorized fluent presentation does not by itself demonstrate spontaneous discussion or source evaluation."
+    }
+  ],
+  "reading": "La propuesta final de Nora recomienda una prueba de horario de cuatro semanas. Presenta el problema de acceso, compara dos alternativas y explica por qué descarta por ahora una ampliación permanente. Usa una encuesta, observaciones y una entrevista, pero señala las limitaciones de cada fuente. Durante las preguntas, un participante observa que la propuesta no contempla a quienes trabajan el domingo. Nora reconoce la omisión y añade una consulta específica antes de fijar las fechas. No cambia su recomendación solo para agradar: explica que la nueva información afecta al criterio de acceso que ella misma había establecido. En la revisión escrita conserva el razonamiento original y documenta el cambio, de modo que el lector pueda seguir la evolución de la decisión.",
+  "worked": [
+    {
+      "prompt": "Complete: Recomiendo que ___ una prueba limitada. (realizar, nosotros)",
+      "answer": "realicemos",
+      "reason": "The recommendation takes subjunctive; z changes to c before e in realicemos."
+    },
+    {
+      "prompt": "Complete: Si ___ más datos, podríamos decidir mejor. (tener, nosotros ra form)",
+      "answer": "tuviéramos",
+      "reason": "A hypothetical condition uses imperfect subjunctive with the nosotros accent."
+    },
+    {
+      "prompt": "Complete: Me preocupa que no se ___ consultado a ese grupo.",
+      "answer": "haya",
+      "reason": "Present perfect subjunctive places prior consultation within an evaluative concern."
+    },
+    {
+      "prompt": "Complete: La evidencia respalda una prueba, no una decisión ___. (permanent)",
+      "answer": "permanente",
+      "reason": "The conclusion must match the scope and strength of the available evidence."
+    },
+    {
+      "prompt": "Complete: No tengo ese dato; ___ cómo verificarlo. (explicar, yo future)",
+      "answer": "explicaré",
+      "reason": "The future expresses an explicit next action rather than filling the gap with an invented figure."
+    },
+    {
+      "prompt": "Does a memorized presentation alone demonstrate spontaneous discussion? Write sí or no.",
+      "answer": "no",
+      "reason": "Spontaneous responsiveness requires interaction with unprepared questions or contributions."
+    }
+  ],
+  "cards": [
+    {
+      "id": "c4-u12-f01",
+      "unit": "c4-u12",
+      "kind": "production",
+      "front": "I recommend that we conduct a trial",
+      "back": "Recomiendo que realicemos una prueba",
+      "example": "Recomiendo que realicemos una prueba"
+    },
+    {
+      "id": "c4-u12-f02",
+      "unit": "c4-u12",
+      "kind": "recognition",
+      "front": "Si tuviéramos más datos",
+      "back": "If we had more data",
+      "example": "Si tuviéramos más datos"
+    },
+    {
+      "id": "c4-u12-f03",
+      "unit": "c4-u12",
+      "kind": "production",
+      "front": "I worry that consultation has not occurred",
+      "back": "Me preocupa que no se haya consultado",
+      "example": "Me preocupa que no se haya consultado"
+    },
+    {
+      "id": "c4-u12-f04",
+      "unit": "c4-u12",
+      "kind": "recognition",
+      "front": "La decisión no debe ser permanente todavía",
+      "back": "The decision should not yet be permanent",
+      "example": "La decisión no debe ser permanente todavía"
+    },
+    {
+      "id": "c4-u12-f05",
+      "unit": "c4-u12",
+      "kind": "production",
+      "front": "I will explain how to verify it",
+      "back": "Explicaré cómo verificarlo",
+      "example": "Explicaré cómo verificarlo"
+    },
+    {
+      "id": "c4-u12-f06",
+      "unit": "c4-u12",
+      "kind": "recognition",
+      "front": "La presentación no sustituye la discusión",
+      "back": "The presentation does not replace discussion",
+      "example": "La presentación no sustituye la discusión"
+    },
+    {
+      "id": "c4-u12-f07",
+      "unit": "c4-u12",
+      "kind": "production",
+      "front": "My main criterion is access",
+      "back": "Mi criterio principal es el acceso",
+      "example": "Mi criterio principal es el acceso"
+    },
+    {
+      "id": "c4-u12-f08",
+      "unit": "c4-u12",
+      "kind": "recognition",
+      "front": "La objeción modifica mi propuesta",
+      "back": "The objection changes my proposal",
+      "example": "La objeción modifica mi propuesta"
+    },
+    {
+      "id": "c4-u12-f09",
+      "unit": "c4-u12",
+      "kind": "production",
+      "front": "I acknowledge that omission",
+      "back": "Reconozco esa omisión",
+      "example": "Reconozco esa omisión"
+    },
+    {
+      "id": "c4-u12-f10",
+      "unit": "c4-u12",
+      "kind": "recognition",
+      "front": "La fuente tiene esta limitación",
+      "back": "The source has this limitation",
+      "example": "La fuente tiene esta limitación"
+    },
+    {
+      "id": "c4-u12-f11",
+      "unit": "c4-u12",
+      "kind": "production",
+      "front": "I do not attribute more than it shows",
+      "back": "No atribuyo más de lo que muestra",
+      "example": "No atribuyo más de lo que muestra"
+    },
+    {
+      "id": "c4-u12-f12",
+      "unit": "c4-u12",
+      "kind": "recognition",
+      "front": "Propongo revisar la decisión después",
+      "back": "I propose reviewing the decision afterward",
+      "example": "Propongo revisar la decisión después"
+    },
+    {
+      "id": "c4-u12-f13",
+      "unit": "c4-u12",
+      "kind": "production",
+      "front": "The next step would be…",
+      "back": "El siguiente paso sería…",
+      "example": "El siguiente paso sería consultar a los grupos que faltan."
+    },
+    {
+      "id": "c4-u12-f14",
+      "unit": "c4-u12",
+      "kind": "recognition",
+      "front": "Esta revisión responde a la evidencia",
+      "back": "This revision responds to the evidence",
+      "example": "Esta revisión responde a la evidencia"
+    },
+    {
+      "id": "c4-u12-f15",
+      "unit": "c4-u12",
+      "kind": "production",
+      "front": "The change is documented",
+      "back": "Queda documentado el cambio",
+      "example": "Queda documentado el cambio"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c4-u12-q01",
+      "type": "cloze",
+      "prompt": "Complete: Recomiendo que ___ una prueba limitada. (realizar, nosotros)",
+      "answers": [
+        "realicemos"
+      ],
+      "explanation": "The recommendation takes subjunctive; z changes to c before e in realicemos.",
+      "concept": "A claim the evidence can carry"
+    },
+    {
+      "id": "c4-u12-q02",
+      "type": "cloze",
+      "prompt": "Complete: Si ___ más datos, podríamos decidir mejor. (tener, nosotros ra form)",
+      "answers": [
+        "tuviéramos"
+      ],
+      "explanation": "A hypothetical condition uses imperfect subjunctive with the nosotros accent.",
+      "concept": "A claim the evidence can carry"
+    },
+    {
+      "id": "c4-u12-q03",
+      "type": "cloze",
+      "prompt": "Complete: Me preocupa que no se ___ consultado a ese grupo.",
+      "answers": [
+        "haya"
+      ],
+      "explanation": "Present perfect subjunctive places prior consultation within an evaluative concern.",
+      "concept": "A claim the evidence can carry"
+    },
+    {
+      "id": "c4-u12-q04",
+      "type": "cloze",
+      "prompt": "Complete: La evidencia respalda una prueba, no una decisión ___. (permanent)",
+      "answers": [
+        "permanente"
+      ],
+      "explanation": "The conclusion must match the scope and strength of the available evidence.",
+      "concept": "Demonstrate responsiveness"
+    },
+    {
+      "id": "c4-u12-q05",
+      "type": "cloze",
+      "prompt": "Complete: No tengo ese dato; ___ cómo verificarlo. (explicar, yo future)",
+      "answers": [
+        "explicaré"
+      ],
+      "explanation": "The future expresses an explicit next action rather than filling the gap with an invented figure.",
+      "concept": "Demonstrate responsiveness"
+    },
+    {
+      "id": "c4-u12-q06",
+      "type": "typed",
+      "prompt": "Does a memorized presentation alone demonstrate spontaneous discussion? Write sí or no.",
+      "answers": [
+        "no"
+      ],
+      "explanation": "Spontaneous responsiveness requires interaction with unprepared questions or contributions.",
+      "concept": "Demonstrate responsiveness"
+    },
+    {
+      "id": "c4-u12-q07",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: I recommend that we conduct a trial.",
+      "options": [
+        "Reconozco esa omisión",
+        "El siguiente paso sería…",
+        "Recomiendo que realicemos una prueba"
+      ],
+      "answers": [
+        "Recomiendo que realicemos una prueba"
+      ],
+      "explanation": "“Recomiendo que realicemos una prueba” expresses “I recommend that we conduct a trial”. “Reconozco esa omisión” instead means “I acknowledge that omission”. “El siguiente paso sería…” instead means “The next step would be…”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c4-u12-q08",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: If we had more data.",
+      "options": [
+        "Esta revisión responde a la evidencia",
+        "Si tuviéramos más datos",
+        "La fuente tiene esta limitación"
+      ],
+      "answers": [
+        "Si tuviéramos más datos"
+      ],
+      "explanation": "“Si tuviéramos más datos” expresses “If we had more data”. “Esta revisión responde a la evidencia” instead means “This revision responds to the evidence”. “La fuente tiene esta limitación” instead means “The source has this limitation”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c4-u12-q09",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: I worry that consultation has not occurred.",
+      "options": [
+        "Me preocupa que no se haya consultado",
+        "No atribuyo más de lo que muestra",
+        "Queda documentado el cambio"
+      ],
+      "answers": [
+        "Me preocupa que no se haya consultado"
+      ],
+      "explanation": "“Me preocupa que no se haya consultado” expresses “I worry that consultation has not occurred”. “No atribuyo más de lo que muestra” instead means “I do not attribute more than it shows”. “Queda documentado el cambio” instead means “The change is documented”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c4-u12-q10",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: The decision should not yet be permanent.",
+      "options": [
+        "Propongo revisar la decisión después",
+        "Recomiendo que realicemos una prueba",
+        "La decisión no debe ser permanente todavía"
+      ],
+      "answers": [
+        "La decisión no debe ser permanente todavía"
+      ],
+      "explanation": "“La decisión no debe ser permanente todavía” expresses “The decision should not yet be permanent”. “Propongo revisar la decisión después” instead means “I propose reviewing the decision afterward”. “Recomiendo que realicemos una prueba” instead means “I recommend that we conduct a trial”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c4-u12-q11",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: I will explain how to verify it.",
+      "options": [
+        "Si tuviéramos más datos",
+        "Explicaré cómo verificarlo",
+        "El siguiente paso sería…"
+      ],
+      "answers": [
+        "Explicaré cómo verificarlo"
+      ],
+      "explanation": "“Explicaré cómo verificarlo” expresses “I will explain how to verify it”. “Si tuviéramos más datos” instead means “If we had more data”. “El siguiente paso sería…” instead means “The next step would be…”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c4-u12-q12",
+      "type": "matching",
+      "prompt": "Match each English meaning to its Spanish expression. Use each expression once.",
+      "answers": [
+        "[\"Explicaré cómo verificarlo\",\"Mi criterio principal es el acceso\",\"Reconozco esa omisión\"]"
+      ],
+      "explanation": "“Explicaré cómo verificarlo” means “I will explain how to verify it”. “Mi criterio principal es el acceso” means “My main criterion is access”. “Reconozco esa omisión” means “I acknowledge that omission”. Each alternative belongs to a different meaning; check the whole phrase, including its grammatical person and register.",
+      "concept": "Meaning and register",
+      "pairs": [
+        {
+          "left": "I will explain how to verify it",
+          "right": "Explicaré cómo verificarlo"
+        },
+        {
+          "left": "My main criterion is access",
+          "right": "Mi criterio principal es el acceso"
+        },
+        {
+          "left": "I acknowledge that omission",
+          "right": "Reconozco esa omisión"
+        }
+      ]
+    }
+  ],
+  "homework": [
+    {
+      "id": "c4-u12-h1",
+      "skill": "Reading & writing",
+      "prompt": "Read the original text for this unit. Identify its situation, central message, and three supporting details. Then write a new version of 220–280 words for a different person or audience. Use the target patterns, change at least three facts, and explain two revisions.",
+      "model": "La propuesta final de Nora recomienda una prueba de horario de cuatro semanas. Presenta el problema de acceso, compara dos alternativas y explica por qué descarta por ahora una ampliación permanente. Usa una encuesta, observaciones y una entrevista, pero señala las limitaciones de cada fuente. Durante las preguntas, un participante observa que la propuesta no contempla a quienes trabajan el domingo. Nora reconoce la omisión y añade una consulta específica antes de fijar las fechas. No cambia su recomendación solo para agradar: explica que la nueva información afecta al criterio de acceso que ella misma había establecido. En la revisión escrita conserva el razonamiento original y documenta el cambio, de modo que el lector pueda seguir la evolución de la decisión.\n\nThis is the source model, not a text to submit unchanged. A successful adaptation retains the communicative purpose while changing relevant forms and facts. Compare with the worked examples for the reasons behind form choices.",
+      "rubric": "0–3 each: fulfills the specified purpose; organized and comprehensible; target forms support meaning; revisions are explained with examples. 0 = no evidence, 1 = substantial help needed, 2 = effective with some support, 3 = independently effective for this task. Record who evaluated the work."
+    },
+    {
+      "id": "c4-u12-h2",
+      "skill": "Listening",
+      "prompt": "Complete the resource assignment, or ask a willing reader to read the original text without showing it to you. First listen for the situation and purpose; listen again for three details and one contrast. Write a 60–100-word listening log naming the source, words actually heard, one uncertainty, and how you checked it. If using local synthesized speech, label it synthetic. Text-only preparation is not completed listening.",
+      "model": "A useful log separates the speaker’s message from your interpretation: “I heard [specific phrase]; I understood [claim]; I was uncertain about [word/relationship]; checking [text or partner] changed my interpretation to [correction].” Use the unit reading as an answer reference for a read-aloud version, never as evidence of an external speaker’s words.",
+      "rubric": "0–2 each: identifies source and listening conditions; retrieves central meaning; supports three details; checks a specific uncertainty. Do not count a copied transcript as independent comprehension."
+    },
+    {
+      "id": "c4-u12-h3",
+      "skill": "Speaking & interaction",
+      "prompt": "Final capstone: write a 350–450-word supported proposal, deliver a five-minute presentation, and answer at least four unprepared questions. Preserve source notes, feedback and a justified revision.",
+      "model": "Use the original reading/dialogue and the sentence-pattern cards as preparation. Make a brief outline, then put it away. Your partner should introduce a detail you did not prepare. Respond, request clarification if needed, and summarize what you agreed or still disagree about. Solo fallback: record two possible viewpoints and improvise a response after a pause; label it rehearsal.",
+      "rubric": "0–3 each: task fulfillment, comprehensibility, control of target language, responsiveness to another speaker. A partner or instructor should cite one example per score. Solo rehearsal provides no evidence for live responsiveness; mark that dimension not observed."
+    },
+    {
+      "id": "c4-u12-h4",
+      "skill": "Retrieval & reflection",
+      "prompt": "On a later day, retrieve six cards without looking. Use three in a fresh response to the practical task. Identify one recurring form error and one communication difficulty. Produce a corrected example, explain the reason, and schedule a specific follow-up exchange or listening session.",
+      "model": "Compare your response with these two models: Recomiendo que realicemos una prueba / Si tuviéramos más datos. A useful reflection explains the function, not just the spelling. Revisit the first worked item and create a different example of its principle.",
+      "rubric": "Report recall count separately from performance. Reflection is complete when it contains an observed difficulty, an explained correction, a fresh example, and an actionable next session."
+    }
+  ],
+  "task": "Final capstone: write a 350–450-word supported proposal, deliver a five-minute presentation, and answer at least four unprepared questions. Preserve source notes, feedback and a justified revision.",
+  "culture": "Persuasion should leave room for informed disagreement. Do not present your language performance or a classroom score as authority over the people affected by the proposed policy.",
+  "selfAssessment": [
+    "I can deliver an organized persuasive presentation.",
+    "I can use sources proportionately and acknowledge uncertainty.",
+    "I can respond to rebuttal and revise a recommendation."
+  ],
+  "remediation": "Sort mistakes by form, meaning, and interaction. For form errors, explain a worked example and create a contrasting pair. For comprehension errors, replay a short segment or use a willing reader and verify your interpretation. For interaction difficulties, repeat the practical task with one new constraint. Compare evidence across days; repeated selection of a known answer alone is not mastery.",
+  "resources": [
+    "rtve-documentos"
+  ]
+}

@@ -1,0 +1,384 @@
+{
+  "id": "c5-u06",
+  "course": 5,
+  "number": 6,
+  "title": "Research briefing midterm",
+  "subtitle": "Brief a group, then discuss the evidence",
+  "status": "authored",
+  "prerequisites": [
+    "c5-u05"
+  ],
+  "objectives": [
+    "Deliver a concise research briefing with source distinctions.",
+    "Answer questions without inventing unsupported details.",
+    "Document how discussion changes the recommendation."
+  ],
+  "warmup": "Retrieve two sentences and one repair strategy from c5-u05. Change the subject or situation in each sentence and explain what changed. Then read today’s objectives and predict where your existing language may be insufficient.",
+  "lectures": [
+    {
+      "title": "Una exposición breve no elimina los límites",
+      "body": "Un briefing debe permitir que alguien comprenda una pregunta, la evidencia disponible, sus límites y una decisión provisional. Empieza por la pregunta y el resultado principal; después explica cómo llegaste a él. Identifica qué fuentes son independientes, cuáles repiten un mismo dato y cuáles aportan otra perspectiva. Tres páginas que citan el mismo informe no constituyen tres verificaciones independientes. Usa notas visibles con palabras clave y referencias suficientes para recuperar el origen de una afirmación. No conviertas una cifra aproximada en una cifra exacta para dar una impresión de rigor."
+    },
+    {
+      "title": "La discusión pone a prueba la síntesis",
+      "body": "Invita preguntas sobre alcance, método, consecuencias y alternativas. Si no sabes una respuesta, distingue entre no recordar un dato disponible y no disponer de evidencia. Puedes consultar tus notas en la parte de revisión, pero registra esa ayuda cuando evalúes la respuesta oral. Una pregunta que modifica tu conclusión no demuestra que toda la exposición fracasó; puede revelar un límite que conviene incorporar. En la evaluación acumulativa, puntúa por separado la precisión de fuentes, la organización, el control lingüístico y la respuesta espontánea. Conserva las preguntas recibidas y una versión revisada de la recomendación."
+    }
+  ],
+  "reading": "En el briefing de Nora, tres fuentes parecen confirmar que la inscripción es difícil. Al revisar sus notas, descubre que dos noticias resumen el mismo informe y que solo una entrevista aporta evidencia independiente. Durante la discusión, un compañero pregunta si el problema afecta por igual a personas que usan teléfono y ordenador. Nora no dispone de esa comparación. Responde: «No tenemos datos desglosados por dispositivo; esa limitación puede afectar al diseño de la prueba». Después modifica su recomendación para observar ambos contextos. También aclara que las cifras citadas cuentan consultas recibidas, no necesariamente visitantes distintos. El grupo puede seguir avanzando porque sabe qué parte de la evidencia es sólida, qué parte se repite y qué pregunta queda abierta. Resume el briefing en cuatro frases: pregunta, hallazgo, límite y siguiente paso.",
+  "worked": [
+    {
+      "prompt": "Do three pages repeating the same report equal three independent verifications? Write sí or no.",
+      "answer": "no",
+      "reason": "Repeated transmission of one report does not create independent evidence."
+    },
+    {
+      "prompt": "Complete: No tenemos datos ___ por dispositivo. (broken down)",
+      "answer": "desglosados",
+      "reason": "Desglosados indicates that the data are separated by the relevant category."
+    },
+    {
+      "prompt": "Complete: Esa limitación puede ___ el diseño. (affect)",
+      "answer": "afectar",
+      "reason": "The limitation may have a practical consequence for the proposed study or intervention."
+    },
+    {
+      "prompt": "Complete: Las consultas no equivalen necesariamente a visitantes ___. (distinct)",
+      "answer": "distintos",
+      "reason": "One visitor can make multiple inquiries; the counting unit matters."
+    },
+    {
+      "prompt": "Complete: Conviene que ___ la recomendación tras la discusión. (revisar, nosotros)",
+      "answer": "revisemos",
+      "reason": "The recommendation takes subjunctive and emphasizes incorporating new evidence."
+    },
+    {
+      "prompt": "Should an approximate figure be made exact merely to sound rigorous? Write sí or no.",
+      "answer": "no",
+      "reason": "False precision misrepresents the evidence rather than improving rigor."
+    }
+  ],
+  "cards": [
+    {
+      "id": "c5-u06-f01",
+      "unit": "c5-u06",
+      "kind": "production",
+      "front": "The sources are not independent",
+      "back": "Las fuentes no son independientes",
+      "example": "Las fuentes no son independientes"
+    },
+    {
+      "id": "c5-u06-f02",
+      "unit": "c5-u06",
+      "kind": "recognition",
+      "front": "No tenemos datos desglosados",
+      "back": "We do not have disaggregated data",
+      "example": "No tenemos datos desglosados"
+    },
+    {
+      "id": "c5-u06-f03",
+      "unit": "c5-u06",
+      "kind": "production",
+      "front": "The limitation may affect the design",
+      "back": "La limitación puede afectar al diseño",
+      "example": "La limitación puede afectar al diseño"
+    },
+    {
+      "id": "c5-u06-f04",
+      "unit": "c5-u06",
+      "kind": "recognition",
+      "front": "No son necesariamente visitantes distintos",
+      "back": "They are not necessarily distinct visitors",
+      "example": "No son necesariamente visitantes distintos"
+    },
+    {
+      "id": "c5-u06-f05",
+      "unit": "c5-u06",
+      "kind": "production",
+      "front": "We should revise the recommendation",
+      "back": "Conviene que revisemos la recomendación",
+      "example": "Conviene que revisemos la recomendación"
+    },
+    {
+      "id": "c5-u06-f06",
+      "unit": "c5-u06",
+      "kind": "recognition",
+      "front": "La precisión aparente sería engañosa",
+      "back": "The apparent precision would be misleading",
+      "example": "La precisión aparente sería engañosa"
+    },
+    {
+      "id": "c5-u06-f07",
+      "unit": "c5-u06",
+      "kind": "production",
+      "front": "The central briefing question is…",
+      "back": "La pregunta central del briefing es…",
+      "example": "La pregunta central del briefing es…"
+    },
+    {
+      "id": "c5-u06-f08",
+      "unit": "c5-u06",
+      "kind": "recognition",
+      "front": "Dos noticias repiten el mismo informe",
+      "back": "Two news stories repeat the same report",
+      "example": "Dos noticias repiten el mismo informe"
+    },
+    {
+      "id": "c5-u06-f09",
+      "unit": "c5-u06",
+      "kind": "production",
+      "front": "I do not recall the datum, but it is in my notes",
+      "back": "No recuerdo el dato, pero está en mis notas",
+      "example": "No recuerdo el dato, pero está en mis notas"
+    },
+    {
+      "id": "c5-u06-f10",
+      "unit": "c5-u06",
+      "kind": "recognition",
+      "front": "No disponemos de esa evidencia",
+      "back": "We do not have that evidence",
+      "example": "No disponemos de esa evidencia"
+    },
+    {
+      "id": "c5-u06-f11",
+      "unit": "c5-u06",
+      "kind": "production",
+      "front": "That changes the scope of my conclusion",
+      "back": "Eso cambia el alcance de mi conclusión",
+      "example": "Eso cambia el alcance de mi conclusión"
+    },
+    {
+      "id": "c5-u06-f12",
+      "unit": "c5-u06",
+      "kind": "recognition",
+      "front": "El siguiente paso sería comparar…",
+      "back": "The next step would be to compare…",
+      "example": "El siguiente paso sería comparar períodos con condiciones semejantes."
+    },
+    {
+      "id": "c5-u06-f13",
+      "unit": "c5-u06",
+      "kind": "production",
+      "front": "Thank you for pointing out the difference",
+      "back": "Gracias por señalar la diferencia",
+      "example": "Gracias por señalar la diferencia"
+    },
+    {
+      "id": "c5-u06-f14",
+      "unit": "c5-u06",
+      "kind": "recognition",
+      "front": "Voy a separar ambos casos",
+      "back": "I am going to separate the two cases",
+      "example": "Voy a separar ambos casos"
+    },
+    {
+      "id": "c5-u06-f15",
+      "unit": "c5-u06",
+      "kind": "production",
+      "front": "The discussion has made the proposal more precise",
+      "back": "La discusión ha precisado la propuesta",
+      "example": "La discusión ha precisado la propuesta"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c5-u06-q01",
+      "type": "typed",
+      "prompt": "Do three pages repeating the same report equal three independent verifications? Write sí or no.",
+      "answers": [
+        "no"
+      ],
+      "explanation": "Repeated transmission of one report does not create independent evidence.",
+      "concept": "Una exposición breve no elimina los límites"
+    },
+    {
+      "id": "c5-u06-q02",
+      "type": "cloze",
+      "prompt": "Complete: No tenemos datos ___ por dispositivo. (broken down)",
+      "answers": [
+        "desglosados"
+      ],
+      "explanation": "Desglosados indicates that the data are separated by the relevant category.",
+      "concept": "Una exposición breve no elimina los límites"
+    },
+    {
+      "id": "c5-u06-q03",
+      "type": "cloze",
+      "prompt": "Complete: Esa limitación puede ___ el diseño. (affect)",
+      "answers": [
+        "afectar"
+      ],
+      "explanation": "The limitation may have a practical consequence for the proposed study or intervention.",
+      "concept": "Una exposición breve no elimina los límites"
+    },
+    {
+      "id": "c5-u06-q04",
+      "type": "cloze",
+      "prompt": "Complete: Las consultas no equivalen necesariamente a visitantes ___. (distinct)",
+      "answers": [
+        "distintos"
+      ],
+      "explanation": "One visitor can make multiple inquiries; the counting unit matters.",
+      "concept": "La discusión pone a prueba la síntesis"
+    },
+    {
+      "id": "c5-u06-q05",
+      "type": "cloze",
+      "prompt": "Complete: Conviene que ___ la recomendación tras la discusión. (revisar, nosotros)",
+      "answers": [
+        "revisemos"
+      ],
+      "explanation": "The recommendation takes subjunctive and emphasizes incorporating new evidence.",
+      "concept": "La discusión pone a prueba la síntesis"
+    },
+    {
+      "id": "c5-u06-q06",
+      "type": "typed",
+      "prompt": "Should an approximate figure be made exact merely to sound rigorous? Write sí or no.",
+      "answers": [
+        "no"
+      ],
+      "explanation": "False precision misrepresents the evidence rather than improving rigor.",
+      "concept": "La discusión pone a prueba la síntesis"
+    },
+    {
+      "id": "c5-u06-q07",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: The sources are not independent.",
+      "options": [
+        "No recuerdo el dato, pero está en mis notas",
+        "Gracias por señalar la diferencia",
+        "Las fuentes no son independientes"
+      ],
+      "answers": [
+        "Las fuentes no son independientes"
+      ],
+      "explanation": "“Las fuentes no son independientes” expresses “The sources are not independent”. “No recuerdo el dato, pero está en mis notas” instead means “I do not recall the datum, but it is in my notes”. “Gracias por señalar la diferencia” instead means “Thank you for pointing out the difference”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c5-u06-q08",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: We do not have disaggregated data.",
+      "options": [
+        "Voy a separar ambos casos",
+        "No tenemos datos desglosados",
+        "No disponemos de esa evidencia"
+      ],
+      "answers": [
+        "No tenemos datos desglosados"
+      ],
+      "explanation": "“No tenemos datos desglosados” expresses “We do not have disaggregated data”. “Voy a separar ambos casos” instead means “I am going to separate the two cases”. “No disponemos de esa evidencia” instead means “We do not have that evidence”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c5-u06-q09",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: The limitation may affect the design.",
+      "options": [
+        "La limitación puede afectar al diseño",
+        "Eso cambia el alcance de mi conclusión",
+        "La discusión ha precisado la propuesta"
+      ],
+      "answers": [
+        "La limitación puede afectar al diseño"
+      ],
+      "explanation": "“La limitación puede afectar al diseño” expresses “The limitation may affect the design”. “Eso cambia el alcance de mi conclusión” instead means “That changes the scope of my conclusion”. “La discusión ha precisado la propuesta” instead means “The discussion has made the proposal more precise”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c5-u06-q10",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: They are not necessarily distinct visitors.",
+      "options": [
+        "El siguiente paso sería comparar…",
+        "Las fuentes no son independientes",
+        "No son necesariamente visitantes distintos"
+      ],
+      "answers": [
+        "No son necesariamente visitantes distintos"
+      ],
+      "explanation": "“No son necesariamente visitantes distintos” expresses “They are not necessarily distinct visitors”. “El siguiente paso sería comparar…” instead means “The next step would be to compare…”. “Las fuentes no son independientes” instead means “The sources are not independent”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c5-u06-q11",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: We should revise the recommendation.",
+      "options": [
+        "No tenemos datos desglosados",
+        "Conviene que revisemos la recomendación",
+        "Gracias por señalar la diferencia"
+      ],
+      "answers": [
+        "Conviene que revisemos la recomendación"
+      ],
+      "explanation": "“Conviene que revisemos la recomendación” expresses “We should revise the recommendation”. “No tenemos datos desglosados” instead means “We do not have disaggregated data”. “Gracias por señalar la diferencia” instead means “Thank you for pointing out the difference”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c5-u06-q12",
+      "type": "matching",
+      "prompt": "Match each English meaning to its Spanish expression. Use each expression once.",
+      "answers": [
+        "[\"Conviene que revisemos la recomendación\",\"La pregunta central del briefing es…\",\"No recuerdo el dato, pero está en mis notas\"]"
+      ],
+      "explanation": "“Conviene que revisemos la recomendación” means “We should revise the recommendation”. “La pregunta central del briefing es…” means “The central briefing question is…”. “No recuerdo el dato, pero está en mis notas” means “I do not recall the datum, but it is in my notes”. Each alternative belongs to a different meaning; check the whole phrase, including its grammatical person and register.",
+      "concept": "Meaning and register",
+      "pairs": [
+        {
+          "left": "We should revise the recommendation",
+          "right": "Conviene que revisemos la recomendación"
+        },
+        {
+          "left": "The central briefing question is…",
+          "right": "La pregunta central del briefing es…"
+        },
+        {
+          "left": "I do not recall the datum, but it is in my notes",
+          "right": "No recuerdo el dato, pero está en mis notas"
+        }
+      ]
+    }
+  ],
+  "homework": [
+    {
+      "id": "c5-u06-h1",
+      "skill": "Reading & writing",
+      "prompt": "Read the original text for this unit. Identify its situation, central message, and three supporting details. Then write a new version of 300–400 words for a different person or audience. Use the target patterns, change at least three facts, and explain two revisions.",
+      "model": "En el briefing de Nora, tres fuentes parecen confirmar que la inscripción es difícil. Al revisar sus notas, descubre que dos noticias resumen el mismo informe y que solo una entrevista aporta evidencia independiente. Durante la discusión, un compañero pregunta si el problema afecta por igual a personas que usan teléfono y ordenador. Nora no dispone de esa comparación. Responde: «No tenemos datos desglosados por dispositivo; esa limitación puede afectar al diseño de la prueba». Después modifica su recomendación para observar ambos contextos. También aclara que las cifras citadas cuentan consultas recibidas, no necesariamente visitantes distintos. El grupo puede seguir avanzando porque sabe qué parte de la evidencia es sólida, qué parte se repite y qué pregunta queda abierta. Resume el briefing en cuatro frases: pregunta, hallazgo, límite y siguiente paso.\n\nThis is the source model, not a text to submit unchanged. A successful adaptation retains the communicative purpose while changing relevant forms and facts. Compare with the worked examples for the reasons behind form choices.",
+      "rubric": "0–3 each: fulfills the specified purpose; organized and comprehensible; target forms support meaning; revisions are explained with examples. 0 = no evidence, 1 = substantial help needed, 2 = effective with some support, 3 = independently effective for this task. Record who evaluated the work."
+    },
+    {
+      "id": "c5-u06-h2",
+      "skill": "Listening",
+      "prompt": "Complete the resource assignment, or ask a willing reader to read the original text without showing it to you. First listen for the situation and purpose; listen again for three details and one contrast. Write a 60–100-word listening log naming the source, words actually heard, one uncertainty, and how you checked it. If using local synthesized speech, label it synthetic. Text-only preparation is not completed listening.",
+      "model": "A useful log separates the speaker’s message from your interpretation: “I heard [specific phrase]; I understood [claim]; I was uncertain about [word/relationship]; checking [text or partner] changed my interpretation to [correction].” Use the unit reading as an answer reference for a read-aloud version, never as evidence of an external speaker’s words.",
+      "rubric": "0–2 each: identifies source and listening conditions; retrieves central meaning; supports three details; checks a specific uncertainty. Do not count a copied transcript as independent comprehension."
+    },
+    {
+      "id": "c5-u06-h3",
+      "skill": "Speaking & interaction",
+      "prompt": "Midterm: prepare a five-minute briefing from three accessible sources or the original dossier. Hold a six-minute discussion with unprepared questions, then submit source notes and a 300-word revised recommendation.",
+      "model": "Use the original reading/dialogue and the sentence-pattern cards as preparation. Make a brief outline, then put it away. Your partner should introduce a detail you did not prepare. Respond, request clarification if needed, and summarize what you agreed or still disagree about. Solo fallback: record two possible viewpoints and improvise a response after a pause; label it rehearsal.",
+      "rubric": "0–3 each: task fulfillment, comprehensibility, control of target language, responsiveness to another speaker. A partner or instructor should cite one example per score. Solo rehearsal provides no evidence for live responsiveness; mark that dimension not observed."
+    },
+    {
+      "id": "c5-u06-h4",
+      "skill": "Retrieval & reflection",
+      "prompt": "On a later day, retrieve six cards without looking. Use three in a fresh response to the practical task. Identify one recurring form error and one communication difficulty. Produce a corrected example, explain the reason, and schedule a specific follow-up exchange or listening session.",
+      "model": "Compare your response with these two models: Las fuentes no son independientes / No tenemos datos desglosados. A useful reflection explains the function, not just the spelling. Revisit the first worked item and create a different example of its principle.",
+      "rubric": "Report recall count separately from performance. Reflection is complete when it contains an observed difficulty, an explained correction, a fresh example, and an actionable next session."
+    }
+  ],
+  "task": "Midterm: prepare a five-minute briefing from three accessible sources or the original dossier. Hold a six-minute discussion with unprepared questions, then submit source notes and a 300-word revised recommendation.",
+  "culture": "A briefing may be heard by people with different disciplinary vocabularies. Define consequential terms and invite clarification; unexplained jargon can exclude useful expertise rather than demonstrate sophistication.",
+  "selfAssessment": [
+    "I can deliver a concise research briefing with source distinctions.",
+    "I can answer questions without inventing unsupported details.",
+    "I can document how discussion changes the recommendation."
+  ],
+  "remediation": "Sort mistakes by form, meaning, and interaction. For form errors, explain a worked example and create a contrasting pair. For comprehension errors, replay a short segment or use a willing reader and verify your interpretation. For interaction difficulties, repeat the practical task with one new constraint. Compare evidence across days; repeated selection of a known answer alone is not mastery.",
+  "resources": [
+    "rtve-documentos"
+  ]
+}

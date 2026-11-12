@@ -1,0 +1,384 @@
+{
+  "id": "c4-u01",
+  "course": 4,
+  "number": 1,
+  "title": "Tense, aspect & mood",
+  "subtitle": "Choose a viewpoint, not a tense label",
+  "status": "authored",
+  "prerequisites": [
+    "c3-u12"
+  ],
+  "objectives": [
+    "Explain how tense, aspect and mood change a message.",
+    "Distinguish evidence from an attitude toward it.",
+    "Revise a narrative for a different communicative purpose."
+  ],
+  "warmup": "Retrieve two sentences and one repair strategy from c3-u12. Change the subject or situation in each sentence and explain what changed. Then read today’s objectives and predict where your existing language may be insufficient.",
+  "lectures": [
+    {
+      "title": "Three decisions at once",
+      "body": "Time locates an event relative to a reference point. Aspect presents how you view it: a bounded whole, an unfolding situation or an earlier completion. Mood helps express the relationship between a clause and the speaker’s stance or a governing construction. Compare Llegó, llegaba, había llegado and espero que llegue. These are not stylistic decorations for the same message. A past narrative may require all three dimensions: Me preocupaba que no hubiera llegado introduces a past concern about an earlier arrival. You will analyze that perfect subjunctive later; first identify what each clause contributes to the situation."
+    },
+    {
+      "title": "Revisión con propósito",
+      "body": "Revisa un texto en tres pasadas. Primero pregunta qué afirma realmente y en qué momento se sitúa. Después identifica el punto de vista de cada acción. Finalmente examina las construcciones que expresan deseo, duda, evaluación o condición. No cambies una forma solo porque otra “suena más avanzada”. Una frase sencilla puede ser la más precisa. Si dos versiones son posibles, explica cómo cambia la interpretación: Era amable caracteriza una conducta de fondo; fue amable puede valorar un episodio completo. En una discusión, reconoce una lectura alternativa antes de defender la tuya. La precisión consiste en sostener un significado, no en prohibir toda variación."
+    }
+  ],
+  "reading": "El ayuntamiento anuncia una consulta sobre el horario de una biblioteca. Una vecina cuenta: «Cuando trabajaba de noche, necesitaba un lugar tranquilo por la tarde. La biblioteca cerraba demasiado temprano». Otro vecino responde: «El año pasado ampliaron el horario durante dos meses y acudió poca gente». Una coordinadora añade: «Me preocupa que interpretemos esa prueba sin saber cómo se anunció». Las tres intervenciones pueden ser compatibles: describen una necesidad habitual, un episodio delimitado y una evaluación de la evidencia. Antes de concluir que ampliar el horario funciona o fracasa, el grupo debe precisar para quién, en qué período y bajo qué condiciones. Reescribe el caso como una noticia breve y luego como una recomendación; justifica los cambios de perspectiva.",
+  "worked": [
+    {
+      "prompt": "Complete: Cuando ___ de noche, necesitaba descansar por la tarde. (trabajar, yo habitual past)",
+      "answer": "trabajaba",
+      "reason": "The imperfect presents the past work schedule as habitual background."
+    },
+    {
+      "prompt": "Complete: El año pasado ___ el horario durante dos meses. (ampliar, ellos bounded)",
+      "answer": "ampliaron",
+      "reason": "The preterite bounds the two-month trial as a completed episode."
+    },
+    {
+      "prompt": "Complete: Me preocupa que ___ los datos sin contexto. (interpretar, nosotros)",
+      "answer": "interpretemos",
+      "reason": "The evaluative concern selects a subjunctive dependent clause."
+    },
+    {
+      "prompt": "Complete: Antes de la consulta, ya ___ anunciado la prueba. (ellos)",
+      "answer": "habían",
+      "reason": "The announcement precedes a past reference point, so past perfect is appropriate."
+    },
+    {
+      "prompt": "Complete: Según el informe, la prueba ___ poca asistencia. (tener, preterite)",
+      "answer": "tuvo",
+      "reason": "The report presents attendance in the trial as a bounded result."
+    },
+    {
+      "prompt": "Complete: Es posible que la publicidad ___ insuficiente. (ser, present subjunctive)",
+      "answer": "sea",
+      "reason": "The possibility construction presents the explanation without asserting it as established."
+    }
+  ],
+  "cards": [
+    {
+      "id": "c4-u01-f01",
+      "unit": "c4-u01",
+      "kind": "production",
+      "front": "I used to work nights",
+      "back": "Trabajaba de noche",
+      "example": "Trabajaba de noche"
+    },
+    {
+      "id": "c4-u01-f02",
+      "unit": "c4-u01",
+      "kind": "recognition",
+      "front": "Ampliaron el horario",
+      "back": "They extended the hours",
+      "example": "Ampliaron el horario"
+    },
+    {
+      "id": "c4-u01-f03",
+      "unit": "c4-u01",
+      "kind": "production",
+      "front": "I worry that we may misinterpret the data",
+      "back": "Me preocupa que interpretemos mal los datos",
+      "example": "Me preocupa que interpretemos mal los datos"
+    },
+    {
+      "id": "c4-u01-f04",
+      "unit": "c4-u01",
+      "kind": "recognition",
+      "front": "Ya habían anunciado la prueba",
+      "back": "They had already announced the trial",
+      "example": "Ya habían anunciado la prueba"
+    },
+    {
+      "id": "c4-u01-f05",
+      "unit": "c4-u01",
+      "kind": "production",
+      "front": "It had low attendance",
+      "back": "Tuvo poca asistencia",
+      "example": "Tuvo poca asistencia"
+    },
+    {
+      "id": "c4-u01-f06",
+      "unit": "c4-u01",
+      "kind": "recognition",
+      "front": "Es posible que sea insuficiente",
+      "back": "It may be insufficient",
+      "example": "Es posible que sea insuficiente"
+    },
+    {
+      "id": "c4-u01-f07",
+      "unit": "c4-u01",
+      "kind": "production",
+      "front": "These claims are compatible",
+      "back": "Estas afirmaciones son compatibles",
+      "example": "Estas afirmaciones son compatibles"
+    },
+    {
+      "id": "c4-u01-f08",
+      "unit": "c4-u01",
+      "kind": "recognition",
+      "front": "Depende del período observado",
+      "back": "It depends on the period observed",
+      "example": "Depende del período observado"
+    },
+    {
+      "id": "c4-u01-f09",
+      "unit": "c4-u01",
+      "kind": "production",
+      "front": "One figure is not enough",
+      "back": "No basta con una cifra",
+      "example": "No basta con una cifra"
+    },
+    {
+      "id": "c4-u01-f10",
+      "unit": "c4-u01",
+      "kind": "recognition",
+      "front": "Conviene precisar el contexto",
+      "back": "It is useful to specify the context",
+      "example": "Conviene precisar el contexto"
+    },
+    {
+      "id": "c4-u01-f11",
+      "unit": "c4-u01",
+      "kind": "production",
+      "front": "She or he was kind as a background characterization",
+      "back": "Era amable",
+      "example": "Era amable"
+    },
+    {
+      "id": "c4-u01-f12",
+      "unit": "c4-u01",
+      "kind": "recognition",
+      "front": "Fue amable en esa ocasión",
+      "back": "She or he was kind on that occasion",
+      "example": "Fue amable en esa ocasión"
+    },
+    {
+      "id": "c4-u01-f13",
+      "unit": "c4-u01",
+      "kind": "production",
+      "front": "I am not claiming it is the only cause",
+      "back": "No afirmo que sea la única causa",
+      "example": "No afirmo que sea la única causa"
+    },
+    {
+      "id": "c4-u01-f14",
+      "unit": "c4-u01",
+      "kind": "recognition",
+      "front": "¿Qué cambia entre estas versiones?",
+      "back": "What changes between these versions?",
+      "example": "¿Qué cambia entre estas versiones?"
+    },
+    {
+      "id": "c4-u01-f15",
+      "unit": "c4-u01",
+      "kind": "production",
+      "front": "The conclusion needs more support",
+      "back": "La conclusión requiere más apoyo",
+      "example": "La conclusión requiere más apoyo"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c4-u01-q01",
+      "type": "cloze",
+      "prompt": "Complete: Cuando ___ de noche, necesitaba descansar por la tarde. (trabajar, yo habitual past)",
+      "answers": [
+        "trabajaba"
+      ],
+      "explanation": "The imperfect presents the past work schedule as habitual background.",
+      "concept": "Three decisions at once"
+    },
+    {
+      "id": "c4-u01-q02",
+      "type": "cloze",
+      "prompt": "Complete: El año pasado ___ el horario durante dos meses. (ampliar, ellos bounded)",
+      "answers": [
+        "ampliaron"
+      ],
+      "explanation": "The preterite bounds the two-month trial as a completed episode.",
+      "concept": "Three decisions at once"
+    },
+    {
+      "id": "c4-u01-q03",
+      "type": "cloze",
+      "prompt": "Complete: Me preocupa que ___ los datos sin contexto. (interpretar, nosotros)",
+      "answers": [
+        "interpretemos"
+      ],
+      "explanation": "The evaluative concern selects a subjunctive dependent clause.",
+      "concept": "Three decisions at once"
+    },
+    {
+      "id": "c4-u01-q04",
+      "type": "cloze",
+      "prompt": "Complete: Antes de la consulta, ya ___ anunciado la prueba. (ellos)",
+      "answers": [
+        "habían"
+      ],
+      "explanation": "The announcement precedes a past reference point, so past perfect is appropriate.",
+      "concept": "Revisión con propósito"
+    },
+    {
+      "id": "c4-u01-q05",
+      "type": "cloze",
+      "prompt": "Complete: Según el informe, la prueba ___ poca asistencia. (tener, preterite)",
+      "answers": [
+        "tuvo"
+      ],
+      "explanation": "The report presents attendance in the trial as a bounded result.",
+      "concept": "Revisión con propósito"
+    },
+    {
+      "id": "c4-u01-q06",
+      "type": "cloze",
+      "prompt": "Complete: Es posible que la publicidad ___ insuficiente. (ser, present subjunctive)",
+      "answers": [
+        "sea"
+      ],
+      "explanation": "The possibility construction presents the explanation without asserting it as established.",
+      "concept": "Revisión con propósito"
+    },
+    {
+      "id": "c4-u01-q07",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: I used to work nights.",
+      "options": [
+        "No basta con una cifra",
+        "No afirmo que sea la única causa",
+        "Trabajaba de noche"
+      ],
+      "answers": [
+        "Trabajaba de noche"
+      ],
+      "explanation": "“Trabajaba de noche” expresses “I used to work nights”. “No basta con una cifra” instead means “One figure is not enough”. “No afirmo que sea la única causa” instead means “I am not claiming it is the only cause”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c4-u01-q08",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: They extended the hours.",
+      "options": [
+        "¿Qué cambia entre estas versiones?",
+        "Ampliaron el horario",
+        "Conviene precisar el contexto"
+      ],
+      "answers": [
+        "Ampliaron el horario"
+      ],
+      "explanation": "“Ampliaron el horario” expresses “They extended the hours”. “¿Qué cambia entre estas versiones?” instead means “What changes between these versions?”. “Conviene precisar el contexto” instead means “It is useful to specify the context”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c4-u01-q09",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: I worry that we may misinterpret the data.",
+      "options": [
+        "Me preocupa que interpretemos mal los datos",
+        "Era amable",
+        "La conclusión requiere más apoyo"
+      ],
+      "answers": [
+        "Me preocupa que interpretemos mal los datos"
+      ],
+      "explanation": "“Me preocupa que interpretemos mal los datos” expresses “I worry that we may misinterpret the data”. “Era amable” instead means “She or he was kind as a background characterization”. “La conclusión requiere más apoyo” instead means “The conclusion needs more support”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c4-u01-q10",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: They had already announced the trial.",
+      "options": [
+        "Fue amable en esa ocasión",
+        "Trabajaba de noche",
+        "Ya habían anunciado la prueba"
+      ],
+      "answers": [
+        "Ya habían anunciado la prueba"
+      ],
+      "explanation": "“Ya habían anunciado la prueba” expresses “They had already announced the trial”. “Fue amable en esa ocasión” instead means “She or he was kind on that occasion”. “Trabajaba de noche” instead means “I used to work nights”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c4-u01-q11",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: It had low attendance.",
+      "options": [
+        "Ampliaron el horario",
+        "Tuvo poca asistencia",
+        "No afirmo que sea la única causa"
+      ],
+      "answers": [
+        "Tuvo poca asistencia"
+      ],
+      "explanation": "“Tuvo poca asistencia” expresses “It had low attendance”. “Ampliaron el horario” instead means “They extended the hours”. “No afirmo que sea la única causa” instead means “I am not claiming it is the only cause”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c4-u01-q12",
+      "type": "matching",
+      "prompt": "Match each English meaning to its Spanish expression. Use each expression once.",
+      "answers": [
+        "[\"Tuvo poca asistencia\",\"Estas afirmaciones son compatibles\",\"No basta con una cifra\"]"
+      ],
+      "explanation": "“Tuvo poca asistencia” means “It had low attendance”. “Estas afirmaciones son compatibles” means “These claims are compatible”. “No basta con una cifra” means “One figure is not enough”. Each alternative belongs to a different meaning; check the whole phrase, including its grammatical person and register.",
+      "concept": "Meaning and register",
+      "pairs": [
+        {
+          "left": "It had low attendance",
+          "right": "Tuvo poca asistencia"
+        },
+        {
+          "left": "These claims are compatible",
+          "right": "Estas afirmaciones son compatibles"
+        },
+        {
+          "left": "One figure is not enough",
+          "right": "No basta con una cifra"
+        }
+      ]
+    }
+  ],
+  "homework": [
+    {
+      "id": "c4-u01-h1",
+      "skill": "Reading & writing",
+      "prompt": "Read the original text for this unit. Identify its situation, central message, and three supporting details. Then write a new version of 220–280 words for a different person or audience. Use the target patterns, change at least three facts, and explain two revisions.",
+      "model": "El ayuntamiento anuncia una consulta sobre el horario de una biblioteca. Una vecina cuenta: «Cuando trabajaba de noche, necesitaba un lugar tranquilo por la tarde. La biblioteca cerraba demasiado temprano». Otro vecino responde: «El año pasado ampliaron el horario durante dos meses y acudió poca gente». Una coordinadora añade: «Me preocupa que interpretemos esa prueba sin saber cómo se anunció». Las tres intervenciones pueden ser compatibles: describen una necesidad habitual, un episodio delimitado y una evaluación de la evidencia. Antes de concluir que ampliar el horario funciona o fracasa, el grupo debe precisar para quién, en qué período y bajo qué condiciones. Reescribe el caso como una noticia breve y luego como una recomendación; justifica los cambios de perspectiva.\n\nThis is the source model, not a text to submit unchanged. A successful adaptation retains the communicative purpose while changing relevant forms and facts. Compare with the worked examples for the reasons behind form choices.",
+      "rubric": "0–3 each: fulfills the specified purpose; organized and comprehensible; target forms support meaning; revisions are explained with examples. 0 = no evidence, 1 = substantial help needed, 2 = effective with some support, 3 = independently effective for this task. Record who evaluated the work."
+    },
+    {
+      "id": "c4-u01-h2",
+      "skill": "Listening",
+      "prompt": "Complete the resource assignment, or ask a willing reader to read the original text without showing it to you. First listen for the situation and purpose; listen again for three details and one contrast. Write a 60–100-word listening log naming the source, words actually heard, one uncertainty, and how you checked it. If using local synthesized speech, label it synthetic. Text-only preparation is not completed listening.",
+      "model": "A useful log separates the speaker’s message from your interpretation: “I heard [specific phrase]; I understood [claim]; I was uncertain about [word/relationship]; checking [text or partner] changed my interpretation to [correction].” Use the unit reading as an answer reference for a read-aloud version, never as evidence of an external speaker’s words.",
+      "rubric": "0–2 each: identifies source and listening conditions; retrieves central meaning; supports three details; checks a specific uncertainty. Do not count a copied transcript as independent comprehension."
+    },
+    {
+      "id": "c4-u01-h3",
+      "skill": "Speaking & interaction",
+      "prompt": "Discuss the library case with a partner. Defend two compatible interpretations, identify missing evidence, and rewrite one sentence to change viewpoint deliberately.",
+      "model": "Use the original reading/dialogue and the sentence-pattern cards as preparation. Make a brief outline, then put it away. Your partner should introduce a detail you did not prepare. Respond, request clarification if needed, and summarize what you agreed or still disagree about. Solo fallback: record two possible viewpoints and improvise a response after a pause; label it rehearsal.",
+      "rubric": "0–3 each: task fulfillment, comprehensibility, control of target language, responsiveness to another speaker. A partner or instructor should cite one example per score. Solo rehearsal provides no evidence for live responsiveness; mark that dimension not observed."
+    },
+    {
+      "id": "c4-u01-h4",
+      "skill": "Retrieval & reflection",
+      "prompt": "On a later day, retrieve six cards without looking. Use three in a fresh response to the practical task. Identify one recurring form error and one communication difficulty. Produce a corrected example, explain the reason, and schedule a specific follow-up exchange or listening session.",
+      "model": "Compare your response with these two models: Trabajaba de noche / Ampliaron el horario. A useful reflection explains the function, not just the spelling. Revisit the first worked item and create a different example of its principle.",
+      "rubric": "Report recall count separately from performance. Reflection is complete when it contains an observed difficulty, an explained correction, a fresh example, and an actionable next session."
+    }
+  ],
+  "task": "Discuss the library case with a partner. Defend two compatible interpretations, identify missing evidence, and rewrite one sentence to change viewpoint deliberately.",
+  "culture": "Public discussion may mix personal testimony, administrative data and political claims. Respect lived experience while checking what each type of evidence can establish; none automatically represents every resident.",
+  "selfAssessment": [
+    "I can explain how tense, aspect and mood change a message.",
+    "I can distinguish evidence from an attitude toward it.",
+    "I can revise a narrative for a different communicative purpose."
+  ],
+  "remediation": "Sort mistakes by form, meaning, and interaction. For form errors, explain a worked example and create a contrasting pair. For comprehension errors, replay a short segment or use a willing reader and verify your interpretation. For interaction difficulties, repeat the practical task with one new constraint. Compare evidence across days; repeated selection of a known answer alone is not mastery.",
+  "resources": [
+    "sd-mood"
+  ]
+}

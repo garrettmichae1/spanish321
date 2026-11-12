@@ -345,6 +345,30 @@
       ],
       "explanation": "“No me gusta” communicates “I do not like it.” The other choices communicate “I would like” and “Do you like coffee?”; those do not answer this prompt.",
       "concept": "Meaning in context"
+    },
+    {
+      "id": "c1-u09-q13",
+      "type": "matching",
+      "prompt": "Match each English meaning to its Spanish expression. Use each expression once.",
+      "answers": [
+        "[\"A Elena le gusta leer\",\"A mí también\",\"A mí sí\"]"
+      ],
+      "explanation": "“A Elena le gusta leer” means “Elena likes reading”. “A mí también” means “Me too (positive)”. “A mí sí” means “I do (contrasting)”. Each alternative belongs to a different meaning; check the whole phrase, including its grammatical person and register.",
+      "concept": "Meaning and register",
+      "pairs": [
+        {
+          "left": "Elena likes reading",
+          "right": "A Elena le gusta leer"
+        },
+        {
+          "left": "Me too (positive)",
+          "right": "A mí también"
+        },
+        {
+          "left": "I do (contrasting)",
+          "right": "A mí sí"
+        }
+      ]
     }
   ],
   "homework": [

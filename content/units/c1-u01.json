@@ -416,6 +416,30 @@
       ],
       "explanation": "Ene is the name of n. The task asks for letter names, not a pronunciation of the name.",
       "concept": "alphabet"
+    },
+    {
+      "id": "c1-u01-q16",
+      "type": "matching",
+      "prompt": "Match each English meaning to its Spanish expression. Use each expression once.",
+      "answers": [
+        "[\"Por favor\",\"De nada\",\"Sí\"]"
+      ],
+      "explanation": "“Por favor” means “Please”. “De nada” means “You’re welcome”. “Sí” means “Yes”. Each alternative belongs to a different meaning; check the whole phrase, including its grammatical person and register.",
+      "concept": "Meaning and register",
+      "pairs": [
+        {
+          "left": "Please",
+          "right": "Por favor"
+        },
+        {
+          "left": "You’re welcome",
+          "right": "De nada"
+        },
+        {
+          "left": "Yes",
+          "right": "Sí"
+        }
+      ]
     }
   ],
   "homework": [

@@ -1,0 +1,395 @@
+{
+  "id": "c3-u05",
+  "course": 3,
+  "number": 5,
+  "title": "Relative clauses",
+  "subtitle": "Connect ideas precisely",
+  "status": "authored",
+  "prerequisites": [
+    "c3-u04"
+  ],
+  "objectives": [
+    "Build relative clauses with que, quien and donde.",
+    "Distinguish identifying from supplementary information.",
+    "Repair an ambiguous reference."
+  ],
+  "warmup": "Retrieve two sentences and one repair strategy from c3-u04. Change the subject or situation in each sentence and explain what changed. Then read today’s objectives and predict where your existing language may be insufficient.",
+  "lectures": [
+    {
+      "title": "A noun and information about it",
+      "body": "A relative clause adds information to a noun: La persona que llamó es la coordinadora. Que can refer to people or things and is extremely common. Donde refers to a place: la biblioteca donde trabajamos. After a preposition, quien/quienes can refer to people: la colega con quien hablé. The forms el que, la que, los que and las que also appear after prepositions and when a noun is understood. Do not insert an extra subject pronoun modeled on English: la persona que ella llamó changes the relationship rather than simply repeating who."
+    },
+    {
+      "title": "What the commas mean",
+      "body": "Los estudiantes que terminaron salieron identifies the subset who finished. Los estudiantes, que terminaron, salieron adds a comment about the already identified group; context and punctuation change the claim. In speech, pauses and context perform part of this work. Place the relative clause near the noun it describes. If two antecedents are possible, rewrite: Hablé con la asistente de Ana, que vive aquí can be ambiguous about who lives here. A relative clause should reduce ambiguity, not hide it. Later units add mood contrasts for known and sought antecedents; first make the basic relationships explicit."
+    },
+    {
+      "title": "Which relative expression fits the relationship?",
+      "body": "For a basic identifying clause without a preposition, **que** is often the flexible choice: **La persona que llamó** and **El libro que compré**. After a preposition referring to a person, several constructions can be legitimate: **la persona con quien hablé**, **con la que hablé**, or **con la cual hablé**. They differ in frequency and style but share the relevant relationship. A controlled exercise should accept those alternatives unless it asks for a particular construction.\n\nPlace can similarly use **donde**, **en que** or **en el/la que** when the surrounding noun and preposition fit: **la sala donde trabajamos / en la que trabajamos**. Do not substitute donde for every relationship; time, reason and possession need their own constructions. At this stage, choose a construction you can use accurately and recognize alternatives in reading.\n\nPunctuation changes interpretation: **Los estudiantes que terminaron salieron** identifies a subset. **Los estudiantes, que terminaron, salieron** adds information about the identified group. Read each aloud and explain which students the speaker means before editing commas mechanically."
+    }
+  ],
+  "reading": "La biblioteca que visitamos tiene una sala donde los vecinos organizan talleres. La coordinadora con quien habló Nora explicó que el espacio pertenece a una asociación. Los voluntarios que pueden asistir los sábados ayudan con lectura infantil; los demás colaboran durante la semana. Nora envió un mensaje a Luis: «Conocí a la amiga de Marta que dirige el taller». Luis preguntó quién dirigía el taller, Marta o su amiga. Nora corrigió: «La directora del taller es una amiga de Marta. Hablé con ella». Identifica dos cláusulas que precisan un referente y explica por qué la última reformulación resulta más clara.",
+  "worked": [
+    {
+      "prompt": "Complete: La persona ___ llamó es Nora.",
+      "answer": "que",
+      "reason": "Que introduces a relative clause referring to the person who called."
+    },
+    {
+      "prompt": "Complete: La sala ___ trabajamos es pequeña.",
+      "answer": "donde",
+      "reason": "Donde links the activity to its place."
+    },
+    {
+      "prompt": "Complete: La colega con ___ hablé vive aquí.",
+      "answer": "quien",
+      "reason": "After con, quien is appropriate for a singular human antecedent."
+    },
+    {
+      "prompt": "Complete: Las personas con ___ hablé viven aquí.",
+      "answer": "quienes",
+      "reason": "Quienes agrees in number with the plural human antecedent after the preposition."
+    },
+    {
+      "prompt": "In “Los estudiantes que terminaron salieron”, does the relative clause identify a subset? Write sí or no.",
+      "answer": "sí",
+      "reason": "Without supplementary commas, the clause identifies which students left."
+    },
+    {
+      "prompt": "Complete: El libro del ___ hablamos está aquí.",
+      "answer": "que",
+      "reason": "Del combines de with el in the prepositional relative expression del que."
+    }
+  ],
+  "cards": [
+    {
+      "id": "c3-u05-f01",
+      "unit": "c3-u05",
+      "kind": "production",
+      "front": "The person who called",
+      "back": "La persona que llamó",
+      "example": "La persona que llamó dejó este número."
+    },
+    {
+      "id": "c3-u05-f02",
+      "unit": "c3-u05",
+      "kind": "recognition",
+      "front": "La sala donde trabajamos",
+      "back": "The room where we work",
+      "example": "La sala donde trabajamos tiene dos ventanas."
+    },
+    {
+      "id": "c3-u05-f03",
+      "unit": "c3-u05",
+      "kind": "production",
+      "front": "The colleague with whom I spoke",
+      "back": "La colega con quien hablé",
+      "example": "La colega con quien hablé confirmó la fecha."
+    },
+    {
+      "id": "c3-u05-f04",
+      "unit": "c3-u05",
+      "kind": "recognition",
+      "front": "Las personas con quienes hablé",
+      "back": "The people with whom I spoke",
+      "example": "Las personas con quienes hablé prefieren la tarde."
+    },
+    {
+      "id": "c3-u05-f05",
+      "unit": "c3-u05",
+      "kind": "production",
+      "front": "The students who finished",
+      "back": "Los estudiantes que terminaron",
+      "example": "Los estudiantes que terminaron entregaron sus trabajos."
+    },
+    {
+      "id": "c3-u05-f06",
+      "unit": "c3-u05",
+      "kind": "recognition",
+      "front": "El libro del que hablamos",
+      "back": "The book we talked about",
+      "example": "El libro del que hablamos está en la biblioteca."
+    },
+    {
+      "id": "c3-u05-f07",
+      "unit": "c3-u05",
+      "kind": "production",
+      "front": "The library we visited",
+      "back": "La biblioteca que visitamos",
+      "example": "La biblioteca que visitamos abre los sábados."
+    },
+    {
+      "id": "c3-u05-f08",
+      "unit": "c3-u05",
+      "kind": "recognition",
+      "front": "El lugar donde nos reunimos",
+      "back": "The place where we meet",
+      "example": "El lugar donde nos reunimos es accesible."
+    },
+    {
+      "id": "c3-u05-f09",
+      "unit": "c3-u05",
+      "kind": "production",
+      "front": "I do not know whom you mean",
+      "back": "No sé a quién te refieres",
+      "example": "No sé a quién te refieres"
+    },
+    {
+      "id": "c3-u05-f10",
+      "unit": "c3-u05",
+      "kind": "recognition",
+      "front": "Me refiero a la coordinadora",
+      "back": "I mean the coordinator",
+      "example": "Me refiero a la coordinadora"
+    },
+    {
+      "id": "c3-u05-f11",
+      "unit": "c3-u05",
+      "kind": "production",
+      "front": "The feminine one beside the door",
+      "back": "La que está junto a la puerta",
+      "example": "La que está junto a la puerta"
+    },
+    {
+      "id": "c3-u05-f12",
+      "unit": "c3-u05",
+      "kind": "recognition",
+      "front": "Los que llegan temprano",
+      "back": "Those who arrive early",
+      "example": "Los que llegan temprano pueden preparar la sala."
+    },
+    {
+      "id": "c3-u05-f13",
+      "unit": "c3-u05",
+      "kind": "production",
+      "front": "To avoid confusion",
+      "back": "Para evitar la confusión",
+      "example": "Para evitar la confusión, repite el nombre de la persona."
+    },
+    {
+      "id": "c3-u05-f14",
+      "unit": "c3-u05",
+      "kind": "recognition",
+      "front": "Voy a reformularlo",
+      "back": "I am going to rephrase it",
+      "example": "Voy a reformularlo"
+    },
+    {
+      "id": "c3-u05-f15",
+      "unit": "c3-u05",
+      "kind": "production",
+      "front": "The person you are talking about",
+      "back": "La persona de la que hablas",
+      "example": "La persona de la que hablas"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c3-u05-q01",
+      "type": "cloze",
+      "prompt": "Complete: La persona ___ llamó es Nora.",
+      "answers": [
+        "que"
+      ],
+      "explanation": "Que introduces a relative clause referring to the person who called.",
+      "concept": "A noun and information about it"
+    },
+    {
+      "id": "c3-u05-q02",
+      "type": "cloze",
+      "prompt": "Complete: La sala ___ trabajamos es pequeña.",
+      "answers": [
+        "donde",
+        "en que",
+        "en la que",
+        "en la cual"
+      ],
+      "explanation": "Donde links the activity to its place.",
+      "concept": "A noun and information about it"
+    },
+    {
+      "id": "c3-u05-q03",
+      "type": "cloze",
+      "prompt": "Complete: La colega con ___ hablé vive aquí.",
+      "answers": [
+        "quien",
+        "la que",
+        "la cual"
+      ],
+      "explanation": "After con, quien is appropriate for a singular human antecedent.",
+      "concept": "A noun and information about it"
+    },
+    {
+      "id": "c3-u05-q04",
+      "type": "cloze",
+      "prompt": "Complete: Las personas con ___ hablé viven aquí.",
+      "answers": [
+        "quienes",
+        "las que",
+        "las cuales"
+      ],
+      "explanation": "Quienes agrees in number with the plural human antecedent after the preposition.",
+      "concept": "What the commas mean"
+    },
+    {
+      "id": "c3-u05-q05",
+      "type": "typed",
+      "prompt": "In “Los estudiantes que terminaron salieron”, does the relative clause identify a subset? Write sí or no.",
+      "answers": [
+        "sí"
+      ],
+      "explanation": "Without supplementary commas, the clause identifies which students left.",
+      "concept": "What the commas mean"
+    },
+    {
+      "id": "c3-u05-q06",
+      "type": "cloze",
+      "prompt": "Complete: El libro del ___ hablamos está aquí.",
+      "answers": [
+        "que"
+      ],
+      "explanation": "Del combines de with el in the prepositional relative expression del que.",
+      "concept": "What the commas mean"
+    },
+    {
+      "id": "c3-u05-q07",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: The person who called.",
+      "options": [
+        "No sé a quién te refieres",
+        "Para evitar la confusión",
+        "La persona que llamó"
+      ],
+      "answers": [
+        "La persona que llamó"
+      ],
+      "explanation": "“La persona que llamó” expresses “The person who called”. “No sé a quién te refieres” instead means “I do not know whom you mean”. “Para evitar la confusión” instead means “To avoid confusion”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c3-u05-q08",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: The room where we work.",
+      "options": [
+        "Voy a reformularlo",
+        "La sala donde trabajamos",
+        "Me refiero a la coordinadora"
+      ],
+      "answers": [
+        "La sala donde trabajamos"
+      ],
+      "explanation": "“La sala donde trabajamos” expresses “The room where we work”. “Voy a reformularlo” instead means “I am going to rephrase it”. “Me refiero a la coordinadora” instead means “I mean the coordinator”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c3-u05-q09",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: The colleague with whom I spoke.",
+      "options": [
+        "La colega con quien hablé",
+        "La que está junto a la puerta",
+        "La persona de la que hablas"
+      ],
+      "answers": [
+        "La colega con quien hablé"
+      ],
+      "explanation": "“La colega con quien hablé” expresses “The colleague with whom I spoke”. “La que está junto a la puerta” instead means “The feminine one beside the door”. “La persona de la que hablas” instead means “The person you are talking about”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c3-u05-q10",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: The people with whom I spoke.",
+      "options": [
+        "Los que llegan temprano",
+        "La persona que llamó",
+        "Las personas con quienes hablé"
+      ],
+      "answers": [
+        "Las personas con quienes hablé"
+      ],
+      "explanation": "“Las personas con quienes hablé” expresses “The people with whom I spoke”. “Los que llegan temprano” instead means “Those who arrive early”. “La persona que llamó” instead means “The person who called”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c3-u05-q11",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: The students who finished.",
+      "options": [
+        "La sala donde trabajamos",
+        "Los estudiantes que terminaron",
+        "Para evitar la confusión"
+      ],
+      "answers": [
+        "Los estudiantes que terminaron"
+      ],
+      "explanation": "“Los estudiantes que terminaron” expresses “The students who finished”. “La sala donde trabajamos” instead means “The room where we work”. “Para evitar la confusión” instead means “To avoid confusion”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c3-u05-q12",
+      "type": "matching",
+      "prompt": "Match each English meaning to its Spanish expression. Use each expression once.",
+      "answers": [
+        "[\"Los estudiantes que terminaron\",\"La biblioteca que visitamos\",\"No sé a quién te refieres\"]"
+      ],
+      "explanation": "“Los estudiantes que terminaron” means “The students who finished”. “La biblioteca que visitamos” means “The library we visited”. “No sé a quién te refieres” means “I do not know whom you mean”. Each alternative belongs to a different meaning; check the whole phrase, including its grammatical person and register.",
+      "concept": "Meaning and register",
+      "pairs": [
+        {
+          "left": "The students who finished",
+          "right": "Los estudiantes que terminaron"
+        },
+        {
+          "left": "The library we visited",
+          "right": "La biblioteca que visitamos"
+        },
+        {
+          "left": "I do not know whom you mean",
+          "right": "No sé a quién te refieres"
+        }
+      ]
+    }
+  ],
+  "homework": [
+    {
+      "id": "c3-u05-h1",
+      "skill": "Reading & writing",
+      "prompt": "Read the original text for this unit. Identify its situation, central message, and three supporting details. Then write a new version of 150–200 words for a different person or audience. Use the target patterns, change at least three facts, and explain two revisions.",
+      "model": "La biblioteca que visitamos tiene una sala donde los vecinos organizan talleres. La coordinadora con quien habló Nora explicó que el espacio pertenece a una asociación. Los voluntarios que pueden asistir los sábados ayudan con lectura infantil; los demás colaboran durante la semana. Nora envió un mensaje a Luis: «Conocí a la amiga de Marta que dirige el taller». Luis preguntó quién dirigía el taller, Marta o su amiga. Nora corrigió: «La directora del taller es una amiga de Marta. Hablé con ella». Identifica dos cláusulas que precisan un referente y explica por qué la última reformulación resulta más clara.\n\nThis is the source model, not a text to submit unchanged. A successful adaptation retains the communicative purpose while changing relevant forms and facts. Compare with the worked examples for the reasons behind form choices.",
+      "rubric": "0–3 each: fulfills the specified purpose; organized and comprehensible; target forms support meaning; revisions are explained with examples. 0 = no evidence, 1 = substantial help needed, 2 = effective with some support, 3 = independently effective for this task. Record who evaluated the work."
+    },
+    {
+      "id": "c3-u05-h2",
+      "skill": "Listening",
+      "prompt": "Complete the resource assignment, or ask a willing reader to read the original text without showing it to you. First listen for the situation and purpose; listen again for three details and one contrast. Write a 60–100-word listening log naming the source, words actually heard, one uncertainty, and how you checked it. If using local synthesized speech, label it synthetic. Text-only preparation is not completed listening.",
+      "model": "A useful log separates the speaker’s message from your interpretation: “I heard [specific phrase]; I understood [claim]; I was uncertain about [word/relationship]; checking [text or partner] changed my interpretation to [correction].” Use the unit reading as an answer reference for a read-aloud version, never as evidence of an external speaker’s words.",
+      "rubric": "0–2 each: identifies source and listening conditions; retrieves central meaning; supports three details; checks a specific uncertainty. Do not count a copied transcript as independent comprehension."
+    },
+    {
+      "id": "c3-u05-h3",
+      "skill": "Speaking & interaction",
+      "prompt": "Describe three people or objects so a partner can identify them without pointing. Include one deliberate ambiguity, invite clarification, and rewrite the sentence clearly.",
+      "model": "Use the original reading/dialogue and the sentence-pattern cards as preparation. Make a brief outline, then put it away. Your partner should introduce a detail you did not prepare. Respond, request clarification if needed, and summarize what you agreed or still disagree about. Solo fallback: record two possible viewpoints and improvise a response after a pause; label it rehearsal.",
+      "rubric": "0–3 each: task fulfillment, comprehensibility, control of target language, responsiveness to another speaker. A partner or instructor should cite one example per score. Solo rehearsal provides no evidence for live responsiveness; mark that dimension not observed."
+    },
+    {
+      "id": "c3-u05-h4",
+      "skill": "Retrieval & reflection",
+      "prompt": "On a later day, retrieve six cards without looking. Use three in a fresh response to the practical task. Identify one recurring form error and one communication difficulty. Produce a corrected example, explain the reason, and schedule a specific follow-up exchange or listening session.",
+      "model": "Compare your response with these two models: La persona que llamó / La sala donde trabajamos. A useful reflection explains the function, not just the spelling. Revisit the first worked item and create a different example of its principle.",
+      "rubric": "Report recall count separately from performance. Reflection is complete when it contains an observed difficulty, an explained correction, a fresh example, and an actionable next session."
+    }
+  ],
+  "task": "Describe three people or objects so a partner can identify them without pointing. Include one deliberate ambiguity, invite clarification, and rewrite the sentence clearly.",
+  "culture": "Naming conventions vary, including multiple given names and surnames. When identifying someone, ask how they prefer to be named and avoid assuming that the last written word is always their only surname.",
+  "selfAssessment": [
+    "I can build relative clauses with que, quien and donde.",
+    "I can distinguish identifying from supplementary information.",
+    "I can repair an ambiguous reference."
+  ],
+  "remediation": "Sort mistakes by form, meaning, and interaction. For form errors, explain a worked example and create a contrasting pair. For comprehension errors, replay a short segment or use a willing reader and verify your interpretation. For interaction difficulties, repeat the practical task with one new constraint. Compare evidence across days; repeated selection of a known answer alone is not mastery.",
+  "resources": [
+    "sd-relative"
+  ]
+}

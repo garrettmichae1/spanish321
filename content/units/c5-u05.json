@@ -1,0 +1,385 @@
+{
+  "id": "c5-u05",
+  "course": 5,
+  "number": 5,
+  "title": "Academic & professional writing",
+  "subtitle": "Write for a reader who must act",
+  "status": "authored",
+  "prerequisites": [
+    "c5-u04"
+  ],
+  "objectives": [
+    "Plan academic or professional writing around audience and purpose.",
+    "Use paragraph structure and appropriate qualification.",
+    "Revise for coherence, accuracy and traceable sources."
+  ],
+  "warmup": "Retrieve two sentences and one repair strategy from c5-u04. Change the subject or situation in each sentence and explain what changed. Then read today’s objectives and predict where your existing language may be insufficient.",
+  "lectures": [
+    {
+      "title": "El lector necesita una ruta",
+      "body": "Antes de escribir, define qué debe comprender o hacer el lector. Un informe académico puede desarrollar una pregunta; un memorando profesional suele destacar una decisión o acción. En ambos casos, cada párrafo necesita una función: plantear, apoyar, matizar, comparar o concluir. La primera frase debe orientar, pero no todas las frases iniciales requieren una fórmula rígida. Conecta la información nueva con lo ya establecido y evita referencias vagas como esto cuando hay varios antecedentes posibles. Una estructura clara reduce la carga del lector sin simplificar indebidamente la complejidad del tema."
+    },
+    {
+      "title": "Revisar por capas",
+      "body": "Primero revisa la afirmación central y la evidencia; después la organización; finalmente formas verbales, concordancia, léxico y puntuación. Cambiar sinónimos antes de resolver un argumento confuso suele ser poco eficaz. Calibra la certeza con parece indicar, respalda o demuestra según la evidencia, no para sonar prudente en todas las frases. Una recomendación debe identificar responsable, acción y plazo cuando esos datos estén disponibles. Marca los datos pendientes y evita citar una fuente que no consultaste como si la hubieras leído. Conserva un registro de dos revisiones sustantivas y explica qué problema de comprensión resolvieron."
+    }
+  ],
+  "reading": "**Memorando original.** Se recomienda realizar una prueba de inscripción simplificada durante dos sesiones. La observación inicial sugiere que parte de las consultas se debe a instrucciones ambiguas, aunque todavía no permite estimar qué proporción de visitantes encuentra esa dificultad. La prueba consistiría en reorganizar una página, explicar el primer paso con un ejemplo y ofrecer una alternativa oral. El equipo de recepción registraría qué preguntas se repiten, sin anotar información personal innecesaria. Antes de empezar, coordinación deberá confirmar quién puede preparar el material y revisar la accesibilidad de la alternativa oral. Al terminar, se compararán las dificultades observadas y se decidirá si conviene ampliar la prueba. Esta recomendación no presupone que el formulario sea la única barrera. Su alcance limitado permite examinar una hipótesis concreta antes de invertir en una reforma más amplia. Identifica la recomendación, el apoyo, la limitación, las responsabilidades y el criterio de revisión.",
+  "worked": [
+    {
+      "prompt": "Complete: Cada párrafo debe cumplir una ___. (function)",
+      "answer": "función",
+      "reason": "A paragraph’s role should contribute to the reader’s route through the argument."
+    },
+    {
+      "prompt": "Complete: La observación ___ una dificultad, pero no la cuantifica. (suggests)",
+      "answer": "sugiere",
+      "reason": "Sugiere matches limited evidence without claiming measurement or proof."
+    },
+    {
+      "prompt": "Complete: Antes de empezar, coordinación ___ confirmar el responsable. (deber, future)",
+      "answer": "deberá",
+      "reason": "The future establishes a necessary next action in this plan."
+    },
+    {
+      "prompt": "Should stylistic synonym changes take priority over an unsupported central argument? Write sí or no.",
+      "answer": "no",
+      "reason": "Structural and evidential problems should be addressed before surface-level polish."
+    },
+    {
+      "prompt": "Complete: Los datos no comprobados deben marcarse como ___. (pending)",
+      "answer": "pendientes",
+      "reason": "Pending data should remain visibly unresolved rather than being invented or implied verified."
+    },
+    {
+      "prompt": "Complete: Recomiendo que se ___ una alternativa oral. (ofrecer)",
+      "answer": "ofrezca",
+      "reason": "The recommendation takes subjunctive; ofrecer uses the irregular stem ofrezc-."
+    }
+  ],
+  "cards": [
+    {
+      "id": "c5-u05-f01",
+      "unit": "c5-u05",
+      "kind": "production",
+      "front": "Each paragraph serves a function",
+      "back": "Cada párrafo cumple una función",
+      "example": "Cada párrafo cumple una función"
+    },
+    {
+      "id": "c5-u05-f02",
+      "unit": "c5-u05",
+      "kind": "recognition",
+      "front": "La observación sugiere una dificultad",
+      "back": "The observation suggests a difficulty",
+      "example": "La observación sugiere una dificultad"
+    },
+    {
+      "id": "c5-u05-f03",
+      "unit": "c5-u05",
+      "kind": "production",
+      "front": "Coordination will need to confirm it",
+      "back": "Coordinación deberá confirmarlo",
+      "example": "Coordinación deberá confirmarlo"
+    },
+    {
+      "id": "c5-u05-f04",
+      "unit": "c5-u05",
+      "kind": "recognition",
+      "front": "La revisión debe empezar por el argumento",
+      "back": "Revision should begin with the argument",
+      "example": "La revisión debe empezar por el argumento"
+    },
+    {
+      "id": "c5-u05-f05",
+      "unit": "c5-u05",
+      "kind": "production",
+      "front": "The data remain pending",
+      "back": "Los datos siguen pendientes",
+      "example": "Los datos siguen pendientes"
+    },
+    {
+      "id": "c5-u05-f06",
+      "unit": "c5-u05",
+      "kind": "recognition",
+      "front": "Recomiendo que se ofrezca una alternativa",
+      "back": "I recommend offering an alternative",
+      "example": "Recomiendo que se ofrezca una alternativa"
+    },
+    {
+      "id": "c5-u05-f07",
+      "unit": "c5-u05",
+      "kind": "production",
+      "front": "The reader needs a clear route",
+      "back": "El lector necesita una ruta clara",
+      "example": "El lector necesita una ruta clara"
+    },
+    {
+      "id": "c5-u05-f08",
+      "unit": "c5-u05",
+      "kind": "recognition",
+      "front": "La referencia de esto es ambigua",
+      "back": "The referent of this is ambiguous",
+      "example": "La referencia de esto es ambigua"
+    },
+    {
+      "id": "c5-u05-f09",
+      "unit": "c5-u05",
+      "kind": "production",
+      "front": "The conclusion is overstated",
+      "back": "La conclusión está sobredimensionada",
+      "example": "La conclusión está sobredimensionada"
+    },
+    {
+      "id": "c5-u05-f10",
+      "unit": "c5-u05",
+      "kind": "recognition",
+      "front": "Esta revisión aclara la responsabilidad",
+      "back": "This revision clarifies responsibility",
+      "example": "Esta revisión aclara la responsabilidad"
+    },
+    {
+      "id": "c5-u05-f11",
+      "unit": "c5-u05",
+      "kind": "production",
+      "front": "The evidence supports a limited measure",
+      "back": "La evidencia respalda una medida limitada",
+      "example": "La evidencia respalda una medida limitada"
+    },
+    {
+      "id": "c5-u05-f12",
+      "unit": "c5-u05",
+      "kind": "recognition",
+      "front": "No consulté la fuente original",
+      "back": "I did not consult the original source",
+      "example": "No consulté la fuente original"
+    },
+    {
+      "id": "c5-u05-f13",
+      "unit": "c5-u05",
+      "kind": "production",
+      "front": "The proposed action is concrete",
+      "back": "La acción propuesta es concreta",
+      "example": "La acción propuesta es concreta"
+    },
+    {
+      "id": "c5-u05-f14",
+      "unit": "c5-u05",
+      "kind": "recognition",
+      "front": "El plazo debe confirmarse",
+      "back": "The deadline must be confirmed",
+      "example": "El plazo debe confirmarse"
+    },
+    {
+      "id": "c5-u05-f15",
+      "unit": "c5-u05",
+      "kind": "production",
+      "front": "I will keep the revision record",
+      "back": "Conservaré el registro de cambios",
+      "example": "Conservaré el registro de cambios"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c5-u05-q01",
+      "type": "cloze",
+      "prompt": "Complete: Cada párrafo debe cumplir una ___. (function)",
+      "answers": [
+        "función",
+        "finalidad"
+      ],
+      "explanation": "A paragraph’s role should contribute to the reader’s route through the argument.",
+      "concept": "El lector necesita una ruta"
+    },
+    {
+      "id": "c5-u05-q02",
+      "type": "cloze",
+      "prompt": "Complete: La observación ___ una dificultad, pero no la cuantifica. (suggests)",
+      "answers": [
+        "sugiere"
+      ],
+      "explanation": "Sugiere matches limited evidence without claiming measurement or proof.",
+      "concept": "El lector necesita una ruta"
+    },
+    {
+      "id": "c5-u05-q03",
+      "type": "cloze",
+      "prompt": "Complete: Antes de empezar, coordinación ___ confirmar el responsable. (deber, future)",
+      "answers": [
+        "deberá"
+      ],
+      "explanation": "The future establishes a necessary next action in this plan.",
+      "concept": "El lector necesita una ruta"
+    },
+    {
+      "id": "c5-u05-q04",
+      "type": "typed",
+      "prompt": "Should stylistic synonym changes take priority over an unsupported central argument? Write sí or no.",
+      "answers": [
+        "no"
+      ],
+      "explanation": "Structural and evidential problems should be addressed before surface-level polish.",
+      "concept": "Revisar por capas"
+    },
+    {
+      "id": "c5-u05-q05",
+      "type": "cloze",
+      "prompt": "Complete: Los datos no comprobados deben marcarse como ___. (pending)",
+      "answers": [
+        "pendientes"
+      ],
+      "explanation": "Pending data should remain visibly unresolved rather than being invented or implied verified.",
+      "concept": "Revisar por capas"
+    },
+    {
+      "id": "c5-u05-q06",
+      "type": "cloze",
+      "prompt": "Complete: Recomiendo que se ___ una alternativa oral. (ofrecer)",
+      "answers": [
+        "ofrezca"
+      ],
+      "explanation": "The recommendation takes subjunctive; ofrecer uses the irregular stem ofrezc-.",
+      "concept": "Revisar por capas"
+    },
+    {
+      "id": "c5-u05-q07",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: Each paragraph serves a function.",
+      "options": [
+        "La conclusión está sobredimensionada",
+        "La acción propuesta es concreta",
+        "Cada párrafo cumple una función"
+      ],
+      "answers": [
+        "Cada párrafo cumple una función"
+      ],
+      "explanation": "“Cada párrafo cumple una función” expresses “Each paragraph serves a function”. “La conclusión está sobredimensionada” instead means “The conclusion is overstated”. “La acción propuesta es concreta” instead means “The proposed action is concrete”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c5-u05-q08",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: The observation suggests a difficulty.",
+      "options": [
+        "El plazo debe confirmarse",
+        "La observación sugiere una dificultad",
+        "Esta revisión aclara la responsabilidad"
+      ],
+      "answers": [
+        "La observación sugiere una dificultad"
+      ],
+      "explanation": "“La observación sugiere una dificultad” expresses “The observation suggests a difficulty”. “El plazo debe confirmarse” instead means “The deadline must be confirmed”. “Esta revisión aclara la responsabilidad” instead means “This revision clarifies responsibility”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c5-u05-q09",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: Coordination will need to confirm it.",
+      "options": [
+        "Coordinación deberá confirmarlo",
+        "La evidencia respalda una medida limitada",
+        "Conservaré el registro de cambios"
+      ],
+      "answers": [
+        "Coordinación deberá confirmarlo"
+      ],
+      "explanation": "“Coordinación deberá confirmarlo” expresses “Coordination will need to confirm it”. “La evidencia respalda una medida limitada” instead means “The evidence supports a limited measure”. “Conservaré el registro de cambios” instead means “I will keep the revision record”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c5-u05-q10",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: Revision should begin with the argument.",
+      "options": [
+        "No consulté la fuente original",
+        "Cada párrafo cumple una función",
+        "La revisión debe empezar por el argumento"
+      ],
+      "answers": [
+        "La revisión debe empezar por el argumento"
+      ],
+      "explanation": "“La revisión debe empezar por el argumento” expresses “Revision should begin with the argument”. “No consulté la fuente original” instead means “I did not consult the original source”. “Cada párrafo cumple una función” instead means “Each paragraph serves a function”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c5-u05-q11",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: The data remain pending.",
+      "options": [
+        "La observación sugiere una dificultad",
+        "Los datos siguen pendientes",
+        "La acción propuesta es concreta"
+      ],
+      "answers": [
+        "Los datos siguen pendientes"
+      ],
+      "explanation": "“Los datos siguen pendientes” expresses “The data remain pending”. “La observación sugiere una dificultad” instead means “The observation suggests a difficulty”. “La acción propuesta es concreta” instead means “The proposed action is concrete”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c5-u05-q12",
+      "type": "matching",
+      "prompt": "Match each English meaning to its Spanish expression. Use each expression once.",
+      "answers": [
+        "[\"Los datos siguen pendientes\",\"El lector necesita una ruta clara\",\"La conclusión está sobredimensionada\"]"
+      ],
+      "explanation": "“Los datos siguen pendientes” means “The data remain pending”. “El lector necesita una ruta clara” means “The reader needs a clear route”. “La conclusión está sobredimensionada” means “The conclusion is overstated”. Each alternative belongs to a different meaning; check the whole phrase, including its grammatical person and register.",
+      "concept": "Meaning and register",
+      "pairs": [
+        {
+          "left": "The data remain pending",
+          "right": "Los datos siguen pendientes"
+        },
+        {
+          "left": "The reader needs a clear route",
+          "right": "El lector necesita una ruta clara"
+        },
+        {
+          "left": "The conclusion is overstated",
+          "right": "La conclusión está sobredimensionada"
+        }
+      ]
+    }
+  ],
+  "homework": [
+    {
+      "id": "c5-u05-h1",
+      "skill": "Reading & writing",
+      "prompt": "Read the original text for this unit. Identify its situation, central message, and three supporting details. Then write a new version of 300–400 words for a different person or audience. Use the target patterns, change at least three facts, and explain two revisions.",
+      "model": "**Memorando original.** Se recomienda realizar una prueba de inscripción simplificada durante dos sesiones. La observación inicial sugiere que parte de las consultas se debe a instrucciones ambiguas, aunque todavía no permite estimar qué proporción de visitantes encuentra esa dificultad. La prueba consistiría en reorganizar una página, explicar el primer paso con un ejemplo y ofrecer una alternativa oral. El equipo de recepción registraría qué preguntas se repiten, sin anotar información personal innecesaria. Antes de empezar, coordinación deberá confirmar quién puede preparar el material y revisar la accesibilidad de la alternativa oral. Al terminar, se compararán las dificultades observadas y se decidirá si conviene ampliar la prueba. Esta recomendación no presupone que el formulario sea la única barrera. Su alcance limitado permite examinar una hipótesis concreta antes de invertir en una reforma más amplia. Identifica la recomendación, el apoyo, la limitación, las responsabilidades y el criterio de revisión.\n\nThis is the source model, not a text to submit unchanged. A successful adaptation retains the communicative purpose while changing relevant forms and facts. Compare with the worked examples for the reasons behind form choices.",
+      "rubric": "0–3 each: fulfills the specified purpose; organized and comprehensible; target forms support meaning; revisions are explained with examples. 0 = no evidence, 1 = substantial help needed, 2 = effective with some support, 3 = independently effective for this task. Record who evaluated the work."
+    },
+    {
+      "id": "c5-u05-h2",
+      "skill": "Listening",
+      "prompt": "Complete the resource assignment, or ask a willing reader to read the original text without showing it to you. First listen for the situation and purpose; listen again for three details and one contrast. Write a 60–100-word listening log naming the source, words actually heard, one uncertainty, and how you checked it. If using local synthesized speech, label it synthetic. Text-only preparation is not completed listening.",
+      "model": "A useful log separates the speaker’s message from your interpretation: “I heard [specific phrase]; I understood [claim]; I was uncertain about [word/relationship]; checking [text or partner] changed my interpretation to [correction].” Use the unit reading as an answer reference for a read-aloud version, never as evidence of an external speaker’s words.",
+      "rubric": "0–2 each: identifies source and listening conditions; retrieves central meaning; supports three details; checks a specific uncertainty. Do not count a copied transcript as independent comprehension."
+    },
+    {
+      "id": "c5-u05-h3",
+      "skill": "Speaking & interaction",
+      "prompt": "Write a 400–500-word academic briefing or professional memo. Have a partner identify its purpose, central claim, requested action and unresolved questions, then revise two substantive passages.",
+      "model": "Use the original reading/dialogue and the sentence-pattern cards as preparation. Make a brief outline, then put it away. Your partner should introduce a detail you did not prepare. Respond, request clarification if needed, and summarize what you agreed or still disagree about. Solo fallback: record two possible viewpoints and improvise a response after a pause; label it rehearsal.",
+      "rubric": "0–3 each: task fulfillment, comprehensibility, control of target language, responsiveness to another speaker. A partner or instructor should cite one example per score. Solo rehearsal provides no evidence for live responsiveness; mark that dimension not observed."
+    },
+    {
+      "id": "c5-u05-h4",
+      "skill": "Retrieval & reflection",
+      "prompt": "On a later day, retrieve six cards without looking. Use three in a fresh response to the practical task. Identify one recurring form error and one communication difficulty. Produce a corrected example, explain the reason, and schedule a specific follow-up exchange or listening session.",
+      "model": "Compare your response with these two models: Cada párrafo cumple una función / La observación sugiere una dificultad. A useful reflection explains the function, not just the spelling. Revisit the first worked item and create a different example of its principle.",
+      "rubric": "Report recall count separately from performance. Reflection is complete when it contains an observed difficulty, an explained correction, a fresh example, and an actionable next session."
+    }
+  ],
+  "task": "Write a 400–500-word academic briefing or professional memo. Have a partner identify its purpose, central claim, requested action and unresolved questions, then revise two substantive passages.",
+  "culture": "Professional genres differ by organization and academic conventions by discipline. Ask for the actual audience’s expectations rather than treating one email or essay template as universally authoritative.",
+  "selfAssessment": [
+    "I can plan academic or professional writing around audience and purpose.",
+    "I can use paragraph structure and appropriate qualification.",
+    "I can revise for coherence, accuracy and traceable sources."
+  ],
+  "remediation": "Sort mistakes by form, meaning, and interaction. For form errors, explain a worked example and create a contrasting pair. For comprehension errors, replay a short segment or use a willing reader and verify your interpretation. For interaction difficulties, repeat the practical task with one new constraint. Compare evidence across days; repeated selection of a known answer alone is not mastery.",
+  "resources": [
+    "fundea"
+  ]
+}

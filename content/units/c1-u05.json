@@ -345,6 +345,30 @@
       ],
       "explanation": "“¿Trabajas aquí?” communicates “Do you work here?.” The other choices communicate “Where do you live?” and “I live in Quito”; those do not answer this prompt.",
       "concept": "Meaning in context"
+    },
+    {
+      "id": "c1-u05-q13",
+      "type": "matching",
+      "prompt": "Match each English meaning to its Spanish expression. Use each expression once.",
+      "answers": [
+        "[\"Trabajan aquí\",\"No trabajo los domingos\",\"Todos los días\"]"
+      ],
+      "explanation": "“Trabajan aquí” means “They work here”. “No trabajo los domingos” means “I do not work on Sundays”. “Todos los días” means “Every day”. Each alternative belongs to a different meaning; check the whole phrase, including its grammatical person and register.",
+      "concept": "Meaning and register",
+      "pairs": [
+        {
+          "left": "They work here",
+          "right": "Trabajan aquí"
+        },
+        {
+          "left": "I do not work on Sundays",
+          "right": "No trabajo los domingos"
+        },
+        {
+          "left": "Every day",
+          "right": "Todos los días"
+        }
+      ]
     }
   ],
   "homework": [

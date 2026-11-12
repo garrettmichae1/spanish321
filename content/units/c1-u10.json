@@ -344,6 +344,30 @@
       ],
       "explanation": "“Quiero caminar” communicates “I want to walk.” The other choices communicate “At the end of the day” and “We get up”; those do not answer this prompt.",
       "concept": "Meaning in context"
+    },
+    {
+      "id": "c1-u10-q13",
+      "type": "matching",
+      "prompt": "Match each English meaning to its Spanish expression. Use each expression once.",
+      "answers": [
+        "[\"Voy al trabajo\",\"Queremos estudiar\",\"Pido ayuda\"]"
+      ],
+      "explanation": "“Voy al trabajo” means “I go to work”. “Queremos estudiar” means “We want to study”. “Pido ayuda” means “I ask for help”. Each alternative belongs to a different meaning; check the whole phrase, including its grammatical person and register.",
+      "concept": "Meaning and register",
+      "pairs": [
+        {
+          "left": "I go to work",
+          "right": "Voy al trabajo"
+        },
+        {
+          "left": "We want to study",
+          "right": "Queremos estudiar"
+        },
+        {
+          "left": "I ask for help",
+          "right": "Pido ayuda"
+        }
+      ]
     }
   ],
   "homework": [

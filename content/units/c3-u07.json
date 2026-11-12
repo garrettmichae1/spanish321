@@ -1,0 +1,388 @@
+{
+  "id": "c3-u07",
+  "course": 3,
+  "number": 7,
+  "title": "Present subjunctive",
+  "subtitle": "Mood expresses a speaker’s stance",
+  "status": "authored",
+  "prerequisites": [
+    "c3-u06"
+  ],
+  "objectives": [
+    "Form common present subjunctives.",
+    "Contrast asserted information with wishes or evaluation.",
+    "Choose an infinitive when the subject remains the same."
+  ],
+  "warmup": "Retrieve two sentences and one repair strategy from c3-u06. Change the subject or situation in each sentence and explain what changed. Then read today’s objectives and predict where your existing language may be insufficient.",
+  "lectures": [
+    {
+      "title": "Build the form, then ask why",
+      "body": "For many verbs, start from present yo, remove o and use opposite-vowel endings: hablar → hable, hables, hable, hablemos, habléis, hablen; comer → coma, comas, coma, comamos, comáis, coman. Irregular yo stems carry over: tenga, haga, conozca. Frequent irregulars include sea, vaya, esté, dé, sepa and haya. Some stem changes have additional patterns, especially ir verbs; consult the reference rather than extending a simple rule blindly. Recognition of command forms gives you a bridge, but a subjunctive form is not always a command."
+    },
+    {
+      "title": "An event versus a perspective on it",
+      "body": "Sé que viene presents coming as asserted information. Quiero que venga presents coming as the content of a wish, without asserting that it occurs. The subjunctive does not simply mean unreal: Me alegra que estés aquí can respond to a real presence. Its use depends on the construction and the speaker’s stance. With one subject, an infinitive often serves: Quiero participar. With a different subject, use que and a finite clause: Quiero que participes. Do not replace every clause after que with subjunctive; creo que viene normally asserts a belief with indicative."
+    },
+    {
+      "title": "Stem changes and spelling preserve more than a rule",
+      "body": "With **-ar/-er** stem-changing verbs, nosotros and vosotros usually lack the present stem change: **piense/pensemos**, **vuelva/volvamos**. With many **-ir** verbs, a change also appears there: **pida/pidamos**, **duerma/durmamos**, **sienta/sintamos**. The smaller nosotros vowel change in **durmamos** and **sintamos** is not **ue/ie**. Build examples such as **Espero que durmamos bien** rather than guessing from the indicative **dormimos**.\n\nSpelling also protects pronunciation: **buscar → busque**, **llegar → llegue**, **empezar → empiece/empecemos**. A complete decision has two stages. First choose mood from the construction and meaning. Then form the verb for the subject and spelling pattern. A perfectly spelled indicative can still express the wrong stance, while a correct subjunctive intention can still contain an agreement error.\n\nTest both stages with a contrast: **Sé que vuelve** versus **Espero que vuelva**. Change the subject to nosotros: **Sé que volvemos** versus **Espero que volvamos**. Explain what the speaker asserts or hopes before labeling the endings."
+    }
+  ],
+  "reading": "La coordinadora anuncia que la biblioteca abre el sábado. Nora quiere que su grupo participe y espera que Luis pueda venir. Luis responde: «Sé que el proyecto es importante, pero no sé si tengo tiempo». Nora aclara: «No digo que tengas que quedarte todo el día. Quiero que conozcas el espacio y decidas después». La coordinadora añade: «Me alegra que estén interesados». Algunas frases afirman información; otras expresan deseo, evaluación o límites a lo que se afirma. Identifica el verbo principal y la relación con la cláusula siguiente antes de clasificar la forma verbal.",
+  "worked": [
+    {
+      "prompt": "Complete: Quiero que tú ___. (participar)",
+      "answer": "participes",
+      "reason": "A wish directed at a different subject uses que plus present subjunctive."
+    },
+    {
+      "prompt": "Complete: Quiero ___. (participar, same subject)",
+      "answer": "participar",
+      "reason": "With the same subject, querer commonly takes an infinitive rather than a que clause."
+    },
+    {
+      "prompt": "Complete: Sé que ella ___. (venir, asserted fact)",
+      "answer": "viene",
+      "reason": "Sé que presents the embedded information as asserted, so indicative is appropriate."
+    },
+    {
+      "prompt": "Complete: Espero que usted ___ tiempo. (tener)",
+      "answer": "tenga",
+      "reason": "The subjunctive uses the irregular yo stem teng-."
+    },
+    {
+      "prompt": "Complete: Es importante que nosotros ___. (ir)",
+      "answer": "vayamos",
+      "reason": "Ir has the irregular present subjunctive stem vay-."
+    },
+    {
+      "prompt": "Complete: Me alegra que tú ___ aquí. (estar)",
+      "answer": "estés",
+      "reason": "The emotional evaluation licenses subjunctive even when the presence is real."
+    }
+  ],
+  "cards": [
+    {
+      "id": "c3-u07-f01",
+      "unit": "c3-u07",
+      "kind": "production",
+      "front": "I want you to participate",
+      "back": "Quiero que participes",
+      "example": "Quiero que participes"
+    },
+    {
+      "id": "c3-u07-f02",
+      "unit": "c3-u07",
+      "kind": "recognition",
+      "front": "Quiero participar",
+      "back": "I want to participate",
+      "example": "Quiero participar"
+    },
+    {
+      "id": "c3-u07-f03",
+      "unit": "c3-u07",
+      "kind": "production",
+      "front": "I know she or he is coming",
+      "back": "Sé que viene",
+      "example": "Sé que viene"
+    },
+    {
+      "id": "c3-u07-f04",
+      "unit": "c3-u07",
+      "kind": "recognition",
+      "front": "Espero que tenga tiempo",
+      "back": "I hope she or he has time",
+      "example": "Espero que tenga tiempo"
+    },
+    {
+      "id": "c3-u07-f05",
+      "unit": "c3-u07",
+      "kind": "production",
+      "front": "It is important that we go",
+      "back": "Es importante que vayamos",
+      "example": "Es importante que vayamos"
+    },
+    {
+      "id": "c3-u07-f06",
+      "unit": "c3-u07",
+      "kind": "recognition",
+      "front": "Me alegra que estés aquí",
+      "back": "I am glad you are here",
+      "example": "Me alegra que estés aquí"
+    },
+    {
+      "id": "c3-u07-f07",
+      "unit": "c3-u07",
+      "kind": "production",
+      "front": "I think it is useful",
+      "back": "Creo que es útil",
+      "example": "Creo que es útil"
+    },
+    {
+      "id": "c3-u07-f08",
+      "unit": "c3-u07",
+      "kind": "recognition",
+      "front": "No digo que tengas que quedarte",
+      "back": "I am not saying you have to stay",
+      "example": "No digo que tengas que quedarte"
+    },
+    {
+      "id": "c3-u07-f09",
+      "unit": "c3-u07",
+      "kind": "production",
+      "front": "I hope they can come",
+      "back": "Espero que puedan venir",
+      "example": "Espero que puedan venir"
+    },
+    {
+      "id": "c3-u07-f10",
+      "unit": "c3-u07",
+      "kind": "recognition",
+      "front": "Prefiero que me lo expliques",
+      "back": "I prefer that you explain it to me",
+      "example": "Prefiero que me lo expliques"
+    },
+    {
+      "id": "c3-u07-f11",
+      "unit": "c3-u07",
+      "kind": "production",
+      "front": "There may be changes",
+      "back": "Es posible que haya cambios",
+      "example": "Es posible que haya cambios"
+    },
+    {
+      "id": "c3-u07-f12",
+      "unit": "c3-u07",
+      "kind": "recognition",
+      "front": "Quiero que conozcas el espacio",
+      "back": "I want you to get to know the space",
+      "example": "Quiero que conozcas el espacio"
+    },
+    {
+      "id": "c3-u07-f13",
+      "unit": "c3-u07",
+      "kind": "production",
+      "front": "I hope it goes well",
+      "back": "Ojalá salga bien",
+      "example": "Ojalá salga bien"
+    },
+    {
+      "id": "c3-u07-f14",
+      "unit": "c3-u07",
+      "kind": "recognition",
+      "front": "¿Quieres que te ayude?",
+      "back": "Do you want me to help you?",
+      "example": "¿Quieres que te ayude?"
+    },
+    {
+      "id": "c3-u07-f15",
+      "unit": "c3-u07",
+      "kind": "production",
+      "front": "I need you to be clear",
+      "back": "Necesito que seas claro",
+      "example": "Necesito que seas claro"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c3-u07-q01",
+      "type": "cloze",
+      "prompt": "Complete: Quiero que tú ___. (participar)",
+      "answers": [
+        "participes"
+      ],
+      "explanation": "A wish directed at a different subject uses que plus present subjunctive.",
+      "concept": "Build the form, then ask why"
+    },
+    {
+      "id": "c3-u07-q02",
+      "type": "cloze",
+      "prompt": "Complete: Quiero ___. (participar, same subject)",
+      "answers": [
+        "participar"
+      ],
+      "explanation": "With the same subject, querer commonly takes an infinitive rather than a que clause.",
+      "concept": "Build the form, then ask why"
+    },
+    {
+      "id": "c3-u07-q03",
+      "type": "cloze",
+      "prompt": "Complete: Sé que ella ___. (venir, asserted fact)",
+      "answers": [
+        "viene"
+      ],
+      "explanation": "Sé que presents the embedded information as asserted, so indicative is appropriate.",
+      "concept": "Build the form, then ask why"
+    },
+    {
+      "id": "c3-u07-q04",
+      "type": "cloze",
+      "prompt": "Complete: Espero que usted ___ tiempo. (tener)",
+      "answers": [
+        "tenga"
+      ],
+      "explanation": "The subjunctive uses the irregular yo stem teng-.",
+      "concept": "An event versus a perspective on it"
+    },
+    {
+      "id": "c3-u07-q05",
+      "type": "cloze",
+      "prompt": "Complete: Es importante que nosotros ___. (ir)",
+      "answers": [
+        "vayamos"
+      ],
+      "explanation": "Ir has the irregular present subjunctive stem vay-.",
+      "concept": "An event versus a perspective on it"
+    },
+    {
+      "id": "c3-u07-q06",
+      "type": "cloze",
+      "prompt": "Complete: Me alegra que tú ___ aquí. (estar)",
+      "answers": [
+        "estés"
+      ],
+      "explanation": "The emotional evaluation licenses subjunctive even when the presence is real.",
+      "concept": "An event versus a perspective on it"
+    },
+    {
+      "id": "c3-u07-q07",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: I want you to participate.",
+      "options": [
+        "Espero que puedan venir",
+        "Ojalá salga bien",
+        "Quiero que participes"
+      ],
+      "answers": [
+        "Quiero que participes"
+      ],
+      "explanation": "“Quiero que participes” expresses “I want you to participate”. “Espero que puedan venir” instead means “I hope they can come”. “Ojalá salga bien” instead means “I hope it goes well”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c3-u07-q08",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: I want to participate.",
+      "options": [
+        "¿Quieres que te ayude?",
+        "Quiero participar",
+        "Prefiero que me lo expliques"
+      ],
+      "answers": [
+        "Quiero participar"
+      ],
+      "explanation": "“Quiero participar” expresses “I want to participate”. “¿Quieres que te ayude?” instead means “Do you want me to help you?”. “Prefiero que me lo expliques” instead means “I prefer that you explain it to me”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c3-u07-q09",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: I know she or he is coming.",
+      "options": [
+        "Sé que viene",
+        "Es posible que haya cambios",
+        "Necesito que seas claro"
+      ],
+      "answers": [
+        "Sé que viene"
+      ],
+      "explanation": "“Sé que viene” expresses “I know she or he is coming”. “Es posible que haya cambios” instead means “There may be changes”. “Necesito que seas claro” instead means “I need you to be clear”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c3-u07-q10",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: I hope she or he has time.",
+      "options": [
+        "Quiero que conozcas el espacio",
+        "Quiero que participes",
+        "Espero que tenga tiempo"
+      ],
+      "answers": [
+        "Espero que tenga tiempo"
+      ],
+      "explanation": "“Espero que tenga tiempo” expresses “I hope she or he has time”. “Quiero que conozcas el espacio” instead means “I want you to get to know the space”. “Quiero que participes” instead means “I want you to participate”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c3-u07-q11",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: It is important that we go.",
+      "options": [
+        "Quiero participar",
+        "Es importante que vayamos",
+        "Ojalá salga bien"
+      ],
+      "answers": [
+        "Es importante que vayamos"
+      ],
+      "explanation": "“Es importante que vayamos” expresses “It is important that we go”. “Quiero participar” instead means “I want to participate”. “Ojalá salga bien” instead means “I hope it goes well”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c3-u07-q12",
+      "type": "matching",
+      "prompt": "Match each English meaning to its Spanish expression. Use each expression once.",
+      "answers": [
+        "[\"Es importante que vayamos\",\"Creo que es útil\",\"Espero que puedan venir\"]"
+      ],
+      "explanation": "“Es importante que vayamos” means “It is important that we go”. “Creo que es útil” means “I think it is useful”. “Espero que puedan venir” means “I hope they can come”. Each alternative belongs to a different meaning; check the whole phrase, including its grammatical person and register.",
+      "concept": "Meaning and register",
+      "pairs": [
+        {
+          "left": "It is important that we go",
+          "right": "Es importante que vayamos"
+        },
+        {
+          "left": "I think it is useful",
+          "right": "Creo que es útil"
+        },
+        {
+          "left": "I hope they can come",
+          "right": "Espero que puedan venir"
+        }
+      ]
+    }
+  ],
+  "homework": [
+    {
+      "id": "c3-u07-h1",
+      "skill": "Reading & writing",
+      "prompt": "Read the original text for this unit. Identify its situation, central message, and three supporting details. Then write a new version of 150–200 words for a different person or audience. Use the target patterns, change at least three facts, and explain two revisions.",
+      "model": "La coordinadora anuncia que la biblioteca abre el sábado. Nora quiere que su grupo participe y espera que Luis pueda venir. Luis responde: «Sé que el proyecto es importante, pero no sé si tengo tiempo». Nora aclara: «No digo que tengas que quedarte todo el día. Quiero que conozcas el espacio y decidas después». La coordinadora añade: «Me alegra que estén interesados». Algunas frases afirman información; otras expresan deseo, evaluación o límites a lo que se afirma. Identifica el verbo principal y la relación con la cláusula siguiente antes de clasificar la forma verbal.\n\nThis is the source model, not a text to submit unchanged. A successful adaptation retains the communicative purpose while changing relevant forms and facts. Compare with the worked examples for the reasons behind form choices.",
+      "rubric": "0–3 each: fulfills the specified purpose; organized and comprehensible; target forms support meaning; revisions are explained with examples. 0 = no evidence, 1 = substantial help needed, 2 = effective with some support, 3 = independently effective for this task. Record who evaluated the work."
+    },
+    {
+      "id": "c3-u07-h2",
+      "skill": "Listening",
+      "prompt": "Complete the resource assignment, or ask a willing reader to read the original text without showing it to you. First listen for the situation and purpose; listen again for three details and one contrast. Write a 60–100-word listening log naming the source, words actually heard, one uncertainty, and how you checked it. If using local synthesized speech, label it synthetic. Text-only preparation is not completed listening.",
+      "model": "A useful log separates the speaker’s message from your interpretation: “I heard [specific phrase]; I understood [claim]; I was uncertain about [word/relationship]; checking [text or partner] changed my interpretation to [correction].” Use the unit reading as an answer reference for a read-aloud version, never as evidence of an external speaker’s words.",
+      "rubric": "0–2 each: identifies source and listening conditions; retrieves central meaning; supports three details; checks a specific uncertainty. Do not count a copied transcript as independent comprehension."
+    },
+    {
+      "id": "c3-u07-h3",
+      "skill": "Speaking & interaction",
+      "prompt": "Invite someone to a project while distinguishing what you know from what you hope or want. Your partner sets a limit; reformulate your request accordingly.",
+      "model": "Use the original reading/dialogue and the sentence-pattern cards as preparation. Make a brief outline, then put it away. Your partner should introduce a detail you did not prepare. Respond, request clarification if needed, and summarize what you agreed or still disagree about. Solo fallback: record two possible viewpoints and improvise a response after a pause; label it rehearsal.",
+      "rubric": "0–3 each: task fulfillment, comprehensibility, control of target language, responsiveness to another speaker. A partner or instructor should cite one example per score. Solo rehearsal provides no evidence for live responsiveness; mark that dimension not observed."
+    },
+    {
+      "id": "c3-u07-h4",
+      "skill": "Retrieval & reflection",
+      "prompt": "On a later day, retrieve six cards without looking. Use three in a fresh response to the practical task. Identify one recurring form error and one communication difficulty. Produce a corrected example, explain the reason, and schedule a specific follow-up exchange or listening session.",
+      "model": "Compare your response with these two models: Quiero que participes / Quiero participar. A useful reflection explains the function, not just the spelling. Revisit the first worked item and create a different example of its principle.",
+      "rubric": "Report recall count separately from performance. Reflection is complete when it contains an observed difficulty, an explained correction, a fresh example, and an actionable next session."
+    }
+  ],
+  "task": "Invite someone to a project while distinguishing what you know from what you hope or want. Your partner sets a limit; reformulate your request accordingly.",
+  "culture": "Mood patterns are shared widely, but usage and interpretation depend on discourse. Avoid describing a speaker as illogical merely because a construction does not map neatly onto an English “real/unreal” distinction.",
+  "selfAssessment": [
+    "I can form common present subjunctives.",
+    "I can contrast asserted information with wishes or evaluation.",
+    "I can choose an infinitive when the subject remains the same."
+  ],
+  "remediation": "Sort mistakes by form, meaning, and interaction. For form errors, explain a worked example and create a contrasting pair. For comprehension errors, replay a short segment or use a willing reader and verify your interpretation. For interaction difficulties, repeat the practical task with one new constraint. Compare evidence across days; repeated selection of a known answer alone is not mastery.",
+  "resources": [
+    "sd-subjunctive"
+  ]
+}

@@ -1,0 +1,388 @@
+{
+  "id": "c2-u01",
+  "course": 2,
+  "number": 1,
+  "title": "Present-tense changes",
+  "subtitle": "Choose a form that fits the person",
+  "status": "authored",
+  "prerequisites": [
+    "c1-u12"
+  ],
+  "objectives": [
+    "Use frequent stem-changing verbs in a routine.",
+    "Distinguish yo-only irregularity from a stem change.",
+    "Ask a follow-up about a person’s schedule."
+  ],
+  "warmup": "Retrieve two sentences and one repair strategy from c1-u12. Change the subject or situation in each sentence and explain what changed. Then read today’s objectives and predict where your existing language may be insufficient.",
+  "lectures": [
+    {
+      "title": "Patterns with limits",
+      "body": "Present-tense stem changes normally affect stressed stems, excluding nosotros and vosotros: pienso, piensas, piensa, pensamos, pensáis, piensan. With volver, o changes to ue: vuelvo but volvemos. With pedir, e changes to i: pido but pedimos. Not every e or o changes; learn a verb’s pattern with its infinitive. Yo-only changes include hago, pongo, salgo, conozco and sé. Some verbs combine irregularities: tengo but tienes; digo but dices. Do not infer nosotros vuelvemos from vuelvo. Build a short subject-and-action phrase before adding details. You can recognize vosotros even when your normal plural address is ustedes."
+    },
+    {
+      "title": "Two kinds of knowing",
+      "body": "Saber commonly expresses facts or knowing how: Sé la respuesta; sé nadar. Conocer commonly expresses acquaintance with people or places: Conozco a Elena; conozco Quito. The personal a usually marks a specific human direct object: Visito a mi hermana, but visito el museo. It does not turn that person into an indirect object. Ask ¿Sabes dónde está? for information, and ¿Conoces a la profesora? for acquaintance. A useful conversation follows the answer with a relevant detail: ¿A qué hora vuelves? Avoid reciting a paradigm when your partner needs a time or a reason."
+    },
+    {
+      "title": "Use a paradigm to solve a conversation problem",
+      "body": "Imagine that a colleague asks, **¿A qué hora vuelven ustedes?** You plan to return at six. Begin with **Volvemos a las seis**, because your answer changes the perspective from “you all” to “we.” The stem therefore returns to **volv-**. Copying *vuelven* from the question would keep the wrong subject. If you answer only for yourself, choose **Vuelvo a las seis** instead. The time stays the same; the speaker group changes.\n\nCompare three small families aloud: **pienso → pensamos**, **vuelvo → volvemos**, **pido → pedimos**. Now add a negative, a time and a follow-up: **No volvemos hoy. Volvemos mañana. ¿A qué hora sales tú?** A useful paradigm is a tool for changing a message, not an isolated list. When you encounter a new verb, record its infinitive, yo form and nosotros form. Those three forms often expose both the change and its limit.\n\nRegional recognition has the same purpose. A speaker might ask **¿A qué hora volvés?** with voseo. Understand the question without “correcting” the speaker into tú. Use your practiced variety consistently and notice your interlocutor’s forms."
+    }
+  ],
+  "reading": "Lucía trabaja en una librería. Abre a las nueve, pero ella llega antes porque quiere preparar los pedidos. Los lunes vuelve a casa a las seis. Su colega Andrés pide ayuda con un cliente: «No conozco esta novela. ¿Sabes quién la escribió?». Lucía responde: «Sé el nombre de la autora, pero no conozco su obra completa». Después hablan del horario. «¿Podemos salir temprano el viernes?», pregunta Andrés. Lucía piensa un momento: «Podemos, si terminamos los pedidos». Identifica una forma con cambio de raíz, una forma irregular solo en yo y una distinción entre saber y conocer.",
+  "worked": [
+    {
+      "prompt": "Complete: Nosotros ___ temprano. (volver)",
+      "answer": "volvemos",
+      "reason": "Nosotros retains the unstressed o; vuelvemos incorrectly extends the stem change."
+    },
+    {
+      "prompt": "Complete: Yo ___ la respuesta. (saber)",
+      "answer": "sé",
+      "reason": "The yo form sé is irregular and keeps its accent; conozco would suggest acquaintance."
+    },
+    {
+      "prompt": "Complete: Ella ___ ayuda. (pedir)",
+      "answer": "pide",
+      "reason": "Pedir changes e to i in this stressed singular stem."
+    },
+    {
+      "prompt": "Complete: Yo ___ a Elena. (conocer)",
+      "answer": "conozco",
+      "reason": "Conocer uses conozco for yo; personal a introduces the known person."
+    },
+    {
+      "prompt": "Complete: Ellos ___ salir. (querer)",
+      "answer": "quieren",
+      "reason": "The stressed stem changes e to ie; the second verb stays infinitive."
+    },
+    {
+      "prompt": "Complete: Visito ___ mi hermana.",
+      "answer": "a",
+      "reason": "A specific person as direct object normally takes personal a."
+    }
+  ],
+  "cards": [
+    {
+      "id": "c2-u01-f01",
+      "unit": "c2-u01",
+      "kind": "production",
+      "front": "I think about the schedule",
+      "back": "Pienso en el horario",
+      "example": "Pienso en el horario"
+    },
+    {
+      "id": "c2-u01-f02",
+      "unit": "c2-u01",
+      "kind": "recognition",
+      "front": "Volvemos a las seis",
+      "back": "We return at six",
+      "example": "Volvemos a las seis"
+    },
+    {
+      "id": "c2-u01-f03",
+      "unit": "c2-u01",
+      "kind": "production",
+      "front": "I ask for help",
+      "back": "Pido ayuda",
+      "example": "Pido ayuda"
+    },
+    {
+      "id": "c2-u01-f04",
+      "unit": "c2-u01",
+      "kind": "recognition",
+      "front": "Sé nadar",
+      "back": "I know how to swim",
+      "example": "Sé nadar"
+    },
+    {
+      "id": "c2-u01-f05",
+      "unit": "c2-u01",
+      "kind": "production",
+      "front": "I know Elena",
+      "back": "Conozco a Elena",
+      "example": "Conozco a Elena"
+    },
+    {
+      "id": "c2-u01-f06",
+      "unit": "c2-u01",
+      "kind": "recognition",
+      "front": "No sé la respuesta",
+      "back": "I do not know the answer",
+      "example": "No sé la respuesta"
+    },
+    {
+      "id": "c2-u01-f07",
+      "unit": "c2-u01",
+      "kind": "production",
+      "front": "We can leave",
+      "back": "Podemos salir",
+      "example": "Podemos salir"
+    },
+    {
+      "id": "c2-u01-f08",
+      "unit": "c2-u01",
+      "kind": "recognition",
+      "front": "Quieren trabajar",
+      "back": "They want to work",
+      "example": "Quieren trabajar"
+    },
+    {
+      "id": "c2-u01-f09",
+      "unit": "c2-u01",
+      "kind": "production",
+      "front": "I prepare the orders",
+      "back": "Hago los pedidos",
+      "example": "Hago los pedidos"
+    },
+    {
+      "id": "c2-u01-f10",
+      "unit": "c2-u01",
+      "kind": "recognition",
+      "front": "Pongo los libros aquí",
+      "back": "I put the books here",
+      "example": "Pongo los libros aquí"
+    },
+    {
+      "id": "c2-u01-f11",
+      "unit": "c2-u01",
+      "kind": "production",
+      "front": "I leave early",
+      "back": "Salgo temprano",
+      "example": "Salgo temprano"
+    },
+    {
+      "id": "c2-u01-f12",
+      "unit": "c2-u01",
+      "kind": "recognition",
+      "front": "Digo la verdad",
+      "back": "I tell the truth",
+      "example": "Digo la verdad"
+    },
+    {
+      "id": "c2-u01-f13",
+      "unit": "c2-u01",
+      "kind": "production",
+      "front": "What time do you return?",
+      "back": "¿A qué hora vuelves?",
+      "example": "¿A qué hora vuelves?"
+    },
+    {
+      "id": "c2-u01-f14",
+      "unit": "c2-u01",
+      "kind": "recognition",
+      "front": "Visito a mi hermana",
+      "back": "I visit my sister",
+      "example": "Visito a mi hermana"
+    },
+    {
+      "id": "c2-u01-f15",
+      "unit": "c2-u01",
+      "kind": "production",
+      "front": "We know the neighborhood",
+      "back": "Conocemos el barrio",
+      "example": "Conocemos el barrio"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c2-u01-q01",
+      "type": "cloze",
+      "prompt": "Complete: Nosotros ___ temprano. (volver)",
+      "answers": [
+        "volvemos"
+      ],
+      "explanation": "Nosotros retains the unstressed o; vuelvemos incorrectly extends the stem change.",
+      "concept": "Patterns with limits"
+    },
+    {
+      "id": "c2-u01-q02",
+      "type": "cloze",
+      "prompt": "Complete: Yo ___ la respuesta. (saber)",
+      "answers": [
+        "sé"
+      ],
+      "explanation": "The yo form sé is irregular and keeps its accent; conozco would suggest acquaintance.",
+      "concept": "Patterns with limits"
+    },
+    {
+      "id": "c2-u01-q03",
+      "type": "cloze",
+      "prompt": "Complete: Ella ___ ayuda. (pedir)",
+      "answers": [
+        "pide"
+      ],
+      "explanation": "Pedir changes e to i in this stressed singular stem.",
+      "concept": "Patterns with limits"
+    },
+    {
+      "id": "c2-u01-q04",
+      "type": "cloze",
+      "prompt": "Complete: Yo ___ a Elena. (conocer)",
+      "answers": [
+        "conozco"
+      ],
+      "explanation": "Conocer uses conozco for yo; personal a introduces the known person.",
+      "concept": "Two kinds of knowing"
+    },
+    {
+      "id": "c2-u01-q05",
+      "type": "cloze",
+      "prompt": "Complete: Ellos ___ salir. (querer)",
+      "answers": [
+        "quieren"
+      ],
+      "explanation": "The stressed stem changes e to ie; the second verb stays infinitive.",
+      "concept": "Two kinds of knowing"
+    },
+    {
+      "id": "c2-u01-q06",
+      "type": "cloze",
+      "prompt": "Complete: Visito ___ mi hermana.",
+      "answers": [
+        "a"
+      ],
+      "explanation": "A specific person as direct object normally takes personal a.",
+      "concept": "Two kinds of knowing"
+    },
+    {
+      "id": "c2-u01-q07",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: I think about the schedule.",
+      "options": [
+        "Hago los pedidos",
+        "¿A qué hora vuelves?",
+        "Pienso en el horario"
+      ],
+      "answers": [
+        "Pienso en el horario"
+      ],
+      "explanation": "“Pienso en el horario” expresses “I think about the schedule”. “Hago los pedidos” instead means “I prepare the orders”. “¿A qué hora vuelves?” instead means “What time do you return?”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c2-u01-q08",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: We return at six.",
+      "options": [
+        "Visito a mi hermana",
+        "Volvemos a las seis",
+        "Pongo los libros aquí"
+      ],
+      "answers": [
+        "Volvemos a las seis"
+      ],
+      "explanation": "“Volvemos a las seis” expresses “We return at six”. “Visito a mi hermana” instead means “I visit my sister”. “Pongo los libros aquí” instead means “I put the books here”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c2-u01-q09",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: I ask for help.",
+      "options": [
+        "Pido ayuda",
+        "Salgo temprano",
+        "Conocemos el barrio"
+      ],
+      "answers": [
+        "Pido ayuda"
+      ],
+      "explanation": "“Pido ayuda” expresses “I ask for help”. “Salgo temprano” instead means “I leave early”. “Conocemos el barrio” instead means “We know the neighborhood”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c2-u01-q10",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: I know how to swim.",
+      "options": [
+        "Digo la verdad",
+        "Pienso en el horario",
+        "Sé nadar"
+      ],
+      "answers": [
+        "Sé nadar"
+      ],
+      "explanation": "“Sé nadar” expresses “I know how to swim”. “Digo la verdad” instead means “I tell the truth”. “Pienso en el horario” instead means “I think about the schedule”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c2-u01-q11",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: I know Elena.",
+      "options": [
+        "Volvemos a las seis",
+        "Conozco a Elena",
+        "¿A qué hora vuelves?"
+      ],
+      "answers": [
+        "Conozco a Elena"
+      ],
+      "explanation": "“Conozco a Elena” expresses “I know Elena”. “Volvemos a las seis” instead means “We return at six”. “¿A qué hora vuelves?” instead means “What time do you return?”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c2-u01-q12",
+      "type": "matching",
+      "prompt": "Match each English meaning to its Spanish expression. Use each expression once.",
+      "answers": [
+        "[\"Conozco a Elena\",\"Podemos salir\",\"Hago los pedidos\"]"
+      ],
+      "explanation": "“Conozco a Elena” means “I know Elena”. “Podemos salir” means “We can leave”. “Hago los pedidos” means “I prepare the orders”. Each alternative belongs to a different meaning; check the whole phrase, including its grammatical person and register.",
+      "concept": "Meaning and register",
+      "pairs": [
+        {
+          "left": "I know Elena",
+          "right": "Conozco a Elena"
+        },
+        {
+          "left": "We can leave",
+          "right": "Podemos salir"
+        },
+        {
+          "left": "I prepare the orders",
+          "right": "Hago los pedidos"
+        }
+      ]
+    }
+  ],
+  "homework": [
+    {
+      "id": "c2-u01-h1",
+      "skill": "Reading & writing",
+      "prompt": "Read the original text for this unit. Identify its situation, central message, and three supporting details. Then write a new version of 100–140 words for a different person or audience. Use the target patterns, change at least three facts, and explain two revisions.",
+      "model": "Lucía trabaja en una librería. Abre a las nueve, pero ella llega antes porque quiere preparar los pedidos. Los lunes vuelve a casa a las seis. Su colega Andrés pide ayuda con un cliente: «No conozco esta novela. ¿Sabes quién la escribió?». Lucía responde: «Sé el nombre de la autora, pero no conozco su obra completa». Después hablan del horario. «¿Podemos salir temprano el viernes?», pregunta Andrés. Lucía piensa un momento: «Podemos, si terminamos los pedidos». Identifica una forma con cambio de raíz, una forma irregular solo en yo y una distinción entre saber y conocer.\n\nThis is the source model, not a text to submit unchanged. A successful adaptation retains the communicative purpose while changing relevant forms and facts. Compare with the worked examples for the reasons behind form choices.",
+      "rubric": "0–3 each: fulfills the specified purpose; organized and comprehensible; target forms support meaning; revisions are explained with examples. 0 = no evidence, 1 = substantial help needed, 2 = effective with some support, 3 = independently effective for this task. Record who evaluated the work."
+    },
+    {
+      "id": "c2-u01-h2",
+      "skill": "Listening",
+      "prompt": "Complete the resource assignment, or ask a willing reader to read the original text without showing it to you. First listen for the situation and purpose; listen again for three details and one contrast. Write a 60–100-word listening log naming the source, words actually heard, one uncertainty, and how you checked it. If using local synthesized speech, label it synthetic. Text-only preparation is not completed listening.",
+      "model": "A useful log separates the speaker’s message from your interpretation: “I heard [specific phrase]; I understood [claim]; I was uncertain about [word/relationship]; checking [text or partner] changed my interpretation to [correction].” Use the unit reading as an answer reference for a read-aloud version, never as evidence of an external speaker’s words.",
+      "rubric": "0–2 each: identifies source and listening conditions; retrieves central meaning; supports three details; checks a specific uncertainty. Do not count a copied transcript as independent comprehension."
+    },
+    {
+      "id": "c2-u01-h3",
+      "skill": "Speaking & interaction",
+      "prompt": "Compare two work or study schedules. Ask three genuine follow-ups and agree when you can meet. Include one fact you know and one person or place you know.",
+      "model": "Use the original reading/dialogue and the sentence-pattern cards as preparation. Make a brief outline, then put it away. Your partner should introduce a detail you did not prepare. Respond, request clarification if needed, and summarize what you agreed or still disagree about. Solo fallback: record two possible viewpoints and improvise a response after a pause; label it rehearsal.",
+      "rubric": "0–3 each: task fulfillment, comprehensibility, control of target language, responsiveness to another speaker. A partner or instructor should cite one example per score. Solo rehearsal provides no evidence for live responsiveness; mark that dimension not observed."
+    },
+    {
+      "id": "c2-u01-h4",
+      "skill": "Retrieval & reflection",
+      "prompt": "On a later day, retrieve six cards without looking. Use three in a fresh response to the practical task. Identify one recurring form error and one communication difficulty. Produce a corrected example, explain the reason, and schedule a specific follow-up exchange or listening session.",
+      "model": "Compare your response with these two models: Pienso en el horario / Volvemos a las seis. A useful reflection explains the function, not just the spelling. Revisit the first worked item and create a different example of its principle.",
+      "rubric": "Report recall count separately from performance. Reflection is complete when it contains an observed difficulty, an explained correction, a fresh example, and an actionable next session."
+    }
+  ],
+  "task": "Compare two work or study schedules. Ask three genuine follow-ups and agree when you can meet. Include one fact you know and one person or place you know.",
+  "culture": "Voseo patterns differ by region: forms such as pensás and volvés are ordinary local usage. Do not assume the stressed tú diphthong appears in a voseo form. Follow the community’s paradigm consistently.",
+  "selfAssessment": [
+    "I can use frequent stem-changing verbs in a routine.",
+    "I can distinguish yo-only irregularity from a stem change.",
+    "I can ask a follow-up about a person’s schedule."
+  ],
+  "remediation": "Sort mistakes by form, meaning, and interaction. For form errors, explain a worked example and create a contrasting pair. For comprehension errors, replay a short segment or use a willing reader and verify your interpretation. For interaction difficulties, repeat the practical task with one new constraint. Compare evidence across days; repeated selection of a known answer alone is not mastery.",
+  "resources": [
+    "sd-irregular"
+  ]
+}

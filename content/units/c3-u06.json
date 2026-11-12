@@ -1,0 +1,388 @@
+{
+  "id": "c3-u06",
+  "course": 3,
+  "number": 6,
+  "title": "Interview & narrative midterm",
+  "subtitle": "An interview that becomes a narrative",
+  "status": "authored",
+  "prerequisites": [
+    "c3-u05"
+  ],
+  "objectives": [
+    "Ask open questions and relevant follow-ups.",
+    "Transform interview notes into a coherent account.",
+    "Attribute information and mark missing evidence."
+  ],
+  "warmup": "Retrieve two sentences and one repair strategy from c3-u05. Change the subject or situation in each sentence and explain what changed. Then read today’s objectives and predict where your existing language may be insufficient.",
+  "lectures": [
+    {
+      "title": "Prepare a purpose, not a script",
+      "body": "An interview begins with a clear purpose and consent. Ask an open question such as ¿Cómo empezó el proyecto? rather than stacking three questions at once. Follow a concrete answer with a specific prompt: ¿Qué pasó después? or ¿Puede dar un ejemplo? Avoid questions that assume the conclusion, such as ¿Por qué fue un fracaso?, before failure has been established. Notes should distinguish the speaker’s words, your paraphrase and your interpretation. Do not invent a precise quotation from an incomplete memory. Confirm names and numbers that matter to the account."
+    },
+    {
+      "title": "Move from notes to a connected text",
+      "body": "Organize the interview by a central question rather than copying every answer in order. Use past tenses to relate background, events and earlier events; use relative clauses to identify people. Attribute claims: Según la coordinadora…, explicó que…. A paraphrase can be faithful without preserving every word. Mark uncertainty and omitted information openly. The cumulative midterm combines controlled grammar with this production task; a strong score on familiar items does not replace the ability to ask an unprepared follow-up. Save your notes and first draft so later revisions remain inspectable."
+    }
+  ],
+  "reading": "Nora entrevista a la coordinadora de la biblioteca. Pregunta cómo empezó el proyecto. La coordinadora explica que varios vecinos se reunían para intercambiar libros antes de abrir una sala común. Al principio tenían pocos recursos, pero una asociación les prestó un local. Nora pregunta qué cambió después. La respuesta menciona talleres y nuevos horarios, aunque no da una fecha exacta. En sus notas Nora escribe “fecha por confirmar”, no una fecha inventada. Para su informe decide centrarse en cómo cambió el acceso al espacio. Su borrador distingue tres etapas y atribuye a la coordinadora la valoración de que ahora participa más gente. Para verificar esa valoración necesitaría datos adicionales.",
+  "worked": [
+    {
+      "prompt": "Complete the attribution: ___ la coordinadora, el acceso mejoró.",
+      "answer": "Según",
+      "reason": "Según identifies whose account supports the claim rather than presenting it as independently verified."
+    },
+    {
+      "prompt": "Write the follow-up meaning “Can you give an example?” using usted.",
+      "answer": "¿Puede dar un ejemplo?",
+      "reason": "A request for an example probes a claim without assuming the answer."
+    },
+    {
+      "prompt": "Complete: Antes de abrir la sala, ya se ___ reunido varias veces.",
+      "answer": "habían",
+      "reason": "The meetings precede a past opening; plural subject requires habían."
+    },
+    {
+      "prompt": "Complete: La asociación ___ les prestó el local sigue colaborando.",
+      "answer": "que",
+      "reason": "The relative clause identifies the association through its action."
+    },
+    {
+      "prompt": "Complete: La fecha está por ___. (confirm)",
+      "answer": "confirmar",
+      "reason": "Por confirmar explicitly marks an unresolved factual detail."
+    },
+    {
+      "prompt": "Write the question “What happened afterward?”",
+      "answer": "¿Qué pasó después? / ¿Qué ocurrió después?",
+      "reason": "This open follow-up asks for sequence without supplying the event in advance."
+    }
+  ],
+  "cards": [
+    {
+      "id": "c3-u06-f01",
+      "unit": "c3-u06",
+      "kind": "production",
+      "front": "According to the coordinator",
+      "back": "Según la coordinadora",
+      "example": "Según la coordinadora, habrá una segunda reunión."
+    },
+    {
+      "id": "c3-u06-f02",
+      "unit": "c3-u06",
+      "kind": "recognition",
+      "front": "¿Puede dar un ejemplo?",
+      "back": "Can you give an example?",
+      "example": "¿Puede dar un ejemplo?"
+    },
+    {
+      "id": "c3-u06-f03",
+      "unit": "c3-u06",
+      "kind": "production",
+      "front": "They had already met",
+      "back": "Ya se habían reunido",
+      "example": "Ya se habían reunido"
+    },
+    {
+      "id": "c3-u06-f04",
+      "unit": "c3-u06",
+      "kind": "recognition",
+      "front": "La asociación que prestó el local",
+      "back": "The association that lent the premises",
+      "example": "La asociación que prestó el local"
+    },
+    {
+      "id": "c3-u06-f05",
+      "unit": "c3-u06",
+      "kind": "production",
+      "front": "The date remains to be confirmed",
+      "back": "La fecha está por confirmar",
+      "example": "La fecha está por confirmar"
+    },
+    {
+      "id": "c3-u06-f06",
+      "unit": "c3-u06",
+      "kind": "recognition",
+      "front": "¿Qué pasó después?",
+      "back": "What happened afterward?",
+      "example": "¿Qué pasó después?"
+    },
+    {
+      "id": "c3-u06-f07",
+      "unit": "c3-u06",
+      "kind": "production",
+      "front": "How did the project begin?",
+      "back": "¿Cómo empezó el proyecto?",
+      "example": "¿Cómo empezó el proyecto?"
+    },
+    {
+      "id": "c3-u06-f08",
+      "unit": "c3-u06",
+      "kind": "recognition",
+      "front": "Si he entendido bien",
+      "back": "If I have understood correctly",
+      "example": "Si he entendido bien"
+    },
+    {
+      "id": "c3-u06-f09",
+      "unit": "c3-u06",
+      "kind": "production",
+      "front": "Does this summary seem accurate to you?",
+      "back": "¿Le parece correcta esta síntesis?",
+      "example": "¿Le parece correcta esta síntesis?"
+    },
+    {
+      "id": "c3-u06-f10",
+      "unit": "c3-u06",
+      "kind": "recognition",
+      "front": "No tengo ese dato",
+      "back": "I do not have that information",
+      "example": "No tengo ese dato"
+    },
+    {
+      "id": "c3-u06-f11",
+      "unit": "c3-u06",
+      "kind": "production",
+      "front": "My notes state that…",
+      "back": "En mis notas consta que…",
+      "example": "En mis notas consta que la prueba duró dos semanas."
+    },
+    {
+      "id": "c3-u06-f12",
+      "unit": "c3-u06",
+      "kind": "recognition",
+      "front": "Lo interpreto como…",
+      "back": "I interpret it as…",
+      "example": "Lo interpreto como una propuesta, no como una decisión."
+    },
+    {
+      "id": "c3-u06-f13",
+      "unit": "c3-u06",
+      "kind": "production",
+      "front": "I would need to verify it",
+      "back": "Necesitaría verificarlo",
+      "example": "Necesitaría verificarlo"
+    },
+    {
+      "id": "c3-u06-f14",
+      "unit": "c3-u06",
+      "kind": "recognition",
+      "front": "La persona entrevistada explicó que…",
+      "back": "The interviewee explained that…",
+      "example": "La persona entrevistada explicó que necesitaba otro horario."
+    },
+    {
+      "id": "c3-u06-f15",
+      "unit": "c3-u06",
+      "kind": "production",
+      "front": "I prefer not to attribute an exact quotation",
+      "back": "Prefiero no atribuir una cita exacta",
+      "example": "Prefiero no atribuir una cita exacta"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c3-u06-q01",
+      "type": "cloze",
+      "prompt": "Complete the attribution: ___ la coordinadora, el acceso mejoró.",
+      "answers": [
+        "Según"
+      ],
+      "explanation": "Según identifies whose account supports the claim rather than presenting it as independently verified.",
+      "concept": "Prepare a purpose, not a script"
+    },
+    {
+      "id": "c3-u06-q02",
+      "type": "typed",
+      "prompt": "Write the follow-up meaning “Can you give an example?” using usted.",
+      "answers": [
+        "¿Puede dar un ejemplo?",
+        "¿Puede darme un ejemplo?",
+        "¿Podría dar un ejemplo?",
+        "¿Podría darme un ejemplo?"
+      ],
+      "explanation": "A request for an example probes a claim without assuming the answer.",
+      "concept": "Prepare a purpose, not a script"
+    },
+    {
+      "id": "c3-u06-q03",
+      "type": "cloze",
+      "prompt": "Complete: Antes de abrir la sala, ya se ___ reunido varias veces.",
+      "answers": [
+        "habían"
+      ],
+      "explanation": "The meetings precede a past opening; plural subject requires habían.",
+      "concept": "Prepare a purpose, not a script"
+    },
+    {
+      "id": "c3-u06-q04",
+      "type": "cloze",
+      "prompt": "Complete: La asociación ___ les prestó el local sigue colaborando.",
+      "answers": [
+        "que"
+      ],
+      "explanation": "The relative clause identifies the association through its action.",
+      "concept": "Move from notes to a connected text"
+    },
+    {
+      "id": "c3-u06-q05",
+      "type": "cloze",
+      "prompt": "Complete: La fecha está por ___. (confirm)",
+      "answers": [
+        "confirmar"
+      ],
+      "explanation": "Por confirmar explicitly marks an unresolved factual detail.",
+      "concept": "Move from notes to a connected text"
+    },
+    {
+      "id": "c3-u06-q06",
+      "type": "typed",
+      "prompt": "Write the question “What happened afterward?”",
+      "answers": [
+        "¿Qué pasó después?",
+        "¿Qué ocurrió después?"
+      ],
+      "explanation": "This open follow-up asks for sequence without supplying the event in advance.",
+      "concept": "Move from notes to a connected text"
+    },
+    {
+      "id": "c3-u06-q07",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: According to the coordinator.",
+      "options": [
+        "¿Le parece correcta esta síntesis?",
+        "Necesitaría verificarlo",
+        "Según la coordinadora"
+      ],
+      "answers": [
+        "Según la coordinadora"
+      ],
+      "explanation": "“Según la coordinadora” expresses “According to the coordinator”. “¿Le parece correcta esta síntesis?” instead means “Does this summary seem accurate to you?”. “Necesitaría verificarlo” instead means “I would need to verify it”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c3-u06-q08",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: Can you give an example?.",
+      "options": [
+        "La persona entrevistada explicó que…",
+        "¿Puede dar un ejemplo?",
+        "No tengo ese dato"
+      ],
+      "answers": [
+        "¿Puede dar un ejemplo?"
+      ],
+      "explanation": "“¿Puede dar un ejemplo?” expresses “Can you give an example?”. “La persona entrevistada explicó que…” instead means “The interviewee explained that…”. “No tengo ese dato” instead means “I do not have that information”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c3-u06-q09",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: They had already met.",
+      "options": [
+        "Ya se habían reunido",
+        "En mis notas consta que…",
+        "Prefiero no atribuir una cita exacta"
+      ],
+      "answers": [
+        "Ya se habían reunido"
+      ],
+      "explanation": "“Ya se habían reunido” expresses “They had already met”. “En mis notas consta que…” instead means “My notes state that…”. “Prefiero no atribuir una cita exacta” instead means “I prefer not to attribute an exact quotation”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c3-u06-q10",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: The association that lent the premises.",
+      "options": [
+        "Lo interpreto como…",
+        "Según la coordinadora",
+        "La asociación que prestó el local"
+      ],
+      "answers": [
+        "La asociación que prestó el local"
+      ],
+      "explanation": "“La asociación que prestó el local” expresses “The association that lent the premises”. “Lo interpreto como…” instead means “I interpret it as…”. “Según la coordinadora” instead means “According to the coordinator”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c3-u06-q11",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: The date remains to be confirmed.",
+      "options": [
+        "¿Puede dar un ejemplo?",
+        "La fecha está por confirmar",
+        "Necesitaría verificarlo"
+      ],
+      "answers": [
+        "La fecha está por confirmar"
+      ],
+      "explanation": "“La fecha está por confirmar” expresses “The date remains to be confirmed”. “¿Puede dar un ejemplo?” instead means “Can you give an example?”. “Necesitaría verificarlo” instead means “I would need to verify it”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c3-u06-q12",
+      "type": "matching",
+      "prompt": "Match each English meaning to its Spanish expression. Use each expression once.",
+      "answers": [
+        "[\"La fecha está por confirmar\",\"¿Cómo empezó el proyecto?\",\"¿Le parece correcta esta síntesis?\"]"
+      ],
+      "explanation": "“La fecha está por confirmar” means “The date remains to be confirmed”. “¿Cómo empezó el proyecto?” means “How did the project begin?”. “¿Le parece correcta esta síntesis?” means “Does this summary seem accurate to you?”. Each alternative belongs to a different meaning; check the whole phrase, including its grammatical person and register.",
+      "concept": "Meaning and register",
+      "pairs": [
+        {
+          "left": "The date remains to be confirmed",
+          "right": "La fecha está por confirmar"
+        },
+        {
+          "left": "How did the project begin?",
+          "right": "¿Cómo empezó el proyecto?"
+        },
+        {
+          "left": "Does this summary seem accurate to you?",
+          "right": "¿Le parece correcta esta síntesis?"
+        }
+      ]
+    }
+  ],
+  "homework": [
+    {
+      "id": "c3-u06-h1",
+      "skill": "Reading & writing",
+      "prompt": "Read the original text for this unit. Identify its situation, central message, and three supporting details. Then write a new version of 150–200 words for a different person or audience. Use the target patterns, change at least three facts, and explain two revisions.",
+      "model": "Nora entrevista a la coordinadora de la biblioteca. Pregunta cómo empezó el proyecto. La coordinadora explica que varios vecinos se reunían para intercambiar libros antes de abrir una sala común. Al principio tenían pocos recursos, pero una asociación les prestó un local. Nora pregunta qué cambió después. La respuesta menciona talleres y nuevos horarios, aunque no da una fecha exacta. En sus notas Nora escribe “fecha por confirmar”, no una fecha inventada. Para su informe decide centrarse en cómo cambió el acceso al espacio. Su borrador distingue tres etapas y atribuye a la coordinadora la valoración de que ahora participa más gente. Para verificar esa valoración necesitaría datos adicionales.\n\nThis is the source model, not a text to submit unchanged. A successful adaptation retains the communicative purpose while changing relevant forms and facts. Compare with the worked examples for the reasons behind form choices.",
+      "rubric": "0–3 each: fulfills the specified purpose; organized and comprehensible; target forms support meaning; revisions are explained with examples. 0 = no evidence, 1 = substantial help needed, 2 = effective with some support, 3 = independently effective for this task. Record who evaluated the work."
+    },
+    {
+      "id": "c3-u06-h2",
+      "skill": "Listening",
+      "prompt": "Complete the resource assignment, or ask a willing reader to read the original text without showing it to you. First listen for the situation and purpose; listen again for three details and one contrast. Write a 60–100-word listening log naming the source, words actually heard, one uncertainty, and how you checked it. If using local synthesized speech, label it synthetic. Text-only preparation is not completed listening.",
+      "model": "A useful log separates the speaker’s message from your interpretation: “I heard [specific phrase]; I understood [claim]; I was uncertain about [word/relationship]; checking [text or partner] changed my interpretation to [correction].” Use the unit reading as an answer reference for a read-aloud version, never as evidence of an external speaker’s words.",
+      "rubric": "0–2 each: identifies source and listening conditions; retrieves central meaning; supports three details; checks a specific uncertainty. Do not count a copied transcript as independent comprehension."
+    },
+    {
+      "id": "c3-u06-h3",
+      "skill": "Speaking & interaction",
+      "prompt": "Midterm: conduct a five-minute interview with permission, ask two unprepared follow-ups, and write a 180–220-word attributed narrative. Solo: use the original case, list unanswered questions, and label the task source-based rehearsal.",
+      "model": "Use the original reading/dialogue and the sentence-pattern cards as preparation. Make a brief outline, then put it away. Your partner should introduce a detail you did not prepare. Respond, request clarification if needed, and summarize what you agreed or still disagree about. Solo fallback: record two possible viewpoints and improvise a response after a pause; label it rehearsal.",
+      "rubric": "0–3 each: task fulfillment, comprehensibility, control of target language, responsiveness to another speaker. A partner or instructor should cite one example per score. Solo rehearsal provides no evidence for live responsiveness; mark that dimension not observed."
+    },
+    {
+      "id": "c3-u06-h4",
+      "skill": "Retrieval & reflection",
+      "prompt": "On a later day, retrieve six cards without looking. Use three in a fresh response to the practical task. Identify one recurring form error and one communication difficulty. Produce a corrected example, explain the reason, and schedule a specific follow-up exchange or listening session.",
+      "model": "Compare your response with these two models: Según la coordinadora / ¿Puede dar un ejemplo?. A useful reflection explains the function, not just the spelling. Revisit the first worked item and create a different example of its principle.",
+      "rubric": "Report recall count separately from performance. Reflection is complete when it contains an observed difficulty, an explained correction, a fresh example, and an actionable next session."
+    }
+  ],
+  "task": "Midterm: conduct a five-minute interview with permission, ask two unprepared follow-ups, and write a 180–220-word attributed narrative. Solo: use the original case, list unanswered questions, and label the task source-based rehearsal.",
+  "culture": "Consent to speak does not automatically mean consent to record or publish. Ask separately, respect a refusal, and use fictional or anonymized practice material when appropriate.",
+  "selfAssessment": [
+    "I can ask open questions and relevant follow-ups.",
+    "I can transform interview notes into a coherent account.",
+    "I can attribute information and mark missing evidence."
+  ],
+  "remediation": "Sort mistakes by form, meaning, and interaction. For form errors, explain a worked example and create a contrasting pair. For comprehension errors, replay a short segment or use a willing reader and verify your interpretation. For interaction difficulties, repeat the practical task with one new constraint. Compare evidence across days; repeated selection of a known answer alone is not mastery.",
+  "resources": [
+    "radio-archive"
+  ]
+}

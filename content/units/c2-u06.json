@@ -1,0 +1,388 @@
+{
+  "id": "c2-u06",
+  "course": 2,
+  "number": 6,
+  "title": "Regular preterite & midterm",
+  "subtitle": "Tell what happened",
+  "status": "authored",
+  "prerequisites": [
+    "c2-u05"
+  ],
+  "objectives": [
+    "Form regular preterite verbs with accurate accents.",
+    "Present a bounded past event in sequence.",
+    "Complete a cumulative information exchange without notes."
+  ],
+  "warmup": "Retrieve two sentences and one repair strategy from c2-u05. Change the subject or situation in each sentence and explain what changed. Then read today’s objectives and predict where your existing language may be insufficient.",
+  "lectures": [
+    {
+      "title": "A completed event viewpoint",
+      "body": "The preterite presents an event as a bounded whole: Ayer compré un libro. Regular ar endings are é, aste, ó, amos, asteis, aron; er/ir endings are í, iste, ió, imos, isteis, ieron. The first and third singular accents distinguish forms from present-tense words: hablo versus habló. Nosotros hablamos may be present or preterite; context supplies the time. A time phrase does not mechanically dictate a tense, but ayer and el sábado pasado help establish a completed episode. Say who did what and what followed before adding background detail, which comes with the imperfect."
+    },
+    {
+      "title": "Sequence and cumulative use",
+      "body": "Some spelling changes preserve a sound in the yo preterite: buscar → busqué, llegar → llegué, empezar → empecé. They do not mean the same spelling change appears in every person. Negative preterite sentences still put no before the verb: No compré las entradas. Add pronouns when the referent is clear: Las compré ayer. For the midterm, combine a routine, a comparison, a recipient and a completed action. A quiz checks controlled choices; the conversation and writing sample separately show whether you can integrate them. Preserve your first attempt and explain corrections rather than repeatedly guessing."
+    },
+    {
+      "title": "An event log becomes a story",
+      "body": "A receipt might list **10:00 — pago; 10:15 — llamada; 11:00 — salida**. To report the day afterward, turn the labels into actions: **Pagué a las diez. Llamé a la oficina a las diez y cuarto. Salí a las once**. Add an object pronoun only when its reference is recoverable: **Compré las entradas y las imprimí**. The pronoun does not change the preterite ending.\n\nCheck three contrasts before submitting a written account: **compro/compró**, **termino/terminó**, and **llegue/llegué**. Written accents are part of the form, not optional decoration. An unfamiliar accent can change person, tense, or mood. For **-car, -gar, -zar** verbs, the yo spelling change preserves the intended consonant before **é**; the rest of the regular preterite does not inherit that spelling automatically.\n\nFor the midterm, first produce an independent account without the examples in view. Then annotate each repair with its cause: wrong person, incorrect ending, missing accent, or unclear reference. A corrected copy is useful evidence of revision, but keep the original so you can distinguish independent production from supported editing."
+    }
+  ],
+  "reading": "Ayer Lucía terminó el trabajo a las cinco. Caminó hasta la estación y compró dos entradas. Después llamó a Andrés: «Las compré para la función de las siete. Te envío la dirección». Andrés contestó: «Perfecto. Ayer gasté demasiado, pero hoy puedo pagar mi entrada». Llegaron temprano y hablaron en la plaza. Al final, Lucía escribió una nota para recordar el título de la obra. Ordena los acontecimientos sin mirar el texto; después cuenta la historia como si fueras Lucía, cambiando las formas necesarias.",
+  "worked": [
+    {
+      "prompt": "Complete: Ayer yo ___ un libro. (comprar)",
+      "answer": "compré",
+      "reason": "The regular yo preterite ends in é; the accent distinguishes it from other forms."
+    },
+    {
+      "prompt": "Complete: Ella ___ el trabajo. (terminar, preterite)",
+      "answer": "terminó",
+      "reason": "Third-person singular ar preterite ends in ó, not present o."
+    },
+    {
+      "prompt": "Complete: Ustedes ___ la dirección. (escribir, preterite)",
+      "answer": "escribieron",
+      "reason": "Regular ir preterite takes ieron in third-person plural."
+    },
+    {
+      "prompt": "Complete: Yo ___ las entradas. (buscar, preterite)",
+      "answer": "busqué",
+      "reason": "Qu preserves the hard c sound before the é ending."
+    },
+    {
+      "prompt": "Complete: Yo ___ temprano. (llegar, preterite)",
+      "answer": "llegué",
+      "reason": "Gu preserves the hard g sound before é."
+    },
+    {
+      "prompt": "Complete: Yo ___ a las ocho. (empezar, preterite)",
+      "answer": "empecé",
+      "reason": "Final z changes to c before the yo preterite é ending."
+    }
+  ],
+  "cards": [
+    {
+      "id": "c2-u06-f01",
+      "unit": "c2-u06",
+      "kind": "production",
+      "front": "Yesterday I bought the tickets",
+      "back": "Ayer compré las entradas",
+      "example": "Ayer compré las entradas"
+    },
+    {
+      "id": "c2-u06-f02",
+      "unit": "c2-u06",
+      "kind": "recognition",
+      "front": "Terminó a las cinco",
+      "back": "She or he finished at five",
+      "example": "Terminó a las cinco"
+    },
+    {
+      "id": "c2-u06-f03",
+      "unit": "c2-u06",
+      "kind": "production",
+      "front": "They wrote the address",
+      "back": "Escribieron la dirección",
+      "example": "Escribieron la dirección"
+    },
+    {
+      "id": "c2-u06-f04",
+      "unit": "c2-u06",
+      "kind": "recognition",
+      "front": "Busqué el documento",
+      "back": "I looked for the document",
+      "example": "Busqué el documento"
+    },
+    {
+      "id": "c2-u06-f05",
+      "unit": "c2-u06",
+      "kind": "production",
+      "front": "I arrived early",
+      "back": "Llegué temprano",
+      "example": "Llegué temprano"
+    },
+    {
+      "id": "c2-u06-f06",
+      "unit": "c2-u06",
+      "kind": "recognition",
+      "front": "Empecé a las ocho",
+      "back": "I started at eight",
+      "example": "Empecé a las ocho"
+    },
+    {
+      "id": "c2-u06-f07",
+      "unit": "c2-u06",
+      "kind": "production",
+      "front": "I bought them yesterday (feminine)",
+      "back": "Las compré ayer",
+      "example": "Las compré ayer"
+    },
+    {
+      "id": "c2-u06-f08",
+      "unit": "c2-u06",
+      "kind": "recognition",
+      "front": "No gasté mucho",
+      "back": "I did not spend much",
+      "example": "No gasté mucho"
+    },
+    {
+      "id": "c2-u06-f09",
+      "unit": "c2-u06",
+      "kind": "production",
+      "front": "Last Saturday",
+      "back": "El sábado pasado",
+      "example": "El sábado pasado compramos las entradas."
+    },
+    {
+      "id": "c2-u06-f10",
+      "unit": "c2-u06",
+      "kind": "recognition",
+      "front": "Después llamé a Andrés",
+      "back": "Afterward I called Andrés",
+      "example": "Después llamé a Andrés"
+    },
+    {
+      "id": "c2-u06-f11",
+      "unit": "c2-u06",
+      "kind": "production",
+      "front": "We talked in the square",
+      "back": "Hablamos en la plaza",
+      "example": "Hablamos en la plaza"
+    },
+    {
+      "id": "c2-u06-f12",
+      "unit": "c2-u06",
+      "kind": "recognition",
+      "front": "¿Cuándo terminaste?",
+      "back": "When did you finish?",
+      "example": "¿Cuándo terminaste?"
+    },
+    {
+      "id": "c2-u06-f13",
+      "unit": "c2-u06",
+      "kind": "production",
+      "front": "First we walked",
+      "back": "Primero caminamos",
+      "example": "Primero caminamos"
+    },
+    {
+      "id": "c2-u06-f14",
+      "unit": "c2-u06",
+      "kind": "recognition",
+      "front": "Al final escribí una nota",
+      "back": "At the end I wrote a note",
+      "example": "Al final escribí una nota"
+    },
+    {
+      "id": "c2-u06-f15",
+      "unit": "c2-u06",
+      "kind": "production",
+      "front": "She or he explained the problem to me",
+      "back": "Me explicó el problema",
+      "example": "Me explicó el problema"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c2-u06-q01",
+      "type": "cloze",
+      "prompt": "Complete: Ayer yo ___ un libro. (comprar)",
+      "answers": [
+        "compré"
+      ],
+      "explanation": "The regular yo preterite ends in é; the accent distinguishes it from other forms.",
+      "concept": "A completed event viewpoint"
+    },
+    {
+      "id": "c2-u06-q02",
+      "type": "cloze",
+      "prompt": "Complete: Ella ___ el trabajo. (terminar, preterite)",
+      "answers": [
+        "terminó"
+      ],
+      "explanation": "Third-person singular ar preterite ends in ó, not present o.",
+      "concept": "A completed event viewpoint"
+    },
+    {
+      "id": "c2-u06-q03",
+      "type": "cloze",
+      "prompt": "Complete: Ustedes ___ la dirección. (escribir, preterite)",
+      "answers": [
+        "escribieron"
+      ],
+      "explanation": "Regular ir preterite takes ieron in third-person plural.",
+      "concept": "A completed event viewpoint"
+    },
+    {
+      "id": "c2-u06-q04",
+      "type": "cloze",
+      "prompt": "Complete: Yo ___ las entradas. (buscar, preterite)",
+      "answers": [
+        "busqué"
+      ],
+      "explanation": "Qu preserves the hard c sound before the é ending.",
+      "concept": "Sequence and cumulative use"
+    },
+    {
+      "id": "c2-u06-q05",
+      "type": "cloze",
+      "prompt": "Complete: Yo ___ temprano. (llegar, preterite)",
+      "answers": [
+        "llegué"
+      ],
+      "explanation": "Gu preserves the hard g sound before é.",
+      "concept": "Sequence and cumulative use"
+    },
+    {
+      "id": "c2-u06-q06",
+      "type": "cloze",
+      "prompt": "Complete: Yo ___ a las ocho. (empezar, preterite)",
+      "answers": [
+        "empecé"
+      ],
+      "explanation": "Final z changes to c before the yo preterite é ending.",
+      "concept": "Sequence and cumulative use"
+    },
+    {
+      "id": "c2-u06-q07",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: Yesterday I bought the tickets.",
+      "options": [
+        "El sábado pasado",
+        "Primero caminamos",
+        "Ayer compré las entradas"
+      ],
+      "answers": [
+        "Ayer compré las entradas"
+      ],
+      "explanation": "“Ayer compré las entradas” expresses “Yesterday I bought the tickets”. “El sábado pasado” instead means “Last Saturday”. “Primero caminamos” instead means “First we walked”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c2-u06-q08",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: She or he finished at five.",
+      "options": [
+        "Al final escribí una nota",
+        "Terminó a las cinco",
+        "Después llamé a Andrés"
+      ],
+      "answers": [
+        "Terminó a las cinco"
+      ],
+      "explanation": "“Terminó a las cinco” expresses “She or he finished at five”. “Al final escribí una nota” instead means “At the end I wrote a note”. “Después llamé a Andrés” instead means “Afterward I called Andrés”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c2-u06-q09",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: They wrote the address.",
+      "options": [
+        "Escribieron la dirección",
+        "Hablamos en la plaza",
+        "Me explicó el problema"
+      ],
+      "answers": [
+        "Escribieron la dirección"
+      ],
+      "explanation": "“Escribieron la dirección” expresses “They wrote the address”. “Hablamos en la plaza” instead means “We talked in the square”. “Me explicó el problema” instead means “She or he explained the problem to me”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c2-u06-q10",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: I looked for the document.",
+      "options": [
+        "¿Cuándo terminaste?",
+        "Ayer compré las entradas",
+        "Busqué el documento"
+      ],
+      "answers": [
+        "Busqué el documento"
+      ],
+      "explanation": "“Busqué el documento” expresses “I looked for the document”. “¿Cuándo terminaste?” instead means “When did you finish?”. “Ayer compré las entradas” instead means “Yesterday I bought the tickets”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c2-u06-q11",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: I arrived early.",
+      "options": [
+        "Terminó a las cinco",
+        "Llegué temprano",
+        "Primero caminamos"
+      ],
+      "answers": [
+        "Llegué temprano"
+      ],
+      "explanation": "“Llegué temprano” expresses “I arrived early”. “Terminó a las cinco” instead means “She or he finished at five”. “Primero caminamos” instead means “First we walked”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c2-u06-q12",
+      "type": "matching",
+      "prompt": "Match each English meaning to its Spanish expression. Use each expression once.",
+      "answers": [
+        "[\"Llegué temprano\",\"Las compré ayer\",\"El sábado pasado\"]"
+      ],
+      "explanation": "“Llegué temprano” means “I arrived early”. “Las compré ayer” means “I bought them yesterday (feminine)”. “El sábado pasado” means “Last Saturday”. Each alternative belongs to a different meaning; check the whole phrase, including its grammatical person and register.",
+      "concept": "Meaning and register",
+      "pairs": [
+        {
+          "left": "I arrived early",
+          "right": "Llegué temprano"
+        },
+        {
+          "left": "I bought them yesterday (feminine)",
+          "right": "Las compré ayer"
+        },
+        {
+          "left": "Last Saturday",
+          "right": "El sábado pasado"
+        }
+      ]
+    }
+  ],
+  "homework": [
+    {
+      "id": "c2-u06-h1",
+      "skill": "Reading & writing",
+      "prompt": "Read the original text for this unit. Identify its situation, central message, and three supporting details. Then write a new version of 100–140 words for a different person or audience. Use the target patterns, change at least three facts, and explain two revisions.",
+      "model": "Ayer Lucía terminó el trabajo a las cinco. Caminó hasta la estación y compró dos entradas. Después llamó a Andrés: «Las compré para la función de las siete. Te envío la dirección». Andrés contestó: «Perfecto. Ayer gasté demasiado, pero hoy puedo pagar mi entrada». Llegaron temprano y hablaron en la plaza. Al final, Lucía escribió una nota para recordar el título de la obra. Ordena los acontecimientos sin mirar el texto; después cuenta la historia como si fueras Lucía, cambiando las formas necesarias.\n\nThis is the source model, not a text to submit unchanged. A successful adaptation retains the communicative purpose while changing relevant forms and facts. Compare with the worked examples for the reasons behind form choices.",
+      "rubric": "0–3 each: fulfills the specified purpose; organized and comprehensible; target forms support meaning; revisions are explained with examples. 0 = no evidence, 1 = substantial help needed, 2 = effective with some support, 3 = independently effective for this task. Record who evaluated the work."
+    },
+    {
+      "id": "c2-u06-h2",
+      "skill": "Listening",
+      "prompt": "Complete the resource assignment, or ask a willing reader to read the original text without showing it to you. First listen for the situation and purpose; listen again for three details and one contrast. Write a 60–100-word listening log naming the source, words actually heard, one uncertainty, and how you checked it. If using local synthesized speech, label it synthetic. Text-only preparation is not completed listening.",
+      "model": "A useful log separates the speaker’s message from your interpretation: “I heard [specific phrase]; I understood [claim]; I was uncertain about [word/relationship]; checking [text or partner] changed my interpretation to [correction].” Use the unit reading as an answer reference for a read-aloud version, never as evidence of an external speaker’s words.",
+      "rubric": "0–2 each: identifies source and listening conditions; retrieves central meaning; supports three details; checks a specific uncertainty. Do not count a copied transcript as independent comprehension."
+    },
+    {
+      "id": "c2-u06-h3",
+      "skill": "Speaking & interaction",
+      "prompt": "Midterm: negotiate an appointment, compare two plans, explain who receives the information, and recount yesterday’s preparation. Write 120–160 words and answer three follow-up questions.",
+      "model": "Use the original reading/dialogue and the sentence-pattern cards as preparation. Make a brief outline, then put it away. Your partner should introduce a detail you did not prepare. Respond, request clarification if needed, and summarize what you agreed or still disagree about. Solo fallback: record two possible viewpoints and improvise a response after a pause; label it rehearsal.",
+      "rubric": "0–3 each: task fulfillment, comprehensibility, control of target language, responsiveness to another speaker. A partner or instructor should cite one example per score. Solo rehearsal provides no evidence for live responsiveness; mark that dimension not observed."
+    },
+    {
+      "id": "c2-u06-h4",
+      "skill": "Retrieval & reflection",
+      "prompt": "On a later day, retrieve six cards without looking. Use three in a fresh response to the practical task. Identify one recurring form error and one communication difficulty. Produce a corrected example, explain the reason, and schedule a specific follow-up exchange or listening session.",
+      "model": "Compare your response with these two models: Ayer compré las entradas / Terminó a las cinco. A useful reflection explains the function, not just the spelling. Revisit the first worked item and create a different example of its principle.",
+      "rubric": "Report recall count separately from performance. Reflection is complete when it contains an observed difficulty, an explained correction, a fresh example, and an actionable next session."
+    }
+  ],
+  "task": "Midterm: negotiate an appointment, compare two plans, explain who receives the information, and recount yesterday’s preparation. Write 120–160 words and answer three follow-up questions.",
+  "culture": "Narratives may use the historical present for vividness, but practice establishing a clear past frame here. A regional storytelling habit is not a reason to ignore the listener’s need for a coherent timeline.",
+  "selfAssessment": [
+    "I can form regular preterite verbs with accurate accents.",
+    "I can present a bounded past event in sequence.",
+    "I can complete a cumulative information exchange without notes."
+  ],
+  "remediation": "Sort mistakes by form, meaning, and interaction. For form errors, explain a worked example and create a contrasting pair. For comprehension errors, replay a short segment or use a willing reader and verify your interpretation. For interaction difficulties, repeat the practical task with one new constraint. Compare evidence across days; repeated selection of a known answer alone is not mastery.",
+  "resources": [
+    "sd-preterite"
+  ]
+}

@@ -1,17 +1,21 @@
 import { z } from "zod";
 export const CardSchema = z.object({
-  id: z.string(),
+  id: z.string().min(1),
   front: z.string().min(1),
   back: z.string().min(1),
   example: z.string(),
   kind: z.enum(["recognition", "production"]),
-  unit: z.string(),
+  unit: z.string().min(1),
 });
 export const QuestionSchema = z.object({
-  id: z.string(),
+  id: z.string().min(1),
   type: z.enum(["choice", "cloze", "typed", "matching"]),
   prompt: z.string().min(8),
   options: z.array(z.string()).optional(),
+  pairs: z
+    .array(z.object({ left: z.string().min(1), right: z.string().min(1) }))
+    .min(3)
+    .optional(),
   answers: z.array(z.string()).min(1),
   explanation: z.string().min(25),
   concept: z.string(),
@@ -72,9 +76,10 @@ export const ReviewSchema = z.object({
 });
 export type Review = z.infer<typeof ReviewSchema>;
 export type Rating = "again" | "hard" | "good" | "easy";
-export const StateSchema = z.object({
+export const StateShape = z.object({
   version: z.literal(1),
   completed: z.array(z.string()),
+  selfChecks: z.record(z.string(), z.boolean()).optional(),
   reviews: z.record(z.string(), ReviewSchema),
   history: z.array(
     z.object({
@@ -89,8 +94,8 @@ export const StateSchema = z.object({
       mode: z.enum(["practice", "assessment"]),
       at: z.number(),
       answers: z.record(z.string(), z.string()),
-      score: z.number(),
-      total: z.number(),
+      score: z.number().int().nonnegative(),
+      total: z.number().int().positive(),
     }),
   ),
   homework: z.record(
@@ -121,6 +126,17 @@ export const StateSchema = z.object({
   customCards: z.array(CardSchema),
   dailyLimit: z.number().int().min(1).max(200),
   textScale: z.number().min(1).max(1.5),
+});
+export const StateSchema = StateShape.superRefine((state, ctx) => {
+  if (state.attempts.some((a) => a.score > a.total))
+    ctx.addIssue({ code: "custom", message: "Score exceeds question count" });
+  if (
+    new Set(state.customCards.map((c) => c.id)).size !==
+    state.customCards.length
+  )
+    ctx.addIssue({ code: "custom", message: "Duplicate custom card ID" });
+  if (JSON.stringify(state).length > 100_000_000)
+    ctx.addIssue({ code: "custom", message: "Backup exceeds 100 MB" });
 });
 export type LearnerState = z.infer<typeof StateSchema>;
 export const emptyState = (): LearnerState => ({

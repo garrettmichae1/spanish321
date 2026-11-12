@@ -1,0 +1,387 @@
+{
+  "id": "c5-u08",
+  "course": 5,
+  "number": 8,
+  "title": "Nuance, idioms & pragmatics",
+  "subtitle": "Choose the effect of your words",
+  "status": "authored",
+  "prerequisites": [
+    "c5-u07"
+  ],
+  "objectives": [
+    "Distinguish literal meaning from pragmatic effect.",
+    "Adjust idiomatic language and register to the audience.",
+    "Interpret indirectness without assuming a single cultural rule."
+  ],
+  "warmup": "Retrieve two sentences and one repair strategy from c5-u07. Change the subject or situation in each sentence and explain what changed. Then read today’s objectives and predict where your existing language may be insufficient.",
+  "lectures": [
+    {
+      "title": "Lo dicho y lo que se hace al decirlo",
+      "body": "Una frase puede informar, insinuar, rechazar o pedir algo según el contexto. “Está un poco difícil” puede describir una tarea o suavizar una negativa; no debes decidir cuál sin atender a la relación y a lo que sigue. Atenuadores como quizá, un poco o me parece modifican el compromiso y el tono, pero acumularlos puede volver opaco un mensaje. Intensificadores también cambian el efecto. Analiza quién habla, a quién, para qué y en qué medio. La interpretación pragmática es una hipótesis que conviene comprobar cuando afecta a una decisión."
+    },
+    {
+      "title": "Idiomas, colocaciones y límites",
+      "body": "Aprende expresiones con ejemplos completos y una etiqueta de contexto. Echar una mano significa ayudar en muchos usos; tomar el pelo suele referirse a burlarse o engañar en tono de broma. No son sustitutos adecuados en cualquier documento formal. Las colocaciones frecuentes, como plantear una duda o llegar a un acuerdo, suelen ser más útiles que coleccionar modismos llamativos. Si una expresión regional te resulta incierta, pide una paráfrasis y pregunta si sonaría natural en tu situación. No traduzcas humor, ironía o cortesía palabra por palabra sin examinar el efecto que quieres conservar."
+    }
+  ],
+  "reading": "En una reunión, alguien propone terminar un informe esa misma tarde. Una colega responde: «Está un poco difícil». El grupo sigue hablando como si hubiera aceptado, pero ella quería señalar que no podía comprometerse. Otra persona interviene: «Para confirmar: ¿lo ves posible hoy o necesitamos otra fecha?». La colega agradece la aclaración y propone el viernes. Más tarde, un compañero dice en tono de broma «nos estás tomando el pelo», aunque la nueva integrante del equipo no reconoce la expresión y se siente acusada. El compañero explica el modismo y se disculpa por el efecto. El caso muestra dos problemas distintos: una condición práctica que quedó implícita y una broma cuya interpretación no era compartida. Redacta respuestas que aclaren ambos problemas sin convertirlos en generalizaciones sobre una nacionalidad.",
+  "worked": [
+    {
+      "prompt": "Complete the collocation meaning “raise a question”: ___ una duda.",
+      "answer": "plantear",
+      "reason": "Plantear una duda is a useful collocation; literal translations of raise may not fit."
+    },
+    {
+      "prompt": "Complete the collocation meaning “reach an agreement”: ___ a un acuerdo.",
+      "answer": "llegar",
+      "reason": "Llegar a un acuerdo expresses the outcome of negotiation."
+    },
+    {
+      "prompt": "Give the neutral verb meaning of echar una mano.",
+      "answer": "ayudar",
+      "reason": "The idiom commonly means helping; it is not a literal action with a hand."
+    },
+    {
+      "prompt": "Does “Está un poco difícil” always mean an accepted commitment? Write sí or no.",
+      "answer": "no",
+      "reason": "Depending on context, it can signal reluctance or a softened refusal and needs clarification."
+    },
+    {
+      "prompt": "Complete: La interpretación pragmática debe ___ si afecta a una decisión. (be checked)",
+      "answer": "comprobarse",
+      "reason": "A consequential interpretation should be verified rather than assumed."
+    },
+    {
+      "prompt": "Complete: No todas las bromas tienen el mismo ___. (effect)",
+      "answer": "efecto",
+      "reason": "Intended humor and actual effect can differ across listeners and contexts."
+    }
+  ],
+  "cards": [
+    {
+      "id": "c5-u08-f01",
+      "unit": "c5-u08",
+      "kind": "production",
+      "front": "Raise a question",
+      "back": "Plantear una duda",
+      "example": "Plantear una duda"
+    },
+    {
+      "id": "c5-u08-f02",
+      "unit": "c5-u08",
+      "kind": "recognition",
+      "front": "Llegar a un acuerdo",
+      "back": "Reach an agreement",
+      "example": "Llegar a un acuerdo"
+    },
+    {
+      "id": "c5-u08-f03",
+      "unit": "c5-u08",
+      "kind": "production",
+      "front": "Lend a hand or help",
+      "back": "Echar una mano",
+      "example": "Echar una mano"
+    },
+    {
+      "id": "c5-u08-f04",
+      "unit": "c5-u08",
+      "kind": "recognition",
+      "front": "Está un poco difícil",
+      "back": "It is somewhat difficult, with context-dependent pragmatic force",
+      "example": "Está un poco difícil"
+    },
+    {
+      "id": "c5-u08-f05",
+      "unit": "c5-u08",
+      "kind": "production",
+      "front": "It is useful to check the interpretation",
+      "back": "Conviene comprobar la interpretación",
+      "example": "Conviene comprobar la interpretación"
+    },
+    {
+      "id": "c5-u08-f06",
+      "unit": "c5-u08",
+      "kind": "recognition",
+      "front": "El efecto no fue el previsto",
+      "back": "The effect was not the intended one",
+      "example": "El efecto no fue el previsto"
+    },
+    {
+      "id": "c5-u08-f07",
+      "unit": "c5-u08",
+      "kind": "production",
+      "front": "Do you see it as possible today?",
+      "back": "¿Lo ves posible hoy?",
+      "example": "¿Lo ves posible hoy?"
+    },
+    {
+      "id": "c5-u08-f08",
+      "unit": "c5-u08",
+      "kind": "recognition",
+      "front": "¿Necesitamos otra fecha?",
+      "back": "Do we need another date?",
+      "example": "¿Necesitamos otra fecha?"
+    },
+    {
+      "id": "c5-u08-f09",
+      "unit": "c5-u08",
+      "kind": "production",
+      "front": "I cannot commit yet",
+      "back": "No puedo comprometerme todavía",
+      "example": "No puedo comprometerme todavía"
+    },
+    {
+      "id": "c5-u08-f10",
+      "unit": "c5-u08",
+      "kind": "recognition",
+      "front": "La expresión era una broma",
+      "back": "The expression was a joke",
+      "example": "La expresión era una broma"
+    },
+    {
+      "id": "c5-u08-f11",
+      "unit": "c5-u08",
+      "kind": "production",
+      "front": "We did not share that reference",
+      "back": "No compartíamos esa referencia",
+      "example": "No compartíamos esa referencia"
+    },
+    {
+      "id": "c5-u08-f12",
+      "unit": "c5-u08",
+      "kind": "recognition",
+      "front": "Prefiero decirlo de forma directa",
+      "back": "I prefer to say it directly",
+      "example": "Prefiero decirlo de forma directa"
+    },
+    {
+      "id": "c5-u08-f13",
+      "unit": "c5-u08",
+      "kind": "production",
+      "front": "It can sound accusatory",
+      "back": "Puede sonar acusatorio",
+      "example": "Puede sonar acusatorio"
+    },
+    {
+      "id": "c5-u08-f14",
+      "unit": "c5-u08",
+      "kind": "recognition",
+      "front": "Lamento el efecto de mis palabras",
+      "back": "I regret the effect of my words",
+      "example": "Lamento el efecto de mis palabras"
+    },
+    {
+      "id": "c5-u08-f15",
+      "unit": "c5-u08",
+      "kind": "production",
+      "front": "Would it be natural in this context?",
+      "back": "¿Sería natural en este contexto?",
+      "example": "¿Sería natural en este contexto?"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c5-u08-q01",
+      "type": "cloze",
+      "prompt": "Complete the collocation meaning “raise a question”, using plantear: ___ una duda.",
+      "answers": [
+        "plantear"
+      ],
+      "explanation": "Plantear una duda is a useful collocation; literal translations of raise may not fit.",
+      "concept": "Lo dicho y lo que se hace al decirlo"
+    },
+    {
+      "id": "c5-u08-q02",
+      "type": "cloze",
+      "prompt": "Complete the collocation meaning “reach an agreement”: ___ a un acuerdo.",
+      "answers": [
+        "llegar"
+      ],
+      "explanation": "Llegar a un acuerdo expresses the outcome of negotiation.",
+      "concept": "Lo dicho y lo que se hace al decirlo"
+    },
+    {
+      "id": "c5-u08-q03",
+      "type": "typed",
+      "prompt": "Give the neutral everyday verb meaning of echar una mano, beginning with a and ending in -ar.",
+      "answers": [
+        "ayudar"
+      ],
+      "explanation": "The idiom commonly means helping; it is not a literal action with a hand.",
+      "concept": "Lo dicho y lo que se hace al decirlo"
+    },
+    {
+      "id": "c5-u08-q04",
+      "type": "typed",
+      "prompt": "Does “Está un poco difícil” always mean an accepted commitment? Write sí or no.",
+      "answers": [
+        "no"
+      ],
+      "explanation": "Depending on context, it can signal reluctance or a softened refusal and needs clarification.",
+      "concept": "Idiomas, colocaciones y límites"
+    },
+    {
+      "id": "c5-u08-q05",
+      "type": "cloze",
+      "prompt": "Complete: La interpretación pragmática debe ___ si afecta a una decisión. (be checked)",
+      "answers": [
+        "comprobarse",
+        "verificarse",
+        "confirmarse"
+      ],
+      "explanation": "A consequential interpretation should be verified rather than assumed.",
+      "concept": "Idiomas, colocaciones y límites"
+    },
+    {
+      "id": "c5-u08-q06",
+      "type": "cloze",
+      "prompt": "Complete: No todas las bromas tienen el mismo ___. (effect)",
+      "answers": [
+        "efecto",
+        "impacto"
+      ],
+      "explanation": "Intended humor and actual effect can differ across listeners and contexts.",
+      "concept": "Idiomas, colocaciones y límites"
+    },
+    {
+      "id": "c5-u08-q07",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: Raise a question.",
+      "options": [
+        "No puedo comprometerme todavía",
+        "Puede sonar acusatorio",
+        "Plantear una duda"
+      ],
+      "answers": [
+        "Plantear una duda"
+      ],
+      "explanation": "“Plantear una duda” expresses “Raise a question”. “No puedo comprometerme todavía” instead means “I cannot commit yet”. “Puede sonar acusatorio” instead means “It can sound accusatory”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c5-u08-q08",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: Reach an agreement.",
+      "options": [
+        "Lamento el efecto de mis palabras",
+        "Llegar a un acuerdo",
+        "La expresión era una broma"
+      ],
+      "answers": [
+        "Llegar a un acuerdo"
+      ],
+      "explanation": "“Llegar a un acuerdo” expresses “Reach an agreement”. “Lamento el efecto de mis palabras” instead means “I regret the effect of my words”. “La expresión era una broma” instead means “The expression was a joke”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c5-u08-q09",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: Lend a hand or help.",
+      "options": [
+        "Echar una mano",
+        "No compartíamos esa referencia",
+        "¿Sería natural en este contexto?"
+      ],
+      "answers": [
+        "Echar una mano"
+      ],
+      "explanation": "“Echar una mano” expresses “Lend a hand or help”. “No compartíamos esa referencia” instead means “We did not share that reference”. “¿Sería natural en este contexto?” instead means “Would it be natural in this context?”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c5-u08-q10",
+      "type": "matching",
+      "prompt": "Choose the expression that communicates this meaning: It is somewhat difficult, with context-dependent pragmatic force.",
+      "options": [
+        "Prefiero decirlo de forma directa",
+        "Plantear una duda",
+        "Está un poco difícil"
+      ],
+      "answers": [
+        "Está un poco difícil"
+      ],
+      "explanation": "“Está un poco difícil” expresses “It is somewhat difficult, with context-dependent pragmatic force”. “Prefiero decirlo de forma directa” instead means “I prefer to say it directly”. “Plantear una duda” instead means “Raise a question”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c5-u08-q11",
+      "type": "choice",
+      "prompt": "Choose the expression that communicates this meaning: It is useful to check the interpretation.",
+      "options": [
+        "Llegar a un acuerdo",
+        "Conviene comprobar la interpretación",
+        "Puede sonar acusatorio"
+      ],
+      "answers": [
+        "Conviene comprobar la interpretación"
+      ],
+      "explanation": "“Conviene comprobar la interpretación” expresses “It is useful to check the interpretation”. “Llegar a un acuerdo” instead means “Reach an agreement”. “Puede sonar acusatorio” instead means “It can sound accusatory”.",
+      "concept": "Meaning and register"
+    },
+    {
+      "id": "c5-u08-q12",
+      "type": "matching",
+      "prompt": "Match each English meaning to its Spanish expression. Use each expression once.",
+      "answers": [
+        "[\"Conviene comprobar la interpretación\",\"¿Lo ves posible hoy?\",\"No puedo comprometerme todavía\"]"
+      ],
+      "explanation": "“Conviene comprobar la interpretación” means “It is useful to check the interpretation”. “¿Lo ves posible hoy?” means “Do you see it as possible today?”. “No puedo comprometerme todavía” means “I cannot commit yet”. Each alternative belongs to a different meaning; check the whole phrase, including its grammatical person and register.",
+      "concept": "Meaning and register",
+      "pairs": [
+        {
+          "left": "It is useful to check the interpretation",
+          "right": "Conviene comprobar la interpretación"
+        },
+        {
+          "left": "Do you see it as possible today?",
+          "right": "¿Lo ves posible hoy?"
+        },
+        {
+          "left": "I cannot commit yet",
+          "right": "No puedo comprometerme todavía"
+        }
+      ]
+    }
+  ],
+  "homework": [
+    {
+      "id": "c5-u08-h1",
+      "skill": "Reading & writing",
+      "prompt": "Read the original text for this unit. Identify its situation, central message, and three supporting details. Then write a new version of 300–400 words for a different person or audience. Use the target patterns, change at least three facts, and explain two revisions.",
+      "model": "En una reunión, alguien propone terminar un informe esa misma tarde. Una colega responde: «Está un poco difícil». El grupo sigue hablando como si hubiera aceptado, pero ella quería señalar que no podía comprometerse. Otra persona interviene: «Para confirmar: ¿lo ves posible hoy o necesitamos otra fecha?». La colega agradece la aclaración y propone el viernes. Más tarde, un compañero dice en tono de broma «nos estás tomando el pelo», aunque la nueva integrante del equipo no reconoce la expresión y se siente acusada. El compañero explica el modismo y se disculpa por el efecto. El caso muestra dos problemas distintos: una condición práctica que quedó implícita y una broma cuya interpretación no era compartida. Redacta respuestas que aclaren ambos problemas sin convertirlos en generalizaciones sobre una nacionalidad.\n\nThis is the source model, not a text to submit unchanged. A successful adaptation retains the communicative purpose while changing relevant forms and facts. Compare with the worked examples for the reasons behind form choices.",
+      "rubric": "0–3 each: fulfills the specified purpose; organized and comprehensible; target forms support meaning; revisions are explained with examples. 0 = no evidence, 1 = substantial help needed, 2 = effective with some support, 3 = independently effective for this task. Record who evaluated the work."
+    },
+    {
+      "id": "c5-u08-h2",
+      "skill": "Listening",
+      "prompt": "Complete the resource assignment, or ask a willing reader to read the original text without showing it to you. First listen for the situation and purpose; listen again for three details and one contrast. Write a 60–100-word listening log naming the source, words actually heard, one uncertainty, and how you checked it. If using local synthesized speech, label it synthetic. Text-only preparation is not completed listening.",
+      "model": "A useful log separates the speaker’s message from your interpretation: “I heard [specific phrase]; I understood [claim]; I was uncertain about [word/relationship]; checking [text or partner] changed my interpretation to [correction].” Use the unit reading as an answer reference for a read-aloud version, never as evidence of an external speaker’s words.",
+      "rubric": "0–2 each: identifies source and listening conditions; retrieves central meaning; supports three details; checks a specific uncertainty. Do not count a copied transcript as independent comprehension."
+    },
+    {
+      "id": "c5-u08-h3",
+      "skill": "Speaking & interaction",
+      "prompt": "Analyze two ambiguous exchanges with a partner. Offer at least two interpretations, ask a clarification question, then adapt a colloquial phrase for a professional message.",
+      "model": "Use the original reading/dialogue and the sentence-pattern cards as preparation. Make a brief outline, then put it away. Your partner should introduce a detail you did not prepare. Respond, request clarification if needed, and summarize what you agreed or still disagree about. Solo fallback: record two possible viewpoints and improvise a response after a pause; label it rehearsal.",
+      "rubric": "0–3 each: task fulfillment, comprehensibility, control of target language, responsiveness to another speaker. A partner or instructor should cite one example per score. Solo rehearsal provides no evidence for live responsiveness; mark that dimension not observed."
+    },
+    {
+      "id": "c5-u08-h4",
+      "skill": "Retrieval & reflection",
+      "prompt": "On a later day, retrieve six cards without looking. Use three in a fresh response to the practical task. Identify one recurring form error and one communication difficulty. Produce a corrected example, explain the reason, and schedule a specific follow-up exchange or listening session.",
+      "model": "Compare your response with these two models: Plantear una duda / Llegar a un acuerdo. A useful reflection explains the function, not just the spelling. Revisit the first worked item and create a different example of its principle.",
+      "rubric": "Report recall count separately from performance. Reflection is complete when it contains an observed difficulty, an explained correction, a fresh example, and an actionable next session."
+    }
+  ],
+  "task": "Analyze two ambiguous exchanges with a partner. Offer at least two interpretations, ask a clarification question, then adapt a colloquial phrase for a professional message.",
+  "culture": "Indirectness is not a fixed property of all speakers from a country. Relationships, institutions, personalities and the immediate situation shape pragmatic choices. Verify consequential interpretations with the person involved.",
+  "selfAssessment": [
+    "I can distinguish literal meaning from pragmatic effect.",
+    "I can adjust idiomatic language and register to the audience.",
+    "I can interpret indirectness without assuming a single cultural rule."
+  ],
+  "remediation": "Sort mistakes by form, meaning, and interaction. For form errors, explain a worked example and create a contrasting pair. For comprehension errors, replay a short segment or use a willing reader and verify your interpretation. For interaction difficulties, repeat the practical task with one new constraint. Compare evidence across days; repeated selection of a known answer alone is not mastery.",
+  "resources": [
+    "rae-dpd"
+  ]
+}
